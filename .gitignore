@@ -1,0 +1,13 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+.DS_Store
+# Python
+__pycache__/
+*.pyc
+# The page cache is large and regenerates itself; the geocode cache IS committed (it saves API calls).
+feed/cache/pages.json
+feed/cache/*.tmp
