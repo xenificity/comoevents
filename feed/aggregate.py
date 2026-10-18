@@ -650,11 +650,21 @@ def main():
     now = dt.datetime.now(TZ)
     lo = (now - dt.timedelta(hours=6))
     hi = now + dt.timedelta(days=args.days)
+    # Previous feed: if a source fails or returns nothing (site down, bot block on the
+    # CI runner, parser broken), keep its last known events instead of dropping them.
+    previous = load_json(args.out, {}).get("events", [])
+    prev_by_source = {}
+    for e in previous:
+        prev_by_source.setdefault(e.get("source"), []).append(e)
+
     all_events = []
     stats = {}
     for fn in SOURCES:
         name = fn.__name__[4:]
         if args.only and name not in args.only.split(","):
+            evs = prev_by_source.get(name, [])
+            log(f"[{name}] skipped (--only); carrying {len(evs)} events forward")
+            all_events += evs
             continue
         t0 = time.time()
         try:
@@ -662,7 +672,12 @@ def main():
         except Exception as e:
             log(f"[{name}] FAILED: {e}")
             evs = []
-        stats[name] = len(evs)
+        if not evs and prev_by_source.get(name):
+            evs = prev_by_source[name]
+            log(f"[{name}] returned nothing; carrying {len(evs)} previous events forward")
+            stats[name] = {"carriedForward": len(evs)}
+        else:
+            stats[name] = len(evs)
         log(f"[{name}] {len(evs)} events in {time.time()-t0:.1f}s")
         all_events += evs
 

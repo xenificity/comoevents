@@ -15,7 +15,7 @@ GitHub, fetches the live copy that a scheduled GitHub Action rebuilds.
 |---|---|---|
 | Mizzou calendar (calendar.missouri.edu) | LiveWhale JSON + RSS | RSS carries coordinates for ~40% of events; the rest match a venue table |
 | Visit Columbia (visitcolumbiamo.com) | WordPress REST + event page | Address is scraped from the page's Google Maps link |
-| Eventbrite | listing page server data | Has coordinates and times |
+| Eventbrite | listing page server data | Has coordinates and times. Blocked from GitHub runners, so it refreshes only on local runs; the Action carries the last copy forward |
 | AllEvents.in | listing JSON-LD | Mirrors public Facebook events; has coordinates |
 | Base Local (baselocal.com) | listing JSON-LD | Small local things: trivia, game nights, library |
 | The Blue Note / Rose Music Hall | calendar cards + event pages | Show times and ticket links |

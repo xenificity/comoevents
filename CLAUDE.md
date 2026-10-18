@@ -20,3 +20,6 @@ Read README.md first. Short version:
 - Team ID TU583LSD8W, bundle `com.xenificity.comoevents`. Simulator builds need no signing.
 - Nominatim usage policy: max 1 request/second, identify the app in the User-Agent (already done).
   Do not raise the rate.
+- Carry-forward: when a source raises or returns zero events, `aggregate.py` keeps that source's
+  events from the previous `events.json`. Eventbrite returns nothing from GitHub's runners (bot
+  block), so its events only refresh when someone runs `scripts/update-feed.sh` locally and pushes.
