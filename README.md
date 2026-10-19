@@ -110,5 +110,7 @@ Before the App Store:
 
 ## Status
 
-Prototype. Works in the simulator. Not yet: app icon, App Store listing, push notifications,
-user-submitted events, a real "busy right now" signal beyond event counts.
+Submitted to App Review on Oct 18, 2026 (App Store Connect app ID 6824363992, version 1.0.0 build 1,
+iPhone only). TestFlight internal group "Developer" carries the same build. CloudKit schema is deployed
+to Production. Not yet: Apple token revocation on account deletion (needs a tiny server), iPad layout,
+push notifications, user-submitted events, a real "busy right now" signal beyond event counts.
