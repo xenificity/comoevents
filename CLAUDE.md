@@ -40,3 +40,6 @@ Read README.md first. Short version:
   sites) or as a new `src_*`. Venue coordinates for them belong in `feed/venues.json`.
 - voxmagazine.com returns 429 quickly: keep the per-host gap in `get()` and never fetch its event pages
   in a loop.
+- Install links: never hardcode TestFlight or App Store URLs. Use `AppLinks.install(campaign:)`, which
+  points at `docs/get/?c=<campaign>`; that page picks App Store vs TestFlight and passes `ct`. After
+  launch, fill `PT` in `docs/get/index.html`. Channels and QR codes: `Marketing/campaign-links.md`.

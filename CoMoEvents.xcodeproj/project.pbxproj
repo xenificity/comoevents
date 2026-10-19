@@ -15,6 +15,7 @@
 		27E9FA7DB20A074B3AFC2268 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37AC286171D31A11C304AE /* AccountManager.swift */; };
 		2C61478A94147D32FEF15D38 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466EB52C7EDEB647B64D7BDA /* LocationManager.swift */; };
 		30EC3F9647DD8FE2E67F85BD /* FriendsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6691C2FA41EA70797F58A89D /* FriendsStore.swift */; };
+		4CD21F9DEA95E27D05365E7A /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F839F290D9DD3AB3D1C3C1C /* AppLinks.swift */; };
 		51D69B4D63C571BED44FBDF9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC3F1B8022237EEC7BC0379 /* Router.swift */; };
 		5CF1840A78AD4CD321B5A655 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F8C85C6DCAD73C800D171D /* MapScreen.swift */; };
 		5E82F4EA33081A9E05666BEF /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EAA017F2446BC532059B3 /* EventCard.swift */; };
@@ -47,6 +48,7 @@
 		1DEE98ED596B6A9C2D4D6E8D /* CoMoEvents.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CoMoEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E478B8685E6E1B7E9DEB722 /* CoMoIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoMoIntents.swift; sourceTree = "<group>"; };
 		2CD31C3A5F062C71645A158A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F839F290D9DD3AB3D1C3C1C /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
 		466EB52C7EDEB647B64D7BDA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		4FC3F1B8022237EEC7BC0379 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		545FA8220F66F5EF2E8E8EC3 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				5E37AC286171D31A11C304AE /* AccountManager.swift */,
+				2F839F290D9DD3AB3D1C3C1C /* AppLinks.swift */,
 				5E0EA88088E79B7E0A40576B /* CommunityStore.swift */,
 				AB57E9BB840EDE45833BC510 /* ContentFilter.swift */,
 				6691C2FA41EA70797F58A89D /* FriendsStore.swift */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E9FA7DB20A074B3AFC2268 /* AccountManager.swift in Sources */,
+				4CD21F9DEA95E27D05365E7A /* AppLinks.swift in Sources */,
 				23CA5479B528AD472593369A /* AudienceBar.swift in Sources */,
 				B636F1418EB66E64D2809776 /* CoMoEventsApp.swift in Sources */,
 				094C71D4E8AA18D776247297 /* CoMoIntents.swift in Sources */,

@@ -34,6 +34,7 @@ struct FriendsScreen: View {
             } label: { Label(working ? "Setting up…" : "Turn on Friends", systemImage: "sparkles").frame(maxWidth: .infinity) }
                 .buttonStyle(.borderedProminent).tint(Theme.yellow).foregroundStyle(Theme.ink).disabled(working)
             Text("Uses the iCloud account on this iPhone. Nothing else is shared.").font(.caption2).foregroundStyle(.secondary)
+            inviteButton
         }
         .padding(16).frame(maxWidth: .infinity, alignment: .leading)
         .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
@@ -45,13 +46,14 @@ struct FriendsScreen: View {
             HStack {
                 Text(friends.myCode ?? "······").font(.system(size: 34, weight: .heavy, design: .rounded)).kerning(4)
                 Spacer()
-                ShareLink(item: "Add me on CoMo Events, my friend code is \(friends.myCode ?? ""). Get the app: https://xenificity.github.io/comoevents/") {
+                ShareLink(item: AppLinks.inviteText(friendCode: friends.myCode)) {
                     Image(systemName: "square.and.arrow.up").font(.title3).padding(10).glass(Circle(), interactive: true)
                 }
                 Button { UIPasteboard.general.string = friends.myCode; message = "Code copied." } label: {
                     Image(systemName: "doc.on.doc").font(.title3).padding(10).glass(Circle(), interactive: true)
                 }.buttonStyle(.plain)
             }
+            inviteButton
             Toggle(isOn: $friends.shareSaves) {
                 VStack(alignment: .leading) {
                     Text("Share my saved events with friends").font(.subheadline.weight(.semibold))
@@ -61,6 +63,20 @@ struct FriendsScreen: View {
         }
         .padding(16).frame(maxWidth: .infinity, alignment: .leading)
         .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
+    }
+
+    /// Invite people who don't have the app yet: install link, plus your code once Friends is on.
+    private var inviteButton: some View {
+        ShareLink(item: AppLinks.inviteText(friendCode: friends.enabled ? friends.myCode : nil)) {
+            Label("Invite friends", systemImage: "person.badge.plus")
+                .font(.subheadline.weight(.bold))
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 12)
+                .foregroundStyle(.primary)
+                .overlay(Capsule().stroke(Theme.gold, lineWidth: 1.5))
+                .glass(Capsule(), interactive: true)
+        }
+        .buttonStyle(.plain)
     }
 
     private var addCard: some View {

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Get CoMo Events</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="../img/icon-512.png">
+<style>
+:root{color-scheme:dark}
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0f0f12;color:#f4f4f6;font:17px/1.5 -apple-system,system-ui,sans-serif;text-align:center;padding:24px}
+img{width:96px;height:96px;border-radius:22px}
+a.btn{display:inline-block;margin-top:18px;background:#FFD600;color:#121214;font-weight:800;padding:12px 22px;border-radius:999px;text-decoration:none}
+p{color:#a9a9b3;max-width:22rem;margin:10px auto 0}
+</style>
+<script>
+// Smart install link used by every QR code, flyer, share card and post.
+//  - Once CoMo Events is live on the App Store, go there (with the campaign token for App Analytics).
+//  - Until then, go to the public TestFlight beta.
+// Printed QR codes keep working across that switch because they only ever point here.
+// Usage: /comoevents/get/?c=flyer   (c = campaign name, letters/digits/dash only)
+var APP_ID = "6824363992";
+var PT = "";   // App Store Connect provider token (App Analytics > Campaigns). Empty = no attribution yet.
+var TESTFLIGHT = "https://testflight.apple.com/join/HcEcPnzW";
+
+var params = new URLSearchParams(location.search);
+var campaign = (params.get("c") || "web").replace(/[^A-Za-z0-9_-]/g, "").slice(0, 40) || "web";
+function appStoreURL() {
+  var u = "https://apps.apple.com/us/app/id" + APP_ID + "?ct=" + encodeURIComponent(campaign) + "&mt=8";
+  if (PT) u += "&pt=" + encodeURIComponent(PT);
+  return u;
+}
+var done = false;
+function go(url) { if (done) return; done = true; var a = document.getElementById("fallback"); if (a) a.href = url; location.replace(url); }
+// Is the app live? iTunes lookup supports JSONP, so this works from a static page.
+window.lookupDone = function (r) { go(r && r.resultCount > 0 ? appStoreURL() : TESTFLIGHT); };
+setTimeout(function () { go(TESTFLIGHT); }, 2500);   // offline or blocked lookup: beta link
+document.write('<script src="https://itunes.apple.com/lookup?id=' + APP_ID + '&country=us&callback=lookupDone"><\/script>');
+</script>
+</head>
+<body>
+<div>
+<img src="../img/icon-512.png" alt="CoMo Events">
+<h1>CoMo Events</h1>
+<p>Everything happening in Columbia, MO on one map. Free, no ads.</p>
+<a class="btn" id="fallback" href="https://testflight.apple.com/join/HcEcPnzW">Get it for iPhone</a>
+<p style="font-size:.85rem">Opening the download page…</p>
+</div>
+</body>
+</html>

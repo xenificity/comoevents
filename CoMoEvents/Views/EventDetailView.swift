@@ -119,8 +119,9 @@ struct EventDetailView: View {
     private func share() {
         var items: [Any] = []
         if let img = renderShareCard(for: event) { items.append(img) }
+        // The event link is already inside shareText; passing it again as a URL item makes the
+        // share sheet preview the web page instead of the card.
         items.append(event.shareText)
-        if let u = event.url, let url = URL(string: u) { items.append(url) }
         shareItems = items
     }
 

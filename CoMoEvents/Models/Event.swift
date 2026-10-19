@@ -90,7 +90,7 @@ struct Event: Codable, Identifiable, Hashable {
         var s = "\(title) · \(whenText)"
         if let v = venue { s += " · \(v)" }
         if let u = url { s += "\n\(u)" }
-        s += "\nFound on CoMo Events"
+        s += "\nFound on CoMo Events, free for iPhone: \(AppLinks.install(campaign: "share").absoluteString)"
         return s
     }
 

@@ -14,6 +14,9 @@ struct ShareCard: View {
                 .font(.system(size: 260, weight: .bold))
                 .foregroundStyle(.white.opacity(0.12))
                 .offset(x: 160, y: -140)
+            // Scrim so white text stays readable on light category colours (campus yellow, etc.).
+            LinearGradient(colors: [.clear, Theme.ink.opacity(0.55), Theme.ink.opacity(0.85)],
+                           startPoint: .center, endPoint: .bottom)
             VStack(alignment: .leading, spacing: 14) {
                 HStack(spacing: 10) {
                     Text(event.timeText).font(.system(size: 26, weight: .heavy, design: .rounded))
@@ -30,8 +33,24 @@ struct ShareCard: View {
                 .padding(.top, 10)
             }
             .padding(56)
+            .padding(.trailing, 230)   // keep text clear of the QR code
         }
+        .overlay(alignment: .bottomTrailing) { installBadge }
         .frame(width: 1080, height: 1080)
+    }
+
+    /// "Get the app" QR in the corner, so every shared card is also an invite.
+    private var installBadge: some View {
+        VStack(spacing: 8) {
+            if let qr = AppLinks.qrImage(for: AppLinks.install(campaign: "share"), size: 170) {
+                Image(uiImage: qr).interpolation(.none).resizable().frame(width: 170, height: 170)
+            }
+            Text("Get the app").font(.system(size: 22, weight: .heavy)).foregroundStyle(Theme.ink)
+        }
+        .padding(16)
+        .background(.white, in: RoundedRectangle(cornerRadius: 28, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 28, style: .continuous).stroke(Theme.yellow, lineWidth: 6))
+        .padding(48)
     }
 }
 

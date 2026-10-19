@@ -110,6 +110,22 @@ map symbol and colour (see `Category` in `Models/Event.swift`); the legend row o
   Events map"; every upcoming event is indexed in Spotlight and opens the detail. URL scheme
   `comoevents://event/<id>`, `comoevents://map`, `comoevents://submit`, `comoevents://friends`.
 
+## Marketing kit
+
+Launch goal: 1,000 users in Columbia by Dec 31, 2026. Everything lives in `Marketing/`:
+
+- `CoMoEvents-flyer-letter.pdf` (US Letter, tear-off tabs) and `CoMoEvents-venue-card-4x6.pdf` (counter card).
+  Regenerate with `python3 Marketing/make_assets.py`.
+- `qr/` one QR per channel (PDF for print, PNG for posts). `campaign-links.md` explains the links.
+- `drafts/` press pitches, student-org outreach, Reddit and Halloween posts. Drafts only, nothing is sent.
+- `scripts/weekly_post.py` prints a "This weekend in CoMo" top-10 caption from `feed/events.json`.
+
+All install links go through `docs/get/` (`https://xenificity.github.io/comoevents/get/?c=<channel>`), which
+opens the App Store once the app is live and the TestFlight beta until then. The app uses the same page
+(`Support/AppLinks.swift`): share cards carry a QR and link (`c=share`), the Friends tab has an Invite
+button (`c=invite`), and the app asks once for a rating after the third saved event. Press kit:
+`docs/press.html`.
+
 ## App Review compliance notes (guideline 1.2 and friends)
 
 The community features make this a user-generated-content app, so the app ships the four things
