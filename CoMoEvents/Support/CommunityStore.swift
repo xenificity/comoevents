@@ -27,25 +27,52 @@ final class CommunityStore: ObservableObject {
 
     // MARK: read
 
-    func loadApproved() async {
-        let pred = NSPredicate(format: "status == %@ AND start >= %@", "approved", Date().addingTimeInterval(-6 * 3600) as NSDate)
-        let q = CKQuery(recordType: "SubmittedEvent", predicate: pred)
+    /// Approvals are separate records; only ones created by a moderator's iCloud user count.
+    /// That way no custom CloudKit role is needed: anyone can create an Approval, nobody else's matters.
+    private var decisions: [String: Bool] = [:]      // eventRecordName -> approved?
+    private var reportCounts: [String: Int] = [:]
+
+    private func loadDecisions() async {
+        do {
+            let (results, _) = try await db.records(matching: CKQuery(recordType: "Approval", predicate: NSPredicate(value: true)), resultsLimit: 500)
+            var d: [String: Bool] = [:]
+            for r in results.compactMap({ try? $0.1.get() }) {
+                guard let by = r.creatorUserRecordID?.recordName, Self.moderators.contains(by) || by == "__defaultOwner__",
+                      let name = r["eventRecordName"] as? String else { continue }
+                d[name] = (r["approved"] as? Int64 ?? 0) == 1
+            }
+            decisions = d
+        } catch { /* no schema yet or offline */ }
+        do {
+            let (results, _) = try await db.records(matching: CKQuery(recordType: "Report", predicate: NSPredicate(value: true)), resultsLimit: 500)
+            var c: [String: Int] = [:]
+            for r in results.compactMap({ try? $0.1.get() }) {
+                if let name = r["eventRecordName"] as? String { c[name, default: 0] += 1 }
+            }
+            reportCounts = c
+        } catch {}
+    }
+
+    private func fetchUpcoming() async -> [CKRecord] {
+        let q = CKQuery(recordType: "SubmittedEvent", predicate: NSPredicate(format: "start >= %@", Date().addingTimeInterval(-6 * 3600) as NSDate))
         q.sortDescriptors = [NSSortDescriptor(key: "start", ascending: true)]
         do {
-            let (results, _) = try await db.records(matching: q, resultsLimit: 200)
-            approved = results.compactMap { try? $0.1.get() }.compactMap(Self.event(from:))
-        } catch {
-            // No schema yet or offline: keep what we had.
-        }
+            let (results, _) = try await db.records(matching: q, resultsLimit: 300)
+            return results.compactMap { try? $0.1.get() }
+        } catch { return [] }
+    }
+
+    func loadApproved() async {
+        await loadDecisions()
+        let recs = await fetchUpcoming()
+        approved = recs.filter { decisions[$0.recordID.recordName] == true && reportCounts[$0.recordID.recordName, default: 0] < 3 }
+            .compactMap(Self.event(from:))
     }
 
     func loadPending() async {
-        let q = CKQuery(recordType: "SubmittedEvent", predicate: NSPredicate(format: "status == %@", "pending"))
-        q.sortDescriptors = [NSSortDescriptor(key: "start", ascending: true)]
-        do {
-            let (results, _) = try await db.records(matching: q, resultsLimit: 100)
-            pending = results.compactMap { try? $0.1.get() }
-        } catch { lastError = error.localizedDescription }
+        await loadDecisions()
+        let recs = await fetchUpcoming()
+        pending = recs.filter { decisions[$0.recordID.recordName] == nil }
     }
 
     // MARK: write
@@ -85,11 +112,20 @@ final class CommunityStore: ObservableObject {
         do { _ = try await db.save(rec); return nil } catch { return "Couldn't post: \(error.localizedDescription)" }
     }
 
-    func setStatus(_ rec: CKRecord, _ status: String) async {
-        rec["status"] = status as CKRecordValue
-        do { _ = try await db.save(rec); pending.removeAll { $0.recordID == rec.recordID }; await loadApproved() }
-        catch { lastError = "Couldn't update: \(error.localizedDescription)" }
+    /// Moderator decision: writes an Approval record (the moderator is its creator, which is what the app checks).
+    func decide(_ rec: CKRecord, approved: Bool) async {
+        let a = CKRecord(recordType: "Approval")
+        a["eventRecordName"] = rec.recordID.recordName as CKRecordValue
+        a["approved"] = (approved ? 1 : 0) as CKRecordValue
+        do {
+            _ = try await db.save(a)
+            decisions[rec.recordID.recordName] = approved
+            pending.removeAll { $0.recordID == rec.recordID }
+            await loadApproved()
+        } catch { lastError = "Couldn't save decision: \(error.localizedDescription)" }
     }
+
+    func setStatus(_ rec: CKRecord, _ status: String) async { await decide(rec, approved: status == "approved") }
 
     /// Anyone can flag a community post. Three flags hide it until a moderator looks.
     func report(_ event: Event, reason: String) async -> String? {

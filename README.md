@@ -100,8 +100,10 @@ map symbol and colour (see `Category` in `Models/Event.swift`); the legend row o
 - **Add to Calendar**: Apple's event editor prefilled; write-only calendar access.
 - **Post an event**: anyone with iCloud on their phone can submit; it lands as `pending` in the public
   CloudKit database (`SubmittedEvent`) and shows after a moderator sets `status = approved`. Posts can be
-  reported (`Report` records). Moderators: add the iCloud user to the `Moderator` security role in
-  CloudKit Console, and put their record name in `CommunityStore.moderators` to see the in-app queue.
+  reported (`Report` records; three reports hide a post). Moderation needs no CloudKit role: a moderator's
+  decision is an `Approval` record, and the app only honours approvals whose creator is listed in
+  `CommunityStore.moderators`. Add a moderator by putting their iCloud user record name (Profile › Your
+  CoMo ID) in that set.
 - **Friends**: opt-in `FriendProfile` record with a 6-letter code; add friends by code; "X is going"
   on event details and a Friends tab listing friends' upcoming saves (only if they turned sharing on).
 - **Siri / Spotlight**: App Shortcuts "What's happening in CoMo Events tonight" and "Open the CoMo
