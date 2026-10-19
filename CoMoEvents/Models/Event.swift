@@ -128,11 +128,12 @@ struct Feed: Codable {
 }
 
 enum Category: String, CaseIterable, Identifiable {
-    case music, sports, arts, family, food, nightlife, campus, community
+    case party, music, nightlife, food, arts, sports, family, campus, community
     var id: String { rawValue }
     var label: String { rawValue.capitalized }
     var symbol: String {
         switch self {
+        case .party: return "party.popper.fill"
         case .music: return "music.note"
         case .sports: return "sportscourt"
         case .arts: return "theatermasks"
@@ -145,9 +146,10 @@ enum Category: String, CaseIterable, Identifiable {
     }
     var color: Color {
         switch self {
-        case .music: return .pink
+        case .party: return Color(red: 1.0, green: 0.25, blue: 0.55)
+        case .music: return Color(red: 0.55, green: 0.3, blue: 1.0)
         case .sports: return .orange
-        case .arts: return .purple
+        case .arts: return Color(red: 0.0, green: 0.7, blue: 0.75)
         case .family: return .green
         case .food: return .red
         case .nightlife: return .indigo

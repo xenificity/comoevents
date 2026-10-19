@@ -28,3 +28,7 @@ Read README.md first. Short version:
   Deployment target stays iOS 17, so guard iOS 18+/26+ APIs (`Color.mix` is 18+, `glassEffect` 26+).
 - Fill images: use `Color.clear.frame(...).overlay { image.resizable().scaledToFill() }.clipped()`;
   a bare scaledToFill image inflates the layout and pushes overlays out of the frame.
+- New venue sources go in `POSH_GROUPS` (posh.vip slug), `TRIBE_SITES` (WordPress Events Calendar
+  sites) or as a new `src_*`. Venue coordinates for them belong in `feed/venues.json`.
+- voxmagazine.com returns 429 quickly: keep the per-host gap in `get()` and never fetch its event pages
+  in a loop.

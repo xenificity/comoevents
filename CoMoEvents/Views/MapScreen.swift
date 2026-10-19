@@ -13,8 +13,9 @@ struct MapScreen: View {
     @State private var detail: Event?
     @State private var showList = false
     @State private var cameraDistance: Double = 9000
+    @State private var categories: Set<Category> = []
 
-    private var visible: [Event] { store.events(in: window, audience: store.audience) }
+    private var visible: [Event] { store.events(in: window, categories: categories, audience: store.audience) }
     /// Cluster cell grows as the camera pulls back, so pins never pile up.
     private var cellDegrees: Double { max(0.0015, 0.0015 * cameraDistance / 1800) }
     private var hotspots: [Hotspot] { Hotspot.build(from: visible, cellDegrees: cellDegrees) }
@@ -83,6 +84,9 @@ struct MapScreen: View {
                     .font(.caption)
                     .padding(.horizontal, 12).padding(.vertical, 6)
                     .glass(Capsule())
+
+                    CategoryLegend(selected: $categories)
+                        .padding(.horizontal, -12)
                 }
                 .padding(.horizontal, 12)
                 .padding(.top, 4)
@@ -166,41 +170,82 @@ struct HotspotPin: View {
     let hotspot: Hotspot
     let highlighted: Bool
     @State private var appeared = false
-    private var size: CGFloat { min(32 + CGFloat(hotspot.count) * 3, 58) }
+    private var size: CGFloat { min(38 + CGFloat(hotspot.count) * 1.5, 56) }
 
     var body: some View {
-        ZStack {
+        ZStack(alignment: .topTrailing) {
+            // Glow
             Circle()
                 .fill(hotspot.dominant.color.opacity(0.35))
-                .frame(width: size * 1.6, height: size * 1.6)
+                .frame(width: size * 1.5, height: size * 1.5)
                 .blur(radius: 8)
-            Circle()
-                .fill(LinearGradient(colors: [hotspot.dominant.color.opacity(0.7), hotspot.dominant.color],
-                                     startPoint: .topLeading, endPoint: .bottomTrailing))
-                .frame(width: size, height: size)
-                .overlay(Circle().stroke(highlighted ? Theme.yellow : .white, lineWidth: highlighted ? 4 : 2.5))
-                .overlay(
-                    Circle().trim(from: 0.55, to: 0.95)
-                        .stroke(.white.opacity(0.55), lineWidth: 3)
-                        .frame(width: size * 0.7, height: size * 0.7)
-                        .rotationEffect(.degrees(-20))
-                )
-                .shadow(color: hotspot.dominant.color.opacity(0.6), radius: 8, y: 3)
-            if hotspot.count > 1 {
-                Text("\(hotspot.count)")
-                    .font(.system(size: size * 0.42, weight: .heavy, design: .rounded))
-                    .foregroundStyle(.white)
-                    .shadow(radius: 2)
-            } else {
+                .offset(x: -(size * 0.25), y: size * 0.25)
+            // Glass orb with the category symbol: always the symbol, so the map reads at a glance
+            ZStack {
+                Circle()
+                    .fill(LinearGradient(colors: [hotspot.dominant.color.opacity(0.75), hotspot.dominant.color],
+                                         startPoint: .topLeading, endPoint: .bottomTrailing))
+                    .overlay(Circle().stroke(highlighted ? Theme.yellow : .white, lineWidth: highlighted ? 4 : 2.5))
+                    .overlay(
+                        Circle().trim(from: 0.55, to: 0.95)
+                            .stroke(.white.opacity(0.55), lineWidth: 3)
+                            .frame(width: size * 0.7, height: size * 0.7)
+                            .rotationEffect(.degrees(-20))
+                    )
+                    .shadow(color: hotspot.dominant.color.opacity(0.6), radius: 8, y: 3)
                 Image(systemName: hotspot.dominant.symbol)
-                    .font(.system(size: size * 0.45, weight: .bold))
+                    .font(.system(size: size * 0.46, weight: .bold))
                     .foregroundStyle(.white)
+                    .shadow(radius: 1)
+            }
+            .frame(width: size, height: size)
+            // Count badge
+            if hotspot.count > 1 {
+                Text(hotspot.count > 99 ? "99+" : "\(hotspot.count)")
+                    .font(.system(size: 12, weight: .heavy, design: .rounded))
+                    .foregroundStyle(Theme.ink)
+                    .padding(.horizontal, 6).padding(.vertical, 2)
+                    .background(Theme.yellow, in: Capsule())
+                    .overlay(Capsule().stroke(.white, lineWidth: 1.5))
+                    .offset(x: 8, y: -6)
             }
         }
         .scaleEffect(highlighted ? 1.18 : (appeared ? 1 : 0.4))
         .opacity(appeared ? 1 : 0)
         .animation(.spring(duration: 0.3), value: highlighted)
         .onAppear { withAnimation(.bouncy(duration: 0.5)) { appeared = true } }
+    }
+}
+
+/// Small legend so the symbols explain themselves.
+struct CategoryLegend: View {
+    @Binding var selected: Set<Category>
+    var body: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(spacing: 6) {
+                ForEach(Category.allCases) { c in
+                    let on = selected.contains(c)
+                    Button {
+                        withAnimation(.snappy(duration: 0.25)) { if on { selected.remove(c) } else { selected.insert(c) } }
+                    } label: {
+                        HStack(spacing: 5) {
+                            Image(systemName: c.symbol)
+                                .font(.system(size: 11, weight: .bold))
+                                .foregroundStyle(.white)
+                                .frame(width: 22, height: 22)
+                                .background(c.color, in: Circle())
+                            Text(c.label).font(.caption2.weight(.bold))
+                        }
+                        .padding(.leading, 4).padding(.trailing, 10).padding(.vertical, 4)
+                        .foregroundStyle(.primary)
+                        .glass(Capsule(), tint: on ? c.color.opacity(0.6) : nil, interactive: true)
+                        .opacity(selected.isEmpty || on ? 1 : 0.55)
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+            .padding(.horizontal, 12)
+        }
     }
 }
 

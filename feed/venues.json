@@ -489,5 +489,108 @@
   "address": "1769 W Ash St",
   "lat": 38.9546,
   "lng": -92.3625
+ },
+ "MyHouse Nightclub": {
+  "aliases": [
+   "myhouse",
+   "my house nightclub",
+   "my house",
+   "the backyard",
+   "the attic"
+  ],
+  "address": "119 S 7th St",
+  "lat": 38.95,
+  "lng": -92.3296
+ },
+ "The Social Room": {
+  "aliases": [
+   "social room"
+  ],
+  "address": "220 N 8th St",
+  "lat": 38.9536,
+  "lng": -92.329
+ },
+ "Broadway Brewery": {
+  "aliases": [],
+  "address": "816 E Broadway",
+  "lat": 38.9514,
+  "lng": -92.3271,
+  "phone": "(573) 443-5054"
+ },
+ "Broadway Brewery Taproom on 9th": {
+  "aliases": [
+   "taproom on 9th"
+  ],
+  "address": "15 S 9th St",
+  "lat": 38.951,
+  "lng": -92.3278
+ },
+ "Cooper's Landing": {
+  "aliases": [
+   "coopers landing"
+  ],
+  "address": "11505 Smith Hatchery Rd",
+  "lat": 38.8163,
+  "lng": -92.3835
+ },
+ "Bur Oak Brewing Company": {
+  "aliases": [
+   "bur oak brewing",
+   "bur oak"
+  ],
+  "address": "8250 Trade Center Dr",
+  "lat": 38.927,
+  "lng": -92.254
+ },
+ "Dive Bar": {
+  "aliases": [],
+  "address": "1116 Business Loop 70 E",
+  "lat": 38.9638,
+  "lng": -92.3234
+ },
+ "Silverball": {
+  "aliases": [],
+  "address": "122 S 9th St",
+  "lat": 38.9505,
+  "lng": -92.3277
+ },
+ "Nash Vegas": {
+  "aliases": [],
+  "address": "929 E Broadway",
+  "lat": 38.9516,
+  "lng": -92.3262
+ },
+ "The Fieldhouse": {
+  "aliases": [
+   "fieldhouse"
+  ],
+  "address": "1107 E Broadway",
+  "lat": 38.9516,
+  "lng": -92.3253
+ },
+ "Roxy's": {
+  "aliases": [
+   "roxys"
+  ],
+  "address": "1025 E Broadway",
+  "lat": 38.9516,
+  "lng": -92.3258
+ },
+ "Shiloh Bar & Grill": {
+  "aliases": [
+   "shiloh"
+  ],
+  "address": "402 E Broadway",
+  "lat": 38.9515,
+  "lng": -92.3322
+ },
+ "The Penguin Piano Bar": {
+  "aliases": [
+   "penguin piano bar",
+   "penguin"
+  ],
+  "address": "1025 E Walnut St",
+  "lat": 38.9526,
+  "lng": -92.3259
  }
 }

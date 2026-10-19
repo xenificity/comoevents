@@ -34,10 +34,23 @@ S.headers["User-Agent"] = BROWSER_UA
 def log(*a):
     print(*a, file=sys.stderr, flush=True)
 
+LAST_HIT = {}
 def get(url, **kw):
+    """GET with a polite per-host gap and a retry on 429/5xx."""
     kw.setdefault("timeout", 30)
-    r = S.get(url, **kw)
-    r.raise_for_status()
+    host = url.split("/")[2]
+    gap = 1.5 if "voxmagazine" in host else 0.3
+    wait = gap - (time.time() - LAST_HIT.get(host, 0))
+    if wait > 0:
+        time.sleep(wait)
+    for attempt in range(3):
+        LAST_HIT[host] = time.time()
+        r = S.get(url, **kw)
+        if r.status_code in (429, 500, 502, 503, 504) and attempt < 2:
+            time.sleep(8 * (attempt + 1))
+            continue
+        r.raise_for_status()
+        return r
     return r
 
 def strip_html(s, limit=500):
@@ -232,6 +245,7 @@ def make_event(source, source_name, sid, title, start, end=None, all_day=False, 
     }
 
 CATEGORY_RULES = [
+    ("party", r"\b(party|parties|bollywood|desi night|afrobeats?|latin night|salsa night|reggaeton|dance party|club night|rave|dj set|djs?\b|fastpass|fast pass|night ?club|nightclub|glow party|foam party|silent disco|darty|halloween bash|costume party|nye|new year'?s eve|masquerade|white party|pool party|pregame|after ?party)\b"),
     ("sports", r"\b(football|basketball|volleyball|soccer|softball|baseball|wrestling|gymnastics|golf|tennis|swim|track|5k|10k|marathon|run\b|race|tigers? vs|vs\.?)\b"),
     ("music", r"\b(concert|live music|band|orchestra|symphony|choir|dj|jazz|tribute|tour|album|singer|acoustic|open mic|karaoke)\b"),
     ("nightlife", r"\b(bar|brewery|trivia|dance party|night out|21\+|18\+|pub crawl|happy hour)\b"),
@@ -247,6 +261,7 @@ AUDIENCE_RULES = {
     "family": r"\b(kids?|family|families|children|child|toddlers?|babies|baby|preschool|story ?time|teens?|youth|all ages|trick.or.treat|trunk.or.treat|pumpkin|sensory|petting zoo|craft|lego|puppet|school.age)\b",
 }
 AUDIENCE_DEFAULT = {
+    "party": ["singles", "groups"],
     "music": ["groups", "singles", "couples"], "nightlife": ["singles", "groups"],
     "food": ["couples", "groups"], "family": ["family", "groups"], "sports": ["groups", "family"],
     "arts": ["couples", "singles"], "campus": ["singles", "groups"], "community": ["groups"],
@@ -262,10 +277,13 @@ def infer_audience(title, desc, category):
         tags.append("family")
     return tags
 
-def infer_category(title, desc="", default="community"):
-    """Keyword categoriser. default=None returns None when nothing matches."""
+def infer_category(title, desc="", default="community", campus_ok=False):
+    """Keyword categoriser. default=None returns None when nothing matches.
+    The 'campus' guess (lecture, workshop, class...) is only used when campus_ok is set."""
     t = f"{title} {desc or ''}".lower()
     for cat, rx in CATEGORY_RULES:
+        if cat == "campus" and not campus_ok:
+            continue
         if re.search(rx, t):
             return cat
     return default
@@ -322,7 +340,7 @@ def src_mizzou(days):
             venue_name = (rss.get(str(it.get("id")), {}).get("venue") or "").strip()
             if re.match(r"^(virtual|online|hybrid|zoom|tbd|tba|varies|various)\b", venue_name, re.I) or "St Louis" in venue_name or "Kansas City" in venue_name:
                 continue
-            cat = "sports" if group == "athletics" else infer_category(title, r.get("cats", ""), "campus")
+            cat = "sports" if group == "athletics" else infer_category(title, r.get("cats", ""), "campus", campus_ok=True)
             if group == "athletics" and " at " in title and "vs" not in title.lower():
                 continue   # "Missouri at X" = away game, not in Columbia
             cost = str(it.get("cost") or "").strip() or None
@@ -609,7 +627,7 @@ def src_dbrl(days):
         if it.get("registration_cost") and str(it["registration_cost"]) not in ("0", "0.00", "", "None"):
             price = f"${it['registration_cost']}"
         title = clean_title(it.get("title"))
-        cat = infer_category(title, it.get("description", ""), "family" if re.search(r"Babies|Toddlers|Preschool|School-Age", it.get("ages") or "") else "community")
+        cat = infer_category(title, it.get("description", ""), "family" if re.search(r"Babies|Toddlers|Preschool|School-Age", it.get("ages") or "") else "community", campus_ok=True)
         out.append(make_event("dbrl", "Daniel Boone Regional Library", it.get("id"), title, start, end,
                               venue=loc + (f" · {it['venue_room']}" if it.get("venue_room") else ""),
                               url=it.get("url") or f"https://events.dbrl.org/event/{it.get('id')}",
@@ -619,7 +637,179 @@ def src_dbrl(days):
                               phone="(573) 443-3161" if loc.startswith("Columbia Public") else None))
     return out
 
-SOURCES = [src_mizzou, src_visitcolumbia, src_eventbrite, src_allevents, src_baselocal, src_bluenote, src_dbrl]
+POSH_GROUPS = {
+    # posh.vip group slug -> (display name, venue, address, phone)
+    "myhouse-1": ("MyHouse", "MyHouse Nightclub", "119 S 7th St, Columbia, MO 65201", None),
+}
+def src_posh(days):
+    """Posh (posh.vip) ticketing pages for downtown clubs and party promoters."""
+    out = []
+    now = dt.datetime.now(dt.timezone.utc)
+    for slug, (name, venue, address, phone) in POSH_GROUPS.items():
+        try:
+            js = get(f"https://posh.vip/api/web/v2/util/group_url/{slug}", headers={"Accept": "application/json"}).json()
+        except Exception as e:
+            log("  posh", slug, "failed:", e); continue
+        for e in js.get("events", []):
+            if e.get("status") not in (None, "live"):
+                continue
+            start = parse_dt(e.get("startUtc") or e.get("start"))
+            end = parse_dt(e.get("endUtc") or e.get("end"))
+            if not start or start < now - dt.timedelta(hours=6):
+                continue
+            v = e.get("venue") or {}
+            prices = [t.get("price") for t in e.get("ticketGroups", []) if isinstance(t, dict) and t.get("price") is not None]
+            price = None
+            if prices:
+                lo = min(prices)
+                price = "Free" if lo == 0 else f"From ${lo:g}"
+            title = clean_title(e.get("name"))
+            desc = e.get("description") or ""
+            if re.match(r"^\s*fast ?pass", title, re.I):
+                start = start.astimezone(TZ).replace(hour=22, minute=0)
+                end = None
+                title = re.sub(r"^\s*fast ?pass:?\s*", f"{name} ", title, flags=re.I) + " Night"
+                desc = (desc + " Ticket is a FastPass to skip the line; doors are usually around 10 PM.").strip()
+            out.append(make_event("posh", f"{name} (Posh)", e.get("id") or e.get("url"), title, start, end,
+                                  venue=v.get("name") or venue, address=v.get("address") or address,
+                                  url=f"https://posh.vip/e/{e.get('url')}", ticket_url=f"https://posh.vip/e/{e.get('url')}",
+                                  phone=phone, price=price,
+                                  category=infer_category(title, desc, "party"),
+                                  image=e.get("flyer"), description=desc, organizer=name))
+    return out
+
+TRIBE_SITES = {
+    # The Events Calendar (WordPress) REST sites: slug -> (display name, default venue, address)
+    "cooperslanding": ("Cooper's Landing", "https://cooperslandingmo.com", "Cooper's Landing", "11505 Smith Hatchery Rd, Columbia, MO 65203"),
+}
+def src_tribe(days):
+    out = []
+    end_date = (dt.datetime.now(TZ) + dt.timedelta(days=days)).strftime("%Y-%m-%d")
+    for key, (name, base, venue_default, address_default) in TRIBE_SITES.items():
+        page = 1
+        while page <= 5:
+            try:
+                js = get(f"{base}/wp-json/tribe/events/v1/events", params={"per_page": 50, "page": page, "end_date": end_date}).json()
+            except Exception as e:
+                log("  tribe", key, "page", page, "failed:", e); break
+            for e in js.get("events", []):
+                if e.get("is_virtual") or e.get("hide_from_listings"):
+                    continue
+                start = parse_dt(e.get("start_date", "").replace(" ", "T"))
+                end = parse_dt(e.get("end_date", "").replace(" ", "T"))
+                v = e.get("venue") or {}
+                if isinstance(v, list):
+                    v = v[0] if v else {}
+                lat = float(v["geo_lat"]) if v.get("geo_lat") else None
+                lng = float(v["geo_lng"]) if v.get("geo_lng") else None
+                cats = [c.get("name", "") for c in e.get("categories", [])]
+                title = clean_title(e.get("title"))
+                cl = " ".join(cats).lower()
+                if "music" in cl or "concert" in cl:
+                    cat = "music"
+                elif "food" in cl or "truck" in cl:
+                    cat = "food"
+                elif "trivia" in cl or "karaoke" in cl:
+                    cat = "nightlife"
+                else:
+                    cat = infer_category(title, e.get("description", ""), "community")
+                cost = (e.get("cost") or "").strip() or None
+                out.append(make_event(key, name, e.get("id"), title, start, end, all_day=bool(e.get("all_day")),
+                                      venue=v.get("venue") or venue_default,
+                                      address=v.get("address") or address_default, lat=lat, lng=lng,
+                                      url=e.get("website") or e.get("url"), price=cost, category=cat,
+                                      image=(e.get("image") or {}).get("url") if isinstance(e.get("image"), dict) else None,
+                                      description=e.get("description") or e.get("excerpt"), organizer=name))
+            if page >= int(js.get("total_pages") or 1):
+                break
+            page += 1
+    return out
+
+MONTHS = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july",
+                                       "august", "september", "october", "november", "december"], 1)}
+def _vox_date(text):
+    m = re.search(r"([A-Z][a-z]+),\s+([A-Z][a-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?,\s+(\d{4})", text)
+    if not m or m.group(2).lower() not in MONTHS:
+        return None
+    return dt.date(int(m.group(4)), MONTHS[m.group(2).lower()], int(m.group(3)))
+
+def _vox_times(text):
+    m = re.search(r"@\s*(\d{1,2}(?::\d{2})?\s*[ap]m)(?:\s*[–-]\s*(\d{1,2}(?::\d{2})?\s*[ap]m))?", text, re.I)
+    def t(x):
+        if not x:
+            return None
+        x = x.lower().replace(" ", "")
+        return dt.datetime.strptime(x, "%I:%M%p" if ":" in x else "%I%p").time()
+    return (t(m.group(1)), t(m.group(2))) if m else (None, None)
+
+def src_vox(days):
+    """Vox Magazine community calendar (TownNews). Listing cards only: no per-event fetch,
+    because voxmagazine.com rate-limits hard. Recurring schedules are expanded week by week."""
+    out = []
+    today = dt.datetime.now(TZ).date()
+    horizon = today + dt.timedelta(days=days)
+    seen = set()
+    for offset in (0, 50, 100, 150):
+        try:
+            h = get("https://www.voxmagazine.com/calendar/search/",
+                    params={"f": "json", "l": 50, "o": offset, "s": "start_time", "sd": "asc", "d1": today.isoformat()}).text
+        except Exception as e:
+            log("  vox page", offset, "failed:", e); break
+        cards = re.split(r'(?=<div class="card-container)', h)
+        found = 0
+        for c in cards:
+            m = re.search(r'href="(/calendar/[^"]+/event_[^"]+\.html)"', c)
+            if not m or m.group(1) in seen:
+                continue
+            seen.add(m.group(1)); found += 1
+            def field(cls, limit=300):
+                mm = re.search(r'class="card-%s[^"]*"[^>]*>(.*?)</div>' % cls, c, re.S)
+                return strip_html(mm.group(1), limit) if mm else None
+            title = field("headline", 160)
+            venue = field("venue", 120)
+            cost = field("cost", 60)
+            lead = field("lead", 600)
+            img = re.search(r'<img[^>]+(?:data-src|src)="(https://bloximages[^"]+)"', c)
+            url = "https://www.voxmagazine.com" + m.group(1)
+            if not title:
+                continue
+            schedules = re.findall(r'<li class="schedule">\s*<small>(.*?)</small>', c, re.S)
+            dates = []
+            for sch in schedules:
+                sch = html.unescape(re.sub(r"<[^>]+>", " ", sch))
+                st, et = _vox_times(sch)
+                first = _vox_date(sch)
+                if not first:
+                    continue
+                rep = re.search(r"repeat(?:s|ed)\s+every\s+(\d+\s+)?weeks?\s+on\s+([A-Za-z]+).*?until\s+(.*)$", sch, re.I)
+                if rep:
+                    until = _vox_date(rep.group(3)) or horizon
+                    step = int((rep.group(1) or "1").strip()) * 7
+                    d = first
+                    while d < today:
+                        d += dt.timedelta(days=step)
+                    while d <= min(until, horizon):
+                        dates.append((d, st, et)); d += dt.timedelta(days=step)
+                else:
+                    dates.append((first, st, et))
+            for d, st, et in dates:
+                if d < today or d > horizon:
+                    continue
+                start = dt.datetime.combine(d, st or dt.time(0, 0), TZ)
+                end = dt.datetime.combine(d, et, TZ) if et else None
+                if end and end < start:
+                    end += dt.timedelta(days=1)
+                out.append(make_event("vox", "Vox Magazine Calendar", f"{m.group(1)}#{d.isoformat()}", title, start, end,
+                                      all_day=st is None, time_tbd=st is None,
+                                      venue=venue, url=url, price=cost or None,
+                                      category=infer_category(title, lead or ""),
+                                      image=img.group(1) if img else None, description=lead))
+        if found == 0:
+            break
+    return out
+
+SOURCES = [src_mizzou, src_visitcolumbia, src_eventbrite, src_allevents, src_baselocal, src_bluenote, src_dbrl,
+           src_posh, src_tribe, src_vox]
 
 # ----------------------------------------------------------------- merge
 def dedupe(events):
@@ -717,7 +907,7 @@ def main():
         if e.get("venue") and re.match(r"^columbia(,| mo| misso?urr?i|$)", e["venue"].strip(), re.I):
             e["venue"] = None
         known = venue_lookup(e.get("venue"))
-        if known and "lat" in known and e["source"] in ("allevents", "visitcolumbia", "baselocal", "dbrl"):
+        if known and "lat" in known and e["source"] in ("allevents", "visitcolumbia", "baselocal", "dbrl", "vox", "posh", "cooperslanding"):
             e["lat"], e["lng"] = known["lat"], known["lng"]
             e["address"] = e.get("address") or known.get("address")
             e["phone"] = e.get("phone") or known.get("phone")

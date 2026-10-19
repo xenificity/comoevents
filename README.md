@@ -23,9 +23,15 @@ GitHub, fetches the live copy that a scheduled GitHub Action rebuilds.
 | Base Local (baselocal.com) | listing JSON-LD | Small local things: trivia, game nights, library |
 | The Blue Note / Rose Music Hall | calendar cards + event pages | Show times and ticket links |
 | Daniel Boone Regional Library | Communico JSON | Columbia Public Library only |
+| MyHouse Nightclub | Posh (posh.vip) group JSON | Add more promoters' Posh slugs to `POSH_GROUPS` |
+| Cooper's Landing | The Events Calendar REST | Add other WordPress venues to `TRIBE_SITES` |
+| Vox Magazine calendar | TownNews listing cards | Community submissions; recurring schedules expanded weekly; site rate-limits, so no per-event fetch |
 
 Facebook itself has no public API for page events, so it is covered indirectly via AllEvents.
-The District (discoverthedistrict.com) was checked but its calendar only lists past events.
+Checked and not usable (as of Oct 2026): The District (calendar only lists past events), The Social Room
+(Wix events widget with nothing published), Broadway Brewery and Cafe Berlin (no event listings online;
+Cafe Berlin says tickets are on Facebook), Bur Oak (empty calendar), Logboat (no public events page),
+Bandsintown / Songkick / JamBase (block scripted access).
 
 ## Run it
 
@@ -81,7 +87,8 @@ project.yml                XcodeGen spec; regenerate the project after adding fi
  "category":"music","imageUrl":"…","description":"…","organizer":"…","alsoOn":[]}
 ```
 
-Categories: music, sports, arts, family, food, nightlife, campus, community.
+Categories: party, music, nightlife, food, arts, sports, family, campus, community. Each has its own
+map symbol and colour (see `Category` in `Models/Event.swift`); the legend row on the map filters by them.
 `audience` is a list drawn from singles / couples / groups / family, set by keyword rules in
 `infer_audience()` with per-category defaults; tune the rules there, not in the app.
 
