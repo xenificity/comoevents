@@ -245,7 +245,7 @@ def make_event(source, source_name, sid, title, start, end=None, all_day=False, 
     }
 
 CATEGORY_RULES = [
-    ("party", r"\b(party|parties|bollywood|desi night|afrobeats?|latin night|salsa night|reggaeton|dance party|club night|rave|dj set|djs?\b|fastpass|fast pass|night ?club|nightclub|glow party|foam party|silent disco|darty|halloween bash|costume party|nye|new year'?s eve|masquerade|white party|pool party|pregame|after ?party)\b"),
+    ("party", r"\b((dance|costume|halloween|glow|foam|pool|block|release|launch|watch|viewing|after|pre|birthday|house|toga|darty|frat|white|masquerade|holiday|christmas|nye|new year'?s eve) party|parties|bollywood|desi night|afrobeats?|latin night|salsa night|reggaeton|club night|rave|dj set|djs?|fastpass|fast pass|night ?club|nightclub|silent disco|darty|bash|pregame|after ?party)\b|\bparty\b.*\b(dj|club|21\+|18\+|bar|tickets?|vip|bottle)\b"),
     ("sports", r"\b(football|basketball|volleyball|soccer|softball|baseball|wrestling|gymnastics|golf|tennis|swim|track|5k|10k|marathon|run\b|race|tigers? vs|vs\.?)\b"),
     ("music", r"\b(concert|live music|band|orchestra|symphony|choir|dj|jazz|tribute|tour|album|singer|acoustic|open mic|karaoke)\b"),
     ("nightlife", r"\b(bar|brewery|trivia|dance party|night out|21\+|18\+|pub crawl|happy hour)\b"),

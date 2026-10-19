@@ -35,8 +35,12 @@ struct Hotspot: Identifiable, Hashable {
         return buckets.map { key, evs in
             let lat = evs.map { $0.lat! }.reduce(0, +) / Double(evs.count)
             let lng = evs.map { $0.lng! }.reduce(0, +) / Double(evs.count)
-            return Hotspot(id: key, coordinate: CLLocationCoordinate2D(latitude: lat, longitude: lng),
-                           events: evs.sorted { $0.startDate < $1.startDate })
+            let sorted = evs.sorted { $0.startDate < $1.startDate }
+            // Identity includes the contents, so a filter change re-renders the pin.
+            let counts = Dictionary(grouping: sorted, by: \.kind).mapValues(\.count)
+            let dom = counts.max { $0.value < $1.value }?.key.rawValue ?? ""
+            return Hotspot(id: "\(key)|\(sorted.count)|\(dom)", coordinate: CLLocationCoordinate2D(latitude: lat, longitude: lng),
+                           events: sorted)
         }
         .sorted { $0.count > $1.count }
     }
