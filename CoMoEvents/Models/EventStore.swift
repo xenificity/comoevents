@@ -8,6 +8,8 @@ final class EventStore: ObservableObject {
     @Published private(set) var generatedAt: Date?
     @Published private(set) var isRefreshing = false
     @Published private(set) var lastError: String?
+    /// Who-is-it-for filter, shared by the Map and Upcoming tabs.
+    @Published var audience: Audience? = nil
     @Published private(set) var favorites: Set<String> {
         didSet { UserDefaults.standard.set(Array(favorites), forKey: "favorites") }
     }
@@ -74,10 +76,11 @@ final class EventStore: ObservableObject {
     var favoriteEvents: [Event] { events.filter { favorites.contains($0.id) } }
 
     // MARK: queries
-    func events(in window: TimeWindow, categories: Set<Category> = [], search: String = "") -> [Event] {
+    func events(in window: TimeWindow, categories: Set<Category> = [], search: String = "", audience: Audience? = nil) -> [Event] {
         let q = search.trimmingCharacters(in: .whitespaces).lowercased()
         return events.filter { e in
             window.contains(e)
+            && e.suits(audience)
             && (categories.isEmpty || categories.contains(e.kind))
             && (q.isEmpty || e.title.lowercased().contains(q) || (e.venue ?? "").lowercased().contains(q))
         }

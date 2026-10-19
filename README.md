@@ -1,8 +1,11 @@
 # CoMo Events
 
 A free iOS app that puts every public event in Columbia, Missouri on one map.
-Pins cluster into "busy areas", a time switch (Now / Today / Weekend / 7 days / All)
-filters the map, and an Upcoming list plus a Saved tab round it out.
+Pins cluster into "busy areas" (cluster size adapts to zoom), a time switch
+(Now / Today / Weekend / 7 days / All) and a "who's it for" switch
+(Everyone / Singles / Couples / Groups / Family) filter the map, a "Next up" card strip
+sits over it, and an Upcoming card list plus a Saved tab round it out.
+The look is Liquid Glass on iOS 26 (frosted material on iOS 17/18) in the icon's yellow and black.
 
 The app has no backend of its own. A Python script (`feed/aggregate.py`) pulls
 public listings from several sources, geocodes them, merges duplicates and writes
@@ -79,6 +82,8 @@ project.yml                XcodeGen spec; regenerate the project after adding fi
 ```
 
 Categories: music, sports, arts, family, food, nightlife, campus, community.
+`audience` is a list drawn from singles / couples / groups / family, set by keyword rules in
+`infer_audience()` with per-category defaults; tune the rules there, not in the app.
 
 ## Status
 

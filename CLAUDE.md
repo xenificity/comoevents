@@ -23,3 +23,8 @@ Read README.md first. Short version:
 - Carry-forward: when a source raises or returns zero events, `aggregate.py` keeps that source's
   events from the previous `events.json`. Eventbrite returns nothing from GitHub's runners (bot
   block), so its events only refresh when someone runs `scripts/update-feed.sh` locally and pushes.
+- UI: `Support/Theme.swift` holds the brand colors and the `.glass(shape)` modifier (Liquid Glass on
+  iOS 26, material fallback below). Use it for any floating control instead of raw materials.
+  Deployment target stays iOS 17, so guard iOS 18+/26+ APIs (`Color.mix` is 18+, `glassEffect` 26+).
+- Fill images: use `Color.clear.frame(...).overlay { image.resizable().scaledToFill() }.clipped()`;
+  a bare scaledToFill image inflates the layout and pushes overlays out of the frame.

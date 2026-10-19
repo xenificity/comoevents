@@ -10,11 +10,20 @@ struct MapScreen: View {
         MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 38.9480, longitude: -92.3300),
                            latitudinalMeters: 5000, longitudinalMeters: 5000))
     @State private var selected: Hotspot?
+    @State private var detail: Event?
     @State private var showList = false
+    @State private var cameraDistance: Double = 9000
 
-    private var visible: [Event] { store.events(in: window) }
-    private var hotspots: [Hotspot] { Hotspot.build(from: visible) }
-    private var unplaced: Int { visible.filter { $0.coordinate == nil }.count }
+    private var visible: [Event] { store.events(in: window, audience: store.audience) }
+    /// Cluster cell grows as the camera pulls back, so pins never pile up.
+    private var cellDegrees: Double { max(0.0015, 0.0015 * cameraDistance / 1800) }
+    private var hotspots: [Hotspot] { Hotspot.build(from: visible, cellDegrees: cellDegrees) }
+    private var nextUp: [Event] {
+        Array(visible.sorted { a, b in
+            if a.isHappeningNow != b.isHappeningNow { return a.isHappeningNow }
+            return a.startDate < b.startDate
+        }.prefix(12))
+    }
 
     var body: some View {
         NavigationStack {
@@ -24,63 +33,131 @@ struct MapScreen: View {
                     ForEach(hotspots) { h in
                         if h.isBusy {
                             MapCircle(center: h.coordinate, radius: h.haloRadius)
-                                .foregroundStyle(h.dominant.color.opacity(0.18))
-                                .stroke(h.dominant.color.opacity(0.35), lineWidth: 1)
+                                .foregroundStyle(h.dominant.color.opacity(0.16))
+                                .stroke(h.dominant.color.opacity(0.4), lineWidth: 1.5)
                         }
                         Annotation(h.title, coordinate: h.coordinate, anchor: .center) {
                             HotspotPin(hotspot: h, highlighted: selected == h)
-                                .onTapGesture { selected = h }
+                                .onTapGesture {
+                                    withAnimation(.snappy) { selected = h }
+                                }
                         }
                         .annotationTitles(.hidden)
                     }
                 }
-                .mapStyle(.standard(pointsOfInterest: .excludingAll))
-                .mapControls {
-                    MapUserLocationButton()
-                    MapCompass()
+                .mapStyle(.standard(elevation: .realistic, pointsOfInterest: .excludingAll))
+                .onMapCameraChange(frequency: .onEnd) { ctx in
+                    withAnimation(.snappy(duration: 0.35)) { cameraDistance = ctx.camera.distance }
                 }
+                .mapControls { MapUserLocationButton(); MapCompass() }
                 .ignoresSafeArea(edges: .bottom)
 
+                // Floating top controls
                 VStack(spacing: 8) {
-                    Picker("When", selection: $window) {
-                        ForEach(TimeWindow.allCases) { w in Text(w.rawValue).tag(w) }
+                    AudienceBar()
+                    HStack(spacing: 4) {
+                        ForEach(TimeWindow.allCases) { w in
+                            let on = window == w
+                            Button {
+                                withAnimation(.snappy(duration: 0.3)) { window = w }
+                            } label: {
+                                Text(w.rawValue)
+                                    .font(.footnote.weight(.bold))
+                                    .padding(.horizontal, 11).padding(.vertical, 8)
+                                    .foregroundStyle(on ? Theme.ink : .primary)
+                                    .background(on ? Theme.yellow : .clear, in: Capsule())
+                                    .contentShape(Capsule())
+                            }
+                            .buttonStyle(.plain)
+                        }
                     }
-                    .pickerStyle(.segmented)
-                    .padding(.horizontal)
+                    .padding(4)
+                    .glass(Capsule())
+                    .sensoryFeedback(.selection, trigger: window)
 
                     HStack(spacing: 6) {
-                        Text("\(visible.count) events")
-                        if unplaced > 0 { Text("· \(unplaced) without a pin").foregroundStyle(.secondary) }
+                        Image(systemName: "mappin.and.ellipse").foregroundStyle(Theme.gold)
+                        Text("\(visible.count) events").fontWeight(.semibold)
                         if !store.updatedText.isEmpty { Text("· \(store.updatedText)").foregroundStyle(.secondary) }
                     }
                     .font(.caption)
-                    .padding(.horizontal, 10).padding(.vertical, 5)
-                    .background(.thinMaterial, in: Capsule())
+                    .padding(.horizontal, 12).padding(.vertical, 6)
+                    .glass(Capsule())
                 }
-                .padding(.top, 6)
+                .padding(.horizontal, 12)
+                .padding(.top, 4)
+            }
+            .safeAreaInset(edge: .bottom, spacing: 0) {
+                if !nextUp.isEmpty {
+                    VStack(alignment: .leading, spacing: 6) {
+                        HStack {
+                            Text(window == .now ? "Happening now" : "Next up")
+                                .font(.footnote.weight(.bold))
+                                .padding(.horizontal, 10).padding(.vertical, 5)
+                                .glass(Capsule(), tint: Theme.yellow)
+                            Spacer()
+                            Button { showList = true } label: {
+                                Label("All \(visible.count)", systemImage: "list.bullet")
+                                    .font(.footnote.weight(.semibold))
+                                    .padding(.horizontal, 10).padding(.vertical, 5)
+                                    .glass(Capsule(), interactive: true)
+                            }
+                            .buttonStyle(.plain)
+                        }
+                        .padding(.horizontal, 16)
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 10) {
+                                ForEach(nextUp) { e in
+                                    Button {
+                                        focus(on: e)
+                                    } label: { MiniCard(event: e) }
+                                    .buttonStyle(CardPressStyle())
+                                }
+                            }
+                            .padding(.horizontal, 16)
+                        }
+                    }
+                    .padding(.vertical, 8)
+                }
             }
             .navigationTitle("CoMo Events")
             .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button { showList = true } label: { Image(systemName: "list.bullet") }
-                        .accessibilityLabel("List these events")
-                }
-            }
+            .toolbar(.hidden, for: .navigationBar)
             .sheet(item: $selected) { h in
                 HotspotSheet(hotspot: h)
-                    .presentationDetents([.fraction(0.4), .large])
-                    .presentationBackgroundInteraction(.enabled(upThrough: .fraction(0.4)))
+                    .presentationDetents([.fraction(0.42), .large])
+                    .presentationBackgroundInteraction(.enabled(upThrough: .fraction(0.42)))
+            }
+            .sheet(item: $detail) { e in
+                NavigationStack { EventDetailView(event: e) }
+                    .presentationDetents([.large])
             }
             .sheet(isPresented: $showList) {
                 NavigationStack {
-                    EventList(events: visible, emptyText: "Nothing in this window.")
-                        .navigationTitle("\(window.rawValue) · \(visible.count)")
-                        .navigationBarTitleDisplayMode(.inline)
-                        .toolbar { ToolbarItem(placement: .topBarTrailing) { Button("Done") { showList = false } } }
+                    ZStack {
+                        Theme.page
+                        EventCardList(events: visible, emptyText: "Nothing in this window.")
+                    }
+                    .navigationTitle("\(window.rawValue) · \(visible.count)")
+                    .navigationBarTitleDisplayMode(.inline)
+                    .toolbar { ToolbarItem(placement: .topBarTrailing) { Button("Done") { showList = false } } }
                 }
             }
-            .onAppear { location.request() }
+            .onAppear {
+                location.request()
+                if store.events(in: .today).count < 3 { window = .week }
+            }
+        }
+    }
+
+    private func focus(on e: Event) {
+        if let c = e.coordinate {
+            withAnimation(.easeInOut(duration: 0.6)) {
+                position = .camera(MapCamera(centerCoordinate: c, distance: 1400, heading: 0, pitch: 45))
+            }
+            selected = hotspots.first { $0.events.contains(e) }
+        } else {
+            detail = e
         }
     }
 }
@@ -88,27 +165,42 @@ struct MapScreen: View {
 struct HotspotPin: View {
     let hotspot: Hotspot
     let highlighted: Bool
-    private var size: CGFloat { min(30 + CGFloat(hotspot.count) * 3, 56) }
+    @State private var appeared = false
+    private var size: CGFloat { min(32 + CGFloat(hotspot.count) * 3, 58) }
 
     var body: some View {
         ZStack {
             Circle()
-                .fill(hotspot.dominant.color.gradient)
+                .fill(hotspot.dominant.color.opacity(0.35))
+                .frame(width: size * 1.6, height: size * 1.6)
+                .blur(radius: 8)
+            Circle()
+                .fill(LinearGradient(colors: [hotspot.dominant.color.opacity(0.7), hotspot.dominant.color],
+                                     startPoint: .topLeading, endPoint: .bottomTrailing))
                 .frame(width: size, height: size)
-                .overlay(Circle().stroke(.white, lineWidth: highlighted ? 3 : 2))
-                .shadow(radius: 3, y: 1)
+                .overlay(Circle().stroke(highlighted ? Theme.yellow : .white, lineWidth: highlighted ? 4 : 2.5))
+                .overlay(
+                    Circle().trim(from: 0.55, to: 0.95)
+                        .stroke(.white.opacity(0.55), lineWidth: 3)
+                        .frame(width: size * 0.7, height: size * 0.7)
+                        .rotationEffect(.degrees(-20))
+                )
+                .shadow(color: hotspot.dominant.color.opacity(0.6), radius: 8, y: 3)
             if hotspot.count > 1 {
                 Text("\(hotspot.count)")
-                    .font(.system(size: size * 0.42, weight: .bold, design: .rounded))
+                    .font(.system(size: size * 0.42, weight: .heavy, design: .rounded))
                     .foregroundStyle(.white)
+                    .shadow(radius: 2)
             } else {
                 Image(systemName: hotspot.dominant.symbol)
-                    .font(.system(size: size * 0.45, weight: .semibold))
+                    .font(.system(size: size * 0.45, weight: .bold))
                     .foregroundStyle(.white)
             }
         }
-        .scaleEffect(highlighted ? 1.15 : 1)
-        .animation(.spring(duration: 0.25), value: highlighted)
+        .scaleEffect(highlighted ? 1.18 : (appeared ? 1 : 0.4))
+        .opacity(appeared ? 1 : 0)
+        .animation(.spring(duration: 0.3), value: highlighted)
+        .onAppear { withAnimation(.bouncy(duration: 0.5)) { appeared = true } }
     }
 }
 
@@ -116,9 +208,12 @@ struct HotspotSheet: View {
     let hotspot: Hotspot
     var body: some View {
         NavigationStack {
-            EventList(events: hotspot.events, emptyText: "")
-                .navigationTitle(hotspot.title)
-                .navigationBarTitleDisplayMode(.inline)
+            ZStack {
+                Theme.page
+                EventList(events: hotspot.events, emptyText: "")
+            }
+            .navigationTitle(hotspot.title)
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

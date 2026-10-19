@@ -7,111 +7,160 @@ struct EventDetailView: View {
     let event: Event
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
-                if let img = event.imageUrl.flatMap(URL.init) {
-                    AsyncImage(url: img) { phase in
-                        if let image = phase.image {
-                            image.resizable().scaledToFill()
-                        } else {
-                            Rectangle().fill(event.kind.color.opacity(0.15))
+        ZStack {
+            Theme.page
+            ScrollView {
+                VStack(alignment: .leading, spacing: 0) {
+                    hero
+                    VStack(alignment: .leading, spacing: 18) {
+                        facts
+                        if let c = event.coordinate {
+                            Map(initialPosition: .region(MKCoordinateRegion(center: c, latitudinalMeters: 900, longitudinalMeters: 900)),
+                                interactionModes: []) {
+                                Marker(event.venue ?? event.title, coordinate: c).tint(event.kind.color)
+                            }
+                            .frame(height: 170)
+                            .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+                            .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(.white.opacity(0.3), lineWidth: 0.8))
+                            .onTapGesture { openDirections() }
                         }
-                    }
-                    .frame(height: 200)
-                    .clipped()
-                    .clipShape(RoundedRectangle(cornerRadius: 14))
-                }
-
-                VStack(alignment: .leading, spacing: 6) {
-                    HStack {
-                        Label(event.kind.label, systemImage: event.kind.symbol)
-                            .font(.caption.weight(.semibold))
-                            .padding(.horizontal, 8).padding(.vertical, 4)
-                            .background(event.kind.color.opacity(0.15), in: Capsule())
-                            .foregroundStyle(event.kind.color)
-                        if event.isHappeningNow {
-                            Text("Happening now").font(.caption.weight(.bold)).foregroundStyle(.red)
+                        if let d = event.description, !d.isEmpty {
+                            Text(d).font(.body).lineSpacing(3)
+                                .padding(16)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .glass(RoundedRectangle(cornerRadius: 22, style: .continuous))
                         }
-                    }
-                    Text(event.title).font(.title2.bold())
-                    if let o = event.organizer, !o.isEmpty { Text(o).font(.subheadline).foregroundStyle(.secondary) }
-                }
-
-                VStack(alignment: .leading, spacing: 10) {
-                    Label(event.whenText, systemImage: "clock")
-                    if !event.placeText.isEmpty { Label(event.placeText, systemImage: "mappin.and.ellipse") }
-                    if let p = event.price { Label(p, systemImage: "tag") }
-                }
-                .font(.subheadline)
-
-                // Actions
-                HStack(spacing: 10) {
-                    if let link = event.primaryLink {
-                        Button {
-                            openURL(link)
-                        } label: {
-                            Label(event.ticketUrl != nil ? "Tickets / Register" : "More info", systemImage: "arrow.up.right.square")
-                                .frame(maxWidth: .infinity)
+                        if !event.audiences.isEmpty {
+                            HStack(spacing: 6) {
+                                Text("Good for").font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+                                ForEach(event.audiences) { a in
+                                    Label(a.label, systemImage: a.symbol).font(.caption.weight(.bold))
+                                        .padding(.horizontal, 9).padding(.vertical, 5).glass(Capsule())
+                                }
+                            }
                         }
-                        .buttonStyle(.borderedProminent)
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("Source: \(event.sourceName)")
+                            if let also = event.alsoOn, !also.isEmpty {
+                                Text("Also listed on \(also.count) other site\(also.count == 1 ? "" : "s").")
+                            }
+                        }
+                        .font(.caption).foregroundStyle(.secondary)
                     }
-                    Button {
-                        store.toggleFavorite(event)
-                    } label: {
-                        Image(systemName: store.isFavorite(event) ? "heart.fill" : "heart")
-                            .frame(width: 24)
-                    }
-                    .buttonStyle(.bordered)
-                    .tint(store.isFavorite(event) ? .red : .accentColor)
+                    .padding(16)
                 }
-                HStack(spacing: 10) {
-                    if let tel = event.telURL {
-                        Button { openURL(tel) } label: { Label("Call", systemImage: "phone").frame(maxWidth: .infinity) }
-                            .buttonStyle(.bordered)
-                    }
-                    if event.coordinate != nil || event.address != nil {
-                        Button { openDirections() } label: { Label("Directions", systemImage: "car").frame(maxWidth: .infinity) }
-                            .buttonStyle(.bordered)
-                    }
-                    if event.ticketUrl != nil, let info = event.infoLink, info != event.primaryLink {
-                        Button { openURL(info) } label: { Label("Details", systemImage: "info.circle").frame(maxWidth: .infinity) }
-                            .buttonStyle(.bordered)
-                    }
-                }
+            }
+            .scrollIndicators(.hidden)
+            .ignoresSafeArea(edges: .top)
+            .safeAreaInset(edge: .bottom, spacing: 0) { actionBar }
+        }
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbarBackground(.hidden, for: .navigationBar)
+        .toolbar(.hidden, for: .tabBar)
+    }
 
-                if let c = event.coordinate {
-                    Map(initialPosition: .region(MKCoordinateRegion(center: c, latitudinalMeters: 900, longitudinalMeters: 900)),
-                        interactionModes: []) {
-                        Marker(event.venue ?? event.title, coordinate: c).tint(event.kind.color)
+    // MARK: pieces
+
+    private var hero: some View {
+        Color.clear
+            .frame(height: 340)
+            .overlay {
+                if let url = event.imageUrl.flatMap(URL.init) {
+                    AsyncImage(url: url) { p in
+                        if let img = p.image { img.resizable().scaledToFill() } else { event.kind.gradient }
                     }
-                    .frame(height: 160)
-                    .clipShape(RoundedRectangle(cornerRadius: 14))
-                }
-
-                if let d = event.description, !d.isEmpty {
-                    Text(d).font(.body)
-                }
-
-                VStack(alignment: .leading, spacing: 4) {
-                    Text("Source: \(event.sourceName)").font(.caption).foregroundStyle(.secondary)
-                    if let also = event.alsoOn, !also.isEmpty {
-                        Text("Also listed on \(also.count) other site\(also.count == 1 ? "" : "s").").font(.caption).foregroundStyle(.secondary)
+                } else {
+                    ZStack {
+                        event.kind.gradient
+                        Image(systemName: event.kind.symbol).font(.system(size: 140, weight: .bold)).foregroundStyle(.white.opacity(0.15))
                     }
                 }
             }
-            .padding()
+            .clipped()
+            .overlay {
+                LinearGradient(colors: [.clear, .black.opacity(0.25), .black.opacity(0.9)], startPoint: .center, endPoint: .bottom)
+            }
+            .overlay(alignment: .bottomLeading) {
+            VStack(alignment: .leading, spacing: 8) {
+                HStack(spacing: 8) {
+                    Label(event.kind.label, systemImage: event.kind.symbol)
+                        .font(.caption.weight(.bold)).foregroundStyle(Theme.ink)
+                        .padding(.horizontal, 10).padding(.vertical, 5)
+                        .background(Theme.yellow, in: Capsule())
+                    if event.isHappeningNow { NowBadge() }
+                }
+                Text(event.title).font(.title.bold()).foregroundStyle(.white).lineLimit(3).minimumScaleFactor(0.8)
+                if let o = event.organizer, !o.isEmpty { Text(o).font(.subheadline).foregroundStyle(.white.opacity(0.85)) }
+            }
+            .padding(16)
+            }
+    }
+
+    private var facts: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            fact("clock.fill", event.whenText)
+            if !event.placeText.isEmpty { fact("mappin.and.ellipse", event.placeText) }
+            if let p = event.price { fact("tag.fill", p) }
+            if let ph = event.phone { fact("phone.fill", ph) }
         }
-        .navigationBarTitleDisplayMode(.inline)
+        .padding(16)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .glass(RoundedRectangle(cornerRadius: 22, style: .continuous))
+    }
+
+    private func fact(_ symbol: String, _ text: String) -> some View {
+        HStack(alignment: .top, spacing: 12) {
+            Image(systemName: symbol).foregroundStyle(Theme.gold).frame(width: 22)
+            Text(text).font(.subheadline.weight(.medium))
+        }
+    }
+
+    private var actionBar: some View {
+        HStack(spacing: 10) {
+            if let link = event.primaryLink {
+                Button { openURL(link) } label: {
+                    Label(event.ticketUrl != nil ? "Tickets / Register" : "More info", systemImage: "arrow.up.right")
+                        .font(.subheadline.weight(.bold))
+                        .foregroundStyle(Theme.ink)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 14)
+                        .background(Theme.yellow, in: Capsule())
+                }
+                .buttonStyle(CardPressStyle())
+            }
+            if let tel = event.telURL {
+                roundButton("phone.fill") { openURL(tel) }
+            }
+            if event.coordinate != nil || event.address != nil {
+                roundButton("car.fill") { openDirections() }
+            }
+            HeartButton(event: event, size: 20, onLight: true)
+                .frame(width: 46, height: 46)
+        }
+        .padding(12)
+        .glass(RoundedRectangle(cornerRadius: 34, style: .continuous))
+        .padding(.horizontal, 12)
+        .padding(.bottom, 6)
+    }
+
+    private func roundButton(_ symbol: String, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            Image(systemName: symbol)
+                .font(.system(size: 18, weight: .semibold))
+                .frame(width: 46, height: 46)
+                .glass(Circle(), interactive: true)
+        }
+        .buttonStyle(.plain)
     }
 
     private func openDirections() {
-        let item: MKMapItem
         if let c = event.coordinate {
-            item = MKMapItem(placemark: MKPlacemark(coordinate: c))
-        } else if let a = event.address, let url = URL(string: "maps://?daddr=\(a.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? a)") {
-            openURL(url); return
-        } else { return }
-        item.name = event.venue ?? event.title
-        item.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDefault])
+            let item = MKMapItem(placemark: MKPlacemark(coordinate: c))
+            item.name = event.venue ?? event.title
+            item.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDefault])
+        } else if let a = event.address,
+                  let url = URL(string: "maps://?daddr=\(a.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? a)") {
+            openURL(url)
+        }
     }
 }

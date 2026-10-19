@@ -228,6 +228,7 @@ def make_event(source, source_name, sid, title, start, end=None, all_day=False, 
         "category": category or "community", "imageUrl": image,
         "description": strip_html(description, 600) if description else None,
         "organizer": organizer,
+        "audience": infer_audience(title, strip_html(description, 2000) if description else "", category or "community"),
     }
 
 CATEGORY_RULES = [
@@ -239,6 +240,28 @@ CATEGORY_RULES = [
     ("food", r"\b(food|brunch|dinner|tasting|wine|beer|coffee|cook|farmers? market|market|bbq|taco|festival of|oktoberfest)\b"),
     ("campus", r"\b(lecture|seminar|workshop|colloquium|symposium|webinar|career|research|class|course|registration|deadline|study|exam|student)\b"),
 ]
+AUDIENCE_RULES = {
+    "singles": r"\b(singles?|speed dating|mixer|meet ?up|meet new people|networking|social hour|happy hour|open mic|karaoke|trivia|dance party|night out|club night|latin night|salsa|swing dance|comedy|young professionals|newcomers|volunteer)\b",
+    "couples": r"\b(date night|couples?|romantic|candlelight|wine|paint (and|&) sip|sip (and|&) paint|dinner|tasting|brunch|sunset|ballet|symphony|orchestra|jazz|theatre|theater|musical|gala|cocktail|chocolate|valentine|anniversary|stargazing|dance lessons?)\b",
+    "groups": r"\b(tailgate|watch party|trivia|festival|fest|parade|tournament|game night|board games?|party|bar crawl|pub crawl|brewery|beer|5k|10k|run|race|market|karaoke|bowling|escape room|league|pickup|potluck|block party|homecoming|concert|show|live music|band|dj)\b",
+    "family": r"\b(kids?|family|families|children|child|toddlers?|babies|baby|preschool|story ?time|teens?|youth|all ages|trick.or.treat|trunk.or.treat|pumpkin|sensory|petting zoo|craft|lego|puppet|school.age)\b",
+}
+AUDIENCE_DEFAULT = {
+    "music": ["groups", "singles", "couples"], "nightlife": ["singles", "groups"],
+    "food": ["couples", "groups"], "family": ["family", "groups"], "sports": ["groups", "family"],
+    "arts": ["couples", "singles"], "campus": ["singles", "groups"], "community": ["groups"],
+}
+def infer_audience(title, desc, category):
+    t = f"{title} {desc or ''}".lower()
+    tags = [a for a, rx in AUDIENCE_RULES.items() if re.search(rx, t)]
+    if "family" in tags and re.search(r"\b(21\+|18\+|bar|brewery|happy hour|cocktail)\b", t):
+        tags.remove("family")
+    if not tags:
+        tags = list(AUDIENCE_DEFAULT.get(category, ["groups"]))
+    elif category == "family" and "family" not in tags:
+        tags.append("family")
+    return tags
+
 def infer_category(title, desc="", default="community"):
     """Keyword categoriser. default=None returns None when nothing matches."""
     t = f"{title} {desc or ''}".lower()
@@ -630,6 +653,9 @@ def dedupe(events):
         for k in ("lat", "lng", "venue", "address", "phone", "price", "imageUrl", "description", "ticketUrl", "end"):
             if keep.get(k) in (None, "") and drop.get(k):
                 keep[k] = drop[k]
+        if keep.get("category") == "community" and drop.get("category") not in (None, "community"):
+            keep["category"] = drop["category"]
+            keep["audience"] = drop.get("audience") or keep.get("audience")
         if keep["timeTBD"] and not drop["timeTBD"]:
             keep["start"], keep["timeTBD"], keep["allDay"] = drop["start"], False, drop["allDay"]
         keep["alsoOn"] = list({*(a.get("alsoOn") or []), *(e.get("alsoOn") or []),

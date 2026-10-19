@@ -25,6 +25,7 @@ struct Event: Codable, Identifiable, Hashable {
     let description: String?
     let organizer: String?
     let alsoOn: [String]?
+    let audience: [String]
 
     // Parsed once at decode time; not part of the JSON.
     private(set) var startDate: Date = .distantPast
@@ -32,7 +33,7 @@ struct Event: Codable, Identifiable, Hashable {
 
     enum CodingKeys: String, CodingKey {
         case id, source, sourceName, title, start, end, allDay, timeTBD, venue, address, lat, lng
-        case url, ticketUrl, phone, price, category, imageUrl, description, organizer, alsoOn
+        case url, ticketUrl, phone, price, category, imageUrl, description, organizer, alsoOn, audience
     }
 
     init(from decoder: Decoder) throws {
@@ -58,6 +59,7 @@ struct Event: Codable, Identifiable, Hashable {
         description = try c.decodeIfPresent(String.self, forKey: .description)
         organizer = try c.decodeIfPresent(String.self, forKey: .organizer)
         alsoOn = try c.decodeIfPresent([String].self, forKey: .alsoOn)
+        audience = try c.decodeIfPresent([String].self, forKey: .audience) ?? []
         startDate = Event.parse(start) ?? .distantPast
         endDate = end.flatMap(Event.parse)
     }
@@ -86,6 +88,8 @@ struct Event: Codable, Identifiable, Hashable {
     }
 
     var kind: Category { Category(rawValue: category) ?? .community }
+    var audiences: [Audience] { audience.compactMap(Audience.init(rawValue:)) }
+    func suits(_ a: Audience?) -> Bool { a == nil || audience.contains(a!.rawValue) }
 
     var whenText: String {
         if timeTBD || allDay { return Event.dayFormatter.string(from: startDate) + (allDay ? " · All day" : " · Time TBD") }
@@ -149,6 +153,28 @@ enum Category: String, CaseIterable, Identifiable {
         case .nightlife: return .indigo
         case .campus: return .yellow
         case .community: return .blue
+        }
+    }
+}
+
+/// "Who is it for" filter. Tags come from feed/aggregate.py (keyword rules + category defaults).
+enum Audience: String, CaseIterable, Identifiable {
+    case singles, couples, groups, family
+    var id: String { rawValue }
+    var label: String {
+        switch self {
+        case .singles: return "Singles"
+        case .couples: return "Couples"
+        case .groups: return "Groups"
+        case .family: return "Family"
+        }
+    }
+    var symbol: String {
+        switch self {
+        case .singles: return "person.fill"
+        case .couples: return "heart.fill"
+        case .groups: return "person.3.fill"
+        case .family: return "figure.2.and.child.holdinghands"
         }
     }
 }

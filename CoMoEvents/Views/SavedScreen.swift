@@ -5,9 +5,12 @@ struct SavedScreen: View {
 
     var body: some View {
         NavigationStack {
-            EventList(events: store.favoriteEvents.filter { $0.effectiveEnd >= Date() },
-                      emptyText: "Tap the heart on any event to keep it here.")
-                .navigationTitle("Saved")
+            ZStack {
+                Theme.page
+                EventCardList(events: store.favoriteEvents.filter { $0.effectiveEnd >= Date() },
+                              emptyText: "Tap the heart on any event and it lands here.")
+            }
+            .navigationTitle("Saved")
         }
     }
 }
