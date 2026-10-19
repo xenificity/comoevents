@@ -19,6 +19,12 @@ targets:
     deploymentTarget: "17.0"
     sources:
       - path: CoMoEvents
+    entitlements:
+      path: CoMoEvents/CoMoEvents.entitlements
+      properties:
+        com.apple.developer.applesignin: [Default]
+        com.apple.developer.icloud-services: [CloudKit]
+        com.apple.developer.icloud-container-identifiers: [iCloud.com.xenificity.comoevents]
     info:
       path: CoMoEvents/Info.plist
       properties:

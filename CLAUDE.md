@@ -14,7 +14,13 @@ Read README.md first. Short version:
   library, where a match in `feed/venues.json` overrides (their coordinates are often campus-center
   guesses). Then Nominatim with a bounded Columbia viewbox. Fix a wrong pin by adding the venue to
   `venues.json`, not by special-casing in code.
-- Keep it free: no paid APIs, no accounts, no analytics. Favorites live in UserDefaults.
+- Keep it free: no paid APIs, no server of ours, no analytics. Accounts are Sign in with Apple +
+  the user's private CloudKit database (`Support/AccountManager.swift`); the app must keep working
+  signed out. Favorites: `EventStore.favorites` is the live copy, mirrored into `UserProfile.favorites`
+  via `onFavoritesChanged`; cloud pulls merge back with `mergeFavorites`.
+- Entitlements (Sign in with Apple, CloudKit container) are declared in `project.yml`; simulator
+  builds with CODE_SIGNING_ALLOWED=NO ignore them, device builds need the App ID capabilities, which
+  Xcode's automatic signing adds.
 - The app reads `EventStore.remoteURL` (raw GitHub URL of `feed/events.json`) and falls back to the
   bundled snapshot. If the repo moves, change that constant.
 - Team ID TU583LSD8W, bundle `com.xenificity.comoevents`. Simulator builds need no signing.

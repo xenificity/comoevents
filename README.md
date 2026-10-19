@@ -92,6 +92,22 @@ map symbol and colour (see `Category` in `Models/Event.swift`); the legend row o
 `audience` is a list drawn from singles / couples / groups / family, set by keyword rules in
 `infer_audience()` with per-category defaults; tune the rules there, not in the app.
 
+## Accounts and profiles
+
+Optional. The app works fully without signing in. The Profile tab offers **Sign in with Apple**;
+once signed in, the profile (name, interests, "I'm usually out as…", saved event ids) is stored as one
+record in the user's **private CloudKit database** (`iCloud.com.xenificity.comoevents`, record type
+`Profile`) and merged back on every launch, so it follows the person to a new phone. Signed out, the
+same profile lives in `Application Support/profile.json`. There is no server of ours and no email list.
+
+Before the App Store:
+- Deploy the CloudKit schema from Development to Production in CloudKit Console (the `Profile` record
+  type is created just-in-time the first time a dev build saves).
+- Apple requires account deletion; the app deletes the CloudKit record and local data. Apple also asks
+  that Sign in with Apple tokens be revoked via their REST API on deletion, which needs a tiny server
+  (a Cloudflare Worker is enough). Not done yet.
+- Signing in cannot be tested in the simulator without an Apple ID signed into it; use a device.
+
 ## Status
 
 Prototype. Works in the simulator. Not yet: app icon, App Store listing, push notifications,

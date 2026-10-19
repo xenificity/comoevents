@@ -11,8 +11,19 @@ final class EventStore: ObservableObject {
     /// Who-is-it-for filter, shared by the Map and Upcoming tabs.
     @Published var audience: Audience? = nil
     @Published private(set) var favorites: Set<String> {
-        didSet { UserDefaults.standard.set(Array(favorites), forKey: "favorites") }
+        didSet {
+            UserDefaults.standard.set(Array(favorites), forKey: "favorites")
+            onFavoritesChanged?(favorites)
+        }
     }
+    /// AccountManager listens here to mirror favorites into the profile (and iCloud when signed in).
+    var onFavoritesChanged: ((Set<String>) -> Void)?
+
+    func mergeFavorites(_ ids: [String]) {
+        let merged = favorites.union(ids)
+        if merged != favorites { favorites = merged }
+    }
+    func replaceFavorites(_ ids: [String]) { favorites = Set(ids) }
 
     /// Where the self-updating feed lives once the repo is on GitHub (Actions rebuilds it on a schedule).
     static let remoteURL = URL(string: "https://raw.githubusercontent.com/xenificity/comoevents/main/feed/events.json")!

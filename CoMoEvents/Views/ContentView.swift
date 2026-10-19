@@ -12,6 +12,8 @@ struct ContentView: View {
             SavedScreen()
                 .tabItem { Label("Saved", systemImage: "heart.fill") }
                 .badge(store.favoriteEvents.filter { $0.effectiveEnd >= Date() }.count)
+            ProfileScreen()
+                .tabItem { Label("Profile", systemImage: "person.crop.circle.fill") }
         }
         .tint(Theme.gold)
     }

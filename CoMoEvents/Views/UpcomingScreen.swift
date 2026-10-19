@@ -2,6 +2,7 @@ import SwiftUI
 
 struct UpcomingScreen: View {
     @EnvironmentObject var store: EventStore
+    @EnvironmentObject var account: AccountManager
     @State private var search = ""
     @State private var categories: Set<Category> = []
 
@@ -12,7 +13,7 @@ struct UpcomingScreen: View {
             ZStack {
                 Theme.page
                 EventCardList(events: list, emptyText: "Nothing matches. Try another filter.",
-                              header: AnyView(VStack(spacing: 8) { AudienceBar(); chips }))
+                              header: AnyView(VStack(spacing: 8) { AudienceBar(); chips; forYou }))
                     .refreshable { await store.refresh() }
             }
             .navigationTitle("Upcoming")
@@ -32,6 +33,32 @@ struct UpcomingScreen: View {
                         .padding(.bottom, 4)
                 }
             }
+        }
+    }
+
+    /// Events in the next week that match the profile's interests. Hidden when there are no interests.
+    @ViewBuilder private var forYou: some View {
+        let interests = account.profile.interestSet
+        let picks = interests.isEmpty ? [] : Array(store.events(in: .week, categories: interests, audience: store.audience).prefix(10))
+        if !picks.isEmpty && search.isEmpty && categories.isEmpty {
+            VStack(alignment: .leading, spacing: 8) {
+                HStack(spacing: 6) {
+                    Image(systemName: "sparkles").foregroundStyle(Theme.gold)
+                    Text("For you").font(.headline)
+                    Text("· from your interests").font(.caption).foregroundStyle(.secondary)
+                }
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 10) {
+                        ForEach(picks) { e in
+                            NavigationLink(value: e) { MiniCard(event: e) }
+                                .buttonStyle(CardPressStyle())
+                        }
+                    }
+                    .padding(.horizontal, 16)
+                }
+                .padding(.horizontal, -16)
+            }
+            .padding(.top, 4)
         }
     }
 
