@@ -1,0 +1,25 @@
+import SwiftUI
+
+enum AppTab: Hashable { case map, upcoming, saved, friends, profile }
+
+/// Cross-screen navigation: which tab is up, and an event to open (from Spotlight, a link, a notification or Siri).
+@MainActor
+final class Router: ObservableObject {
+    @Published var tab: AppTab = .map
+    @Published var pendingEventID: String?
+    @Published var showSubmit = false
+
+    func open(eventID: String) { pendingEventID = eventID }
+
+    func handle(url: URL) {
+        guard url.scheme == "comoevents" else { return }
+        let parts = url.pathComponents.filter { $0 != "/" }
+        switch url.host {
+        case "event": if let id = parts.first { open(eventID: id) }
+        case "map": tab = .map
+        case "submit": showSubmit = true
+        case "friends": tab = .friends
+        default: break
+        }
+    }
+}

@@ -4,6 +4,9 @@ import AuthenticationServices
 struct ProfileScreen: View {
     @EnvironmentObject var account: AccountManager
     @EnvironmentObject var store: EventStore
+    @EnvironmentObject var notifications: NotificationService
+    @EnvironmentObject var community: CommunityStore
+    @EnvironmentObject var router: Router
     @Environment(\.colorScheme) private var scheme
     @State private var name = ""
     @State private var confirmDelete = false
@@ -19,8 +22,11 @@ struct ProfileScreen: View {
                         if !account.isSignedIn { signInCard }
                         aboutYou
                         interestsCard
+                        notificationsCard
+                        communityCard
                         savedCard
                         if account.isSignedIn { accountCard }
+                        idCard
                     }
                     .padding(16)
                     .padding(.bottom, 24)
@@ -28,7 +34,7 @@ struct ProfileScreen: View {
                 .scrollDismissesKeyboard(.interactively)
             }
             .navigationTitle("Profile")
-            .onAppear { name = account.profile.displayName }
+            .onAppear { name = account.profile.displayName; Task { await community.prepare() } }
             .alert("Sign in", isPresented: Binding(get: { account.lastError != nil }, set: { if !$0 { account.lastError = nil } })) {
                 Button("OK") { account.lastError = nil }
             } message: { Text(account.lastError ?? "") }
@@ -147,6 +153,70 @@ struct ProfileScreen: View {
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
         .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
+    }
+
+    private var notificationsCard: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("Notifications").font(.headline)
+            Toggle(isOn: Binding(get: { notifications.remindersOn }, set: { on in Task { await setNotif(reminders: on, digest: nil) } })) {
+                VStack(alignment: .leading) {
+                    Text("Remind me before saved events").font(.subheadline.weight(.semibold))
+                    Text("One hour before anything you've hearted.").font(.caption).foregroundStyle(.secondary)
+                }
+            }.tint(Theme.gold)
+            Toggle(isOn: Binding(get: { notifications.digestOn }, set: { on in Task { await setNotif(reminders: nil, digest: on) } })) {
+                VStack(alignment: .leading) {
+                    Text("Tonight in CoMo").font(.subheadline.weight(.semibold))
+                    Text("A 4 PM heads-up with what's on this evening.").font(.caption).foregroundStyle(.secondary)
+                }
+            }.tint(Theme.gold)
+            if (notifications.remindersOn || notifications.digestOn) && !notifications.authorized {
+                Text("Notifications are off for CoMo Events in Settings.").font(.caption).foregroundStyle(.red)
+            }
+        }
+        .padding(16).frame(maxWidth: .infinity, alignment: .leading)
+        .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
+    }
+
+    private func setNotif(reminders: Bool?, digest: Bool?) async {
+        if (reminders ?? false) || (digest ?? false) {
+            if !notifications.authorized { _ = await notifications.requestAuthorization() }
+        }
+        if let reminders { notifications.remindersOn = reminders }
+        if let digest { notifications.digestOn = digest }
+        await notifications.reschedule(favorites: store.favoriteEvents, all: store.events)
+    }
+
+    private var communityCard: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("Community").font(.headline)
+            Button { router.showSubmit = true } label: {
+                Label("Post an event", systemImage: "plus.circle.fill").frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.borderedProminent).tint(Theme.yellow).foregroundStyle(Theme.ink)
+            Text("Student orgs, venues, anyone: post a public event and it appears on the map after a quick check.").font(.caption).foregroundStyle(.secondary)
+            if community.isModerator {
+                NavigationLink { ModerationView() } label: { Label("Moderation queue", systemImage: "checkmark.seal") }
+            }
+        }
+        .padding(16).frame(maxWidth: .infinity, alignment: .leading)
+        .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
+    }
+
+    private var idCard: some View {
+        HStack {
+            VStack(alignment: .leading, spacing: 2) {
+                Text("Your CoMo ID").font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+                Text(community.userRecordName ?? "iCloud not signed in").font(.caption2.monospaced()).lineLimit(1).truncationMode(.middle)
+            }
+            Spacer()
+            if let id = community.userRecordName {
+                Button { UIPasteboard.general.string = id } label: { Image(systemName: "doc.on.doc") }.buttonStyle(.plain)
+            }
+        }
+        .padding(14)
+        .glass(RoundedRectangle(cornerRadius: 18, style: .continuous))
+        .onTapGesture(count: 5) { UserDefaults.standard.set(!UserDefaults.standard.bool(forKey: "moderator.override"), forKey: "moderator.override"); community.objectWillChange.send() }
     }
 
     private var savedCard: some View {

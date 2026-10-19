@@ -64,6 +64,32 @@ struct Event: Codable, Identifiable, Hashable {
         endDate = end.flatMap(Event.parse)
     }
 
+    /// Memberwise init for events that don't come from the JSON feed (community submissions).
+    init(id: String, source: String, sourceName: String, title: String, start: Date, end: Date?, allDay: Bool = false,
+         venue: String?, address: String?, lat: Double?, lng: Double?, url: String?, ticketUrl: String? = nil, phone: String? = nil,
+         price: String?, category: String, imageUrl: String? = nil, description: String?, organizer: String?, audience: [String] = []) {
+        self.id = id; self.source = source; self.sourceName = sourceName; self.title = title
+        let f = ISO8601DateFormatter(); f.formatOptions = [.withInternetDateTime]
+        self.start = f.string(from: start); self.end = end.map { f.string(from: $0) }
+        self.allDay = allDay; self.timeTBD = false
+        self.venue = venue; self.address = address; self.lat = lat; self.lng = lng
+        self.url = url; self.ticketUrl = ticketUrl; self.phone = phone; self.price = price
+        self.category = category; self.imageUrl = imageUrl; self.description = description; self.organizer = organizer
+        self.alsoOn = nil; self.audience = audience
+        self.startDate = start; self.endDate = end
+    }
+
+    var isCommunity: Bool { source == "community" }
+    /// Stable link for sharing and Spotlight: opens the app on this event.
+    var deepLink: URL { URL(string: "comoevents://event/\(id)")! }
+    var shareText: String {
+        var s = "\(title) · \(whenText)"
+        if let v = venue { s += " · \(v)" }
+        if let u = url { s += "\n\(u)" }
+        s += "\nFound on CoMo Events"
+        return s
+    }
+
     private static let isoFull: ISO8601DateFormatter = {
         let f = ISO8601DateFormatter(); f.formatOptions = [.withInternetDateTime]; return f
     }()

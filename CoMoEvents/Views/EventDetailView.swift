@@ -3,8 +3,15 @@ import MapKit
 
 struct EventDetailView: View {
     @EnvironmentObject var store: EventStore
+    @EnvironmentObject var friends: FriendsStore
+    @EnvironmentObject var community: CommunityStore
     @Environment(\.openURL) private var openURL
     let event: Event
+    @State private var shareItems: [Any]?
+    @State private var showCalendar = false
+    @State private var calendarDenied = false
+    @State private var reportSheet = false
+    @State private var reportMessage: String?
 
     var body: some View {
         ZStack {
@@ -39,6 +46,16 @@ struct EventDetailView: View {
                                 }
                             }
                         }
+                        let going = friends.friendsGoing(to: event)
+                        if !going.isEmpty {
+                            HStack(spacing: 8) {
+                                Image(systemName: "person.2.fill").foregroundStyle(Theme.gold)
+                                Text(going.count == 1 ? "\(going[0].name) is going" : "\(going.map(\.name).joined(separator: ", ")) are going")
+                                    .font(.subheadline.weight(.semibold))
+                            }
+                            .padding(12).frame(maxWidth: .infinity, alignment: .leading)
+                            .glass(RoundedRectangle(cornerRadius: 16, style: .continuous), tint: Theme.yellow.opacity(0.5))
+                        }
                         VStack(alignment: .leading, spacing: 4) {
                             Text("Source: \(event.sourceName)")
                             if let also = event.alsoOn, !also.isEmpty {
@@ -57,6 +74,45 @@ struct EventDetailView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbarBackground(.hidden, for: .navigationBar)
         .toolbar(.hidden, for: .tabBar)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Menu {
+                    Button { share() } label: { Label("Share", systemImage: "square.and.arrow.up") }
+                    Button { Task { await addToCalendar() } } label: { Label("Add to Calendar", systemImage: "calendar.badge.plus") }
+                    if event.isCommunity {
+                        Button(role: .destructive) { reportSheet = true } label: { Label("Report this post", systemImage: "flag") }
+                    }
+                } label: {
+                    Image(systemName: "ellipsis").font(.system(size: 16, weight: .bold)).frame(width: 36, height: 36).glass(Circle(), interactive: true)
+                }
+            }
+        }
+        .sheet(isPresented: Binding(get: { shareItems != nil }, set: { if !$0 { shareItems = nil } })) {
+            if let items = shareItems { ActivitySheet(items: items).presentationDetents([.medium, .large]) }
+        }
+        .sheet(isPresented: $showCalendar) { CalendarEditSheet(event: event).ignoresSafeArea() }
+        .alert("Calendar access is off", isPresented: $calendarDenied) {
+            Button("Open Settings") { if let u = URL(string: UIApplication.openSettingsURLString) { openURL(u) } }
+            Button("Cancel", role: .cancel) {}
+        } message: { Text("Allow CoMo Events to add events in Settings › Privacy › Calendars.") }
+        .confirmationDialog("Report this post", isPresented: $reportSheet, titleVisibility: .visible) {
+            ForEach(["Spam or scam", "Wrong or misleading", "Inappropriate", "Not an event"], id: \.self) { reason in
+                Button(reason) { Task { reportMessage = (await community.report(event, reason: reason)) ?? "Thanks. A moderator will take a look." } }
+            }
+        }
+        .alert("Report", isPresented: Binding(get: { reportMessage != nil }, set: { if !$0 { reportMessage = nil } })) { Button("OK") {} } message: { Text(reportMessage ?? "") }
+    }
+
+    private func share() {
+        var items: [Any] = []
+        if let img = renderShareCard(for: event) { items.append(img) }
+        items.append(event.shareText)
+        if let u = event.url, let url = URL(string: u) { items.append(url) }
+        shareItems = items
+    }
+
+    private func addToCalendar() async {
+        if await CalendarAccess.requestWriteAccess() { showCalendar = true } else { calendarDenied = true }
     }
 
     // MARK: pieces
@@ -128,6 +184,8 @@ struct EventDetailView: View {
                 }
                 .buttonStyle(CardPressStyle())
             }
+            roundButton("square.and.arrow.up") { share() }
+            roundButton("calendar.badge.plus") { Task { await addToCalendar() } }
             if let tel = event.telURL {
                 roundButton("phone.fill") { openURL(tel) }
             }

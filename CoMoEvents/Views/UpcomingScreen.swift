@@ -3,6 +3,7 @@ import SwiftUI
 struct UpcomingScreen: View {
     @EnvironmentObject var store: EventStore
     @EnvironmentObject var account: AccountManager
+    @EnvironmentObject var router: Router
     @State private var search = ""
     @State private var categories: Set<Category> = []
 
@@ -19,6 +20,9 @@ struct UpcomingScreen: View {
             .navigationTitle("Upcoming")
             .searchable(text: $search, prompt: "Search events or venues")
             .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button { router.showSubmit = true } label: { Image(systemName: "plus.circle.fill") }.accessibilityLabel("Post an event")
+                }
                 ToolbarItem(placement: .topBarTrailing) {
                     if store.isRefreshing { ProgressView() } else {
                         Button { Task { await store.refresh() } } label: { Image(systemName: "arrow.clockwise") }

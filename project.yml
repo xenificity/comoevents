@@ -10,8 +10,8 @@ settings:
     SWIFT_VERSION: "5.0"
     DEVELOPMENT_TEAM: TU583LSD8W
     CODE_SIGN_STYLE: Automatic
-    MARKETING_VERSION: "1.0.0"
-    CURRENT_PROJECT_VERSION: "1"
+    MARKETING_VERSION: "1.1.0"
+    CURRENT_PROJECT_VERSION: "2"
 targets:
   CoMoEvents:
     type: application
@@ -42,6 +42,10 @@ targets:
         LSApplicationCategoryType: public.app-category.lifestyle
         NSLocationWhenInUseUsageDescription: CoMo Events shows events near you on the map. Your location never leaves your phone.
         LSApplicationQueriesSchemes: [tel, maps]
+        NSCalendarsWriteOnlyAccessUsageDescription: CoMo Events adds the event you chose to your calendar. It never reads your calendar.
+        CFBundleURLTypes:
+          - CFBundleURLName: com.xenificity.comoevents
+            CFBundleURLSchemes: [comoevents]
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.xenificity.comoevents

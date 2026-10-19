@@ -5,6 +5,13 @@ import SwiftUI
 @MainActor
 final class EventStore: ObservableObject {
     @Published private(set) var events: [Event] = []
+    private var feedEvents: [Event] = []
+    /// Approved community posts, merged into `events`.
+    var communityEvents: [Event] = [] { didSet { recombine() } }
+    private func recombine() {
+        let ids = Set(feedEvents.map(\.id))
+        events = (feedEvents + communityEvents.filter { !ids.contains($0.id) }).sorted { $0.startDate < $1.startDate }
+    }
     @Published private(set) var generatedAt: Date?
     @Published private(set) var isRefreshing = false
     @Published private(set) var lastError: String?
@@ -72,8 +79,10 @@ final class EventStore: ObservableObject {
             // Only replace if the new feed is at least as fresh.
             let newDate = Event.parse(feed.generatedAt)
             if let newDate, let old = generatedAt, newDate < old { return }
-            events = feed.events.sorted { $0.startDate < $1.startDate }
+            feedEvents = feed.events
             generatedAt = newDate
+            recombine()
+            FeedCache.save(data)
         } catch {
             lastError = "Could not read the feed: \(error.localizedDescription)"
         }

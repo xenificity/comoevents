@@ -92,6 +92,22 @@ map symbol and colour (see `Category` in `Models/Event.swift`); the legend row o
 `audience` is a list drawn from singles / couples / groups / family, set by keyword rules in
 `infer_audience()` with per-category defaults; tune the rules there, not in the app.
 
+## Features added in 1.1
+
+- **Notifications** (local only): a reminder one hour before each saved event, and a "Tonight in CoMo"
+  digest at 4 PM built from the cached feed. Toggles in Profile. `Support/NotificationService.swift`.
+- **Share**: a 1080×1080 card (ImageRenderer) plus text and link through the system share sheet.
+- **Add to Calendar**: Apple's event editor prefilled; write-only calendar access.
+- **Post an event**: anyone with iCloud on their phone can submit; it lands as `pending` in the public
+  CloudKit database (`SubmittedEvent`) and shows after a moderator sets `status = approved`. Posts can be
+  reported (`Report` records). Moderators: add the iCloud user to the `Moderator` security role in
+  CloudKit Console, and put their record name in `CommunityStore.moderators` to see the in-app queue.
+- **Friends**: opt-in `FriendProfile` record with a 6-letter code; add friends by code; "X is going"
+  on event details and a Friends tab listing friends' upcoming saves (only if they turned sharing on).
+- **Siri / Spotlight**: App Shortcuts "What's happening in CoMo Events tonight" and "Open the CoMo
+  Events map"; every upcoming event is indexed in Spotlight and opens the detail. URL scheme
+  `comoevents://event/<id>`, `comoevents://map`, `comoevents://submit`, `comoevents://friends`.
+
 ## Accounts and profiles
 
 Optional. The app works fully without signing in. The Profile tab offers **Sign in with Apple**;

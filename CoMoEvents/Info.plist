@@ -18,6 +18,17 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.xenificity.comoevents</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>comoevents</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
@@ -29,6 +40,8 @@
 		<string>tel</string>
 		<string>maps</string>
 	</array>
+	<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
+	<string>CoMo Events adds the event you chose to your calendar. It never reads your calendar.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>CoMo Events shows events near you on the map. Your location never leaves your phone.</string>
 	<key>UILaunchScreen</key>
