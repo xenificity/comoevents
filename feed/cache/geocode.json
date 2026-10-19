@@ -50,6 +50,11 @@
   "lng": -92.3247579,
   "name": null
  },
+ "111 e broadway, columbia, mo": {
+  "lat": 38.9517349,
+  "lng": -92.3360254,
+  "name": null
+ },
  "111f townsend grad hub university of missouri columbia missouri united states, columbia, mo": null,
  "114a ellis library university of missouri columbia missouri united states, columbia, mo": null,
  "1201 rollins street columbia, mo 65201": {
@@ -134,6 +139,11 @@
   "lng": -92.372874,
   "name": null
  },
+ "2525 n stadium blvd, columbia, mo columbia, mo 65202": {
+  "lat": 38.9813192,
+  "lng": -92.3746347,
+  "name": null
+ },
  "2804 forum blvd, #1, columbia, mo": null,
  "29 s 10th st columbia, mo 65201": {
   "lat": 38.9506349,
@@ -160,6 +170,26 @@
   "lng": -92.3421756,
   "name": "Rusk Rehabilitation Hospital"
  },
+ "3301 w broadway columbia, mo columbia, mo 65203": {
+  "lat": 38.9551665,
+  "lng": -92.3852221,
+  "name": null
+ },
+ "3301 west broadway columbia, mo columbia, mo 65203": {
+  "lat": 38.9551665,
+  "lng": -92.3852221,
+  "name": null
+ },
+ "3711 discovery parkway columbia, mo 65201": {
+  "lat": 38.893966,
+  "lng": -92.2844374,
+  "name": null
+ },
+ "3711 discovery parkway, columbia, mo": {
+  "lat": 38.893966,
+  "lng": -92.2844374,
+  "name": null
+ },
  "3801 ponderosa st columbia, mo 65201": {
   "lat": 38.9078037,
   "lng": -92.2934276,
@@ -181,16 +211,27 @@
   "lng": -92.3311145,
   "name": "Living Canvas Tattoo & Body Piercing"
  },
+ "5400 s sinclair rd, columbia, mo": {
+  "lat": 38.8921111,
+  "lng": -92.372988,
+  "name": null
+ },
  "5900 e log providence rd columbia, mo 65201": {
   "lat": 38.8309632,
   "lng": -92.2514616,
   "name": "Lakeside Ashland"
+ },
+ "602 n ann st, columbia, mo": {
+  "lat": 38.957598,
+  "lng": -92.3142719,
+  "name": null
  },
  "605 elm st columbia, mo 65201": {
   "lat": 38.9488319,
   "lng": -92.3303585,
   "name": "Center for Missouri Studies"
  },
+ "6081 w van horn tavern rd, columbia, mo": null,
  "613 e ash st, columbia, mo": {
   "lat": 38.9537143,
   "lng": -92.3304364,
@@ -209,6 +250,11 @@
  "806 locust st, columbia, mo": {
   "lat": 38.9494042,
   "lng": -92.3284561,
+  "name": null
+ },
+ "901 e rollins st, columbia, mo": {
+  "lat": 38.9420895,
+  "lng": -92.3178789,
   "name": null
  },
  "agriculture building 264 university of missouri columbia missouri united states, columbia, mo": null,
@@ -289,6 +335,7 @@
  "rji palmer 100 jschool  columbia mo, columbia, mo": null,
  "rocheport merchants, columbia, mo": null,
  "schnucks parking lot · 5410 clark lane, columbia, columbia, mo": null,
+ "scouting adventure center, columbia, mo": null,
  "security bank parking lot · 101 e. walnut st., auxvasse, columbia, mo": null,
  "security bank parking lot · 101 e. walnut st., columbia, mo": null,
  "sinclair school of nursing lobby university of missouri columbia missouri united states, columbia, mo": null,
