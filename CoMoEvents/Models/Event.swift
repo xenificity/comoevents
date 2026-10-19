@@ -26,6 +26,8 @@ struct Event: Codable, Identifiable, Hashable {
     let organizer: String?
     let alsoOn: [String]?
     let audience: [String]
+    /// iCloud user record name of the poster, community posts only. Used for blocking.
+    var submitterID: String? = nil
 
     // Parsed once at decode time; not part of the JSON.
     private(set) var startDate: Date = .distantPast
@@ -67,7 +69,8 @@ struct Event: Codable, Identifiable, Hashable {
     /// Memberwise init for events that don't come from the JSON feed (community submissions).
     init(id: String, source: String, sourceName: String, title: String, start: Date, end: Date?, allDay: Bool = false,
          venue: String?, address: String?, lat: Double?, lng: Double?, url: String?, ticketUrl: String? = nil, phone: String? = nil,
-         price: String?, category: String, imageUrl: String? = nil, description: String?, organizer: String?, audience: [String] = []) {
+         price: String?, category: String, imageUrl: String? = nil, description: String?, organizer: String?, audience: [String] = [],
+         submitterID: String? = nil) {
         self.id = id; self.source = source; self.sourceName = sourceName; self.title = title
         let f = ISO8601DateFormatter(); f.formatOptions = [.withInternetDateTime]
         self.start = f.string(from: start); self.end = end.map { f.string(from: $0) }
@@ -76,6 +79,7 @@ struct Event: Codable, Identifiable, Hashable {
         self.url = url; self.ticketUrl = ticketUrl; self.phone = phone; self.price = price
         self.category = category; self.imageUrl = imageUrl; self.description = description; self.organizer = organizer
         self.alsoOn = nil; self.audience = audience
+        self.submitterID = submitterID
         self.startDate = start; self.endDate = end
     }
 

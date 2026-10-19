@@ -12,6 +12,8 @@ struct EventDetailView: View {
     @State private var calendarDenied = false
     @State private var reportSheet = false
     @State private var reportMessage: String?
+    @State private var confirmBlock = false
+    @Environment(\.dismiss) private var dismissView
 
     var body: some View {
         ZStack {
@@ -81,6 +83,9 @@ struct EventDetailView: View {
                     Button { Task { await addToCalendar() } } label: { Label("Add to Calendar", systemImage: "calendar.badge.plus") }
                     if event.isCommunity {
                         Button(role: .destructive) { reportSheet = true } label: { Label("Report this post", systemImage: "flag") }
+                        if event.submitterID != nil {
+                            Button(role: .destructive) { confirmBlock = true } label: { Label("Block this poster", systemImage: "hand.raised") }
+                        }
                     }
                 } label: {
                     Image(systemName: "ellipsis").font(.system(size: 16, weight: .bold)).frame(width: 36, height: 36).glass(Circle(), interactive: true)
@@ -101,6 +106,14 @@ struct EventDetailView: View {
             }
         }
         .alert("Report", isPresented: Binding(get: { reportMessage != nil }, set: { if !$0 { reportMessage = nil } })) { Button("OK") {} } message: { Text(reportMessage ?? "") }
+        .confirmationDialog("Block this poster?", isPresented: $confirmBlock, titleVisibility: .visible) {
+            Button("Block and hide their posts", role: .destructive) {
+                community.block(submitterOf: event)
+                store.communityEvents = community.approved
+                Task { _ = await community.report(event, reason: "Blocked by a user") }
+                dismissView()
+            }
+        } message: { Text("You won't see anything this person posts. A report is also sent to the moderator.") }
     }
 
     private func share() {

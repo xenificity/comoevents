@@ -110,6 +110,19 @@ map symbol and colour (see `Category` in `Models/Event.swift`); the legend row o
   Events map"; every upcoming event is indexed in Spotlight and opens the detail. URL scheme
   `comoevents://event/<id>`, `comoevents://map`, `comoevents://submit`, `comoevents://friends`.
 
+## App Review compliance notes (guideline 1.2 and friends)
+
+The community features make this a user-generated-content app, so the app ships the four things
+guideline 1.2 asks for: a word filter at post time (`Support/ContentFilter.swift`) plus human
+pre-moderation; Report on posts and friend profiles (three reports auto-hide a post); Block for
+posters and friends; and contact info in Profile › Help & contact and on the website
+(`docs/guidelines.html`). There are no hidden or undocumented features (2.5.19): moderators are
+hardcoded, nothing is unlocked by gestures.
+
+Before submitting 1.1.x to the App Store: set the age-rating answer "User-Generated Content" to Yes,
+and update App Privacy to declare "User Content" (post text, display name) collected for app
+functionality, not linked to identity, no tracking, since posts live in the public CloudKit database.
+
 ## Accounts and profiles
 
 Optional. The app works fully without signing in. The Profile tab offers **Sign in with Apple**;

@@ -32,8 +32,14 @@ struct SubmitEventView: View {
                 } header: { Text("Details") }
                 Section {
                     TextField("Your name or organization", text: $draft.submitterName)
-                } header: { Text("Posted by") } footer: {
-                    Text("Posts are checked by a human before they appear, usually within a day. No spam, no private parties, nothing illegal. Posts can be reported and removed.")
+                } header: { Text("Posted by") }
+                Section {
+                    Toggle(isOn: $draft.agreedToGuidelines) {
+                        Text("I agree to the community guidelines").font(.subheadline.weight(.semibold))
+                    }.tint(Theme.gold)
+                    Link("Read the guidelines", destination: URL(string: "https://xenificity.github.io/comoevents/guidelines.html")!).font(.subheadline)
+                } footer: {
+                    Text("Public events only. No spam, no hate, no adult content, no private parties, nothing illegal. A moderator checks every post before it appears, usually within a day. Posts can be reported, hidden and removed, and repeat offenders are blocked. Questions: xenificity@icloud.com")
                 }
             }
             .navigationTitle("Post an event")
@@ -43,7 +49,7 @@ struct SubmitEventView: View {
                 ToolbarItem(placement: .confirmationAction) {
                     if sending { ProgressView() } else {
                         Button("Post") { Task { await post() } }.fontWeight(.bold)
-                            .disabled(draft.title.count < 3)
+                            .disabled(draft.title.count < 3 || !draft.agreedToGuidelines)
                     }
                 }
             }

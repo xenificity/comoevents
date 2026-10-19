@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		094C71D4E8AA18D776247297 /* CoMoIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E478B8685E6E1B7E9DEB722 /* CoMoIntents.swift */; };
 		1EED7452FBE1A04A7522DB48 /* ShareAndCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED89341A39084952FECB9CA /* ShareAndCalendar.swift */; };
+		1EEE651D130BE15BFA136099 /* ContentFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB57E9BB840EDE45833BC510 /* ContentFilter.swift */; };
 		20B41AEB72069FAB1DCB3E2C /* Hotspot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13C07CB447BF6803BD94112 /* Hotspot.swift */; };
 		23CA5479B528AD472593369A /* AudienceBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82203912F9820B437798182F /* AudienceBar.swift */; };
 		27E9FA7DB20A074B3AFC2268 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37AC286171D31A11C304AE /* AccountManager.swift */; };
@@ -63,6 +64,7 @@
 		890E1F509799AC7B5B9F9587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A6770C54F38582069D268B2 /* SpotlightIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightIndexer.swift; sourceTree = "<group>"; };
 		9D084E4854C1F7B5CC4594C0 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		AB57E9BB840EDE45833BC510 /* ContentFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentFilter.swift; sourceTree = "<group>"; };
 		AC5BC8F47418CC9EB86E8A42 /* TimeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWindow.swift; sourceTree = "<group>"; };
 		B83EAA017F2446BC532059B3 /* EventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCard.swift; sourceTree = "<group>"; };
 		BED912DEDB9BE3D2F2ABF127 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				5E37AC286171D31A11C304AE /* AccountManager.swift */,
 				5E0EA88088E79B7E0A40576B /* CommunityStore.swift */,
+				AB57E9BB840EDE45833BC510 /* ContentFilter.swift */,
 				6691C2FA41EA70797F58A89D /* FriendsStore.swift */,
 				466EB52C7EDEB647B64D7BDA /* LocationManager.swift */,
 				F3DDA08FB8045CE557E0A4B1 /* NotificationService.swift */,
@@ -245,6 +248,7 @@
 				B636F1418EB66E64D2809776 /* CoMoEventsApp.swift in Sources */,
 				094C71D4E8AA18D776247297 /* CoMoIntents.swift in Sources */,
 				D27BC47CA1A5C07E589E15D0 /* CommunityStore.swift in Sources */,
+				1EEE651D130BE15BFA136099 /* ContentFilter.swift in Sources */,
 				72DEF17BC34F9BDE77A39DCA /* ContentView.swift in Sources */,
 				7F9E7061CB18ED942217B628 /* Event.swift in Sources */,
 				5E82F4EA33081A9E05666BEF /* EventCard.swift in Sources */,
@@ -308,7 +312,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = TU583LSD8W;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -417,7 +421,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = TU583LSD8W;
 				ENABLE_NS_ASSERTIONS = NO;

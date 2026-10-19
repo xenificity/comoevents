@@ -90,7 +90,11 @@ struct FriendsScreen: View {
                             Text(f.sharing ? "\(going.count) upcoming saved" : "Not sharing saves").font(.caption).foregroundStyle(.secondary)
                         }
                         Spacer()
-                        Menu { Button("Remove", role: .destructive) { friends.remove(f) } } label: { Image(systemName: "ellipsis.circle").foregroundStyle(.secondary) }
+                        Menu {
+                            Button("Remove") { friends.remove(f) }
+                            Button("Report name", role: .destructive) { Task { message = (await friends.report(f, reason: "Offensive or impersonating name")) ?? "Thanks. A moderator will take a look." } }
+                            Button("Block", role: .destructive) { friends.block(f) }
+                        } label: { Image(systemName: "ellipsis.circle").foregroundStyle(.secondary) }
                     }
                     ForEach(going.prefix(5)) { e in
                         NavigationLink(value: e) { EventRow(event: e) }.buttonStyle(.plain)

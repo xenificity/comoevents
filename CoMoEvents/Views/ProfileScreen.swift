@@ -26,6 +26,7 @@ struct ProfileScreen: View {
                         communityCard
                         savedCard
                         if account.isSignedIn { accountCard }
+                        supportCard
                         idCard
                     }
                     .padding(16)
@@ -203,6 +204,30 @@ struct ProfileScreen: View {
         .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
     }
 
+    private var supportCard: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text("Help & contact").font(.headline)
+            Link(destination: URL(string: "mailto:xenificity@icloud.com?subject=CoMo%20Events")!) {
+                Label("Email us: xenificity@icloud.com", systemImage: "envelope").frame(maxWidth: .infinity, alignment: .leading)
+            }
+            Link(destination: URL(string: "https://xenificity.github.io/comoevents/guidelines.html")!) {
+                Label("Community guidelines", systemImage: "checkmark.shield").frame(maxWidth: .infinity, alignment: .leading)
+            }
+            Link(destination: URL(string: "https://xenificity.github.io/comoevents/privacy.html")!) {
+                Label("Privacy policy", systemImage: "lock").frame(maxWidth: .infinity, alignment: .leading)
+            }
+            if !community.blockedSubmitters.isEmpty {
+                Button { community.unblockAll(); store.communityEvents = community.approved } label: {
+                    Label("Unblock \(community.blockedSubmitters.count) blocked poster\(community.blockedSubmitters.count == 1 ? "" : "s")", systemImage: "hand.raised.slash").frame(maxWidth: .infinity, alignment: .leading)
+                }
+            }
+            Text("Reports are read by a person, usually the same day. Blocking hides someone's posts for you right away.").font(.caption2).foregroundStyle(.secondary)
+        }
+        .font(.subheadline)
+        .padding(16).frame(maxWidth: .infinity, alignment: .leading)
+        .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
+    }
+
     private var idCard: some View {
         HStack {
             VStack(alignment: .leading, spacing: 2) {
@@ -216,7 +241,6 @@ struct ProfileScreen: View {
         }
         .padding(14)
         .glass(RoundedRectangle(cornerRadius: 18, style: .continuous))
-        .onTapGesture(count: 5) { UserDefaults.standard.set(!UserDefaults.standard.bool(forKey: "moderator.override"), forKey: "moderator.override"); community.objectWillChange.send() }
     }
 
     private var savedCard: some View {

@@ -61,7 +61,7 @@ final class FriendsStore: ObservableObject {
     func publish() async {
         guard enabled, let rid = myRecordID else { return }
         let rec = (try? await db.record(for: rid)) ?? CKRecord(recordType: "FriendProfile", recordID: rid)
-        rec["displayName"] = (displayName.isEmpty ? "A CoMo Events user" : displayName) as CKRecordValue
+        rec["displayName"] = ContentFilter.safeName(displayName) as CKRecordValue
         rec["code"] = (myCode ?? "") as CKRecordValue
         rec["sharing"] = (shareSaves ? 1 : 0) as CKRecordValue
         rec["favorites"] = (shareSaves ? favorites : []) as CKRecordValue
@@ -76,6 +76,7 @@ final class FriendsStore: ObservableObject {
         do {
             let (results, _) = try await db.records(matching: CKQuery(recordType: "FriendProfile", predicate: NSPredicate(format: "code == %@", code)), resultsLimit: 1)
             guard let rec = results.compactMap({ try? $0.1.get() }).first else { return "No one has that code yet." }
+            if blockedIDs.contains(rec.recordID.recordName) { return "You blocked this person." }
             var ids = friendIDs
             if !ids.contains(rec.recordID.recordName) { ids.append(rec.recordID.recordName); friendIDs = ids }
             await refresh()
@@ -88,6 +89,20 @@ final class FriendsStore: ObservableObject {
         friends.removeAll { $0.id == f.id }
     }
 
+    /// Block: removes and refuses future adds of this profile (guideline 1.2).
+    private var blockedIDs: [String] { get { UserDefaults.standard.stringArray(forKey: "friends.blocked") ?? [] } set { UserDefaults.standard.set(newValue, forKey: "friends.blocked") } }
+    func block(_ f: Friend) {
+        remove(f)
+        if !blockedIDs.contains(f.id) { blockedIDs.append(f.id) }
+    }
+    func report(_ f: Friend, reason: String) async -> String? {
+        let r = CKRecord(recordType: "Report")
+        r["eventRecordName"] = f.id as CKRecordValue
+        r["reason"] = "friend profile: \(reason)" as CKRecordValue
+        r["reporterID"] = (userRecordName ?? "anonymous") as CKRecordValue
+        do { _ = try await db.save(r); return nil } catch { return error.localizedDescription }
+    }
+
     func refresh() async {
         let ids = friendIDs.map { CKRecord.ID(recordName: $0) }
         guard !ids.isEmpty else { friends = []; return }
@@ -95,7 +110,7 @@ final class FriendsStore: ObservableObject {
             let results = try await db.records(for: ids)
             friends = ids.compactMap { id in
                 guard let r = try? results[id]?.get() else { return nil }
-                return Friend(id: id.recordName, name: r["displayName"] as? String ?? "Friend", code: r["code"] as? String ?? "",
+                return Friend(id: id.recordName, name: ContentFilter.safeName(r["displayName"] as? String ?? "", fallback: "Friend"), code: r["code"] as? String ?? "",
                               favorites: r["favorites"] as? [String] ?? [], sharing: (r["sharing"] as? Int64 ?? 0) == 1)
             }
         } catch { lastError = error.localizedDescription }

@@ -15,7 +15,21 @@ final class CommunityStore: ObservableObject {
 
     /// Moderators: iCloud user record names allowed to approve. Add yours here (shown in Profile › Account).
     static let moderators: Set<String> = ["_c8e8240fd2a875267839a35bf9779b30v"]
-    var isModerator: Bool { userRecordName.map { Self.moderators.contains($0) || UserDefaults.standard.bool(forKey: "moderator.override") } ?? false }
+    var isModerator: Bool { userRecordName.map { Self.moderators.contains($0) } ?? false }
+
+    /// Posters this user has blocked (guideline 1.2). Kept on device.
+    @Published private(set) var blockedSubmitters: Set<String> = Set(UserDefaults.standard.stringArray(forKey: "community.blocked") ?? [])
+    func block(submitterOf event: Event) {
+        guard let id = event.submitterID, !id.isEmpty else { return }
+        blockedSubmitters.insert(id)
+        UserDefaults.standard.set(Array(blockedSubmitters), forKey: "community.blocked")
+        approved.removeAll { $0.submitterID == id }
+    }
+    func unblockAll() {
+        blockedSubmitters = []
+        UserDefaults.standard.removeObject(forKey: "community.blocked")
+        Task { await loadApproved() }
+    }
 
     private lazy var container = CKContainer(identifier: AccountManager.containerID)
     private var db: CKDatabase { container.publicCloudDatabase }
@@ -67,6 +81,7 @@ final class CommunityStore: ObservableObject {
         let recs = await fetchUpcoming()
         approved = recs.filter { decisions[$0.recordID.recordName] == true && reportCounts[$0.recordID.recordName, default: 0] < 3 }
             .compactMap(Self.event(from:))
+            .filter { !blockedSubmitters.contains($0.submitterID ?? "") }
     }
 
     func loadPending() async {
@@ -82,6 +97,7 @@ final class CommunityStore: ObservableObject {
         var start = Calendar.current.date(byAdding: .day, value: 1, to: Date())!.rounded(to: 30)
         var hasEnd = false; var end = Date()
         var venue = ""; var address = ""; var price = ""; var link = ""; var details = ""; var submitterName = ""
+        var agreedToGuidelines = false
     }
 
     /// Geocodes the address on device, then saves a pending record. Returns an error message or nil.
@@ -89,6 +105,10 @@ final class CommunityStore: ObservableObject {
         guard iCloudAvailable else { return "Posting needs iCloud signed in on this iPhone (Settings › your name)." }
         guard d.title.trimmingCharacters(in: .whitespaces).count >= 3 else { return "Give the event a title." }
         guard !d.venue.isEmpty || !d.address.isEmpty else { return "Where is it? Add a venue or an address." }
+        guard d.agreedToGuidelines else { return "Please agree to the community guidelines first." }
+        for text in [d.title, d.details, d.venue, d.submitterName, d.link] {
+            if let bad = ContentFilter.offendingTerm(in: text) { return "That post can't go up: it contains \"\(bad)\". Please reword it." }
+        }
         var lat: Double?, lng: Double?
         let query = [d.venue, d.address, "Columbia, MO"].filter { !$0.isEmpty }.joined(separator: ", ")
         if let pm = try? await CLGeocoder().geocodeAddressString(query).first, let loc = pm.location {
@@ -151,8 +171,9 @@ final class CommunityStore: ObservableObject {
                      price: (r["price"] as? String).flatMap { $0.isEmpty ? nil : $0 },
                      category: r["category"] as? String ?? "community",
                      description: r["details"] as? String,
-                     organizer: name.map { "Posted by \($0)" },
-                     audience: ["groups", "singles", "couples", "family"])
+                     organizer: name.map { "Posted by \(ContentFilter.safeName($0, fallback: "a community member"))" },
+                     audience: ["groups", "singles", "couples", "family"],
+                     submitterID: r["submitterID"] as? String)
     }
 }
 
