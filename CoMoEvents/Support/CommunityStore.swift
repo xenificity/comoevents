@@ -14,7 +14,7 @@ final class CommunityStore: ObservableObject {
     @Published var lastError: String?
 
     /// Moderators: iCloud user record names allowed to approve. Add yours here (shown in Profile › Account).
-    static let moderators: Set<String> = []
+    static let moderators: Set<String> = ["_c8e8240fd2a875267839a35bf9779b30v"]
     var isModerator: Bool { userRecordName.map { Self.moderators.contains($0) || UserDefaults.standard.bool(forKey: "moderator.override") } ?? false }
 
     private lazy var container = CKContainer(identifier: AccountManager.containerID)
