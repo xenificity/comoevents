@@ -48,23 +48,32 @@ struct EventList: View {
     let events: [Event]
     var emptyText: String = "No events."
 
+    // A plain ScrollView + LazyVStack instead of List: List's self-sizing collection-view cells
+    // cost ~25 ms each during the sheet animation (seen as a 373 ms hang on device).
     var body: some View {
         let groups = store.groupedByDay(events)
-        List {
-            if events.isEmpty {
-                ContentUnavailableView(emptyText, systemImage: "calendar.badge.exclamationmark")
-                    .listRowSeparator(.hidden)
-            }
-            ForEach(groups, id: \.day) { g in
-                Section(EventList.header(for: g.day)) {
-                    ForEach(g.events) { e in
-                        NavigationLink(value: e) { EventRow(event: e) }
+        ScrollView {
+            LazyVStack(alignment: .leading, spacing: 0, pinnedViews: .sectionHeaders) {
+                if events.isEmpty {
+                    ContentUnavailableView(emptyText, systemImage: "calendar.badge.exclamationmark").padding(.top, 40)
+                }
+                ForEach(groups, id: \.day) { g in
+                    Section {
+                        ForEach(g.events) { e in
+                            NavigationLink(value: e) { EventRow(event: e).padding(.horizontal, 16).padding(.vertical, 6) }
+                                .buttonStyle(.plain)
+                            Divider().padding(.leading, 84)
+                        }
+                    } header: {
+                        Text(EventList.header(for: g.day))
+                            .font(.footnote.weight(.bold)).foregroundStyle(.secondary)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.horizontal, 16).padding(.vertical, 8)
+                            .background(.ultraThinMaterial)
                     }
                 }
             }
         }
-        .listStyle(.plain)
-        .scrollContentBackground(.hidden)
         .navigationDestination(for: Event.self) { EventDetailView(event: $0) }
     }
 
