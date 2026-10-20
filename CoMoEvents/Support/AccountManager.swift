@@ -116,7 +116,19 @@ final class AccountManager: ObservableObject {
             sync = .synced(Date())   // first device: nothing in the cloud yet
             await push()
         } catch {
-            sync = .failed(error.localizedDescription)
+            sync = .failed(Self.friendly(error))
+        }
+    }
+
+    /// CloudKit's own messages are record dumps; the profile is always safe on the phone, so say that.
+    static func friendly(_ error: Error) -> String {
+        let code = (error as? CKError)?.code
+        switch code {
+        case .quotaExceeded: return "Your iCloud storage is full, so the profile is saved on this phone only."
+        case .networkUnavailable, .networkFailure, .serviceUnavailable, .requestRateLimited, .zoneBusy:
+            return "iCloud is unreachable right now. Your profile is saved on this phone and will sync later."
+        case .notAuthenticated: return "iCloud is signed out on this iPhone, so the profile stays on this phone."
+        default: return "Could not sync with iCloud. Your profile is saved on this phone."
         }
     }
 
@@ -143,7 +155,7 @@ final class AccountManager: ObservableObject {
             _ = try await db.save(rec)
             sync = .synced(Date())
         } catch {
-            sync = .failed(error.localizedDescription)
+            sync = .failed(Self.friendly(error))
         }
     }
 

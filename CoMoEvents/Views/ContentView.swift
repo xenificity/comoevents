@@ -16,6 +16,7 @@ struct ContentView: View {
             ProfileScreen().tabItem { Label("Profile", systemImage: "person.crop.circle.fill") }.tag(AppTab.profile)
         }
         .tint(Theme.gold)
+        .onAppear { SoundPlayer.shared.play(.welcome) }
         .onChange(of: store.favorites.count) { old, new in askForRatingIfDue(old: old, new: new) }
         .sheet(isPresented: $router.showSubmit) { SubmitEventView() }
         .sheet(item: Binding(get: { router.pendingEventID.flatMap { id in store.events.first { $0.id == id } } },

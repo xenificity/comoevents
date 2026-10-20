@@ -44,14 +44,13 @@ final class EventStore: ObservableObject {
     func loadIfNeeded() async {
         guard !loaded else { return }
         loaded = true
-        loadBundled()
+        await loadBundled()
         await refresh()
     }
 
-    private func loadBundled() {
-        guard let url = Bundle.main.url(forResource: "events", withExtension: "json"),
-              let data = try? Data(contentsOf: url) else { return }
-        apply(data)
+    private func loadBundled() async {
+        guard let url = Bundle.main.url(forResource: "events", withExtension: "json") else { return }
+        if let (feed, data) = await Self.decode(from: url) { apply(feed, data: data) }
     }
 
     func refresh() async {
@@ -66,40 +65,51 @@ final class EventStore: ObservableObject {
                 lastError = "Live feed not published yet; showing the bundled snapshot."
                 return
             }
-            apply(data)
+            guard let feed = await Self.decode(data) else {
+                lastError = "Could not read the live feed; showing the last saved events."
+                return
+            }
+            apply(feed, data: data)
             lastError = nil
         } catch {
             lastError = "Offline; showing the last saved events."
         }
     }
 
-    private func apply(_ data: Data) {
-        do {
-            let feed = try JSONDecoder().decode(Feed.self, from: data)
-            // Only replace if the new feed is at least as fresh.
-            let newDate = Event.parse(feed.generatedAt)
-            if let newDate, let old = generatedAt, newDate < old { return }
-            feedEvents = feed.events
-            generatedAt = newDate
-            recombine()
-            FeedCache.save(data)
-        } catch {
-            lastError = "Could not read the feed: \(error.localizedDescription)"
-        }
+    /// JSON decoding of ~1,000 events takes a noticeable slice of a second; keep it off the main thread.
+    nonisolated private static func decode(_ data: Data) async -> Feed? {
+        await Task.detached(priority: .userInitiated) { try? JSONDecoder().decode(Feed.self, from: data) }.value
+    }
+    nonisolated private static func decode(from url: URL) async -> (Feed, Data)? {
+        await Task.detached(priority: .userInitiated) {
+            guard let data = try? Data(contentsOf: url), let feed = try? JSONDecoder().decode(Feed.self, from: data) else { return nil }
+            return (feed, data)
+        }.value
+    }
+
+    private func apply(_ feed: Feed, data: Data) {
+        // Only replace if the new feed is at least as fresh.
+        let newDate = Event.parse(feed.generatedAt)
+        if let newDate, let old = generatedAt, newDate < old { return }
+        feedEvents = feed.events
+        generatedAt = newDate
+        recombine()
+        FeedCache.save(data)
     }
 
     // MARK: favorites
     func isFavorite(_ e: Event) -> Bool { favorites.contains(e.id) }
     func toggleFavorite(_ e: Event) {
-        if favorites.contains(e.id) { favorites.remove(e.id) } else { favorites.insert(e.id) }
+        if favorites.contains(e.id) { favorites.remove(e.id) } else { favorites.insert(e.id); SoundPlayer.shared.play(.favorite) }
     }
     var favoriteEvents: [Event] { events.filter { favorites.contains($0.id) } }
 
     // MARK: queries
     func events(in window: TimeWindow, categories: Set<Category> = [], search: String = "", audience: Audience? = nil) -> [Event] {
         let q = search.trimmingCharacters(in: .whitespaces).lowercased()
+        let now = Date()
         return events.filter { e in
-            window.contains(e)
+            window.contains(e, now: now)
             && e.suits(audience)
             && e.belongs(to: categories)
             && (q.isEmpty || e.title.lowercased().contains(q) || (e.venue ?? "").lowercased().contains(q))
@@ -115,9 +125,9 @@ final class EventStore: ObservableObject {
         return groups.keys.sorted().map { ($0, groups[$0]!.sorted { $0.startDate < $1.startDate }) }
     }
 
+    private static let relative: RelativeDateTimeFormatter = { let f = RelativeDateTimeFormatter(); f.unitsStyle = .short; return f }()
     var updatedText: String {
         guard let generatedAt else { return "" }
-        let f = RelativeDateTimeFormatter(); f.unitsStyle = .short
-        return "Updated " + f.localizedString(for: generatedAt, relativeTo: Date())
+        return "Updated " + Self.relative.localizedString(for: generatedAt, relativeTo: Date())
     }
 }

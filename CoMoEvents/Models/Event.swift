@@ -34,6 +34,8 @@ struct Event: Codable, Identifiable, Hashable {
     // Parsed once at decode time; not part of the JSON.
     private(set) var startDate: Date = .distantPast
     private(set) var endDate: Date? = nil
+    /// Every category this event belongs to, primary first. Resolved once; filters call this a lot.
+    private(set) var kinds: [Category] = []
 
     enum CodingKeys: String, CodingKey {
         case id, source, sourceName, title, start, end, allDay, timeTBD, venue, address, lat, lng
@@ -68,6 +70,7 @@ struct Event: Codable, Identifiable, Hashable {
         categories = extra.isEmpty ? [category] : (extra.contains(category) ? extra : [category] + extra)
         startDate = Event.parse(start) ?? .distantPast
         endDate = end.flatMap(Event.parse)
+        kinds = categories.compactMap(Category.init(rawValue:))
     }
 
     /// Memberwise init for events that don't come from the JSON feed (community submissions).
@@ -86,6 +89,7 @@ struct Event: Codable, Identifiable, Hashable {
         self.alsoOn = nil; self.audience = audience
         self.submitterID = submitterID
         self.startDate = start; self.endDate = end
+        self.kinds = self.categories.compactMap(Category.init(rawValue:))
     }
 
     var isCommunity: Bool { source == "community" }
@@ -122,9 +126,7 @@ struct Event: Codable, Identifiable, Hashable {
         return startDate <= now && effectiveEnd >= now
     }
 
-    var kind: Category { Category(rawValue: category) ?? .community }
-    /// Every category this event belongs to, primary first.
-    var kinds: [Category] { categories.compactMap(Category.init(rawValue:)) }
+    var kind: Category { kinds.first ?? .community }
     func belongs(to set: Set<Category>) -> Bool { set.isEmpty || kinds.contains { set.contains($0) } }
     var audiences: [Audience] { audience.compactMap(Audience.init(rawValue:)) }
     func suits(_ a: Audience?) -> Bool { a == nil || audience.contains(a!.rawValue) }

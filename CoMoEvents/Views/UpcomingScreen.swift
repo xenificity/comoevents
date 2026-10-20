@@ -6,8 +6,18 @@ struct UpcomingScreen: View {
     @EnvironmentObject var router: Router
     @State private var search = ""
     @State private var categories: Set<Category> = []
+    // Cached: filtering the whole feed on every keystroke redraw was a visible hang.
+    @State private var list: [Event] = []
+    @State private var picks: [Event] = []
 
-    private var list: [Event] { store.events(in: .all, categories: categories, search: search, audience: store.audience) }
+    private var inputs: String {
+        "\(search)|\(categories.map(\.rawValue).sorted().joined())|\(store.audience?.rawValue ?? "")|\(store.events.count)|\(store.generatedAt?.timeIntervalSince1970 ?? 0)|\(account.profile.interests.sorted().joined())"
+    }
+    private func recompute() {
+        list = store.events(in: .all, categories: categories, search: search, audience: store.audience)
+        let interests = account.profile.interestSet
+        picks = interests.isEmpty ? [] : Array(store.events(in: .week, categories: interests, audience: store.audience).prefix(10))
+    }
 
     var body: some View {
         NavigationStack {
@@ -19,6 +29,8 @@ struct UpcomingScreen: View {
             }
             .navigationTitle("Upcoming")
             .searchable(text: $search, prompt: "Search events or venues")
+            .onAppear { recompute() }
+            .onChange(of: inputs) { _, _ in recompute() }
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Menu {
@@ -45,8 +57,6 @@ struct UpcomingScreen: View {
 
     /// Events in the next week that match the profile's interests. Hidden when there are no interests.
     @ViewBuilder private var forYou: some View {
-        let interests = account.profile.interestSet
-        let picks = interests.isEmpty ? [] : Array(store.events(in: .week, categories: interests, audience: store.audience).prefix(10))
         if !picks.isEmpty && search.isEmpty && categories.isEmpty {
             VStack(alignment: .leading, spacing: 8) {
                 HStack(spacing: 6) {

@@ -16,13 +16,29 @@ struct MapScreen: View {
     @State private var cameraDistance: Double = 9000
     @State private var categories: Set<Category> = []
 
-    private var visible: [Event] { store.events(in: window, categories: categories, audience: store.audience) }
+    // Filtering ~1,000 events and clustering them is too much to redo on every redraw (every location
+    // fix, pin tap or friend refresh redraws this screen), so the results are cached and rebuilt only
+    // when an input changes. See `recompute()`.
+    @State private var visible: [Event] = []
+    @State private var hotspots: [Hotspot] = []
+    @State private var nextUp: [Event] = []
+
     /// Cluster cell grows as the camera pulls back, so pins never pile up.
     private var cellDegrees: Double { max(0.0015, 0.0015 * cameraDistance / 1800) }
-    private var hotspots: [Hotspot] { Hotspot.build(from: visible, cellDegrees: cellDegrees) }
-    private var nextUp: [Event] {
-        Array(visible.sorted { a, b in
-            if a.isHappeningNow != b.isHappeningNow { return a.isHappeningNow }
+    /// Everything the cached lists depend on, in one value so a single onChange covers it.
+    private var inputs: String {
+        "\(window.rawValue)|\(categories.map(\.rawValue).sorted().joined())|\(store.audience?.rawValue ?? "")|\(store.events.count)|\(store.generatedAt?.timeIntervalSince1970 ?? 0)|\(String(format: "%.5f", cellDegrees))"
+    }
+
+    private func recompute() {
+        let list = store.events(in: window, categories: categories, audience: store.audience)
+        visible = list
+        hotspots = Hotspot.build(from: list, cellDegrees: cellDegrees)
+        let now = Date()
+        func live(_ e: Event) -> Bool { e.startDate <= now && e.effectiveEnd >= now }
+        nextUp = Array(list.sorted { a, b in
+            let la = live(a), lb = live(b)
+            if la != lb { return la }
             return a.startDate < b.startDate
         }.prefix(12))
     }
@@ -40,7 +56,7 @@ struct MapScreen: View {
                         }
                         Annotation(h.title, coordinate: h.coordinate, anchor: .center) {
                             HotspotPin(hotspot: h, highlighted: selected == h,
-                                       friendsAt: friends.friends(atAny: Set(h.events.map(\.id))))
+                                       friendsAt: friends.friends.isEmpty ? ([], []) : friends.friends(atAny: Set(h.events.map(\.id))))
                                 .onTapGesture {
                                     withAnimation(.snappy) { selected = h }
                                 }
@@ -152,7 +168,9 @@ struct MapScreen: View {
             .onAppear {
                 location.request()
                 if store.events(in: .today).count < 3 { window = .week }
+                recompute()
             }
+            .onChange(of: inputs) { _, _ in recompute() }
         }
     }
 

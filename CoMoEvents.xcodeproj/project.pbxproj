@@ -17,6 +17,7 @@
 		30EC3F9647DD8FE2E67F85BD /* FriendsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6691C2FA41EA70797F58A89D /* FriendsStore.swift */; };
 		4CD21F9DEA95E27D05365E7A /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F839F290D9DD3AB3D1C3C1C /* AppLinks.swift */; };
 		51D69B4D63C571BED44FBDF9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC3F1B8022237EEC7BC0379 /* Router.swift */; };
+		5CD12019CF8062D165327BC4 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD776B73BF8407921FE3E7E4 /* SoundPlayer.swift */; };
 		5CF1840A78AD4CD321B5A655 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F8C85C6DCAD73C800D171D /* MapScreen.swift */; };
 		5E82F4EA33081A9E05666BEF /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EAA017F2446BC532059B3 /* EventCard.swift */; };
 		603E787090EEBD65D3E2BC46 /* AttendanceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B51B69E81EC16E60089C76 /* AttendanceStore.swift */; };
@@ -81,6 +82,7 @@
 		E361E619397E4616B87260CE /* UpcomingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingScreen.swift; sourceTree = "<group>"; };
 		F3DDA08FB8045CE557E0A4B1 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		F3F8C85C6DCAD73C800D171D /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		FD776B73BF8407921FE3E7E4 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -98,6 +100,7 @@
 				F3DDA08FB8045CE557E0A4B1 /* NotificationService.swift */,
 				4FC3F1B8022237EEC7BC0379 /* Router.swift */,
 				7ED89341A39084952FECB9CA /* ShareAndCalendar.swift */,
+				FD776B73BF8407921FE3E7E4 /* SoundPlayer.swift */,
 				8A6770C54F38582069D268B2 /* SpotlightIndexer.swift */,
 				BED912DEDB9BE3D2F2ABF127 /* Theme.swift */,
 			);
@@ -281,6 +284,7 @@
 				51D69B4D63C571BED44FBDF9 /* Router.swift in Sources */,
 				7614AC1DCA958A0203BA6958 /* SavedScreen.swift in Sources */,
 				1EED7452FBE1A04A7522DB48 /* ShareAndCalendar.swift in Sources */,
+				5CD12019CF8062D165327BC4 /* SoundPlayer.swift in Sources */,
 				D4D071D9C6AB594730237C74 /* SpotlightIndexer.swift in Sources */,
 				CB80D98FB626AFF24827FF80 /* SubmitEventView.swift in Sources */,
 				8A50468FBB3116B177E586D3 /* Theme.swift in Sources */,
@@ -328,7 +332,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = TU583LSD8W;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -348,7 +352,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.2.0;
+				MARKETING_VERSION = 1.2.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -437,7 +441,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = TU583LSD8W;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -451,7 +455,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.2.0;
+				MARKETING_VERSION = 1.2.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

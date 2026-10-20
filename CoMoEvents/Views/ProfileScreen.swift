@@ -10,6 +10,7 @@ struct ProfileScreen: View {
     @Environment(\.colorScheme) private var scheme
     @State private var name = ""
     @State private var confirmDelete = false
+    @State private var soundsOn = SoundPlayer.enabled
     @FocusState private var nameFocused: Bool
 
     var body: some View {
@@ -174,6 +175,13 @@ struct ProfileScreen: View {
             if (notifications.remindersOn || notifications.digestOn) && !notifications.authorized {
                 Text("Notifications are off for CoMo Events in Settings.").font(.caption).foregroundStyle(.red)
             }
+            Toggle(isOn: $soundsOn) {
+                VStack(alignment: .leading) {
+                    Text("Sounds").font(.subheadline.weight(.semibold))
+                    Text("A soft chime when the app opens and when you save an event. Follows the silent switch.").font(.caption).foregroundStyle(.secondary)
+                }
+            }.tint(Theme.gold)
+            .onChange(of: soundsOn) { _, on in SoundPlayer.enabled = on; if on { SoundPlayer.shared.play(.favorite) } }
         }
         .padding(16).frame(maxWidth: .infinity, alignment: .leading)
         .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))

@@ -6,7 +6,7 @@ Send as one message from the submission page ("Reply to App Review"), with the s
 
 Hello,
 
-Thank you for the review. The requested information follows. The same text is in the Notes field of App Review Information. The build has been updated to 1.2.0 (5), which adds a few features since 1.0.0; the recording shows this build.
+Thank you for the review. The requested information follows. The same text is in the Notes field of App Review Information. The build has been updated to 1.2.1 (6), which adds a few features and performance fixes since 1.0.0; the recording shows this build.
 
 1. Screen recording: attached. It was captured on a physical iPhone running the current iOS, starting from launch. It shows the map and list, saving an event, Sign in with Apple, profile deletion, posting a community event, and the Report and Block controls on community posts.
 
