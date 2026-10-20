@@ -6,6 +6,8 @@ struct FriendsScreen: View {
     @State private var code = ""
     @State private var message: String?
     @State private var working = false
+    @State private var showContacts = false
+    @State private var smsTargets: [String]?
 
     var body: some View {
         NavigationStack {
@@ -21,6 +23,18 @@ struct FriendsScreen: View {
             .navigationTitle("Friends")
             .refreshable { await friends.refresh() }
             .alert("Friends", isPresented: Binding(get: { message != nil }, set: { if !$0 { message = nil } })) { Button("OK") {} } message: { Text(message ?? "") }
+            .sheet(isPresented: $showContacts) {
+                ContactPicker { targets in
+                    showContacts = false
+                    let phones = targets.filter { !$0.contains("@") }
+                    if !phones.isEmpty, MessageComposer.canSend { smsTargets = phones }
+                    else if !targets.isEmpty { UIPasteboard.general.string = AppLinks.inviteText(friendCode: friends.myCode); message = "Invite text copied. Paste it into a message to \(targets.joined(separator: ", "))." }
+                }
+                .ignoresSafeArea()
+            }
+            .sheet(isPresented: Binding(get: { smsTargets != nil }, set: { if !$0 { smsTargets = nil } })) {
+                if let t = smsTargets { MessageComposer(recipients: t, body: AppLinks.inviteText(friendCode: friends.myCode)).ignoresSafeArea() }
+            }
         }
     }
 
@@ -67,6 +81,13 @@ struct FriendsScreen: View {
 
     /// Invite people who don't have the app yet: install link, plus your code once Friends is on.
     private var inviteButton: some View {
+        VStack(spacing: 10) {
+        Button { showContacts = true } label: {
+            Label("Invite from Contacts", systemImage: "person.crop.circle.badge.plus")
+                .font(.subheadline.weight(.bold)).frame(maxWidth: .infinity).padding(.vertical, 12)
+                .glass(Capsule(), interactive: true)
+        }
+        .buttonStyle(.plain)
         ShareLink(item: AppLinks.inviteText(friendCode: friends.enabled ? friends.myCode : nil)) {
             Label("Invite friends", systemImage: "person.badge.plus")
                 .font(.subheadline.weight(.bold))
@@ -77,6 +98,7 @@ struct FriendsScreen: View {
                 .glass(Capsule(), interactive: true)
         }
         .buttonStyle(.plain)
+        }
     }
 
     private var addCard: some View {

@@ -21,7 +21,10 @@ struct UpcomingScreen: View {
             .searchable(text: $search, prompt: "Search events or venues")
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
-                    Button { router.showSubmit = true } label: { Image(systemName: "plus.circle.fill") }.accessibilityLabel("Post an event")
+                    Menu {
+                        Button { router.showSubmit = true } label: { Label("Post an event", systemImage: "square.and.pencil") }
+                        Button { router.showSubmit = true; router.scanOnOpen = true } label: { Label("Scan a QR code", systemImage: "qrcode.viewfinder") }
+                    } label: { Image(systemName: "plus.circle.fill") }.accessibilityLabel("Post an event")
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     if store.isRefreshing { ProgressView() } else {

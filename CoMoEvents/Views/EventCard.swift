@@ -3,6 +3,7 @@ import SwiftUI
 /// Big image card used in Upcoming and Saved.
 struct EventCard: View {
     @EnvironmentObject var store: EventStore
+    @EnvironmentObject var attendance: AttendanceStore
     let event: Event
 
     var body: some View {
@@ -21,6 +22,12 @@ struct EventCard: View {
                     if let p = event.price {
                         Text(p).font(.caption.weight(.semibold)).foregroundStyle(.white)
                             .padding(.horizontal, 8).padding(.vertical, 4).glass(Capsule())
+                    }
+                    let c = attendance.count(for: event)
+                    if c.going + c.here > 0 {
+                        Label("\(c.going + c.here)", systemImage: c.here > 0 ? "location.fill" : "hand.thumbsup.fill")
+                            .font(.caption.weight(.bold)).foregroundStyle(.white)
+                            .padding(.horizontal, 8).padding(.vertical, 4).glass(Capsule(), tint: c.here > 0 ? .green : nil)
                     }
                     Spacer()
                     HeartButton(event: event)

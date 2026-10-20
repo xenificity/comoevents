@@ -19,6 +19,7 @@
 		51D69B4D63C571BED44FBDF9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC3F1B8022237EEC7BC0379 /* Router.swift */; };
 		5CF1840A78AD4CD321B5A655 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F8C85C6DCAD73C800D171D /* MapScreen.swift */; };
 		5E82F4EA33081A9E05666BEF /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EAA017F2446BC532059B3 /* EventCard.swift */; };
+		603E787090EEBD65D3E2BC46 /* AttendanceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B51B69E81EC16E60089C76 /* AttendanceStore.swift */; };
 		6471606990678C4FBF1058E7 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DA495243C77A50B4BB28 /* EventDetailView.swift */; };
 		68A19BDC7989BA8C4C8FC18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890E1F509799AC7B5B9F9587 /* Assets.xcassets */; };
 		72DEF17BC34F9BDE77A39DCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD31C3A5F062C71645A158A /* ContentView.swift */; };
@@ -30,10 +31,12 @@
 		A2788463541C619471DBF3B6 /* UpcomingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E361E619397E4616B87260CE /* UpcomingScreen.swift */; };
 		A6925D37DE0D47FCF70F3D78 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DDA08FB8045CE557E0A4B1 /* NotificationService.swift */; };
 		AF139E757D144C45D0E20ADB /* TimeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BC8F47418CC9EB86E8A42 /* TimeWindow.swift */; };
+		AF5AB2F4F06534FA753A58C8 /* ContactsInvite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DEAE03921526A9495EDAB5 /* ContactsInvite.swift */; };
 		B636F1418EB66E64D2809776 /* CoMoEventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717CC84A215533058E7FB50 /* CoMoEventsApp.swift */; };
 		CB80D98FB626AFF24827FF80 /* SubmitEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10070D58ECBD247C1F8F02B9 /* SubmitEventView.swift */; };
 		D27BC47CA1A5C07E589E15D0 /* CommunityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EA88088E79B7E0A40576B /* CommunityStore.swift */; };
 		D4D071D9C6AB594730237C74 /* SpotlightIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6770C54F38582069D268B2 /* SpotlightIndexer.swift */; };
+		DC943E2F4807509BF143901C /* QRScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803CCFA2A4AA6CB86087411C /* QRScanView.swift */; };
 		DDF276469D866CA54E77E046 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676ED787BF68812C299CB47 /* UserProfile.swift */; };
 		E0E56298A5E53588EB84AB84 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB86AEFE35325A9F60C65D59 /* EventList.swift */; };
 		E3C7D8773F7DD22CB4482752 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545FA8220F66F5EF2E8E8EC3 /* ProfileScreen.swift */; };
@@ -58,13 +61,16 @@
 		6567DC9C10C49E155A08BBFA /* events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
 		6691C2FA41EA70797F58A89D /* FriendsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsStore.swift; sourceTree = "<group>"; };
 		7251B2012231BC23D61629F8 /* SavedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedScreen.swift; sourceTree = "<group>"; };
+		77DEAE03921526A9495EDAB5 /* ContactsInvite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsInvite.swift; sourceTree = "<group>"; };
 		7A1F1ACC851399B6DFB89308 /* EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
 		7CF9DA495243C77A50B4BB28 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
 		7ED89341A39084952FECB9CA /* ShareAndCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAndCalendar.swift; sourceTree = "<group>"; };
+		803CCFA2A4AA6CB86087411C /* QRScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanView.swift; sourceTree = "<group>"; };
 		82203912F9820B437798182F /* AudienceBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudienceBar.swift; sourceTree = "<group>"; };
 		8676ED787BF68812C299CB47 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		890E1F509799AC7B5B9F9587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A6770C54F38582069D268B2 /* SpotlightIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightIndexer.swift; sourceTree = "<group>"; };
+		93B51B69E81EC16E60089C76 /* AttendanceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceStore.swift; sourceTree = "<group>"; };
 		9D084E4854C1F7B5CC4594C0 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		AB57E9BB840EDE45833BC510 /* ContentFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentFilter.swift; sourceTree = "<group>"; };
 		AC5BC8F47418CC9EB86E8A42 /* TimeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWindow.swift; sourceTree = "<group>"; };
@@ -83,7 +89,9 @@
 			children = (
 				5E37AC286171D31A11C304AE /* AccountManager.swift */,
 				2F839F290D9DD3AB3D1C3C1C /* AppLinks.swift */,
+				93B51B69E81EC16E60089C76 /* AttendanceStore.swift */,
 				5E0EA88088E79B7E0A40576B /* CommunityStore.swift */,
+				77DEAE03921526A9495EDAB5 /* ContactsInvite.swift */,
 				AB57E9BB840EDE45833BC510 /* ContentFilter.swift */,
 				6691C2FA41EA70797F58A89D /* FriendsStore.swift */,
 				466EB52C7EDEB647B64D7BDA /* LocationManager.swift */,
@@ -127,6 +135,7 @@
 				0DDE406C3CA3CD41CA21D590 /* FriendsScreen.swift */,
 				F3F8C85C6DCAD73C800D171D /* MapScreen.swift */,
 				545FA8220F66F5EF2E8E8EC3 /* ProfileScreen.swift */,
+				803CCFA2A4AA6CB86087411C /* QRScanView.swift */,
 				7251B2012231BC23D61629F8 /* SavedScreen.swift */,
 				10070D58ECBD247C1F8F02B9 /* SubmitEventView.swift */,
 				E361E619397E4616B87260CE /* UpcomingScreen.swift */,
@@ -248,10 +257,12 @@
 			files = (
 				27E9FA7DB20A074B3AFC2268 /* AccountManager.swift in Sources */,
 				4CD21F9DEA95E27D05365E7A /* AppLinks.swift in Sources */,
+				603E787090EEBD65D3E2BC46 /* AttendanceStore.swift in Sources */,
 				23CA5479B528AD472593369A /* AudienceBar.swift in Sources */,
 				B636F1418EB66E64D2809776 /* CoMoEventsApp.swift in Sources */,
 				094C71D4E8AA18D776247297 /* CoMoIntents.swift in Sources */,
 				D27BC47CA1A5C07E589E15D0 /* CommunityStore.swift in Sources */,
+				AF5AB2F4F06534FA753A58C8 /* ContactsInvite.swift in Sources */,
 				1EEE651D130BE15BFA136099 /* ContentFilter.swift in Sources */,
 				72DEF17BC34F9BDE77A39DCA /* ContentView.swift in Sources */,
 				7F9E7061CB18ED942217B628 /* Event.swift in Sources */,
@@ -266,6 +277,7 @@
 				5CF1840A78AD4CD321B5A655 /* MapScreen.swift in Sources */,
 				A6925D37DE0D47FCF70F3D78 /* NotificationService.swift in Sources */,
 				E3C7D8773F7DD22CB4482752 /* ProfileScreen.swift in Sources */,
+				DC943E2F4807509BF143901C /* QRScanView.swift in Sources */,
 				51D69B4D63C571BED44FBDF9 /* Router.swift in Sources */,
 				7614AC1DCA958A0203BA6958 /* SavedScreen.swift in Sources */,
 				1EED7452FBE1A04A7522DB48 /* ShareAndCalendar.swift in Sources */,
@@ -316,7 +328,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = TU583LSD8W;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -336,7 +348,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +437,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = TU583LSD8W;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -439,7 +451,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

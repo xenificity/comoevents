@@ -4,6 +4,7 @@ import MapKit
 struct MapScreen: View {
     @EnvironmentObject var store: EventStore
     @EnvironmentObject var location: LocationManager
+    @EnvironmentObject var friends: FriendsStore
 
     @State private var window: TimeWindow = .today
     @State private var position: MapCameraPosition = .region(
@@ -38,7 +39,8 @@ struct MapScreen: View {
                                 .stroke(h.dominant.color.opacity(0.4), lineWidth: 1.5)
                         }
                         Annotation(h.title, coordinate: h.coordinate, anchor: .center) {
-                            HotspotPin(hotspot: h, highlighted: selected == h)
+                            HotspotPin(hotspot: h, highlighted: selected == h,
+                                       friendsAt: friends.friends(atAny: Set(h.events.map(\.id))))
                                 .onTapGesture {
                                     withAnimation(.snappy) { selected = h }
                                 }
@@ -169,6 +171,7 @@ struct MapScreen: View {
 struct HotspotPin: View {
     let hotspot: Hotspot
     let highlighted: Bool
+    var friendsAt: (here: [FriendsStore.Friend], going: [FriendsStore.Friend]) = ([], [])
     @State private var appeared = false
     private var size: CGFloat { min(38 + CGFloat(hotspot.count) * 1.5, 56) }
 
@@ -199,6 +202,22 @@ struct HotspotPin: View {
                     .shadow(radius: 1)
             }
             .frame(width: size, height: size)
+            // Friends at this spot: green = here now, yellow = going/saved
+            let fr = friendsAt.here + friendsAt.going
+            if !fr.isEmpty {
+                HStack(spacing: -6) {
+                    ForEach(Array(fr.prefix(3).enumerated()), id: \.offset) { i, f in
+                        Text(f.initials.isEmpty ? "?" : String(f.initials.prefix(1)))
+                            .font(.system(size: 10, weight: .heavy, design: .rounded))
+                            .foregroundStyle(i < friendsAt.here.count ? .white : Theme.ink)
+                            .frame(width: 20, height: 20)
+                            .background(i < friendsAt.here.count ? Color.green : Theme.yellow, in: Circle())
+                            .overlay(Circle().stroke(.white, lineWidth: 1.5))
+                    }
+                    if fr.count > 3 { Text("+\(fr.count - 3)").font(.system(size: 9, weight: .heavy)).foregroundStyle(.white).padding(.leading, 8) }
+                }
+                .offset(x: 6, y: size - 6)
+            }
             // Count badge
             if hotspot.count > 1 {
                 Text(hotspot.count > 99 ? "99+" : "\(hotspot.count)")

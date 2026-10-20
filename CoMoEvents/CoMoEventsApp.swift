@@ -9,6 +9,7 @@ struct CoMoEventsApp: App {
     @StateObject private var notifications = NotificationService()
     @StateObject private var community = CommunityStore()
     @StateObject private var friends = FriendsStore()
+    @StateObject private var attendance = AttendanceStore()
     @StateObject private var router = Router()
 
     var body: some Scene {
@@ -20,6 +21,7 @@ struct CoMoEventsApp: App {
                 .environmentObject(notifications)
                 .environmentObject(community)
                 .environmentObject(friends)
+                .environmentObject(attendance)
                 .environmentObject(router)
                 .task { await launch() }
                 .onReceive(account.$profile) { p in
@@ -53,6 +55,10 @@ struct CoMoEventsApp: App {
         await community.loadApproved()
         store.communityEvents = community.approved
         await friends.restore()
+        attendance.onMineChanged = { [weak friends] m in friends?.update(attendance: m) }
+        friends.update(attendance: attendance.mine)
+        await attendance.prepare()
+        await attendance.refreshCounts()
         await notifications.refreshAuthorization()
         await notifications.reschedule(favorites: store.favoriteEvents, all: store.events)
         let snapshot = store.events

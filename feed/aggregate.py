@@ -242,7 +242,21 @@ def make_event(source, source_name, sid, title, start, end=None, all_day=False, 
         "description": strip_html(description, 600) if description else None,
         "organizer": organizer,
         "audience": infer_audience(title, strip_html(description, 2000) if description else "", category or "community"),
+        "categories": all_categories(title, description, category or "community",
+                                     campus_ok=source in ("mizzou", "dbrl")),
     }
+
+def all_categories(title, desc, primary, campus_ok=False):
+    """Every category an event belongs to: the primary first, then any other rule that matches the
+    title (or the first 200 characters of the description). An event can be music AND nightlife AND food."""
+    t = f"{title} {strip_html(desc, 200) if desc else ''}".lower()
+    cats = [primary]
+    for cat, rx in CATEGORY_RULES:
+        if cat in cats or (cat == "campus" and not campus_ok):
+            continue
+        if re.search(rx, t):
+            cats.append(cat)
+    return cats[:4]
 
 CATEGORY_RULES = [
     ("party", r"\b((dance|costume|halloween|glow|foam|pool|block|release|launch|watch|viewing|after|pre|birthday|house|toga|darty|frat|white|masquerade|holiday|christmas|nye|new year'?s eve) party|parties|bollywood|desi night|afrobeats?|latin night|salsa night|reggaeton|club night|rave|dj set|djs?|fastpass|fast pass|night ?club|nightclub|silent disco|darty|bash|pregame|after ?party)\b|\bparty\b.*\b(dj|club|21\+|18\+|bar|tickets?|vip|bottle)\b"),
@@ -846,6 +860,11 @@ def dedupe(events):
         if keep.get("category") == "community" and drop.get("category") not in (None, "community"):
             keep["category"] = drop["category"]
             keep["audience"] = drop.get("audience") or keep.get("audience")
+        merged_cats = [keep.get("category")] + [c for c in (keep.get("categories") or []) + (drop.get("categories") or [])
+                                                if c != keep.get("category")]
+        keep["categories"] = [c for i, c in enumerate(merged_cats) if c and c not in merged_cats[:i]][:4]
+        if len(keep["categories"]) > 1 and "community" in keep["categories"]:
+            keep["categories"].remove("community")
         if keep["timeTBD"] and not drop["timeTBD"]:
             keep["start"], keep["timeTBD"], keep["allDay"] = drop["start"], False, drop["allDay"]
         keep["alsoOn"] = list({*(a.get("alsoOn") or []), *(e.get("alsoOn") or []),

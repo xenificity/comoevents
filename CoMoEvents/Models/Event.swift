@@ -26,6 +26,8 @@ struct Event: Codable, Identifiable, Hashable {
     let organizer: String?
     let alsoOn: [String]?
     let audience: [String]
+    /// All categories the event belongs to, primary first. Feed events can have several.
+    let categories: [String]
     /// iCloud user record name of the poster, community posts only. Used for blocking.
     var submitterID: String? = nil
 
@@ -35,7 +37,7 @@ struct Event: Codable, Identifiable, Hashable {
 
     enum CodingKeys: String, CodingKey {
         case id, source, sourceName, title, start, end, allDay, timeTBD, venue, address, lat, lng
-        case url, ticketUrl, phone, price, category, imageUrl, description, organizer, alsoOn, audience
+        case url, ticketUrl, phone, price, category, imageUrl, description, organizer, alsoOn, audience, categories
     }
 
     init(from decoder: Decoder) throws {
@@ -62,6 +64,8 @@ struct Event: Codable, Identifiable, Hashable {
         organizer = try c.decodeIfPresent(String.self, forKey: .organizer)
         alsoOn = try c.decodeIfPresent([String].self, forKey: .alsoOn)
         audience = try c.decodeIfPresent([String].self, forKey: .audience) ?? []
+        let extra = try c.decodeIfPresent([String].self, forKey: .categories) ?? []
+        categories = extra.isEmpty ? [category] : (extra.contains(category) ? extra : [category] + extra)
         startDate = Event.parse(start) ?? .distantPast
         endDate = end.flatMap(Event.parse)
     }
@@ -69,7 +73,7 @@ struct Event: Codable, Identifiable, Hashable {
     /// Memberwise init for events that don't come from the JSON feed (community submissions).
     init(id: String, source: String, sourceName: String, title: String, start: Date, end: Date?, allDay: Bool = false,
          venue: String?, address: String?, lat: Double?, lng: Double?, url: String?, ticketUrl: String? = nil, phone: String? = nil,
-         price: String?, category: String, imageUrl: String? = nil, description: String?, organizer: String?, audience: [String] = [],
+         price: String?, category: String, categories: [String] = [], imageUrl: String? = nil, description: String?, organizer: String?, audience: [String] = [],
          submitterID: String? = nil) {
         self.id = id; self.source = source; self.sourceName = sourceName; self.title = title
         let f = ISO8601DateFormatter(); f.formatOptions = [.withInternetDateTime]
@@ -78,6 +82,7 @@ struct Event: Codable, Identifiable, Hashable {
         self.venue = venue; self.address = address; self.lat = lat; self.lng = lng
         self.url = url; self.ticketUrl = ticketUrl; self.phone = phone; self.price = price
         self.category = category; self.imageUrl = imageUrl; self.description = description; self.organizer = organizer
+        self.categories = categories.isEmpty ? [category] : (categories.contains(category) ? categories : [category] + categories)
         self.alsoOn = nil; self.audience = audience
         self.submitterID = submitterID
         self.startDate = start; self.endDate = end
@@ -118,6 +123,9 @@ struct Event: Codable, Identifiable, Hashable {
     }
 
     var kind: Category { Category(rawValue: category) ?? .community }
+    /// Every category this event belongs to, primary first.
+    var kinds: [Category] { categories.compactMap(Category.init(rawValue:)) }
+    func belongs(to set: Set<Category>) -> Bool { set.isEmpty || kinds.contains { set.contains($0) } }
     var audiences: [Audience] { audience.compactMap(Audience.init(rawValue:)) }
     func suits(_ a: Audience?) -> Bool { a == nil || audience.contains(a!.rawValue) }
 

@@ -101,7 +101,7 @@ final class EventStore: ObservableObject {
         return events.filter { e in
             window.contains(e)
             && e.suits(audience)
-            && (categories.isEmpty || categories.contains(e.kind))
+            && e.belongs(to: categories)
             && (q.isEmpty || e.title.lowercased().contains(q) || (e.venue ?? "").lowercased().contains(q))
         }
     }

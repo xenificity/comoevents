@@ -94,6 +94,7 @@ final class CommunityStore: ObservableObject {
 
     struct Draft {
         var title = ""; var category: Category = .community
+        var extraCategories: Set<Category> = []
         var start = Calendar.current.date(byAdding: .day, value: 1, to: Date())!.rounded(to: 30)
         var hasEnd = false; var end = Date()
         var venue = ""; var address = ""; var price = ""; var link = ""; var details = ""; var submitterName = ""
@@ -117,6 +118,7 @@ final class CommunityStore: ObservableObject {
         let rec = CKRecord(recordType: "SubmittedEvent")
         rec["title"] = d.title.trimmingCharacters(in: .whitespaces) as CKRecordValue
         rec["category"] = d.category.rawValue as CKRecordValue
+        rec["categories"] = ([d.category] + d.extraCategories.filter { $0 != d.category }).map(\.rawValue) as CKRecordValue
         rec["start"] = d.start as CKRecordValue
         if d.hasEnd { rec["end"] = d.end as CKRecordValue }
         rec["venue"] = d.venue as CKRecordValue
@@ -170,6 +172,7 @@ final class CommunityStore: ObservableObject {
                      url: (r["link"] as? String).flatMap { $0.isEmpty ? nil : $0 },
                      price: (r["price"] as? String).flatMap { $0.isEmpty ? nil : $0 },
                      category: r["category"] as? String ?? "community",
+                     categories: r["categories"] as? [String] ?? [],
                      description: r["details"] as? String,
                      organizer: name.map { "Posted by \(ContentFilter.safeName($0, fallback: "a community member"))" },
                      audience: ["groups", "singles", "couples", "family"],

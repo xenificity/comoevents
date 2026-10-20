@@ -5,6 +5,7 @@ struct EventDetailView: View {
     @EnvironmentObject var store: EventStore
     @EnvironmentObject var friends: FriendsStore
     @EnvironmentObject var community: CommunityStore
+    @EnvironmentObject var attendance: AttendanceStore
     @Environment(\.openURL) private var openURL
     let event: Event
     @State private var shareItems: [Any]?
@@ -23,6 +24,7 @@ struct EventDetailView: View {
                     hero
                     VStack(alignment: .leading, spacing: 18) {
                         facts
+                        attendanceCard
                         if let c = event.coordinate {
                             Map(initialPosition: .region(MKCoordinateRegion(center: c, latitudinalMeters: 900, longitudinalMeters: 900)),
                                 interactionModes: []) {
@@ -153,10 +155,12 @@ struct EventDetailView: View {
             .overlay(alignment: .bottomLeading) {
             VStack(alignment: .leading, spacing: 8) {
                 HStack(spacing: 8) {
-                    Label(event.kind.label, systemImage: event.kind.symbol)
-                        .font(.caption.weight(.bold)).foregroundStyle(Theme.ink)
-                        .padding(.horizontal, 10).padding(.vertical, 5)
-                        .background(Theme.yellow, in: Capsule())
+                    ForEach(event.kinds, id: \.self) { k in
+                        Label(k.label, systemImage: k.symbol)
+                            .font(.caption.weight(.bold)).foregroundStyle(Theme.ink)
+                            .padding(.horizontal, 10).padding(.vertical, 5)
+                            .background(k == event.kind ? Theme.yellow : Theme.yellow.opacity(0.6), in: Capsule())
+                    }
                     if event.isHappeningNow { NowBadge() }
                 }
                 Text(event.title).font(.title.bold()).foregroundStyle(.white).lineLimit(3).minimumScaleFactor(0.8)
@@ -164,6 +168,51 @@ struct EventDetailView: View {
             }
             .padding(16)
             }
+    }
+
+    /// Going / I'm here / Went, with everyone's counts and friends who are there.
+    private var attendanceCard: some View {
+        let c = attendance.count(for: event)
+        let mine = attendance.status(for: event)
+        let started = event.startDate <= Date().addingTimeInterval(2 * 3600)
+        let over = event.effectiveEnd < Date()
+        return VStack(alignment: .leading, spacing: 12) {
+            HStack(spacing: 14) {
+                Label("\(c.going) going", systemImage: "hand.thumbsup.fill")
+                if c.here > 0 { Label("\(c.here) here now", systemImage: "location.fill").foregroundStyle(.green) }
+                if c.went > 0 { Label("\(c.went) went", systemImage: "checkmark.seal.fill") }
+            }
+            .font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+            HStack(spacing: 8) {
+                ForEach(AttendanceStore.Status.allCases, id: \.self) { st in
+                    let enabled = (st == .going && !over) || (st == .here && started && !over) || (st == .went && started)
+                    if enabled {
+                        Button {
+                            Task { await attendance.set(mine == st ? nil : st, for: event) }
+                        } label: {
+                            Label(st.label, systemImage: st.symbol)
+                                .font(.caption.weight(.bold))
+                                .padding(.horizontal, 12).padding(.vertical, 8)
+                                .foregroundStyle(mine == st ? Theme.ink : .primary)
+                                .glass(Capsule(), tint: mine == st ? (st == .here ? Color.green : Theme.yellow) : nil, interactive: true)
+                        }
+                        .buttonStyle(.plain)
+                        .sensoryFeedback(.success, trigger: mine == st)
+                    }
+                }
+            }
+            let here = friends.friendsHere(at: event)
+            if !here.isEmpty {
+                Label("\(here.map(\.name).joined(separator: ", ")) \(here.count == 1 ? "is" : "are") here now", systemImage: "person.fill.checkmark")
+                    .font(.caption.weight(.semibold)).foregroundStyle(.green)
+            }
+            if !community.iCloudAvailable {
+                Text("Counts sync when iCloud is signed in on this iPhone.").font(.caption2).foregroundStyle(.secondary)
+            }
+        }
+        .padding(16)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .glass(RoundedRectangle(cornerRadius: 22, style: .continuous))
     }
 
     private var facts: some View {

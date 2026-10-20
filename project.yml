@@ -10,8 +10,8 @@ settings:
     SWIFT_VERSION: "5.0"
     DEVELOPMENT_TEAM: TU583LSD8W
     CODE_SIGN_STYLE: Automatic
-    MARKETING_VERSION: "1.1.0"
-    CURRENT_PROJECT_VERSION: "4"
+    MARKETING_VERSION: "1.2.0"
+    CURRENT_PROJECT_VERSION: "5"
 targets:
   CoMoEvents:
     type: application
@@ -42,6 +42,8 @@ targets:
         LSApplicationCategoryType: public.app-category.lifestyle
         NSLocationWhenInUseUsageDescription: CoMo Events shows events near you on the map. Your location never leaves your phone.
         LSApplicationQueriesSchemes: [tel, maps]
+        NSCameraUsageDescription: CoMo Events uses the camera only to scan event QR codes you point it at.
+        NSContactsUsageDescription: CoMo Events shows your contacts so you can pick who to invite. Nothing is uploaded.
         NSCalendarsWriteOnlyAccessUsageDescription: CoMo Events adds the event you chose to your calendar. It never reads your calendar.
         CFBundleURLTypes:
           - CFBundleURLName: com.xenificity.comoevents

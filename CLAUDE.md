@@ -43,3 +43,6 @@ Read README.md first. Short version:
 - Install links: never hardcode TestFlight or App Store URLs. Use `AppLinks.install(campaign:)`, which
   points at `docs/get/?c=<campaign>`; that page picks App Store vs TestFlight and passes `ct`. After
   launch, fill `PT` in `docs/get/index.html`. Channels and QR codes: `Marketing/campaign-links.md`.
+- CloudKit schema lives in `feed/cloudkit-schema.ckdb`. To ship a schema change: CloudKit Console →
+  container → Development → "Import Schema…" with that file (it REPLACES the dev schema) → "Deploy
+  Schema Changes…" to Production. The console session expires overnight; Ajay signs in.

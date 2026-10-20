@@ -1,0 +1,114 @@
+DEFINE SCHEMA
+
+    CREATE ROLE Moderator;
+
+    RECORD TYPE Profile (
+        "___createTime" TIMESTAMP,
+        "___createdBy"  REFERENCE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE QUERYABLE,
+        audience        STRING,
+        displayName     STRING,
+        favorites       LIST<STRING>,
+        interests       LIST<STRING>,
+        updatedAt       TIMESTAMP,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
+    RECORD TYPE SubmittedEvent (
+        "___createTime" TIMESTAMP,
+        "___createdBy"  REFERENCE QUERYABLE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE QUERYABLE,
+        address         STRING,
+        categories      LIST<STRING>,
+        category        STRING QUERYABLE,
+        details         STRING,
+        end             TIMESTAMP,
+        lat             DOUBLE,
+        link            STRING,
+        lng             DOUBLE,
+        price           STRING,
+        reports         INT64,
+        start           TIMESTAMP QUERYABLE SORTABLE,
+        status          STRING QUERYABLE,
+        submitterID     STRING QUERYABLE,
+        submitterName   STRING,
+        title           STRING,
+        venue           STRING,
+        GRANT WRITE TO "_creator",
+        GRANT WRITE TO "Moderator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
+    RECORD TYPE Approval (
+        "___createTime" TIMESTAMP,
+        "___createdBy"  REFERENCE QUERYABLE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE QUERYABLE,
+        approved        INT64 QUERYABLE,
+        eventRecordName STRING QUERYABLE,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
+    RECORD TYPE Attendance (
+        "___createTime" TIMESTAMP,
+        "___createdBy"  REFERENCE QUERYABLE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE QUERYABLE,
+        eventID         STRING QUERYABLE,
+        eventStart      TIMESTAMP QUERYABLE SORTABLE,
+        status          STRING QUERYABLE,
+        updatedAt       TIMESTAMP,
+        userID          STRING QUERYABLE,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
+    RECORD TYPE FriendProfile (
+        "___createTime" TIMESTAMP,
+        "___createdBy"  REFERENCE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE QUERYABLE,
+        code            STRING QUERYABLE,
+        displayName     STRING,
+        favorites       LIST<STRING>,
+        going           LIST<STRING>,
+        here            LIST<STRING>,
+        sharing         INT64,
+        updatedAt       TIMESTAMP,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
+    RECORD TYPE Report (
+        "___createTime" TIMESTAMP,
+        "___createdBy"  REFERENCE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE QUERYABLE,
+        eventRecordName STRING QUERYABLE,
+        reason          STRING,
+        reporterID      STRING,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );

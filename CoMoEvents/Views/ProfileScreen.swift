@@ -207,6 +207,12 @@ struct ProfileScreen: View {
     private var supportCard: some View {
         VStack(alignment: .leading, spacing: 10) {
             Text("Help & contact").font(.headline)
+            Link(destination: URL(string: "mailto:xenificity@icloud.com?subject=CoMo%20Events%20feedback&body=What%20I%20liked%3A%0A%0AWhat%20was%20confusing%20or%20broken%3A%0A%0AEvents%20or%20places%20missing%3A%0A")!) {
+                Label("Send feedback", systemImage: "bubble.left.and.text.bubble.right").frame(maxWidth: .infinity, alignment: .leading)
+            }
+            Link(destination: URL(string: "https://apps.apple.com/app/id6824363992?action=write-review")!) {
+                Label("Rate CoMo Events on the App Store", systemImage: "star").frame(maxWidth: .infinity, alignment: .leading)
+            }
             Link(destination: URL(string: "mailto:xenificity@icloud.com?subject=CoMo%20Events")!) {
                 Label("Email us: xenificity@icloud.com", systemImage: "envelope").frame(maxWidth: .infinity, alignment: .leading)
             }

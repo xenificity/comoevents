@@ -11,3 +11,5 @@ __pycache__/
 # The page cache is large and regenerates itself; the geocode cache IS committed (it saves API calls).
 feed/cache/pages.json
 feed/cache/*.tmp
+# venue_gap.py caches (OSM, websites, reverse geocode)
+scripts/.venue_gap_cache/

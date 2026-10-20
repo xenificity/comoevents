@@ -1,0 +1,120 @@
+name,category,address,lat,lon,website,covered,integration_method,endpoint,priority
+9th Street Public House,bar,36 North 9th Street,38.952358,-92.327327,,no,no website in OSM,,high
+Booches,bar,South 9th Street (approx.),38.950173,-92.327278,,no,no website in OSM,,high
+CJ's In Tiger Country,pub,704 East Broadway,38.951399,-92.329414,,no,no website in OSM,,high
+Dogmaster Distillery,distillery,210 Saint James Street,38.954239,-92.323572,https://dogmasterdistillery.com/,no,no events found,,high
+Endwell Taverna,pub,107 North 9th Street,38.952961,-92.327676,https://www.endwelltaverna.com/menu,no,no events found,,high
+Gunter Hans,pub,7 Hitt Street,38.951033,-92.325782,https://www.gunterhans.com/,no,Squarespace events (?format=json has upcoming),https://www.gunterhans.com/events?format=json,high
+International Tap House,bar,Woodson Way (approx.),38.947594,-92.327059,,no,no website in OSM,,high
+Klik's LLC,bar,205 North 10th Street,38.953924,-92.326572,,no,no website in OSM,,high
+McNally's,pub,7 North 6th Street,38.952045,-92.331031,https://www.mcnallys.biz/,no,site unreachable,,high
+On The Rocks,bar,East Broadway (approx.),38.951654,-92.326079,,no,no website in OSM,,high
+Reign Bar,nightclub,33 North 9th Street,38.952451,-92.327787,,no,no website in OSM,,high
+Snapper's,bar,12 South 7th Street,38.951116,-92.329563,,no,no website in OSM,,high
+Son of a Gun,bar,16 North 9th Street,38.952138,-92.327408,,no,no website in OSM,,high
+The Atrium on Tenth,events_venue,22 North 10th Street,38.952336,-92.326091,https://theatriumontenth.com/,no,no events found,,high
+The Shot Bar,bar,Cherry Street (approx.),38.950371,-92.327445,,no,no website in OSM,,high
+The Understudy,bar,813 Cherry Street,38.950600,-92.327977,https://theunderstudybar.com/,no,Wix/Facebook only,https://www.facebook.com/TheUnderstudyComo,high
+Top Ten Wines,bar,111 South 9th Street,38.950153,-92.327773,https://www.toptenwines.biz/,no,no events found,,high
+Tropical Liqueurs,bar,515 East Broadway,38.951846,-92.331163,http://www.2trops.com/columbia-downtown/,no,no events found,,high
+Vault,bar,23 South 8th Street,38.950837,-92.328821,,no,no website in OSM,,high
+Willie's,pub,1109 East Broadway,38.951632,-92.324958,https://fieldhousecomo.com/,no,Wix/Facebook only,,high
+Access Arts,arts_centre,North Stadium Boulevard (approx.),38.978970,-92.371051,,no,no website in OSM,,medium
+Artlandish Gallery,gallery,1019 East Walnut Street,38.952749,-92.325734,https://www.facebook.com/ARTlandish-Gallery-99515315928/,no,Wix/Facebook only,https://www.facebook.com/ARTlandish-Gallery-99515315928/,medium
+Barnes & Noble,bookstore,Bernadette Drive (approx.),38.964393,-92.375276,,no,no website in OSM,,medium
+Columbia Exposition Center,events_venue,Knipp Street (approx.),38.966288,-92.373187,,no,no website in OSM,,medium
+Deuce,pub,Monterey Drive (approx.),38.911227,-92.338061,,no,no website in OSM,,medium
+Distant Planet Comics & Collectibles,bookstore,711 North College Street,38.958725,-92.321776,,no,no website in OSM,,medium
+Elk Park Event Center,events_venue,4747 Elk Park Drive,38.934766,-92.266790,,no,no website in OSM,,medium
+Goodrich Forum 8,cinema,1209 Forum Katy Parkway,38.934772,-92.357032,,no,no website in OSM,,medium
+Historic Costume Gallery,gallery,North College Street (approx.),38.952036,-92.321484,https://www.stephens.edu/,no,Localist API,https://calendar.stephens.edu/api/2/events,medium
+Hollywood Theater,cinema,Bluff Creek Boulevard (approx.),38.928936,-92.296373,,no,no website in OSM,,medium
+Launer Auditorium,theatre,Rogers Street (approx.),38.957326,-92.327133,https://www.ccis.edu/,no,no events found,,medium
+Macadoodles,winery,East Green Meadows Road (approx.),38.916799,-92.333818,,no,no website in OSM,,medium
+Maplewood Barn Theatre,theatre,East Nifong Boulevard (approx.),38.907536,-92.296547,,no,no website in OSM,,medium
+McGinty's Pub,pub,Old 63 South (approx.),38.932622,-92.310403,,no,no website in OSM,,medium
+Orchids & Arts,gallery,Commercial Drive (approx.),38.895553,-92.338796,,no,no website in OSM,,medium
+Orr Street Gallery,arts_centre,Orr Street (approx.),38.953208,-92.324725,,no,no website in OSM,,medium
+Peace Nook,bookstore,804 East Broadway,38.951313,-92.328390,,no,no website in OSM,,medium
+Resident Arts,arts_centre,Artist Alley (approx.),38.953031,-92.325622,,no,no website in OSM,,medium
+Riechmann Pavilion,events_venue,2300 East Walnut Street,38.952252,-92.304181,,no,no website in OSM,,medium
+Sager Reeves Gallery,gallery,1025 East Walnut Street,38.952635,-92.325475,https://www.sagerreevesgallery.com/,no,no events found,,medium
+Six Mile Ordinary,distillery,Fay Street (approx.),38.958928,-92.322525,,no,no website in OSM,,medium
+Speaker's Circle,theatre,East Walnut Street (approx.),38.953065,-92.328589,,no,no website in OSM,,medium
+The Text Book Game,bookstore,Watson Place (approx.),38.948190,-92.326892,,no,no website in OSM,,medium
+The Thirsty Turtle,bar,North Boulevard (approx.),38.963789,-92.325541,,no,no website in OSM,,medium
+Trail Stop Brewery,brewery,3901 S Brushwood Lake Rd,38.913291,-92.400543,https://trailstopbrewery.com,no,no events found,,medium
+Tropical Liquor,bar,Outer Road (approx.),38.909005,-92.335959,,no,no website in OSM,,medium
+Truman's Bar and Grill,pub,Wind River Circle (approx.),38.953445,-92.386334,,no,no website in OSM,,medium
+Walters-Boone County Historic Museum,museum,Ponderosa Street (approx.),38.907335,-92.293951,,no,no website in OSM,,medium
+Whitcraft-Schiffman Memorial Amphitheater,theatre,North 8th Street (approx.),38.958059,-92.326637,https://www.ccis.edu/,no,no events found,,medium
+Windsor Auditorium,events_venue,East Broadway (approx.),38.951472,-92.319377,https://www.stephens.edu/,no,Localist API,https://calendar.stephens.edu/api/2/events,medium
+Wine Cellar,winery,Carter Lane (approx.),38.916947,-92.333911,,no,no website in OSM,,medium
+Yellow Dog Bookstore,bookstore,8 South 9th Street,38.951177,-92.327433,,no,no website in OSM,,medium
+3M Flat Branch-Hinkson Creek Wetlands,park,,38.927349,-92.360085,,no,no website in OSM,,low
+American Legion Park,park,3675 Legion Lane,38.943810,-92.283018,,no,no website in OSM,,low
+Bear Creek Park,park,1402 Elleta Boulevard,38.975264,-92.318011,,no,no website in OSM,,low
+Capen Park,park,1600 Capen Park Drive,38.930676,-92.319727,,no,no website in OSM,,low
+Clary-Shy Community Park,park,1701 West Ash Street,38.957937,-92.364506,,no,no website in OSM,,low
+Douglass Park,park,,38.956486,-92.332936,,no,no website in OSM,,low
+Fairview Park,park,,38.942013,-92.383359,,no,no website in OSM,,low
+Gans Creek Recreation Area,park,3360 East Gans Road,38.883901,-92.288953,https://www.como.gov/parks/gans-creek-recreation-area/,no,no events found,,low
+Nifong Park,park,2900 East Nifong Boulevard,38.906587,-92.295682,,no,no website in OSM,,low
+Peace Park,park,,38.947921,-92.329808,,no,no website in OSM,,low
+Rothwell Park,park,,38.952952,-92.395384,,no,no website in OSM,,low
+Broadway Brewery,bar,East Broadway (approx.),38.951223,-92.327999,,table-only,,,high
+Broadway Brewery Taproom on 9th,bar,15 South 9th Street,38.950938,-92.327732,https://www.broadwaybrewery.com/taproom-on-9th,table-only,no events found,,high
+FieldHouse,pub,1107 East Broadway,38.951640,-92.325177,https://www.fieldhousecomo.com/,table-only,Wix/Facebook only,,high
+Nash Vegas,nightclub,929 East Broadway,38.951692,-92.326636,http://www.nashvegasbar.com/,table-only,no events found,,high
+Talking Horse Productions,theatre,210 Saint James Street,38.954280,-92.323707,https://www.talkinghorseproductions.org/,table-only,Wix/Facebook only,https://www.facebook.com/TalkingHorseProductions/,high
+Logboat Brewing Co,brewery,Fay Street (approx.),38.957338,-92.322147,,table-only,,,medium
+Columbia Agriculture Park,park,,38.958063,-92.365709,,table-only,,,low
+Cosmo Park,park,,38.976801,-92.363698,,table-only,,,low
+Cosmo-Bethel Park,park,,38.901982,-92.342537,,table-only,,,low
+Rock Bridge Memorial State Park,park,,38.871318,-92.318635,https://mostateparks.com/park/rock-bridge-memorial-state-park,table-only,no events found,,low
+Rock Bridge Park,park,201 Miramar Lane,38.913195,-92.341945,,table-only,,,low
+Shelter Gardens,park,1817 West Broadway,38.956523,-92.368035,,table-only,,,low
+Twin Lakes Recreation Area,park,2500 Chapel Hill Road,38.928405,-92.379214,,table-only,,,low
+Billiards on Broadway,pub,514 East Broadway,38.951377,-92.331257,https://www.billiardsonbroadway.com/,yes,,,high
+Eastside Tavern,bar,1016 East Broadway,38.951344,-92.325831,,yes,,,high
+Missouri Theatre,theatre,203 South 9th Street,38.949200,-92.327877,,yes,,,high
+My House,nightclub,119 South 7th Street,38.949933,-92.330040,,yes,,,high
+Rhynsberger Theatre,theatre,,38.945758,-92.325929,,yes,,,high
+Rose Park,theatre,1013 Park Avenue,38.954798,-92.325155,,yes,,,high
+Studio 4 Theater,theatre,,38.943401,-92.325079,,yes,,,high
+The Blue Note,theatre,17 North 9th Street,38.952180,-92.327852,https://thebluenote.com/,yes,,,high
+Arena and Events Center,events_venue,North Oakland Gravel Road,39.004239,-92.297344,,yes,,,medium
+Bingham Gallery,gallery,,38.945841,-92.326025,,yes,,,medium
+Bush Auditorium,events_venue,,38.943136,-92.329730,,yes,,,medium
+Columbia Performing Arts Centre,arts_centre,,38.896886,-92.337843,,yes,,,medium
+Conservation Auditorium,events_venue,,38.942439,-92.324733,,yes,,,medium
+Ellis Auditorium,events_venue,,38.944458,-92.327007,,yes,,,medium
+Jesse Auditorium,theatre,,38.945207,-92.328206,,yes,,,medium
+Jesse Wrench Auditorium,events_venue,,38.944665,-92.325369,,yes,,,medium
+Keller Auditorium,events_venue,,38.947121,-92.329225,,yes,,,medium
+Ketcham Auditorium,events_venue,,38.946092,-92.330655,,yes,,,medium
+Leadership Auditorium,events_venue,,38.942671,-92.326500,,yes,,,medium
+Museum of Anthropology,museum,,38.944499,-92.326033,,yes,,,medium
+Museum of Art & Archaeology,museum,520 South 9th Street,38.944585,-92.326036,https://maa.missouri.edu/,yes,,,medium
+Naka Auditorium,events_venue,,38.946449,-92.331255,,yes,,,medium
+Parker Auditorium,events_venue,,38.945226,-92.324344,,yes,,,medium
+Ragtag Cinema,cinema,10 Hitt Street,38.950803,-92.325362,https://ragtagcinema.org,yes,,,medium
+Skylark Bookshop,bookstore,22 South 9th Street,38.950830,-92.327430,https://www.skylarkbookshop.com/,yes,,,medium
+Stephens Lake Park Amphitheater,theatre,,38.952484,-92.310298,,yes,,,medium
+Stotler Lounge,events_venue,,38.945264,-92.325396,,yes,,,medium
+Tate Auditorium,events_venue,,38.944707,-92.328339,,yes,,,medium
+Virginia Avenue Amphitheater,theatre,,38.940494,-92.322716,,yes,,,medium
+Walter Johnson Auditorium,events_venue,,38.945956,-92.327259,,yes,,,medium
+Waters Auditorium,events_venue,,38.945852,-92.324393,,yes,,,medium
+Albert-Oakland Park,park,,38.982742,-92.307327,,yes,,,low
+Daniel Boone Regional Library,library,,38.951142,-92.339851,,yes,,,low
+Downtown Optimist Park,park,100 East Forest Avenue,38.962816,-92.336150,,yes,,,low
+Ellis Library,library,,38.944298,-92.326519,,yes,,,low
+Engineering Library,library,,38.946283,-92.330528,,yes,,,low
+Flat Branch Park,park,,38.950229,-92.333397,,yes,,,low
+Geology Library,library,,38.947340,-92.329437,,yes,,,low
+Journalism Library,library,,38.947079,-92.327914,,yes,,,low
+Law Library,library,,38.943359,-92.328256,,yes,,,low
+MU Archives,library,,38.944637,-92.327008,,yes,,,low
+Stephens Lake Park,park,,38.950484,-92.305611,https://www.gocolumbiamo.com/ParksandRec/Parks/Stephens_Lake/,yes,,,low
+Veterinary Medicine Library,library,,38.941385,-92.317517,,yes,,,low

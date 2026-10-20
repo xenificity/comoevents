@@ -42,6 +42,10 @@
 	</array>
 	<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
 	<string>CoMo Events adds the event you chose to your calendar. It never reads your calendar.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>CoMo Events uses the camera only to scan event QR codes you point it at.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>CoMo Events shows your contacts so you can pick who to invite. Nothing is uploaded.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>CoMo Events shows events near you on the map. Your location never leaves your phone.</string>
 	<key>UILaunchScreen</key>

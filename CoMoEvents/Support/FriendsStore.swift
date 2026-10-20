@@ -11,7 +11,10 @@ final class FriendsStore: ObservableObject {
         let name: String
         let code: String
         let favorites: [String]
+        let going: [String]
+        let here: [String]
         let sharing: Bool
+        var initials: String { String(name.split(separator: " ").prefix(2).compactMap { $0.first }).uppercased() }
     }
 
     @Published private(set) var myCode: String?
@@ -27,6 +30,8 @@ final class FriendsStore: ObservableObject {
     private var userRecordName: String?
     private var displayName = ""
     private var favorites: [String] = []
+    private var going: [String] = []
+    private var here: [String] = []
     private var friendIDs: [String] { get { UserDefaults.standard.stringArray(forKey: "friends.ids") ?? [] } set { UserDefaults.standard.set(newValue, forKey: "friends.ids") } }
 
     private var myRecordID: CKRecord.ID? { userRecordName.map { CKRecord.ID(recordName: "friend-\($0)") } }
@@ -34,6 +39,13 @@ final class FriendsStore: ObservableObject {
     func update(displayName: String, favorites: [String]) {
         let changed = displayName != self.displayName || favorites != self.favorites
         self.displayName = displayName; self.favorites = favorites
+        if changed && enabled { Task { await publish() } }
+    }
+    func update(attendance: [String: AttendanceStore.Status]) {
+        let g = attendance.filter { $0.value == .going }.map(\.key).sorted()
+        let h = attendance.filter { $0.value == .here }.map(\.key).sorted()
+        let changed = g != going || h != here
+        going = g; here = h
         if changed && enabled { Task { await publish() } }
     }
 
@@ -65,6 +77,8 @@ final class FriendsStore: ObservableObject {
         rec["code"] = (myCode ?? "") as CKRecordValue
         rec["sharing"] = (shareSaves ? 1 : 0) as CKRecordValue
         rec["favorites"] = (shareSaves ? favorites : []) as CKRecordValue
+        rec["going"] = (shareSaves ? going : []) as CKRecordValue
+        rec["here"] = (shareSaves ? here : []) as CKRecordValue
         rec["updatedAt"] = Date() as CKRecordValue
         do { _ = try await db.save(rec) } catch { lastError = error.localizedDescription }
     }
@@ -111,12 +125,21 @@ final class FriendsStore: ObservableObject {
             friends = ids.compactMap { id in
                 guard let r = try? results[id]?.get() else { return nil }
                 return Friend(id: id.recordName, name: ContentFilter.safeName(r["displayName"] as? String ?? "", fallback: "Friend"), code: r["code"] as? String ?? "",
-                              favorites: r["favorites"] as? [String] ?? [], sharing: (r["sharing"] as? Int64 ?? 0) == 1)
+                              favorites: r["favorites"] as? [String] ?? [], going: r["going"] as? [String] ?? [],
+                              here: r["here"] as? [String] ?? [], sharing: (r["sharing"] as? Int64 ?? 0) == 1)
             }
         } catch { lastError = error.localizedDescription }
     }
 
-    func friendsGoing(to event: Event) -> [Friend] { friends.filter { $0.favorites.contains(event.id) } }
+    /// Friends who saved, are going to, or are at this event.
+    func friendsGoing(to event: Event) -> [Friend] { friends.filter { $0.favorites.contains(event.id) || $0.going.contains(event.id) || $0.here.contains(event.id) } }
+    func friendsHere(at event: Event) -> [Friend] { friends.filter { $0.here.contains(event.id) } }
+    /// Friends at any event in a set of ids (for map pins).
+    func friends(atAny ids: Set<String>) -> (here: [Friend], going: [Friend]) {
+        let here = friends.filter { !ids.isDisjoint(with: $0.here) }
+        let going = friends.filter { f in !here.contains(f) && (!ids.isDisjoint(with: f.going) || !ids.isDisjoint(with: f.favorites)) }
+        return (here, going)
+    }
 
     /// Deterministic 6-char code from the iCloud user record name. No lookup table to leak.
     static func code(for recordName: String) -> String {

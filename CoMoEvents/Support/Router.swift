@@ -8,6 +8,8 @@ final class Router: ObservableObject {
     @Published var tab: AppTab = .map
     @Published var pendingEventID: String?
     @Published var showSubmit = false
+    /// When the submit sheet opens, start with the QR scanner.
+    @Published var scanOnOpen = false
 
     func open(eventID: String) { pendingEventID = eventID }
 
