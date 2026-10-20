@@ -110,6 +110,26 @@ map symbol and colour (see `Category` in `Models/Event.swift`); the legend row o
   Events map"; every upcoming event is indexed in Spotlight and opens the detail. URL scheme
   `comoevents://event/<id>`, `comoevents://map`, `comoevents://submit`, `comoevents://friends`.
 
+## Features added in 1.2
+
+- **Attendance**: Going / I'm here / Went on every event. Each is a public `Attendance` record
+  (`att-<user>-<event>`), so events show "N going" and "N here" counts. "I'm here" is only offered
+  from one hour before the start until the end; "Went" after it ends. `Support/AttendanceStore.swift`.
+- **Friends on the map**: friends who are going to or at an event show as initial bubbles under the
+  pin (green = here, yellow = going or saved). `FriendProfile` carries `going` and `here` lists.
+- **Quick fill when posting**: scan a poster QR code (VisionKit; a real iPhone is needed, the
+  simulator shows a fallback) or paste a link. The page title and any JSON-LD `Event` fill title,
+  time, venue and address. `Views/QRScanView.swift`.
+- **Multiple categories**: `events.json` records carry `categories` (primary first, up to four) and
+  an event shows under every one of them. The submit sheet has "Also show under".
+- **Invite from Contacts**: pick people in the system contact picker (no Contacts permission needed),
+  then Messages opens with the invite text and your friend code. `Support/ContactsInvite.swift`.
+- **Send feedback / Rate**: in Profile › Help & contact (mailto template, App Store write-review link).
+- Not done on purpose: Facebook sync (no public API; AllEvents already mirrors public Facebook
+  events) and live friend location (only event attendance is shared).
+
+CloudKit schema for all of this is in `feed/cloudkit-schema.ckdb` (schema v4).
+
 ## Marketing kit
 
 Launch goal: 1,000 users in Columbia by Dec 31, 2026. Everything lives in `Marketing/`:
