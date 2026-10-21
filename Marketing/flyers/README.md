@@ -6,6 +6,7 @@ now and the App Store after launch) and the web map (`/app/?c=flyer`).
 - `flyer-night.html` → `CoMoEvents-flyer-night.pdf` (dark, glossy)
 - `flyer-day.html` → `CoMoEvents-flyer-day.pdf` (light, like the app)
 - `flyer-bold.html` → `CoMoEvents-flyer-bold.pdf` (yellow poster)
+- `card-night.html` / `card-day.html` → `CoMoEvents-card-4x6-*.pdf` (4x6 reception-desk cards; print on cardstock, 4x6 acrylic holder)
 
 Edit the HTML, then re-render with headless Chrome:
 
