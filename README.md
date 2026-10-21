@@ -174,6 +174,14 @@ pin are filled from the venue table, then Apple Maps (`Support/VenueLookup.swift
 venue's phone and website when the venue is known. `scripts/update-feed.sh` copies `venues.json` into
 the app bundle and into `docs/`.
 
+## Usage counter
+
+"N people use CoMo Events" (Profile header, map count pill, web Profile, landing page) counts anonymous
+`Install` records in the public CloudKit database: one per app install or signed-in web browser,
+created once and touched at most weekly (`Support/UsageCounter.swift`, `Cloud.registerInstall`). No
+device id, no location. Writes need an iCloud account like every other public write; reads are open,
+so the landing page queries CloudKit Web Services directly. Anonymous web visitors are not counted.
+
 ## App Review compliance notes (guideline 1.2 and friends)
 
 The community features make this a user-generated-content app, so the app ships the four things

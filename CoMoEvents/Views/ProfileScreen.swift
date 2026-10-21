@@ -7,6 +7,7 @@ struct ProfileScreen: View {
     @EnvironmentObject var notifications: NotificationService
     @EnvironmentObject var community: CommunityStore
     @EnvironmentObject var router: Router
+    @EnvironmentObject var usage: UsageCounter
     @Environment(\.colorScheme) private var scheme
     @State private var name = ""
     @State private var confirmDelete = false
@@ -65,6 +66,9 @@ struct ProfileScreen: View {
                 Text(account.profile.displayName.isEmpty ? "Hey there" : account.profile.displayName)
                     .font(.title2.bold())
                 Text(statusLine).font(.caption).foregroundStyle(.secondary)
+                if let t = usage.text {
+                    Label(t, systemImage: "person.2.fill").font(.caption.weight(.semibold)).foregroundStyle(Theme.gold)
+                }
             }
             Spacer()
         }

@@ -11,6 +11,7 @@ struct CoMoEventsApp: App {
     @StateObject private var friends = FriendsStore()
     @StateObject private var attendance = AttendanceStore()
     @StateObject private var router = Router()
+    @StateObject private var usage = UsageCounter()
 
     var body: some Scene {
         WindowGroup {
@@ -23,6 +24,7 @@ struct CoMoEventsApp: App {
                 .environmentObject(friends)
                 .environmentObject(attendance)
                 .environmentObject(router)
+                .environmentObject(usage)
                 .task { await launch() }
                 .onReceive(account.$profile) { p in
                     store.mergeFavorites(p.favorites)
@@ -63,5 +65,7 @@ struct CoMoEventsApp: App {
         await notifications.reschedule(favorites: store.favoriteEvents, all: store.events)
         let snapshot = store.events
         Task.detached(priority: .background) { SpotlightIndexer.index(snapshot) }
+        await usage.register()
+        await usage.refresh()
     }
 }

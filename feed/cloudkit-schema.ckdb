@@ -98,6 +98,22 @@ DEFINE SCHEMA
         GRANT READ TO "_world"
     );
 
+    RECORD TYPE Install (
+        "___createTime" TIMESTAMP,
+        "___createdBy"  REFERENCE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE QUERYABLE,
+        appVersion      STRING,
+        installedAt     TIMESTAMP QUERYABLE SORTABLE,
+        lastSeen        TIMESTAMP QUERYABLE,
+        platform        STRING QUERYABLE,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
     RECORD TYPE Report (
         "___createTime" TIMESTAMP,
         "___createdBy"  REFERENCE,

@@ -5,6 +5,7 @@ struct MapScreen: View {
     @EnvironmentObject var store: EventStore
     @EnvironmentObject var location: LocationManager
     @EnvironmentObject var friends: FriendsStore
+    @EnvironmentObject var usage: UsageCounter
 
     @State private var window: TimeWindow = .today
     @State private var position: MapCameraPosition = .region(
@@ -98,6 +99,7 @@ struct MapScreen: View {
                         Image(systemName: "mappin.and.ellipse").foregroundStyle(Theme.gold)
                         Text("\(visible.count) events").fontWeight(.semibold)
                         if !store.updatedText.isEmpty { Text("· \(store.updatedText)").foregroundStyle(.secondary) }
+                        if usage.total > 0 { Text("· \(usage.total.formatted()) using").foregroundStyle(.secondary) }
                     }
                     .font(.caption)
                     .padding(.horizontal, 12).padding(.vertical, 6)

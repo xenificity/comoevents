@@ -353,7 +353,7 @@
   function renderMapOverlays() {
     var n = state.visible.length;
     $("count-n").textContent = n + (n === 1 ? " event" : " events");
-    $("count-upd").textContent = state.generatedAt ? " · Updated " + relative(state.generatedAt) : "";
+    $("count-upd").textContent = (state.generatedAt ? " · Updated " + relative(state.generatedAt) : "") + (window.Cloud && Cloud.users && Cloud.users.total ? " · " + Cloud.users.total.toLocaleString() + " using" : "");
     $("all-n").textContent = "All " + n;
     $("nextup-label").textContent = state.window === "now" ? "Happening now" : "Next up";
     var now = new Date();
@@ -394,7 +394,8 @@
     var initials = (p.name || "").split(/\s+/).filter(Boolean).map(function (w) { return w[0].toUpperCase(); }).slice(0, 2).join("") || "☺";
     var ck = window.Cloud || {};
     var status = !ck.available ? "Profile saved in this browser" : ck.signedIn ? "Signed in with iCloud" : "Not signed in · profile saved in this browser only";
-    var head = el("div", "glass card pcard", '<div class="head"><div class="avatar">' + esc(initials) + "</div><div><b>" + esc(p.name || "Hey there") + "</b><small>" + status + "</small></div></div>");
+    var users = ck.users && ck.users.total ? '<div class="users">' + ic("people") + " " + ck.users.total.toLocaleString() + (ck.users.total === 1 ? " person uses" : " people use") + " CoMo Events</div>" : "";
+    var head = el("div", "glass card pcard", '<div class="head"><div class="avatar">' + esc(initials) + "</div><div><b>" + esc(p.name || "Hey there") + "</b><small>" + status + "</small>" + users + "</div></div>");
     box.appendChild(head);
     if (ck.available) {
       var sc = el("div", "glass card pcard", ck.signedIn
@@ -807,6 +808,7 @@
       if (what === "attendance") { renderMapOverlays(); if (state.tab === "upcoming") renderUpcoming(); if (state.tab === "saved") renderSaved(); var a = $("detail").querySelector(".att"); if (a && state.selected) { var ev = state.events.find(function (x) { return x.id === state.selected; }); if (ev) renderAttendance(a, ev); } }
       if (what === "friends") { renderMarkers(); if (state.tab === "friends") renderFriends(); }
       if (what === "auth" || what === "ready") { syncFriendProfile(); if (state.tab === "profile") renderProfile(); if (state.tab === "friends") renderFriends(); }
+      if (what === "users") { renderMapOverlays(); if (state.tab === "profile") renderProfile(); }
     });
     var t; $("search").addEventListener("input", function (ev) { clearTimeout(t); t = setTimeout(function () { state.search = ev.target.value.trim().toLowerCase(); recompute(); renderUpcoming(); }, 120); });
     document.addEventListener("keydown", function (ev) { if (ev.key === "Escape") { closeDetail(); closeSheet(); } });

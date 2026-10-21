@@ -36,6 +36,7 @@
 		AF139E757D144C45D0E20ADB /* TimeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BC8F47418CC9EB86E8A42 /* TimeWindow.swift */; };
 		AF5AB2F4F06534FA753A58C8 /* ContactsInvite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DEAE03921526A9495EDAB5 /* ContactsInvite.swift */; };
 		B636F1418EB66E64D2809776 /* CoMoEventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717CC84A215533058E7FB50 /* CoMoEventsApp.swift */; };
+		C25A160DF40CF79F89962303 /* UsageCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12248080FFF812BF8FACADB5 /* UsageCounter.swift */; };
 		CB80D98FB626AFF24827FF80 /* SubmitEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10070D58ECBD247C1F8F02B9 /* SubmitEventView.swift */; };
 		D27BC47CA1A5C07E589E15D0 /* CommunityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0EA88088E79B7E0A40576B /* CommunityStore.swift */; };
 		D4D071D9C6AB594730237C74 /* SpotlightIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6770C54F38582069D268B2 /* SpotlightIndexer.swift */; };
@@ -51,6 +52,7 @@
 		04475B5572A08EA8C793484E /* VenueLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueLookup.swift; sourceTree = "<group>"; };
 		0DDE406C3CA3CD41CA21D590 /* FriendsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsScreen.swift; sourceTree = "<group>"; };
 		10070D58ECBD247C1F8F02B9 /* SubmitEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitEventView.swift; sourceTree = "<group>"; };
+		12248080FFF812BF8FACADB5 /* UsageCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageCounter.swift; sourceTree = "<group>"; };
 		1618B4B15A095A2A85752FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1DEE98ED596B6A9C2D4D6E8D /* CoMoEvents.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CoMoEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E478B8685E6E1B7E9DEB722 /* CoMoIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoMoIntents.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				FD776B73BF8407921FE3E7E4 /* SoundPlayer.swift */,
 				8A6770C54F38582069D268B2 /* SpotlightIndexer.swift */,
 				BED912DEDB9BE3D2F2ABF127 /* Theme.swift */,
+				12248080FFF812BF8FACADB5 /* UsageCounter.swift */,
 				04475B5572A08EA8C793484E /* VenueLookup.swift */,
 			);
 			path = Support;
@@ -297,6 +300,7 @@
 				8A50468FBB3116B177E586D3 /* Theme.swift in Sources */,
 				AF139E757D144C45D0E20ADB /* TimeWindow.swift in Sources */,
 				A2788463541C619471DBF3B6 /* UpcomingScreen.swift in Sources */,
+				C25A160DF40CF79F89962303 /* UsageCounter.swift in Sources */,
 				DDF276469D866CA54E77E046 /* UserProfile.swift in Sources */,
 				72D8488E2E070B0300A9B7A9 /* VenueLookup.swift in Sources */,
 			);
@@ -340,7 +344,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = TU583LSD8W;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -449,7 +453,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = TU583LSD8W;
 				ENABLE_NS_ASSERTIONS = NO;

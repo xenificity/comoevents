@@ -84,9 +84,9 @@ footer a{color:var(--muted)}
       <a class="btn" id="store" href="get/?c=site">Get it for iPhone</a>
       <a class="btn ghost" href="app/">Open the live map in your browser</a>
     </div>
-    <div class="stats">
+    <div class="stats" id="stats">
       <div><b>1,000+</b>events in the next 90 days</div>
-      <div><b>10</b>public sources merged</div>
+      <div><b>12</b>public sources merged</div>
       <div><b>9</b>categories with their own pin</div>
     </div>
   </div>
@@ -148,5 +148,13 @@ footer a{color:var(--muted)}
   </div>
 </footer>
 </div>
+<script>
+// Live "people using" counter: anonymous Install records in the public CloudKit database.
+(function(){var token="ebf54f9ddaf48d86548cd8798feee69f76e47dee8a95df9cb865520ae2728a48";
+var url="https://api.apple-cloudkit.com/database/1/iCloud.com.xenificity.comoevents/production/public/records/query?ckAPIToken="+token;
+var total=0;function page(marker){var body={query:{recordType:"Install",filterBy:[{fieldName:"installedAt",comparator:"GREATER_THAN",fieldValue:{value:0}}]},resultsLimit:400,desiredKeys:[]};if(marker)body.continuationMarker=marker;
+return fetch(url,{method:"POST",body:JSON.stringify(body)}).then(function(r){return r.json()}).then(function(j){total+=(j.records||[]).length;if(j.continuationMarker&&total<50000)return page(j.continuationMarker);});}
+page().then(function(){if(!total)return;var s=document.getElementById("stats");if(!s)return;var d=document.createElement("div");d.id="cloudkit-users";d.innerHTML="<b>"+total.toLocaleString()+"</b>"+(total===1?"person using it":"people using it");s.appendChild(d);}).catch(function(){});})();
+</script>
 </body>
 </html>

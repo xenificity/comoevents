@@ -82,6 +82,34 @@
   Cloud.refreshAll = function () {
     if (!Cloud.available) return;
     Cloud.refreshCounts(); Cloud.loadCommunity(); if (Cloud.friends.enabled) Cloud.refreshFriends();
+    Cloud.refreshUsers(); if (Cloud.signedIn) Cloud.registerInstall();
+  };
+
+  // ---------- "N people use CoMo Events" ----------
+  // One anonymous Install record per browser (signed-in users only can write), read by everyone.
+  Cloud.users = { total: load("usage.total", 0), updatedAt: load("usage.updatedAt", 0) };
+  Cloud.registerInstall = function () {
+    if (!Cloud.signedIn) return Promise.resolve();
+    var name = load("usage.recordName", null) || ("install-web-" + ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, function (c) { return (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16); }));
+    var last = load("usage.lastSeen", 0);
+    if (Date.now() - last < 7 * 86400e3) return Promise.resolve();
+    return fetchOne(name).then(function (existing) {
+      var fields = { lastSeen: Date.now(), platform: "web", appVersion: "web" };
+      if (!existing) fields.installedAt = Date.now();
+      var rec = { recordType: "Install", recordName: name, fields: {} };
+      Object.keys(fields).forEach(function (k) { rec.fields[k] = { value: fields[k] }; });
+      if (existing) rec.recordChangeTag = existing.recordChangeTag;
+      return db.saveRecords([rec]).then(function (r) { if (r.hasErrors) throw r.errors[0]; save("usage.recordName", name); save("usage.lastSeen", Date.now()); });
+    }).catch(function () {});
+  };
+  Cloud.refreshUsers = function (force) {
+    if (!Cloud.available) return Promise.resolve();
+    if (!force && Date.now() - Cloud.users.updatedAt < 6 * 3600e3) { Cloud.emit("users"); return Promise.resolve(); }
+    return queryAll({ recordType: "Install", filterBy: [{ fieldName: "installedAt", comparator: "GREATER_THAN", fieldValue: { value: 0 } }], desiredKeys: [] }, 400).then(function (recs) {
+      Cloud.users = { total: recs.length, updatedAt: Date.now() };
+      save("usage.total", recs.length); save("usage.updatedAt", Date.now());
+      Cloud.emit("users");
+    }).catch(function () {});
   };
 
   // ---------- query helpers ----------
