@@ -273,6 +273,7 @@
   // ---------- map ----------
   var map, markers = [], meMarker;
   function initMap() {
+    window.__como = state;
     map = new maplibregl.Map({ container: "map", style: STYLE, center: CENTER, zoom: 13.4, pitch: 45, bearing: -8, attributionControl: { compact: true }, maxPitch: 65 });
     map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), "bottom-right");
     var geo = new maplibregl.GeolocateControl({ positionOptions: { enableHighAccuracy: false }, trackUserLocation: false, showUserLocation: true });
@@ -310,7 +311,7 @@
       var n = h.events.length, size = Math.min(38 + n * 1.5, 56), c = CATS[h.dominant].color;
       var wrap = el("div", "pinwrap");
       wrap.style.setProperty("--c", c); wrap.style.setProperty("--s", size + "px");
-      if (n >= 3) { var busy = el("div", "busy"); busy.style.setProperty("--h", Math.min(120 + n * 12, 260) + "px"); wrap.appendChild(busy); }
+      if (n >= 3) { var busy = el("div", "busy"); busy.style.setProperty("--h", Math.min(100 + n * 6, 170) + "px"); wrap.appendChild(busy); }
       wrap.appendChild(el("div", "halo"));
       var pin = el("div", "pin" + (state.selected && h.events.some(function (e) { return e.id === state.selected; }) ? " sel" : ""), ic(h.dominant) + (n > 1 ? "<b>" + (n > 99 ? "99+" : n) + "</b>" : ""));
       pin.title = h.title + (n > 1 ? " · " + n + " events" : "");
@@ -485,14 +486,17 @@
     if (e.lat != null && e.lng != null) {
       var mm = el("div", "minimap"); mm.onclick = function () { window.open(directionsURL(e), "_blank", "noopener"); };
       body.appendChild(mm);
-      setTimeout(function () {
+      // Built after the panel is visible, so the container has a size.
+      requestAnimationFrame(function () { setTimeout(function () {
         try {
           if (miniMap) { miniMap.remove(); miniMap = null; }
-          miniMap = new maplibregl.Map({ container: mm, style: STYLE, center: [e.lng, e.lat], zoom: 15, interactive: false, attributionControl: false });
+          miniMap = new maplibregl.Map({ container: mm, style: STYLE, center: [e.lng, e.lat], zoom: 15.2, pitch: 30, interactive: false, attributionControl: false });
+          miniMap.on("load", function () { miniMap.resize(); });
           var pw = el("div", "pinwrap"); pw.style.setProperty("--c", CATS[k].color); pw.style.setProperty("--s", "36px"); pw.appendChild(el("div", "pin", ic(k)));
           new maplibregl.Marker({ element: pw, anchor: "center" }).setLngLat([e.lng, e.lat]).addTo(miniMap);
+          window.__comoMini = miniMap;
         } catch (err) {}
-      }, 50);
+      }, 80); });
     }
     if (e.description) body.appendChild(el("div", "glass card desc", esc(e.description)));
     if (e.audience && e.audience.length) {

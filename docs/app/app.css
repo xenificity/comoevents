@@ -82,7 +82,7 @@ a{color:inherit}
 .pin.sel{border-color:var(--y);transform:translate(-50%,-50%) scale(1.18);z-index:3}
 .pin b{position:absolute;top:-8px;right:-10px;background:var(--y);color:var(--ink);font-size:12px;font-weight:900;border-radius:999px;padding:1px 6px;border:1.5px solid #fff;z-index:2}
 .halo{position:absolute;left:0;top:0;transform:translate(-50%,-50%);width:calc(var(--s,38px) * 1.5);height:calc(var(--s,38px) * 1.5);border-radius:50%;background:var(--c);opacity:.35;filter:blur(8px);pointer-events:none}
-.busy{position:absolute;left:0;top:0;transform:translate(-50%,-50%);width:var(--h,120px);height:var(--h,120px);border-radius:50%;background:color-mix(in srgb,var(--c) 16%,transparent);border:1.5px solid color-mix(in srgb,var(--c) 40%,transparent);pointer-events:none}
+.busy{position:absolute;left:0;top:0;transform:translate(-50%,-50%);width:var(--h,110px);height:var(--h,110px);border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--c) 22%,transparent),color-mix(in srgb,var(--c) 6%,transparent) 70%,transparent);pointer-events:none}
 @keyframes pop{from{transform:translate(-50%,-50%) scale(.4);opacity:0}to{transform:translate(-50%,-50%) scale(1);opacity:1}}
 .me{width:16px;height:16px;border-radius:50%;background:#0a84ff;border:3px solid #fff;box-shadow:0 0 0 6px rgba(10,132,255,.25)}
 
