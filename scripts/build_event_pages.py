@@ -246,7 +246,7 @@ def event_page(ev, same_day, venue):
     out = [head(f"{ev['title']} · {parse(ev['start']).strftime('%b %-d')} · Columbia, MO", meta, canonical, image, ld)]
     out.append('<article class="card">')
     if ev.get("imageUrl"):
-        out.append(f'<img class="hero" src="{html.escape(ev["imageUrl"])}" alt="" loading="lazy" referrerpolicy="no-referrer">')
+        out.append(f'<img class="hero" src="{html.escape(ev["imageUrl"])}" alt="" fetchpriority="high" referrerpolicy="no-referrer" onerror="this.remove()">')
     out.append('<div class="body">')
     out.append(f'<span class="chip">{CAT_EMOJI.get(cat, "📍")} {CAT_LABEL.get(cat, "Event")}</span>')
     out.append(f"<h1>{html.escape(ev['title'])}</h1>")
