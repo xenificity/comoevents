@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>CoMo Events · Live map of Columbia, MO</title>
+<meta name="description" content="Every public event in Columbia, Missouri on one live map: Mizzou, downtown, music, parties, markets, library and family events. Free, no account.">
+<meta property="og:title" content="CoMo Events · Live map">
+<meta property="og:description" content="Every public event in Columbia, Missouri on one live map. Free, no ads.">
+<meta property="og:image" content="https://xenificity.github.io/comoevents/img/icon-512.png">
+<meta name="theme-color" content="#0f0f12">
+<link rel="icon" href="../img/icon-512.png">
+<link rel="apple-touch-icon" href="../img/icon-512.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css" integrity="sha512-ENrTWqddXrLJsQS2A86QmvA17PkJ0GVm1bqj5aTgpeMAfDKN2+SIOLpKG8R/6KkimnhTb+VW5qqUHB/r1zaRgg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="app">
+  <header class="top">
+    <a class="brand" href="../" title="CoMo Events home"><img src="../img/icon-512.png" alt="">CoMo Events</a>
+    <div class="search"><span>⌕</span><input id="search" type="search" placeholder="Search events or venues" autocomplete="off"></div>
+    <a class="get" href="../get/?c=webapp"> Get the iPhone app</a>
+  </header>
+
+  <div class="filters">
+    <div class="row">
+      <div class="seg" id="windows"></div>
+      <div class="seg soft" id="audiences"></div>
+      <div class="count" id="count">Loading events…</div>
+    </div>
+    <div class="row chips" id="categories"></div>
+  </div>
+
+  <main class="body">
+    <aside class="panel" id="panel">
+      <div class="handle" id="handle" aria-hidden="true"></div>
+      <div class="list" id="list"></div>
+    </aside>
+    <div class="mapwrap">
+      <div id="map" role="application" aria-label="Map of events in Columbia, Missouri"></div>
+      <button class="fab" id="toggle" type="button">List</button>
+    </div>
+  </main>
+
+  <section class="detail" id="detail" hidden aria-live="polite"></section>
+  <div class="toast" id="toast" hidden></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js" integrity="sha512-TiMWaqipFi2Vqt4ugRzsF8oRoGFlFFuqIi30FFxEPNw58Ov9mOy6LgC05ysfkxwLE0xVeZtmr92wVg9siAFRWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="app.js"></script>
+</body>
+</html>

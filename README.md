@@ -146,6 +146,16 @@ opens the App Store once the app is live and the TestFlight beta until then. The
 button (`c=invite`), and the app asks once for a rating after the third saved event. Press kit:
 `docs/press.html`.
 
+## Web app
+
+`docs/app/` is a browser version of the app at https://xenificity.github.io/comoevents/app/: the same
+feed on a Leaflet map (CARTO dark tiles, no API key) with the Now / Today / Weekend / 7 days / All
+windows, audience and category filters, search, a day-grouped list, an event panel with More info,
+Directions, Add to calendar (.ics) and Share, plus `comoevents://event/<id>` and install links.
+Favorites stay in the browser's localStorage. `?e=<id>` opens an event directly. It reads
+`docs/events.json`, which the feed workflow and `scripts/update-feed.sh` copy from `feed/events.json`,
+and falls back to the raw GitHub copy. No build step: plain `index.html`, `app.css`, `app.js`.
+
 ## App Review compliance notes (guideline 1.2 and friends)
 
 The community features make this a user-generated-content app, so the app ships the four things

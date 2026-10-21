@@ -46,3 +46,7 @@ Read README.md first. Short version:
 - CloudKit schema lives in `feed/cloudkit-schema.ckdb`. To ship a schema change: CloudKit Console →
   container → Development → "Import Schema…" with that file (it REPLACES the dev schema) → "Deploy
   Schema Changes…" to Production. The console session expires overnight; Ajay signs in.
+- Web app: `docs/app/` (plain HTML/CSS/JS, Leaflet + markercluster from cdnjs with SRI hashes; when
+  bumping a library version recompute the hash with `curl -sL URL | openssl dgst -sha512 -binary | base64`).
+  It reads `docs/events.json`; keep that copy in the feed workflow and `scripts/update-feed.sh`.
+  Time-window and category rules mirror `TimeWindow.swift` and `Event.swift`; change both together.
