@@ -158,8 +158,9 @@ with the same grid rule as `Hotspot.swift`. Favorites and profile stay in the br
 `?e=<id>` opens an event, `?tab=upcoming` a tab. It reads `docs/events.json`, which the feed workflow
 and `scripts/update-feed.sh` copy from `feed/events.json`, with the raw GitHub copy as fallback.
 No build step: plain `index.html`, `app.css`, `app.js`; bump the `?v=` on the two asset links in
-`index.html` after every change so browsers pick it up. Attendance, friends and posting need CloudKit
-and live in the iPhone app for now.
+`index.html` after every change so browsers pick it up. With a CloudKit JS API token in `docs/app/ck-config.js`, the web app also signs in with iCloud and
+has Going / I'm here / Went with live counts, Friends by code and Post an event, through the same
+public CloudKit records as the app (`docs/app/cloud.js`).
 
 ## App Review compliance notes (guideline 1.2 and friends)
 

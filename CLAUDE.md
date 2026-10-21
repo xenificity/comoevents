@@ -50,3 +50,7 @@ Read README.md first. Short version:
   bumping a library version recompute the hash with `curl -sL URL | openssl dgst -sha512 -binary | base64`).
   It reads `docs/events.json`; keep that copy in the feed workflow and `scripts/update-feed.sh`.
   Time-window and category rules mirror `TimeWindow.swift` and `Event.swift`; change both together.
+- Web app iCloud: `docs/app/cloud.js` is the CloudKit JS layer (same public record types and rules as the
+  Swift stores: att-<user>-<event>, friend-<user>, Approval by moderators, 3 reports hide a post). The
+  API token lives in `docs/app/ck-config.js` (`window.CK_TOKEN`), created in CloudKit Console → Production
+  → Tokens & Keys, restricted to xenificity.github.io. Empty token = iCloud features hidden.
