@@ -59,3 +59,7 @@ Read README.md first. Short version:
   rest). Put the flyer photo in `docs/img/flyers/` and reference its Pages URL as `imageUrl`. Venue
   phone/website/pin for posts come from `feed/venues.json` → `VenueLookup.swift` (app) and
   `Cloud.lookupVenue` (web); add a `website` when adding a venue.
+- Event pages for Google: `scripts/build_event_pages.py` turns `docs/events.json` into `docs/e/<slug>/index.html`
+  (schema.org Event JSON-LD, one page per event; same-id multi-day repeats become one page with endDate),
+  `docs/e/index.html`, `docs/sitemap.xml`, `docs/robots.txt`. It wipes and rebuilds `docs/e` and is deterministic.
+  The feed workflow and `scripts/update-feed.sh` run it; slugs are `<title>-<id[:6]>`, so URLs stay stable.
