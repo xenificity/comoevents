@@ -115,6 +115,10 @@
   Cloud.status = function (eventId) { return Cloud.attendance.mine[eventId] || null; };
   Cloud.count = function (eventId) { return Cloud.attendance.counts[eventId] || { going: 0, here: 0, went: 0 }; };
   Cloud.setStatus = function (event, status) {
+    // Adjust the shared count at once; CloudKit's query index catches up a few seconds later.
+    var prev = Cloud.attendance.mine[event.id], c = Cloud.attendance.counts[event.id] = Cloud.attendance.counts[event.id] || { going: 0, here: 0, went: 0 };
+    if (prev && c[prev] > 0) c[prev]--;
+    if (status) c[status]++;
     if (status) Cloud.attendance.mine[event.id] = status; else delete Cloud.attendance.mine[event.id];
     save("attendance.mine", Cloud.attendance.mine);
     Cloud.emit("attendance");
@@ -124,7 +128,7 @@
     var p = status
       ? upsert("Attendance", name, { eventID: event.id, status: status, userID: Cloud.userRecordName, eventStart: event._start.getTime(), updatedAt: Date.now() })
       : db.deleteRecords([{ recordName: name }]);
-    return p.then(function () { return Cloud.refreshCounts(); }).then(function () { return null; }).catch(function (e) { return err(e); });
+    return p.then(function () { setTimeout(Cloud.refreshCounts, 4000); return null; }).catch(function (e) { return err(e); });
   };
   Cloud.refreshCounts = function () {
     if (!Cloud.available) return Promise.resolve();
