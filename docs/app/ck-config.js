@@ -2,4 +2,4 @@
 // iCloud.com.xenificity.comoevents, Production, Tokens & Keys, "Web app (xenificity.github.io)").
 // It is restricted to the xenificity.github.io origin, so it is safe to ship in the page.
 // Leave it empty to run the web app without iCloud features.
-window.CK_TOKEN = "";
+window.CK_TOKEN = "ebf54f9ddaf48d86548cd8798feee69f76e47dee8a95df9cb865520ae2728a48";
