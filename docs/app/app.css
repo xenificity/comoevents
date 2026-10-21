@@ -21,10 +21,11 @@ button{font:inherit;color:inherit}
 .top{display:flex;align-items:center;gap:14px;padding:12px 16px;height:var(--top);border-bottom:1px solid var(--line);background:rgba(15,15,18,.7);backdrop-filter:blur(18px)}
 .brand{display:flex;align-items:center;gap:10px;font-weight:800;color:#fff;text-decoration:none;white-space:nowrap}
 .brand img{width:34px;height:34px;border-radius:9px}
-.search{flex:1;display:flex;align-items:center;gap:8px;max-width:520px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:0 14px;height:40px}
+.search{flex:1 1 0;min-width:0;display:flex;align-items:center;gap:8px;max-width:520px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:0 14px;height:40px}
 .search span{color:var(--muted);font-size:18px}
-.search input{flex:1;background:none;border:0;outline:0;color:#fff;font-size:15px;min-width:0}
-.get{margin-left:auto;background:var(--y);color:var(--ink);font-weight:800;padding:9px 16px;border-radius:999px;text-decoration:none;white-space:nowrap;box-shadow:0 8px 24px rgba(255,214,0,.25)}
+.search input{flex:1;width:100%;background:none;border:0;outline:0;color:#fff;font-size:15px;min-width:0}
+.get .short{display:none}
+.get{margin-left:auto;flex:none;background:var(--y);color:var(--ink);font-weight:800;padding:9px 16px;border-radius:999px;text-decoration:none;white-space:nowrap;box-shadow:0 8px 24px rgba(255,214,0,.25)}
 
 /* Filters */
 .filters{padding:8px 16px 6px;border-bottom:1px solid var(--line);background:rgba(15,15,18,.55);backdrop-filter:blur(18px)}
@@ -113,6 +114,7 @@ button{font:inherit;color:inherit}
   :root{--top:56px}
   .top{padding:8px 12px;gap:10px}
   .brand span{display:none}
+  .get .long{display:none}.get .short{display:inline}
   .get{padding:8px 12px;font-size:13px}
   .search{height:36px}
   .count{display:none}
