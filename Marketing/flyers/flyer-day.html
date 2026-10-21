@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>CoMo Events flyer · Day</title>
+<style>
+@page{size:8.5in 11in;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;width:8.5in;height:11in;overflow:hidden}
+body{font-family:-apple-system,"SF Pro Display","Helvetica Neue",Inter,Arial,sans-serif;color:#121214;background:#f7f7f9;position:relative;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.wash{position:absolute;inset:0;background:
+ radial-gradient(55% 40% at 0% 0%,rgba(255,214,0,.55),transparent 65%),
+ radial-gradient(45% 40% at 100% 100%,rgba(140,80,255,.22),transparent 65%)}
+.top{position:relative;padding:.6in .65in 0;display:flex;justify-content:space-between;align-items:center}
+.brand{display:flex;align-items:center;gap:.14in;font-weight:800;font-size:18pt}
+.brand img{width:.56in;height:.56in;border-radius:.15in}
+.tag{background:#121214;color:#FFD600;border-radius:999px;padding:.08in .22in;font-weight:800;font-size:10pt;letter-spacing:.08em;text-transform:uppercase}
+h1{position:relative;margin:.5in .65in 0;font-size:48pt;line-height:1;letter-spacing:-.035em;font-weight:900;max-width:3.7in}
+h1 mark{background:linear-gradient(transparent 55%,#FFD600 55%);color:inherit}
+.sub{position:relative;margin:.22in .65in 0;font-size:15pt;color:#55555e;max-width:3.4in;line-height:1.3}
+.phones{position:absolute;right:.25in;top:1.75in;width:3.9in;height:5.4in}
+.phones img{position:absolute;width:2.35in;border-radius:.36in;border:1.5px solid rgba(0,0,0,.08);box-shadow:0 40px 80px rgba(20,20,40,.28)}
+.phones .a{left:0;top:.5in;transform:rotate(-7deg)}
+.phones .b{right:0;top:0;transform:rotate(5deg);z-index:2}
+.why{position:absolute;left:.65in;top:5.7in;width:3.5in;display:grid;gap:.16in}
+.why div{display:flex;gap:.16in;align-items:center;font-size:14pt;font-weight:700}
+.why i{flex:none;width:.46in;height:.46in;border-radius:50%;display:grid;place-items:center;font-style:normal;font-size:16pt;background:#fff;box-shadow:0 8px 20px rgba(20,20,40,.12)}
+.bottom{position:absolute;left:.65in;right:.65in;bottom:.6in;display:flex;gap:.3in}
+.qr{flex:1;background:rgba(255,255,255,.85);border:1px solid rgba(255,255,255,.9);border-radius:.32in;padding:.22in;display:flex;gap:.22in;align-items:center;box-shadow:0 20px 50px rgba(20,20,40,.14)}
+.qr img{width:1.65in;height:1.65in;background:#fff;padding:.08in;border-radius:.14in}
+.qr b{display:block;font-size:17pt;letter-spacing:-.01em;line-height:1.1}
+.qr small{display:block;color:#6b6b74;font-size:10.5pt;margin-top:.08in;line-height:1.3}
+.qr.y{background:#121214;color:#fff}
+.qr.y small{color:rgba(255,255,255,.7)}
+.foot{position:absolute;left:.65in;right:.65in;bottom:.25in;display:flex;justify-content:space-between;font-size:9pt;color:#8a8a93}
+</style></head>
+<body>
+<div class="wash"></div>
+<div class="top"><div class="brand"><img src="../../docs/img/icon-512.png" alt="">CoMo Events</div><span class="tag">Free · No ads</span></div>
+<h1>What's on in <mark>Columbia</mark> tonight?</h1>
+<p class="sub">1,000+ events from Mizzou, downtown and across town, on one live map. Updated every two hours.</p>
+<div class="phones"><img class="a" src="../../docs/img/03-upcoming.jpg" alt=""><img class="b" src="../../docs/img/01-map.jpg" alt=""></div>
+<div class="why">
+  <div><i>🗺️</i>Busy spots glow on the map</div>
+  <div><i>🎟️</i>Tickets, directions, calendar in a tap</div>
+  <div><i>👯</i>See where friends are going</div>
+</div>
+<div class="bottom">
+  <div class="qr y"><img src="qr-app.svg" alt="QR for the iPhone app"><div><b>Get the iPhone app</b><small>Point your camera here</small></div></div>
+  <div class="qr"><img src="qr-web.svg" alt="QR for the web app"><div><b>Or open the web map</b><small>Works on any phone or laptop</small></div></div>
+</div>
+<div class="foot"><span>xenificity.github.io/comoevents</span><span>Built by a Mizzou student</span></div>
+</body></html>
