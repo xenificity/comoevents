@@ -5,8 +5,8 @@
 **Category**: Lifestyle (secondary: Entertainment)
 **Price**: Free, all countries. No IAP, no ads.
 **Age rating**: 12+ expected (infrequent/mild alcohol references: bar and brewery events appear in listings)
-**Support URL**: https://xenificity.github.io/comoevents/
-**Privacy Policy URL**: https://xenificity.github.io/comoevents/privacy.html
+**Support URL**: https://comoevent.com/about/
+**Privacy Policy URL**: https://comoevent.com/privacy.html
 **Copyright**: 2026 Ajay Kumar
 **Sign-in required for review**: No (Sign in with Apple is optional; every feature works signed out)
 
