@@ -68,6 +68,7 @@ button{font:inherit;color:inherit}
 /* Map */
 .mapwrap{flex:1;position:relative;min-width:0}
 #map{position:absolute;inset:0;background:#0b0b0e}
+.leaflet-tile-pane{filter:invert(1) hue-rotate(190deg) saturate(.55) brightness(.82) contrast(.92)}
 .leaflet-container{font:inherit}
 .leaflet-control-attribution{background:rgba(15,15,18,.7)!important;color:var(--muted)!important;font-size:10px}
 .leaflet-control-attribution a{color:var(--muted)!important}
