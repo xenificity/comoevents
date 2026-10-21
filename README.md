@@ -25,6 +25,7 @@ GitHub, fetches the live copy that a scheduled GitHub Action rebuilds.
 | Daniel Boone Regional Library | Communico JSON | Columbia Public Library only |
 | MyHouse Nightclub | Posh (posh.vip) group JSON | Add more promoters' Posh slugs to `POSH_GROUPS` |
 | Cooper's Landing | The Events Calendar REST | Add other WordPress venues to `TRIBE_SITES` |
+| Shanthi Mandir (Hindu temple) | Public Google Calendar .ics, recurring rules expanded with dateutil | Add other public .ics calendars to `ICS_SITES` |
 | Vox Magazine calendar | TownNews listing cards | Community submissions; recurring schedules expanded weekly; site rate-limits, so no per-event fetch |
 
 Facebook itself has no public API for page events, so it is covered indirectly via AllEvents.

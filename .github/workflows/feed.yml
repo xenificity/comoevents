@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests
+      - run: pip install requests python-dateutil
       - run: python3 feed/aggregate.py --max-geocode 40
       - run: cp feed/events.json docs/events.json   # same-origin copy for the web app
       - name: Commit if changed

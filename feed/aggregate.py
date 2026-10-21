@@ -822,8 +822,116 @@ def src_vox(days):
             break
     return out
 
+# ----------------------------------------------------------------- public iCalendar feeds
+ICS_SITES = {
+    # key -> (display name, ICS url, venue, address, lat, lng, info url, default category)
+    # Shanthi Mandir (Hindu Temple and Community Center of Mid-Missouri) publishes its poojas in a
+    # public Google Calendar embedded at shanthimandir.missouri.org/events-calendar/.
+    "shanthimandir": ("Shanthi Mandir", "https://calendar.google.com/calendar/ical/shanthimandir2005%40gmail.com/public/basic.ics",
+                      "Shanthi Mandir", "2006 Holly Ave, Columbia, MO 65202", 38.97534, -92.30822,
+                      "https://shanthimandir.missouri.org/events-calendar/", "community"),
+}
+ICS_SKIP = re.compile(r"\b(temple\s+(open|closed)|open\s+hours|closed)\b", re.I)
+ICS_BLURB = {
+    "shanthimandir": "At Shanthi Mandir, the Hindu Temple and Community Center of Mid-Missouri. Everyone is welcome; "
+                     "regular poojas are led by volunteers and can be sponsored. Details: shanthimandir.missouri.org",
+}
+
+def _ics_unescape(s):
+    return (s or "").replace("\\n", "\n").replace("\\,", ",").replace("\\;", ";").replace("\\\\", "\\").strip()
+
+def _ics_datetime(params, val):
+    """DTSTART/DTEND value -> (aware datetime in Chicago, is_all_day)."""
+    val = val.strip()
+    tz = TZ
+    if params.get("TZID"):
+        try:
+            tz = ZoneInfo(params["TZID"])
+        except Exception:
+            pass
+    if len(val) == 8 and val.isdigit():
+        return dt.datetime(int(val[:4]), int(val[4:6]), int(val[6:8]), tzinfo=TZ), True
+    utc = val.endswith("Z")
+    val = val.rstrip("Z")
+    d = dt.datetime.strptime(val, "%Y%m%dT%H%M%S")
+    d = d.replace(tzinfo=dt.timezone.utc).astimezone(TZ) if utc else d.replace(tzinfo=tz).astimezone(TZ)
+    return d, False
+
+def src_ics(days):
+    """One-off and recurring events from public .ics calendars. Recurring rules are expanded with
+    dateutil when it is installed (the workflow installs it); without it only one-off dates are used."""
+    try:
+        from dateutil.rrule import rrulestr
+    except ImportError:  # pragma: no cover
+        rrulestr = None
+        log("  ics: python-dateutil missing, recurring events skipped")
+    out = []
+    now = dt.datetime.now(TZ)
+    horizon = now + dt.timedelta(days=days)
+    for key, (name, url, venue, address, lat, lng, info, default_cat) in ICS_SITES.items():
+        try:
+            text = get(url).text.replace("\r\n", "\n")
+        except Exception as e:
+            log("  ics", key, "failed:", e); continue
+        text = re.sub(r"\n[ \t]", "", text)          # unfold continuation lines
+        for block in text.split("BEGIN:VEVENT")[1:]:
+            block = block.split("END:VEVENT")[0]
+            props = {}
+            for line in block.split("\n"):
+                if ":" not in line:
+                    continue
+                head, val = line.split(":", 1)
+                parts = head.split(";")
+                params = dict(p.split("=", 1) for p in parts[1:] if "=" in p)
+                props.setdefault(parts[0], []).append((params, val))
+            summary = _ics_unescape(props.get("SUMMARY", [({}, "")])[0][1])
+            if not summary or ICS_SKIP.search(summary) or props.get("STATUS", [({}, "")])[0][1].strip() == "CANCELLED":
+                continue
+            if "DTSTART" not in props:
+                continue
+            try:
+                start, all_day = _ics_datetime(*props["DTSTART"][0])
+                end = _ics_datetime(*props["DTEND"][0])[0] if "DTEND" in props else None
+            except Exception:
+                continue
+            duration = (end - start) if end else dt.timedelta(days=1 if all_day else 0, hours=0 if all_day else 1, minutes=0 if all_day else 30)
+            if duration.total_seconds() <= 0:
+                duration = dt.timedelta(hours=1, minutes=30)
+            exdates = set()
+            for params, val in props.get("EXDATE", []):
+                for v in val.split(","):
+                    try:
+                        exdates.add(_ics_datetime(params, v)[0].date())
+                    except Exception:
+                        pass
+            occurrences = []
+            if "RRULE" in props:
+                if rrulestr:
+                    try:
+                        rule = rrulestr(props["RRULE"][0][1].strip(), dtstart=start)
+                        occurrences = list(rule.between(now - dt.timedelta(hours=3), horizon, inc=True))
+                    except Exception as e:
+                        log("  ics", key, "rrule failed for", summary, e)
+            elif now - dt.timedelta(hours=3) <= start <= horizon:
+                occurrences = [start]
+            uid = props.get("UID", [({}, summary)])[0][1].strip()
+            desc = _ics_unescape(props.get("DESCRIPTION", [({}, "")])[0][1]) or ICS_BLURB.get(key)
+            loc = _ics_unescape(props.get("LOCATION", [({}, "")])[0][1])
+            for occ in occurrences:
+                if occ.date() in exdates:
+                    continue
+                sid = f"{uid}:{occ:%Y%m%d%H%M}"
+                ev = make_event(key, name, sid, summary, occ, occ + duration, all_day=all_day,
+                                venue=venue, address=loc or address, lat=lat, lng=lng, url=info,
+                                category=infer_category(summary, desc or "", default_cat),
+                                description=desc, organizer=name)
+                if ev:
+                    ev["audience"] = sorted(set(ev["audience"]) | {"family", "groups"})   # temple programs are for families too
+                    out.append(ev)
+    return out
+
 SOURCES = [src_mizzou, src_visitcolumbia, src_eventbrite, src_allevents, src_baselocal, src_bluenote, src_dbrl,
-           src_posh, src_tribe, src_vox]
+           src_posh, src_tribe, src_vox, src_ics]
 
 # ----------------------------------------------------------------- merge
 def dedupe(events):

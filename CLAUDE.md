@@ -37,7 +37,8 @@ Read README.md first. Short version:
 - Fill images: use `Color.clear.frame(...).overlay { image.resizable().scaledToFill() }.clipped()`;
   a bare scaledToFill image inflates the layout and pushes overlays out of the frame.
 - New venue sources go in `POSH_GROUPS` (posh.vip slug), `TRIBE_SITES` (WordPress Events Calendar
-  sites) or as a new `src_*`. Venue coordinates for them belong in `feed/venues.json`.
+  sites), `ICS_SITES` (any public .ics, e.g. an embedded Google Calendar; needs python-dateutil for
+  recurring rules) or as a new `src_*`. Venue coordinates for them belong in `feed/venues.json`.
 - voxmagazine.com returns 429 quickly: keep the per-host gap in `get()` and never fetch its event pages
   in a loop.
 - Install links: never hardcode TestFlight or App Store URLs. Use `AppLinks.install(campaign:)`, which
