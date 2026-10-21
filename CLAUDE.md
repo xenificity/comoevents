@@ -55,3 +55,7 @@ Read README.md first. Short version:
   Swift stores: att-<user>-<event>, friend-<user>, Approval by moderators, 3 reports hide a post). The
   API token lives in `docs/app/ck-config.js` (`window.CK_TOKEN`), created in CloudKit Console → Production
   → Tokens & Keys, restricted to xenificity.github.io. Empty token = iCloud features hidden.
+- Events from flyers go in `feed/extra.json` (title, start, venue are enough; the venue table fills the
+  rest). Put the flyer photo in `docs/img/flyers/` and reference its Pages URL as `imageUrl`. Venue
+  phone/website/pin for posts come from `feed/venues.json` → `VenueLookup.swift` (app) and
+  `Cloud.lookupVenue` (web); add a `website` when adding a venue.

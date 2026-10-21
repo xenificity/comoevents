@@ -11,6 +11,8 @@ struct SubmitEventView: View {
     @State private var done = false
     @State private var showScanner = false
     @State private var prefilling = false
+    @State private var venueHint: String?
+    @State private var venueTask: Task<Void, Never>?
 
     var body: some View {
         NavigationStack {
@@ -47,8 +49,12 @@ struct SubmitEventView: View {
                 } header: { Text("What and when") }
                 Section {
                     TextField("Venue (e.g. Cafe Berlin)", text: $draft.venue)
+                        .autocorrectionDisabled()
+                        .onChange(of: draft.venue) { _, v in lookupVenue(v) }
                     TextField("Address (optional if the venue is known)", text: $draft.address)
-                } header: { Text("Where") } footer: { Text("We place the pin from this. Columbia, MO is assumed.") }
+                } header: { Text("Where") } footer: {
+                    Text(venueHint ?? "Type the venue and we fill in the address, phone and website from the venue table or Apple Maps. Columbia, MO is assumed.")
+                }
                 Section {
                     TextField("Price (e.g. Free, $10)", text: $draft.price)
                     TextField("Link for tickets or details", text: $draft.link).keyboardType(.URL).textInputAutocapitalization(.never)
@@ -87,6 +93,20 @@ struct SubmitEventView: View {
             .alert(done ? "Thanks!" : "Couldn't post", isPresented: Binding(get: { message != nil }, set: { if !$0 { message = nil; if done { dismiss() } } })) {
                 Button("OK") {}
             } message: { Text(message ?? "") }
+        }
+    }
+
+    /// Smart fill: a venue name is enough; the address, website and pin come from the venue table or Apple Maps.
+    private func lookupVenue(_ name: String) {
+        venueTask?.cancel()
+        let q = name.trimmingCharacters(in: .whitespaces)
+        guard q.count >= 3 else { venueHint = nil; return }
+        venueTask = Task {
+            try? await Task.sleep(nanoseconds: 600_000_000)
+            guard !Task.isCancelled, let m = await VenueLookup.find(q), !Task.isCancelled else { return }
+            if draft.address.isEmpty, let a = m.address { draft.address = a }
+            if draft.link.isEmpty, let w = m.website { draft.link = w }
+            venueHint = "Found \(m.name)" + (m.address.map { " · \($0)" } ?? "") + (m.phone.map { " · \($0)" } ?? "") + (m.fromTable ? "" : " (Apple Maps)")
         }
     }
 

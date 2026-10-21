@@ -277,7 +277,13 @@
  "clark hall 104 university of missouri columbia missouri united states, columbia, mo": null,
  "columbia  65203 united states, columbia, mo": null,
  "columbia entertainment company, columbia, mo": null,
+ "columbia mall, columbia, missouri, columbia, mo": {
+  "lat": 38.9638232,
+  "lng": -92.3756176,
+  "name": "Columbia Mall"
+ },
  "columbia misourri, columbia, mo": null,
+ "columbia public library, first floor, columbia, mo": null,
  "community united methodist church, columbia, mo": {
   "lat": 38.9559345,
   "lng": -92.3858323,
@@ -310,6 +316,7 @@
  "hulston hall room 4 hulston hall columbia mo 65211 united states, columbia, mo": null,
  "hybrid, columbia, mo": null,
  "jefferson farm, columbia, mo": null,
+ "jesse hall auditorium, columbia, mo": null,
  "ketchum auditorium w1005 lafferre hall university of missouri columbia missouri united states, columbia, mo": null,
  "kirklin garden 601 s providence rd columbia  65203 united states, columbia, mo": null,
  "kuhlman court columbia mo, columbia, mo": {
@@ -329,15 +336,24 @@
  "live event via zoom, columbia, mo": null,
  "lloyd l gaines fireplace lounge university of missouri columbia missouri united states, columbia, mo": null,
  "memorial student union  stotler lounge 518 hitt st columbia 65201 united states, columbia, mo": null,
+ "memorial student union memorial union518 hitt streetuniversity of missouri columbia mo 65211 united states, columbia, mo": null,
  "memorial student union the eyler room s110 university of missouri columbia missouri united states, columbia, mo": null,
+ "memorial union columbia mo 65201, columbia, mo": {
+  "lat": 38.9450184,
+  "lng": -92.3253026,
+  "name": null
+ },
  "missouri cares, columbia, mo": null,
  "missouri united methodist church, columbia, mo": {
   "lat": 38.9489435,
   "lng": -92.3270908,
   "name": "Missouri United Methodist Church"
  },
+ "mizzou arena university of missouri columbia missouri united states, columbia, mo": null,
  "mizzourec studio a 3rd floor  1000 rollins st columbia miss 65211 united states, columbia, mo": null,
  "monsanto auditorium bond life sciences center university of missouri columbia missouri united states, columbia, mo": null,
+ "n201 memorial union university of missouri columbia missouri united states, columbia, mo": null,
+ "n52 memorial union  university of missouri columbia missouri united states, columbia, mo": null,
  "new heights church parking lot · 408 n. route b, hallsville, columbia, mo": null,
  "north courts  mu rec center columbia mo 65201, columbia, mo": null,
  "north moser's foods parking lot ·  4840 rangeline st., columbia, columbia, mo": null,
@@ -347,6 +363,7 @@
  "prenger foods · 105 w. smith st., sturgeon, columbia, mo": null,
  "rji palmer 100 jschool  columbia mo, columbia, mo": null,
  "rocheport merchants, columbia, mo": null,
+ "rose music hall (inside), columbia, mo": null,
  "schnucks parking lot · 5410 clark lane, columbia, columbia, mo": null,
  "scouting adventure center, columbia, mo": null,
  "security bank parking lot · 101 e. walnut st., auxvasse, columbia, mo": null,
@@ -358,6 +375,7 @@
  "strickland hall 204 university of missouri columbia missouri united states, columbia, mo": null,
  "strickland hall room 105  805 e rollins st columbia mo 65201 united states, columbia, mo": null,
  "strickland hall room 105 805 e rollins st columbia mo 65201 united states, columbia, mo": null,
+ "strickland hall room 105 805 rollins st columbia mo 65201 united states, columbia, mo": null,
  "strickland hall room 105 united states, columbia, mo": null,
  "tate 110  university of missouri columbia missouri united states, columbia, mo": null,
  "tate hall 101 university of missouri columbia missouri united states, columbia, mo": null,

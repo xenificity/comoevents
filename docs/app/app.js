@@ -783,6 +783,21 @@
     $("post-close").onclick = closePost;
     $("post-form").addEventListener("submit", submitPost);
     $("post-form").hasEnd.addEventListener("change", function (ev) { $("post-end").hidden = !ev.target.checked; });
+    // Smart fill: a venue name is enough; address, website and the pin come from the venue table or OpenStreetMap.
+    var vt; $("post-form").venue.addEventListener("input", function (ev) {
+      clearTimeout(vt); var q = ev.target.value.trim(); var hint = $("post-venue-hint");
+      if (q.length < 3) { hint.hidden = true; return; }
+      vt = setTimeout(function () {
+        Cloud.lookupVenue(q).then(function (m) {
+          if (!m || $("post-form").venue.value.trim() !== q) return;
+          var f = $("post-form");
+          if (!f.address.value && m.address) f.address.value = m.address;
+          if (!f.link.value && m.website) f.link.value = m.website;
+          hint.textContent = "Found " + m.name + (m.address ? " · " + m.address : "") + (m.phone ? " · " + m.phone : "") + (m.fromTable ? "" : " (OpenStreetMap)");
+          hint.hidden = false;
+        });
+      }, 600);
+    });
     var waited = 0; (function waitCK() {
       if (window.CloudKit || !window.CK_TOKEN || waited > 8000) { Cloud.setup(); return; }
       waited += 200; setTimeout(waitCK, 200);

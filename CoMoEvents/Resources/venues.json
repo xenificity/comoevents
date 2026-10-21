@@ -1,0 +1,638 @@
+{
+ "The Blue Note": {
+  "aliases": [
+   "blue note"
+  ],
+  "address": "17 N 9th St",
+  "lat": 38.952,
+  "lng": -92.3277,
+  "phone": "(573) 874-1944",
+  "website": "https://thebluenote.com"
+ },
+ "Rose Music Hall": {
+  "aliases": [
+   "rose park"
+  ],
+  "address": "1013 Park Ave",
+  "lat": 38.9566,
+  "lng": -92.3318,
+  "phone": "(573) 874-1944",
+  "website": "https://rosemusichall.com"
+ },
+ "Missouri Theatre": {
+  "aliases": [],
+  "address": "203 S 9th St",
+  "lat": 38.9499,
+  "lng": -92.3277
+ },
+ "Jesse Hall": {
+  "aliases": [
+   "jesse auditorium",
+   "jesse hall & auditorium"
+  ],
+  "address": "801 Conley Ave",
+  "lat": 38.9453,
+  "lng": -92.329
+ },
+ "Columbia Public Library": {
+  "aliases": [],
+  "address": "100 W Broadway",
+  "lat": 38.9509,
+  "lng": -92.3365,
+  "phone": "(573) 443-3161"
+ },
+ "Faurot Field at Memorial Stadium": {
+  "aliases": [
+   "faurot field",
+   "memorial stadium"
+  ],
+  "address": "600 E Stadium Blvd",
+  "lat": 38.9358,
+  "lng": -92.333
+ },
+ "Mizzou Arena": {
+  "aliases": [],
+  "address": "1 Champions Dr",
+  "lat": 38.9329,
+  "lng": -92.3319
+ },
+ "Hearnes Center": {
+  "aliases": [
+   "hearnes"
+  ],
+  "address": "600 E Stadium Blvd",
+  "lat": 38.9345,
+  "lng": -92.3298
+ },
+ "Audrey J. Walton Stadium": {
+  "aliases": [
+   "walton stadium",
+   "mizzou soccer"
+  ],
+  "address": "1100 Stadium Blvd",
+  "lat": 38.9373,
+  "lng": -92.3388
+ },
+ "Memorial Union": {
+  "aliases": [],
+  "address": "518 Hitt St",
+  "lat": 38.9449,
+  "lng": -92.3252
+ },
+ "MU Student Center": {
+  "aliases": [
+   "student center"
+  ],
+  "address": "901 Rollins St",
+  "lat": 38.9426,
+  "lng": -92.328
+ },
+ "Lowry Mall": {
+  "aliases": [],
+  "address": "Lowry Mall",
+  "lat": 38.945,
+  "lng": -92.3265
+ },
+ "Francis Quadrangle": {
+  "aliases": [
+   "the quad",
+   "mizzou quad"
+  ],
+  "address": "Francis Quadrangle",
+  "lat": 38.9458,
+  "lng": -92.3293
+ },
+ "Columbia's Agriculture Park": {
+  "aliases": [
+   "agriculture park",
+   "columbia farmers market",
+   "mu health care pavilion",
+   "1769 w ash"
+  ],
+  "address": "1769 W Ash St",
+  "lat": 38.9546,
+  "lng": -92.3625
+ },
+ "Flat Branch Park": {
+  "aliases": [],
+  "address": "300 S Providence Rd",
+  "lat": 38.9487,
+  "lng": -92.3339
+ },
+ "Stephens Lake Park": {
+  "aliases": [],
+  "address": "2001 E Broadway",
+  "lat": 38.9523,
+  "lng": -92.3036
+ },
+ "Cosmo Park": {
+  "aliases": [
+   "cosmopolitan park"
+  ],
+  "address": "1615 Business Loop 70 W",
+  "lat": 38.9707,
+  "lng": -92.364
+ },
+ "Twin Lakes Recreation Area": {
+  "aliases": [
+   "twin lakes"
+  ],
+  "address": "2500 Chapel Hill Rd",
+  "lat": 38.936,
+  "lng": -92.377
+ },
+ "Albert-Oakland Park": {
+  "aliases": [],
+  "address": "1900 Blue Ridge Rd",
+  "lat": 38.981,
+  "lng": -92.3178
+ },
+ "Downtown Optimist Park": {
+  "aliases": [],
+  "address": "400 E Ash St",
+  "lat": 38.9548,
+  "lng": -92.329
+ },
+ "Hexagon Alley": {
+  "aliases": [],
+  "address": "23 S 8th St",
+  "lat": 38.9504,
+  "lng": -92.328
+ },
+ "Cafe Berlin": {
+  "aliases": [],
+  "address": "220 N 10th St",
+  "lat": 38.954,
+  "lng": -92.3273
+ },
+ "Eastside Tavern": {
+  "aliases": [],
+  "address": "1016 E Broadway",
+  "lat": 38.9513,
+  "lng": -92.3258
+ },
+ "Logboat Brewing Company": {
+  "aliases": [
+   "logboat"
+  ],
+  "address": "504 Fay St",
+  "lat": 38.9567,
+  "lng": -92.326
+ },
+ "The Tiger Hotel": {
+  "aliases": [
+   "tiger hotel",
+   "historic grand ballroom"
+  ],
+  "address": "23 S 8th St",
+  "lat": 38.9506,
+  "lng": -92.3285
+ },
+ "Skylark Bookshop": {
+  "aliases": [],
+  "address": "22 S 9th St",
+  "lat": 38.9507,
+  "lng": -92.3277
+ },
+ "Ragtag Cinema": {
+  "aliases": [
+   "ragtag"
+  ],
+  "address": "10 Hitt St",
+  "lat": 38.951,
+  "lng": -92.3251
+ },
+ "Talking Horse Productions": {
+  "aliases": [
+   "talking horse"
+  ],
+  "address": "210 St James St",
+  "lat": 38.9535,
+  "lng": -92.3338
+ },
+ "Columbia Mall": {
+  "aliases": [],
+  "address": "2300 Bernadette Dr",
+  "lat": 38.9596,
+  "lng": -92.3777
+ },
+ "Boone County Courthouse": {
+  "aliases": [
+   "courthouse square"
+  ],
+  "address": "705 E Walnut St",
+  "lat": 38.952,
+  "lng": -92.33
+ },
+ "The District": {
+  "aliases": [
+   "downtown columbia",
+   "downtown"
+  ],
+  "address": "9th St & Broadway",
+  "lat": 38.9517,
+  "lng": -92.3341
+ },
+ "Billiards on Broadway": {
+  "aliases": [],
+  "address": "514 E Broadway",
+  "lat": 38.9515,
+  "lng": -92.3306
+ },
+ "Harpo's": {
+  "aliases": [
+   "harpos"
+  ],
+  "address": "29 S 10th St",
+  "lat": 38.9507,
+  "lng": -92.3263
+ },
+ "Speckled Frog Toys & Books": {
+  "aliases": [
+   "speckled frog"
+  ],
+  "address": "314 Elm St",
+  "lat": 38.9475,
+  "lng": -92.3288
+ },
+ "Shelter Gardens": {
+  "aliases": [],
+  "address": "1817 W Broadway",
+  "lat": 38.954,
+  "lng": -92.3622
+ },
+ "Rock Bridge Memorial State Park": {
+  "aliases": [
+   "rock bridge"
+  ],
+  "address": "5901 S Highway 163",
+  "lat": 38.88,
+  "lng": -92.316
+ },
+ "Tate Hall": {
+  "aliases": [],
+  "address": "Tate Hall, University of Missouri",
+  "lat": 38.9446,
+  "lng": -92.3274
+ },
+ "Arts & Science Building": {
+  "aliases": [
+   "arts amp science building",
+   "arts and science building"
+  ],
+  "address": "Arts & Science Building, University of Missouri",
+  "lat": 38.9462,
+  "lng": -92.327
+ },
+ "Townsend Hall": {
+  "aliases": [
+   "townsend grad hub"
+  ],
+  "address": "611 Conley Ave",
+  "lat": 38.9447,
+  "lng": -92.3311
+ },
+ "Stewart Hall": {
+  "aliases": [
+   "parker auditorium"
+  ],
+  "address": "Stewart Hall, University of Missouri",
+  "lat": 38.9429,
+  "lng": -92.326
+ },
+ "Hulston Hall": {
+  "aliases": [
+   "school of law"
+  ],
+  "address": "203 Hulston Hall",
+  "lat": 38.9426,
+  "lng": -92.3305
+ },
+ "Gentry Hall": {
+  "aliases": [],
+  "address": "507 S 9th St",
+  "lat": 38.9478,
+  "lng": -92.3277
+ },
+ "Clark Hall": {
+  "aliases": [],
+  "address": "Clark Hall, University of Missouri",
+  "lat": 38.9414,
+  "lng": -92.3285
+ },
+ "Gwynn Hall": {
+  "aliases": [],
+  "address": "Gwynn Hall, University of Missouri",
+  "lat": 38.9436,
+  "lng": -92.3246
+ },
+ "Carnahan Quad": {
+  "aliases": [
+   "carnahan quadrangle"
+  ],
+  "address": "Carnahan Quad, University of Missouri",
+  "lat": 38.9435,
+  "lng": -92.3273
+ },
+ "MizzouRec": {
+  "aliases": [
+   "mu rec center",
+   "student recreation complex",
+   "rec center"
+  ],
+  "address": "901 E Rollins St",
+  "lat": 38.9412,
+  "lng": -92.3252
+ },
+ "Reynolds Alumni Center": {
+  "aliases": [],
+  "address": "704 Conley Ave",
+  "lat": 38.9445,
+  "lng": -92.3297
+ },
+ "Gaines/Oldham Black Culture Center": {
+  "aliases": [
+   "gainesoldham black culture center",
+   "black culture center"
+  ],
+  "address": "813 Virginia Ave",
+  "lat": 38.9428,
+  "lng": -92.3238
+ },
+ "Lee Hills Hall": {
+  "aliases": [
+   "novak leadership institute"
+  ],
+  "address": "221 S 8th St",
+  "lat": 38.9487,
+  "lng": -92.3285
+ },
+ "Student Success Center": {
+  "aliases": [],
+  "address": "909 Lowry Mall",
+  "lat": 38.945,
+  "lng": -92.3262
+ },
+ "Ellis Library": {
+  "aliases": [],
+  "address": "1020 Lowry Mall",
+  "lat": 38.9445,
+  "lng": -92.3265
+ },
+ "Lafferre Hall": {
+  "aliases": [
+   "engineering building"
+  ],
+  "address": "416 S 6th St",
+  "lat": 38.9462,
+  "lng": -92.3307
+ },
+ "Cornell Hall": {
+  "aliases": [
+   "trulaske college of business",
+   "trulaske"
+  ],
+  "address": "700 Tiger Ave",
+  "lat": 38.9417,
+  "lng": -92.3277
+ },
+ "Middlebush Hall": {
+  "aliases": [],
+  "address": "Middlebush Hall, University of Missouri",
+  "lat": 38.944,
+  "lng": -92.3289
+ },
+ "Strickland Hall": {
+  "aliases": [],
+  "address": "Strickland Hall, University of Missouri",
+  "lat": 38.9436,
+  "lng": -92.3257
+ },
+ "Bond Life Sciences Center": {
+  "aliases": [
+   "life sciences center",
+   "bond lsc"
+  ],
+  "address": "1201 Rollins St",
+  "lat": 38.941,
+  "lng": -92.331
+ },
+ "Leadership Auditorium": {
+  "aliases": [],
+  "address": "518 Hitt St",
+  "lat": 38.9449,
+  "lng": -92.3252
+ },
+ "The Shack": {
+  "aliases": [],
+  "address": "901 Rollins St",
+  "lat": 38.9426,
+  "lng": -92.328
+ },
+ "Jefferson Farm and Garden": {
+  "aliases": [
+   "jefferson farm"
+  ],
+  "address": "4800 New Haven Rd",
+  "lat": 38.918,
+  "lng": -92.269
+ },
+ "Stephens College Performing Arts": {
+  "aliases": [
+   "macklanburg playhouse",
+   "stephens college"
+  ],
+  "address": "100 Willis Ave",
+  "lat": 38.9531,
+  "lng": -92.32
+ },
+ "University Concert Series": {
+  "aliases": [],
+  "address": "203 S 9th St",
+  "lat": 38.9499,
+  "lng": -92.3277
+ },
+ "Victoria Park": {
+  "aliases": [],
+  "address": "2804 Forum Blvd",
+  "lat": 38.9305,
+  "lng": -92.369
+ },
+ "School of Music": {
+  "aliases": [
+   "sinquefield music center",
+   "whitmore recital hall",
+   "sheryl crow hall"
+  ],
+  "address": "1234 University Ave",
+  "lat": 38.948,
+  "lng": -92.323
+ },
+ "Rhynsburger Theatre": {
+  "aliases": [
+   "corner playhouse"
+  ],
+  "address": "129 Fine Arts Building",
+  "lat": 38.9465,
+  "lng": -92.3245
+ },
+ "Museum of Art and Archaeology": {
+  "aliases": [
+   "mizzou north"
+  ],
+  "address": "115 Business Loop 70 W",
+  "lat": 38.969,
+  "lng": -92.3305
+ },
+ "Columbia Farmers Market Winter": {
+  "aliases": [
+   "heated mu health care pavilion"
+  ],
+  "address": "1769 W Ash St",
+  "lat": 38.9546,
+  "lng": -92.3625
+ },
+ "MyHouse Nightclub": {
+  "aliases": [
+   "myhouse",
+   "my house nightclub",
+   "my house",
+   "the backyard",
+   "the attic"
+  ],
+  "address": "119 S 7th St",
+  "lat": 38.95,
+  "lng": -92.3296
+ },
+ "The Social Room": {
+  "aliases": [
+   "social room"
+  ],
+  "address": "220 N 8th St",
+  "lat": 38.9536,
+  "lng": -92.329
+ },
+ "Broadway Brewery": {
+  "aliases": [],
+  "address": "816 E Broadway",
+  "lat": 38.9514,
+  "lng": -92.3271,
+  "phone": "(573) 443-5054"
+ },
+ "Broadway Brewery Taproom on 9th": {
+  "aliases": [
+   "taproom on 9th"
+  ],
+  "address": "15 S 9th St",
+  "lat": 38.951,
+  "lng": -92.3278
+ },
+ "Cooper's Landing": {
+  "aliases": [
+   "coopers landing"
+  ],
+  "address": "11505 Smith Hatchery Rd",
+  "lat": 38.8163,
+  "lng": -92.3835,
+  "website": "https://cooperslandingmo.com/upcoming-events/"
+ },
+ "Bur Oak Brewing Company": {
+  "aliases": [
+   "bur oak brewing",
+   "bur oak"
+  ],
+  "address": "8250 Trade Center Dr",
+  "lat": 38.927,
+  "lng": -92.254
+ },
+ "Dive Bar": {
+  "aliases": [],
+  "address": "1116 Business Loop 70 E",
+  "lat": 38.9638,
+  "lng": -92.3234
+ },
+ "Silverball": {
+  "aliases": [],
+  "address": "122 S 9th St",
+  "lat": 38.9505,
+  "lng": -92.3277
+ },
+ "Nash Vegas": {
+  "aliases": [],
+  "address": "929 E Broadway",
+  "lat": 38.9516,
+  "lng": -92.3262
+ },
+ "The Fieldhouse": {
+  "aliases": [
+   "fieldhouse"
+  ],
+  "address": "1107 E Broadway",
+  "lat": 38.9516,
+  "lng": -92.3253
+ },
+ "Roxy's": {
+  "aliases": [
+   "roxys"
+  ],
+  "address": "1025 E Broadway",
+  "lat": 38.9516,
+  "lng": -92.3258
+ },
+ "Shiloh Bar & Grill": {
+  "aliases": [
+   "shiloh"
+  ],
+  "address": "402 E Broadway",
+  "lat": 38.9515,
+  "lng": -92.3322
+ },
+ "The Penguin Piano Bar": {
+  "aliases": [
+   "penguin piano bar",
+   "penguin"
+  ],
+  "address": "1025 E Walnut St",
+  "lat": 38.9526,
+  "lng": -92.3259
+ },
+ "Shanthi Mandir": {
+  "aliases": [
+   "shanthi mandir",
+   "shanti mandir",
+   "hindu temple",
+   "hindu temple and community center of mid-missouri",
+   "htcc"
+  ],
+  "address": "2006 Holly Ave",
+  "lat": 38.97534,
+  "lng": -92.30822,
+  "phone": "(573) 814-1286",
+  "website": "https://shanthimandir.missouri.org"
+ },
+ "Sake Japanese Bistro & Bar": {
+  "aliases": [
+   "sake",
+   "saké",
+   "sake japanese bistro",
+   "sake japanese bistro and bar",
+   "sake bistro"
+  ],
+  "address": "16 S 10th St",
+  "lat": 38.95089,
+  "lng": -92.32625,
+  "phone": "(573) 443-7253",
+  "website": "https://sakejapanesebistro.com"
+ },
+ "Etta and Joseph Miller Performing Arts Center": {
+  "aliases": [
+   "miller performing arts center",
+   "miller pac",
+   "etta and joseph miller"
+  ],
+  "address": "501 Madison St, Jefferson City, MO 65101",
+  "lat": 38.57331,
+  "lng": -92.17324,
+  "website": "https://www.jcschools.us/millerpac"
+ }
+}

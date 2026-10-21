@@ -1,0 +1,39 @@
+{
+ "_readme": "Hand-entered events from flyers and pamphlets. Only title, start and venue are required; address, coordinates, phone and website are filled from feed/venues.json when the venue is known. imageUrl can point at docs/img/flyers/<file> (served from GitHub Pages). Past events are dropped automatically.",
+ "events": [
+  {
+   "id": "durga-puja-2026",
+   "title": "Bengali Durga Puja 2026",
+   "start": "2026-10-25T10:00:00-05:00",
+   "end": "2026-10-25T16:00:00-05:00",
+   "venue": "Shanthi Mandir",
+   "category": "community",
+   "categories": [
+    "community",
+    "family",
+    "arts"
+   ],
+   "price": "Free",
+   "organizer": "Bengali Association of Mid-Missouri (BAMM)",
+   "imageUrl": "https://xenificity.github.io/comoevents/img/flyers/durga-puja-2026.jpg",
+   "description": "Durga Puja celebrates the triumph of good over evil and the divine power of Goddess Durga. Program: 10 AM puja · 11:45 AM pushpanjali followed by prasad · 12:15 PM cultural program 1 · 1 PM Bengali khichuri bhog · 2 PM cultural program 2 · 3 PM onwards aarti, sindoor khela and dhunuchi dance. Kids 3–16: bring a drawing on the Durga Pujo theme for the drawing competition; artwork is displayed on puja day. Sponsored by BAMM at the HTCC temple, 2006 Holly Ave."
+  },
+  {
+   "id": "chilambu-2026",
+   "title": "Chilambu: Indian classical art forms and dance drama",
+   "start": "2026-10-25T17:00:00-05:00",
+   "end": "2026-10-25T19:00:00-05:00",
+   "venue": "Etta and Joseph Miller Performing Arts Center",
+   "category": "arts",
+   "categories": [
+    "arts",
+    "family"
+   ],
+   "price": "Free",
+   "organizer": "Sargam School of Performing Arts",
+   "phone": "(573) 418-7344",
+   "link": "mailto:sargamperformingarts@gmail.com",
+   "description": "Sargam School of Performing Arts presents Chilambu, an evening of Indian classical art forms and dance drama directed and choreographed by Natyacharya Anupama Sankaranarayana Pillai. Admission free. In Jefferson City, about 30 minutes from Columbia. Program details: sargamperformingarts@gmail.com or (573) 418-7344."
+  }
+ ]
+}

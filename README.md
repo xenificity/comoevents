@@ -163,6 +163,17 @@ No build step: plain `index.html`, `app.css`, `app.js`; bump the `?v=` on the tw
 has Going / I'm here / Went with live counts, Friends by code and Post an event, through the same
 public CloudKit records as the app (`docs/app/cloud.js`).
 
+## Flyer events and smart fill
+
+`feed/extra.json` holds events typed in from posters and pamphlets. A row needs only `title`, `start`
+and `venue`; address, pin, phone and website come from `feed/venues.json` (which now has `website`),
+and `imageUrl` can point at a flyer photo in `docs/img/flyers/`. Past rows are dropped automatically.
+The same idea runs in both apps when someone posts: type a venue name and the address, website and
+pin are filled from the venue table, then Apple Maps (`Support/VenueLookup.swift`) or OpenStreetMap
+(`docs/app/cloud.js`, `Cloud.lookupVenue`). Community posts are also enriched on display with the
+venue's phone and website when the venue is known. `scripts/update-feed.sh` copies `venues.json` into
+the app bundle and into `docs/`.
+
 ## App Review compliance notes (guideline 1.2 and friends)
 
 The community features make this a user-generated-content app, so the app ships the four things

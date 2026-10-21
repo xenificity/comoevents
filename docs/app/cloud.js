@@ -194,17 +194,57 @@
     return { here: here, going: going };
   };
 
+  // ---------- venue table (feed/venues.json, served as ../venues.json) ----------
+  var venuesPromise;
+  Cloud.venues = function () {
+    venuesPromise = venuesPromise || fetch("../venues.json").then(function (r) { return r.json(); }).catch(function () { return {}; });
+    return venuesPromise;
+  };
+  /// Name or alias -> {name, address, lat, lng, phone, website}; Nominatim (Columbia) when the table has nothing.
+  Cloud.lookupVenue = function (name) {
+    var key = String(name || "").trim().toLowerCase();
+    if (key.length < 3) return Promise.resolve(null);
+    return Cloud.venues().then(function (venues) {
+      var names = Object.keys(venues);
+      for (var i = 0; i < names.length; i++) {
+        var v = venues[names[i]], al = (v.aliases || []).map(function (a) { return a.toLowerCase(); });
+        if (key === names[i].toLowerCase() || al.indexOf(key) >= 0 || (key.length > 4 && names[i].toLowerCase().indexOf(key) >= 0)) {
+          var addr = v.address ? (/MO/.test(v.address) ? v.address : v.address + ", Columbia, MO") : null;
+          return { name: names[i], address: addr, lat: v.lat, lng: v.lng, phone: v.phone || null, website: v.website || null, fromTable: true };
+        }
+      }
+      var url = "https://nominatim.openstreetmap.org/search?format=json&limit=1&addressdetails=1&bounded=1&viewbox=-92.48,39.05,-92.18,38.85&q=" + encodeURIComponent(key + ", Columbia, MO");
+      return fetch(url, { headers: { "Accept": "application/json" } }).then(function (r) { return r.json(); }).then(function (j) {
+        if (!j || !j[0]) return null;
+        var a = j[0].address || {}, line = [a.house_number, a.road].filter(Boolean).join(" ");
+        return { name: j[0].name || key, address: [line, a.city || a.town || "Columbia", "MO", a.postcode].filter(Boolean).join(", "), lat: parseFloat(j[0].lat), lng: parseFloat(j[0].lon), phone: null, website: null, fromTable: false };
+      }).catch(function () { return null; });
+    });
+  };
+
   // ---------- community ----------
+  var venueIndex = null;
+  function venueMatch(name) {
+    var key = String(name || "").trim().toLowerCase(); if (key.length < 3) return null;
+    var names = Object.keys(venueIndex);
+    for (var i = 0; i < names.length; i++) {
+      var v = venueIndex[names[i]], al = (v.aliases || []).map(function (a) { return a.toLowerCase(); });
+      if (key === names[i].toLowerCase() || al.indexOf(key) >= 0 || (key.length > 4 && names[i].toLowerCase().indexOf(key) >= 0))
+        return { address: v.address ? (/MO/.test(v.address) ? v.address : v.address + ", Columbia, MO") : null, lat: v.lat, lng: v.lng, phone: v.phone, website: v.website };
+    }
+    return null;
+  }
   function mapEvent(rec) {
     var f = rec.fields, title = val(f.title), start = val(f.start);
     if (!title || !start) return null;
     var name = Cloud.safeName(val(f.submitterName), "a community member");
     var cat = val(f.category) || "community", cats = val(f.categories) || [];
+    var v = (venueIndex && venueMatch(val(f.venue))) || {};
     return {
       id: "community:" + rec.recordName, source: "community", sourceName: "Posted in CoMo Events", title: title,
       start: new Date(start).toISOString(), end: val(f.end) ? new Date(val(f.end)).toISOString() : null, allDay: false, timeTBD: false,
-      venue: val(f.venue) || null, address: val(f.address) || null, lat: val(f.lat), lng: val(f.lng),
-      url: val(f.link) || null, ticketUrl: null, phone: null, price: val(f.price) || null,
+      venue: val(f.venue) || null, address: val(f.address) || v.address || null, lat: val(f.lat) != null ? val(f.lat) : (v.lat || null), lng: val(f.lng) != null ? val(f.lng) : (v.lng || null),
+      url: val(f.link) || v.website || null, ticketUrl: null, phone: v.phone || null, price: val(f.price) || null,
       category: cat, categories: cats.length ? cats : [cat], imageUrl: null, description: val(f.details) || "",
       organizer: "Posted by " + name, audience: ["groups", "singles", "couples", "family"], alsoOn: [],
       submitterID: val(f.submitterID) || null, recordName: rec.recordName, status: val(f.status)
@@ -213,7 +253,7 @@
   Cloud.loadCommunity = function () {
     if (!Cloud.available) return Promise.resolve();
     var decisions = {}, reports = {};
-    return queryAll({ recordType: "Approval" }, 500).then(function (recs) {
+    return Cloud.venues().then(function (vs) { venueIndex = vs || {}; return queryAll({ recordType: "Approval" }, 500); }).then(function (recs) {
       recs.forEach(function (r) {
         var by = r.created && r.created.userRecordName;
         if (MODERATORS.indexOf(by) < 0 && by !== "__defaultOwner__") return;
@@ -254,7 +294,10 @@
     if (!d.agreed) return Promise.resolve("Please agree to the community guidelines first.");
     var bad = [d.title, d.details, d.venue, d.submitterName, d.link].map(Cloud.offendingTerm).filter(Boolean)[0];
     if (bad) return Promise.resolve("That post can't go up: it contains \"" + bad + "\". Please reword it.");
-    return Cloud.geocode(d.venue, d.address).then(function (pt) {
+    return Cloud.lookupVenue(d.venue).then(function (m) {
+      if (m && m.lat != null) { if (!d.address && m.address) d.address = m.address; if (!d.link && m.website) d.link = m.website; return { lat: m.lat, lng: m.lng }; }
+      return Cloud.geocode(d.venue, d.address);
+    }).then(function (pt) {
       var fields = {
         title: d.title.trim(), category: d.category, categories: [d.category].concat((d.extra || []).filter(function (c) { return c !== d.category; })),
         start: d.start.getTime(), venue: d.venue || "", address: d.address || "", price: d.price || "", link: d.link || "", details: d.details || "",

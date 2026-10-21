@@ -108,7 +108,8 @@
         <label id="post-end" hidden>Ends<input name="end" type="datetime-local"></label>
         <label>Venue<input name="venue" maxlength="80" placeholder="e.g. Cafe Berlin"></label>
         <label>Address<input name="address" maxlength="120" placeholder="Optional if the venue is known"></label>
-        <p class="hint">We place the pin from this. Columbia, MO is assumed.</p>
+        <p class="hint" id="post-venue-hint" hidden></p>
+        <p class="hint">Type the venue and we fill in the address, website and pin from the venue table or OpenStreetMap. Columbia, MO is assumed.</p>
         <label>Price<input name="price" maxlength="40" placeholder="e.g. Free, $10"></label>
         <label>Link<input name="link" type="url" maxlength="300" placeholder="Tickets or details"></label>
         <label>Tell people about it<textarea name="details" rows="4" maxlength="1500"></textarea></label>
@@ -129,7 +130,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.js" integrity="sha512-BmEBFbeO0lgfo1PPX5M4B4zxlhZWhOP4Qb1Bn+NVtEI7W1ESwRrLPHpWYqw1WH3QgTqRDNsagD/Fj8mjFCXvSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="ck-config.js?v=7"></script>
 <script src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js" async onload="window.__ckLoaded=1"></script>
-<script src="cloud.js?v=9"></script>
-<script src="app.js?v=7"></script>
+<script src="cloud.js?v=10"></script>
+<script src="app.js?v=10"></script>
 </body>
 </html>

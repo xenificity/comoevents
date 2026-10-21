@@ -930,8 +930,53 @@ def src_ics(days):
                     out.append(ev)
     return out
 
+# ----------------------------------------------------------------- hand-entered flyer events
+def venue_lookup(name):
+    """Row from feed/venues.json for a venue name (exact name or alias, case-insensitive), or None."""
+    if not name:
+        return None
+    key = name.strip().lower()
+    for vname, row in VENUES.items():
+        if key == vname.lower() or key in [a.lower() for a in row.get("aliases", [])]:
+            return dict(row, name=vname)
+    for vname, row in VENUES.items():
+        if len(key) > 4 and (key in vname.lower() or any(a.lower() in key for a in row.get("aliases", []) if len(a) > 4)):
+            return dict(row, name=vname)
+    return None
+
+def src_extra(days):
+    """feed/extra.json: events typed in from flyers. Minimal rows; the venue table fills the rest."""
+    path = os.path.join(HERE, "extra.json")
+    if not os.path.exists(path):
+        return []
+    try:
+        rows = json.load(open(path)).get("events", [])
+    except Exception as e:
+        log("  extra.json unreadable:", e); return []
+    out = []
+    horizon = dt.datetime.now(TZ) + dt.timedelta(days=days)
+    for r in rows:
+        start = parse_dt(r.get("start"))
+        if not start or start > horizon or start < dt.datetime.now(TZ) - dt.timedelta(days=1):
+            continue
+        v = venue_lookup(r.get("venue")) or {}
+        address = r.get("address") or (v.get("address") if v else None)
+        if address and v and "Columbia" not in address and "Jefferson" not in address:
+            address = f"{address}, Columbia, MO"
+        out.append(make_event("flyer", r.get("sourceName") or "Posted from a flyer", r.get("id") or r["title"], r["title"],
+                              start, parse_dt(r.get("end")), all_day=bool(r.get("allDay")),
+                              venue=v.get("name") or r.get("venue"), address=address,
+                              lat=r.get("lat") or v.get("lat"), lng=r.get("lng") or v.get("lng"),
+                              url=r.get("link") or v.get("website"), phone=r.get("phone") or v.get("phone"),
+                              price=r.get("price"), category=r.get("category") or "community",
+                              image=r.get("imageUrl"), description=r.get("description"), organizer=r.get("organizer")))
+        if out[-1] and r.get("categories"):
+            cats = [c for c in r["categories"] if c in dict(CATEGORY_RULES) or c in ("community", "campus")]
+            out[-1]["categories"] = list(dict.fromkeys([out[-1]["category"]] + cats))
+    return out
+
 SOURCES = [src_mizzou, src_visitcolumbia, src_eventbrite, src_allevents, src_baselocal, src_bluenote, src_dbrl,
-           src_posh, src_tribe, src_vox, src_ics]
+           src_posh, src_tribe, src_vox, src_ics, src_extra]
 
 # ----------------------------------------------------------------- merge
 def dedupe(events):

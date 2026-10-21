@@ -81,6 +81,7 @@ final class CommunityStore: ObservableObject {
         let recs = await fetchUpcoming()
         approved = recs.filter { decisions[$0.recordID.recordName] == true && reportCounts[$0.recordID.recordName, default: 0] < 3 }
             .compactMap(Self.event(from:))
+            .map(VenueLookup.enrich)
             .filter { !blockedSubmitters.contains($0.submitterID ?? "") }
     }
 
@@ -111,9 +112,15 @@ final class CommunityStore: ObservableObject {
             if let bad = ContentFilter.offendingTerm(in: text) { return "That post can't go up: it contains \"\(bad)\". Please reword it." }
         }
         var lat: Double?, lng: Double?
-        let query = [d.venue, d.address, "Columbia, MO"].filter { !$0.isEmpty }.joined(separator: ", ")
-        if let pm = try? await CLGeocoder().geocodeAddressString(query).first, let loc = pm.location {
-            lat = loc.coordinate.latitude; lng = loc.coordinate.longitude
+        if let m = VenueLookup.fromTable(d.venue), let c = m.coordinate {
+            lat = c.latitude; lng = c.longitude          // known venue: exact pin, no geocoder round trip
+        } else {
+            let query = [d.venue, d.address, "Columbia, MO"].filter { !$0.isEmpty }.joined(separator: ", ")
+            if let pm = try? await CLGeocoder().geocodeAddressString(query).first, let loc = pm.location {
+                lat = loc.coordinate.latitude; lng = loc.coordinate.longitude
+            } else if let m = await VenueLookup.find(d.venue), let c = m.coordinate {
+                lat = c.latitude; lng = c.longitude
+            }
         }
         let rec = CKRecord(recordType: "SubmittedEvent")
         rec["title"] = d.title.trimmingCharacters(in: .whitespaces) as CKRecordValue

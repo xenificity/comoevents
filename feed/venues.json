@@ -6,7 +6,8 @@
   "address": "17 N 9th St",
   "lat": 38.952,
   "lng": -92.3277,
-  "phone": "(573) 874-1944"
+  "phone": "(573) 874-1944",
+  "website": "https://thebluenote.com"
  },
  "Rose Music Hall": {
   "aliases": [
@@ -15,7 +16,8 @@
   "address": "1013 Park Ave",
   "lat": 38.9566,
   "lng": -92.3318,
-  "phone": "(573) 874-1944"
+  "phone": "(573) 874-1944",
+  "website": "https://rosemusichall.com"
  },
  "Missouri Theatre": {
   "aliases": [],
@@ -531,7 +533,8 @@
   ],
   "address": "11505 Smith Hatchery Rd",
   "lat": 38.8163,
-  "lng": -92.3835
+  "lng": -92.3835,
+  "website": "https://cooperslandingmo.com/upcoming-events/"
  },
  "Bur Oak Brewing Company": {
   "aliases": [
@@ -604,7 +607,8 @@
   "address": "2006 Holly Ave",
   "lat": 38.97534,
   "lng": -92.30822,
-  "phone": "(573) 814-1286"
+  "phone": "(573) 814-1286",
+  "website": "https://shanthimandir.missouri.org"
  },
  "Sake Japanese Bistro & Bar": {
   "aliases": [
@@ -617,6 +621,18 @@
   "address": "16 S 10th St",
   "lat": 38.95089,
   "lng": -92.32625,
-  "phone": "(573) 443-7253"
+  "phone": "(573) 443-7253",
+  "website": "https://sakejapanesebistro.com"
+ },
+ "Etta and Joseph Miller Performing Arts Center": {
+  "aliases": [
+   "miller performing arts center",
+   "miller pac",
+   "etta and joseph miller"
+  ],
+  "address": "501 Madison St, Jefferson City, MO 65101",
+  "lat": 38.57331,
+  "lng": -92.17324,
+  "website": "https://www.jcschools.us/millerpac"
  }
 }
