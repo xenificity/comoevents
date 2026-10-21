@@ -228,10 +228,10 @@ struct ProfileScreen: View {
             Link(destination: URL(string: "mailto:xenificity@icloud.com?subject=CoMo%20Events")!) {
                 Label("Email us: xenificity@icloud.com", systemImage: "envelope").frame(maxWidth: .infinity, alignment: .leading)
             }
-            Link(destination: URL(string: "https://xenificity.github.io/comoevents/guidelines.html")!) {
+            Link(destination: URL(string: "https://comoevent.com/guidelines.html")!) {
                 Label("Community guidelines", systemImage: "checkmark.shield").frame(maxWidth: .infinity, alignment: .leading)
             }
-            Link(destination: URL(string: "https://xenificity.github.io/comoevents/privacy.html")!) {
+            Link(destination: URL(string: "https://comoevent.com/privacy.html")!) {
                 Label("Privacy policy", systemImage: "lock").frame(maxWidth: .infinity, alignment: .leading)
             }
             if !community.blockedSubmitters.isEmpty {

@@ -22,7 +22,7 @@ from zoneinfo import ZoneInfo
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEED = os.path.join(ROOT, "feed", "events.json")
 TZ = ZoneInfo("America/Chicago")
-GET = "https://xenificity.github.io/comoevents/get/?c="
+GET = "https://comoevent.com/get/?c="
 
 EMOJI = {"party": "🎉", "music": "🎵", "nightlife": "🌙", "food": "🍴", "arts": "🎭",
          "sports": "🏟️", "family": "👨‍👩‍👧", "campus": "🎓", "community": "📍"}

@@ -9,14 +9,14 @@ import CoreImage.CIFilterBuiltins
 /// codes and links already shared never go stale, and the `c` parameter becomes the App Store
 /// campaign token (`ct`) so App Analytics can tell channels apart. See Marketing/campaign-links.md.
 enum AppLinks {
-    static let website = URL(string: "https://xenificity.github.io/comoevents/")!
+    static let website = URL(string: "https://comoevent.com/")!
 
     static func install(campaign: String) -> URL {
-        URL(string: "https://xenificity.github.io/comoevents/get/?c=\(campaign)")!
+        URL(string: "https://comoevent.com/get/?c=\(campaign)")!
     }
 
     /// Short human-readable form for text that people may retype.
-    static let displayInstall = "xenificity.github.io/comoevents"
+    static let displayInstall = "comoevent.com"
 
     /// Crisp QR code for a URL, black on white, at the requested point size.
     static func qrImage(for url: URL, size: CGFloat) -> UIImage? {

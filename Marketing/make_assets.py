@@ -17,8 +17,8 @@ from reportlab.graphics import renderPDF, renderPM
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 ICON = os.path.join(ROOT, "docs", "img", "icon-512.png")   # 512px keeps the PDFs small
-BASE = "https://xenificity.github.io/comoevents/get/?c="
-SHORT = "xenificity.github.io/comoevents"
+BASE = "https://comoevent.com/get/?c="
+SHORT = "comoevent.com"
 
 YELLOW = HexColor("#FFD600")
 GOLD = HexColor("#EDAE00")

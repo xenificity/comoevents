@@ -67,7 +67,7 @@ struct SubmitEventView: View {
                     Toggle(isOn: $draft.agreedToGuidelines) {
                         Text("I agree to the community guidelines").font(.subheadline.weight(.semibold))
                     }.tint(Theme.gold)
-                    Link("Read the guidelines", destination: URL(string: "https://xenificity.github.io/comoevents/guidelines.html")!).font(.subheadline)
+                    Link("Read the guidelines", destination: URL(string: "https://comoevent.com/guidelines.html")!).font(.subheadline)
                 } footer: {
                     Text("Public events only. No spam, no hate, no adult content, no private parties, nothing illegal. A moderator checks every post before it appears, usually within a day. Posts can be reported, hidden and removed, and repeat offenders are blocked. Questions: xenificity@icloud.com")
                 }

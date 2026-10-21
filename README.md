@@ -141,7 +141,7 @@ Launch goal: 1,000 users in Columbia by Dec 31, 2026. Everything lives in `Marke
 - `drafts/` press pitches, student-org outreach, Reddit and Halloween posts. Drafts only, nothing is sent.
 - `scripts/weekly_post.py` prints a "This weekend in CoMo" top-10 caption from `feed/events.json`.
 
-All install links go through `docs/get/` (`https://xenificity.github.io/comoevents/get/?c=<channel>`), which
+All install links go through `docs/get/` (`https://comoevent.com/get/?c=<channel>`), which
 opens the App Store once the app is live and the TestFlight beta until then. The app uses the same page
 (`Support/AppLinks.swift`): share cards carry a QR and link (`c=share`), the Friends tab has an Invite
 button (`c=invite`), and the app asks once for a rating after the third saved event. Press kit:
@@ -149,7 +149,7 @@ button (`c=invite`), and the app asks once for a rating after the third saved ev
 
 ## Web app
 
-`docs/app/` is a browser twin of the app at https://xenificity.github.io/comoevents/app/: same feed,
+`docs/app/` is a browser twin of the app at https://comoevent.com/app/: same feed,
 same light glass look, the four tabs (Map / Upcoming / Saved / Profile), the Now / Today / Weekend /
 7 days / All windows, audience and category filters, search, "Next up" strip, venue sheets, day-grouped
 image cards, a "For you" row from the profile's interests, and an event page with More info,

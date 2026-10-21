@@ -1,6 +1,6 @@
 # Campaign links
 
-Every link and QR code points at one smart page, `https://xenificity.github.io/comoevents/get/?c=<channel>`
+Every link and QR code points at one smart page, `https://comoevent.com/get/?c=<channel>`
 ([docs/get/index.html](../docs/get/index.html)). It checks Apple's public lookup API:
 
 - **While CoMo Events is not on the App Store yet**, it opens the public TestFlight beta
@@ -14,15 +14,15 @@ So printed flyers, posts and shared cards keep working through the launch with n
 
 | Channel | Use it for | Link | QR |
 |---|---|---|---|
-| `flyer` | Campus bulletin boards, tear-off flyer | https://xenificity.github.io/comoevents/get/?c=flyer | [png](qr/qr-flyer.png) · [pdf](qr/qr-flyer.pdf) |
-| `venue` | Counter cards at bars, venues, coffee shops | https://xenificity.github.io/comoevents/get/?c=venue | [png](qr/qr-venue.png) · [pdf](qr/qr-venue.pdf) |
-| `reddit` | r/columbiamo, r/mizzou posts and comments | https://xenificity.github.io/comoevents/get/?c=reddit | [png](qr/qr-reddit.png) |
-| `instagram` | Bio link, stories, weekly posts | https://xenificity.github.io/comoevents/get/?c=instagram | [png](qr/qr-instagram.png) |
-| `tiktok` | Bio link | https://xenificity.github.io/comoevents/get/?c=tiktok | [png](qr/qr-tiktok.png) |
-| `orgs` | Student org emails, GroupMe, newsletters | https://xenificity.github.io/comoevents/get/?c=orgs | [png](qr/qr-orgs.png) |
-| `press` | Press pitches and the press kit page | https://xenificity.github.io/comoevents/get/?c=press | [png](qr/qr-press.png) |
-| `email` | Your personal emails and signature | https://xenificity.github.io/comoevents/get/?c=email | [png](qr/qr-email.png) |
-| `tabling` | Student Center tabling, event booths | https://xenificity.github.io/comoevents/get/?c=tabling | [png](qr/qr-tabling.png) |
+| `flyer` | Campus bulletin boards, tear-off flyer | https://comoevent.com/get/?c=flyer | [png](qr/qr-flyer.png) · [pdf](qr/qr-flyer.pdf) |
+| `venue` | Counter cards at bars, venues, coffee shops | https://comoevent.com/get/?c=venue | [png](qr/qr-venue.png) · [pdf](qr/qr-venue.pdf) |
+| `reddit` | r/columbiamo, r/mizzou posts and comments | https://comoevent.com/get/?c=reddit | [png](qr/qr-reddit.png) |
+| `instagram` | Bio link, stories, weekly posts | https://comoevent.com/get/?c=instagram | [png](qr/qr-instagram.png) |
+| `tiktok` | Bio link | https://comoevent.com/get/?c=tiktok | [png](qr/qr-tiktok.png) |
+| `orgs` | Student org emails, GroupMe, newsletters | https://comoevent.com/get/?c=orgs | [png](qr/qr-orgs.png) |
+| `press` | Press pitches and the press kit page | https://comoevent.com/get/?c=press | [png](qr/qr-press.png) |
+| `email` | Your personal emails and signature | https://comoevent.com/get/?c=email | [png](qr/qr-email.png) |
+| `tabling` | Student Center tabling, event booths | https://comoevent.com/get/?c=tabling | [png](qr/qr-tabling.png) |
 
 Already wired in (no action needed):
 

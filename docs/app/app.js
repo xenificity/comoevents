@@ -8,6 +8,7 @@
   var FEED = ["../events.json", "https://raw.githubusercontent.com/xenificity/comoevents/main/feed/events.json"];
   var STYLE = "https://tiles.openfreemap.org/styles/liberty";
   var INSTALL = "../get/?c=webapp";
+  function siteRoot() { return location.origin + location.pathname.replace(/app\/?[^/]*$/, ""); }   // works on comoevent.com and on github.io/comoevents/
   var CENTER = [-92.3300, 38.9480];
 
   // SF-Symbol-like glyphs (Material paths, 24x24).
@@ -478,7 +479,7 @@
     var my = el("div", "glass card pcard", "<h3>Your code</h3><div class=\"code\">" + esc(ck.friends.myCode || "······") + "</div>");
     var acts = el("div", "addrow");
     var sh = el("button", "ybtn", ic("share") + " Invite"); sh.type = "button"; sh.onclick = function () {
-      var text = "I use CoMo Events to see everything happening in Columbia on one map. My friend code is " + ck.friends.myCode + ". Get it: " + location.origin + "/comoevents/get/?c=invite";
+      var text = "I use CoMo Events to see everything happening in Columbia on one map. My friend code is " + ck.friends.myCode + ". Get it: " + siteRoot() + "get/?c=invite";
       if (navigator.share) navigator.share({ text: text }).catch(function () {}); else if (navigator.clipboard) navigator.clipboard.writeText(text).then(function () { toast("Invite text copied"); });
     };
     var cp = el("button", "ybtn", "Copy code"); cp.type = "button"; cp.onclick = function () { if (navigator.clipboard) navigator.clipboard.writeText(ck.friends.myCode).then(function () { toast("Code copied"); }); };
@@ -715,7 +716,7 @@
   }
   function shareEvent(e) {
     var url = location.origin + location.pathname + "?e=" + encodeURIComponent(e.id);
-    var text = e.title + " · " + whenText(e) + (e.venue ? " · " + e.venue : "") + "\nFound on CoMo Events, free for iPhone: " + location.origin + "/comoevents/get/?c=share";
+    var text = e.title + " · " + whenText(e) + (e.venue ? " · " + e.venue : "") + "\nFound on CoMo Events, free for iPhone: " + siteRoot() + "get/?c=share";
     if (navigator.share) navigator.share({ title: e.title, text: text, url: url }).catch(function () {});
     else if (navigator.clipboard) navigator.clipboard.writeText(text + "\n" + url).then(function () { toast("Link copied"); });
   }
