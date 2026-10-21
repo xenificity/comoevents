@@ -13,5 +13,5 @@ Edit the HTML, then re-render with headless Chrome:
     CH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
     "$CH" --headless=new --disable-gpu --no-pdf-header-footer --print-to-pdf=CoMoEvents-flyer-night.pdf "file://$PWD/flyer-night.html"
 
-QR codes are `qr-app.svg` / `qr-web.svg`, generated with reportlab (see the top of this folder's history).
+QR codes are `qr-app.svg` / `qr-web.svg` (web QR → https://comoevent.com/, app QR → https://comoevent.com/get/?c=flyer), generated with reportlab QrCodeWidget + renderSVG.
 Screenshots come from `docs/img/`; replace them there when the app's look changes.
