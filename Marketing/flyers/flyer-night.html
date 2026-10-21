@@ -12,13 +12,15 @@ body{font-family:-apple-system,"SF Pro Display","Helvetica Neue",Inter,Arial,san
 .wrap{position:relative;padding:.6in .65in .5in}
 .brand{display:flex;align-items:center;gap:.14in;font-weight:800;font-size:20pt;letter-spacing:-.01em}
 .brand img{width:.62in;height:.62in;border-radius:.16in;box-shadow:0 10px 30px rgba(255,214,0,.35)}
-h1{margin:.45in 0 0;font-size:50pt;line-height:.98;letter-spacing:-.035em;font-weight:900;max-width:4.3in}
+h1{margin:.45in 0 0;font-size:46pt;line-height:.98;letter-spacing:-.035em;font-weight:900;max-width:3.6in}
 h1 span{color:#FFD600}
-.lead{margin:.2in 0 0;font-size:15pt;color:rgba(255,255,255,.75);max-width:4.1in;line-height:1.3}
-.phone{position:absolute;right:.3in;top:1.75in;width:2.9in;border-radius:.42in;overflow:hidden;border:2px solid rgba(255,255,255,.22);box-shadow:0 50px 90px rgba(0,0,0,.65),0 0 0 .14in rgba(255,255,255,.06);transform:rotate(6deg)}
-.phone img{display:block;width:100%}
-.pills{position:absolute;left:.65in;top:5.75in;display:flex;flex-direction:column;gap:.14in}
-.pill{display:inline-flex;align-items:center;gap:.14in;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:.12in .3in .12in .14in;font-size:14.5pt;font-weight:700;backdrop-filter:blur(10px);width:max-content}
+.lead{margin:.2in 0 0;font-size:14.5pt;color:rgba(255,255,255,.75);max-width:3.5in;line-height:1.3}
+.phones{position:absolute;right:.2in;top:1.6in;width:3.75in;height:5.6in}
+.phones img{position:absolute;width:2.25in;border-radius:.4in;border:2px solid rgba(255,255,255,.22);box-shadow:0 50px 90px rgba(0,0,0,.65),0 0 0 .12in rgba(255,255,255,.06)}
+.phones .a{left:0;top:.45in;transform:rotate(-7deg)}
+.phones .b{right:0;top:0;transform:rotate(5deg);z-index:2}
+.pills{position:absolute;left:.65in;top:5.85in;display:flex;flex-direction:column;gap:.14in}
+.pill{display:inline-flex;align-items:center;gap:.14in;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:.12in .3in .12in .14in;font-size:13.5pt;font-weight:700;backdrop-filter:blur(10px);width:max-content}
 .pill i{width:.42in;height:.42in;border-radius:50%;display:grid;place-items:center;font-style:normal;font-size:15pt;background:linear-gradient(135deg,var(--c),rgba(255,255,255,.15))}
 .bottom{position:absolute;left:.65in;right:.65in;bottom:.55in;display:flex;gap:.3in;align-items:stretch}
 .qr{flex:1;background:#fff;color:#121214;border-radius:.32in;padding:.22in;display:flex;gap:.22in;align-items:center;box-shadow:0 30px 60px rgba(0,0,0,.5)}
@@ -34,13 +36,13 @@ h1 span{color:#FFD600}
 <div class="wrap">
   <div class="brand"><img src="../../docs/img/icon-512.png" alt="">CoMo Events</div>
   <h1>Everything happening in CoMo.<br><span>One map.</span></h1>
-  <p class="lead">Mizzou, downtown, music, parties, markets, library nights. Live, free, no ads, no account.</p>
+  <p class="lead">Mizzou, downtown, music, parties, markets, library nights. Live and free.</p>
 </div>
-<div class="phone"><img src="../../docs/img/01-map.jpg" alt=""></div>
+<div class="phones"><img class="a" src="../../docs/img/04-detail.jpg" alt=""><img class="b" src="../../docs/img/01-map.jpg" alt=""></div>
 <div class="pills">
   <span class="pill"><i style="--c:#FFD600">📍</i>See what's on right now, near you</span>
-  <span class="pill"><i style="--c:#ff4090">🎉</i>Parties, music, food, campus</span>
-  <span class="pill"><i style="--c:#30d158">❤️</i>Save it, share it, add to calendar</span>
+  <span class="pill"><i style="--c:#ff4090">💛</i>Sort for singles, couples or groups</span>
+  <span class="pill"><i style="--c:#30d158">📣</i>Post your event, get more people there</span>
 </div>
 <div class="bottom">
   <div class="qr y"><img src="qr-app.svg" alt="QR for the iPhone app"><div><b>iPhone app</b><small>Scan with your camera to install</small></div></div>
