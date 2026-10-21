@@ -199,6 +199,11 @@
     if (e.price && extra) h += '<span class="pill soft">' + esc(e.price) + "</span>";
     return h;
   }
+  function attPill(e) {
+    var c = window.Cloud ? Cloud.count(e.id) : { going: 0, here: 0 };
+    if (!c.going && !c.here) return "";
+    return '<span class="pill count' + (c.here ? " here" : "") + '">' + ic(c.here ? "here" : "thumb") + (c.going + c.here) + "</span>";
+  }
   function bigCard(e, now) {
     var k = kind(e);
     var c = el("button", "big"); c.type = "button";
@@ -206,7 +211,7 @@
     if (e.imageUrl) { var img = el("img"); img.loading = "lazy"; img.alt = ""; img.src = e.imageUrl; img.onerror = function () { img.remove(); }; c.appendChild(img); }
     else c.appendChild(el("div", "sym", ic(k)));
     var inner = el("div", "in");
-    var top = el("div", "top", pills(e, now, true) + '<span class="sp"></span>');
+    var top = el("div", "top", pills(e, now, true) + attPill(e) + '<span class="sp"></span>');
     top.appendChild(heartBtn(e));
     inner.appendChild(top);
     var bottom = el("div", "", '<span class="pill cat">' + ic(k) + " " + CATS[k].label + "</span><h3>" + esc(e.title) + "</h3>" +
@@ -317,6 +322,16 @@
       pin.title = h.title + (n > 1 ? " · " + n + " events" : "");
       pin.onclick = function (ev) { ev.stopPropagation(); if (n === 1) openDetail(h.events[0]); else openSheet(h); };
       wrap.appendChild(pin);
+      if (window.Cloud && Cloud.friends.list.length) {
+        var fa = Cloud.friendsAt(new Set(h.events.map(function (e) { return e.id; })));
+        var all = fa.here.concat(fa.going);
+        if (all.length) {
+          var fb = el("div", "fbubbles");
+          all.slice(0, 3).forEach(function (f, i) { fb.appendChild(el("span", i < fa.here.length ? "here" : "", esc((f.name || "?")[0].toUpperCase()))); });
+          if (all.length > 3) fb.appendChild(el("span", "", "+" + (all.length - 3)));
+          wrap.appendChild(fb);
+        }
+      }
       var m = new maplibregl.Marker({ element: wrap, anchor: "center" }).setLngLat([h.lng, h.lat]).addTo(map);
       markers.push(m);
     });
@@ -377,8 +392,19 @@
   function renderProfile() {
     var p = state.profile, box = $("profile"); box.innerHTML = "";
     var initials = (p.name || "").split(/\s+/).filter(Boolean).map(function (w) { return w[0].toUpperCase(); }).slice(0, 2).join("") || "☺";
-    var head = el("div", "glass card pcard", '<div class="head"><div class="avatar">' + esc(initials) + "</div><div><b>" + esc(p.name || "Hey there") + "</b><small>Profile saved in this browser · no account needed</small></div></div>");
+    var ck = window.Cloud || {};
+    var status = !ck.available ? "Profile saved in this browser" : ck.signedIn ? "Signed in with iCloud" : "Not signed in · profile saved in this browser only";
+    var head = el("div", "glass card pcard", '<div class="head"><div class="avatar">' + esc(initials) + "</div><div><b>" + esc(p.name || "Hey there") + "</b><small>" + status + "</small></div></div>");
     box.appendChild(head);
+    if (ck.available) {
+      var sc = el("div", "glass card pcard", ck.signedIn
+        ? "<h3>iCloud</h3><p>Going, I'm here, friends and posting are on. Your name and saves stay in this browser; attendance and your friend code are public records, like in the iPhone app.</p><div id=\"ck-signout\"></div>"
+        : "<h3>Keep your plans</h3><p>Sign in with your iCloud account to say you're going, see friends, and post events. No password is shared with us.</p><div id=\"ck-signin\"></div>");
+      box.appendChild(sc);
+      setTimeout(function () { try { if (window.CloudKit && CloudKit.getDefaultContainer) { var c = CloudKit.getDefaultContainer(); c.setUpAuth(); } } catch (e) {} }, 0);
+    } else if (window.CK_TOKEN === "") {
+      box.appendChild(el("div", "glass card pcard", "<h3>iCloud on the web</h3><p>Waiting for the CloudKit token. Until then Going, friends and posting live in the <a href=\"" + INSTALL + "\">iPhone app</a>.</p>"));
+    }
 
     var about = el("div", "glass card pcard", "<h3>About you</h3>");
     var field = el("div", "glass capsule field"); var input = el("input"); input.placeholder = "Your name"; input.value = p.name || "";
@@ -411,8 +437,11 @@
     tg.appendChild(sw); sounds.appendChild(tg); box.appendChild(sounds);
 
     var comm = el("div", "glass card pcard", "<h3>Community</h3>");
-    var post = el("a", "ylink", ic("plus") + "Post an event"); post.href = INSTALL; comm.appendChild(post);
-    comm.appendChild(el("p", "", "Student orgs, venues, anyone: post a public event in the iPhone app and it appears on the map after a quick check. Posting from the web is coming."));
+    var post = el("button", "ylink", ic("plus") + "Post an event"); post.type = "button"; post.onclick = openPost; comm.appendChild(post);
+    comm.appendChild(el("p", "", "Student orgs, venues, anyone: post a public event and it appears on the map after a quick check."));
+    if (window.Cloud && Cloud.community.mine && Cloud.community.mine.length) {
+      comm.appendChild(el("p", "mine", "Your posts: " + Cloud.community.mine.map(function (e) { return "<b>" + esc(e.title) + "</b> · " + (e.decision === true ? "live" : e.decision === false ? "declined" : "waiting for a moderator"); }).join(" · ")));
+    }
     box.appendChild(comm);
 
     var favs = favoriteEvents().length;
@@ -426,7 +455,94 @@
       '<a class="plink" href="' + INSTALL + '">' + ic("phoneDev") + "Get the iPhone app</a>" +
       '<p style="margin:8px 0 0;font-size:12px">Reminders, friends, attendance and posting live in the iPhone app. This web version shows the same events and keeps your saves in this browser.</p>');
     box.appendChild(help);
+    if (ck.userRecordName) box.appendChild(el("div", "glass card pcard", "<small style=\"font-weight:700;color:var(--muted)\">Your CoMo ID</small><div class=\"mono\">" + esc(ck.userRecordName) + "</div>"));
   }
+
+  // ---------- friends (mirrors FriendsScreen) ----------
+  function renderFriends() {
+    var box = $("friends"); box.innerHTML = "";
+    var ck = window.Cloud;
+    if (!ck || !ck.available) {
+      box.appendChild(el("div", "glass card pcard", "<h3>Go together</h3><p>Friends needs iCloud on the web, which is waiting for its CloudKit token. In the meantime the <a href=\"" + INSTALL + "\">iPhone app</a> has it.</p>"));
+      return;
+    }
+    if (!ck.friends.enabled) {
+      var intro = el("div", "glass card pcard", "<h3>" + ic("people") + " Go together</h3><p>Turn on Friends to get a 6-letter code. Swap codes with people, and you'll see which saved events you have in common and who's going where. Sharing your own saved events is a separate switch, off by default.</p>");
+      var b = el("button", "ylink", ic("sparkles") + (ck.signedIn ? "Turn on Friends" : "Sign in with iCloud first")); b.type = "button";
+      b.onclick = function () { if (!ck.signedIn) { showTab("profile"); return; } ck.enableFriends().then(function (msg) { if (msg) toast(msg); renderFriends(); }); };
+      intro.appendChild(b);
+      intro.appendChild(el("p", "", "<small>Uses your iCloud account. Nothing else is shared.</small>"));
+      box.appendChild(intro); return;
+    }
+    var my = el("div", "glass card pcard", "<h3>Your code</h3><div class=\"code\">" + esc(ck.friends.myCode || "······") + "</div>");
+    var acts = el("div", "addrow");
+    var sh = el("button", "ybtn", ic("share") + " Invite"); sh.type = "button"; sh.onclick = function () {
+      var text = "I use CoMo Events to see everything happening in Columbia on one map. My friend code is " + ck.friends.myCode + ". Get it: " + location.origin + "/comoevents/get/?c=invite";
+      if (navigator.share) navigator.share({ text: text }).catch(function () {}); else if (navigator.clipboard) navigator.clipboard.writeText(text).then(function () { toast("Invite text copied"); });
+    };
+    var cp = el("button", "ybtn", "Copy code"); cp.type = "button"; cp.onclick = function () { if (navigator.clipboard) navigator.clipboard.writeText(ck.friends.myCode).then(function () { toast("Code copied"); }); };
+    acts.appendChild(sh); acts.appendChild(cp); my.appendChild(acts);
+    var tg = el("div", "toggle", "<div><b>Share my saved events with friends</b><small>Friends who have your code see what you've hearted and where you're going.</small></div>");
+    var sw = el("button", "switch" + (ck.friends.share ? " on" : "")); sw.type = "button"; sw.onclick = function () { ck.setShare(!ck.friends.share); sw.classList.toggle("on", ck.friends.share); };
+    tg.appendChild(sw); my.appendChild(tg); box.appendChild(my);
+    var add = el("div", "glass card pcard", "<h3>Add a friend</h3>");
+    var row = el("div", "addrow"); var fld = el("div", "glass capsule field"); var inp = el("input"); inp.placeholder = "Friend's code"; inp.maxLength = 6; fld.appendChild(inp);
+    var go = el("button", "ybtn", "Add"); go.type = "button"; go.onclick = function () { go.disabled = true; ck.addFriend(inp.value).then(function (msg) { go.disabled = false; if (msg) toast(msg); else { inp.value = ""; toast("Friend added"); } renderFriends(); }); };
+    row.appendChild(fld); row.appendChild(go); add.appendChild(row); box.appendChild(add);
+    if (!ck.friends.list.length) { box.appendChild(el("div", "empty", ic("people") + "No friends yet. Add someone's code above.")); return; }
+    var now = new Date();
+    ck.friends.list.forEach(function (f) {
+      var going = state.events.filter(function (e) { return (f.favorites.indexOf(e.id) >= 0 || f.going.indexOf(e.id) >= 0) && effectiveEnd(e) >= now; }).sort(function (a, b) { return a._start - b._start; });
+      var card = el("div", "glass card pcard");
+      var head = el("div", "friend", '<div class="av">' + esc((f.name || "?")[0].toUpperCase()) + '</div><div class="t"><b>' + esc(f.name) + "</b><small>" + (f.sharing ? going.length + " upcoming saved" : "Not sharing saves") + "</small></div>");
+      var ac = el("div", "acts");
+      var rm = el("button", "glass", "Remove"); rm.type = "button"; rm.onclick = function () { ck.removeFriend(f.id); renderFriends(); };
+      var bk = el("button", "glass danger", "Block"); bk.type = "button"; bk.onclick = function () { if (confirm("Block " + f.name + "?")) { ck.blockFriend(f.id); ck.report(f, "friend profile: blocked by a user"); renderFriends(); } };
+      ac.appendChild(rm); ac.appendChild(bk); head.appendChild(ac); card.appendChild(head);
+      going.slice(0, 5).forEach(function (e) { card.appendChild(row(e, now)); });
+      box.appendChild(card);
+    });
+  }
+
+  // ---------- post an event (mirrors SubmitEventView) ----------
+  function openPost() {
+    if (!window.Cloud || !Cloud.available) { location.href = INSTALL; return; }
+    if (!Cloud.signedIn) { toast("Sign in with iCloud in the Profile tab to post."); showTab("profile"); return; }
+    var f = $("post-form");
+    if (!f.category.options.length) {
+      Object.keys(CATS).forEach(function (k) { var o = el("option", "", CATS[k].label); o.value = k; if (k === "community") o.selected = true; f.category.appendChild(o); });
+      var extra = $("post-extra"); Object.keys(CATS).forEach(function (k) {
+        var b = el("button", "chip glass", '<span class="dot">' + ic(k) + "</span>" + CATS[k].label); b.type = "button"; b.style.setProperty("--c", CATS[k].color); b.dataset.cat = k;
+        b.onclick = function () { b.classList.toggle("on"); }; extra.appendChild(b);
+      });
+    }
+    var d = new Date(Date.now() + 86400e3); d.setMinutes(Math.ceil(d.getMinutes() / 30) * 30, 0, 0);
+    f.start.value = new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 16);
+    f.submitterName.value = f.submitterName.value || state.profile.name || "";
+    $("post-err").hidden = true;
+    $("post").hidden = false; $("post").scrollTop = 0;
+  }
+  function closePost() { $("post").hidden = true; }
+  function submitPost(ev) {
+    ev.preventDefault();
+    var f = $("post-form"), btn = $("post-send");
+    var d = {
+      title: f.title.value, category: f.category.value, extra: [...$("post-extra").querySelectorAll(".chip.on")].map(function (b) { return b.dataset.cat; }),
+      start: f.start.value ? new Date(f.start.value) : null, end: f.hasEnd.checked && f.end.value ? new Date(f.end.value) : null,
+      venue: f.venue.value.trim(), address: f.address.value.trim(), price: f.price.value.trim(), link: f.link.value.trim(), details: f.details.value.trim(),
+      submitterName: f.submitterName.value.trim(), agreed: f.agreed.checked
+    };
+    if (!d.start) { showPostError("Pick a start time."); return; }
+    btn.disabled = true; btn.textContent = "Posting…";
+    Cloud.submit(d).then(function (msg) {
+      btn.disabled = false; btn.innerHTML = "Post";
+      if (msg) { showPostError(msg); return; }
+      closePost(); f.reset(); $("post-extra").querySelectorAll(".chip.on").forEach(function (b) { b.classList.remove("on"); });
+      toast("Posted. A moderator will check it, usually within a day.");
+      if (state.tab === "profile") renderProfile();
+    });
+  }
+  function showPostError(msg) { var e = $("post-err"); e.textContent = msg; e.hidden = false; e.scrollIntoView({ block: "center", behavior: "smooth" }); }
 
   // ---------- venue sheet ----------
   function openSheet(h) {
@@ -473,15 +589,9 @@
       (e.phone ? "<div>" + ic("phone") + '<a href="tel:' + esc(e.phone.replace(/[^\d+]/g, "")) + '">' + esc(e.phone) + "</a></div>" : "");
     body.appendChild(facts);
 
-    var started = e._start <= new Date(now.getTime() + 2 * 3600e3), over = effectiveEnd(e) < now;
-    var att = el("div", "glass card att");
-    var btns = "";
-    if (!over) btns += '<a href="comoevents://event/' + encodeURIComponent(e.id) + '" class="glass">' + ic("thumb") + "Going</a>";
-    if (started && !over) btns += '<a href="comoevents://event/' + encodeURIComponent(e.id) + '" class="glass">' + ic("here") + "I'm here</a>";
-    if (started) btns += '<a href="comoevents://event/' + encodeURIComponent(e.id) + '" class="glass">' + ic("check") + "Went</a>";
-    att.innerHTML = '<div class="counts"><span>' + ic("thumb") + ' Going</span><span class="g">' + ic("here") + " Here now</span></div><div class=\"btns\">" + btns + "</div>" +
-      "<small>Going, I'm here and Went, with live counts and friends, work in the iPhone app. <a href=\"" + INSTALL + "\">Get it</a>.</small>";
-    body.appendChild(att);
+    var att = el("div", "glass card att"); body.appendChild(att); renderAttendance(att, e);
+    var going = window.Cloud ? Cloud.friendsGoing(e.id) : [];
+    if (going.length) body.appendChild(el("div", "glass card going-card", ic("people") + "<span>" + esc(going.map(function (f) { return f.name; }).join(", ")) + (going.length === 1 ? " is going" : " are going") + "</span>"));
 
     if (e.lat != null && e.lng != null) {
       var mm = el("div", "minimap"); mm.onclick = function () { window.open(directionsURL(e), "_blank", "noopener"); };
@@ -519,13 +629,45 @@
     d.appendChild(inner);
     d.hidden = false; d.scrollTop = 0;
   }
+  /// Going / I'm here / Went with everyone's counts (mirrors attendanceCard in EventDetailView).
+  function renderAttendance(att, e) {
+    var now = new Date(), started = e._start <= new Date(now.getTime() + 2 * 3600e3), over = effectiveEnd(e) < now;
+    var c = window.Cloud ? Cloud.count(e.id) : { going: 0, here: 0, went: 0 }, mine = window.Cloud ? Cloud.status(e.id) : null;
+    att.innerHTML = '<div class="counts"><span>' + ic("thumb") + " " + c.going + " going</span>" + (c.here ? '<span class="g">' + ic("here") + " " + c.here + " here now</span>" : "") + (c.went ? "<span>" + ic("check") + " " + c.went + " went</span>" : "") + "</div>";
+    var btns = el("div", "btns");
+    [["going", "Going", "thumb", !over], ["here", "I'm here", "here", started && !over], ["went", "Went", "check", started]].forEach(function (st) {
+      if (!st[3]) return;
+      var b = el("button", "glass" + (mine === st[0] ? " on " + st[0] : ""), ic(st[2]) + st[1]); b.type = "button";
+      b.onclick = function () {
+        if (!window.Cloud || !Cloud.available) { toast("Going and I'm here need iCloud: add the token or use the iPhone app."); return; }
+        Cloud.setStatus(e, mine === st[0] ? null : st[0]).then(function (msg) { if (msg) toast(msg); });
+        renderAttendance(att, e);
+      };
+      btns.appendChild(b);
+    });
+    att.appendChild(btns);
+    var here = window.Cloud ? Cloud.friendsHere(e.id) : [];
+    if (here.length) att.appendChild(el("small", "", ic("people") + " " + esc(here.map(function (f) { return f.name; }).join(", ")) + (here.length === 1 ? " is" : " are") + " here now"));
+    if (!window.Cloud || !Cloud.available) att.appendChild(el("small", "", "Counts sync through iCloud; the web app is waiting for its CloudKit token. The <a href=\"" + INSTALL + "\">iPhone app</a> has it all."));
+    else if (!Cloud.signedIn) att.appendChild(el("small", "", "Kept in this browser. <a href=\"#\" data-tab-link=\"profile\">Sign in with iCloud</a> to count for everyone and show friends."));
+    var link = att.querySelector("[data-tab-link]"); if (link) link.onclick = function (ev) { ev.preventDefault(); closeDetail(); showTab("profile"); };
+  }
   function roundBtn(icon, title, fn) { var b = el("button", "glass circle", ic(icon)); b.type = "button"; b.title = title; b.onclick = fn; return b; }
   function toggleMenu(e, hero) {
     var old = hero.querySelector(".menu"); if (old) { old.remove(); return; }
     var m = el("div", "menu glass");
     var s = el("button", "", ic("share") + "Share"); s.onclick = function () { m.remove(); shareEvent(e); }; m.appendChild(s);
     var c = el("button", "", ic("calendar") + "Add to Calendar"); c.onclick = function () { m.remove(); downloadICS(e); }; m.appendChild(c);
-    var r = el("a", "danger", ic("flag") + "Report a problem"); r.href = "mailto:xenificity@icloud.com?subject=" + encodeURIComponent("CoMo Events: problem with \"" + e.title + "\"") + "&body=" + encodeURIComponent("Event id: " + e.id + "\nWhat is wrong:\n"); m.appendChild(r);
+    if (e.source === "community" && window.Cloud && Cloud.available) {
+      var rp = el("button", "danger", ic("flag") + "Report this post"); rp.onclick = function () {
+        m.remove();
+        var reason = prompt("Why? (Spam or scam, Wrong or misleading, Inappropriate, Not an event)", "Spam or scam"); if (!reason) return;
+        Cloud.report(e, reason).then(function (msg) { toast(msg || "Thanks. A moderator will take a look."); });
+      }; m.appendChild(rp);
+      if (e.submitterID) { var bl = el("button", "danger", ic("flag") + "Block this poster"); bl.onclick = function () { m.remove(); if (confirm("Block and hide their posts? A report is also sent to the moderator.")) { Cloud.block(e.submitterID); Cloud.report(e, "Blocked by a user"); closeDetail(); mergeEvents(); } }; m.appendChild(bl); }
+    } else {
+      var r = el("a", "danger", ic("flag") + "Report a problem"); r.href = "mailto:xenificity@icloud.com?subject=" + encodeURIComponent("CoMo Events: problem with \"" + e.title + "\"") + "&body=" + encodeURIComponent("Event id: " + e.id + "\nWhat is wrong:\n"); m.appendChild(r);
+    }
     hero.appendChild(m);
     setTimeout(function () { document.addEventListener("click", function h() { m.remove(); document.removeEventListener("click", h); }); }, 0);
   }
@@ -544,10 +686,15 @@
   function toggleFav(e) {
     if (state.favorites.has(e.id)) state.favorites.delete(e.id); else { state.favorites.add(e.id); playSound("favorite"); }
     store.save("favorites", Array.from(state.favorites));
-    document.querySelectorAll(".heart").forEach(function (h) { /* re-render lazily */ });
+    syncFriendProfile();
     renderUpcoming(); renderSaved(); renderMapOverlays();
     if (!$("detail").hidden && state.selected === e.id) { var bar = $("detail").querySelector(".actionbar .heart"); if (bar) { var nb = heartBtn(e, "dark glass circle"); bar.replaceWith(nb); } }
     if (!$("sheet").hidden) { var h = state.hotspots.find(function (x) { return x.events.some(function (y) { return y.id === e.id; }); }); if (h) openSheet(h); }
+  }
+  function syncFriendProfile() {
+    if (!window.Cloud) return;
+    Cloud.profileForFriends = { name: state.profile.name || "", favorites: Array.from(state.favorites) };
+    if (Cloud.friends.enabled) Cloud.publishFriend();
   }
   function pad(n) { return (n < 10 ? "0" : "") + n; }
   function icsDate(d) { return d.getUTCFullYear() + pad(d.getUTCMonth() + 1) + pad(d.getUTCDate()) + "T" + pad(d.getUTCHours()) + pad(d.getUTCMinutes()) + "00Z"; }
@@ -577,12 +724,13 @@
   // ---------- tabs ----------
   function showTab(tab) {
     state.tab = tab;
-    ["map", "upcoming", "saved", "profile"].forEach(function (t) { $("screen-" + t).hidden = t !== tab; });
+    ["map", "upcoming", "saved", "friends", "profile"].forEach(function (t) { $("screen-" + t).hidden = t !== tab; });
     document.querySelectorAll("#tabbar button").forEach(function (b) { b.classList.toggle("on", b.dataset.tab === tab); });
     if (tab === "map" && map) setTimeout(function () { map.resize(); }, 50);
     if (tab === "upcoming") renderUpcoming();
     if (tab === "saved") renderSaved();
     if (tab === "profile") renderProfile();
+    if (tab === "friends") renderFriends();
     if ($("detail").hidden) history.replaceState(null, "", location.pathname + (tab !== "map" ? "?tab=" + tab : ""));
   }
 
@@ -594,6 +742,14 @@
     if (state.tab === "saved") renderSaved();
   }
 
+  /// Feed events plus approved community posts, like EventStore.recombine().
+  function mergeEvents(rerender) {
+    var ids = new Set((state.feed || []).map(function (e) { return e.id; }));
+    var extra = (window.Cloud ? Cloud.community.approved : []).filter(function (e) { return !ids.has(e.id); }).map(function (e) { e._start = parseDate(e.start) || new Date(0); e._end = parseDate(e.end); return e; });
+    state.events = (state.feed || []).concat(extra).sort(function (a, b) { return a._start - b._start; });
+    if (rerender !== false) { recompute(); renderSaved(); }
+  }
+
   // ---------- load ----------
   function load(i) {
     i = i || 0;
@@ -602,7 +758,8 @@
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (feed) {
         state.generatedAt = parseDate(feed.generatedAt); state.error = null;
-        state.events = (feed.events || []).map(function (e) { e._start = parseDate(e.start) || new Date(0); e._end = parseDate(e.end); return e; });
+        state.feed = (feed.events || []).map(function (e) { e._start = parseDate(e.start) || new Date(0); e._end = parseDate(e.end); return e; });
+        mergeEvents(false);
         var now = new Date();
         if (!state._windowPicked) { state._windowPicked = true; if (state.events.filter(function (e) { return inWindow(e, "today", now); }).length < 3) state.window = "week"; }
         renderControls(); recompute(); renderSaved();
@@ -622,7 +779,20 @@
     $("sheet-close").onclick = closeSheet;
     $("sheet").addEventListener("click", function (ev) { if (ev.target === $("sheet")) closeSheet(); });
     $("refresh-btn").onclick = function () { load(); toast("Refreshing…"); };
-    $("post-btn").onclick = function () { location.href = INSTALL; };
+    $("post-btn").onclick = openPost;
+    $("post-close").onclick = closePost;
+    $("post-form").addEventListener("submit", submitPost);
+    $("post-form").hasEnd.addEventListener("change", function (ev) { $("post-end").hidden = !ev.target.checked; });
+    var waited = 0; (function waitCK() {
+      if (window.CloudKit || !window.CK_TOKEN || waited > 8000) { Cloud.setup(); return; }
+      waited += 200; setTimeout(waitCK, 200);
+    })();
+    Cloud.on(function (what) {
+      if (what === "community") mergeEvents();
+      if (what === "attendance") { renderMapOverlays(); if (state.tab === "upcoming") renderUpcoming(); if (state.tab === "saved") renderSaved(); var a = $("detail").querySelector(".att"); if (a && state.selected) { var ev = state.events.find(function (x) { return x.id === state.selected; }); if (ev) renderAttendance(a, ev); } }
+      if (what === "friends") { renderMarkers(); if (state.tab === "friends") renderFriends(); }
+      if (what === "auth" || what === "ready") { syncFriendProfile(); if (state.tab === "profile") renderProfile(); if (state.tab === "friends") renderFriends(); }
+    });
     var t; $("search").addEventListener("input", function (ev) { clearTimeout(t); t = setTimeout(function () { state.search = ev.target.value.trim().toLowerCase(); recompute(); renderUpcoming(); }, 120); });
     document.addEventListener("keydown", function (ev) { if (ev.key === "Escape") { closeDetail(); closeSheet(); } });
     // Browsers only allow sound after the first tap or click.

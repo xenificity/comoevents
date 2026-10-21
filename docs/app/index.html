@@ -15,7 +15,7 @@
 <link rel="icon" href="../img/icon-512.png">
 <link rel="apple-touch-icon" href="../img/icon-512.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.css" integrity="sha512-DBNed2oEjOrfIRj8Czuzs7padWawLWbA64OoDekn8gs2a3J6WOaR5xXfnFgaxKGpxIuSn/rAo/PsgOgO6PZ/vA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-<link rel="stylesheet" href="app.css?v=5">
+<link rel="stylesheet" href="app.css?v=6">
 </head>
 <body>
 <div id="app">
@@ -63,6 +63,13 @@
     </div>
   </section>
 
+  <section class="screen page" id="screen-friends" hidden>
+    <div class="page-inner">
+      <header class="page-head"><h1>Friends</h1></header>
+      <div id="friends"></div>
+    </div>
+  </section>
+
   <section class="screen page" id="screen-profile" hidden>
     <div class="page-inner">
       <header class="page-head"><h1>Profile</h1></header>
@@ -75,6 +82,7 @@
     <button data-tab="map" class="on" type="button"><i class="ic" data-ic="map"></i><span>Map</span></button>
     <button data-tab="upcoming" type="button"><i class="ic" data-ic="sparkles"></i><span>Upcoming</span></button>
     <button data-tab="saved" type="button"><i class="ic" data-ic="heart"></i><span>Saved</span><b class="badge" id="saved-badge" hidden></b></button>
+    <button data-tab="friends" type="button"><i class="ic" data-ic="people"></i><span>Friends</span></button>
     <button data-tab="profile" type="button"><i class="ic" data-ic="person"></i><span>Profile</span></button>
   </nav>
 
@@ -87,12 +95,41 @@
     </div>
   </section>
 
+  <!-- Post an event -->
+  <section class="detail post" id="post" hidden>
+    <div class="inner"><div class="body">
+      <header class="page-head"><h1>Post an event</h1><button class="glass circle" id="post-close" type="button" title="Close"><i class="ic" data-ic="back"></i></button></header>
+      <form id="post-form" class="glass card pform" autocomplete="off">
+        <label>Event title<input name="title" required maxlength="120" placeholder="e.g. Trivia night at Cafe Berlin"></label>
+        <label>Type<select name="category"></select></label>
+        <div class="lbl">Also show under</div><div class="flow" id="post-extra"></div>
+        <label>Starts<input name="start" type="datetime-local" required></label>
+        <label class="inline"><input name="hasEnd" type="checkbox"> Has an end time</label>
+        <label id="post-end" hidden>Ends<input name="end" type="datetime-local"></label>
+        <label>Venue<input name="venue" maxlength="80" placeholder="e.g. Cafe Berlin"></label>
+        <label>Address<input name="address" maxlength="120" placeholder="Optional if the venue is known"></label>
+        <p class="hint">We place the pin from this. Columbia, MO is assumed.</p>
+        <label>Price<input name="price" maxlength="40" placeholder="e.g. Free, $10"></label>
+        <label>Link<input name="link" type="url" maxlength="300" placeholder="Tickets or details"></label>
+        <label>Tell people about it<textarea name="details" rows="4" maxlength="1500"></textarea></label>
+        <label>Your name or organization<input name="submitterName" maxlength="60"></label>
+        <label class="inline"><input name="agreed" type="checkbox"> I agree to the <a href="../guidelines.html" target="_blank" rel="noopener">community guidelines</a></label>
+        <p class="hint">Public events only. No spam, no hate, no adult content, no private parties, nothing illegal. A moderator checks every post before it appears, usually within a day.</p>
+        <p class="err" id="post-err" hidden></p>
+        <button class="ylink" id="post-send" type="submit">Post</button>
+      </form>
+    </div></div>
+  </section>
+
   <!-- Event detail -->
   <section class="detail" id="detail" hidden aria-live="polite"></section>
   <div class="toast" id="toast" hidden></div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.js" integrity="sha512-BmEBFbeO0lgfo1PPX5M4B4zxlhZWhOP4Qb1Bn+NVtEI7W1ESwRrLPHpWYqw1WH3QgTqRDNsagD/Fj8mjFCXvSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="app.js?v=5"></script>
+<script src="ck-config.js?v=6"></script>
+<script src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js" async onload="window.__ckLoaded=1"></script>
+<script src="cloud.js?v=6"></script>
+<script src="app.js?v=6"></script>
 </body>
 </html>
