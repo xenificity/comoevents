@@ -7,7 +7,7 @@
   "use strict";
 
   var CONTAINER = "iCloud.com.xenificity.comoevents";
-  var MODERATORS = ["_c8e8240fd2a875267839a35bf9779b30v"];
+  var MODERATORS = ["_c8e8240fd2a875267839a35bf9779b30", "_c8e8240fd2a875267839a35bf9779b30v"];
   var BLOCKED_WORDS = ["fuck", "fucking", "motherfucker", "shit", "bullshit", "asshole", "bitch", "bitches", "cunt", "dick", "dicks", "cock", "pussy",
     "whore", "slut", "faggot", "fag", "dyke", "tranny", "retard", "retarded", "nigger", "nigga", "chink", "spic", "kike", "wetback",
     "towelhead", "raghead", "porn", "porno", "xxx", "nude", "nudes", "escort", "escorts", "onlyfans", "hookup", "blowjob", "handjob",

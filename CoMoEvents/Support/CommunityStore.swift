@@ -14,7 +14,7 @@ final class CommunityStore: ObservableObject {
     @Published var lastError: String?
 
     /// Moderators: iCloud user record names allowed to approve. Add yours here (shown in Profile › Account).
-    static let moderators: Set<String> = ["_c8e8240fd2a875267839a35bf9779b30v"]
+    static let moderators: Set<String> = ["_c8e8240fd2a875267839a35bf9779b30", "_c8e8240fd2a875267839a35bf9779b30v"]   // Ajay; the "v" form was a paste slip, kept so old Approval records still count
     var isModerator: Bool { userRecordName.map { Self.moderators.contains($0) } ?? false }
 
     /// Posters this user has blocked (guideline 1.2). Kept on device.
