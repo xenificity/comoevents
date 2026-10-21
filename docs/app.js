@@ -5,10 +5,10 @@
 (function () {
   "use strict";
 
-  var FEED = ["../events.json", "https://raw.githubusercontent.com/xenificity/comoevents/main/feed/events.json"];
+  var FEED = ["events.json", "https://raw.githubusercontent.com/xenificity/comoevents/main/feed/events.json"];
   var STYLE = "https://tiles.openfreemap.org/styles/liberty";
-  var INSTALL = "../get/?c=webapp";
-  function siteRoot() { return location.origin + location.pathname.replace(/app\/?[^/]*$/, ""); }   // works on comoevent.com and on github.io/comoevents/
+  var INSTALL = "get/?c=webapp";
+  function siteRoot() { return location.origin + location.pathname.replace(/(app\/)?[^/]*$/, ""); }   // the folder the app is served from: comoevent.com/ or github.io/comoevents/
   var CENTER = [-92.3300, 38.9480];
 
   // SF-Symbol-like glyphs (Material paths, 24x24).
@@ -452,9 +452,10 @@
     var help = el("div", "glass card pcard", "<h3>Help &amp; contact</h3>" +
       '<a class="plink" href="mailto:xenificity@icloud.com?subject=CoMo%20Events%20feedback&body=What%20I%20liked%3A%0A%0AWhat%20was%20confusing%20or%20broken%3A%0A%0AEvents%20or%20places%20missing%3A%0A">' + ic("mail") + "Send feedback</a>" +
       '<a class="plink" href="https://apps.apple.com/app/id6824363992?action=write-review" target="_blank" rel="noopener">' + ic("star") + "Rate CoMo Events on the App Store</a>" +
-      '<a class="plink" href="../guidelines.html">' + ic("shield") + "Community guidelines</a>" +
-      '<a class="plink" href="../privacy.html">' + ic("lock") + "Privacy policy</a>" +
+      '<a class="plink" href="guidelines.html">' + ic("shield") + "Community guidelines</a>" +
+      '<a class="plink" href="privacy.html">' + ic("lock") + "Privacy policy</a>" +
       '<a class="plink" href="' + INSTALL + '">' + ic("phoneDev") + "Get the iPhone app</a>" +
+      '<a class="plink" href="about/">' + ic("sparkles") + "About CoMo Events</a>" +
       '<p style="margin:8px 0 0;font-size:12px">Reminders, friends, attendance and posting live in the iPhone app. This web version shows the same events and keeps your saves in this browser.</p>');
     box.appendChild(help);
     if (ck.userRecordName) box.appendChild(el("div", "glass card pcard", "<small style=\"font-weight:700;color:var(--muted)\">Your CoMo ID</small><div class=\"mono\">" + esc(ck.userRecordName) + "</div>"));

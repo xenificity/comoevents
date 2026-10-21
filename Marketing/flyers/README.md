@@ -1,7 +1,7 @@
 # Flyers
 
 Three US Letter designs, each with two QR codes: the iPhone app (`/get/?c=flyer`, which opens TestFlight
-now and the App Store after launch) and the web map (`/app/?c=flyer`).
+now and the App Store after launch) and the web map (`/app/?c=flyer`, which redirects to the root).
 
 - `flyer-night.html` → `CoMoEvents-flyer-night.pdf` (dark, glossy)
 - `flyer-day.html` → `CoMoEvents-flyer-day.pdf` (light, like the app)

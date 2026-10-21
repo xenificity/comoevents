@@ -229,7 +229,7 @@
   // ---------- venue table (feed/venues.json, served as ../venues.json) ----------
   var venuesPromise;
   Cloud.venues = function () {
-    venuesPromise = venuesPromise || fetch("../venues.json").then(function (r) { return r.json(); }).catch(function () { return {}; });
+    venuesPromise = venuesPromise || fetch("venues.json").then(function (r) { return r.json(); }).catch(function () { return {}; });
     return venuesPromise;
   };
   /// Name or alias -> {name, address, lat, lng, phone, website}; Nominatim (Columbia) when the table has nothing.
@@ -304,7 +304,7 @@
   };
   Cloud.geocode = function (venue, address) {
     var q = [venue, address].filter(Boolean).join(", ");
-    return fetch("../venues.json").then(function (r) { return r.json(); }).catch(function () { return {}; }).then(function (venues) {
+    return fetch("venues.json").then(function (r) { return r.json(); }).catch(function () { return {}; }).then(function (venues) {
       var v = (venue || "").toLowerCase().trim();
       var names = Object.keys(venues);
       for (var i = 0; i < names.length; i++) {

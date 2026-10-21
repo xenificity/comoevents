@@ -149,7 +149,8 @@ button (`c=invite`), and the app asks once for a rating after the third saved ev
 
 ## Web app
 
-`docs/app/` is a browser twin of the app at https://comoevent.com/app/: same feed,
+The web app is the site root, https://comoevent.com/ (`docs/index.html`, `app.js`, `app.css`, `cloud.js`; the
+about page is `docs/about/`, and `/app/` redirects to the root for old links): same feed,
 same light glass look, the four tabs (Map / Upcoming / Saved / Profile), the Now / Today / Weekend /
 7 days / All windows, audience and category filters, search, "Next up" strip, venue sheets, day-grouped
 image cards, a "For you" row from the profile's interests, and an event page with More info,
@@ -159,9 +160,9 @@ with the same grid rule as `Hotspot.swift`. Favorites and profile stay in the br
 `?e=<id>` opens an event, `?tab=upcoming` a tab. It reads `docs/events.json`, which the feed workflow
 and `scripts/update-feed.sh` copy from `feed/events.json`, with the raw GitHub copy as fallback.
 No build step: plain `index.html`, `app.css`, `app.js`; bump the `?v=` on the two asset links in
-`index.html` after every change so browsers pick it up. With a CloudKit JS API token in `docs/app/ck-config.js`, the web app also signs in with iCloud and
+`index.html` after every change so browsers pick it up. With a CloudKit JS API token in `docs/ck-config.js`, the web app also signs in with iCloud and
 has Going / I'm here / Went with live counts, Friends by code and Post an event, through the same
-public CloudKit records as the app (`docs/app/cloud.js`).
+public CloudKit records as the app (`docs/cloud.js`).
 
 ## Flyer events and smart fill
 
@@ -170,7 +171,7 @@ and `venue`; address, pin, phone and website come from `feed/venues.json` (which
 and `imageUrl` can point at a flyer photo in `docs/img/flyers/`. Past rows are dropped automatically.
 The same idea runs in both apps when someone posts: type a venue name and the address, website and
 pin are filled from the venue table, then Apple Maps (`Support/VenueLookup.swift`) or OpenStreetMap
-(`docs/app/cloud.js`, `Cloud.lookupVenue`). Community posts are also enriched on display with the
+(`docs/cloud.js`, `Cloud.lookupVenue`). Community posts are also enriched on display with the
 venue's phone and website when the venue is known. `scripts/update-feed.sh` copies `venues.json` into
 the app bundle and into `docs/`.
 
