@@ -148,13 +148,18 @@ button (`c=invite`), and the app asks once for a rating after the third saved ev
 
 ## Web app
 
-`docs/app/` is a browser version of the app at https://xenificity.github.io/comoevents/app/: the same
-feed on a Leaflet map (OpenStreetMap tiles darkened with a CSS filter, no API key) with the Now / Today / Weekend / 7 days / All
-windows, audience and category filters, search, a day-grouped list, an event panel with More info,
-Directions, Add to calendar (.ics) and Share, plus `comoevents://event/<id>` and install links.
-Favorites stay in the browser's localStorage. `?e=<id>` opens an event directly. It reads
-`docs/events.json`, which the feed workflow and `scripts/update-feed.sh` copy from `feed/events.json`,
-and falls back to the raw GitHub copy. No build step: plain `index.html`, `app.css`, `app.js`.
+`docs/app/` is a browser twin of the app at https://xenificity.github.io/comoevents/app/: same feed,
+same light glass look, the four tabs (Map / Upcoming / Saved / Profile), the Now / Today / Weekend /
+7 days / All windows, audience and category filters, search, "Next up" strip, venue sheets, day-grouped
+image cards, a "For you" row from the profile's interests, and an event page with More info,
+Directions, Add to calendar (.ics), Share, deep link and install buttons. The map is MapLibre GL on
+OpenFreeMap's "liberty" vector style (free, no key) with pitch and 3D buildings; pins are clustered
+with the same grid rule as `Hotspot.swift`. Favorites and profile stay in the browser's localStorage.
+`?e=<id>` opens an event, `?tab=upcoming` a tab. It reads `docs/events.json`, which the feed workflow
+and `scripts/update-feed.sh` copy from `feed/events.json`, with the raw GitHub copy as fallback.
+No build step: plain `index.html`, `app.css`, `app.js`; bump the `?v=` on the two asset links in
+`index.html` after every change so browsers pick it up. Attendance, friends and posting need CloudKit
+and live in the iPhone app for now.
 
 ## App Review compliance notes (guideline 1.2 and friends)
 
