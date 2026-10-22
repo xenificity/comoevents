@@ -71,3 +71,10 @@ Read README.md first. Short version:
   install page sends an `install/<campaign>` pixel. iOS: `Support/Analytics.swift`, same path names
   (`/ios/open`, `ios-event/<id>`, `click/<name>`), off switch in Profile. Any new tracked action: use the
   same `click/<name>` on web and iOS, and keep the privacy policy in step.
+- Arts venues (Oct 2026): `SQUARESPACE_SITES` (?format=json: MOSY /calendar, CEC /events), `src_ragtag` (admin-ajax
+  calendar_events POST, every showtime ever: filter by date), `src_stephens` (Localist api/2, type 53310692394891),
+  `src_talkinghorse` (TicketLeap inline JSON), `src_mizzouarts` (wp/v2 event + ACF dates), `src_wealwaysswing`
+  (season.php image-map titles; season path changes each July), `src_lyceum` (PatronTicket fetchEvents remoting;
+  Arrow Rock is outside RADIUS_KM, allowed via `FAR_OK_SOURCES`), `src_caam` (concerts page, one paragraph per
+  concert), ICS `maplewoodbarn` + `arcadedistrict` with `ICS_SITE_SKIP`. `dedupe` keeps same-source showtimes at
+  different times separate. Venues with no readable listing go in `docs/stats/outreach.json` (shown at /stats/outreach/).

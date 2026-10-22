@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>CoMo Events · Venues to visit</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/img/icon-512.png">
+<link rel="stylesheet" href="../stats.css?v=3">
+<style>
+.ol{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr))}
+.v{display:flex;flex-direction:column;gap:6px}
+.v h3{font-size:16px;margin:0;display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.v .why{font-size:13px;color:var(--text-secondary);margin:0}
+.v .addr{font-size:13px;color:var(--text-muted)}
+.v .links{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+.v .links a{font-size:12.5px;font-weight:700;text-decoration:none;padding:6px 10px;border-radius:999px;background:var(--surface-2);border:1px solid var(--border)}
+.v textarea{width:100%;min-height:38px;resize:vertical;border-radius:10px;border:1px solid var(--border);background:var(--surface-2);color:var(--text-primary);font:13px/1.4 inherit;padding:7px 9px}
+.v label.done{font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.v.visited{opacity:.6}
+.tag{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--surface-2);color:var(--text-secondary);margin-right:4px}
+.pitch{background:var(--surface-1);border:1px solid var(--border);border-radius:18px;padding:14px 16px;margin:14px 0}
+.pitch p{margin:6px 0;color:var(--text-secondary);font-size:14px}
+.count{font-size:13px;color:var(--text-muted);margin:4px 2px 12px}
+@media print{.filters,.v textarea,.links,.top nav{display:none}.card{break-inside:avoid;box-shadow:none}}
+</style>
+</head>
+<body class="viz-root">
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="/"><img src="/img/icon-512.png" alt="">CoMo Events</a>
+    <nav><a href="/stats/">Stats</a><a href="/">Live map</a></nav>
+  </header>
+  <section class="hero">
+    <h1>Venues to visit</h1>
+    <p class="lead">Places in Columbia that hold events but don't list them anywhere the app can read. Visit them, show them the app, and ask them to post their events.</p>
+  </section>
+  <div class="pitch">
+    <b>What to say</b>
+    <p>"Hi, I made CoMo Events, a free map of everything happening in Columbia. Your events aren't on it because they're only on Facebook. You can post them free in under a minute: open comoevent.com, tap Post an event, add the title, time and your venue name, and we fill in the rest. Or send me your calendar link and I'll add it automatically."</p>
+    <p>Leave a 4x6 card with the QR codes. Ask who handles their events, and get an email or calendar link if they have one.</p>
+  </div>
+  <div class="filters"><div class="seg" id="show" role="radiogroup" aria-label="Show"><button data-v="todo" class="on" role="radio" aria-checked="true">Not visited</button><button data-v="all" role="radio">All</button><button data-v="done" role="radio">Visited</button></div></div>
+  <p class="count" id="count"></p>
+  <div class="ol" id="list"></div>
+  <footer><p>Checkmarks and notes are saved only in this browser on this device. The list is updated in the app's repository (feed/outreach.json).</p></footer>
+</div>
+<script>
+(function () {
+  var KEY = "outreach.v1", saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (_) {}
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (_) {} }
+  function el(t, c, x) { var n = document.createElement(t); if (c) n.className = c; if (x != null) n.textContent = x; return n; }
+  function link(box, text, href) { if (!href) return; var a = el("a", null, text); a.href = href; a.target = "_blank"; a.rel = "noopener"; box.appendChild(a); }
+  var show = "todo", data = [];
+  function render() {
+    var list = document.getElementById("list"); list.innerHTML = "";
+    var rows = data.filter(function (v) { var d = !!(saved[v.name] || {}).done; return show === "all" || (show === "done" ? d : !d); });
+    var doneCount = data.filter(function (v) { return (saved[v.name] || {}).done; }).length;
+    document.getElementById("count").textContent = data.length + " venues · " + doneCount + " visited · " + (data.length - doneCount) + " to go";
+    rows.forEach(function (v) {
+      var st = saved[v.name] || {}, c = el("article", "card v" + (st.done ? " visited" : ""));
+      var h = el("h3"), name = el("span", null, v.name), lab = el("label", "done"), cb = el("input"); cb.type = "checkbox"; cb.checked = !!st.done;
+      cb.onchange = function () { saved[v.name] = Object.assign({}, saved[v.name], { done: cb.checked, at: cb.checked ? new Date().toISOString().slice(0, 10) : null }); save(); render(); };
+      lab.appendChild(cb); lab.appendChild(document.createTextNode(st.done ? "Visited " + (st.at || "") : "Visited")); h.appendChild(name); h.appendChild(lab); c.appendChild(h);
+      var tags = el("div"); (v.tags || []).forEach(function (t) { tags.appendChild(el("span", "tag", t)); }); c.appendChild(tags);
+      c.appendChild(el("p", "why", v.why));
+      if (v.address) c.appendChild(el("div", "addr", v.address));
+      var links = el("div", "links");
+      if (v.address) link(links, "Directions", "https://maps.apple.com/?daddr=" + encodeURIComponent(v.address));
+      if (v.phone) link(links, "Call " + v.phone, "tel:" + v.phone.replace(/[^0-9+]/g, ""));
+      link(links, "Website", v.website); link(links, "Facebook", v.facebook); link(links, "Instagram", v.instagram);
+      c.appendChild(links);
+      var ta = el("textarea"); ta.placeholder = "Notes: who you talked to, email, follow-up…"; ta.value = st.note || "";
+      ta.oninput = function () { saved[v.name] = Object.assign({}, saved[v.name], { note: ta.value }); save(); };
+      c.appendChild(ta); list.appendChild(c);
+    });
+    if (!rows.length) list.appendChild(el("p", "count", show === "done" ? "Nothing marked visited yet." : "All visited. Nice work."));
+  }
+  document.getElementById("show").addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return; show = b.dataset.v;
+    this.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); x.setAttribute("aria-checked", String(x === b)); });
+    render();
+  });
+  fetch("../outreach.json?t=" + Date.now()).then(function (r) { return r.json(); }).then(function (j) { data = j.venues || []; render(); });
+})();
+</script>
+</body>
+</html>

@@ -33,7 +33,12 @@ GC_TOKEN = os.environ.get("GOATCOUNTER_TOKEN", "")
 SOURCE_NAMES = {"mizzou": "Mizzou calendar", "dbrl": "Daniel Boone Regional Library", "visitcolumbia": "Visit Columbia",
                 "allevents": "AllEvents", "baselocal": "Base Local", "shanthimandir": "Shanthi Mandir",
                 "cooperslanding": "Cooper's Landing", "eventbrite": "Eventbrite", "bluenote": "The Blue Note & Rose Music Hall",
-                "vox": "Vox Magazine", "posh": "Posh", "flyer": "Flyers", "community": "Posted by the community"}
+                "vox": "Vox Magazine", "posh": "Posh", "flyer": "Flyers and hand-entered", "community": "Posted by the community",
+                "mosy": "The Missouri Symphony", "cec": "Columbia Entertainment Company", "ragtag": "Ragtag Cinema",
+                "stephens": "Stephens College Performing Arts", "talkinghorse": "Talking Horse Productions",
+                "mizzouarts": "Mizzou Arts · University Concert Series", "wealwaysswing": "We Always Swing Jazz Series",
+                "lyceum": "Arrow Rock Lyceum Theatre", "caam": "Choral Arts Alliance of Missouri",
+                "maplewoodbarn": "Maplewood Barn Theatre", "arcadedistrict": "The Arcade District"}
 
 
 def today_local(now=None):

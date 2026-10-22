@@ -26,6 +26,7 @@ BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.3
               "(KHTML, like Gecko) Chrome/130 Safari/537.36")
 DOWNTOWN = (38.9517, -92.3341)   # 9th & Broadway
 RADIUS_KM = 25.0
+FAR_OK_SOURCES = {"lyceum"}   # regional venues the user asked to include despite the distance
 
 S = requests.Session()
 S.headers["User-Agent"] = BROWSER_UA
@@ -830,6 +831,19 @@ ICS_SITES = {
     "shanthimandir": ("Shanthi Mandir", "https://calendar.google.com/calendar/ical/shanthimandir2005%40gmail.com/public/basic.ics",
                       "Shanthi Mandir", "2006 Holly Ave, Columbia, MO 65202", 38.97534, -92.30822,
                       "https://shanthimandir.missouri.org/events-calendar/", "community"),
+    # Maplewood Barn Community Theatre (Nifong Park): Google Calendar embedded on maplewoodbarn.org/index.php/calendar/.
+    # Shows run May-September as weekly recurring rules.
+    "maplewoodbarn": ("Maplewood Barn Theatre", "https://calendar.google.com/calendar/ical/maplewoodbarntheatre%40gmail.com/public/basic.ics",
+                      "Maplewood Barn Theatre", "2900 E Nifong Blvd, Columbia, MO 65201", 38.90876, -92.29616,
+                      "https://maplewoodbarn.org/index.php/calendar/", "arts"),
+    # The Arcade District (Fay St: The Tokyo Club, arcade bar, comedy, DJ nights): GoDaddy calendar widget backed by Google Calendar.
+    "arcadedistrict": ("The Arcade District", "https://calendar.google.com/calendar/ical/jv0v6af2rpdhnicccjkgfa644k%40group.calendar.google.com/public/basic.ics",
+                       "The Arcade District", "602 Fay St, Columbia, MO 65201", 38.95781, -92.32236,
+                       "https://thearcadedistrict.org/", "nightlife"),
+}
+ICS_SITE_SKIP = {
+    "maplewoodbarn": re.compile(r"\b(board meeting|director application|application|board|work day|strike|load[- ]?in|rehearsal)\b", re.I),
+    "arcadedistrict": re.compile(r"\b(closed|private event|private party)\b", re.I),
 }
 ICS_SKIP = re.compile(r"\b(temple\s+(open|closed)|open\s+hours|closed)\b", re.I)
 ICS_BLURB = {
@@ -885,7 +899,7 @@ def src_ics(days):
                 params = dict(p.split("=", 1) for p in parts[1:] if "=" in p)
                 props.setdefault(parts[0], []).append((params, val))
             summary = _ics_unescape(props.get("SUMMARY", [({}, "")])[0][1])
-            if not summary or ICS_SKIP.search(summary) or props.get("STATUS", [({}, "")])[0][1].strip() == "CANCELLED":
+            if not summary or ICS_SKIP.search(summary) or (key in ICS_SITE_SKIP and ICS_SITE_SKIP[key].search(summary)) or props.get("STATUS", [({}, "")])[0][1].strip() == "CANCELLED":
                 continue
             if "DTSTART" not in props:
                 continue
@@ -908,8 +922,15 @@ def src_ics(days):
             if "RRULE" in props:
                 if rrulestr:
                     try:
-                        rule = rrulestr(props["RRULE"][0][1].strip(), dtstart=start)
-                        occurrences = list(rule.between(now - dt.timedelta(hours=3), horizon, inc=True))
+                        try:
+                            rule = rrulestr(props["RRULE"][0][1].strip(), dtstart=start)
+                            occurrences = list(rule.between(now - dt.timedelta(hours=3), horizon, inc=True))
+                        except ValueError:
+                            # UNTIL without a UTC "Z" next to a zoned DTSTART: expand in local wall time instead
+                            rule = rrulestr(props["RRULE"][0][1].strip(), dtstart=start.replace(tzinfo=None))
+                            occurrences = [o.replace(tzinfo=start.tzinfo) for o in rule.between(
+                                (now - dt.timedelta(hours=3)).astimezone(start.tzinfo).replace(tzinfo=None),
+                                horizon.astimezone(start.tzinfo).replace(tzinfo=None), inc=True)]
                     except Exception as e:
                         log("  ics", key, "rrule failed for", summary, e)
             elif now - dt.timedelta(hours=3) <= start <= horizon:
@@ -926,7 +947,8 @@ def src_ics(days):
                                 category=infer_category(summary, desc or "", default_cat),
                                 description=desc, organizer=name)
                 if ev:
-                    ev["audience"] = sorted(set(ev["audience"]) | {"family", "groups"})   # temple programs are for families too
+                    if key == "shanthimandir":
+                        ev["audience"] = sorted(set(ev["audience"]) | {"family", "groups"})   # temple programs are for families too
                     out.append(ev)
     return out
 
@@ -975,33 +997,312 @@ def src_extra(days):
             out[-1]["categories"] = list(dict.fromkeys([out[-1]["category"]] + cats))
     return out
 
+
+# ----------------------------------------------------------------- arts venues (Oct 2026 batch)
+# Each reads the venue's own public listing. Squarespace sites expose ?format=json; others are noted inline.
+
+def _ms(ts):
+    return dt.datetime.fromtimestamp(ts / 1000, TZ) if ts else None
+
+SQUARESPACE_SITES = {
+    # key -> (display name, events JSON url, default venue, default address, default category)
+    "mosy": ("The Missouri Symphony", "https://www.themosy.org/calendar?format=json", "Missouri Theatre", "203 S 9th St, Columbia, MO 65201", "music"),
+    "cec": ("Columbia Entertainment Company", "https://www.cectheatre.org/events?format=json", "Columbia Entertainment Company", "1800 Nelwood Dr, Columbia, MO 65202", "arts"),
+}
+def src_squarespace(days):
+    out = []
+    horizon = dt.datetime.now(TZ) + dt.timedelta(days=days)
+    for key, (name, url, venue_default, address_default, cat) in SQUARESPACE_SITES.items():
+        try:
+            js = get(url, headers={"User-Agent": BROWSER_UA}).json()
+        except Exception as e:
+            log("  squarespace", key, "failed:", e); continue
+        base = url.split("/")[0] + "//" + url.split("/")[2]
+        for it in js.get("upcoming", []):
+            start, end = _ms(it.get("startDate")), _ms(it.get("endDate"))
+            if not start or start > horizon:
+                continue
+            title = clean_title(html.unescape(it.get("title") or ""))
+            desc = strip_html(it.get("excerpt") or it.get("body") or "", 600)
+            # a theatre run is one entry spanning weeks: keep opening night, note the closing date
+            if end and (end - start).days >= 1:
+                closing = end
+                end = start.replace(hour=end.hour, minute=end.minute)
+                if end <= start:
+                    end = start + dt.timedelta(hours=2, minutes=30)
+                desc = f"Runs through {closing:%A, %B %-d}. " + desc
+            loc = it.get("location") or {}
+            venue = (loc.get("addressTitle") or venue_default).strip()
+            addr = ", ".join(x for x in (loc.get("addressLine1"), loc.get("addressLine2")) if x) or address_default
+            lat, lng = loc.get("markerLat"), loc.get("markerLng")
+            if not lat or abs(lat - DOWNTOWN[0]) > 1 or abs(lng - DOWNTOWN[1]) > 1:   # Squarespace often leaves a NYC default pin
+                lat = lng = None
+            out.append(make_event(key, name, it.get("id") or it.get("urlId") or title, title, start, end,
+                                  venue=venue, address=addr, lat=lat, lng=lng, url=base + (it.get("fullUrl") or ""),
+                                  category=infer_category(title, desc, cat), image=it.get("assetUrl"),
+                                  description=desc, organizer=name))
+    return out
+
+def src_ragtag(days):
+    """Ragtag Cinema showtimes: the JSON its FullCalendar loads (every showtime ever, so filter by date)."""
+    try:
+        rows = json.loads(S.post("https://ragtagcinema.org/wp-admin/admin-ajax.php", data={"action": "calendar_events"},
+                                 headers={"User-Agent": BROWSER_UA}, timeout=30).text)
+    except Exception as e:
+        log("  ragtag failed:", e); return []
+    now = dt.datetime.now(TZ)
+    horizon = now + dt.timedelta(days=days)
+    out = []
+    for r in rows:
+        start = parse_dt((r.get("start") or "").replace(" ", "T"))
+        end = parse_dt((r.get("end") or "").replace(" ", "T"))
+        if not start or not (now - dt.timedelta(hours=2) <= start <= horizon):
+            continue
+        title = clean_title(html.unescape(r.get("title") or ""))
+        out.append(make_event("ragtag", "Ragtag Cinema", f"{r.get('url')}:{start:%Y%m%d%H%M}", title, start, end,
+                              venue="Ragtag Cinema", address="10 Hitt St, Columbia, MO 65201", lat=38.95124, lng=-92.32539,
+                              url=r.get("url"), category="arts",
+                              description="Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+                              organizer="Ragtag Cinema"))
+    return out
+
+def src_stephens(days):
+    """Stephens College performing arts (Macklanburg Playhouse, Warehouse Theatre) from its Localist calendar."""
+    out = []
+    try:
+        js = get("https://calendar.stephens.edu/api/2/events", params={"days": min(days, 365), "pp": 100, "type": 53310692394891}).json()
+    except Exception as e:
+        log("  stephens failed:", e); return []
+    for wrap in js.get("events", []):
+        ev = wrap.get("event", {})
+        geo = ev.get("geo") or {}
+        for inst in ev.get("event_instances", []):
+            i = inst.get("event_instance", {})
+            start, end = parse_dt(i.get("start")), parse_dt(i.get("end"))
+            if not start:
+                continue
+            out.append(make_event("stephens", "Stephens College Performing Arts", i.get("id"), ev.get("title"), start, end,
+                                  all_day=bool(i.get("all_day")), venue=ev.get("location_name"), address=ev.get("address"),
+                                  lat=float(geo["latitude"]) if geo.get("latitude") else None,
+                                  lng=float(geo["longitude"]) if geo.get("longitude") else None,
+                                  url=ev.get("localist_url"), ticket_url=ev.get("ticket_url"), price=ev.get("ticket_cost"),
+                                  category="arts", image=ev.get("photo_url"), description=ev.get("description_text") or ev.get("description"),
+                                  organizer="Stephens College Conservatory for the Performing Arts"))
+    return out
+
+def src_talkinghorse(days):
+    """Talking Horse Productions: the listings JSON embedded in its TicketLeap page."""
+    try:
+        page = get("https://events.ticketleap.com/events/talkinghorse", headers={"User-Agent": BROWSER_UA}).text
+    except Exception as e:
+        log("  talkinghorse failed:", e); return []
+    i = page.find('[{"type":"listing"')
+    if i < 0:
+        return []
+    depth, j = 0, i
+    for j in range(i, len(page)):
+        depth += page[j] == "["
+        depth -= page[j] == "]"
+        if depth == 0:
+            break
+    try:
+        rows = json.loads(page[i:j + 1])
+    except ValueError:
+        return []
+    now, out = dt.datetime.now(TZ), []
+    for r in rows:
+        title = clean_title(r.get("listing_title") or "")
+        if not title or re.search(r"flex pass|cancel+ed|gift card|season ticket", title, re.I):
+            continue
+        start, end = parse_dt((r.get("event_start") or "").replace(" ", "T")), parse_dt((r.get("event_end") or "").replace(" ", "T"))
+        if not start or start < now - dt.timedelta(hours=3) or start > now + dt.timedelta(days=days):
+            continue
+        if end and (end - start).days >= 1:
+            end = None
+        out.append(make_event("talkinghorse", "Talking Horse Productions", r.get("event_id") or title, title, start, end,
+                              venue="Talking Horse Productions", address="210 St James St, Suite B, Columbia, MO 65201",
+                              url="https://events.ticketleap.com/events/" + (r.get("listing_slug") or "talkinghorse"),
+                              ticket_url="https://events.ticketleap.com/events/" + (r.get("listing_slug") or "talkinghorse"),
+                              price=r.get("min_price_fmt"), category="arts",
+                              image=("https:" + r["image"]) if (r.get("image") or "").startswith("//") else r.get("image"),
+                              organizer="Talking Horse Productions"))
+    return out
+
+def src_mizzouarts(days):
+    """Mizzou Arts / University Concert Series: WordPress 'event' posts with ACF performance dates."""
+    try:
+        rows = get("https://mizzouarts.missouri.edu/wp-json/wp/v2/event", params={"per_page": 100, "_fields": "id,title,link,acf"}).json()
+    except Exception as e:
+        log("  mizzouarts failed:", e); return []
+    now, out = dt.datetime.now(TZ), []
+    for r in rows:
+        acf = r.get("acf") or {}
+        title = clean_title(html.unescape((r.get("title") or {}).get("rendered") or ""))
+        for n, d in enumerate(acf.get("dates") or []):
+            when = f"{d.get('date', '')} {d.get('time', '')}".strip().replace(".", "")
+            start = None
+            for fmt in ("%b %d, %Y %I:%M %p", "%B %d, %Y %I:%M %p", "%b %d, %Y %I %p", "%b %d, %Y"):
+                try:
+                    start = dt.datetime.strptime(re.sub(r"\bSept\b", "Sep", when), fmt).replace(tzinfo=TZ)
+                    break
+                except ValueError:
+                    continue
+            if not start or not (now - dt.timedelta(hours=3) <= start <= now + dt.timedelta(days=days)):
+                continue
+            venue = (d.get("location") or "").strip() or "Missouri Theatre"
+            host = (acf.get("host") or "").strip() or "University Concert Series"
+            out.append(make_event("mizzouarts", "Mizzou Arts · University Concert Series", f"{r['id']}:{n}", title, start,
+                                  time_tbd=not d.get("time"), venue=venue, url=r.get("link"), ticket_url=d.get("ticket_link") or None,
+                                  category=infer_category(title, "", "music"), organizer=host))
+    return out
+
+WAS_MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+def src_wealwaysswing(days):
+    """We Always Swing Jazz Series: the season page (one table per show; venue on each event page)."""
+    now = dt.datetime.now(TZ)
+    season = f"{now.year}-{now.year + 1}" if now.month >= 7 else f"{now.year - 1}-{now.year}"
+    base = "https://www.wealwaysswing.org/season/" + season + "/"
+    try:
+        page = get(base + "season.php", headers={"User-Agent": BROWSER_UA}).text
+    except Exception as e:
+        log("  wealwaysswing failed:", e); return []
+    times_by_href = {href: t for _, t, href, _ in re.findall(r"<b>\s*([^<]*\d{4})\s*<br\s*/?>\s*([^<]*)</b>.*?href=['\"]?(event\.php\?id=\d+)['\"]?[^>]*>([^<]+)</a>", page, re.S | re.I)}
+    shows = re.findall(r'HREF="[^"]*?(event\.php\?id=\d+)"\s+title="(\d{1,2})/(\d{1,2})/(\d{4})\s*(?:&mdash;|—|-)\s*([^"]+)"', page, re.I)
+    out, seen = [], set()
+    for href, mo, dd, yy, title in shows:
+        if href in seen:
+            continue
+        seen.add(href)
+        day = dt.date(int(yy), int(mo), int(dd))
+        if not (now.date() - dt.timedelta(days=1) <= day <= (now + dt.timedelta(days=days)).date()):
+            continue
+        times = [t.strip() for t in times_by_href.get(href, "").split("|") if t.strip()]
+        detail = ""
+        try:
+            detail = cached_page(base + href) or ""
+        except Exception:
+            pass
+        dl = strip_html(detail, 4000)
+        venue, address = "We Always Swing Jazz Series", None
+        if re.search(r"murry", dl, re.I):
+            venue, address = "Murry's", "3107 Green Meadows Way, Columbia, MO 65203"
+        elif re.search(r"whitmore", dl, re.I):
+            venue, address = "Whitmore Recital Hall", "Sinquefield Music Center, Columbia, MO 65211"
+        elif re.search(r"missouri theatre", dl, re.I):
+            venue, address = "Missouri Theatre", "203 S 9th St, Columbia, MO 65201"
+        elif re.search(r"tokyo club", dl, re.I):
+            venue, address = "The Tokyo Club", "709 Fay St, Columbia, MO 65201"
+        for t in times or [""]:
+            tm = re.match(r"(\d{1,2})(?::(\d{2}))?", t)
+            hour = int(tm.group(1)) if tm else 19
+            hour = hour + 12 if hour < 12 else hour   # the season page lists afternoon/evening hours without am/pm
+            start = dt.datetime(day.year, day.month, day.day, hour, int(tm.group(2) or 0) if tm else 0, tzinfo=TZ)
+            out.append(make_event("wealwaysswing", "We Always Swing Jazz Series", f"{href}:{start:%H%M}", html.unescape(title).strip(), start,
+                                  start + dt.timedelta(hours=2), time_tbd=not tm, venue=venue, address=address,
+                                  url=base + href, category="music", description=strip_html(detail, 600) if detail else None,
+                                  organizer="We Always Swing Jazz Series"))
+    return out
+
+def src_lyceum(days):
+    """Arrow Rock Lyceum Theatre: PatronTicket (Salesforce) public ticket app, fetchEvents remote call."""
+    try:
+        page = get("https://lyceumtheatre.my.salesforce-sites.com/ticket/", headers={"User-Agent": BROWSER_UA}).text
+        cfg = json.loads(re.search(r'\{"name":"fetchEvents"[^{}]*\}', page).group(0))
+        vid = re.search(r'"vid":"([^"]+)"', page).group(1)
+        body = {"action": "PatronTicket.Controller_PublicTicketApp", "method": "fetchEvents", "data": ["", "", "", ""], "type": "rpc", "tid": 2,
+                "ctx": {"csrf": cfg.get("csrf"), "vid": vid, "ns": cfg.get("ns", "PatronTicket"), "ver": cfg.get("ver", 51), "authorization": cfg.get("authorization")}}
+        r = S.post("https://lyceumtheatre.my.salesforce-sites.com/ticket/apexremote", json=body, timeout=30,
+                   headers={"User-Agent": BROWSER_UA, "X-User-Agent": "Visualforce-Remoting", "Referer": "https://lyceumtheatre.my.salesforce-sites.com/ticket/"})
+        events = r.json()[0].get("result") or []
+    except Exception as e:
+        log("  lyceum failed:", e); return []
+    now, out = dt.datetime.now(TZ), []
+    for e in events if isinstance(events, list) else []:
+        for inst in e.get("instances", []):
+            start = _ms((inst.get("formattedDates") or {}).get("ISO8601"))
+            if not start or not (now - dt.timedelta(hours=3) <= start <= now + dt.timedelta(days=days)):
+                continue
+            out.append(make_event("lyceum", "Arrow Rock Lyceum Theatre", inst.get("id") or f"{e.get('id')}:{start}", e.get("name"), start,
+                                  start + dt.timedelta(hours=2, minutes=30), venue="Arrow Rock Lyceum Theatre",
+                                  address="114 High St, Arrow Rock, MO 65320", lat=39.07108, lng=-92.94358,
+                                  url="https://lyceumtheatre.org/", ticket_url="https://lyceumtheatre.my.salesforce-sites.com/ticket/" + (inst.get("purchaseUrl") or ""),
+                                  category="arts", image=e.get("largeImagePath") or e.get("smallImagePath"),
+                                  description=strip_html(e.get("description") or "", 600) + " About an hour's drive from Columbia, in historic Arrow Rock.",
+                                  organizer="Arrow Rock Lyceum Theatre"))
+    return out
+
+CAAM_DATE = re.compile(r"^(January|February|March|April|May|June|July|August|September|October|November|December) (\d{1,2}), (\d{4})\s*(?:\|\s*(.*))?$")
+def src_caam(days):
+    """Choral Arts Alliance of Missouri: concerts page (WordPress). One concert per paragraph: the first bold
+    line is the title, the next bold lines say who sings, and 'Month D, YYYY | time | venue' lines are performances."""
+    try:
+        page = get("https://www.choralartsallianceofmissouri.org/wp-json/wp/v2/pages", params={"slug": "caam-concerts", "_fields": "content,link"}).json()[0]
+    except Exception as e:
+        log("  caam failed:", e); return []
+    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    nice = lambda t: re.sub(r"[A-Za-z][A-Za-z'’]*", lambda m: m.group(0).capitalize() if m.group(0).isupper() else m.group(0), t).strip()
+    text_of = lambda x: html.unescape(re.sub(r"<[^>]+>", "", x)).strip()
+    now, out = dt.datetime.now(TZ), []
+    for para in re.findall(r"<p[^>]*>(.*?)</p>", page["content"]["rendered"], re.S):
+        para = para.replace("</strong><strong>", "</strong><br /><strong>")
+        lines = [text_of(l) for l in re.split(r"<br\s*/?>", para)]
+        dated = [l for l in lines if CAAM_DATE.match(l) and "|" in l]
+        if not dated:
+            continue
+        strongs = [text_of(x) for x in re.findall(r"<strong>(.*?)</strong>", para, re.S)]
+        strongs = [x for x in strongs if x and not CAAM_DATE.match(x)]
+        if not strongs:
+            continue
+        title = nice(strongs[0])
+        sub = [x for x in strongs[1:3] if not re.search(r"\$|ticket|free", x, re.I)]
+        for line in dated:
+            m = CAAM_DATE.match(line)
+            rest = [x.strip() for x in (m.group(4) or "").split("|")]
+            tm = re.search(r"(\d{1,2})(?::(\d{2}))?(?:\s*-\s*\d{1,2}(?::\d{2})?)?\s*([ap])\.?\s*m", rest[0] if rest else "", re.I)
+            hour = (int(tm.group(1)) % 12 + (12 if tm.group(3).lower() == "p" else 0)) if tm else 19
+            start = dt.datetime(int(m.group(3)), months.index(m.group(1)) + 1, int(m.group(2)), hour, int(tm.group(2) or 0) if tm else 0, tzinfo=TZ)
+            if not (now - dt.timedelta(hours=3) <= start <= now + dt.timedelta(days=days)):
+                continue
+            where = rest[1] if len(rest) > 1 and rest[1] and not re.search(r"\bTBA\b", rest[1], re.I) else None
+            if where and re.search(r"Jefferson City|Boonville|Kansas|St\. Louis", where):
+                continue
+            venue = where.split(",")[0].strip() if where else None
+            out.append(make_event("caam", "Choral Arts Alliance of Missouri", f"{title}:{start:%Y%m%d%H%M}", title, start, start + dt.timedelta(hours=2),
+                                  time_tbd=not tm, venue=venue, address=where, url=page.get("link"), category="music",
+                                  description=" · ".join(sub) or None, organizer="Choral Arts Alliance of Missouri"))
+    return out
+
 SOURCES = [src_mizzou, src_visitcolumbia, src_eventbrite, src_allevents, src_baselocal, src_bluenote, src_dbrl,
-           src_posh, src_tribe, src_vox, src_ics, src_extra]
+           src_posh, src_tribe, src_vox, src_ics, src_extra,
+           src_squarespace, src_ragtag, src_stephens, src_talkinghorse, src_mizzouarts, src_wealwaysswing, src_lyceum, src_caam]
 
 # ----------------------------------------------------------------- merge
 def dedupe(events):
-    """Merge events with the same normalized title on the same local date."""
+    """Merge the same event listed by several sources: same normalized title (or one title containing the
+    other) on the same local date. Showtimes from ONE source at different times stay separate (a film's
+    1 pm and 6:30 pm screenings, a matinee and an evening show)."""
     by_key = {}
     order = []
     for e in events:
         nk = norm_key(e["title"])
-        key = (nk[:40], e["start"][:10])
-        if key not in by_key:
-            # same day, one title contains the other (e.g. "Hexagon Alley Presents X" vs "X")
-            match = None
-            for k2 in order:
-                if k2[1] != key[1]:
-                    continue
-                other = norm_key(by_key[k2]["title"])
-                short, long_ = sorted((nk, other), key=len)
-                if len(short) >= 12 and short in long_:
-                    match = k2; break
-            if match is None:
-                by_key[key] = e
-                order.append(key)
-                e["alsoOn"] = []
+        day = e["start"][:10]
+        candidates = []
+        for k2 in order:
+            if k2[1] != day:
                 continue
-            key = match
+            other = norm_key(by_key[k2]["title"])
+            short, long_ = sorted((nk, other), key=len)
+            if k2[0] == nk[:40] or (len(short) >= 12 and short in long_):
+                candidates.append(k2)
+        same_time = [k2 for k2 in candidates if by_key[k2]["start"] == e["start"]]
+        other_source = [k2 for k2 in candidates if by_key[k2]["source"] != e["source"]]
+        key = (same_time or other_source or [None])[0]
+        if key is None:
+            key = (nk[:40], day, e["start"])
+            by_key[key] = e
+            order.append(key)
+            e["alsoOn"] = []
+            continue
         a = by_key[key]
         # prefer the record with coordinates, then an exact time, then richer text
         def score(x):
@@ -1079,7 +1380,8 @@ def main():
         if e.get("venue") and re.match(r"^columbia(,| mo| misso?urr?i|$)", e["venue"].strip(), re.I):
             e["venue"] = None
         known = venue_lookup(e.get("venue"))
-        if known and "lat" in known and e["source"] in ("allevents", "visitcolumbia", "baselocal", "dbrl", "vox", "posh", "cooperslanding"):
+        if known and "lat" in known and e["source"] in ("allevents", "visitcolumbia", "baselocal", "dbrl", "vox", "posh", "cooperslanding",
+                                                 "mosy", "cec", "talkinghorse", "mizzouarts", "wealwaysswing", "caam"):
             e["lat"], e["lng"] = known["lat"], known["lng"]
             e["address"] = e.get("address") or known.get("address")
             e["phone"] = e.get("phone") or known.get("phone")
@@ -1089,7 +1391,7 @@ def main():
                 e["lat"], e["lng"], v, a = g
                 e["venue"] = e.get("venue") or v
                 e["address"] = e.get("address") or a
-        if e["lat"] is not None and haversine_km((e["lat"], e["lng"]), DOWNTOWN) > RADIUS_KM:
+        if e["lat"] is not None and haversine_km((e["lat"], e["lng"]), DOWNTOWN) > RADIUS_KM and e["source"] not in FAR_OK_SOURCES:
             continue
         kept.append(e)
     save_json(GEOCACHE_PATH, GEOCACHE)

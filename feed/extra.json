@@ -1,39 +1,121 @@
 {
- "_readme": "Hand-entered events from flyers and pamphlets. Only title, start and venue are required; address, coordinates, phone and website are filled from feed/venues.json when the venue is known. imageUrl can point at docs/img/flyers/<file> (served from GitHub Pages). Past events are dropped automatically.",
- "events": [
-  {
-   "id": "durga-puja-2026",
-   "title": "Bengali Durga Puja 2026",
-   "start": "2026-10-25T10:00:00-05:00",
-   "end": "2026-10-25T16:00:00-05:00",
-   "venue": "Shanthi Mandir",
-   "category": "community",
-   "categories": [
-    "community",
-    "family",
-    "arts"
-   ],
-   "price": "Free",
-   "organizer": "Bengali Association of Mid-Missouri (BAMM)",
-   "imageUrl": "https://comoevent.com/img/flyers/durga-puja-2026.jpg",
-   "description": "Durga Puja celebrates the triumph of good over evil and the divine power of Goddess Durga. Program: 10 AM puja · 11:45 AM pushpanjali followed by prasad · 12:15 PM cultural program 1 · 1 PM Bengali khichuri bhog · 2 PM cultural program 2 · 3 PM onwards aarti, sindoor khela and dhunuchi dance. Kids 3–16: bring a drawing on the Durga Pujo theme for the drawing competition; artwork is displayed on puja day. Sponsored by BAMM at the HTCC temple, 2006 Holly Ave."
-  },
-  {
-   "id": "chilambu-2026",
-   "title": "Chilambu: Indian classical art forms and dance drama",
-   "start": "2026-10-25T17:00:00-05:00",
-   "end": "2026-10-25T19:00:00-05:00",
-   "venue": "Etta and Joseph Miller Performing Arts Center",
-   "category": "arts",
-   "categories": [
-    "arts",
-    "family"
-   ],
-   "price": "Free",
-   "organizer": "Sargam School of Performing Arts",
-   "phone": "(573) 418-7344",
-   "link": "mailto:sargamperformingarts@gmail.com",
-   "description": "Sargam School of Performing Arts presents Chilambu, an evening of Indian classical art forms and dance drama directed and choreographed by Natyacharya Anupama Sankaranarayana Pillai. Admission free. In Jefferson City, about 30 minutes from Columbia. Program details: sargamperformingarts@gmail.com or (573) 418-7344."
-  }
- ]
+  "_readme": "Hand-entered events from flyers and pamphlets. Only title, start and venue are required; address, coordinates, phone and website are filled from feed/venues.json when the venue is known. imageUrl can point at docs/img/flyers/<file> (served from GitHub Pages). Past events are dropped automatically.",
+  "events": [
+    {
+      "id": "durga-puja-2026",
+      "title": "Bengali Durga Puja 2026",
+      "start": "2026-10-25T10:00:00-05:00",
+      "end": "2026-10-25T16:00:00-05:00",
+      "venue": "Shanthi Mandir",
+      "category": "community",
+      "categories": [
+        "community",
+        "family",
+        "arts"
+      ],
+      "price": "Free",
+      "organizer": "Bengali Association of Mid-Missouri (BAMM)",
+      "imageUrl": "https://comoevent.com/img/flyers/durga-puja-2026.jpg",
+      "description": "Durga Puja celebrates the triumph of good over evil and the divine power of Goddess Durga. Program: 10 AM puja · 11:45 AM pushpanjali followed by prasad · 12:15 PM cultural program 1 · 1 PM Bengali khichuri bhog · 2 PM cultural program 2 · 3 PM onwards aarti, sindoor khela and dhunuchi dance. Kids 3–16: bring a drawing on the Durga Pujo theme for the drawing competition; artwork is displayed on puja day. Sponsored by BAMM at the HTCC temple, 2006 Holly Ave."
+    },
+    {
+      "id": "chilambu-2026",
+      "title": "Chilambu: Indian classical art forms and dance drama",
+      "start": "2026-10-25T17:00:00-05:00",
+      "end": "2026-10-25T19:00:00-05:00",
+      "venue": "Etta and Joseph Miller Performing Arts Center",
+      "category": "arts",
+      "categories": [
+        "arts",
+        "family"
+      ],
+      "price": "Free",
+      "organizer": "Sargam School of Performing Arts",
+      "phone": "(573) 418-7344",
+      "link": "mailto:sargamperformingarts@gmail.com",
+      "description": "Sargam School of Performing Arts presents Chilambu, an evening of Indian classical art forms and dance drama directed and choreographed by Natyacharya Anupama Sankaranarayana Pillai. Admission free. In Jefferson City, about 30 minutes from Columbia. Program details: sargamperformingarts@gmail.com or (573) 418-7344."
+    },
+    {
+      "id": "cco-2026-12-05",
+      "title": "Seasonal Strings: Columbia Civic Orchestra",
+      "start": "2026-12-05T15:00:00-06:00",
+      "end": "2026-12-05T16:30:00-06:00",
+      "venue": "First Presbyterian Church",
+      "address": "16 Hitt St, Columbia, MO 65201",
+      "category": "music",
+      "price": "Free",
+      "organizer": "Columbia Civic Orchestra",
+      "sourceName": "Columbia Civic Orchestra",
+      "link": "https://cco.missouri.org/2026-2027-season.html",
+      "description": "Free holiday concert by the Columbia Civic Orchestra, Columbia's community orchestra."
+    },
+    {
+      "id": "cco-2027-03-07",
+      "title": "Missouri Composers Project with Premiere Vocal Artists",
+      "start": "2027-03-07T19:30:00-06:00",
+      "end": "2027-03-07T21:00:00-06:00",
+      "venue": "Broadway Christian Church",
+      "address": "2601 W Broadway, Columbia, MO 65203",
+      "category": "music",
+      "price": "Free",
+      "organizer": "Columbia Civic Orchestra",
+      "sourceName": "Columbia Civic Orchestra",
+      "link": "https://cco.missouri.org/2026-2027-season.html",
+      "description": "New orchestral and choral works by Missouri composers, with the Columbia Civic Orchestra and Premiere Vocal Artists. Free."
+    },
+    {
+      "id": "cco-2027-05-08",
+      "title": "Beethoven's Pastorale Symphony: Columbia Civic Orchestra",
+      "start": "2027-05-08T19:00:00-05:00",
+      "end": "2027-05-08T20:30:00-05:00",
+      "venue": "Missouri Theatre",
+      "address": "203 S 9th St, Columbia, MO 65201",
+      "category": "music",
+      "price": "Free",
+      "organizer": "Columbia Civic Orchestra",
+      "sourceName": "Columbia Civic Orchestra",
+      "link": "https://cco.missouri.org/2026-2027-season.html",
+      "description": "The Columbia Civic Orchestra closes its season with Beethoven's Pastorale Symphony. Free."
+    },
+    {
+      "id": "nvad-first-friday-2026-11",
+      "title": "First Friday in the North Village Arts District",
+      "start": "2026-11-06T18:00:00-06:00",
+      "end": "2026-11-06T21:00:00-06:00",
+      "venue": "North Village Arts District",
+      "address": "1019 E Walnut St, Columbia, MO 65201",
+      "lat": 38.95275,
+      "lng": -92.32573,
+      "category": "arts",
+      "categories": [
+        "family",
+        "music"
+      ],
+      "price": "Free",
+      "organizer": "North Village Arts District",
+      "sourceName": "North Village Arts District",
+      "link": "https://northvillageartsdistrict.org/first-fridays/",
+      "description": "Monthly art walk: open studios and galleries, live music and pop-ups along Orr St, Walnut St and 10th St, 6 to 9 pm. Free."
+    },
+    {
+      "id": "nvad-first-friday-2026-12",
+      "title": "First Friday in the North Village Arts District",
+      "start": "2026-12-04T18:00:00-06:00",
+      "end": "2026-12-04T21:00:00-06:00",
+      "venue": "North Village Arts District",
+      "address": "1019 E Walnut St, Columbia, MO 65201",
+      "lat": 38.95275,
+      "lng": -92.32573,
+      "category": "arts",
+      "categories": [
+        "family",
+        "music"
+      ],
+      "price": "Free",
+      "organizer": "North Village Arts District",
+      "sourceName": "North Village Arts District",
+      "link": "https://northvillageartsdistrict.org/first-fridays/",
+      "description": "Monthly art walk: open studios and galleries, live music and pop-ups along Orr St, Walnut St and 10th St, 6 to 9 pm. Free."
+    }
+  ]
 }
