@@ -363,24 +363,69 @@
       });
     }
     fill($("venue-q").value); $("venue-q").oninput = function (e) { fill(e.target.value); };
-    if (!window.maplibregl) return;
-    var gj = { type: "FeatureCollection", features: vs.filter(function (v) { return v.lat && v.lng; }).map(function (v) { return { type: "Feature", geometry: { type: "Point", coordinates: [v.lng, v.lat] }, properties: { name: v.name, now: v.now, total: v.total } }; }) };
-    if (vmap) { var src = vmap.getSource("venues"); if (src) src.setData(gj); return; }
-    vmap = new maplibregl.Map({ container: "venue-map", style: "https://tiles.openfreemap.org/styles/liberty", center: [-92.3341, 38.9517], zoom: 11.4, attributionControl: { compact: true }, cooperativeGestures: true });
+    var pts = vs.filter(function (v) { return v.lat && v.lng && Math.abs(v.lat - 38.95) < 0.25 && Math.abs(v.lng + 92.33) < 0.3; });
+    var gj = { type: "FeatureCollection", features: pts.map(function (v) { return { type: "Feature", geometry: { type: "Point", coordinates: [v.lng, v.lat] }, properties: { name: v.name, now: v.now, total: v.total } }; }) };
+    if (vmap) { var src = vmap.getSource && vmap.getSource("venues"); if (src) src.setData(gj); return; }
+    if (fallbackDrawn) { drawFallback(pts); return; }
+    if (mapPending) return;
+    mapPending = true;
+    // start the map only when its card is near the screen (no WebGL in hidden or background tabs)
+    var box = $("venue-map");
+    var go = function () { startMap(gj, pts, 0); };
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (en) { if (en.some(function (x) { return x.isIntersecting; })) { io.disconnect(); go(); } }, { rootMargin: "400px" });
+      io.observe(box);
+    } else go();
+  }
+  var mapPending = false, fallbackDrawn = false;
+  function startMap(gj, pts, tries) {
+    if (/[?&]map=simple/.test(location.search)) return drawFallback(pts);
+    if (!window.maplibregl) { if (tries < 20) return setTimeout(function () { startMap(gj, pts, tries + 1); }, 500); return drawFallback(pts); }
+    try {
+      vmap = new maplibregl.Map({ container: "venue-map", style: "https://tiles.openfreemap.org/styles/liberty", center: [-92.3341, 38.9517], zoom: 11.4, attributionControl: { compact: true }, cooperativeGestures: true });
+    } catch (err) { vmap = null; return drawFallback(pts); }
+    var loaded = false;
+    var timer = setTimeout(function () { if (!loaded) { try { vmap.remove(); } catch (_) {} vmap = null; drawFallback(pts); } }, 15000);
+    vmap.on("error", function (e) { if (!loaded && e && e.error && /style|webgl/i.test(String(e.error.message || ""))) { clearTimeout(timer); try { vmap.remove(); } catch (_) {} vmap = null; drawFallback(pts); } });
     vmap.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
     vmap.on("load", function () {
+      loaded = true; clearTimeout(timer);
       vmap.addSource("venues", { type: "geojson", data: gj });
       vmap.addLayer({ id: "venues", type: "circle", source: "venues", paint: {
         "circle-color": css("--seq") || "#2a78d6", "circle-opacity": .75, "circle-stroke-color": "#ffffff", "circle-stroke-width": 1.5,
         "circle-radius": ["interpolate", ["linear"], ["sqrt", ["get", "total"]], 1, 4, 5, 10, 16, 26] } });
       var pop = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 8 });
       vmap.on("mousemove", "venues", function (e) {
-        vmap.getCanvas().style.cursor = "pointer"; var p = e.features[0].properties, box = el("div");
-        box.appendChild(el("b", null, p.name)); box.appendChild(el("div", null, fmt(p.total) + " events so far · " + fmt(p.now) + " upcoming"));
-        pop.setLngLat(e.features[0].geometry.coordinates).setDOMContent(box).addTo(vmap);
+        vmap.getCanvas().style.cursor = "pointer"; var p = e.features[0].properties, b = el("div");
+        b.appendChild(el("b", null, p.name)); b.appendChild(el("div", null, fmt(p.total) + " events so far · " + fmt(p.now) + " upcoming"));
+        pop.setLngLat(e.features[0].geometry.coordinates).setDOMContent(b).addTo(vmap);
       });
       vmap.on("mouseleave", "venues", function () { vmap.getCanvas().style.cursor = ""; pop.remove(); });
     });
+    document.addEventListener("visibilitychange", function () { if (!document.hidden && vmap) vmap.resize(); });
+  }
+
+  // A plain SVG dot map: used when the browser can't start the WebGL map.
+  function drawFallback(pts) {
+    fallbackDrawn = true;
+    var box = $("venue-map"); box.innerHTML = ""; box.className = "venue-map fallback";
+    var W = 1000, H = 420, lat0 = 38.9517, lng0 = -92.3341, k = Math.cos(lat0 * Math.PI / 180);
+    var span = 0.16, sx = function (lng) { return W / 2 + (lng - lng0) * k / span * W / 2; }, sy = function (lat) { return H / 2 - (lat - lat0) / (span * H / W) * H / 2; };
+    var s = sv("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": "Venue map" });
+    for (var i = 1; i < 6; i++) { s.appendChild(sv("line", { x1: 0, x2: W, y1: H * i / 6, y2: H * i / 6, "class": "gridline" })); s.appendChild(sv("line", { y1: 0, y2: H, x1: W * i / 6, x2: W * i / 6, "class": "gridline" })); }
+    var c = sv("circle", { cx: W / 2, cy: H / 2, r: 5, fill: "none", stroke: css("--axis") }); s.appendChild(c);
+    var lab = sv("text", { x: W / 2 + 10, y: H / 2 - 8, "class": "fb-label" }); lab.textContent = "Downtown Columbia"; s.appendChild(lab);
+    var color = css("--seq"), surface = css("--surface-1");
+    pts.slice().sort(function (a, b) { return b.total - a.total; }).forEach(function (v) {
+      var x = sx(v.lng), y = sy(v.lat); if (x < 0 || x > W || y < 0 || y > H) return;
+      var dot = sv("circle", { cx: x.toFixed(1), cy: y.toFixed(1), r: Math.max(4, Math.min(26, 2.2 * Math.sqrt(v.total) + 2)), fill: color, "fill-opacity": .7, stroke: surface, "stroke-width": 1.5 });
+      var t = sv("title"); t.textContent = v.name + ": " + v.total + " events so far, " + v.now + " upcoming"; dot.appendChild(t);
+      dot.addEventListener("pointermove", function (e) { showTip(e, v.name, [{ name: "events so far", value: v.total }, { name: "upcoming", value: v.now }]); });
+      dot.addEventListener("pointerleave", hideTip);
+      s.appendChild(dot);
+    });
+    box.appendChild(s);
+    box.appendChild(el("p", "sub fb-note", "Simple view: your browser couldn't start the interactive map. Hover a circle for its name."));
   }
 
   // ---------- load + refresh
@@ -394,7 +439,12 @@
     return Promise.all([
       fetch("data.json?t=" + Date.now()).then(function (r) { return r.json(); }).catch(function () { return state.data; }),
       loadCloud().catch(function () { return { ok: false }; })
-    ]).then(function (r) { state.data = r[0]; state.ck = r[1] || { ok: false }; render(); renderVenues(); stamp(); });
+    ]).then(function (r) {
+      state.data = r[0]; state.ck = r[1] || { ok: false };
+      try { render(); } catch (err) { console.error("stats render", err); }
+      try { renderVenues(); } catch (err) { console.error("venues", err); }
+      stamp();
+    });
   }
   function seg(id, key) {
     $(id).addEventListener("click", function (e) {
