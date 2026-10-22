@@ -53,6 +53,8 @@
       return mode === "last" && !seen ? null : v;
     });
   }
+  // analytics days before counting began are unknown, not zero
+  function since(vals, ps, day) { if (!day) return vals; var d0 = parseDay(day); return vals.map(function (v, i) { return ps[i].to <= d0 ? null : v; }); }
   function sumRange(map) { var s = rangeStart(), t = 0; for (var k in map || {}) if (parseDay(k) >= s) t += map[k]; return t; }
   function windowKey() { return state.range; }
 
@@ -265,7 +267,7 @@
     // visitors
     var colLabel = grain === "day" ? "Day" : grain === "week" ? "Week" : "Month";
     if (a) {
-      var web = series(a.webVisitors, ps), ios = series(a.iosOpens, ps);
+      var web = since(series(a.webVisitors, ps), ps, a.since), ios = since(series(a.iosOpens, ps), ps, a.since);
       var b = card("c-visitors", "Visitors", "Web visitors and iPhone app opens, " + rangeLabel() + (grain !== "day" ? ", daily unique visitors added up" : ""),
         { cols: [colLabel, "Web visitors", "iPhone app opens"], rows: ps.map(function (p, i) { return [p.label, web[i], ios[i]]; }) });
       lineChart(b, ps, [{ name: "Web visitors", color: blue, values: web }, { name: "iPhone app opens", color: orange, values: ios }]);

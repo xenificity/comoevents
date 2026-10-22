@@ -201,7 +201,7 @@ def analytics():
             time.sleep(0.3)  # API allows 4 requests a second
             url = f"stats/{name}/{detail}" if detail else f"stats/{name}"
             names = {"phone": "Phone", "tablet": "Tablet", "desktop": "Computer", "desktophd": "Large screen"}
-            return [{"name": s.get("name") or names.get(s.get("id") or "", "(unknown)"), "id": s.get("id"), "count": s.get("count", 0)}
+            return [{"name": s.get("name") or names.get(s.get("id") or "", "Not reported"), "id": s.get("id"), "count": s.get("count", 0)}
                     for s in gc(url, limit=limit, **rng).get("stats", []) if s.get("count")]
         except Exception:
             return []
