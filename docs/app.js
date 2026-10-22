@@ -489,9 +489,10 @@
     var tg = el("div", "toggle", "<div><b>Share my saved events with friends</b><small>Friends who have your code see what you've hearted and where you're going.</small></div>");
     var sw = el("button", "switch" + (ck.friends.share ? " on" : "")); sw.type = "button"; sw.onclick = function () { ck.setShare(!ck.friends.share); sw.classList.toggle("on", ck.friends.share); };
     tg.appendChild(sw); my.appendChild(tg); box.appendChild(my);
-    if (ck.social && ck.social.api) {
-      var soc = el("div", "glass card pcard", "<h3>" + ic("people") + " Find friends you know</h3><p>Connect Facebook or your Google contacts to add friends who already use CoMo Events. We keep only a scrambled ID, never your friend list or contacts.</p>");
-      [["facebook", "Facebook friends"], ["google", "Google contacts"]].forEach(function (p) {
+    var provs = [["facebook", "Facebook friends"], ["google", "Google contacts"]].filter(function (p) { return ck.social && ck.social.providers && ck.social.providers[p[0]]; });
+    if (provs.length) {
+      var soc = el("div", "glass card pcard", "<h3>" + ic("people") + " Find friends you know</h3><p>Connect " + provs.map(function (p) { return p[0] === "facebook" ? "Facebook" : "your Google contacts"; }).join(" or ") + " to add friends who already use CoMo Events. We keep only a scrambled ID, never your friend list or contacts.</p>");
+      provs.forEach(function (p) {
         var r = el("div", "addrow");
         var bt = el("button", "ybtn", (ck.socialConnected(p[0]) ? "Check again: " : "Connect ") + p[1]); bt.type = "button";
         bt.onclick = function () { bt.disabled = true; ck.connectSocial(p[0]).then(function (msg) { bt.disabled = false; if (msg) toast(msg); }); };

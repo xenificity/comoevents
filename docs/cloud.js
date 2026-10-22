@@ -207,7 +207,10 @@
     }).catch(function (e) { return err(e); });
   };
   // ---------- find friends through Facebook / Google (comoevents-social worker) ----------
-  Cloud.social = { api: (window.SOCIAL_API || "").replace(/\/$/, "") };
+  Cloud.social = { api: (window.SOCIAL_API || "").replace(/\/$/, ""), providers: {} };
+  if (Cloud.social.api) fetch(Cloud.social.api + "/health").then(function (r) { return r.json(); }).then(function (h) {
+    Cloud.social.providers = { facebook: !!(h.facebook && h.cloudkit), google: !!(h.google && h.cloudkit) }; Cloud.emit("friends");
+  }).catch(function () {});
   Cloud.socialToken = function () {
     try { return (container && container._auth && container._auth._ckSession) || (container && container.getConfig && container.getConfig().ckWebAuthToken) || null; } catch (e) { return null; }
   };
