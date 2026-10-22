@@ -240,7 +240,8 @@ function derSignature(raw) {
 }
 
 // ---------------------------------------------------------------- helpers
-function redirectUri(url, provider) { return `${url.origin}/auth/${provider}/callback`; }
+// Facebook/Google send people back to comoevent.com/auth/<provider>/ (a verified domain), which forwards here.
+function redirectUri(url, provider) { return `${url.origin.includes("workers.dev") ? "https://comoevent.com" : url.origin}/auth/${provider}/`; }
 async function j(u, opts) { const r = await fetch(u, opts); const t = await r.text(); try { return JSON.parse(t); } catch { throw new Error(`${r.status} from ${new URL(u).host}`); } }
 function randomId() { return [...crypto.getRandomValues(new Uint8Array(16))].map((b) => b.toString(16).padStart(2, "0")).join(""); }
 function b64(buf) { return btoa(String.fromCharCode(...new Uint8Array(buf))); }

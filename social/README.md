@@ -14,10 +14,10 @@ user and provider in the CloudKit public database (`provider`, `idHash` = HMAC-S
 2. Cloudflare: `npx wrangler login`, then `npx wrangler kv namespace create SOCIAL_KV` and paste the id into
    `wrangler.toml`. Deploy once (`npx wrangler deploy`) to get the workers.dev URL.
 3. Meta for Developers: app type "Consumer" (Facebook Login). Valid OAuth redirect URI:
-   `<worker>/auth/facebook/callback`. Privacy policy `https://comoevent.com/privacy.html`, data deletion
+   `https://comoevent.com/auth/facebook/` (that page forwards to the worker). Privacy policy `https://comoevent.com/privacy.html`, data deletion
    callback `<worker>/facebook/deletion`. Permission `user_friends` needs App Review before the public can use it.
 4. Google Cloud: enable People API; OAuth consent screen (External) with scopes `openid`, `email`,
-   `contacts.readonly`; OAuth client "Web application" with redirect `<worker>/auth/google/callback`.
+   `contacts.readonly`; OAuth client "Web application" with redirect `https://comoevent.com/auth/google/`.
    Until Google verifies the app, only listed test users can connect.
 5. Secrets (`npx wrangler secret put NAME`): `SECRET` (random 32 bytes, never change it: links depend on it),
    `CK_API_TOKEN`, `CK_KEY_ID`, `CK_PRIVATE_KEY` (contents of ~/.comoevents-keys/ck-s2s.pkcs8.pem),
