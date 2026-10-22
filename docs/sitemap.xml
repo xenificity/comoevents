@@ -19,16 +19,17 @@
   <url><loc>https://comoevent.com/venues/ragtag-cinema/</loc></url>
   <url><loc>https://comoevent.com/venues/sinquefield-music-center/</loc></url>
   <url><loc>https://comoevent.com/venues/cooper-s-landing/</loc></url>
-  <url><loc>https://comoevent.com/venues/the-blue-note/</loc></url>
   <url><loc>https://comoevent.com/venues/mu-student-center/</loc></url>
   <url><loc>https://comoevent.com/venues/the-arcade-district/</loc></url>
   <url><loc>https://comoevent.com/venues/missouri-theatre/</loc></url>
   <url><loc>https://comoevent.com/venues/rose-music-hall/</loc></url>
+  <url><loc>https://comoevent.com/venues/the-blue-note/</loc></url>
   <url><loc>https://comoevent.com/venues/fine-arts-building/</loc></url>
   <url><loc>https://comoevent.com/venues/arrow-rock-lyceum-theatre/</loc></url>
   <url><loc>https://comoevent.com/venues/cornell-hall/</loc></url>
   <url><loc>https://comoevent.com/venues/museum-of-art-and-archaeology/</loc></url>
   <url><loc>https://comoevent.com/venues/hexagon-alley/</loc></url>
+  <url><loc>https://comoevent.com/venues/rose-music-hall-inside/</loc></url>
   <url><loc>https://comoevent.com/venues/rhynsburger-theatre/</loc></url>
   <url><loc>https://comoevent.com/venues/winter-season/</loc></url>
   <url><loc>https://comoevent.com/venues/rectangle-space-mu-student-center-columbia-mo-65201/</loc></url>
@@ -211,7 +212,6 @@
   <url><loc>https://comoevent.com/e/brighter-beginnings-5d4a5f/</loc></url>
   <url><loc>https://comoevent.com/e/toddler-story-time-2ce8ba/</loc></url>
   <url><loc>https://comoevent.com/e/toddler-story-time-d5e60d/</loc></url>
-  <url><loc>https://comoevent.com/e/promotion-and-tenure-faculty-meeting-75ba05/</loc></url>
   <url><loc>https://comoevent.com/e/the-social-reckoning-866e20/</loc></url>
   <url><loc>https://comoevent.com/e/special-collections-event-with-emily-friedman-during-the-wee-726494/</loc></url>
   <url><loc>https://comoevent.com/e/sense-and-sensibility-6589d5/</loc></url>
@@ -278,6 +278,7 @@
   <url><loc>https://comoevent.com/e/craft-night-with-kenna-hammered-copper-earrings-81ae6c/</loc></url>
   <url><loc>https://comoevent.com/e/lakshmi-sahasranama-and-kumkuma-archana-6c571d/</loc></url>
   <url><loc>https://comoevent.com/e/naza-e58776/</loc></url>
+  <url><loc>https://comoevent.com/e/dead-jones-83f680/</loc></url>
   <url><loc>https://comoevent.com/e/fresh-karma-columbia-boo-tique-market-0d0e05/</loc></url>
   <url><loc>https://comoevent.com/e/friday-night-comedy-at-the-tokyo-club-ec5a02/</loc></url>
   <url><loc>https://comoevent.com/e/illumination-on-the-quad-90b56e/</loc></url>
@@ -356,7 +357,6 @@
   <url><loc>https://comoevent.com/e/saturday-night-comedy-at-the-tokyo-club-9e5f04/</loc></url>
   <url><loc>https://comoevent.com/e/the-pregame-comedy-show-w-andrew-gaffigan-and-jack-wright-450456/</loc></url>
   <url><loc>https://comoevent.com/e/trunk-or-treat-with-crossway-church-c77ed8/</loc></url>
-  <url><loc>https://comoevent.com/e/canceled-the-taylor-party-90ae41/</loc></url>
   <url><loc>https://comoevent.com/e/curtis-pavey-faculty-piano-recital-a43109/</loc></url>
   <url><loc>https://comoevent.com/e/sense-and-sensibility-5df78c/</loc></url>
   <url><loc>https://comoevent.com/e/65-hertz-rose-music-hall-e46caa/</loc></url>
@@ -431,6 +431,7 @@
   <url><loc>https://comoevent.com/e/trivia-night-with-lets-get-trivial-4fbba9/</loc></url>
   <url><loc>https://comoevent.com/e/we-re-off-to-see-the-wizard-0dfc4a/</loc></url>
   <url><loc>https://comoevent.com/e/yu-gi-oh-weekly-play-281356/</loc></url>
+  <url><loc>https://comoevent.com/e/brother-ali-f593c2/</loc></url>
   <url><loc>https://comoevent.com/e/chi-alpha-worship-service-4e1d9c/</loc></url>
   <url><loc>https://comoevent.com/e/naza-400fca/</loc></url>
   <url><loc>https://comoevent.com/e/spooktacular-251b1b/</loc></url>
@@ -449,7 +450,7 @@
   <url><loc>https://comoevent.com/e/medicare-open-enrollment-assistance-e8eff8/</loc></url>
   <url><loc>https://comoevent.com/e/mindfulness-in-teaching-cop-tea-tasting-and-mindful-teaching-d968a7/</loc></url>
   <url><loc>https://comoevent.com/e/naza-0bf803/</loc></url>
-  <url><loc>https://comoevent.com/e/southside-farmers-market-0d4fb3/</loc></url>
+  <url><loc>https://comoevent.com/e/southside-farmers-market-272599/</loc></url>
   <url><loc>https://comoevent.com/e/state-of-the-college-address-db4ffb/</loc></url>
   <url><loc>https://comoevent.com/e/mha-professional-development-forum-f59e24/</loc></url>
   <url><loc>https://comoevent.com/e/wicker-3684e8/</loc></url>
@@ -462,11 +463,10 @@
   <url><loc>https://comoevent.com/e/2026-empowering-our-community-anti-human-trafficking-confere-0cd687/</loc></url>
   <url><loc>https://comoevent.com/e/geek-week-trivia-night-129b73/</loc></url>
   <url><loc>https://comoevent.com/e/life-as-an-immigrant-in-the-usa-1dc4ec/</loc></url>
-  <url><loc>https://comoevent.com/e/riley-downing-w-todd-day-wait-1a1f70/</loc></url>
   <url><loc>https://comoevent.com/e/wednesday-night-turf-volleyball-serve-sip-compete-5b78da/</loc></url>
   <url><loc>https://comoevent.com/e/delight-mizzou-chapter-30816f/</loc></url>
   <url><loc>https://comoevent.com/e/mizzou-horror-appreciation-club-costume-contest-06e0b4/</loc></url>
-  <url><loc>https://comoevent.com/e/trivia-d11d19/</loc></url>
+  <url><loc>https://comoevent.com/e/trivia-1b7368/</loc></url>
   <url><loc>https://comoevent.com/e/sense-and-sensibility-15f63a/</loc></url>
   <url><loc>https://comoevent.com/e/naza-b06113/</loc></url>
   <url><loc>https://comoevent.com/e/convocation-10-convocation-recital-2-23e52e/</loc></url>
@@ -498,8 +498,8 @@
   <url><loc>https://comoevent.com/e/sai-bhajans-8663fe/</loc></url>
   <url><loc>https://comoevent.com/e/evil-dead-the-musical-columbia-entertainment-co-3ef416/</loc></url>
   <url><loc>https://comoevent.com/e/the-robert-cray-band-university-concert-series-cfb4a5/</loc></url>
+  <url><loc>https://comoevent.com/e/brew-n-view-the-rocky-horror-picture-show-the-blue-note-c0e69a/</loc></url>
   <url><loc>https://comoevent.com/e/sense-and-sensibility-1a4a1b/</loc></url>
-  <url><loc>https://comoevent.com/e/brew-n-view-rocky-horror-picture-show-c0e69a/</loc></url>
   <url><loc>https://comoevent.com/e/wicker-a15994/</loc></url>
   <url><loc>https://comoevent.com/e/boo-bash-2026-664787/</loc></url>
   <url><loc>https://comoevent.com/e/free-mmtd-contra-dance-at-the-first-christian-church-of-colu-203ae2/</loc></url>
@@ -552,7 +552,7 @@
   <url><loc>https://comoevent.com/e/ken-russell-s-the-devils-f490d6/</loc></url>
   <url><loc>https://comoevent.com/e/latin-night-como-dia-de-los-muertos-halloween-c132e8/</loc></url>
   <url><loc>https://comoevent.com/e/myhouse-friday-10-30-night-80ce02/</loc></url>
-  <url><loc>https://comoevent.com/e/fall-festival-2026-b52956/</loc></url>
+  <url><loc>https://comoevent.com/e/it-s-a-2000s-halloween-party-ages-18-dd2e00/</loc></url>
   <url><loc>https://comoevent.com/e/columbia-farmers-market-02be96/</loc></url>
   <url><loc>https://comoevent.com/e/fastpass-saturday-10-31-df7c98/</loc></url>
   <url><loc>https://comoevent.com/e/halloween-world-record-event-07efe9/</loc></url>
@@ -569,14 +569,12 @@
   <url><loc>https://comoevent.com/e/trunk-or-treat-at-bethel-843f9c/</loc></url>
   <url><loc>https://comoevent.com/e/glow-pickleball-open-play-7dfc57/</loc></url>
   <url><loc>https://comoevent.com/e/douglas-schaedler-trumpet-natalia-bolshakova-recital-570819/</loc></url>
-  <url><loc>https://comoevent.com/e/it-s-a-2000s-halloween-party-ages-18-dd2e00/</loc></url>
   <url><loc>https://comoevent.com/e/trunk-or-treat-3d9104/</loc></url>
   <url><loc>https://comoevent.com/e/2026-zombie-pub-crawl-1910d4/</loc></url>
   <url><loc>https://comoevent.com/e/fools-face-5a08bb/</loc></url>
   <url><loc>https://comoevent.com/e/hex-o-ween-ii-the-hexrooms-halloween-party-5f8e2e/</loc></url>
   <url><loc>https://comoevent.com/e/the-legend-of-fools-face-halloween-night-at-cooper-s-0c67f9/</loc></url>
   <url><loc>https://comoevent.com/e/costume-makeup-contest-7a915e/</loc></url>
-  <url><loc>https://comoevent.com/e/its-a-2000s-party-halloween-edition-e1f780/</loc></url>
   <url><loc>https://comoevent.com/e/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56/</loc></url>
   <url><loc>https://comoevent.com/e/saturday-night-comedy-at-the-tokyo-club-ec65d5/</loc></url>
   <url><loc>https://comoevent.com/e/sophie-bock-trumpet-natalia-bolshakova-piano-senior-recital-8d80f5/</loc></url>
@@ -587,6 +585,7 @@
   <url><loc>https://comoevent.com/e/ladybird-halloween-party-f1e707/</loc></url>
   <url><loc>https://comoevent.com/e/the-faint-5b0a89/</loc></url>
   <url><loc>https://comoevent.com/e/the-faint-rose-music-hall-81ad08/</loc></url>
+  <url><loc>https://comoevent.com/e/fall-festival-2026-b52956/</loc></url>
   <url><loc>https://comoevent.com/e/hardcore-comedy-at-the-tokyo-club-261a77/</loc></url>
   <url><loc>https://comoevent.com/e/its-a-2000s-party-halloween-edition-the-blue-note-00cc8a/</loc></url>
   <url><loc>https://comoevent.com/e/myhouse-saturday-10-31-night-a153ab/</loc></url>
@@ -612,6 +611,7 @@
   <url><loc>https://comoevent.com/e/maddy-haugsven-trumpet-natalia-bolshakova-piano-recital-217c10/</loc></url>
   <url><loc>https://comoevent.com/e/missouri-tigers-womens-volleyball-vs-tennessee-vols-womens-v-23ecc9/</loc></url>
   <url><loc>https://comoevent.com/e/christopher-harris-euphonium-recital-eec083/</loc></url>
+  <url><loc>https://comoevent.com/e/sunsquabi-96ef06/</loc></url>
   <url><loc>https://comoevent.com/e/sunsquabi-rose-music-hall-133e2c/</loc></url>
   <url><loc>https://comoevent.com/e/hpc-success-stories-f12a14/</loc></url>
   <url><loc>https://comoevent.com/e/brighter-beginnings-4f97e5/</loc></url>
@@ -748,7 +748,6 @@
   <url><loc>https://comoevent.com/e/mizzou-volleyball-vs-texas-50be01/</loc></url>
   <url><loc>https://comoevent.com/e/ponies-improv-mall-out-05bdea/</loc></url>
   <url><loc>https://comoevent.com/e/rewind-the-curtain-broadway-now-then-217ef7/</loc></url>
-  <url><loc>https://comoevent.com/e/southall-236bb0/</loc></url>
   <url><loc>https://comoevent.com/e/volleyball-missouri-vs-texas-3c0b59/</loc></url>
   <url><loc>https://comoevent.com/e/evil-dead-the-musical-columbia-entertainment-co-1a3578/</loc></url>
   <url><loc>https://comoevent.com/e/little-women-44a943/</loc></url>
@@ -773,7 +772,6 @@
   <url><loc>https://comoevent.com/e/mint-jelly-128397/</loc></url>
   <url><loc>https://comoevent.com/e/2026-mizzou-football-v-texas-4e0d98/</loc></url>
   <url><loc>https://comoevent.com/e/artistry-on-the-runway-hair-fashion-show-8aa53a/</loc></url>
-  <url><loc>https://comoevent.com/e/emo-royale-vii-67a74f/</loc></url>
   <url><loc>https://comoevent.com/e/rewind-the-curtain-broadway-now-then-0d9300/</loc></url>
   <url><loc>https://comoevent.com/e/saturday-night-comedy-at-the-tokyo-club-976af5/</loc></url>
   <url><loc>https://comoevent.com/e/texas-takeover-texas-football-vs-missouri-rsvp-thru-idonate-5b598f/</loc></url>
@@ -856,7 +854,6 @@
   <url><loc>https://comoevent.com/e/rho-engine-room-free-community-workout-class-2cef59/</loc></url>
   <url><loc>https://comoevent.com/e/manchu-a-brotherhood-of-sacrifice-7329f5/</loc></url>
   <url><loc>https://comoevent.com/e/berry-bramble-cultivation-282722/</loc></url>
-  <url><loc>https://comoevent.com/e/redferrin-7f6b64/</loc></url>
   <url><loc>https://comoevent.com/e/redferrin-the-blue-note-2d22b8/</loc></url>
   <url><loc>https://comoevent.com/e/delight-mizzou-chapter-81dd1b/</loc></url>
   <url><loc>https://comoevent.com/e/trulaske-innovation-in-teaching-collaboration-hour-eec2ce/</loc></url>
@@ -890,7 +887,6 @@
   <url><loc>https://comoevent.com/e/lakshmi-abhishekam-f3cd69/</loc></url>
   <url><loc>https://comoevent.com/e/passport-application-walk-in-hours-a7dc1e/</loc></url>
   <url><loc>https://comoevent.com/e/stories-and-activities-for-adults-of-all-abilities-2384fd/</loc></url>
-  <url><loc>https://comoevent.com/e/a-celebration-of-w-d-allen-0b5754/</loc></url>
   <url><loc>https://comoevent.com/e/study-abroad-walk-in-advising-ebab2b/</loc></url>
   <url><loc>https://comoevent.com/e/trulaske-council-on-teaching-excellence-lunch-learn-ad3154/</loc></url>
   <url><loc>https://comoevent.com/e/luncheon-workshop-3-think-big-goal-setting-and-your-single-b-b3dbc0/</loc></url>
@@ -898,12 +894,14 @@
   <url><loc>https://comoevent.com/e/nahm-traditional-pottery-workshop-with-dr-ian-thompson-04d2b3/</loc></url>
   <url><loc>https://comoevent.com/e/hearing-route-66-the-songs-and-sounds-of-the-mother-road-tal-2f7338/</loc></url>
   <url><loc>https://comoevent.com/e/bringing-norms-back-to-law-and-constitutionalism-ac3c08/</loc></url>
+  <url><loc>https://comoevent.com/e/film-friday-spider-man-brand-new-day-788b5e/</loc></url>
   <url><loc>https://comoevent.com/e/trail-boss-bbq-e28016/</loc></url>
   <url><loc>https://comoevent.com/e/whodunnit-blood-on-the-clocktower-night-244fdc/</loc></url>
   <url><loc>https://comoevent.com/e/international-christian-fellowship-3148ce/</loc></url>
   <url><loc>https://comoevent.com/e/megan-boyer-band-331851/</loc></url>
   <url><loc>https://comoevent.com/e/mid-missouri-mahjong-classic-meet-greet-633e70/</loc></url>
   <url><loc>https://comoevent.com/e/lakshmi-sahasranama-and-kumkuma-archana-f0965b/</loc></url>
+  <url><loc>https://comoevent.com/e/spider-man-brand-new-day-b46afc/</loc></url>
   <url><loc>https://comoevent.com/e/alpha-omega-devotional-b8e6d0/</loc></url>
   <url><loc>https://comoevent.com/e/campus-nights-elevation-rhythm-bb2a78/</loc></url>
   <url><loc>https://comoevent.com/e/friday-night-comedy-at-the-tokyo-club-a89c6b/</loc></url>
@@ -915,7 +913,6 @@
   <url><loc>https://comoevent.com/e/steven-tharp-faculty-recital-8aead6/</loc></url>
   <url><loc>https://comoevent.com/e/nicole-atkins-rose-music-hall-277334/</loc></url>
   <url><loc>https://comoevent.com/e/friday-night-comedy-at-the-tokyo-club-38a3a6/</loc></url>
-  <url><loc>https://comoevent.com/e/mj-night-f588b2/</loc></url>
   <url><loc>https://comoevent.com/e/mid-missouri-mahjong-classic-tournament-65b72a/</loc></url>
   <url><loc>https://comoevent.com/e/columbia-farmers-market-winter-season-cf0735/</loc></url>
   <url><loc>https://comoevent.com/e/imagine-from-calling-to-cover-1976b4/</loc></url>
@@ -1057,7 +1054,7 @@
   <url><loc>https://comoevent.com/e/hanyu-zhang-piano-recital-885033/</loc></url>
   <url><loc>https://comoevent.com/e/lex-henderson-junior-percussion-recital-b20739/</loc></url>
   <url><loc>https://comoevent.com/e/mens-basketball-missouri-vs-le-moyne-e5f8d3/</loc></url>
-  <url><loc>https://comoevent.com/e/work-it-a-90s-2000s-r-b-and-hip-hop-party-a9230b/</loc></url>
+  <url><loc>https://comoevent.com/e/the-spooklights-47545a/</loc></url>
   <url><loc>https://comoevent.com/e/the-spooklights-rose-music-hall-1ba87c/</loc></url>
   <url><loc>https://comoevent.com/e/kaitlin-oliver-capstone-recital-255cca/</loc></url>
   <url><loc>https://comoevent.com/e/kaitlin-oliver-vocal-recital-67f2c2/</loc></url>
@@ -1073,7 +1070,6 @@
   <url><loc>https://comoevent.com/e/mizzou-football-vs-kentucky-e629a2/</loc></url>
   <url><loc>https://comoevent.com/e/ponies-improv-stripped-8ddf72/</loc></url>
   <url><loc>https://comoevent.com/e/saturday-night-comedy-at-the-tokyo-club-4e57a7/</loc></url>
-  <url><loc>https://comoevent.com/e/the-celebrity-drag-show-7d81ac/</loc></url>
   <url><loc>https://comoevent.com/e/hayden-coffman-rose-music-hall-dcdb72/</loc></url>
   <url><loc>https://comoevent.com/e/hardcore-comedy-at-the-tokyo-club-8d59a9/</loc></url>
   <url><loc>https://comoevent.com/e/the-munchbox-f406a0/</loc></url>
@@ -1081,7 +1077,6 @@
   <url><loc>https://comoevent.com/e/the-stoplight-flyers-ca31ad/</loc></url>
   <url><loc>https://comoevent.com/e/sai-iota-lambda-chapter-meeting-time-19b93c/</loc></url>
   <url><loc>https://comoevent.com/e/dining-in-the-alley-with-nclusion-plus-32d87d/</loc></url>
-  <url><loc>https://comoevent.com/e/intergenerational-rock-band-choir-4f2ed0/</loc></url>
   <url><loc>https://comoevent.com/e/health-insurance-marketplace-medicaid-f064f7/</loc></url>
   <url><loc>https://comoevent.com/e/baby-story-play-time-3882e5/</loc></url>
   <url><loc>https://comoevent.com/e/american-red-cross-blood-drive-c36a2d/</loc></url>
@@ -1111,10 +1106,9 @@
   <url><loc>https://comoevent.com/e/friends-of-the-columbia-public-library-lobby-book-sale-1d702d/</loc></url>
   <url><loc>https://comoevent.com/e/bhagwad-gita-class-985eca/</loc></url>
   <url><loc>https://comoevent.com/e/mizzou-football-vs-oklahoma-e97fef/</loc></url>
+  <url><loc>https://comoevent.com/e/2026-mizzou-football-v-oklahoma-454b9e/</loc></url>
   <url><loc>https://comoevent.com/e/oklahoma-sooners-at-missouri-tigers-football-ca9018/</loc></url>
   <url><loc>https://comoevent.com/e/sita-rama-pooja-bhajan-d77c21/</loc></url>
-  <url><loc>https://comoevent.com/e/the-last-waltz-anniversary-celebration-ccf4f9/</loc></url>
-  <url><loc>https://comoevent.com/e/2026-mizzou-football-v-oklahoma-454b9e/</loc></url>
   <url><loc>https://comoevent.com/e/nov-29th-columbia-mo-girls-night-out-australian-takeover-at-570ee1/</loc></url>
   <url><loc>https://comoevent.com/e/holy-smokes-mobile-meats-5d5ebd/</loc></url>
   <url><loc>https://comoevent.com/e/beginning-sewing-with-como-craftcycle-fabfc6/</loc></url>
@@ -1145,7 +1139,6 @@
   <url><loc>https://comoevent.com/e/google-docs-and-sheets-4b9d59/</loc></url>
   <url><loc>https://comoevent.com/e/mens-basketball-missouri-vs-pittsburgh-1cc3c7/</loc></url>
   <url><loc>https://comoevent.com/e/chi-alpha-worship-service-c76d56/</loc></url>
-  <url><loc>https://comoevent.com/e/josiah-and-the-bonnevilles-21868b/</loc></url>
   <url><loc>https://comoevent.com/e/agrability-ea28d7/</loc></url>
   <url><loc>https://comoevent.com/e/diy-digital-archiving-lab-05191b/</loc></url>
   <url><loc>https://comoevent.com/e/diy-digital-archiving-lab-385a07/</loc></url>
@@ -1156,6 +1149,7 @@
   <url><loc>https://comoevent.com/e/delight-mizzou-chapter-e51f9d/</loc></url>
   <url><loc>https://comoevent.com/e/movie-buyout-hunger-games-sunrise-on-the-reaping-4b696e/</loc></url>
   <url><loc>https://comoevent.com/e/open-mic-night-a810dd/</loc></url>
+  <url><loc>https://comoevent.com/e/the-gringos-275c15/</loc></url>
   <url><loc>https://comoevent.com/e/the-gringos-rose-music-hall-19b0d7/</loc></url>
   <url><loc>https://comoevent.com/e/trulaske-innovation-in-teaching-collaboration-hour-a011c1/</loc></url>
   <url><loc>https://comoevent.com/e/toddler-story-time-ba513a/</loc></url>
@@ -1195,8 +1189,8 @@
   <url><loc>https://comoevent.com/e/lakshmi-sahasranama-and-kumkuma-archana-8d0cf7/</loc></url>
   <url><loc>https://comoevent.com/e/alpha-omega-devotional-5a9ba4/</loc></url>
   <url><loc>https://comoevent.com/e/hitt-street-harmony-concert-8dbf98/</loc></url>
-  <url><loc>https://comoevent.com/e/my-posse-in-effect-7fa8b4/</loc></url>
   <url><loc>https://comoevent.com/e/ponies-improv-elf-escapades-4fb29b/</loc></url>
+  <url><loc>https://comoevent.com/e/violet-and-the-undercurrents-katy-guillen-the-drive-beth-bom-29d872/</loc></url>
   <url><loc>https://comoevent.com/e/film-friday-the-santa-clause-e51749/</loc></url>
   <url><loc>https://comoevent.com/e/columbia-farmers-market-winter-season-834e2f/</loc></url>
   <url><loc>https://comoevent.com/e/state-historical-society-of-missouri-holiday-open-house-c31cfd/</loc></url>
@@ -1210,7 +1204,6 @@
   <url><loc>https://comoevent.com/e/seasonal-strings-columbia-civic-orchestra-a69834/</loc></url>
   <url><loc>https://comoevent.com/e/holiday-brass-24db52/</loc></url>
   <url><loc>https://comoevent.com/e/ponies-improv-holiday-hangover-08550c/</loc></url>
-  <url><loc>https://comoevent.com/e/dad-rock-royale-faea2b/</loc></url>
   <url><loc>https://comoevent.com/e/mahjong-at-the-museum-9c2b88/</loc></url>
   <url><loc>https://comoevent.com/e/zydecos-cajun-kitchen-603dbc/</loc></url>
   <url><loc>https://comoevent.com/e/student-chamber-music-recital-b37b2c/</loc></url>
@@ -1268,6 +1261,7 @@
   <url><loc>https://comoevent.com/e/diy-digital-archiving-lab-c214f0/</loc></url>
   <url><loc>https://comoevent.com/e/hinkebein-watson-concert-22d196/</loc></url>
   <url><loc>https://comoevent.com/e/weekly-student-services-f2fd1a/</loc></url>
+  <url><loc>https://comoevent.com/e/molly-healey-string-project-4abb35/</loc></url>
   <url><loc>https://comoevent.com/e/nutcracker-magical-christmas-ballet-31c2e4/</loc></url>
   <url><loc>https://comoevent.com/e/pinball-league-9284cf/</loc></url>
   <url><loc>https://comoevent.com/e/sai-bhajans-e75516/</loc></url>
@@ -1283,8 +1277,8 @@
   <url><loc>https://comoevent.com/e/lakshmi-sahasranama-and-kumkuma-archana-b113fe/</loc></url>
   <url><loc>https://comoevent.com/e/live-at-the-tokyo-club-echo-auctorati-improv-comedy-competit-22f411/</loc></url>
   <url><loc>https://comoevent.com/e/pearls-of-production-conference-dr-temple-grandin-keynote-6e5c8f/</loc></url>
-  <url><loc>https://comoevent.com/e/william-clark-green-f9c49c/</loc></url>
   <url><loc>https://comoevent.com/e/a-christmas-carol-2026-d1ccec/</loc></url>
+  <url><loc>https://comoevent.com/e/isaac-schneider-backbone-road-24a5af/</loc></url>
   <url><loc>https://comoevent.com/e/she-loves-me-stephens-college-performing-arts-b1293c/</loc></url>
   <url><loc>https://comoevent.com/e/community-music-program-recitals-e06583/</loc></url>
   <url><loc>https://comoevent.com/e/pearls-of-production-hands-on-conference-c52af9/</loc></url>
@@ -1303,7 +1297,6 @@
   <url><loc>https://comoevent.com/e/claras-nutcracker-dreams-a-missouri-christmas-537583/</loc></url>
   <url><loc>https://comoevent.com/e/a-christmas-carol-2026-dd1529/</loc></url>
   <url><loc>https://comoevent.com/e/she-loves-me-stephens-college-performing-arts-308337/</loc></url>
-  <url><loc>https://comoevent.com/e/last-podcast-on-the-left-side-stories-36435d/</loc></url>
   <url><loc>https://comoevent.com/e/the-funky-butt-brass-band-rose-music-hall-fbae95/</loc></url>
   <url><loc>https://comoevent.com/e/womens-basketball-missouri-vs-saint-louis-8a164c/</loc></url>
   <url><loc>https://comoevent.com/e/a-christmas-carol-2026-4bc9d8/</loc></url>
@@ -1327,7 +1320,6 @@
   <url><loc>https://comoevent.com/e/a-christmas-carol-2026-4e5f3f/</loc></url>
   <url><loc>https://comoevent.com/e/device-advice-and-tech-help-drop-in-fdadda/</loc></url>
   <url><loc>https://comoevent.com/e/silent-book-club-b13036/</loc></url>
-  <url><loc>https://comoevent.com/e/born-of-osiris-miss-may-i-fcba19/</loc></url>
   <url><loc>https://comoevent.com/e/sensory-friendly-story-time-fa4d6d/</loc></url>
   <url><loc>https://comoevent.com/e/diy-digital-archiving-lab-7494f8/</loc></url>
   <url><loc>https://comoevent.com/e/diy-digital-archiving-lab-9c3e22/</loc></url>
@@ -1362,6 +1354,7 @@
   <url><loc>https://comoevent.com/e/device-advice-and-tech-help-drop-in-547493/</loc></url>
   <url><loc>https://comoevent.com/e/lakshmi-sahasranama-and-kumkuma-archana-51c3be/</loc></url>
   <url><loc>https://comoevent.com/e/merry-ol-missouri-c6171b/</loc></url>
+  <url><loc>https://comoevent.com/e/preston-ary-band-f435a6/</loc></url>
   <url><loc>https://comoevent.com/e/a-christmas-carol-2026-db5a3f/</loc></url>
   <url><loc>https://comoevent.com/e/columbia-farmers-market-winter-season-eb34b3/</loc></url>
   <url><loc>https://comoevent.com/e/is-your-child-on-track-b1eeeb/</loc></url>
