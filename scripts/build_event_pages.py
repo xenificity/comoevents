@@ -16,6 +16,7 @@ import re
 import shutil
 import unicodedata
 from collections import defaultdict
+from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.join(ROOT, "docs")
@@ -201,6 +202,11 @@ ul.more a{display:flex;gap:12px;align-items:center;text-decoration:none;padding:
 ul.more small{display:block;color:var(--muted)}
 .day{margin:26px 4px 8px;font-weight:800}
 footer{margin-top:34px;text-align:center;color:var(--muted);font-size:13px}
+nav.browse{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 0}
+nav.browse a{text-decoration:none;font-weight:700;font-size:14px;padding:8px 12px;border-radius:999px;background:var(--card);box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.intro{color:var(--muted);margin:0 0 6px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:14px;margin:8px 0 4px}
+.empty-note{padding:16px;border-radius:16px;background:var(--card);color:var(--muted)}
 """
 
 
@@ -223,7 +229,12 @@ def head(title, desc, canonical, image, extra=""):
 """
 
 
-FOOT = """<footer><a href="/e/">All upcoming events</a> · <a href="/about/">About</a> · <a href="/get/?c=eventpage">Get the free iPhone app</a></footer>
+BROWSE = [("/tonight/", "Today & tonight"), ("/this-weekend/", "This weekend"), ("/free/", "Free events"),
+          ("/music/", "Live music"), ("/family/", "Family & kids"), ("/nightlife/", "Nightlife"), ("/arts/", "Arts, theater & film"),
+          ("/food/", "Food & drink"), ("/sports/", "Sports"), ("/mizzou/", "Mizzou events"), ("/venues/", "Venues"), ("/e/", "Full calendar")]
+NAV = '<nav class="browse">' + " ".join(f'<a href="{u}">{html.escape(t)}</a>' for u, t in BROWSE) + "</nav>"
+FOOT = """<h2>Browse events in Columbia, MO</h2>""" + NAV + """
+<footer><a href="/">Live map</a> · <a href="/about/">About</a> · <a href="/get/?c=eventpage">Get the free iPhone app</a> · <a href="/stats/">Stats</a></footer>
 </div></body></html>
 """
 
@@ -251,7 +262,9 @@ def event_page(ev, same_day, venue):
     out.append(f'<span class="chip">{CAT_EMOJI.get(cat, "📍")} {CAT_LABEL.get(cat, "Event")}</span>')
     out.append(f"<h1>{html.escape(ev['title'])}</h1>")
     out.append(f'<div class="row"><b>🗓️</b><span>{html.escape(when)}</span></div>')
-    out.append(f'<div class="row"><b>📍</b><span>{html.escape(where)}</span></div>')
+    vlink = ev.get("_venue_slug")
+    where_html = (f'<a href="/venues/{vlink}/">{html.escape(venue_name)}</a>' + (html.escape(", " + address_show) if address_show else "")) if vlink and venue_name else html.escape(where)
+    out.append(f'<div class="row"><b>📍</b><span>{where_html}</span></div>')
     price = clean(ev.get("price"))
     if price and price.lower() not in ("n/a", "no", "none"):
         out.append(f'<div class="row"><b>🎟️</b><span>{html.escape(price)}</span></div>')
@@ -284,7 +297,7 @@ def event_page(ev, same_day, venue):
 
 
 def index_page(events):
-    out = [head("Things to do in Columbia, MO · Upcoming events · CoMo Events",
+    out = [head("Events in Columbia, MO · Full calendar of things to do · CoMo Events",
                 f"{len(events)} upcoming public events in Columbia, Missouri: Mizzou, downtown, music, food, family and more. Updated every two hours.",
                 f"{SITE}/e/", FALLBACK_IMAGE)]
     out.append('<h1 style="margin-top:4px">Upcoming events in Columbia, MO</h1>')
@@ -304,6 +317,151 @@ def index_page(events):
     return "\n".join(out)
 
 
+# ----------------------------------------------------------------- landing pages for local searches
+LANDING_DIRS = ["tonight", "this-weekend", "free", "music", "family", "nightlife", "arts", "food", "sports", "mizzou", "venues"]
+SKIP_VENUE = re.compile(r"^(online|virtual|tba|tbd|various|multiple|see |columbia,? mo)", re.I)
+
+def is_free(ev):
+    p = clean(ev.get("price")).lower()
+    return p in ("free", "$0", "0", "$0.00") or p.startswith("free") or " free" in f" {p}"
+
+def event_list_html(events, limit=200):
+    by_day = defaultdict(list)
+    for ev in events[:limit]:
+        by_day[parse(ev["start"]).date()].append(ev)
+    out = []
+    for day in sorted(by_day):
+        out.append(f'<div class="day">{day.strftime("%A, %B %-d")}</div><ul class="more">')
+        for ev in by_day[day]:
+            cat = ev.get("category") or "community"
+            out.append(f'<li><a href="/e/{ev["_slug"]}/"><span>{CAT_EMOJI.get(cat, "📍")}</span><span>{html.escape(ev["title"])}'
+                       f'<small>{html.escape(when_text(ev))}{" · " + html.escape(ev["venue"]) if ev.get("venue") else ""}</small></span></a></li>')
+        out.append("</ul>")
+    return "\n".join(out)
+
+def item_list_ld(name, url, events, crumbs):
+    data = [{"@context": "https://schema.org", "@type": "ItemList", "name": name, "url": url,
+             "numberOfItems": len(events),
+             "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f"{SITE}/e/{ev['_slug']}/"} for i, ev in enumerate(events[:50])]},
+            {"@context": "https://schema.org", "@type": "BreadcrumbList",
+             "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": u} for i, (n, u) in enumerate(crumbs)]}]
+    return "\n".join('<script type="application/ld+json">\n' + json.dumps(d, ensure_ascii=False, indent=1).replace("</", "<\\/") + "\n</script>" for d in data)
+
+def landing_page(path, title, h1, intro, events, empty_text, crumbs, extra_top=""):
+    url = f"{SITE}/{path}/"
+    desc = intro if len(intro) <= 155 else intro[:152].rsplit(" ", 1)[0] + "…"
+    out = [head(title, desc, url, FALLBACK_IMAGE, "\n" + item_list_ld(h1, url, events, crumbs))]
+    out.append(f'<h1 style="margin-top:4px">{html.escape(h1)}</h1>')
+    out.append(f'<p class="intro">{html.escape(intro)}</p>')
+    out.append(extra_top)
+    out.append(f'<p style="margin:14px 0"><a class="btn primary" href="/?c=seo-{path.replace("/", "-")}">Open the live map</a></p>')
+    out.append(event_list_html(events) if events else f'<p class="empty-note">{html.escape(empty_text)}</p>')
+    out.append(FOOT)
+    return "\n".join(out)
+
+def write_page(path, text):
+    d = os.path.join(DOCS, path)
+    os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, "index.html"), "w") as f:
+        f.write(text)
+
+def build_landing(events, venues_table, now):
+    for d in LANDING_DIRS:
+        if os.path.isdir(os.path.join(DOCS, d)):
+            shutil.rmtree(os.path.join(DOCS, d))
+    upcoming = [ev for ev in events if (parse(ev.get("end") or ev["start"]) or parse(ev["start"])) >= now - dt.timedelta(hours=1)]
+    month = now.strftime("%B %Y")
+    pages = []
+    home = ("Home", f"{SITE}/")
+
+    # today & tonight
+    today = now.date()
+    tonight = [ev for ev in upcoming if parse(ev["start"]).date() == today or (parse(ev["start"]) <= now and parse(ev.get("end") or ev["start"]) >= now)]
+    pages.append(("tonight", landing_page("tonight", f"Things to do in Columbia, MO today & tonight · {now:%A, %B %-d}",
+        "Things to do in Columbia, MO today and tonight",
+        f"{len(tonight)} events happening today in Columbia, Missouri: live music, Mizzou, downtown bars, family activities, theater and more. Updated every two hours.",
+        tonight, "Nothing else is listed for today. See this weekend's events below.", [home, ("Tonight", f"{SITE}/tonight/")])))
+
+    # this weekend (Fri-Sun; on a weekend day, the current one)
+    wd = today.weekday()
+    fri = today - dt.timedelta(days=wd - 4) if wd >= 4 else today + dt.timedelta(days=4 - wd)
+    sun = fri + dt.timedelta(days=2)
+    weekend = [ev for ev in upcoming if fri <= parse(ev["start"]).date() <= sun]
+    pages.append(("this-weekend", landing_page("this-weekend", f"Things to do in Columbia, MO this weekend · {fri:%b %-d}–{sun:%-d}",
+        "Things to do in Columbia, MO this weekend",
+        f"{len(weekend)} events in Columbia, Missouri this weekend, {fri:%A %B %-d} to {sun:%A %B %-d}: concerts, parties, markets, Mizzou games, theater, kids' activities and free events.",
+        weekend, "The weekend's events will show up here as they are announced.", [home, ("This weekend", f"{SITE}/this-weekend/")])))
+
+    # free
+    free = [ev for ev in upcoming if is_free(ev)]
+    pages.append(("free", landing_page("free", f"Free events in Columbia, MO · {month}",
+        "Free events and things to do in Columbia, MO",
+        f"{len(free)} free events in Columbia, Missouri: library programs, Mizzou lectures and concerts, art walks, community gatherings and family activities.",
+        free, "No free events are listed right now.", [home, ("Free events", f"{SITE}/free/")])))
+
+    # categories
+    cats = [("music", "music", "Live music in Columbia, MO", "Live music and concerts in Columbia, MO",
+             "concerts and live music in Columbia, Missouri: The Blue Note, Rose Music Hall, the Missouri Symphony, Mizzou ensembles, jazz, bars and outdoor shows."),
+            ("family", "family", "Family & kids events in Columbia, MO", "Family-friendly events and things to do with kids in Columbia, MO",
+             "family-friendly events in Columbia, Missouri: library story times, parks, festivals, museums, holiday events and kids' shows."),
+            ("nightlife", "nightlife", "Nightlife & parties in Columbia, MO", "Nightlife, bars and parties in Columbia, MO",
+             "nightlife events in Columbia, Missouri: downtown bars, DJ nights, comedy, trivia and late-night parties."),
+            ("arts", "arts", "Theater, art & film in Columbia, MO", "Theater, art, film and performances in Columbia, MO",
+             "arts events in Columbia, Missouri: plays and musicals, Ragtag Cinema films, galleries, First Fridays, dance and the symphony."),
+            ("food", "food", "Food & drink events in Columbia, MO", "Food, drink and market events in Columbia, MO",
+             "food and drink events in Columbia, Missouri: farmers markets, tastings, food trucks, brewery events and dinners."),
+            ("sports", "sports", "Sports events in Columbia, MO", "Sports and games in Columbia, MO",
+             "sports events in Columbia, Missouri: Mizzou Tigers home games, races, tournaments and rec leagues."),
+            ("mizzou", "campus", "Mizzou events · University of Missouri campus events", "Mizzou and University of Missouri campus events",
+             "events at the University of Missouri (Mizzou) in Columbia: concerts, lectures, student life, arts and athletics.")]
+    for path, cat, title, h1, blurb in cats:
+        evs = [ev for ev in upcoming if cat in (ev.get("categories") or [ev.get("category")])]
+        pages.append((path, landing_page(path, f"{title} · {month}", h1, f"{len(evs)} upcoming {blurb}",
+                      evs, "Nothing is listed in this category right now.", [home, (h1, f"{SITE}/{path}/")])))
+
+    # venues
+    groups = defaultdict(list)
+    for ev in upcoming:
+        v = clean(ev.get("venue"))
+        if v and not SKIP_VENUE.search(v) and len(v) <= 70:
+            groups[v].append(ev)
+    used, vlinks = set(), []
+    for name in sorted(groups, key=lambda n: (-len(groups[n]), n.lower())):
+        slug = slugify(name)
+        n = 2
+        while slug in used:
+            slug, n = f"{slugify(name)}-{n}", n + 1
+        used.add(slug)
+        for ev in groups[name]:
+            ev["_venue_slug"] = slug
+        row = venues_table.get(name.lower()) or {}
+        evs = groups[name]
+        addr = row.get("address") or next((ev.get("address") for ev in evs if ev.get("address")), "")
+        facts = []
+        if addr:
+            facts.append(f"📍 {html.escape(addr)}")
+        if row.get("phone"):
+            facts.append(f'📞 <a href="tel:{re.sub(r"[^0-9+]", "", row["phone"])}">{html.escape(row["phone"])}</a>')
+        if row.get("website"):
+            facts.append(f'🌐 <a href="{html.escape(row["website"])}" rel="nofollow noopener">Website</a>')
+        top = f'<div class="facts">{" ".join(f"<span>{x}</span>" for x in facts)}</div>' if facts else ""
+        pages.append((f"venues/{slug}", landing_page(f"venues/{slug}", f"{name} events · Columbia, MO schedule",
+            f"{name} events in Columbia, MO",
+            f"{len(evs)} upcoming events at {name}{(', ' + addr) if addr else ''} in Columbia, Missouri. Dates, times, tickets and directions, updated every two hours.",
+            evs, "No upcoming events are listed here right now.", [home, ("Venues", f"{SITE}/venues/"), (name, f"{SITE}/venues/{slug}/")], top)))
+        vlinks.append((name, slug, len(evs)))
+    vl = "<ul class=\"more\">" + "".join(f'<li><a href="/venues/{s}/"><span>📍</span><span>{html.escape(n)}<small>{c} upcoming event{"s" if c != 1 else ""}</small></span></a></li>' for n, s, c in vlinks) + "</ul>"
+    vidx = [head("Event venues in Columbia, MO · Concert halls, bars, theaters & more",
+                 f"{len(vlinks)} places with upcoming events in Columbia, Missouri: music venues, theaters, bars, the library, Mizzou and more.",
+                 f"{SITE}/venues/", FALLBACK_IMAGE),
+            '<h1 style="margin-top:4px">Event venues in Columbia, MO</h1>',
+            f'<p class="intro">{len(vlinks)} places with upcoming events, from concert halls and theaters to bars, churches, parks and the library.</p>', vl, FOOT]
+    pages.append(("venues", "\n".join(vidx)))
+    for path, text in pages:
+        write_page(path, text)
+    return [f"{SITE}/{p}/" for p, _ in pages]
+
+
 def main():
     feed = json.load(open(os.path.join(DOCS, "events.json")))
     events = merge_repeats([e for e in feed["events"] if e.get("start") and e.get("title")])
@@ -312,6 +470,8 @@ def main():
     by_day = defaultdict(list)
     for ev in events:
         by_day[parse(ev["start"]).date()].append(ev)
+
+    landing_urls = build_landing(events, venues, dt.datetime.now(ZoneInfo("America/Chicago")))
 
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
@@ -330,14 +490,14 @@ def main():
     with open(os.path.join(OUT, "event.css"), "w") as f:
         f.write(CSS.strip() + "\n")
 
-    urls = [f"{SITE}/", f"{SITE}/about/", f"{SITE}/e/"] + [f"{SITE}/e/{ev['_slug']}/" for ev in events]
+    urls = [f"{SITE}/", f"{SITE}/about/", f"{SITE}/e/"] + landing_urls + [f"{SITE}/e/{ev['_slug']}/" for ev in events]
     with open(os.path.join(DOCS, "sitemap.xml"), "w") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
         f.writelines(f"  <url><loc>{u}</loc></url>\n" for u in urls)
         f.write("</urlset>\n")
     with open(os.path.join(DOCS, "robots.txt"), "w") as f:
         f.write(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n")
-    print(f"wrote {len(events)} event pages, docs/e/index.html, sitemap ({len(urls)} urls), robots.txt")
+    print(f"wrote {len(events)} event pages, {len(landing_urls)} landing pages, docs/e/index.html, sitemap ({len(urls)} urls), robots.txt")
 
 
 if __name__ == "__main__":

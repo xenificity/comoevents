@@ -78,3 +78,8 @@ Read README.md first. Short version:
   Arrow Rock is outside RADIUS_KM, allowed via `FAR_OK_SOURCES`), `src_caam` (concerts page, one paragraph per
   concert), ICS `maplewoodbarn` + `arcadedistrict` with `ICS_SITE_SKIP`. `dedupe` keeps same-source showtimes at
   different times separate. Venues with no readable listing go in `docs/stats/outreach.json` (shown at /stats/outreach/).
+- SEO: `scripts/build_event_pages.py` also writes landing pages (docs/tonight, this-weekend, free, music, family,
+  nightlife, arts, food, sports, mizzou, venues/<slug>) with ItemList + BreadcrumbList JSON-LD; the feed workflow commits
+  them and runs `scripts/indexnow.py` (Bing/IndexNow; key file docs/<key>.txt — don't delete it). Homepage has WebSite +
+  Organization JSON-LD and a static "Browse events" link row in the Upcoming tab (crawlable without JS). Google Search
+  Console is verified by a TXT record at GoDaddy.
