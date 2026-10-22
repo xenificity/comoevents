@@ -165,7 +165,7 @@ def analytics():
             break
     web_paths, ios_paths = [], []
     clicks = defaultdict(lambda: defaultdict(int))
-    per_event, per_page = defaultdict(dict), defaultdict(dict)
+    per_event, per_page, per_install = defaultdict(dict), defaultdict(dict), defaultdict(dict)
     titles = {}
     for h in hits:
         p, daily = h["path"], {s["day"]: s.get("daily", 0) for s in h.get("stats", []) if s.get("daily")}
@@ -175,6 +175,11 @@ def analytics():
                 eid = p.split("/", 1)[1]
                 for d, n in daily.items():
                     per_event[eid][d] = per_event[eid].get(d, 0) + n
+            elif p.startswith("install/"):
+                kind = "Install tap"
+                src = p.split("/", 1)[1] or "direct"
+                for d, n in daily.items():
+                    per_install[src][d] = per_install[src].get(d, 0) + n
             else:
                 kind = (p.split("/", 1)[1] if "/" in p else p).replace("-", " ").capitalize()
             for d, n in daily.items():
@@ -209,6 +214,7 @@ def analytics():
         windows[key] = {
             "topEvents": [{"id": k, "opens": c} for k, c in top(per_event, since, 15)],
             "topPages": [{"path": k, "title": titles.get(k, ""), "visitors": c} for k, c in top(per_page, since, 12)],
+            "installTaps": [{"source": k, "taps": c} for k, c in top(per_install, since, 12)],
             "locations": locations,
             "usRegions": table("locations", rng, 15, "US") if us else [],
             "referrers": table("toprefs", rng),

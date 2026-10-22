@@ -217,7 +217,7 @@ def head(title, desc, canonical, image, extra=""):
 <meta property="og:url" content="{canonical}"><meta property="og:image" content="{html.escape(image)}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/img/icon-512.png">
-<link rel="stylesheet" href="/e/event.css?v=1">{extra}
+<link rel="stylesheet" href="/e/event.css?v=1"><script src="/gc.js?v=1" defer></script>{extra}
 </head><body><div class="wrap">
 <div class="top"><a class="brand" href="/"><img src="/img/icon-512.png" alt="">CoMo Events</a><a class="map" href="/">Live map</a></div>
 """

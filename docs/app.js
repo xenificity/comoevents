@@ -8,6 +8,7 @@
   var FEED = ["events.json", "https://raw.githubusercontent.com/xenificity/comoevents/main/feed/events.json"];
   var STYLE = "https://tiles.openfreemap.org/styles/liberty";
   var INSTALL = "get/?c=webapp";
+  function track(path, title) { try { if (window.CE_track) window.CE_track(path, title); } catch (_) {} }
   function siteRoot() { return location.origin + location.pathname.replace(/(app\/)?[^/]*$/, ""); }   // the folder the app is served from: comoevent.com/ or github.io/comoevents/
   var CENTER = [-92.3300, 38.9480];
 
@@ -527,6 +528,7 @@
   }
   function closePost() { $("post").hidden = true; }
   function submitPost(ev) {
+    track("click/post-event");
     ev.preventDefault();
     var f = $("post-form"), btn = $("post-send");
     var d = {
@@ -565,6 +567,7 @@
   var miniMap;
   function openDetail(e) {
     state.selected = e.id;
+    track("event/" + e.id, e.title + (e.venue ? " · " + e.venue : ""));
     history.replaceState(null, "", "?e=" + encodeURIComponent(e.id));
     var d = $("detail"), k = kind(e), now = new Date();
     d.innerHTML = ""; d.style.setProperty("--c", CATS[k].color);
@@ -621,11 +624,11 @@
 
     var bar = el("div", "actionbar glass");
     var link = e.ticketUrl || e.url;
-    if (link) { var a = el("a", "primary", ic("arrow") + (e.ticketUrl ? "Tickets / Register" : "More info")); a.href = link; a.target = "_blank"; a.rel = "noopener"; bar.appendChild(a); }
+    if (link) { var a = el("a", "primary", ic("arrow") + (e.ticketUrl ? "Tickets / Register" : "More info")); a.href = link; a.target = "_blank"; a.rel = "noopener"; a.addEventListener("click", function () { track(e.ticketUrl ? "click/tickets" : "click/more-info"); }); bar.appendChild(a); }
     bar.appendChild(roundBtn("share", "Share", function () { shareEvent(e); }));
     bar.appendChild(roundBtn("calendar", "Add to calendar", function () { downloadICS(e); }));
     if (e.phone) { var ph = roundBtn("phone", "Call", function () { location.href = "tel:" + e.phone.replace(/[^\d+]/g, ""); }); bar.appendChild(ph); }
-    if (e.lat != null || e.address) bar.appendChild(roundBtn("car", "Directions", function () { window.open(directionsURL(e), "_blank", "noopener"); }));
+    if (e.lat != null || e.address) bar.appendChild(roundBtn("car", "Directions", function () { track("click/directions"); window.open(directionsURL(e), "_blank", "noopener"); }));
     bar.appendChild(heartBtn(e, "dark glass circle"));
     inner.appendChild(bar);
 
@@ -643,6 +646,7 @@
       var b = el("button", "glass" + (mine === st[0] ? " on " + st[0] : ""), ic(st[2]) + st[1]); b.type = "button";
       b.onclick = function () {
         if (!window.Cloud || !Cloud.available) { toast("Going and I'm here need iCloud: add the token or use the iPhone app."); return; }
+        if (mine !== st[0]) track("click/" + st[0]);
         Cloud.setStatus(e, mine === st[0] ? null : st[0]).then(function (msg) { if (msg) toast(msg); });
         renderAttendance(att, e);
       };
@@ -687,7 +691,7 @@
 
   // ---------- actions ----------
   function toggleFav(e) {
-    if (state.favorites.has(e.id)) state.favorites.delete(e.id); else { state.favorites.add(e.id); playSound("favorite"); }
+    if (state.favorites.has(e.id)) state.favorites.delete(e.id); else { state.favorites.add(e.id); playSound("favorite"); track("click/save"); }
     store.save("favorites", Array.from(state.favorites));
     syncFriendProfile();
     renderUpcoming(); renderSaved(); renderMapOverlays();
@@ -703,6 +707,7 @@
   function icsDate(d) { return d.getUTCFullYear() + pad(d.getUTCMonth() + 1) + pad(d.getUTCDate()) + "T" + pad(d.getUTCHours()) + pad(d.getUTCMinutes()) + "00Z"; }
   function icsText(s) { return String(s || "").replace(/\\/g, "\\\\").replace(/\n/g, "\\n").replace(/[,;]/g, function (c) { return "\\" + c; }); }
   function downloadICS(e) {
+    track("click/calendar");
     var end = effectiveEnd(e);
     var lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//CoMo Events//Web//EN", "BEGIN:VEVENT",
       "UID:" + e.id + "@comoevents", "DTSTAMP:" + icsDate(new Date()),
@@ -716,6 +721,7 @@
     toast("Calendar file downloaded");
   }
   function shareEvent(e) {
+    track("click/share");
     var url = location.origin + location.pathname + "?e=" + encodeURIComponent(e.id);
     var text = e.title + " · " + whenText(e) + (e.venue ? " · " + e.venue : "") + "\nFound on CoMo Events, free for iPhone: " + siteRoot() + "get/?c=share";
     if (navigator.share) navigator.share({ title: e.title, text: text, url: url }).catch(function () {});

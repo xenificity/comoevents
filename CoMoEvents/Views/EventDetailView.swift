@@ -76,6 +76,7 @@ struct EventDetailView: View {
             .safeAreaInset(edge: .bottom, spacing: 0) { actionBar }
         }
         .navigationBarTitleDisplayMode(.inline)
+        .onAppear { Analytics.eventOpened(event) }
         .toolbarBackground(.hidden, for: .navigationBar)
         .toolbar(.hidden, for: .tabBar)
         .toolbar {
@@ -119,6 +120,7 @@ struct EventDetailView: View {
     }
 
     private func share() {
+        Analytics.tap("share")
         var items: [Any] = []
         if let img = renderShareCard(for: event) { items.append(img) }
         // The event link is already inside shareText; passing it again as a URL item makes the
@@ -128,6 +130,7 @@ struct EventDetailView: View {
     }
 
     private func addToCalendar() async {
+        Analytics.tap("calendar")
         if await CalendarAccess.requestWriteAccess() { showCalendar = true } else { calendarDenied = true }
     }
 
@@ -237,7 +240,7 @@ struct EventDetailView: View {
     private var actionBar: some View {
         HStack(spacing: 10) {
             if let link = event.primaryLink {
-                Button { openURL(link) } label: {
+                Button { Analytics.tap(event.ticketUrl != nil ? "tickets" : "more-info"); openURL(link) } label: {
                     Label(event.ticketUrl != nil ? "Tickets / Register" : "More info", systemImage: "arrow.up.right")
                         .font(.subheadline.weight(.bold))
                         .foregroundStyle(Theme.ink)
@@ -275,6 +278,7 @@ struct EventDetailView: View {
     }
 
     private func openDirections() {
+        Analytics.tap("directions")
         if let c = event.coordinate {
             let item = MKMapItem(placemark: MKPlacemark(coordinate: c))
             item.name = event.venue ?? event.title

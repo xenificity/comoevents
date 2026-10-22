@@ -35,6 +35,7 @@ struct CoMoEventsApp: App {
                     if let id = activity.userInfo?[CSSearchableItemActivityIdentifier] as? String { router.open(eventID: id) }
                 }
                 .onReceive(NotificationCenter.default.publisher(for: UIApplication.didBecomeActiveNotification)) { _ in
+                    Analytics.appOpened()
                     if UserDefaults.standard.string(forKey: "pendingTab") == "map" {
                         UserDefaults.standard.removeObject(forKey: "pendingTab"); router.tab = .map
                     }

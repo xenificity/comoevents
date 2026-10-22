@@ -105,7 +105,7 @@
   function hideTip() { tip.hidden = true; }
 
   // ---------- chart geometry shared by line and bar charts
-  function niceMax(v) { if (v <= 4) return 4; var p = Math.pow(10, Math.floor(Math.log10(v))), m = v / p; return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 2.5 ? 2.5 : m <= 5 ? 5 : 10) * p; }
+  function niceMax(v) { if (v <= 4) return 4; var p = Math.pow(10, Math.floor(Math.log10(v))), m = v / p; return (m <= 1 ? 1 : m <= 1.2 ? 1.2 : m <= 1.6 ? 1.6 : m <= 2 ? 2 : m <= 2.4 ? 2.4 : m <= 3 ? 3 : m <= 4 ? 4 : m <= 5 ? 5 : m <= 6 ? 6 : m <= 8 ? 8 : 10) * p; }
   function frame(body, ps, max) {
     var W = 640, H = 240, L = 40, R = 10, T = 10, B = 26;
     var wrap = el("div", "chart"), s = sv("svg", { viewBox: "0 0 " + W + " " + H, role: "img" });
@@ -126,7 +126,7 @@
 
   function lineChart(body, ps, list, unit) {
     var max = 0; list.forEach(function (s) { s.values.forEach(function (v) { if (v != null && v > max) max = v; }); });
-    legend(body, list, false);
+    if (list.length > 1) legend(body, list, false);
     var f = frame(body, ps, max), s = f.svg;
     list.forEach(function (sr) {
       var d = "", started = false;
@@ -155,7 +155,7 @@
 
   function barChart(body, ps, list) {
     var totals = ps.map(function (_, i) { return list.reduce(function (a, s) { return a + (s.values[i] || 0); }, 0); });
-    legend(body, list, true);
+    if (list.length > 1) legend(body, list, true);
     var f = frame(body, ps, Math.max.apply(null, totals.concat([0]))), s = f.svg, surface = css("--surface-1");
     var bw = Math.max(2, Math.min(28, f.step * .7));
     ps.forEach(function (p, i) {
@@ -237,7 +237,7 @@
 
   // ---------- render
   function tile(parent, k, v, s, brand) {
-    var t = el("div", "tile" + (brand ? " brand" : "")); t.appendChild(el("div", "k", k)); t.appendChild(el("div", "v", v)); if (s) t.appendChild(el("div", "s", s)); parent.appendChild(t);
+    var t = el("div", "tile" + (brand ? " hl" : "")); t.appendChild(el("div", "k", k)); t.appendChild(el("div", "v", v)); if (s) t.appendChild(el("div", "s", s)); parent.appendChild(t);
   }
   function rangeLabel() { return state.range === "all" ? "all time" : "last " + state.range + " days"; }
 
@@ -305,7 +305,9 @@
     var so = card("c-sources", "Traffic sources", rangeLabel() + " · links, QR codes and campaigns");
     var srcRows = w ? w.referrers.map(function (r) { return { label: r.name, value: r.count }; }).concat(w.campaigns.map(function (r) { return { label: r.name, sub: "campaign", value: r.count }; })) : [];
     srcRows.sort(function (x, y) { return y.value - x.value; });
-    if (srcRows.length) barsList(so, srcRows.slice(0, 10)); else empty(so, "No visits yet", "Reddit, Instagram, flyer QR codes and search will show here.");
+    if (srcRows.length) { so.appendChild(el("p", "sub", "Visits")); barsList(so, srcRows.slice(0, 8)); }
+    if (w && w.installTaps && w.installTaps.length) { so.appendChild(el("p", "sub", "Taps on \"Get the app\", by link or QR code")); barsList(so, w.installTaps.slice(0, 6).map(function (r) { return { label: r.source, value: r.taps }; })); }
+    if (!srcRows.length && !(w && w.installTaps && w.installTaps.length)) empty(so, "No visits yet", "Reddit, Instagram, flyer QR codes and search will show here.");
     var dv = card("c-devices", "Devices", rangeLabel());
     if (w && (w.systems.length || w.sizes.length)) {
       if (w.sizes.length) { dv.appendChild(el("p", "sub", "Screen")); barsList(dv, w.sizes.map(function (r) { return { label: r.name, value: r.count }; })); }

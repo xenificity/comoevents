@@ -47,7 +47,7 @@ h2{font-size:20px;letter-spacing:-.01em;margin:30px 2px 12px}
 .tile .k{font-size:13px;color:var(--text-secondary);font-weight:600}
 .tile .v{font-size:30px;font-weight:800;letter-spacing:-.02em;margin-top:4px;font-variant-numeric:tabular-nums}
 .tile .s{font-size:12.5px;color:var(--text-muted);margin-top:2px}
-.tile.brand{border-color:color-mix(in oklab,var(--brand) 60%,var(--border));box-shadow:inset 0 3px 0 var(--brand),var(--shadow)}
+.tile.hl{border-color:color-mix(in oklab,var(--brand) 60%,var(--border));box-shadow:inset 0 3px 0 var(--brand),var(--shadow)}
 .tiles.small .tile .v{font-size:24px}
 .grid{display:grid;gap:12px;margin-bottom:12px}
 .grid.two{grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr))}

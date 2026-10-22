@@ -16,7 +16,7 @@ Read README.md first. Short version:
   library, where a match in `feed/venues.json` overrides (their coordinates are often campus-center
   guesses). Then Nominatim with a bounded Columbia viewbox. Fix a wrong pin by adding the venue to
   `venues.json`, not by special-casing in code.
-- Keep it free: no paid APIs, no server of ours, no analytics. Accounts are Sign in with Apple +
+- Keep it free: no paid APIs, no server of ours. Analytics are anonymous GoatCounter counts only (see below). Accounts are Sign in with Apple +
   the user's private CloudKit database (`Support/AccountManager.swift`); the app must keep working
   signed out. Favorites: `EventStore.favorites` is the live copy, mirrored into `UserProfile.favorites`
   via `onFavoritesChanged`; cloud pulls merge back with `mergeFavorites`.
@@ -63,3 +63,11 @@ Read README.md first. Short version:
   (schema.org Event JSON-LD, one page per event; same-id multi-day repeats become one page with endDate),
   `docs/e/index.html`, `docs/sitemap.xml`, `docs/robots.txt`. It wipes and rebuilds `docs/e` and is deterministic.
   The feed workflow and `scripts/update-feed.sh` run it; slugs are `<title>-<id[:6]>`, so URLs stay stable.
+- Stats dashboard: `docs/stats/` (public, comoevent.com/stats/). `scripts/build_stats.py` writes
+  `docs/stats/data.json` hourly (`.github/workflows/stats.yml`): feed numbers, event/venue history kept in
+  `feed/stats/seen.json` (`--backfill` replays git history), and GoatCounter visits/clicks when the
+  `GOATCOUNTER_TOKEN` repo secret (read-only API key, site code `comoevent`) is set. Installs, posts and
+  attendance are read live from CloudKit in the page. Web counting: `docs/gc.js` (`CE_track(path)`), the
+  install page sends an `install/<campaign>` pixel. iOS: `Support/Analytics.swift`, same path names
+  (`/ios/open`, `ios-event/<id>`, `click/<name>`), off switch in Profile. Any new tracked action: use the
+  same `click/<name>` on web and iOS, and keep the privacy policy in step.

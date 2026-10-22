@@ -44,12 +44,14 @@
 		DDF276469D866CA54E77E046 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676ED787BF68812C299CB47 /* UserProfile.swift */; };
 		E0E56298A5E53588EB84AB84 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB86AEFE35325A9F60C65D59 /* EventList.swift */; };
 		E3C7D8773F7DD22CB4482752 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545FA8220F66F5EF2E8E8EC3 /* ProfileScreen.swift */; };
+		E51BDE5F11A51DE34325A433 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C5B1FD22EFCCC6184888FD /* Analytics.swift */; };
 		E8B6B3C7C45E8F08A2EAE4AB /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F1ACC851399B6DFB89308 /* EventStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01AF03E452CC0D5877D0F5B0 /* CoMoEvents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoMoEvents.entitlements; sourceTree = "<group>"; };
 		04475B5572A08EA8C793484E /* VenueLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueLookup.swift; sourceTree = "<group>"; };
+		07C5B1FD22EFCCC6184888FD /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		0DDE406C3CA3CD41CA21D590 /* FriendsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsScreen.swift; sourceTree = "<group>"; };
 		10070D58ECBD247C1F8F02B9 /* SubmitEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitEventView.swift; sourceTree = "<group>"; };
 		12248080FFF812BF8FACADB5 /* UsageCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageCounter.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				5E37AC286171D31A11C304AE /* AccountManager.swift */,
+				07C5B1FD22EFCCC6184888FD /* Analytics.swift */,
 				2F839F290D9DD3AB3D1C3C1C /* AppLinks.swift */,
 				93B51B69E81EC16E60089C76 /* AttendanceStore.swift */,
 				5E0EA88088E79B7E0A40576B /* CommunityStore.swift */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E9FA7DB20A074B3AFC2268 /* AccountManager.swift in Sources */,
+				E51BDE5F11A51DE34325A433 /* Analytics.swift in Sources */,
 				4CD21F9DEA95E27D05365E7A /* AppLinks.swift in Sources */,
 				603E787090EEBD65D3E2BC46 /* AttendanceStore.swift in Sources */,
 				23CA5479B528AD472593369A /* AudienceBar.swift in Sources */,

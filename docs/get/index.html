@@ -14,6 +14,11 @@ a.btn{display:inline-block;margin-top:18px;background:#FFD600;color:#121214;font
 p{color:#a9a9b3;max-width:22rem;margin:10px auto 0}
 </style>
 <script>
+// count the install tap before redirecting (anonymous GoatCounter event, tagged with the ?c= campaign)
+(function () { try { var c = new URLSearchParams(location.search).get("c") || "direct";
+  new Image().src = "https://comoevent.goatcounter.com/count?e=true&p=" + encodeURIComponent("install/" + c) + "&t=" + encodeURIComponent("Install tap · " + c) + "&r=" + encodeURIComponent(document.referrer) + "&rnd=" + Math.random(); } catch (_) {} })();
+</script>
+<script>
 // Smart install link used by every QR code, flyer, share card and post.
 //  - Once CoMo Events is live on the App Store, go there (with the campaign token for App Analytics).
 //  - Until then, go to the public TestFlight beta.

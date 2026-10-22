@@ -100,7 +100,7 @@ final class EventStore: ObservableObject {
     // MARK: favorites
     func isFavorite(_ e: Event) -> Bool { favorites.contains(e.id) }
     func toggleFavorite(_ e: Event) {
-        if favorites.contains(e.id) { favorites.remove(e.id) } else { favorites.insert(e.id); SoundPlayer.shared.play(.favorite) }
+        if favorites.contains(e.id) { favorites.remove(e.id) } else { favorites.insert(e.id); SoundPlayer.shared.play(.favorite); Analytics.tap("save") }
     }
     var favoriteEvents: [Event] { events.filter { favorites.contains($0.id) } }
 

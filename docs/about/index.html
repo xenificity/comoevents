@@ -157,5 +157,6 @@ var total=0;function page(marker){var body={query:{recordType:"Install",filterBy
 return fetch(url,{method:"POST",body:JSON.stringify(body)}).then(function(r){return r.json()}).then(function(j){total+=(j.records||[]).length;if(j.continuationMarker&&total<50000)return page(j.continuationMarker);});}
 page().then(function(){if(!total)return;var s=document.getElementById("stats");if(!s)return;var d=document.createElement("div");d.id="cloudkit-users";d.innerHTML="<b>"+total.toLocaleString()+"</b>"+(total===1?"person using it":"people using it");s.appendChild(d);}).catch(function(){});})();
 </script>
+<script src="/gc.js?v=1" defer></script>
 </body>
 </html>

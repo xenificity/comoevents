@@ -12,6 +12,7 @@ struct ProfileScreen: View {
     @State private var name = ""
     @State private var confirmDelete = false
     @State private var soundsOn = SoundPlayer.enabled
+    @State private var countsOn = Analytics.enabled
     @FocusState private var nameFocused: Bool
 
     var body: some View {
@@ -186,6 +187,13 @@ struct ProfileScreen: View {
                 }
             }.tint(Theme.gold)
             .onChange(of: soundsOn) { _, on in SoundPlayer.enabled = on; if on { SoundPlayer.shared.play(.favorite) } }
+            Toggle(isOn: $countsOn) {
+                VStack(alignment: .leading) {
+                    Text("Anonymous usage counts").font(.subheadline.weight(.semibold))
+                    Text("Adds your app opens and taps to the public stats at comoevent.com/stats. No name, no device ID.").font(.caption).foregroundStyle(.secondary)
+                }
+            }.tint(Theme.gold)
+            .onChange(of: countsOn) { _, on in Analytics.enabled = on }
         }
         .padding(16).frame(maxWidth: .infinity, alignment: .leading)
         .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))

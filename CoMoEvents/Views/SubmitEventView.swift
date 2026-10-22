@@ -78,7 +78,7 @@ struct SubmitEventView: View {
                 ToolbarItem(placement: .cancellationAction) { Button("Cancel") { dismiss() } }
                 ToolbarItem(placement: .confirmationAction) {
                     if sending { ProgressView() } else {
-                        Button("Post") { Task { await post() } }.fontWeight(.bold)
+                        Button("Post") { Analytics.tap("post-event"); Task { await post() } }.fontWeight(.bold)
                             .disabled(draft.title.count < 3 || !draft.agreedToGuidelines)
                     }
                 }
