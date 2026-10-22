@@ -200,8 +200,9 @@ def analytics():
         try:
             time.sleep(0.3)  # API allows 4 requests a second
             url = f"stats/{name}/{detail}" if detail else f"stats/{name}"
-            return [{"name": s.get("name") or "(unknown)", "id": s.get("id"), "count": s.get("count", 0)}
-                    for s in gc(url, limit=limit, **rng).get("stats", [])]
+            names = {"phone": "Phone", "tablet": "Tablet", "desktop": "Computer", "desktophd": "Large screen"}
+            return [{"name": s.get("name") or names.get(s.get("id") or "", "(unknown)"), "id": s.get("id"), "count": s.get("count", 0)}
+                    for s in gc(url, limit=limit, **rng).get("stats", []) if s.get("count")]
         except Exception:
             return []
 
@@ -222,10 +223,14 @@ def analytics():
             "systems": table("systems", rng, 8),
             "sizes": table("sizes", rng, 6),
         }
+    web, ios = daily_series(total_web.get("stats")), daily_series(total_ios.get("stats"))
+    days_with_data = [d for series in [web, ios] + list(clicks.values()) for d, n in series.items() if n]
+    since = min(days_with_data) if days_with_data else end.date().isoformat()
+    trim = lambda m: {d: n for d, n in m.items() if d >= since}
     return {
-        "since": full["start"][:10],
-        "webVisitors": daily_series(total_web.get("stats")),
-        "iosOpens": daily_series(total_ios.get("stats")),
+        "since": since,
+        "webVisitors": trim(web),
+        "iosOpens": trim(ios),
         "clicks": {k: dict(v) for k, v in clicks.items()},
         "windows": windows,
     }
