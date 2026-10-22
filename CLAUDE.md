@@ -83,3 +83,10 @@ Read README.md first. Short version:
   them and runs `scripts/indexnow.py` (Bing/IndexNow; key file docs/<key>.txt — don't delete it). Homepage has WebSite +
   Organization JSON-LD and a static "Browse events" link row in the Upcoming tab (crawlable without JS). Google Search
   Console is verified by a TXT record at GoDaddy.
+- SEO round 2 (same builder): holiday pages from `SEASONS` (docs/halloween, thanksgiving, christmas, new-years-eve, valentines,
+  st-patricks, fourth-of-july, graduation) exist only inside their date windows, are wiped otherwise, and get linked first in
+  every page's Browse row and the homepage's `<!--season-->` markers. Weekend guide: `feed/weekend/<friday>.json` stores each
+  weekend's picks (`weekly_post.pick`, frozen from Friday 4 PM) and events (past ones kept), and every stored week is
+  re-rendered to docs/weekend-guide/<friday>/ plus the hub docs/weekend-guide/; never delete those JSON files.
+  Venue widget: hand-written `docs/embed/venue.html?v=<venue-slug>` (noindex) reads `docs/embed/v/<slug>.json`; files of
+  venues with nothing upcoming are kept empty so pasted widgets keep working. Snippet + plain backlink on each venue page.

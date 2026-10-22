@@ -11,6 +11,7 @@ import json, os, re, subprocess, sys, urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KEY = "749858bc16b81d49474444807b1f5192"
 SITE = "https://comoevent.com"
+SEASON_DIRS = ["halloween", "thanksgiving", "christmas", "new-years-eve", "valentines", "st-patricks", "fourth-of-july", "graduation"]   # build_event_pages.SEASONS
 
 def changed_urls():
     try:
@@ -22,10 +23,18 @@ def changed_urls():
         if not n.endswith(".html"):
             continue
         path = n[len("docs/"):]
-        if path in ("404.html",) or path.startswith(("stats/", "app/", "get/")):
+        if path in ("404.html",) or path.startswith(("stats/", "app/", "get/", "embed/")):   # embed/ is the noindex venue widget
             continue
         path = path[: -len("index.html")] if path.endswith("index.html") else path
         urls.append(f"{SITE}/{path}")
+    # New pages (holiday pages opening, weekend guides, venue pages) come through as added files above. A holiday page that
+    # closed for the season is deleted: tell the engines too, so they drop it instead of waiting for a recrawl.
+    try:
+        gone = subprocess.check_output(["git", "-C", ROOT, "diff", "--name-only", "--diff-filter=D", "HEAD~1", "HEAD", "--"]
+                                       + [f"docs/{d}/index.html" for d in SEASON_DIRS], text=True).split()
+    except subprocess.CalledProcessError:
+        gone = []
+    urls += [f"{SITE}/{n[len('docs/'):-len('index.html')]}" for n in gone]
     return urls
 
 def sitemap_urls():

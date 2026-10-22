@@ -33,7 +33,7 @@ SOURCE_WEIGHT = {"bluenote": 4, "posh": 4, "visitcolumbia": 3, "vox": 3, "cooper
 # Things nobody plans a weekend around.
 SKIP = re.compile(r"\b(deadline|due|office hours|orientation|registration|webinar|meeting|"
                   r"training|seminar|colloquium|defense|workshop|study|class|lab hours|"
-                  r"weekly play|commander|story ?time|support group|info session)\b", re.I)
+                  r"weekly play|commander|story ?time|support group|info session|cancell?ed|postponed)\b", re.I)
 
 
 def parse(s):
