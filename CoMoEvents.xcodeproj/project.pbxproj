@@ -31,6 +31,7 @@
 		8A50468FBB3116B177E586D3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED912DEDB9BE3D2F2ABF127 /* Theme.swift */; };
 		8FAEE391BFF796D5FC6403AC /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 6567DC9C10C49E155A08BBFA /* events.json */; };
 		9E4027851A0F22372D3EF1D1 /* FriendsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDE406C3CA3CD41CA21D590 /* FriendsScreen.swift */; };
+		9EA558C7FAD49D640C769CC9 /* SocialConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C3EBD8133D4C87F0E74CA /* SocialConnect.swift */; };
 		A2788463541C619471DBF3B6 /* UpcomingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E361E619397E4616B87260CE /* UpcomingScreen.swift */; };
 		A6925D37DE0D47FCF70F3D78 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DDA08FB8045CE557E0A4B1 /* NotificationService.swift */; };
 		AF139E757D144C45D0E20ADB /* TimeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BC8F47418CC9EB86E8A42 /* TimeWindow.swift */; };
@@ -80,6 +81,7 @@
 		890E1F509799AC7B5B9F9587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A6770C54F38582069D268B2 /* SpotlightIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightIndexer.swift; sourceTree = "<group>"; };
 		93B51B69E81EC16E60089C76 /* AttendanceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceStore.swift; sourceTree = "<group>"; };
+		992C3EBD8133D4C87F0E74CA /* SocialConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialConnect.swift; sourceTree = "<group>"; };
 		9D084E4854C1F7B5CC4594C0 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		AB57E9BB840EDE45833BC510 /* ContentFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentFilter.swift; sourceTree = "<group>"; };
 		AC5BC8F47418CC9EB86E8A42 /* TimeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWindow.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				F3DDA08FB8045CE557E0A4B1 /* NotificationService.swift */,
 				4FC3F1B8022237EEC7BC0379 /* Router.swift */,
 				7ED89341A39084952FECB9CA /* ShareAndCalendar.swift */,
+				992C3EBD8133D4C87F0E74CA /* SocialConnect.swift */,
 				FD776B73BF8407921FE3E7E4 /* SoundPlayer.swift */,
 				8A6770C54F38582069D268B2 /* SpotlightIndexer.swift */,
 				BED912DEDB9BE3D2F2ABF127 /* Theme.swift */,
@@ -298,6 +301,7 @@
 				51D69B4D63C571BED44FBDF9 /* Router.swift in Sources */,
 				7614AC1DCA958A0203BA6958 /* SavedScreen.swift in Sources */,
 				1EED7452FBE1A04A7522DB48 /* ShareAndCalendar.swift in Sources */,
+				9EA558C7FAD49D640C769CC9 /* SocialConnect.swift in Sources */,
 				5CD12019CF8062D165327BC4 /* SoundPlayer.swift in Sources */,
 				D4D071D9C6AB594730237C74 /* SpotlightIndexer.swift in Sources */,
 				CB80D98FB626AFF24827FF80 /* SubmitEventView.swift in Sources */,

@@ -1,0 +1,17 @@
+# Cloudflare Worker that links Facebook / Google accounts to CoMo Events iCloud users and finds friends.
+# Deploy: cd social && npx wrangler deploy   (secrets: see README.md in this folder)
+name = "comoevents-social"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+SITE = "https://comoevent.com"
+CK_CONTAINER = "iCloud.com.xenificity.comoevents"
+CK_ENV = "production"
+FB_GRAPH_VERSION = "v24.0"
+
+# KV for short-lived sign-in state and results (10 minutes). Create with:
+#   npx wrangler kv namespace create SOCIAL_KV   and paste the id below.
+[[kv_namespaces]]
+binding = "KV"
+id = "REPLACE_WITH_KV_ID"

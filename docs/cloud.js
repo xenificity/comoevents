@@ -206,6 +206,53 @@
       return Cloud.refreshFriends().then(function () { return null; });
     }).catch(function (e) { return err(e); });
   };
+  // ---------- find friends through Facebook / Google (comoevents-social worker) ----------
+  Cloud.social = { api: (window.SOCIAL_API || "").replace(/\/$/, "") };
+  Cloud.socialToken = function () {
+    try { return (container && container._auth && container._auth._ckSession) || (container && container.getConfig && container.getConfig().ckWebAuthToken) || null; } catch (e) { return null; }
+  };
+  // Leaves the page: the worker sends the browser to Facebook/Google and back to ?tab=friends&social=<id>.
+  Cloud.connectSocial = function (provider) {
+    if (!Cloud.social.api) return Promise.resolve("Facebook and Google sign-in aren't set up yet.");
+    if (!Cloud.signedIn) return Promise.resolve("Sign in with iCloud first.");
+    var ready = Cloud.friends.enabled ? Promise.resolve(null) : Cloud.enableFriends();
+    return ready.then(function (msg) {
+      if (msg) return msg;
+      var tok = Cloud.socialToken();
+      if (!tok) return "Couldn't read your iCloud sign-in. Sign out and back in, then try again.";
+      location.href = Cloud.social.api + "/auth/" + provider + "/start?" + new URLSearchParams({ ck: tok, return: location.origin + "/?tab=friends" });
+      return null;
+    });
+  };
+  // Called once on load when the URL has ?social=<id>: add every match as a friend.
+  Cloud.finishSocial = function (id) {
+    if (!Cloud.social.api) return Promise.resolve(null);
+    return fetch(Cloud.social.api + "/result/" + encodeURIComponent(id)).then(function (r) { return r.json(); }).then(function (res) {
+      if (res.error) return "That sign-in expired. Try again.";
+      var added = 0;
+      (res.matches || []).forEach(function (m) {
+        if (Cloud.friends.blocked.indexOf(m.recordName) >= 0 || Cloud.friends.ids.indexOf(m.recordName) >= 0) return;
+        Cloud.friends.ids.push(m.recordName); added++;
+      });
+      save("friends.ids", Cloud.friends.ids);
+      save("social." + res.provider, Date.now());
+      var who = res.provider === "facebook" ? "Facebook friends" : "Google contacts";
+      return Cloud.refreshFriends().then(function () {
+        if (added) return "Added " + added + " friend" + (added === 1 ? "" : "s") + " from your " + who + ".";
+        if (res.linkedUsers) return "Your " + who + " on CoMo Events haven't turned on Friends yet. They'll appear when they do.";
+        return "Connected. None of your " + who + " use CoMo Events yet. Invite them, and connect again later.";
+      });
+    }).catch(function () { return "Couldn't finish connecting. Try again."; });
+  };
+  Cloud.disconnectSocial = function (provider) {
+    var tok = Cloud.socialToken();
+    if (!Cloud.social.api || !tok) return Promise.resolve("Sign in with iCloud first.");
+    return fetch(Cloud.social.api + "/unlink", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ck: tok, provider: provider }) })
+      .then(function (r) { return r.json(); }).then(function () { try { localStorage.removeItem("social." + provider); } catch (e) {} return "Disconnected " + (provider === "facebook" ? "Facebook" : "Google") + "."; })
+      .catch(function () { return "Couldn't disconnect. Try again."; });
+  };
+  Cloud.socialConnected = function (provider) { return !!load("social." + provider, 0); };
+
   Cloud.removeFriend = function (id) { Cloud.friends.ids = Cloud.friends.ids.filter(function (x) { return x !== id; }); save("friends.ids", Cloud.friends.ids); Cloud.friends.list = Cloud.friends.list.filter(function (f) { return f.id !== id; }); Cloud.emit("friends"); };
   Cloud.blockFriend = function (id) { Cloud.removeFriend(id); if (Cloud.friends.blocked.indexOf(id) < 0) { Cloud.friends.blocked.push(id); save("friends.blocked", Cloud.friends.blocked); } };
   Cloud.refreshFriends = function () {

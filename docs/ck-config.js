@@ -3,3 +3,6 @@
 // It is restricted to those origins, so it is safe to ship in the page.
 // Leave it empty to run the web app without iCloud features.
 window.CK_TOKEN = "ebf54f9ddaf48d86548cd8798feee69f76e47dee8a95df9cb865520ae2728a48";
+
+// Facebook / Google friend finding (Cloudflare Worker in social/). Empty = buttons hidden.
+window.SOCIAL_API = "";

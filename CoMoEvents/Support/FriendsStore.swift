@@ -98,6 +98,16 @@ final class FriendsStore: ObservableObject {
         } catch { return error.localizedDescription }
     }
 
+    /// Add friends found through Facebook / Google (their FriendProfile record names). Returns how many were new.
+    func add(recordNames: [String]) async -> Int {
+        let blocked = Set(UserDefaults.standard.stringArray(forKey: "friends.blocked") ?? [])
+        var ids = friendIDs, added = 0
+        for n in recordNames where !ids.contains(n) && !blocked.contains(n) && n != myRecordID?.recordName { ids.append(n); added += 1 }
+        friendIDs = ids
+        await refresh()
+        return added
+    }
+
     func remove(_ f: Friend) {
         friendIDs.removeAll { $0 == f.id }
         friends.removeAll { $0.id == f.id }

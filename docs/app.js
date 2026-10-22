@@ -489,6 +489,18 @@
     var tg = el("div", "toggle", "<div><b>Share my saved events with friends</b><small>Friends who have your code see what you've hearted and where you're going.</small></div>");
     var sw = el("button", "switch" + (ck.friends.share ? " on" : "")); sw.type = "button"; sw.onclick = function () { ck.setShare(!ck.friends.share); sw.classList.toggle("on", ck.friends.share); };
     tg.appendChild(sw); my.appendChild(tg); box.appendChild(my);
+    if (ck.social && ck.social.api) {
+      var soc = el("div", "glass card pcard", "<h3>" + ic("people") + " Find friends you know</h3><p>Connect Facebook or your Google contacts to add friends who already use CoMo Events. We keep only a scrambled ID, never your friend list or contacts.</p>");
+      [["facebook", "Facebook friends"], ["google", "Google contacts"]].forEach(function (p) {
+        var r = el("div", "addrow");
+        var bt = el("button", "ybtn", (ck.socialConnected(p[0]) ? "Check again: " : "Connect ") + p[1]); bt.type = "button";
+        bt.onclick = function () { bt.disabled = true; ck.connectSocial(p[0]).then(function (msg) { bt.disabled = false; if (msg) toast(msg); }); };
+        r.appendChild(bt);
+        if (ck.socialConnected(p[0])) { var dc = el("button", "glass", "Disconnect"); dc.type = "button"; dc.onclick = function () { ck.disconnectSocial(p[0]).then(function (msg) { toast(msg); renderFriends(); }); }; r.appendChild(dc); }
+        soc.appendChild(r);
+      });
+      box.appendChild(soc);
+    }
     var add = el("div", "glass card pcard", "<h3>Add a friend</h3>");
     var row = el("div", "addrow"); var fld = el("div", "glass capsule field"); var inp = el("input"); inp.placeholder = "Friend's code"; inp.maxLength = 6; fld.appendChild(inp);
     var go = el("button", "ybtn", "Add"); go.type = "button"; go.onclick = function () { go.disabled = true; ck.addFriend(inp.value).then(function (msg) { go.disabled = false; if (msg) toast(msg); else { inp.value = ""; toast("Friend added"); } renderFriends(); }); };
@@ -776,6 +788,14 @@
         var want = params.get("e");
         if (want) { var e = state.events.find(function (x) { return x.id === want; }); if (e) openDetail(e); }
         if (params.get("tab") && !want) showTab(params.get("tab"));
+        if (params.get("social_error")) toast("Not connected: " + params.get("social_error"));
+        if (params.get("social") && window.Cloud) {
+          var sid = params.get("social");
+          history.replaceState(null, "", location.pathname + "?tab=friends");
+          var finish = function () { Cloud.finishSocial(sid).then(function (msg) { if (msg) toast(msg); renderFriends(); }); };
+          if (Cloud.signedIn) finish();
+          else Cloud.listeners.push(function (what) { if (what === "auth" && Cloud.signedIn) { var f = finish; finish = function () {}; f(); } });
+        }
       })
       .catch(function () { load(i + 1); });
   }

@@ -8,6 +8,7 @@ struct FriendsScreen: View {
     @State private var working = false
     @State private var showContacts = false
     @State private var smsTargets: [String]?
+    @StateObject private var social = SocialConnect()
 
     var body: some View {
         NavigationStack {
@@ -15,7 +16,7 @@ struct FriendsScreen: View {
                 Theme.page
                 ScrollView {
                     VStack(spacing: 16) {
-                        if !friends.enabled { intro } else { myCard; addCard; list }
+                        if !friends.enabled { intro; socialCard } else { myCard; socialCard; addCard; list }
                     }
                     .padding(16)
                 }
@@ -98,6 +99,35 @@ struct FriendsScreen: View {
                 .glass(Capsule(), interactive: true)
         }
         .buttonStyle(.plain)
+        }
+    }
+
+    @ViewBuilder private var socialCard: some View {
+        if SocialConnect.isConfigured {
+            VStack(alignment: .leading, spacing: 10) {
+                Label("Find friends you know", systemImage: "person.2.fill").font(.headline)
+                Text("Connect Facebook or your Google contacts to add friends who already use CoMo Events. We keep only a scrambled ID, never your friend list or contacts.")
+                    .font(.caption).foregroundStyle(.secondary)
+                ForEach(SocialConnect.Provider.allCases) { p in
+                    HStack {
+                        Button {
+                            Task { message = await social.connect(p, friends: friends) }
+                        } label: {
+                            HStack {
+                                if social.working == p { ProgressView().tint(Theme.ink) }
+                                Text((social.isConnected(p) ? "Check again: " : "Connect ") + p.title).fontWeight(.bold)
+                            }
+                            .padding(.horizontal, 16).padding(.vertical, 10).background(Theme.yellow, in: Capsule()).foregroundStyle(Theme.ink)
+                        }
+                        .buttonStyle(.plain).disabled(social.working != nil)
+                        if social.isConnected(p) {
+                            Button("Disconnect") { Task { message = await social.disconnect(p) } }.font(.subheadline)
+                        }
+                    }
+                }
+            }
+            .padding(16).frame(maxWidth: .infinity, alignment: .leading)
+            .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
         }
     }
 
