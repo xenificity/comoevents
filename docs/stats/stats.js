@@ -371,11 +371,13 @@
     mapPending = true;
     // start the map only when its card is near the screen (no WebGL in hidden or background tabs)
     var box = $("venue-map");
-    var go = function () { startMap(gj, pts, 0); };
+    var started = false, io = null;
+    var go = function () { if (started) return; started = true; if (io) io.disconnect(); startMap(gj, pts, 0); };
     if ("IntersectionObserver" in window) {
-      var io = new IntersectionObserver(function (en) { if (en.some(function (x) { return x.isIntersecting; })) { io.disconnect(); go(); } }, { rootMargin: "400px" });
+      io = new IntersectionObserver(function (en) { if (en.some(function (x) { return x.isIntersecting; })) go(); }, { rootMargin: "400px" });
       io.observe(box);
-    } else go();
+    }
+    setTimeout(go, 3000);  // safety net: some browsers never report the card as on screen
   }
   var mapPending = false, fallbackDrawn = false;
   function startMap(gj, pts, tries) {
