@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>CoMo Events · Live stats</title>
+<meta name="description" content="Live, public numbers for CoMo Events: people using the app, visitors, clicks, where they come from, and every event and venue covered in Columbia, MO.">
+<link rel="canonical" href="https://comoevent.com/stats/">
+<meta property="og:title" content="CoMo Events · Live stats"><meta property="og:description" content="How the free events map for Columbia, MO is doing, updated live.">
+<meta property="og:image" content="https://comoevent.com/img/icon-512.png">
+<link rel="icon" href="/img/icon-512.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.css" integrity="sha512-DBNed2oEjOrfIRj8Czuzs7padWawLWbA64OoDekn8gs2a3J6WOaR5xXfnFgaxKGpxIuSn/rAo/PsgOgO6PZ/vA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="stats.css?v=1">
+</head>
+<body class="viz-root">
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="/"><img src="/img/icon-512.png" alt="">CoMo Events</a>
+    <nav><a href="/">Live map</a><a href="/e/">Events</a><a href="/about/">About</a></nav>
+  </header>
+
+  <section class="hero">
+    <h1>How CoMo Events is doing</h1>
+    <p class="lead">Live, public numbers for the free map of everything happening in Columbia, Missouri. Usage counts are anonymous: no names, no tracking cookies.</p>
+    <p class="updated" id="updated">Loading…</p>
+  </section>
+
+  <div class="filters" role="group" aria-label="Time range and grouping">
+    <div class="seg" id="range" role="radiogroup" aria-label="Time range">
+      <button data-v="7" role="radio">7 days</button><button data-v="30" role="radio" class="on" aria-checked="true">30 days</button><button data-v="90" role="radio">90 days</button><button data-v="all" role="radio">All time</button>
+    </div>
+    <div class="seg" id="grain" role="radiogroup" aria-label="Group by">
+      <button data-v="day" role="radio" class="on" aria-checked="true">Per day</button><button data-v="week" role="radio">Per week</button><button data-v="month" role="radio">Per month</button>
+    </div>
+  </div>
+
+  <section class="tiles" id="tiles" aria-label="Key numbers"></section>
+
+  <h2>People</h2>
+  <div class="grid two">
+    <article class="card" id="c-visitors"></article>
+    <article class="card" id="c-installs"></article>
+  </div>
+  <div class="grid two">
+    <article class="card" id="c-clicks"></article>
+    <article class="card" id="c-top-events"></article>
+  </div>
+
+  <h2>Where people come from</h2>
+  <div class="grid three">
+    <article class="card" id="c-regions"></article>
+    <article class="card" id="c-sources"></article>
+    <article class="card" id="c-devices"></article>
+  </div>
+
+  <h2>Events covered</h2>
+  <div class="grid two">
+    <article class="card" id="c-history"></article>
+    <article class="card" id="c-upcoming"></article>
+  </div>
+  <div class="grid two">
+    <article class="card" id="c-by-source"></article>
+    <article class="card" id="c-by-category"></article>
+  </div>
+
+  <h2>Venues covered</h2>
+  <article class="card wide" id="c-venues">
+    <div class="card-head"><div><h3>Every venue with an event on the map</h3><p class="sub" id="venue-sub"></p></div></div>
+    <div id="venue-map" class="venue-map" role="img" aria-label="Map of Columbia with a circle for each venue, larger for more events"></div>
+    <div class="venue-tools"><input id="venue-q" type="search" placeholder="Search venues" aria-label="Search venues"></div>
+    <div class="table-wrap"><table class="data" id="venue-table"><thead><tr><th>Venue</th><th class="num">Events now</th><th class="num">Listed so far</th></tr></thead><tbody></tbody></table></div>
+  </article>
+
+  <h2>Community</h2>
+  <section class="tiles small" id="community" aria-label="Community numbers"></section>
+
+  <footer>
+    <p>Installs, posts and Going taps are read live from the app's public CloudKit database each time this page loads. Visits and clicks are counted with <a href="https://www.goatcounter.com">GoatCounter</a> without cookies and refresh every hour. Event and venue numbers come from the event feed, rebuilt every two hours. <a href="/privacy.html">Privacy policy</a>.</p>
+  </footer>
+</div>
+<div id="tip" class="tip" role="tooltip" hidden></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.js" integrity="sha512-BmEBFbeO0lgfo1PPX5M4B4zxlhZWhOP4Qb1Bn+NVtEI7W1ESwRrLPHpWYqw1WH3QgTqRDNsagD/Fj8mjFCXvSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/ck-config.js?v=12"></script>
+<script src="stats.js?v=1"></script>
+</body>
+</html>
