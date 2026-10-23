@@ -11,6 +11,10 @@ struct FriendsScreen: View {
     @StateObject private var social = SocialConnect()
 
     var body: some View {
+        content.task { await social.checkReady() }
+    }
+
+    private var content: some View {
         NavigationStack {
             ZStack {
                 Theme.page
@@ -103,12 +107,12 @@ struct FriendsScreen: View {
     }
 
     @ViewBuilder private var socialCard: some View {
-        if SocialConnect.isConfigured {
+        if SocialConnect.isConfigured && !social.ready.isEmpty {
             VStack(alignment: .leading, spacing: 10) {
                 Label("Find friends you know", systemImage: "person.2.fill").font(.headline)
-                Text("Connect Facebook or your Google contacts to add friends who already use CoMo Events. We keep only a scrambled ID, never your friend list or contacts.")
+                Text("Connect \(social.ready.map { $0 == .facebook ? "Facebook" : "your Google contacts" }.joined(separator: " or ")) to add friends who already use CoMo Events. We keep only a scrambled ID, never your friend list or contacts.")
                     .font(.caption).foregroundStyle(.secondary)
-                ForEach(SocialConnect.Provider.allCases) { p in
+                ForEach(social.ready) { p in
                     HStack {
                         Button {
                             Task { message = await social.connect(p, friends: friends) }

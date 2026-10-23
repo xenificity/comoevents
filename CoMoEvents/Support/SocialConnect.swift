@@ -17,12 +17,21 @@ final class SocialConnect: NSObject, ObservableObject, ASWebAuthenticationPresen
     }
 
     /// Worker address; empty hides the feature. Keep in step with window.SOCIAL_API in docs/ck-config.js.
-    static let api = ""
+    static let api = "https://comoevents-social.comoevent.workers.dev"
     /// Same public CloudKit API token the web app uses (restricted to comoevent.com origins).
     static let ckAPIToken = "ebf54f9ddaf48d86548cd8798feee69f76e47dee8a95df9cb865520ae2728a48"
     static var isConfigured: Bool { !api.isEmpty }
 
     @Published var working: Provider?
+    /// Providers the server says are fully set up (from /health). Empty until checked.
+    @Published private(set) var ready: [Provider] = []
+
+    func checkReady() async {
+        guard Self.isConfigured, let url = URL(string: "\(Self.api)/health"),
+              let (data, _) = try? await URLSession.shared.data(from: url),
+              let h = try? JSONDecoder().decode([String: Bool].self, from: data), h["cloudkit"] == true else { return }
+        ready = Provider.allCases.filter { h[$0.rawValue] == true }
+    }
     private var session: ASWebAuthenticationSession?
 
     func isConnected(_ p: Provider) -> Bool { UserDefaults.standard.object(forKey: "social.\(p.rawValue)") != nil }
