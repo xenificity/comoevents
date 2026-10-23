@@ -94,6 +94,7 @@ export default {
       if (url.pathname === "/health") return json({ ok: true, facebook: !!env.FB_APP_ID, google: !!env.GOOGLE_CLIENT_ID, cloudkit: !!env.CK_KEY_ID }, 200, cors);
       return json({ error: "not found" }, 404, cors);
     } catch (e) {
+      console.error("social error", url.pathname, String(e && e.stack || e));
       return html(`<h1>Something went wrong</h1><p>${esc(String(e.message || e)).slice(0, 300)}</p><p><a href="${env.SITE}/">Back to CoMo Events</a></p>`, 500);
     }
   },
@@ -103,6 +104,7 @@ export default {
 const RETURN_OK = (env, r) => r && (r.startsWith(env.SITE + "/") || r.startsWith("comoevents://"));
 
 async function start(provider, url, env) {
+  console.log("start", provider, "ck token length", (url.searchParams.get("ck") || "").length);
   const ck = url.searchParams.get("ck"), ret = url.searchParams.get("return") || env.SITE + "/?tab=friends";
   if (!ck) return html("<p>Sign in to iCloud in CoMo Events first.</p>", 400);
   if (!RETURN_OK(env, ret)) return html("<p>Bad return address.</p>", 400);
@@ -113,6 +115,7 @@ async function start(provider, url, env) {
 }
 
 async function callback(provider, url, env) {
+  console.log("callback", provider, "error=" + (url.searchParams.get("error") || ""), "code=" + !!url.searchParams.get("code"));
   const state = url.searchParams.get("state") || "";
   const saved = state && (await env.KV.get("state:" + state));
   if (!saved) return html("<p>This sign-in expired. Please try again from CoMo Events.</p>", 400);

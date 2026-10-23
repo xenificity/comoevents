@@ -15,3 +15,6 @@ FB_GRAPH_VERSION = "v24.0"
 [[kv_namespaces]]
 binding = "KV"
 id = "de97fb3c9c31408894e427f0e822e232"
+
+[observability]
+enabled = true

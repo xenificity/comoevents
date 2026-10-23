@@ -211,8 +211,13 @@
   if (Cloud.social.api) fetch(Cloud.social.api + "/health").then(function (r) { return r.json(); }).then(function (h) {
     Cloud.social.providers = { facebook: !!(h.facebook && h.cloudkit), google: !!(h.google && h.cloudkit) }; Cloud.emit("friends");
   }).catch(function () {});
+  // The CloudKit web-auth token: kept on the auth object and, with persist:true, in its token store.
   Cloud.socialToken = function () {
-    try { return (container && container._auth && container._auth._ckSession) || (container && container.getConfig && container.getConfig().ckWebAuthToken) || null; } catch (e) { return null; }
+    var a = container && container._auth, t = null;
+    try { t = a && a._ckSession; } catch (e) {}
+    try { if (!t && a && a._authTokenStore) t = a._authTokenStore.getToken(CONTAINER); } catch (e) {}
+    try { if (!t && container.getConfig) t = container.getConfig().ckWebAuthToken; } catch (e) {}
+    return typeof t === "string" && t ? t : null;
   };
   // Leaves the page: the worker sends the browser to Facebook/Google and back to ?tab=friends&social=<id>.
   Cloud.connectSocial = function (provider) {

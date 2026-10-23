@@ -463,6 +463,22 @@
   }
 
   // ---------- friends (mirrors FriendsScreen) ----------
+  function socialCard(box, ck) {
+    var provs = [["facebook", "Facebook friends"], ["google", "Google contacts"]].filter(function (p) { return ck.social && ck.social.providers && ck.social.providers[p[0]]; });
+      if (provs.length) {
+        var soc = el("div", "glass card pcard", "<h3>" + ic("people") + " Find friends you know</h3><p>Connect " + provs.map(function (p) { return p[0] === "facebook" ? "Facebook" : "your Google contacts"; }).join(" or ") + " to add friends who already use CoMo Events. We keep only a scrambled ID, never your friend list or contacts.</p>");
+        provs.forEach(function (p) {
+          var r = el("div", "addrow");
+          var bt = el("button", "ybtn", (ck.socialConnected(p[0]) ? "Check again: " : "Connect ") + p[1]); bt.type = "button";
+          bt.onclick = function () { bt.disabled = true; ck.connectSocial(p[0]).then(function (msg) { bt.disabled = false; if (msg) toast(msg); }); };
+          r.appendChild(bt);
+          if (ck.socialConnected(p[0])) { var dc = el("button", "glass", "Disconnect"); dc.type = "button"; dc.onclick = function () { ck.disconnectSocial(p[0]).then(function (msg) { toast(msg); renderFriends(); }); }; r.appendChild(dc); }
+          soc.appendChild(r);
+        });
+        box.appendChild(soc);
+      }
+  }
+
   function renderFriends() {
     var box = $("friends"); box.innerHTML = "";
     var ck = window.Cloud;
@@ -476,7 +492,9 @@
       b.onclick = function () { if (!ck.signedIn) { showTab("profile"); return; } ck.enableFriends().then(function (msg) { if (msg) toast(msg); renderFriends(); }); };
       intro.appendChild(b);
       intro.appendChild(el("p", "", "<small>Uses your iCloud account. Nothing else is shared.</small>"));
-      box.appendChild(intro); return;
+      box.appendChild(intro);
+      if (ck.signedIn) socialCard(box, ck);
+      return;
     }
     var my = el("div", "glass card pcard", "<h3>Your code</h3><div class=\"code\">" + esc(ck.friends.myCode || "······") + "</div>");
     var acts = el("div", "addrow");
@@ -489,19 +507,7 @@
     var tg = el("div", "toggle", "<div><b>Share my saved events with friends</b><small>Friends who have your code see what you've hearted and where you're going.</small></div>");
     var sw = el("button", "switch" + (ck.friends.share ? " on" : "")); sw.type = "button"; sw.onclick = function () { ck.setShare(!ck.friends.share); sw.classList.toggle("on", ck.friends.share); };
     tg.appendChild(sw); my.appendChild(tg); box.appendChild(my);
-    var provs = [["facebook", "Facebook friends"], ["google", "Google contacts"]].filter(function (p) { return ck.social && ck.social.providers && ck.social.providers[p[0]]; });
-    if (provs.length) {
-      var soc = el("div", "glass card pcard", "<h3>" + ic("people") + " Find friends you know</h3><p>Connect " + provs.map(function (p) { return p[0] === "facebook" ? "Facebook" : "your Google contacts"; }).join(" or ") + " to add friends who already use CoMo Events. We keep only a scrambled ID, never your friend list or contacts.</p>");
-      provs.forEach(function (p) {
-        var r = el("div", "addrow");
-        var bt = el("button", "ybtn", (ck.socialConnected(p[0]) ? "Check again: " : "Connect ") + p[1]); bt.type = "button";
-        bt.onclick = function () { bt.disabled = true; ck.connectSocial(p[0]).then(function (msg) { bt.disabled = false; if (msg) toast(msg); }); };
-        r.appendChild(bt);
-        if (ck.socialConnected(p[0])) { var dc = el("button", "glass", "Disconnect"); dc.type = "button"; dc.onclick = function () { ck.disconnectSocial(p[0]).then(function (msg) { toast(msg); renderFriends(); }); }; r.appendChild(dc); }
-        soc.appendChild(r);
-      });
-      box.appendChild(soc);
-    }
+    socialCard(box, ck);
     var add = el("div", "glass card pcard", "<h3>Add a friend</h3>");
     var row = el("div", "addrow"); var fld = el("div", "glass capsule field"); var inp = el("input"); inp.placeholder = "Friend's code"; inp.maxLength = 6; fld.appendChild(inp);
     var go = el("button", "ybtn", "Add"); go.type = "button"; go.onclick = function () { go.disabled = true; ck.addFriend(inp.value).then(function (msg) { go.disabled = false; if (msg) toast(msg); else { inp.value = ""; toast("Friend added"); } renderFriends(); }); };
