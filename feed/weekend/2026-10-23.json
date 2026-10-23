@@ -58,6 +58,19 @@
    "venue": "Bond Life Sciences Center"
   },
   {
+   "_slug": "st-michael-the-archangel-vs-father-tolton-varsity-football-4858c3",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "4858c3d3dcb5d496",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy81YmU3MWE3Mjg2ZjFjNjFiZTNkYjZiMjAwMmY0ZjBmZGY1OTAxN2E2OWM2YWQ4MjNhZGU2ZjM0OTZmYjA1ZmQ2LXJpbWctdzEyMDAtaDYzNC1kYzA4MDgxOC1nbWlyP3Y9MTc5MjYzNTY5Ng.avif",
+   "source": "allevents",
+   "start": "2026-10-23T09:00:00-05:00",
+   "title": "St. Michael the Archangel vs. Father Tolton | Varsity Football",
+   "venue": "Fr. Tolton Regional Catholic High School"
+  },
+  {
    "_slug": "international-student-workshop-optional-practical-training-507200",
    "categories": [
     "campus"
@@ -361,14 +374,17 @@
    "title": "Softball - Missouri vs. Lindenwood"
   },
   {
-   "_slug": "the-flood-brothers-72d0c3",
+   "_slug": "the-flood-brothers-bf3d6a",
+   "alsoOn": [
+    "https://allevents.in/columbia/the-flood-brothers-are-back/200030854693939"
+   ],
    "categories": [
     "music"
    ],
    "category": "music",
    "description": "@ Roots Rock, Deep Blues",
    "end": "2026-10-23T21:00:00-05:00",
-   "id": "72d0c33531ad09d7",
+   "id": "bf3d6af849653a00",
    "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/08/486624272_1193465629449938_7570150926298402289_n.jpg",
    "source": "cooperslanding",
    "start": "2026-10-23T18:00:00-05:00",
@@ -495,8 +511,9 @@
   {
    "_slug": "lumia-fa6529",
    "alsoOn": [
-    "https://mizzouarts.missouri.edu/event/lumia/",
-    "https://calendar.missouri.edu/concert-series/event/17523-lumia"
+    "https://www.voxmagazine.com/calendar/lumia/event_e1048710-663c-46c4-95ab-f143dfc29625.html",
+    "https://calendar.missouri.edu/concert-series/event/17523-lumia",
+    "https://mizzouarts.missouri.edu/event/lumia/"
    ],
    "categories": [
     "family",
@@ -514,14 +531,18 @@
    "venue": "Jesse Hall & Auditorium"
   },
   {
-   "_slug": "party-with-the-stars-1a6850",
+   "_slug": "party-with-the-stars-dc36d8",
+   "alsoOn": [
+    "https://allevents.in/columbia/party-with-the-stars/200030765665704"
+   ],
    "categories": [
     "family"
    ],
    "category": "family",
    "description": "The ringed planet Saturn arrives this month, and the first quarter moon will be in our sky. We'll start inside with a short slide show before heading outside for some high-power views of the sky. You'll get a star chart and a moon map. Hosted by Val Germann, Central Missouri Astronomical Association",
    "end": "2026-10-23T21:00:00-05:00",
-   "id": "1a685005c7696468",
+   "id": "dc36d828f32dffca",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8yNjZkMTA0NjI5ZWE1MmJkZTA1MmZmOWE3ZjFmNWFhODgwODllMjMyNmFlNGVhNjMxZGQzN2M5NTU0ZWI4MjMwLXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5MTAxOTgwMw.avif",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-10-23T19:00:00-05:00",
@@ -556,19 +577,6 @@
    "start": "2026-10-23T19:00:00-05:00",
    "title": "“Why Do We Tell Stories?” A Talk by Dr. Emily Friedman during the Week of Writing",
    "venue": "Ellis Library"
-  },
-  {
-   "_slug": "st-michael-the-archangel-vs-father-tolton-varsity-football-4858c3",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "4858c3d3dcb5d496",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy81YmU3MWE3Mjg2ZjFjNjFiZTNkYjZiMjAwMmY0ZjBmZGY1OTAxN2E2OWM2YWQ4MjNhZGU2ZjM0OTZmYjA1ZmQ2LXJpbWctdzEyMDAtaDYzNC1kYzA4MDgxOC1nbWlyP3Y9MTc5MjYzNTY5Ng.avif",
-   "source": "allevents",
-   "start": "2026-10-23T19:30:00-05:00",
-   "title": "St. Michael the Archangel vs. Father Tolton | Varsity Football",
-   "venue": "Fr. Tolton Regional Catholic High School"
   },
   {
    "_slug": "wicker-48adf9",
@@ -684,18 +692,6 @@
    "venue": "Fine Arts Building"
   },
   {
-   "_slug": "western-states-the-satans-cafe-berlin-60fdb3",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "60fdb35cc2634c78",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9kNDAwMzUxNWRlY2Q2NzZmNzhjMGEzYjcyODE5MThlOTEyMWQ5NjA4NTk3NTZiOTY0NDhjZmM4Yjg1NDM0MzZhLXJpbWctdzEyMDAtaDE1MTUtZGNmOGY4ZjgtZ21pcj92PTE3OTExMzAxMjQ.avif",
-   "source": "allevents",
-   "start": "2026-10-24T00:00:00-05:00",
-   "title": "Western States + The Satans @ Cafe Berlin"
-  },
-  {
    "_slug": "bear-creek-run-half-marathon-32c9ea",
    "alsoOn": [
     "https://allevents.in/columbia/bear-creek-run-half-marathon/200030751512335"
@@ -782,6 +778,19 @@
    "start": "2026-10-24T09:00:00-05:00",
    "title": "Fall 2026 STEM Cubs",
    "venue": "Townsend Hall 611 Conley Ave Columbia MO 65211 United States"
+  },
+  {
+   "_slug": "fall-festival-bazaar-99dd85",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "99dd854ddb028b69",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy81NmYyZDVmMTQyMzkyZTM1YmU3YzRkNGE2OTE1ZWRlYTQwNjAxZmQ2NmE5OTVkODZkZTFjZDFkMzc5YzE1N2Y2LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4OTEwNDEzOQ.avif",
+   "source": "allevents",
+   "start": "2026-10-24T09:00:00-05:00",
+   "title": "Fall Festival & Bazaar",
+   "venue": "Campus Lutheran Church"
   },
   {
    "_slug": "friends-of-the-columbia-public-library-children-s-book-sale-3e3f26",
@@ -1082,6 +1091,9 @@
   },
   {
    "_slug": "vintage-vinyl-festival-1bae6e",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/vintage-and-vinyl-festival/event_4f178f91-d7d8-4074-8500-506aae4e1903.html"
+   ],
    "categories": [
     "music",
     "food"
@@ -1091,9 +1103,11 @@
    "end": "2026-10-24T21:00:00-05:00",
    "id": "1bae6ec782388bee",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Vintage-and-Vinyl-Festival.jpg",
+   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-10-24T12:00:00-05:00",
-   "title": "Vintage & Vinyl Festival"
+   "title": "Vintage & Vinyl Festival",
+   "venue": "The Arcade District"
   },
   {
    "_slug": "walking-for-well-being-mizzou-traditions-and-history-tour-co-29dc3e",
@@ -1539,19 +1553,6 @@
    "venue": "Eastside Tavern"
   },
   {
-   "_slug": "fall-festival-bazaar-99dd85",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "99dd854ddb028b69",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy81NmYyZDVmMTQyMzkyZTM1YmU3YzRkNGE2OTE1ZWRlYTQwNjAxZmQ2NmE5OTVkODZkZTFjZDFkMzc5YzE1N2Y2LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4OTEwNDEzOQ.avif",
-   "source": "allevents",
-   "start": "2026-10-24T19:00:00-05:00",
-   "title": "Fall Festival & Bazaar",
-   "venue": "Campus Lutheran Church"
-  },
-  {
    "_slug": "saturday-night-comedy-at-the-tokyo-club-9e5f04",
    "categories": [
     "arts"
@@ -1645,6 +1646,18 @@
    "start": "2026-10-24T19:40:00-05:00",
    "title": "Sense and Sensibility",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "western-states-the-satans-cafe-berlin-60fdb3",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "60fdb35cc2634c78",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9kNDAwMzUxNWRlY2Q2NzZmNzhjMGEzYjcyODE5MThlOTEyMWQ5NjA4NTk3NTZiOTY0NDhjZmM4Yjg1NDM0MzZhLXJpbWctdzEyMDAtaDE1MTUtZGNmOGY4ZjgtZ21pcj92PTE3OTExMzAxMjQ.avif",
+   "source": "allevents",
+   "start": "2026-10-24T20:00:00-05:00",
+   "title": "Western States + The Satans @ Cafe Berlin"
   },
   {
    "_slug": "65-hertz-rose-music-hall-e46caa",
@@ -1971,10 +1984,10 @@
   {
    "_slug": "theresa-caputo-live-the-experience-1b32d3",
    "alsoOn": [
+    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
     "https://allevents.in/columbia/theresa-caputo/200030544001559",
-    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
     "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
-    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience"
+    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience"
    ],
    "categories": [
     "family",
@@ -2130,12 +2143,12 @@
  "friday": "2026-10-23",
  "modified": "2026-10-23",
  "picks": [
+  "bf3d6af849653a00",
   "83f6803ea3621a5b",
-  "4a663f917d3521fb",
   "a7c37b0296600613",
-  "055a8ce38de42961",
   "41d668bf8a25d282",
   "32c9ea4ff61bfaab",
+  "1bae6ec782388bee",
   "e4b8d122aea2b5d4",
   "45045671d3df262a",
   "c77ed8db77d59e5b",
