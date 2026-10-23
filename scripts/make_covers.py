@@ -306,6 +306,9 @@ def fix_photos(events, used):
         u = e.get("imageUrl")
         if not u or e.get("imageGenerated"):
             continue
+        if u.startswith(f"{SITE}/img/gen/p-"):   # already resized on an earlier run: keep its file
+            used.add(u.rsplit("/", 1)[-1][:-5])
+            continue
         b = better_url(u)
         dims = cache.get(b) or (cache.get(u) if b != u else None)
         if b != u and not cache.get(b):
