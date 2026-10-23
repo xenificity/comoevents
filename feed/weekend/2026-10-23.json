@@ -143,6 +143,19 @@
    "venue": "Memorial Student Union"
   },
   {
+   "_slug": "battle-vs-gateway-tech-football-7cd1b0",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "7cd1b0eddb66c219",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9mNzAwZWUzNDVjMTIwZDFiY2IxZjc1MjYwNTA4YTA0ZWVlNTVhN2FhMTA4YmEzNDk1M2ExNjMzMjAyMWFjZmVkLXJpbWctdzEyMDAtaDYyNy1kYzA4MDgyOC1nbWlyP3Y9MTc5MjYzNTc5OA.avif",
+   "source": "allevents",
+   "start": "2026-10-23T10:00:00-05:00",
+   "title": "Battle vs. Gateway Tech | Football",
+   "venue": "Battle High School Vocal Arts"
+  },
+  {
    "_slug": "mini-pumpkin-decorating-for-adults-of-all-abilities-2c8ea0",
    "categories": [
     "family"
@@ -510,18 +523,6 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "craft-night-with-kenna-hammered-copper-earrings-81ae6c",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "81ae6c8355e2e33e",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy84YjI0ODk2M2I0Yzc3NmIyY2RjYTVkYzQxMzEzZTYyOTA1OTdkODkyZGIyNDJhYzFmYjJkMzU1YTRiMjE2NTA0LXJpbWctdzEyMDAtaDYzMC1kYzU4NDg0OC1nbWlyP3Y9MTc5MjQ4NzAwNA.avif",
-   "source": "allevents",
-   "start": "2026-10-23T18:30:00-05:00",
-   "title": "Craft Night with Kenna: Hammered Copper Earrings!"
-  },
-  {
    "_slug": "lakshmi-sahasranama-and-kumkuma-archana-6c571d",
    "categories": [
     "community"
@@ -656,8 +657,8 @@
    "_slug": "lumia-fa6529",
    "alsoOn": [
     "https://mizzouarts.missouri.edu/event/lumia/",
-    "https://calendar.missouri.edu/concert-series/event/17523-lumia",
-    "https://www.voxmagazine.com/calendar/lumia/event_e1048710-663c-46c4-95ab-f143dfc29625.html"
+    "https://www.voxmagazine.com/calendar/lumia/event_e1048710-663c-46c4-95ab-f143dfc29625.html",
+    "https://calendar.missouri.edu/concert-series/event/17523-lumia"
    ],
    "categories": [
     "family",
@@ -719,19 +720,6 @@
    "venue": "Ellis Library"
   },
   {
-   "_slug": "battle-vs-gateway-tech-football-7cd1b0",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "7cd1b0eddb66c219",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9mNzAwZWUzNDVjMTIwZDFiY2IxZjc1MjYwNTA4YTA0ZWVlNTVhN2FhMTA4YmEzNDk1M2ExNjMzMjAyMWFjZmVkLXJpbWctdzEyMDAtaDYyNy1kYzA4MDgyOC1nbWlyP3Y9MTc5MjYzNTc5OA.avif",
-   "source": "allevents",
-   "start": "2026-10-23T19:30:00-05:00",
-   "title": "Battle vs. Gateway Tech | Football",
-   "venue": "Battle High School Vocal Arts"
-  },
-  {
    "_slug": "wicker-48adf9",
    "categories": [
     "arts"
@@ -744,6 +732,18 @@
    "start": "2026-10-23T19:30:00-05:00",
    "title": "Wicker",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "craft-night-with-kenna-hammered-copper-earrings-81ae6c",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "81ae6c8355e2e33e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy84YjI0ODk2M2I0Yzc3NmIyY2RjYTVkYzQxMzEzZTYyOTA1OTdkODkyZGIyNDJhYzFmYjJkMzU1YTRiMjE2NTA0LXJpbWctdzEyMDAtaDYzMC1kYzU4NDg0OC1nbWlyP3Y9MTc5MjQ4NzAwNA.avif",
+   "source": "allevents",
+   "start": "2026-10-23T20:00:00-05:00",
+   "title": "Craft Night with Kenna: Hammered Copper Earrings!"
   },
   {
    "_slug": "dead-jones-rose-music-hall-055a8c",
@@ -762,14 +762,19 @@
   },
   {
    "_slug": "interstellar-overdrive-the-dark-side-of-oz-69d5ed",
-   "categories": [
-    "community"
+   "alsoOn": [
+    "https://thebluenote.com/event/interstellar-overdrive-the-dark-side-of-oz/"
    ],
-   "category": "community",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
    "description": "A performance by Interstellar Overdrive titled The Dark Side of Oz takes place at The Blue Note.",
    "id": "69d5ed1033be1006",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/InterstellarOverdrive-TBN-Web.jpg",
    "source": "baselocal",
    "start": "2026-10-23T20:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/interstellar-overdrive-the-dark-side-of-columbia-missouri-10-23-2026/event/06006512C215251F",
    "title": "Interstellar Overdrive: The Dark Side Of Oz",
    "venue": "The Blue Note"
   },
@@ -815,6 +820,18 @@
    "ticketUrl": "https://posh.vip/e/fastpass-friday-1023",
    "title": "MyHouse Friday 10/23 Night",
    "venue": "MyHouse"
+  },
+  {
+   "_slug": "western-states-the-satans-cafe-berlin-60fdb3",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "60fdb35cc2634c78",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9kNDAwMzUxNWRlY2Q2NzZmNzhjMGEzYjcyODE5MThlOTEyMWQ5NjA4NTk3NTZiOTY0NDhjZmM4Yjg1NDM0MzZhLXJpbWctdzEyMDAtaDE1MTUtZGNmOGY4ZjgtZ21pcj92PTE3OTExMzAxMjQ.avif",
+   "source": "allevents",
+   "start": "2026-10-24T00:00:00-05:00",
+   "title": "Western States + The Satans @ Cafe Berlin"
   },
   {
    "_slug": "bear-creek-run-half-marathon-32c9ea",
@@ -920,6 +937,19 @@
    "venue": "Columbia Public Library"
   },
   {
+   "_slug": "monster-bike-bash-resurrection-aa3967",
+   "categories": [
+    "party"
+   ],
+   "category": "party",
+   "id": "aa3967af74f670a5",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMGU2NzIwOTJhZGY2YmFiNDdlOGE2NjU2YzM2YzNhZjBlN2ZmMzFmOTM2MjY0ZmI4MGNiYzIzMmZmM2EzYzU5Ni1yaW1nLXcxMjAwLWg2MjktZGNmOGY4ZjgtZ21pcj92PTE3OTAyNDUwNzU.avif",
+   "source": "allevents",
+   "start": "2026-10-24T09:00:00-05:00",
+   "title": "MONSTER BIKE BASH RESURRECTION",
+   "venue": "Flat Branch Park, 300 S Providence Rd, Columbia, MO 65203"
+  },
+  {
    "_slug": "puppy-yoga-at-harpo-s-with-sarah-s-yoga-studio-1a00c6",
    "categories": [
     "community"
@@ -965,6 +995,9 @@
   },
   {
    "_slug": "15th-annual-9-ball-tournament-gurucharri-foundation-bf5aab",
+   "alsoOn": [
+    "https://allevents.in/columbia/15th-annual-9-ball-tournament-gurucharri-foundation/100001998586996507"
+   ],
    "categories": [
     "community"
    ],
@@ -1340,6 +1373,9 @@
   },
   {
    "_slug": "columbia-ballet-academy-fall-festival-4ea128",
+   "alsoOn": [
+    "https://allevents.in/columbia/columbia-ballet-academy-fall-festival/200030859822118"
+   ],
    "categories": [
     "arts",
     "family"
@@ -1352,19 +1388,6 @@
    "source": "visitcolumbia",
    "start": "2026-10-24T14:00:00-05:00",
    "title": "Columbia Ballet Academy Fall Festival"
-  },
-  {
-   "_slug": "monster-bike-bash-resurrection-aa3967",
-   "categories": [
-    "party"
-   ],
-   "category": "party",
-   "id": "aa3967af74f670a5",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMGU2NzIwOTJhZGY2YmFiNDdlOGE2NjU2YzM2YzNhZjBlN2ZmMzFmOTM2MjY0ZmI4MGNiYzIzMmZmM2EzYzU5Ni1yaW1nLXcxMjAwLWg2MjktZGNmOGY4ZjgtZ21pcj92PTE3OTAyNDUwNzU.avif",
-   "source": "allevents",
-   "start": "2026-10-24T14:00:00-05:00",
-   "title": "MONSTER BIKE BASH RESURRECTION",
-   "venue": "Flat Branch Park, 300 S Providence Rd, Columbia, MO 65203"
   },
   {
    "_slug": "the-temptations-revue-c40c9e",
@@ -1507,8 +1530,8 @@
   {
    "_slug": "boone-county-history-makers-hall-of-fame-gala-2026-14949f",
    "alsoOn": [
-    "https://allevents.in/columbia/boone-county-history-makers-hall-of-fame-gala-2026/200030478622851",
-    "https://baselocal.com/mo/columbia/events/#boone-county-history-makers-hall-of-fame-gala-2026"
+    "https://baselocal.com/mo/columbia/events/#boone-county-history-makers-hall-of-fame-gala-2026",
+    "https://allevents.in/columbia/boone-county-history-makers-hall-of-fame-gala-2026/200030478622851"
    ],
    "categories": [
     "community"
@@ -1724,6 +1747,22 @@
    "venue": "MU Healthcare Pavillion"
   },
   {
+   "_slug": "canceled-the-taylor-party-90ae41",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "ft. Jonny Fuzion & JayRu",
+   "id": "90ae41b4272cc087",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/InterstellarOverdrive-TBN-Web.jpg",
+   "source": "bluenote",
+   "start": "2026-10-24T19:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/the-taylor-party-ts-dance-party-columbia-missouri-09-26-2026/event/060064EAC6BBD111",
+   "timeTBD": true,
+   "title": "[CANCELED] The Taylor Party",
+   "venue": "The Blue Note"
+  },
+  {
    "_slug": "curtis-pavey-faculty-piano-recital-a43109",
    "categories": [
     "campus"
@@ -1753,14 +1792,19 @@
   },
   {
    "_slug": "65-hertz-ft-pollux-ages-18-e0a250",
-   "categories": [
-    "community"
+   "alsoOn": [
+    "https://rosemusichall.com/event/65-hertz-ft-pollux/"
    ],
-   "category": "community",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with Asp, Babysox, BhDtheDJ, CVNETIS, ECHOEchoecho",
    "id": "e0a2507abe781415",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iYjJhZGU2ZDdjZGYyZjhjY2ZkMGEzZGUzYmZjMWFhNWIyMTRjNzM0OTEzZmJkN2ZkYzg1NDU4NWYyNGMwYzJhLXJpbWctdzEwMjQtaDU3Ni1kYzI4MjgyOC1nbWlyLmpwZz92PTE3ODk1ODU4NjQ.avif",
    "source": "allevents",
    "start": "2026-10-24T20:30:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/65-hertz-ft-pollux-ages-18-columbia-missouri-10-24-2026/event/06006529BDF0DB78",
    "title": "65 Hertz ft. Pollux (Ages 18+)",
    "venue": "Rose Music Hall"
   },
@@ -2003,10 +2047,12 @@
   {
    "_slug": "kid-disco-boo-bash-d1dffb",
    "alsoOn": [
+    "https://rosemusichall.com/event/kid-disco-boo-bash/",
     "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596"
    ],
    "categories": [
-    "party"
+    "party",
+    "music"
    ],
    "category": "party",
    "description": "Join us for Kid Disco: Boo Bash, a Halloween party made for tiny dancers and their grown-ups. Come dressed in your favorite costume and get ready for music, dancing, treats, and plenty of not-too-spooky fun.",
@@ -2015,6 +2061,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Kid-Disco-Boo-Bash-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-25T13:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/kid-disco-boo-bash-at-rose-columbia-missouri-10-25-2026/event/06006530044B818C",
    "title": "Kid Disco: Boo Bash",
    "venue": "Rose Park"
   },
@@ -2090,9 +2137,9 @@
    "_slug": "theresa-caputo-live-the-experience-1b32d3",
    "alsoOn": [
     "https://allevents.in/columbia/theresa-caputo/200030544001559",
-    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
     "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
-    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience"
+    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
+    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083"
    ],
    "categories": [
     "family",
@@ -2185,6 +2232,9 @@
   },
   {
    "_slug": "hang-your-hate-rose-music-hall-091e60",
+   "alsoOn": [
+    "https://rosemusichall.com/event/hang-your-hate-3/"
+   ],
    "categories": [
     "music"
    ],
@@ -2195,6 +2245,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Hang-Your-Hate-at-Rose-Music-Hall.png",
    "source": "visitcolumbia",
    "start": "2026-10-25T19:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/hang-your-hate-columbia-missouri-10-25-2026/event/06006518AB90B11F",
    "title": "Hang Your Hate – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -2261,15 +2312,15 @@
  "modified": "2026-10-22",
  "picks": [
   "bf3d6af849653a00",
-  "83f6803ea3621a5b",
   "a7c37b0296600613",
+  "69d5ed1033be1006",
   "41d668bf8a25d282",
   "32c9ea4ff61bfaab",
-  "1bae6ec782388bee",
   "e4b8d122aea2b5d4",
   "45045671d3df262a",
   "c77ed8db77d59e5b",
-  "f18213261763a604"
+  "d1dffbf60ddd7853",
+  "091e600966e73ac8"
  ],
  "published": "2026-10-22"
 }
