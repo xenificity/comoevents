@@ -405,16 +405,21 @@
   }
   function renderMarkers() {
     if (!map) return;
-    state.hotspots = buildHotspots(state.visible);
+    // Seasonal stars (e.badge, e.g. 🎃 for Halloween) get their own emoji pins, clustered only with each other.
+    var starred = state.visible.filter(function (e) { return e.badge; });
+    state.hotspots = buildHotspots(state.visible.filter(function (e) { return !e.badge; }))
+      .concat(buildHotspots(starred).map(function (h) { h.badge = h.events[0].badge; return h; }));
     var heat = map.getSource && map.getSource("heat");
     if (heat) heat.setData({ type: "FeatureCollection", features: state.visible.filter(function (e) { return e.lat != null && e.lng != null; })
       .map(function (e) { return { type: "Feature", geometry: { type: "Point", coordinates: [e.lng, e.lat] }, properties: {} }; }) });
     markers.forEach(function (m) { m.remove(); }); markers = [];
     state.hotspots.forEach(function (h) {
-      var n = h.events.length, size = Math.min(24 + n * 0.6, 32), c = CATS[h.dominant].color;
+      var n = h.events.length, size = h.badge ? Math.min(32 + n * 0.6, 40) : Math.min(24 + n * 0.6, 32), c = CATS[h.dominant].color;
       var wrap = el("div", "pinwrap");
       wrap.style.setProperty("--c", c); wrap.style.setProperty("--s", size + "px");
-      var pin = el("div", "pin" + (state.selected && h.events.some(function (e) { return e.id === state.selected; }) ? " sel" : ""), ic(h.dominant) + (n > 1 ? "<b>" + (n > 99 ? "99+" : n) + "</b>" : ""));
+      var pin = el("div", "pin" + (h.badge ? " feat" : "") + (state.selected && h.events.some(function (e) { return e.id === state.selected; }) ? " sel" : ""),
+                   (h.badge ? '<span class="emo">' + esc(h.badge) + "</span>" : ic(h.dominant)) + (n > 1 ? "<b>" + (n > 99 ? "99+" : n) + "</b>" : ""));
+      if (h.badge) wrap.style.zIndex = 2;
       pin.title = h.title + (n > 1 ? " · " + n + " events" : "");
       pin.onclick = function (ev) { ev.stopPropagation(); if (n === 1) openDetail(h.events[0]); else openSheet(h); };
       wrap.appendChild(pin);

@@ -8,6 +8,8 @@ struct Hotspot: Identifiable, Hashable {
     let events: [Event]
     /// Most common category in the cluster; decides the pin colour and symbol.
     let dominant: Category
+    /// Seasonal star emoji (🎃) when this is a cluster of starred events; nil for normal pins.
+    var badge: String? = nil
 
     var count: Int { events.count }
     var title: String {
@@ -43,5 +45,14 @@ struct Hotspot: Identifiable, Hashable {
                            events: sorted, dominant: dom)
         }
         .sorted { $0.count > $1.count }
+    }
+
+    /// Normal clusters plus separate emoji pins for seasonal stars (Event.badge), clustered only with each other,
+    /// so one Halloween event doesn't turn a big downtown arts cluster into a pumpkin.
+    static func buildWithStars(from events: [Event], cellDegrees: Double = 0.002) -> [Hotspot] {
+        let stars = build(from: events.filter { $0.badge != nil }, cellDegrees: cellDegrees).map { h in
+            Hotspot(id: "star|" + h.id, coordinate: h.coordinate, events: h.events, dominant: h.dominant, badge: h.events.first?.badge)
+        }
+        return build(from: events.filter { $0.badge == nil }, cellDegrees: cellDegrees) + stars
     }
 }

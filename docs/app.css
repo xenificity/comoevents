@@ -325,3 +325,8 @@ a{color:inherit}
 :root[data-theme="dark"] .seo-browse a{box-shadow:none}
 :root[data-theme="dark"] .toast{background:#f2f2f5;color:#111}
 :root[data-theme="dark"] .pin{border-color:rgba(255,255,255,.9)}
+
+/* Seasonal star pins (🎃 for Halloween events): their own emoji pin with a warm glow, above the rest. */
+.pin.feat{background:radial-gradient(circle at 35% 30%,#fff7e0,#ffc46b);border:2px solid #ff8a00;box-shadow:0 0 0 4px rgba(255,138,0,.22),0 3px 8px rgba(0,0,0,.25)}
+.pin .emo{font-size:calc(var(--s,32px) * .6);line-height:1;position:relative;z-index:1}
+:root[data-theme="dark"] .pin.feat{border-color:#ffa53d;box-shadow:0 0 0 5px rgba(255,138,0,.3),0 0 18px rgba(255,138,0,.45)}

@@ -35,7 +35,7 @@ struct MapScreen: View {
     private func recompute() {
         let list = store.events(in: window, categories: categories, audience: store.audience)
         visible = list
-        hotspots = Hotspot.build(from: list, cellDegrees: cellDegrees)
+        hotspots = Hotspot.buildWithStars(from: list, cellDegrees: cellDegrees)
         heatRings = HeatRing.build(hotspots)
         let now = Date()
         func live(_ e: Event) -> Bool { e.startDate <= now && e.effectiveEnd >= now }
@@ -220,19 +220,29 @@ struct HotspotPin: View {
     let highlighted: Bool
     var friendsAt: (here: [FriendsStore.Friend], going: [FriendsStore.Friend]) = ([], [])
     @State private var appeared = false
-    private var size: CGFloat { min(24 + CGFloat(hotspot.count) * 0.6, 32) }
+    private var size: CGFloat { hotspot.badge != nil ? min(32 + CGFloat(hotspot.count) * 0.6, 40) : min(24 + CGFloat(hotspot.count) * 0.6, 32) }
 
     var body: some View {
         ZStack(alignment: .topTrailing) {
             // Small, quiet disc with the category symbol; the heat layer underneath shows how busy an area is.
             ZStack {
-                Circle()
-                    .fill(hotspot.dominant.color.opacity(0.92))
-                    .overlay(Circle().stroke(highlighted ? Theme.yellow : .white, lineWidth: highlighted ? 3 : 1.5))
-                    .shadow(color: .black.opacity(0.18), radius: 2, y: 1)
-                Image(systemName: hotspot.dominant.symbol)
-                    .font(.system(size: size * 0.5, weight: .semibold))
-                    .foregroundStyle(.white)
+                if let badge = hotspot.badge {
+                    // Seasonal star (🎃): warm disc with a glow so these stand out as the season's top picks.
+                    Circle()
+                        .fill(RadialGradient(colors: [Color(red: 1, green: 0.97, blue: 0.88), Color(red: 1, green: 0.77, blue: 0.42)],
+                                             center: UnitPoint(x: 0.35, y: 0.3), startRadius: 0, endRadius: size * 0.7))
+                        .overlay(Circle().stroke(highlighted ? Theme.yellow : Color(red: 1, green: 0.54, blue: 0), lineWidth: highlighted ? 3 : 2))
+                        .shadow(color: Color.orange.opacity(0.45), radius: 6)
+                    Text(badge).font(.system(size: size * 0.58))
+                } else {
+                    Circle()
+                        .fill(hotspot.dominant.color.opacity(0.92))
+                        .overlay(Circle().stroke(highlighted ? Theme.yellow : .white, lineWidth: highlighted ? 3 : 1.5))
+                        .shadow(color: .black.opacity(0.18), radius: 2, y: 1)
+                    Image(systemName: hotspot.dominant.symbol)
+                        .font(.system(size: size * 0.5, weight: .semibold))
+                        .foregroundStyle(.white)
+                }
             }
             .frame(width: size, height: size)
             // Friends at this spot: green = here now, yellow = going/saved

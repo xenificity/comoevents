@@ -332,7 +332,9 @@ def fix_photos(events, used):
         if b != u:
             e["imageUrl"] = b; up += 1
     os.makedirs(os.path.dirname(SIZE_CACHE), exist_ok=True)
-    keep = {k: v for k, v in cache.items() if v is not None}
+    # Only remember sizes for photos of events still in the feed (and their full-size versions).
+    wanted = todo | {better_url(u) for u in todo}
+    keep = {k: v for k, v in cache.items() if v is not None and k in wanted}
     with open(SIZE_CACHE, "w") as f:
         json.dump(keep, f, separators=(",", ":"), sort_keys=True)
     return up, repl, resized

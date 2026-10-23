@@ -32,6 +32,8 @@ struct Event: Codable, Identifiable, Hashable {
     var tags: [String] = []
     /// Feed quality score 0-100 (picture, clear title, known venue, downtown/campus, listed on several sites).
     var score: Int? = nil
+    /// Seasonal star emoji from the feed (🎃 for Halloween events in season); gets its own map pin.
+    var badge: String? = nil
     /// iCloud user record name of the poster, community posts only. Used for blocking.
     var submitterID: String? = nil
 
@@ -45,7 +47,7 @@ struct Event: Codable, Identifiable, Hashable {
 
     enum CodingKeys: String, CodingKey {
         case id, source, sourceName, title, start, end, allDay, timeTBD, venue, address, lat, lng
-        case url, ticketUrl, phone, price, category, imageUrl, description, organizer, alsoOn, audience, categories, tags, score
+        case url, ticketUrl, phone, price, category, imageUrl, description, organizer, alsoOn, audience, categories, tags, score, badge
     }
 
     /// Last line of defence against source junk like "<p> $6 </p>" or "&amp;": strips tags, decodes
@@ -97,6 +99,7 @@ struct Event: Codable, Identifiable, Hashable {
         categories = extra.isEmpty ? [category] : (extra.contains(category) ? extra : [category] + extra)
         tags = try c.decodeIfPresent([String].self, forKey: .tags) ?? []
         score = try c.decodeIfPresent(Int.self, forKey: .score)
+        badge = try c.decodeIfPresent(String.self, forKey: .badge)
         startDate = Event.parse(start) ?? .distantPast
         endDate = end.flatMap(Event.parse)
         kinds = categories.compactMap(Category.init(rawValue:))

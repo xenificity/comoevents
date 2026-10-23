@@ -27,6 +27,10 @@ BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.3
 DOWNTOWN = (38.9517, -92.3341)   # 9th & Broadway
 RADIUS_KM = 25.0
 HORIZON_DAYS = 60            # drop events starting more than ~2 months out
+KEEP_ENDED_DAYS = 2          # an event leaves the feed (and its page and cover go) 2 days after it ends
+# Seasonal stars: in season, events with this strong concept tag get an emoji on their map pin
+# ("badge") and a popularity boost so they rank near the top. Add rows for other holidays.
+FEATURED = [dict(tag="halloween", emoji="🎃", start=(10, 1), end=(11, 2), boost=25)]
 FAR_OK_SOURCES = {"lyceum"}   # regional venues the user asked to include despite the distance
 
 S = requests.Session()
@@ -1442,6 +1446,16 @@ def enrich(events):
         if n >= 4: q -= 12
         elif n >= 2: q -= 4
         e["score"] = max(0, min(100, q + 10))
+        try:
+            md = (int(e["start"][5:7]), int(e["start"][8:10]))
+        except (KeyError, ValueError):
+            md = None
+        e.pop("badge", None)
+        for f in FEATURED:
+            if md and f["tag"] in strong and f["start"] <= md <= f["end"]:
+                e["badge"] = f["emoji"]
+                e["score"] = min(100, e["score"] + f["boost"])
+                break
     return events
 
 def main():
@@ -1454,7 +1468,7 @@ def main():
     GEOCODE_BUDGET["n"] = args.max_geocode
 
     now = dt.datetime.now(TZ)
-    lo = (now - dt.timedelta(hours=6))
+    lo = (now - dt.timedelta(days=KEEP_ENDED_DAYS))
     hi = now + dt.timedelta(days=args.days)
     # Previous feed: if a source fails or returns nothing (site down, bot block on the
     # CI runner, parser broken), keep its last known events instead of dropping them.
@@ -1492,7 +1506,8 @@ def main():
     for e in all_events:
         st = parse_dt(e["start"])
         en = parse_dt(e["end"]) if e.get("end") else None
-        if (en or st) < lo or st > hi:
+        # Effective end like the apps: no end time = 3 hours (all-day = the whole day).
+        if (en or st + dt.timedelta(hours=24 if e.get("allDay") else 3)) < lo or st > hi:
             continue
         if e.get("venue") and re.match(r"^columbia(,| mo| misso?urr?i|$)", e["venue"].strip(), re.I):
             e["venue"] = None
@@ -1512,6 +1527,10 @@ def main():
             continue
         kept.append(e)
     save_json(GEOCACHE_PATH, GEOCACHE)
+    # Page cache: drop pages past their 14-day freshness so it doesn't grow forever.
+    cutoff = time.time() - 14 * 86400
+    for url in [u for u, ent in PAGECACHE.items() if ent.get("t", 0) < cutoff]:
+        del PAGECACHE[url]
     save_json(PAGECACHE_PATH, PAGECACHE)
 
     merged = dedupe(kept)

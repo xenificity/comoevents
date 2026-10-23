@@ -115,3 +115,9 @@ Read README.md first. Short version:
   applied with `.preferredColorScheme` in CoMoEventsApp; light by default even when the iPhone is dark.
 - Sounds (synthesised, no files): welcome, favorite, tap, signIn in SoundPlayer.swift and app.js playSound(). iOS ticks via
   `Analytics.tap` (except "save"), tab changes, chips and opening an event; web ticks via one capture-phase click listener.
+- Retention: an event stays in the feed until 2 days after it ends (`KEEP_ENDED_DAYS`; no end = start + 3 h, all-day
+  = + 24 h); its page and cover go with it. The page cache drops entries older than 14 days; imagesize.json keeps only
+  photos of events still in the feed.
+- Seasonal stars: `FEATURED` in aggregate.py (Halloween: tag "halloween", 🎃, Oct 1–Nov 2, +25 score) sets `badge`.
+  Web and iOS draw badged events as their own emoji pins (`Hotspot.buildWithStars`, `.pin.feat`), clustered only
+  with each other. Add a row for Christmas etc.
