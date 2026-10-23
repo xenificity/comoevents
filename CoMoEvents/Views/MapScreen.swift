@@ -22,6 +22,7 @@ struct MapScreen: View {
     // when an input changes. See `recompute()`.
     @State private var visible: [Event] = []
     @State private var hotspots: [Hotspot] = []
+    @State private var heatRings: [HeatRing] = []
     @State private var nextUp: [Event] = []
 
     /// Cluster cell grows as the camera pulls back, so pins never pile up.
@@ -35,6 +36,7 @@ struct MapScreen: View {
         let list = store.events(in: window, categories: categories, audience: store.audience)
         visible = list
         hotspots = Hotspot.build(from: list, cellDegrees: cellDegrees)
+        heatRings = HeatRing.build(hotspots)
         let now = Date()
         func live(_ e: Event) -> Bool { e.startDate <= now && e.effectiveEnd >= now }
         nextUp = Array(list.sorted { a, b in
@@ -49,12 +51,12 @@ struct MapScreen: View {
             ZStack(alignment: .top) {
                 Map(position: $position) {
                     UserAnnotation()
+                    // Heat: soft, edgeless yellow-to-amber rings under busy spots; overlaps deepen the colour.
+                    ForEach(heatRings) { r in
+                        MapCircle(center: r.center, radius: r.radius)
+                            .foregroundStyle(r.color)
+                    }
                     ForEach(hotspots) { h in
-                        if h.isBusy {
-                            MapCircle(center: h.coordinate, radius: h.haloRadius)
-                                .foregroundStyle(h.dominant.color.opacity(0.16))
-                                .stroke(h.dominant.color.opacity(0.4), lineWidth: 1.5)
-                        }
                         Annotation(h.title, coordinate: h.coordinate, anchor: .center) {
                             HotspotPin(hotspot: h, highlighted: selected == h,
                                        friendsAt: friends.friends.isEmpty ? ([], []) : friends.friends(atAny: Set(h.events.map(\.id))))
@@ -188,38 +190,46 @@ struct MapScreen: View {
     }
 }
 
+/// One translucent disc of the busy-area heat layer.
+struct HeatRing: Identifiable {
+    let id: String
+    let center: CLLocationCoordinate2D
+    let radius: CLLocationDistance
+    let color: Color
+
+    /// Four stacked discs per hotspot with two or more events: wide and faint yellow outside,
+    /// small and warmer amber in the middle, so the eye reads a gradient with no edge.
+    static func build(_ hotspots: [Hotspot]) -> [HeatRing] {
+        let amber = Color(red: 1.0, green: 0.62, blue: 0.0)
+        let steps: [(Double, Color)] = [(1.0, Theme.yellow.opacity(0.10)), (0.74, Theme.yellow.opacity(0.12)),
+                                        (0.5, Theme.gold.opacity(0.13)), (0.3, amber.opacity(0.15))]
+        return hotspots.filter { $0.count >= 2 }.prefix(80).flatMap { h -> [HeatRing] in
+            let base = min(200 + Double(h.count) * 26, 620)
+            return steps.enumerated().map { i, s in
+                HeatRing(id: "\(h.id)#\(i)", center: h.coordinate, radius: base * s.0, color: s.1)
+            }
+        }
+    }
+}
+
 struct HotspotPin: View {
     let hotspot: Hotspot
     let highlighted: Bool
     var friendsAt: (here: [FriendsStore.Friend], going: [FriendsStore.Friend]) = ([], [])
     @State private var appeared = false
-    private var size: CGFloat { min(38 + CGFloat(hotspot.count) * 1.5, 56) }
+    private var size: CGFloat { min(24 + CGFloat(hotspot.count) * 0.6, 32) }
 
     var body: some View {
         ZStack(alignment: .topTrailing) {
-            // Glow
-            Circle()
-                .fill(hotspot.dominant.color.opacity(0.35))
-                .frame(width: size * 1.5, height: size * 1.5)
-                .blur(radius: 8)
-                .offset(x: -(size * 0.25), y: size * 0.25)
-            // Glass orb with the category symbol: always the symbol, so the map reads at a glance
+            // Small, quiet disc with the category symbol; the heat layer underneath shows how busy an area is.
             ZStack {
                 Circle()
-                    .fill(LinearGradient(colors: [hotspot.dominant.color.opacity(0.75), hotspot.dominant.color],
-                                         startPoint: .topLeading, endPoint: .bottomTrailing))
-                    .overlay(Circle().stroke(highlighted ? Theme.yellow : .white, lineWidth: highlighted ? 4 : 2.5))
-                    .overlay(
-                        Circle().trim(from: 0.55, to: 0.95)
-                            .stroke(.white.opacity(0.55), lineWidth: 3)
-                            .frame(width: size * 0.7, height: size * 0.7)
-                            .rotationEffect(.degrees(-20))
-                    )
-                    .shadow(color: hotspot.dominant.color.opacity(0.6), radius: 8, y: 3)
+                    .fill(hotspot.dominant.color.opacity(0.92))
+                    .overlay(Circle().stroke(highlighted ? Theme.yellow : .white, lineWidth: highlighted ? 3 : 1.5))
+                    .shadow(color: .black.opacity(0.18), radius: 2, y: 1)
                 Image(systemName: hotspot.dominant.symbol)
-                    .font(.system(size: size * 0.46, weight: .bold))
+                    .font(.system(size: size * 0.5, weight: .semibold))
                     .foregroundStyle(.white)
-                    .shadow(radius: 1)
             }
             .frame(width: size, height: size)
             // Friends at this spot: green = here now, yellow = going/saved
@@ -228,9 +238,9 @@ struct HotspotPin: View {
                 HStack(spacing: -6) {
                     ForEach(Array(fr.prefix(3).enumerated()), id: \.offset) { i, f in
                         Text(f.initials.isEmpty ? "?" : String(f.initials.prefix(1)))
-                            .font(.system(size: 10, weight: .heavy, design: .rounded))
+                            .font(.system(size: 8, weight: .heavy, design: .rounded))
                             .foregroundStyle(i < friendsAt.here.count ? .white : Theme.ink)
-                            .frame(width: 20, height: 20)
+                            .frame(width: 15, height: 15)
                             .background(i < friendsAt.here.count ? Color.green : Theme.yellow, in: Circle())
                             .overlay(Circle().stroke(.white, lineWidth: 1.5))
                     }
@@ -241,15 +251,15 @@ struct HotspotPin: View {
             // Count badge
             if hotspot.count > 1 {
                 Text(hotspot.count > 99 ? "99+" : "\(hotspot.count)")
-                    .font(.system(size: 12, weight: .heavy, design: .rounded))
+                    .font(.system(size: 9, weight: .heavy, design: .rounded))
                     .foregroundStyle(Theme.ink)
-                    .padding(.horizontal, 6).padding(.vertical, 2)
+                    .padding(.horizontal, 4).padding(.vertical, 1)
                     .background(Theme.yellow, in: Capsule())
-                    .overlay(Capsule().stroke(.white, lineWidth: 1.5))
-                    .offset(x: 8, y: -6)
+                    .overlay(Capsule().stroke(.white, lineWidth: 1))
+                    .offset(x: 6, y: -4)
             }
         }
-        .scaleEffect(highlighted ? 1.18 : (appeared ? 1 : 0.4))
+        .scaleEffect(highlighted ? 1.25 : (appeared ? 1 : 0.4))
         .opacity(appeared ? 1 : 0)
         .animation(.spring(duration: 0.3), value: highlighted)
         .onAppear { withAnimation(.bouncy(duration: 0.5)) { appeared = true } }

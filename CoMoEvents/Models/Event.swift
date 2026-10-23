@@ -42,28 +42,49 @@ struct Event: Codable, Identifiable, Hashable {
         case url, ticketUrl, phone, price, category, imageUrl, description, organizer, alsoOn, audience, categories
     }
 
+    /// Last line of defence against source junk like "<p> $6 </p>" or "&amp;": strips tags, decodes
+    /// common entities, joins lines with "; " (unless keepLines) and drops placeholders like "N/A".
+    static func plain(_ s: String?, keepLines: Bool = false) -> String? {
+        guard var t = s, !t.isEmpty else { return nil }
+        if t.contains("<") || t.contains("&") {
+            t = t.replacingOccurrences(of: "(?i)<br\\s*/?>|</p>|</div>|</li>", with: "\n", options: .regularExpression)
+                .replacingOccurrences(of: "<[^>]+>", with: " ", options: .regularExpression)
+            for (k, v) in ["&amp;": "&", "&nbsp;": " ", "&quot;": "\"", "&#39;": "'", "&#039;": "'", "&apos;": "'",
+                           "&lt;": "<", "&gt;": ">", "&ndash;": "–", "&mdash;": "—", "&rsquo;": "’", "&lsquo;": "‘",
+                           "&ldquo;": "“", "&rdquo;": "”", "&hellip;": "…"] {
+                t = t.replacingOccurrences(of: k, with: v)
+            }
+        }
+        let lines = t.components(separatedBy: .newlines)
+            .map { $0.replacingOccurrences(of: "[ \\t]+", with: " ", options: .regularExpression).trimmingCharacters(in: .whitespaces) }
+            .filter { !$0.isEmpty }
+        t = lines.joined(separator: keepLines ? "\n" : "; ")
+        if t.range(of: "^(?i)(n/?a|none|tbd|tba|-+)?$", options: .regularExpression) != nil { return nil }
+        return t
+    }
+
     init(from decoder: Decoder) throws {
         let c = try decoder.container(keyedBy: CodingKeys.self)
         id = try c.decode(String.self, forKey: .id)
         source = try c.decode(String.self, forKey: .source)
         sourceName = try c.decode(String.self, forKey: .sourceName)
-        title = try c.decode(String.self, forKey: .title)
+        title = Event.plain(try c.decode(String.self, forKey: .title)) ?? ""
         start = try c.decode(String.self, forKey: .start)
         end = try c.decodeIfPresent(String.self, forKey: .end)
         allDay = try c.decodeIfPresent(Bool.self, forKey: .allDay) ?? false
         timeTBD = try c.decodeIfPresent(Bool.self, forKey: .timeTBD) ?? false
-        venue = try c.decodeIfPresent(String.self, forKey: .venue)
-        address = try c.decodeIfPresent(String.self, forKey: .address)
+        venue = Event.plain(try c.decodeIfPresent(String.self, forKey: .venue))
+        address = Event.plain(try c.decodeIfPresent(String.self, forKey: .address))
         lat = try c.decodeIfPresent(Double.self, forKey: .lat)
         lng = try c.decodeIfPresent(Double.self, forKey: .lng)
         url = try c.decodeIfPresent(String.self, forKey: .url)
         ticketUrl = try c.decodeIfPresent(String.self, forKey: .ticketUrl)
         phone = try c.decodeIfPresent(String.self, forKey: .phone)
-        price = try c.decodeIfPresent(String.self, forKey: .price)
+        price = Event.plain(try c.decodeIfPresent(String.self, forKey: .price))
         category = try c.decodeIfPresent(String.self, forKey: .category) ?? "community"
         imageUrl = try c.decodeIfPresent(String.self, forKey: .imageUrl)
-        description = try c.decodeIfPresent(String.self, forKey: .description)
-        organizer = try c.decodeIfPresent(String.self, forKey: .organizer)
+        description = Event.plain(try c.decodeIfPresent(String.self, forKey: .description), keepLines: true)
+        organizer = Event.plain(try c.decodeIfPresent(String.self, forKey: .organizer))
         alsoOn = try c.decodeIfPresent([String].self, forKey: .alsoOn)
         audience = try c.decodeIfPresent([String].self, forKey: .audience) ?? []
         let extra = try c.decodeIfPresent([String].self, forKey: .categories) ?? []

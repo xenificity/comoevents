@@ -71,6 +71,18 @@ def clean_title(s):
     s = html.unescape(s or "").strip()
     return re.sub(r"\s+", " ", s)
 
+def one_line(s, limit=160):
+    """Plain single-line text for short fields (price, venue, address, organizer): no tags, no
+    entities, lines joined with "; ". Placeholder values like N/A or TBD become None."""
+    if not s or not isinstance(s, str):
+        return s or None
+    s = strip_html(s, 2000)
+    s = "; ".join(x.strip(" ;,") for x in s.split("\n") if x.strip(" ;,"))
+    s = re.sub(r"\s+", " ", s).strip()
+    if re.fullmatch(r"(?i)(n/?a|none|tbd|tba|-+|\.)?", s):
+        return None
+    return s[:limit]
+
 def iso(d):
     return d.astimezone(TZ).isoformat(timespec="seconds")
 
@@ -232,16 +244,16 @@ def make_event(source, source_name, sid, title, start, end=None, all_day=False, 
     eid = hashlib.sha1(f"{source}:{sid}".encode()).hexdigest()[:16]
     return {
         "id": eid, "source": source, "sourceName": source_name,
-        "title": clean_title(title)[:160],
+        "title": one_line(clean_title(title), 160) or clean_title(title)[:160],
         "start": iso(start), "end": iso(end) if end else None,
         "allDay": bool(all_day), "timeTBD": bool(time_tbd),
-        "venue": (venue or "").strip()[:120] or None,
-        "address": (address or "").strip()[:160] or None,
+        "venue": one_line(venue, 120),
+        "address": one_line(address, 160),
         "lat": lat, "lng": lng,
-        "url": url, "ticketUrl": ticket_url, "phone": phone, "price": price,
+        "url": url, "ticketUrl": ticket_url, "phone": phone, "price": one_line(price, 140),
         "category": category or "community", "imageUrl": image,
         "description": strip_html(description, 600) if description else None,
-        "organizer": organizer,
+        "organizer": one_line(organizer, 120) if isinstance(organizer, str) else organizer,
         "audience": infer_audience(title, strip_html(description, 2000) if description else "", category or "community"),
         "categories": all_categories(title, description, category or "community",
                                      campus_ok=source in ("mizzou", "dbrl")),
@@ -1398,6 +1410,14 @@ def main():
     save_json(PAGECACHE_PATH, PAGECACHE)
 
     merged = dedupe(kept)
+    for e in merged:  # carried-forward and venue-table text never went through make_event's cleaning
+        for k, n in (("price", 140), ("venue", 120), ("address", 160), ("organizer", 120)):
+            if isinstance(e.get(k), str):
+                e[k] = one_line(e[k], n)
+        if isinstance(e.get("title"), str) and re.search(r"<[A-Za-z/]|&[#a-zA-Z0-9]+;", e["title"]):
+            e["title"] = one_line(e["title"], 160) or e["title"]
+        if isinstance(e.get("description"), str) and re.search(r"<[A-Za-z/]|&[#a-zA-Z0-9]+;", e["description"]):
+            e["description"] = strip_html(e["description"], 600)
     merged.sort(key=lambda e: e["start"])
     with_geo = sum(1 for e in merged if e["lat"] is not None)
     feed = {

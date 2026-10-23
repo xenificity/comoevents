@@ -88,6 +88,17 @@
 
   var $ = function (id) { return document.getElementById(id); };
   var el = function (tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
+  // Last line of defence against source junk like "<p> $6 </p>" or "&amp;" in short text fields.
+  var plain = function (s) {
+    if (!s) return null;
+    if (/[<&]/.test(s)) {
+      // DOMParser documents are inert: no scripts run and no images load.
+      var html = String(s).replace(/<br\s*\/?>|<\/p>|<\/div>|<\/li>/gi, "\n").replace(/<(script|style)[\s\S]*?<\/\1>/gi, "");
+      s = new DOMParser().parseFromString(html, "text/html").body.textContent || "";
+    }
+    s = s.split("\n").map(function (x) { return x.replace(/\s+/g, " ").trim(); }).filter(Boolean).join("; ");
+    return /^(n\/?a|none|tbd|tba|-+)?$/i.test(s) ? null : s;
+  };
   var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
   function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
@@ -286,6 +297,18 @@
     var geo = new maplibregl.GeolocateControl({ positionOptions: { enableHighAccuracy: false }, trackUserLocation: false, showUserLocation: true });
     map.addControl(geo, "bottom-right");
     map.on("load", function () {
+      // Busy-area heat: edgeless yellow-to-amber glow under the pins, below the map's labels.
+      var firstLabel = (map.getStyle().layers || []).find(function (l) { return l.type === "symbol"; });
+      map.addSource("heat", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+      map.addLayer({ id: "event-heat", type: "heatmap", source: "heat", maxzoom: 19, paint: {
+        "heatmap-weight": 1,
+        "heatmap-intensity": ["interpolate", ["linear"], ["zoom"], 11, 0.6, 15, 1.1, 18, 1.6],
+        "heatmap-radius": ["interpolate", ["linear"], ["zoom"], 11, 30, 14, 56, 17, 96],
+        "heatmap-opacity": 0.75,
+        "heatmap-color": ["interpolate", ["linear"], ["heatmap-density"],
+          0, "rgba(255,214,0,0)", 0.15, "rgba(255,214,0,0.16)", 0.4, "rgba(255,214,0,0.32)",
+          0.7, "rgba(237,173,0,0.42)", 1, "rgba(255,140,0,0.52)"]
+      } }, firstLabel ? firstLabel.id : undefined);
       map.on("zoomend", renderMarkers);
       renderMarkers();
     });
@@ -313,13 +336,14 @@
   function renderMarkers() {
     if (!map) return;
     state.hotspots = buildHotspots(state.visible);
+    var heat = map.getSource && map.getSource("heat");
+    if (heat) heat.setData({ type: "FeatureCollection", features: state.visible.filter(function (e) { return e.lat != null && e.lng != null; })
+      .map(function (e) { return { type: "Feature", geometry: { type: "Point", coordinates: [e.lng, e.lat] }, properties: {} }; }) });
     markers.forEach(function (m) { m.remove(); }); markers = [];
     state.hotspots.forEach(function (h) {
-      var n = h.events.length, size = Math.min(38 + n * 1.5, 56), c = CATS[h.dominant].color;
+      var n = h.events.length, size = Math.min(24 + n * 0.6, 32), c = CATS[h.dominant].color;
       var wrap = el("div", "pinwrap");
       wrap.style.setProperty("--c", c); wrap.style.setProperty("--s", size + "px");
-      if (n >= 3) { var busy = el("div", "busy"); busy.style.setProperty("--h", Math.min(100 + n * 6, 170) + "px"); wrap.appendChild(busy); }
-      wrap.appendChild(el("div", "halo"));
       var pin = el("div", "pin" + (state.selected && h.events.some(function (e) { return e.id === state.selected; }) ? " sel" : ""), ic(h.dominant) + (n > 1 ? "<b>" + (n > 99 ? "99+" : n) + "</b>" : ""));
       pin.title = h.title + (n > 1 ? " · " + n + " events" : "");
       pin.onclick = function (ev) { ev.stopPropagation(); if (n === 1) openDetail(h.events[0]); else openSheet(h); };
@@ -774,6 +798,9 @@
   function mergeEvents(rerender) {
     var ids = new Set((state.feed || []).map(function (e) { return e.id; }));
     var extra = (window.Cloud ? Cloud.community.approved : []).filter(function (e) { return !ids.has(e.id); }).map(function (e) { e._start = parseDate(e.start) || new Date(0); e._end = parseDate(e.end); return e; });
+    (state.feed || []).forEach(function (e) {
+      ["title", "venue", "address", "price", "organizer"].forEach(function (k) { if (typeof e[k] === "string") e[k] = plain(e[k]) || (k === "title" ? e[k] : null); });
+    });
     state.events = (state.feed || []).concat(extra).sort(function (a, b) { return a._start - b._start; });
     if (rerender !== false) { recompute(); renderSaved(); }
   }
