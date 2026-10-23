@@ -1413,7 +1413,7 @@ def enrich(events):
         # Quality
         q = 0
         img = e.get("imageUrl") or ""
-        if img and not re.search(r"placeholder|default|logo", img, re.I): q += 22
+        if img and not e.get("imageGenerated") and not re.search(r"placeholder|default|logo|/img/gen/", img, re.I): q += 22
         letters = [ch for ch in title if ch.isalpha()]
         caps = sum(ch.isupper() for ch in letters) / max(len(letters), 1)
         if 8 <= len(title) <= 75: q += 14

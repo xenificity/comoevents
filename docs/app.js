@@ -527,7 +527,7 @@
       '<a class="plink" href="privacy.html">' + ic("lock") + "Privacy policy</a>" +
       '<a class="plink" href="' + INSTALL + '">' + ic("phoneDev") + "Get the iPhone app</a>" +
       '<a class="plink" href="about/">' + ic("sparkles") + "About CoMo Events</a>" +
-      '<p style="margin:8px 0 0;font-size:12px">Reminders, friends, attendance and posting live in the iPhone app. This web version shows the same events and keeps your saves in this browser.</p>');
+      '<p style="margin:8px 0 0;font-size:12px">Reminders, friends, attendance and posting live in the iPhone app. This web version shows the same events and keeps your saves in this browser. Events without a picture get one drawn from their details, with <a href="https://github.com/jdecked/twemoji" target="_blank" rel="noopener">Twemoji</a> art (CC-BY 4.0).</p>');
     box.appendChild(help);
     if (ck.userRecordName) box.appendChild(el("div", "glass card pcard", "<small style=\"font-weight:700;color:var(--muted)\">Your CoMo ID</small><div class=\"mono\">" + esc(ck.userRecordName) + "</div>"));
   }

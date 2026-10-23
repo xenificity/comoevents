@@ -3,6 +3,7 @@
 set -e
 cd "$(dirname "$0")/.."
 python3 feed/aggregate.py "$@"
+python3 scripts/make_covers.py   # pictures for events without one (needs Chrome + Pillow)
 cp feed/events.json CoMoEvents/Resources/events.json
 cp feed/events.json docs/events.json
 cp feed/venues.json CoMoEvents/Resources/venues.json

@@ -13,8 +13,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests python-dateutil
+      - run: pip install requests python-dateutil pillow
       - run: python3 feed/aggregate.py --max-geocode 40
+      - run: python3 scripts/make_covers.py   # cover pictures for events without one (Chrome is on the runner)
       - run: cp feed/events.json docs/events.json && cp feed/venues.json docs/venues.json && cp feed/search.json docs/search.json   # same-origin copies for the web app
       - run: python3 scripts/build_event_pages.py   # one page per event for Google's event search + sitemap
       - name: Commit if changed
@@ -22,6 +23,7 @@ jobs:
           git config user.name "feed-bot"
           git config user.email "feed-bot@users.noreply.github.com"
           git add feed/events.json feed/cache/geocode.json docs/events.json docs/venues.json docs/search.json
+          git add -A docs/img/gen feed/assets/twemoji docs/faith
           git add -A docs/e docs/sitemap.xml docs/robots.txt docs/index.html docs/tonight docs/this-weekend docs/free docs/music docs/family docs/nightlife docs/arts docs/food docs/sports docs/mizzou docs/venues docs/weekend-guide docs/embed feed/weekend
           # holiday pages exist only in season; add whichever are there now or were there before (deletions)
           for d in halloween thanksgiving christmas new-years-eve valentines st-patricks fourth-of-july graduation; do

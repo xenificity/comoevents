@@ -255,6 +255,8 @@ struct ProfileScreen: View {
             Link(destination: URL(string: "https://comoevent.com/privacy.html")!) {
                 Label("Privacy policy", systemImage: "lock").frame(maxWidth: .infinity, alignment: .leading)
             }
+            Text("Events without a picture get one drawn from their details, with Twemoji art (CC-BY 4.0).")
+                .font(.caption2).foregroundStyle(.secondary)
             if !community.blockedSubmitters.isEmpty {
                 Button { community.unblockAll(); store.communityEvents = community.approved } label: {
                     Label("Unblock \(community.blockedSubmitters.count) blocked poster\(community.blockedSubmitters.count == 1 ? "" : "s")", systemImage: "hand.raised.slash").frame(maxWidth: .infinity, alignment: .leading)

@@ -98,3 +98,9 @@ Read README.md first. Short version:
   loose fallback, related tail trimmed, repeats collapsed, time words) plus the taste profile (local only: save 3,
   going 4, open 1). Change JS and Swift together. Upcoming ranks within each day; search shows "Best matches".
   Deep link for testing: `comoevents://upcoming?q=hindu%20temple`. To make a search work better, edit search.json, not code.
+- Cover pictures (Oct 2026): `scripts/make_covers.py` runs after aggregate (update-feed.sh + feed workflow) and draws an
+  art-only cover (no text: apps overlay the title) for every event in the next 60 days without a picture: motif from
+  `MOTIFS` (title/venue regex, then tags, then category), colours per category, faint title keyword. Headless Chrome →
+  `docs/img/gen/<key>.webp`, `imageUrl` + `imageGenerated: true`; key = title+venue+motif+VERSION (bump VERSION to redraw
+  all); unused covers are deleted. Twemoji SVGs cached in `feed/assets/twemoji/` (CC-BY 4.0, credited in Profile/About).
+  Never pass `--virtual-time-budget` to Chrome (26 s per image). enrich() doesn't count generated covers in `score`.
