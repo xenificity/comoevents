@@ -38,7 +38,6 @@
    "description": "Join the Booneslick Trail Quilters' Guild for the 2026 quilt show, Freedom of Expression, featuring more than 150 beautiful quilts, free prese…",
    "end": "2026-10-23T17:00:00-05:00",
    "id": "816aadff03a03a9e",
-   "imageUrl": "https://comoevent.com/img/gen/794d454fc0b6e4.webp",
    "price": "$5",
    "source": "vox",
    "start": "2026-10-23T09:00:00-05:00",
@@ -263,7 +262,6 @@
    "description": "Pop-Up Picnic in the Park Couple Date Night (Self-Guided) Watch sunset with fun digital activities over picnic!",
    "end": "2026-10-23T17:00:00-05:00",
    "id": "7e560ff3960f98da",
-   "imageUrl": "https://comoevent.com/img/gen/b551b2890ac95e.webp",
    "source": "eventbrite",
    "start": "2026-10-23T13:00:00-05:00",
    "ticketUrl": "https://www.eventbrite.com/e/pop-up-park-picnic-couple-date-night-self-guided-columbia-area-tickets-1704694550289",
@@ -355,6 +353,18 @@
    "start": "2026-10-23T16:50:00-05:00",
    "title": "Wicker",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "divine-guidance-readings-w-anastacia-a2fa8a",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "a2fa8a57a458aeae",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9mMzZkMzY5YTg3ZjhkZGIzYmYxODcyZjUxMmY5NWMwNjhjMzNkNjMwYWEzZGM0ZTU0MTQyMzEyYzJhZmIzNTRmLXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyNzgwMTI1.avif",
+   "source": "allevents",
+   "start": "2026-10-23T17:00:00-05:00",
+   "title": "Divine Guidance Readings w / Anastacia"
   },
   {
    "_slug": "trunk-or-treat-friday-october-23rd-5-7pm-2bda6f",
@@ -456,6 +466,22 @@
    "start": "2026-10-23T18:30:00-05:00",
    "title": "NAZA",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "dead-jones-83f680",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with Last Common Ancestor x Upper Management / Allegations, Halcyon, & Coscoroba",
+   "id": "83f6803ea3621a5b",
+   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/deadjones-web.jpg",
+   "source": "bluenote",
+   "start": "2026-10-23T19:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/dead-jones-columbia-missouri-10-23-2026/event/06006530BB35CCD9",
+   "timeTBD": true,
+   "title": "Dead Jones",
+   "venue": "Rose Music Hall (Inside)"
   },
   {
    "_slug": "fresh-karma-columbia-boo-tique-market-0d0e05",
@@ -640,21 +666,6 @@
    "title": "Craft Night with Kenna: Hammered Copper Earrings!"
   },
   {
-   "_slug": "dead-jones-83f680",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "with Last Common Ancestor x Upper Management / Allegations, Halcyon, & Coscoroba",
-   "id": "83f6803ea3621a5b",
-   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/deadjones-web.jpg",
-   "source": "bluenote",
-   "start": "2026-10-23T20:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/dead-jones-columbia-missouri-10-23-2026/event/06006530BB35CCD9",
-   "title": "Dead Jones",
-   "venue": "Rose Music Hall (Inside)"
-  },
-  {
    "_slug": "dead-jones-rose-music-hall-055a8c",
    "categories": [
     "music"
@@ -718,49 +729,6 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "myhouse-friday-10-23-night-41d668",
-   "categories": [
-    "party"
-   ],
-   "category": "party",
-   "description": "Purchase a FastPass to skip the line! Ticket is a FastPass to skip the line; doors are usually around 10 PM.",
-   "id": "41d668bf8a25d282",
-   "imageUrl": "https://comoevent.com/img/gen/p-f7d2079e2749ef.webp",
-   "source": "posh",
-   "start": "2026-10-23T22:00:00-05:00",
-   "ticketUrl": "https://posh.vip/e/fastpass-friday-1023",
-   "title": "MyHouse Friday 10/23 Night",
-   "venue": "MyHouse"
-  },
-  {
-   "_slug": "the-taylor-party-ts-dance-party-ages-18-f18213",
-   "categories": [
-    "party",
-    "nightlife",
-    "arts"
-   ],
-   "category": "party",
-   "id": "f18213261763a604",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9lOWIzYWE3MDNlNDU0YjZjNmI3NTg1MmFlMDMzOGQwMWE4ZjEzMzRiMjAxYmI1NjE1OTVlN2Y4MmM1ODhhM2FlLXJpbWctdzEwMjQtaDU3Ni1kYzJjNzU5NS1nbWlyLmpwZz92PTE3ODQ5MTM1NDQ.avif",
-   "source": "allevents",
-   "start": "2026-10-24T00:00:00-05:00",
-   "timeTBD": true,
-   "title": "The Taylor Party: TS Dance Party (Ages 18+)",
-   "venue": "The Blue Note"
-  },
-  {
-   "_slug": "western-states-the-satans-cafe-berlin-60fdb3",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "60fdb35cc2634c78",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9kNDAwMzUxNWRlY2Q2NzZmNzhjMGEzYjcyODE5MThlOTEyMWQ5NjA4NTk3NTZiOTY0NDhjZmM4Yjg1NDM0MzZhLXJpbWctdzEyMDAtaDE1MTUtZGNmOGY4ZjgtZ21pcj92PTE3OTExMzAxMjQ.avif",
-   "source": "allevents",
-   "start": "2026-10-24T00:00:00-05:00",
-   "title": "Western States + The Satans @ Cafe Berlin"
-  },
-  {
    "_slug": "bear-creek-run-half-marathon-32c9ea",
    "alsoOn": [
     "https://allevents.in/columbia/bear-creek-run-half-marathon/200030751512335"
@@ -793,6 +761,19 @@
    "start": "2026-10-24T08:00:00-05:00",
    "title": "Columbia Farmers Market",
    "venue": "Columbia Farmers Market"
+  },
+  {
+   "_slug": "patriots-against-kings-paka-rally-db558a",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "db558a599eac810e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy83OWFhYzA3MDkzMjI4NmIxMDI3YWE4ODBhMzc0NGNhMzc2YjkwNjY4MTFmYzY3YzVkNTQxZjU2MDQxZjRiYzk0LXJpbWctdzEyMDAtaDgwMC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjc4MDA5Mg.avif",
+   "source": "allevents",
+   "start": "2026-10-24T08:00:00-05:00",
+   "title": "Patriots Against Kings (PAKA) Rally",
+   "venue": "Crossroads Shopping Center"
   },
   {
    "_slug": "2026-freedom-of-expression-quilt-show-0eb0aa",
@@ -913,6 +894,9 @@
   },
   {
    "_slug": "15th-annual-9-ball-tournament-gurucharri-foundation-bf5aab",
+   "alsoOn": [
+    "https://allevents.in/columbia/15th-annual-9-ball-tournament-gurucharri-foundation/100001998586996507"
+   ],
    "categories": [
     "community"
    ],
@@ -942,16 +926,22 @@
    "venue": "Billiards on Broadway"
   },
   {
-   "_slug": "5th-annual-spooktacular-parth-d2924f",
-   "categories": [
-    "community"
+   "_slug": "65-hertz-ft-pollux-ages-18-e0a250",
+   "alsoOn": [
+    "https://rosemusichall.com/event/65-hertz-ft-pollux/"
    ],
-   "category": "community",
-   "id": "d2924f47cf427690",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy84M2QwYTkyY2FlZWIyNmUxNTg4OGMxOWZlZmY0ZTFiMTFlMDkyMDYyYzJkMGM5YTEwYjRiM2RiZjQwNmMyNGQ1LXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTI2MzU4MDQ.avif",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with Asp, Babysox, BhDtheDJ, CVNETIS, ECHOEchoecho",
+   "id": "e0a2507abe781415",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iYjJhZGU2ZDdjZGYyZjhjY2ZkMGEzZGUzYmZjMWFhNWIyMTRjNzM0OTEzZmJkN2ZkYzg1NDU4NWYyNGMwYzJhLXJpbWctdzEwMjQtaDU3Ni1kYzI4MjgyOC1nbWlyLmpwZz92PTE3ODk1ODU4NjQ.avif",
    "source": "allevents",
    "start": "2026-10-24T10:00:00-05:00",
-   "title": "5th Annual Spooktacular Parth"
+   "ticketUrl": "https://www.ticketmaster.com/65-hertz-ft-pollux-ages-18-columbia-missouri-10-24-2026/event/06006529BDF0DB78",
+   "title": "65 Hertz ft. Pollux (Ages 18+)",
+   "venue": "Rose Music Hall"
   },
   {
    "_slug": "baseball-missouri-vs-game-1-04147b",
@@ -1011,16 +1001,17 @@
    "venue": "Harpo’s"
   },
   {
-   "_slug": "the-jeff-and-noah-collective-serenade-the-tavern-c11590",
+   "_slug": "the-diddy-wah-daddies-at-jazz-292f25",
    "categories": [
-    "community"
+    "music"
    ],
-   "category": "community",
-   "id": "c1159054f1de1f59",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9iY2YyNzQ2Y2MzNzAyZjQ4YTZiMzllZDQwM2ViNjYxYWNlMTI1MjkyNWI0YjFjMmJjMmU3YzNiOThlNzU0ODZmLXJpbWctdzEyMDAtaDkwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5MTgyMTQ5Mg.avif",
+   "category": "music",
+   "id": "292f256ce01386ad",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wZDIxZjk0N2EwZmY1Mzc1OGU4NjFlNWZkMzliMGJjNzQxYWMyY2U1Y2E3ZWRmNjIyN2UwNjFhNDA4YmJlZGJmLXJpbWctdzg0Ny1oNTY5LWRjMzgzODM4LWdtaXI_dj0xNzkyNzgwMTE2.avif",
    "source": "allevents",
    "start": "2026-10-24T10:00:00-05:00",
-   "title": "The Jeff and Noah Collective Serenade The Tavern"
+   "title": "The Diddy Wah Daddies at Jazz!",
+   "venue": "Jazz - A Louisiana Kitchen"
   },
   {
    "_slug": "walking-for-well-being-mizzou-traditions-and-history-tour-co-5e6c81",
@@ -1154,7 +1145,8 @@
   {
    "_slug": "vintage-vinyl-festival-1bae6e",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/vintage-and-vinyl-festival/event_4f178f91-d7d8-4074-8500-506aae4e1903.html"
+    "https://www.voxmagazine.com/calendar/vintage-and-vinyl-festival/event_4f178f91-d7d8-4074-8500-506aae4e1903.html",
+    "https://allevents.in/columbia/vintage-and-vinyl-festival-2026/200030889074922"
    ],
    "categories": [
     "music",
@@ -1169,7 +1161,7 @@
    "source": "visitcolumbia",
    "start": "2026-10-24T12:00:00-05:00",
    "title": "Vintage & Vinyl Festival",
-   "venue": "The Arcade District"
+   "venue": "The Arcade District, Columbia, Missouri"
   },
   {
    "_slug": "walking-for-well-being-mizzou-traditions-and-history-tour-co-29dc3e",
@@ -1184,6 +1176,18 @@
    "start": "2026-10-24T12:00:00-05:00",
    "title": "Walking for Well-Being: Mizzou Traditions and History Tour (COPY) (COPY)",
    "venue": "Reynolds Alumni Center next to the Beetle Baily Sculpture 2500 MU Student Center901 Rollins Columbia Miss 65211 United S"
+  },
+  {
+   "_slug": "western-permanent-jewelry-at-fringe-5a2531",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "5a25317521e123a0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy85OWIyOWFjZjNjMzU5MDczZmQwOWQ4NWQ5MGIzZDY5YjM5OGY4ZWI3YmJiZTgwNGU2NmJmNTM3MzFkMzU5NThkLXJpbWctdzEyMDAtaDY3NS1kYzg4YzhjOC1nbWlyP3Y9MTc5Mjc4MDEwNg.avif",
+   "source": "allevents",
+   "start": "2026-10-24T12:00:00-05:00",
+   "title": "{Western} Permanent Jewelry at Fringe!"
   },
   {
    "_slug": "a-l-gustin-golf-course-beehive-checkup-72eb61",
@@ -1320,6 +1324,9 @@
   },
   {
    "_slug": "columbia-ballet-academy-fall-festival-4ea128",
+   "alsoOn": [
+    "https://allevents.in/columbia/columbia-ballet-academy-fall-festival/200030859822118"
+   ],
    "categories": [
     "arts",
     "family"
@@ -1332,6 +1339,19 @@
    "source": "visitcolumbia",
    "start": "2026-10-24T14:00:00-05:00",
    "title": "Columbia Ballet Academy Fall Festival"
+  },
+  {
+   "_slug": "piano-showcase-2026-32f128",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "32f12876bb789468",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wMDA5NjYzY2ZmOTljMTQ0ZGRiNGYxODhkOGY4NWM0ODgyMjkwNTY0MzFiMDBmY2E1OTZjOTM3OWU5ODUwMjY0LXJpbWctdzEwODAtaDEwODAtZGNmOGI4MzgtZ21pcj92PTE3OTI3ODAxNDM.avif",
+   "source": "allevents",
+   "start": "2026-10-24T14:00:00-05:00",
+   "title": "Piano Showcase 2026",
+   "venue": "The Missouri Theater"
   },
   {
    "_slug": "the-temptations-revue-c40c9e",
@@ -1397,6 +1417,18 @@
    "venue": "Missouri Theatre"
   },
   {
+   "_slug": "columbia-trunk-or-treat-bcf1c2",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "bcf1c24863cc5053",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy83NjUyNzNlYWU4MzIwYWI3NzAzOWZmOWNmYzI5YTgyOWQ3YjFlYzFlOGViYWRkYmE0YmNhMGYwMDYxODE2NmQ1LXJpbWctdzEyMDAtaDYyNi1kYzA4NDg3OC1nbWlyP3Y9MTc5MjUxMDQ0Mw.avif",
+   "source": "allevents",
+   "start": "2026-10-24T16:00:00-05:00",
+   "title": "Columbia Trunk or Treat"
+  },
+  {
    "_slug": "piano-student-showcase-4dfc80",
    "alsoOn": [
     "https://calendar.missouri.edu/missouri-theatre/event/18401-the-missouri-symphony-piano-student-showcase"
@@ -1416,6 +1448,18 @@
    "start": "2026-10-24T16:00:00-05:00",
    "title": "Piano Student Showcase",
    "venue": "Missouri Theatre"
+  },
+  {
+   "_slug": "soul-awakenings-and-animal-communication-w-joanne-narr-ed002c",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "ed002c6b046b03ed",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9iNDU2NGI1ZTc4ZGE3ODhmNDAxYTdiNTM2YTBjZmQyMWRmYjE5ZTgwMjMzYjg3OWNhZjdhZGIzNzBiNTNjZmZkLXJpbWctdzgyMC1oMzEyLWRjZjhkOGY4LWdtaXI_dj0xNzkyNzgwMTE0.avif",
+   "source": "allevents",
+   "start": "2026-10-24T16:00:00-05:00",
+   "title": "Soul Awakenings and Animal Communication w/ Joanne Narr"
   },
   {
    "_slug": "diamond-in-the-rough-shake-the-city-edition-4a3177",
@@ -1466,7 +1510,6 @@
   {
    "_slug": "boone-county-history-makers-hall-of-fame-gala-2026-14949f",
    "alsoOn": [
-    "https://allevents.in/columbia/boone-county-history-makers-hall-of-fame-gala-2026/200030478622851",
     "https://baselocal.com/mo/columbia/events/#boone-county-history-makers-hall-of-fame-gala-2026"
    ],
    "categories": [
@@ -1540,8 +1583,7 @@
   {
    "_slug": "halloween-pickleball-showdown-doubles-tournament-e4b8d1",
    "alsoOn": [
-    "https://allevents.in/columbia/halloween-pickleball-showdown-doubles-tournament/100002003213746240",
-    "https://www.eventbrite.com/e/halloween-pickleball-showdown-doubles-tournament-tickets-2003213746240"
+    "https://allevents.in/columbia/halloween-pickleball-showdown-doubles-tournament/100002003213746240"
    ],
    "categories": [
     "sports"
@@ -1553,7 +1595,6 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/The-Halloween-Smash-Bash-Doubles-Pickleball-Tournament.png",
    "source": "visitcolumbia",
    "start": "2026-10-24T18:00:00-05:00",
-   "ticketUrl": "https://www.eventbrite.com/e/halloween-pickleball-showdown-doubles-tournament-tickets-2003213746240",
    "title": "Halloween Pickleball Showdown: Doubles Tournament",
    "venue": "The Kitchen Grill & Games"
   },
@@ -1574,6 +1615,18 @@
    "start": "2026-10-24T18:00:00-05:00",
    "title": "Light the Night Gala",
    "venue": "Elks Lodge"
+  },
+  {
+   "_slug": "open-house-920-engle-columbia-mo-2a65b5",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "2a65b530c97c706f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9hMDg3N2E5MjYxOTNhYmQ0NDZiNTIxZjlkN2U4ZGQ3OTNmY2RhZWEzYjI5YjJmNDc0MzYwODc5Yzc2OGYxMDg1LXJpbWctdzk0MC1oNzg4LWRjMzgzODM4LWdtaXI_dj0xNzkyNzgwMTQ0.avif",
+   "source": "allevents",
+   "start": "2026-10-24T18:00:00-05:00",
+   "title": "Open House 920 Engle Columbia MO"
   },
   {
    "_slug": "tryps-trivia-night-f61c3f",
@@ -1716,6 +1769,22 @@
    "venue": "MU Healthcare Pavillion"
   },
   {
+   "_slug": "canceled-the-taylor-party-90ae41",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "ft. Jonny Fuzion & JayRu",
+   "id": "90ae41b4272cc087",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/InterstellarOverdrive-TBN-Web.jpg",
+   "source": "bluenote",
+   "start": "2026-10-24T19:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/the-taylor-party-ts-dance-party-columbia-missouri-09-26-2026/event/060064EAC6BBD111",
+   "timeTBD": true,
+   "title": "[CANCELED] The Taylor Party",
+   "venue": "The Blue Note"
+  },
+  {
    "_slug": "curtis-pavey-faculty-piano-recital-a43109",
    "categories": [
     "campus"
@@ -1745,6 +1814,30 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "bears-n-twinks-party-7a62f5",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "7a62f50a1c5b61b1",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wNmNmN2E5ZTQxODhiOGI0ZWMxNzFhOTJlM2ExODg2YmJjODg3MzNhNTNmNzcwNzI2MmRlYzA4N2UyNmIxMjc5LXJpbWctdzEyMDAtaDYzMy1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjc4MDA5NQ.avif",
+   "source": "allevents",
+   "start": "2026-10-24T20:00:00-05:00",
+   "title": "Bears n Twinks Party"
+  },
+  {
+   "_slug": "doorstep-democracy-training-part-2-lunch-canvass-f2d3da",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "f2d3da71adb93854",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy82ZWM4ZDIwYmI0NWNhOTBkZjMwYWQ3ODVjMDc4Y2UwNmEyZjlhZmY2NGFhYjczNzYzOGE4NWFlYTJmMzIwZGI1LXJpbWctdzEyMDAtaDYyOC1kYzA4NzhiOC1nbWlyP3Y9MTc5Mjc4MDExOQ.avif",
+   "source": "allevents",
+   "start": "2026-10-24T20:00:00-05:00",
+   "title": "Doorstep Democracy: Training Part 2, Lunch & Canvass"
+  },
+  {
    "_slug": "trunk-or-treat-at-grace-bible-church-49fc01",
    "categories": [
     "family",
@@ -1756,24 +1849,6 @@
    "source": "allevents",
    "start": "2026-10-24T20:00:00-05:00",
    "title": "Trunk or Treat at Grace Bible Church"
-  },
-  {
-   "_slug": "65-hertz-ft-pollux-ages-18-e0a250",
-   "alsoOn": [
-    "https://rosemusichall.com/event/65-hertz-ft-pollux/"
-   ],
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "with Asp, Babysox, BhDtheDJ, CVNETIS, ECHOEchoecho",
-   "id": "e0a2507abe781415",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iYjJhZGU2ZDdjZGYyZjhjY2ZkMGEzZGUzYmZjMWFhNWIyMTRjNzM0OTEzZmJkN2ZkYzg1NDU4NWYyNGMwYzJhLXJpbWctdzEwMjQtaDU3Ni1kYzI4MjgyOC1nbWlyLmpwZz92PTE3ODk1ODU4NjQ.avif",
-   "source": "allevents",
-   "start": "2026-10-24T20:30:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/65-hertz-ft-pollux-ages-18-columbia-missouri-10-24-2026/event/06006529BDF0DB78",
-   "title": "65 Hertz ft. Pollux (Ages 18+)",
-   "venue": "Rose Music Hall"
   },
   {
    "_slug": "65-hertz-rose-music-hall-e46caa",
@@ -1859,25 +1934,23 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "canceled-the-taylor-party-90ae41",
+   "_slug": "the-taylor-party-f18213",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/the-taylor-party/event_d7b5d00f-e28b-46d8-8064-52c224370e7a.html"
+    "https://allevents.in/columbia/the-taylor-party-ts-dance-party-ages-18/210008725481333"
    ],
    "categories": [
-    "music",
     "party",
     "nightlife",
     "arts"
    ],
-   "category": "music",
-   "description": "ft. Jonny Fuzion & JayRu",
-   "id": "90ae41b4272cc087",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/InterstellarOverdrive-TBN-Web.jpg",
+   "category": "party",
+   "description": "You won’t need a getaway car for every Swiftie’s dream night out: a Taylor Swift dance party. Wear a cardigan, tight little skirt or an outfit…",
+   "id": "f18213261763a604",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9lOWIzYWE3MDNlNDU0YjZjNmI3NTg1MmFlMDMzOGQwMWE4ZjEzMzRiMjAxYmI1NjE1OTVlN2Y4MmM1ODhhM2FlLXJpbWctdzEwMjQtaDU3Ni1kYzJjNzU5NS1nbWlyLmpwZz92PTE3ODQ5MTM1NDQ.avif",
    "price": "$19.30- $62",
-   "source": "bluenote",
+   "source": "vox",
    "start": "2026-10-24T21:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/the-taylor-party-ts-dance-party-columbia-missouri-09-26-2026/event/060064EAC6BBD111",
-   "title": "[CANCELED] The Taylor Party",
+   "title": "The Taylor Party",
    "venue": "The Blue Note"
   },
   {
@@ -1927,6 +2000,18 @@
    "venue": "Shanthi Mandir"
   },
   {
+   "_slug": "cat-handling-body-language-workshop-at-bertha-s-beans-a9181e",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "a9181e8815d5eed0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9hODhiM2M0M2QwMmRjNzNhMmY3MDE5MjJlZWM3ZDkxNDE0MWUzODBlYjRjYTcyMjAzODRlN2U0OGI0N2U3MTMwLXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTI3ODAxMjU.avif",
+   "source": "allevents",
+   "start": "2026-10-25T10:00:00-05:00",
+   "title": "Cat Handling & Body Language Workshop at Bertha's Beans"
+  },
+  {
    "_slug": "brunch-boos-at-the-kitchen-grill-games-e33197",
    "categories": [
     "food",
@@ -1956,6 +2041,18 @@
    "start": "2026-10-25T12:00:00-05:00",
    "title": "Holy Smokes Mobile Meats",
    "venue": "Cooper's Landing"
+  },
+  {
+   "_slug": "witches-in-the-woods-ae8710",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "ae8710da860a9147",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy85YWRjNGU3MjUwZTRiYzk5MDU5YzBmMTQyY2JmYWZmYmVhZjkyMjZkNGY1MTRlNDJmZjc3NWI2ZmRlYmI5N2U0LXJpbWctdzg1MS1oMzE1LWRjZjhkOGM4LWdtaXI_dj0xNzkyNzgwMTI0.avif",
+   "source": "allevents",
+   "start": "2026-10-25T12:00:00-05:00",
+   "title": "Witches in the Woods"
   },
   {
    "_slug": "woofstock-2026-963a3d",
@@ -2039,8 +2136,8 @@
   {
    "_slug": "kid-disco-boo-bash-d1dffb",
    "alsoOn": [
-    "https://rosemusichall.com/event/kid-disco-boo-bash/",
-    "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596"
+    "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596",
+    "https://rosemusichall.com/event/kid-disco-boo-bash/"
    ],
    "categories": [
     "party",
@@ -2131,10 +2228,10 @@
   {
    "_slug": "theresa-caputo-live-the-experience-1b32d3",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
-    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
     "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
-    "https://allevents.in/columbia/theresa-caputo/200030544001559"
+    "https://allevents.in/columbia/theresa-caputo/200030544001559",
+    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
+    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience"
    ],
    "categories": [
     "family",
@@ -2209,7 +2306,7 @@
    "id": "b81d3ff8a1a4aa6e",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy85ZmZkZjFjNGNiMWJhM2U2ZDQ0YzQyZWU1MDQzNGFkM2E1MWZjMWUyZDEyZjU2NjJkOTYxM2U2YmM2YmQwNTJiLXJpbWctdzEyMDAtaDYwMC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3OTEyMjY4Nzk.avif",
    "source": "allevents",
-   "start": "2026-10-25T18:00:00-05:00",
+   "start": "2026-10-25T17:30:00-05:00",
    "title": "In Search of a Moral Economy (Free Event)",
    "venue": "Natural Nail Care Salon"
   },
