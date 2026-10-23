@@ -656,9 +656,8 @@
   {
    "_slug": "lumia-fa6529",
    "alsoOn": [
-    "https://mizzouarts.missouri.edu/event/lumia/",
-    "https://www.voxmagazine.com/calendar/lumia/event_e1048710-663c-46c4-95ab-f143dfc29625.html",
-    "https://calendar.missouri.edu/concert-series/event/17523-lumia"
+    "https://calendar.missouri.edu/concert-series/event/17523-lumia",
+    "https://mizzouarts.missouri.edu/event/lumia/"
    ],
    "categories": [
     "family",
@@ -762,19 +761,14 @@
   },
   {
    "_slug": "interstellar-overdrive-the-dark-side-of-oz-69d5ed",
-   "alsoOn": [
-    "https://thebluenote.com/event/interstellar-overdrive-the-dark-side-of-oz/"
-   ],
    "categories": [
-    "music"
+    "community"
    ],
-   "category": "music",
+   "category": "community",
    "description": "A performance by Interstellar Overdrive titled The Dark Side of Oz takes place at The Blue Note.",
    "id": "69d5ed1033be1006",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/InterstellarOverdrive-TBN-Web.jpg",
    "source": "baselocal",
    "start": "2026-10-23T20:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/interstellar-overdrive-the-dark-side-of-columbia-missouri-10-23-2026/event/06006512C215251F",
    "title": "Interstellar Overdrive: The Dark Side Of Oz",
    "venue": "The Blue Note"
   },
@@ -1038,6 +1032,19 @@
    "title": "5th Annual Spooktacular Parth"
   },
   {
+   "_slug": "65-hertz-ft-pollux-ages-18-e0a250",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e0a2507abe781415",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iYjJhZGU2ZDdjZGYyZjhjY2ZkMGEzZGUzYmZjMWFhNWIyMTRjNzM0OTEzZmJkN2ZkYzg1NDU4NWYyNGMwYzJhLXJpbWctdzEwMjQtaDU3Ni1kYzI4MjgyOC1nbWlyLmpwZz92PTE3ODk1ODU4NjQ.avif",
+   "source": "allevents",
+   "start": "2026-10-24T10:00:00-05:00",
+   "title": "65 Hertz ft. Pollux (Ages 18+)",
+   "venue": "Rose Music Hall"
+  },
+  {
    "_slug": "baseball-missouri-vs-game-1-04147b",
    "categories": [
     "sports"
@@ -1221,9 +1228,6 @@
   },
   {
    "_slug": "vintage-vinyl-festival-1bae6e",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/vintage-and-vinyl-festival/event_4f178f91-d7d8-4074-8500-506aae4e1903.html"
-   ],
    "categories": [
     "music",
     "food"
@@ -1233,11 +1237,9 @@
    "end": "2026-10-24T21:00:00-05:00",
    "id": "1bae6ec782388bee",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Vintage-and-Vinyl-Festival.jpg",
-   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-10-24T12:00:00-05:00",
-   "title": "Vintage & Vinyl Festival",
-   "venue": "The Arcade District"
+   "title": "Vintage & Vinyl Festival"
   },
   {
    "_slug": "walking-for-well-being-mizzou-traditions-and-history-tour-co-29dc3e",
@@ -1530,8 +1532,8 @@
   {
    "_slug": "boone-county-history-makers-hall-of-fame-gala-2026-14949f",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#boone-county-history-makers-hall-of-fame-gala-2026",
-    "https://allevents.in/columbia/boone-county-history-makers-hall-of-fame-gala-2026/200030478622851"
+    "https://allevents.in/columbia/boone-county-history-makers-hall-of-fame-gala-2026/200030478622851",
+    "https://baselocal.com/mo/columbia/events/#boone-county-history-makers-hall-of-fame-gala-2026"
    ],
    "categories": [
     "community"
@@ -1791,24 +1793,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "65-hertz-ft-pollux-ages-18-e0a250",
-   "alsoOn": [
-    "https://rosemusichall.com/event/65-hertz-ft-pollux/"
-   ],
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "with Asp, Babysox, BhDtheDJ, CVNETIS, ECHOEchoecho",
-   "id": "e0a2507abe781415",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iYjJhZGU2ZDdjZGYyZjhjY2ZkMGEzZGUzYmZjMWFhNWIyMTRjNzM0OTEzZmJkN2ZkYzg1NDU4NWYyNGMwYzJhLXJpbWctdzEwMjQtaDU3Ni1kYzI4MjgyOC1nbWlyLmpwZz92PTE3ODk1ODU4NjQ.avif",
-   "source": "allevents",
-   "start": "2026-10-24T20:30:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/65-hertz-ft-pollux-ages-18-columbia-missouri-10-24-2026/event/06006529BDF0DB78",
-   "title": "65 Hertz ft. Pollux (Ages 18+)",
-   "venue": "Rose Music Hall"
-  },
-  {
    "_slug": "65-hertz-rose-music-hall-e46caa",
    "categories": [
     "music"
@@ -2047,12 +2031,10 @@
   {
    "_slug": "kid-disco-boo-bash-d1dffb",
    "alsoOn": [
-    "https://rosemusichall.com/event/kid-disco-boo-bash/",
     "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596"
    ],
    "categories": [
-    "party",
-    "music"
+    "party"
    ],
    "category": "party",
    "description": "Join us for Kid Disco: Boo Bash, a Halloween party made for tiny dancers and their grown-ups. Come dressed in your favorite costume and get ready for music, dancing, treats, and plenty of not-too-spooky fun.",
@@ -2061,7 +2043,6 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Kid-Disco-Boo-Bash-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-25T13:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/kid-disco-boo-bash-at-rose-columbia-missouri-10-25-2026/event/06006530044B818C",
    "title": "Kid Disco: Boo Bash",
    "venue": "Rose Park"
   },
@@ -2136,9 +2117,9 @@
   {
    "_slug": "theresa-caputo-live-the-experience-1b32d3",
    "alsoOn": [
-    "https://allevents.in/columbia/theresa-caputo/200030544001559",
     "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
     "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
+    "https://allevents.in/columbia/theresa-caputo/200030544001559",
     "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083"
    ],
    "categories": [
@@ -2232,9 +2213,6 @@
   },
   {
    "_slug": "hang-your-hate-rose-music-hall-091e60",
-   "alsoOn": [
-    "https://rosemusichall.com/event/hang-your-hate-3/"
-   ],
    "categories": [
     "music"
    ],
@@ -2245,7 +2223,6 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Hang-Your-Hate-at-Rose-Music-Hall.png",
    "source": "visitcolumbia",
    "start": "2026-10-25T19:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/hang-your-hate-columbia-missouri-10-25-2026/event/06006518AB90B11F",
    "title": "Hang Your Hate – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -2283,18 +2260,6 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "sunday-with-pat-kay-at-cooper-s-landing-415e8e",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "415e8ecd24f066c9",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8yZjMzOGJlYzlmMWI2MjEyNDQwZDM5Njc3YzA2YjBhYzhiMGQyMjA4OTU3NjU1MmFhYWY3ZmQ3ZmNlMThlMjk5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZThjOC1nbWlyP3Y9MTc5MjM5MTYxOA.avif",
-   "source": "allevents",
-   "start": "2026-10-25T20:00:00-05:00",
-   "title": "Sunday with Pat Kay at Cooper's Landing"
-  },
-  {
    "_slug": "the-loop-s-halloweentown-eaa5d4",
    "categories": [
     "community"
@@ -2309,18 +2274,18 @@
   }
  ],
  "friday": "2026-10-23",
- "modified": "2026-10-22",
+ "modified": "2026-10-23",
  "picks": [
   "bf3d6af849653a00",
+  "83f6803ea3621a5b",
+  "4a663f917d3521fb",
   "a7c37b0296600613",
-  "69d5ed1033be1006",
   "41d668bf8a25d282",
   "32c9ea4ff61bfaab",
   "e4b8d122aea2b5d4",
   "45045671d3df262a",
   "c77ed8db77d59e5b",
-  "d1dffbf60ddd7853",
-  "091e600966e73ac8"
+  "d1dffbf60ddd7853"
  ],
  "published": "2026-10-22"
 }
