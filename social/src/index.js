@@ -91,7 +91,7 @@ export default {
       }
       if (url.pathname === "/facebook/deletion" && req.method === "POST") return await fbDeletion(req, env);
       if (url.pathname === "/deletion-status") return html(`<p>Your CoMo Events Facebook link has been deleted. Confirmation: ${esc(url.searchParams.get("code") || "")}</p>`);
-      if (url.pathname === "/health") return json({ ok: true, facebook: !!env.FB_APP_ID, google: !!env.GOOGLE_CLIENT_ID, cloudkit: !!env.CK_KEY_ID }, 200, cors);
+      if (url.pathname === "/health") return json({ ok: true, facebook: !!(env.FB_APP_ID && env.FB_APP_SECRET), google: !!(env.GOOGLE_CLIENT_ID && env.GOOGLE_CLIENT_SECRET), cloudkit: !!(env.CK_KEY_ID && env.CK_PRIVATE_KEY && env.SECRET) }, 200, cors);
       return json({ error: "not found" }, 404, cors);
     } catch (e) {
       console.error("social error", url.pathname, String(e && e.stack || e));
