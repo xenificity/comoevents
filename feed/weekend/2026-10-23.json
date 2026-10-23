@@ -1,22 +1,6 @@
 {
  "events": [
   {
-   "_slug": "graphic-design-showcase-c4659e",
-   "allDay": true,
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "end": "2026-10-29T00:00:00-05:00",
-   "id": "c4659e118c5cb7ac",
-   "imageUrl": "https://calendar.missouri.edu/live/image/gid/37/width/80/height/80/crop/1/src_region/0,0,3200,2409/1000_95991a69-618f-4afa-90bb-aef8b3467775-1_all_57836.jpg",
-   "price": "Free",
-   "source": "mizzou",
-   "start": "2026-10-23T00:00:00-05:00",
-   "title": "Graphic Design Showcase",
-   "venue": "Fine Arts Building"
-  },
-  {
    "_slug": "passport-walk-in-hours-8bd25d",
    "categories": [
     "campus"
@@ -72,33 +56,6 @@
    "start": "2026-10-23T09:00:00-05:00",
    "title": "Researcher Writing Retreat",
    "venue": "Bond Life Sciences Center"
-  },
-  {
-   "_slug": "sidewalk-symposium-f1ca20",
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "end": "2026-10-23T15:00:00-05:00",
-   "id": "f1ca20ddac9ba5ce",
-   "price": "<p>n/a</p>",
-   "source": "mizzou",
-   "start": "2026-10-23T09:00:00-05:00",
-   "title": "Sidewalk Symposium",
-   "venue": "Kuhlman Court"
-  },
-  {
-   "_slug": "st-michael-the-archangel-vs-father-tolton-varsity-football-4858c3",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "4858c3d3dcb5d496",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy81YmU3MWE3Mjg2ZjFjNjFiZTNkYjZiMjAwMmY0ZjBmZGY1OTAxN2E2OWM2YWQ4MjNhZGU2ZjM0OTZmYjA1ZmQ2LXJpbWctdzEyMDAtaDYzNC1kYzA4MDgxOC1nbWlyP3Y9MTc5MjYzNTY5Ng.avif",
-   "source": "allevents",
-   "start": "2026-10-23T09:00:00-05:00",
-   "title": "St. Michael the Archangel vs. Father Tolton | Varsity Football",
-   "venue": "Fr. Tolton Regional Catholic High School"
   },
   {
    "_slug": "international-student-workshop-optional-practical-training-507200",
@@ -213,20 +170,6 @@
    "venue": "Carnahan Quad"
   },
   {
-   "_slug": "explore-mizzous-museums-during-family-weekend-53e0ab",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "end": "2026-10-23T16:00:00-05:00",
-   "id": "53e0abc0a1da4602",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2463842_mediterranean_bustjpg_969f01b2-93ca-4c69-a0a9-6ea91077d5dd_1015105827.jpeg",
-   "source": "mizzou",
-   "start": "2026-10-23T12:00:00-05:00",
-   "title": "Explore Mizzou’s Museums During Family Weekend!",
-   "venue": "1020 Lowry Street Columbia MO 65201 2500 MU Student Center901 Rollins Columbia Miss 65211 United States"
-  },
-  {
    "_slug": "graduate-student-lunch-learn-with-dr-emily-friedman-627cab",
    "categories": [
     "campus"
@@ -238,21 +181,6 @@
    "start": "2026-10-23T12:00:00-05:00",
    "title": "Graduate Student Lunch & Learn with Dr. Emily Friedman",
    "venue": "Memorial Student Union"
-  },
-  {
-   "_slug": "makers-space-creative-area-during-family-weekend-registratio-c7eabc",
-   "categories": [
-    "family",
-    "campus"
-   ],
-   "category": "family",
-   "end": "2026-10-23T15:00:00-05:00",
-   "id": "c7eabc573021f02f",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2463842_ellis1jpg_e78bec53-abc5-4a9c-95a2-554442350294_1014125849.jpeg",
-   "source": "mizzou",
-   "start": "2026-10-23T12:00:00-05:00",
-   "title": "Maker’s Space: Creative Area During Family Weekend - REGISTRATION REQUIRED",
-   "venue": "Ellis Library Room 114A 2500 MU Student Center901 Rollins Columbia Miss 65211 United States"
   },
   {
    "_slug": "mizzou-family-weekend-2026-1de4d6",
@@ -313,20 +241,6 @@
    "venue": "Columbia Public Library"
   },
   {
-   "_slug": "phi-eta-sigma-initiation-45064c",
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "end": "2026-10-23T15:30:00-05:00",
-   "id": "45064cdf8f9ff599",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2409915_Phi_Eta_Sigma_logojpg_5617253.jpeg",
-   "source": "mizzou",
-   "start": "2026-10-23T14:00:00-05:00",
-   "title": "Phi Eta Sigma Initiation",
-   "venue": "Leadership Auditorium  2nd Floor MU Student Center 901 Rollins St Columbia MO 65211 United States"
-  },
-  {
    "_slug": "wicker-abb472",
    "categories": [
     "arts"
@@ -339,20 +253,6 @@
    "start": "2026-10-23T14:00:00-05:00",
    "title": "Wicker",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "study-abroad-information-session-ab4167",
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "end": "2026-10-23T15:30:00-05:00",
-   "id": "ab41676e45fec6ab",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2463842_Study_Abroad_8f184519-bf38-4936-83e6-7aebd97220bc_1014132118.png",
-   "source": "mizzou",
-   "start": "2026-10-23T14:30:00-05:00",
-   "title": "Study Abroad Information Session",
-   "venue": "Monsanto Auditorium Bond Life Sciences Center 2500 MU Student Center901 Rollins Columbia Miss 65211 United States"
   },
   {
    "_slug": "nafsi-hub-student-data-challenge-kick-off-fall-2026-bf267d",
@@ -382,32 +282,16 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "tigers-on-track-a-roadmap-for-financial-wellness-during-coll-07cde1",
+   "_slug": "creation-station-afterschool-game-lab-8724b2",
    "categories": [
-    "sports"
+    "community"
    ],
-   "category": "sports",
-   "end": "2026-10-23T17:00:00-05:00",
-   "id": "07cde1ca0eb3b07e",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2463842_EventPhoto_ddc5ad54-8d87-487a-afea-a7d624c2e198_1014134540.jpeg",
-   "source": "mizzou",
+   "category": "community",
+   "id": "8724b29ce2352601",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8xNmNhZWEyZGFjMmJhZjUzYWUyNGJmMWQxZjZhZDQwNzQwNDc1NWFjZmUzZjViNzhkYTZiOGRhNWIyZjA3ZmJhLXJpbWctdzk2MC1oOTYwLWRjZjhmOGY4LWdtaXI_dj0xNzkyNzUyMDI2.avif",
+   "source": "allevents",
    "start": "2026-10-23T16:00:00-05:00",
-   "title": "Tigers on Track: A Roadmap for Financial Wellness During College",
-   "venue": "Monsanto Auditorium Bond Life Sciences Center 2500 MU Student Center901 Rollins Columbia Miss 65211 United States"
-  },
-  {
-   "_slug": "walking-for-well-being-mizzou-traditions-and-history-tour-7635b5",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "end": "2026-10-23T17:15:00-05:00",
-   "id": "7635b55d48e19278",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2463842_Beetle_Bailey_Imagejpg_537a9ec8-25d4-4d0c-9fbe-4613c793321d_101511267.jpeg",
-   "source": "mizzou",
-   "start": "2026-10-23T16:00:00-05:00",
-   "title": "Walking for Well-Being: Mizzou Traditions and History Tour",
-   "venue": "Reynolds Alumni Center next to the Beetle Baily Sculpture 2500 MU Student Center901 Rollins Columbia Miss 65211 United S"
+   "title": "Creation Station - Afterschool Game Lab"
   },
   {
    "_slug": "wicker-738352",
@@ -424,20 +308,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "mizzous-botanic-garden-campus-tour-db1fc9",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "end": "2026-10-23T18:00:00-05:00",
-   "id": "db1fc9cef8caefef",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2463842_Botanic_Tourjpg_9b71e2eb-85c0-4200-9b41-d0438515d322_1015112925.jpeg",
-   "source": "mizzou",
-   "start": "2026-10-23T17:00:00-05:00",
-   "title": "Mizzou’s Botanic Garden Campus Tour",
-   "venue": "South Exterior of Jesse Hall non Columns facing side 2500 MU Student Center901 Rollins Columbia Miss 65211 United States"
-  },
-  {
    "_slug": "trunk-or-treat-friday-october-23rd-5-7pm-2bda6f",
    "categories": [
     "family"
@@ -449,20 +319,6 @@
    "source": "baselocal",
    "start": "2026-10-23T17:00:00-05:00",
    "title": "Trunk or Treat! Friday October 23rd! 5-7pm"
-  },
-  {
-   "_slug": "whodunnit-weekly-game-night-e20e7c",
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "end": "2026-10-23T19:00:00-05:00",
-   "id": "e20e7c4d18d724de",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2500800_Screenshot_1592026_183219_wwwcanvacom_83d4ac9c-e9fb-43d1-84ad-c376444602d5_915193240.jpeg",
-   "source": "mizzou",
-   "start": "2026-10-23T17:00:00-05:00",
-   "title": "WHODUNNIT? Weekly Game Night",
-   "venue": "Tate Hall 101 University of Missouri Columbia Missouri United States"
   },
   {
    "_slug": "magic-friday-night-commander-e708b8",
@@ -505,17 +361,14 @@
    "title": "Softball - Missouri vs. Lindenwood"
   },
   {
-   "_slug": "the-flood-brothers-bf3d6a",
-   "alsoOn": [
-    "https://allevents.in/columbia/the-flood-brothers-are-back/200030854693939"
-   ],
+   "_slug": "the-flood-brothers-72d0c3",
    "categories": [
     "music"
    ],
    "category": "music",
    "description": "@ Roots Rock, Deep Blues",
    "end": "2026-10-23T21:00:00-05:00",
-   "id": "bf3d6af849653a00",
+   "id": "72d0c33531ad09d7",
    "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/08/486624272_1193465629449938_7570150926298402289_n.jpg",
    "source": "cooperslanding",
    "start": "2026-10-23T18:00:00-05:00",
@@ -593,20 +446,6 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "illumination-on-the-quad-90b56e",
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "end": "2026-10-23T21:00:00-05:00",
-   "id": "90b56ea21b6f3aa4",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2505384_Illumination_Engage_dcfa56bf-cdc1-4624-ab18-483369cbef05_910145547.png",
-   "source": "mizzou",
-   "start": "2026-10-23T19:00:00-05:00",
-   "title": "Illumination on the Quad",
-   "venue": "Carnahan Quad Columbia MO 65201"
-  },
-  {
    "_slug": "interstellar-overdrive-the-wall-the-blue-note-4a663f",
    "categories": [
     "music"
@@ -656,8 +495,8 @@
   {
    "_slug": "lumia-fa6529",
    "alsoOn": [
-    "https://calendar.missouri.edu/concert-series/event/17523-lumia",
-    "https://mizzouarts.missouri.edu/event/lumia/"
+    "https://mizzouarts.missouri.edu/event/lumia/",
+    "https://calendar.missouri.edu/concert-series/event/17523-lumia"
    ],
    "categories": [
     "family",
@@ -717,6 +556,19 @@
    "start": "2026-10-23T19:00:00-05:00",
    "title": "“Why Do We Tell Stories?” A Talk by Dr. Emily Friedman during the Week of Writing",
    "venue": "Ellis Library"
+  },
+  {
+   "_slug": "st-michael-the-archangel-vs-father-tolton-varsity-football-4858c3",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "4858c3d3dcb5d496",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy81YmU3MWE3Mjg2ZjFjNjFiZTNkYjZiMjAwMmY0ZjBmZGY1OTAxN2E2OWM2YWQ4MjNhZGU2ZjM0OTZmYjA1ZmQ2LXJpbWctdzEyMDAtaDYzNC1kYzA4MDgxOC1nbWlyP3Y9MTc5MjYzNTY5Ng.avif",
+   "source": "allevents",
+   "start": "2026-10-23T19:30:00-05:00",
+   "title": "St. Michael the Archangel vs. Father Tolton | Varsity Football",
+   "venue": "Fr. Tolton Regional Catholic High School"
   },
   {
    "_slug": "wicker-48adf9",
@@ -814,6 +666,22 @@
    "ticketUrl": "https://posh.vip/e/fastpass-friday-1023",
    "title": "MyHouse Friday 10/23 Night",
    "venue": "MyHouse"
+  },
+  {
+   "_slug": "graphic-design-showcase-c4659e",
+   "allDay": true,
+   "categories": [
+    "campus"
+   ],
+   "category": "campus",
+   "end": "2026-10-29T00:00:00-05:00",
+   "id": "c4659e118c5cb7ac",
+   "imageUrl": "https://calendar.missouri.edu/live/image/gid/37/width/80/height/80/crop/1/src_region/0,0,3200,2409/1000_95991a69-618f-4afa-90bb-aef8b3467775-1_all_57836.jpg",
+   "price": "Free",
+   "source": "mizzou",
+   "start": "2026-10-24T00:00:00-05:00",
+   "title": "Graphic Design Showcase",
+   "venue": "Fine Arts Building"
   },
   {
    "_slug": "western-states-the-satans-cafe-berlin-60fdb3",
@@ -958,20 +826,6 @@
    "ticketUrl": "https://www.eventbrite.com/e/puppy-yoga-at-harpos-with-sarahs-yoga-studio-tickets-2003081138607",
    "title": "Puppy Yoga at Harpo's with Sarah's Yoga Studio",
    "venue": "Harpo's Bar & Grill"
-  },
-  {
-   "_slug": "sidewalk-symposium-rain-date-3f9630",
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "end": "2026-10-24T15:00:00-05:00",
-   "id": "3f9630bff8a6d8e7",
-   "price": "<p>n/a</p>",
-   "source": "mizzou",
-   "start": "2026-10-24T09:00:00-05:00",
-   "title": "Sidewalk Symposium - RAIN DATE",
-   "venue": "Kuhlman Court"
   },
   {
    "_slug": "together-in-kc-90d8a6",
@@ -1532,8 +1386,8 @@
   {
    "_slug": "boone-county-history-makers-hall-of-fame-gala-2026-14949f",
    "alsoOn": [
-    "https://allevents.in/columbia/boone-county-history-makers-hall-of-fame-gala-2026/200030478622851",
-    "https://baselocal.com/mo/columbia/events/#boone-county-history-makers-hall-of-fame-gala-2026"
+    "https://baselocal.com/mo/columbia/events/#boone-county-history-makers-hall-of-fame-gala-2026",
+    "https://allevents.in/columbia/boone-county-history-makers-hall-of-fame-gala-2026/200030478622851"
    ],
    "categories": [
     "community"
@@ -2117,10 +1971,10 @@
   {
    "_slug": "theresa-caputo-live-the-experience-1b32d3",
    "alsoOn": [
-    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
-    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
     "https://allevents.in/columbia/theresa-caputo/200030544001559",
-    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083"
+    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
+    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
+    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience"
    ],
    "categories": [
     "family",
@@ -2276,10 +2130,10 @@
  "friday": "2026-10-23",
  "modified": "2026-10-23",
  "picks": [
-  "bf3d6af849653a00",
   "83f6803ea3621a5b",
   "4a663f917d3521fb",
   "a7c37b0296600613",
+  "055a8ce38de42961",
   "41d668bf8a25d282",
   "32c9ea4ff61bfaab",
   "e4b8d122aea2b5d4",
