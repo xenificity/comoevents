@@ -1,14 +1,15 @@
 import AVFoundation
 import Foundation
 
-/// Two small, soft sounds: a welcome chime when the app opens and a pluck when an event is saved.
+/// Small, soft sounds: a welcome chime when the app opens, a pluck when an event is saved, a quiet tap
+/// for buttons and tabs, and a sparkle when someone signs in.
 /// Both are synthesised in memory (sine tones with a gentle envelope), so there are no audio
 /// assets to ship. Uses the `.ambient` session: respects the silent switch and never pauses music.
 @MainActor
 final class SoundPlayer {
     static let shared = SoundPlayer()
 
-    enum Sound { case welcome, favorite }
+    enum Sound { case welcome, favorite, tap, signIn }
 
     static var enabled: Bool {
         get { UserDefaults.standard.object(forKey: "sounds.enabled") as? Bool ?? true }
@@ -18,12 +19,15 @@ final class SoundPlayer {
     private var players: [String: AVAudioPlayer] = [:]
     private var sessionReady = false
 
+    /// Quiet tick for buttons, chips and tabs.
+    static func tap() { shared.play(.tap) }
+
     func play(_ sound: Sound) {
         guard Self.enabled else { return }
         prepareSession()
         let key = "\(sound)"
         if players[key] == nil, let p = try? AVAudioPlayer(data: Self.render(sound)) {
-            p.volume = sound == .welcome ? 0.55 : 0.5
+            p.volume = sound == .welcome ? 0.55 : sound == .tap ? 0.22 : 0.5
             p.prepareToPlay()
             players[key] = p
         }
@@ -55,6 +59,15 @@ final class SoundPlayer {
             // Short two-note pluck: G5 then C6.
             return ([Note(hz: 783.99, at: 0.00, dur: 0.22, gain: 0.9),
                      Note(hz: 1046.5, at: 0.09, dur: 0.30, gain: 0.8)], 0.42)
+        case .tap:
+            // A soft, very short wooden tick (E6), quiet enough to hear on every press without annoying.
+            return ([Note(hz: 1318.5, at: 0.00, dur: 0.05, gain: 0.7)], 0.07)
+        case .signIn:
+            // Quick rising sparkle: E5 A5 C#6 E6.
+            return ([Note(hz: 659.25, at: 0.00, dur: 0.30, gain: 0.7),
+                     Note(hz: 880.00, at: 0.08, dur: 0.30, gain: 0.7),
+                     Note(hz: 1108.7, at: 0.16, dur: 0.35, gain: 0.7),
+                     Note(hz: 1318.5, at: 0.24, dur: 0.60, gain: 0.6)], 0.9)
         }
     }
 

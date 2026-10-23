@@ -19,7 +19,7 @@ struct AudienceBar: View {
     private func chip(_ a: Audience?, _ label: String, _ symbol: String) -> some View {
         let on = store.audience == a
         return Button {
-            withAnimation(.snappy(duration: 0.3)) { store.audience = a }
+            SoundPlayer.tap(); withAnimation(.snappy(duration: 0.3)) { store.audience = a }
         } label: {
             Label(label, systemImage: symbol)
                 .labelStyle(.titleAndIcon)

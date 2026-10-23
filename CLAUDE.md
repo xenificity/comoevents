@@ -104,3 +104,14 @@ Read README.md first. Short version:
   `docs/img/gen/<key>.webp`, `imageUrl` + `imageGenerated: true`; key = title+venue+motif+VERSION (bump VERSION to redraw
   all); unused covers are deleted. Twemoji SVGs cached in `feed/assets/twemoji/` (CC-BY 4.0, credited in Profile/About).
   Never pass `--virtual-time-budget` to Chrome (26 s per image). enrich() doesn't count generated covers in `score`.
+- Photos: make_covers.py `fix_photos()` first asks sources for full-size images (`better_url`: Mizzou LiveWhale
+  /width/1600/, AllEvents rs:fill:1200:600, Eventbrite original), measures them (cache `feed/cache/imagesize.json`), resizes
+  originals > 900 KB to docs/img/gen/p-*.webp, and drops photos under 700x300 (`photoTooSmall`) so a sharp cover is
+  drawn instead. Covers are rendered at 2x and saved 1800 px wide.
+- Horizon: aggregate.py keeps only events starting within `HORIZON_DAYS` (60).
+- Dark mode: web `data-theme` on <html> (inline <head> script; light by default, dark only when `theme`=dark in localStorage), moon/sun
+  `.theme-btn` added to every `.page-head` + the map's top-right, OpenFreeMap "dark" style (setStyle diff:false, heat
+  re-added on style.load). iOS: `AppearanceButton` (Theme.swift, @AppStorage "appearance") top-right on every tab,
+  applied with `.preferredColorScheme` in CoMoEventsApp; light by default even when the iPhone is dark.
+- Sounds (synthesised, no files): welcome, favorite, tap, signIn in SoundPlayer.swift and app.js playSound(). iOS ticks via
+  `Analytics.tap` (except "save"), tab changes, chips and opening an event; web ticks via one capture-phase click listener.

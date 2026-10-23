@@ -29,7 +29,11 @@ enum Analytics {
     }
 
     /// Same names as the web map: directions, save, going, here, went, share, calendar, tickets, post-event.
-    static func tap(_ name: String) { send(path: "click/\(name)", title: name, event: true) }
+    /// Every tracked button press also ticks (saving has its own sound).
+    static func tap(_ name: String) {
+        if name != "save" { SoundPlayer.tap() }
+        send(path: "click/\(name)", title: name, event: true)
+    }
 
     private static let session: URLSession = {
         let c = URLSessionConfiguration.ephemeral

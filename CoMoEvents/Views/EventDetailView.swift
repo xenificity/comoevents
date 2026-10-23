@@ -76,7 +76,7 @@ struct EventDetailView: View {
             .safeAreaInset(edge: .bottom, spacing: 0) { actionBar }
         }
         .navigationBarTitleDisplayMode(.inline)
-        .onAppear { Analytics.eventOpened(event); TasteProfile.shared.learn(event, 1) }
+        .onAppear { Analytics.eventOpened(event); TasteProfile.shared.learn(event, 1); SoundPlayer.tap() }
         .toolbarBackground(.hidden, for: .navigationBar)
         .toolbar(.hidden, for: .tabBar)
         .toolbar {

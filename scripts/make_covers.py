@@ -17,6 +17,8 @@ import argparse, base64, colorsys, hashlib, html, json, os, re, shutil, subproce
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 
+import io, urllib.parse
+
 import requests
 from PIL import Image
 
@@ -24,10 +26,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEED = os.path.join(ROOT, "feed", "events.json")
 OUT_DIR = os.path.join(ROOT, "docs", "img", "gen")
 EMOJI_DIR = os.path.join(ROOT, "feed", "assets", "twemoji")
+SIZE_CACHE = os.path.join(ROOT, "feed", "cache", "imagesize.json")
+MIN_W, MIN_H = 700, 300        # smaller photos look blurry on a phone card; they get a cover instead
+HEAVY = 900_000                # bigger originals are resized into docs/img/gen/p-*.webp
+OUT_W = 1800                   # covers are drawn at 2x and saved 1800 px wide: sharp on the iPhone detail header
 FONT = os.path.join(ROOT, "feed", "assets", "fonts", "ArchivoBlack.woff2")
 SITE = "https://comoevent.com"
 TWEMOJI = "https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/{}.svg"
-VERSION = "v3"   # bump to redraw every cover after changing the design
+VERSION = "v4"   # bump to redraw every cover after changing the design
 W, H = 1200, 630
 
 # Title (and venue) keywords → motifs, first match wins. Three emoji: the hero and two accents.
@@ -247,8 +253,89 @@ def _render(chrome, page, png, profile, height):
     subprocess.run([chrome, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--no-sandbox",
                     f"--user-data-dir={profile}", "--no-first-run", "--no-default-browser-check",
                     "--disable-extensions", "--disable-background-networking", "--disable-sync",
-                    "--force-device-scale-factor=1", f"--window-size={W},{height}",
+                    "--force-device-scale-factor=2", f"--window-size={W},{height}",
                     f"--screenshot={png}", "file://" + page], check=True, capture_output=True, timeout=150)
+
+
+# ---------- photos: ask sources for their big version, measure, drop the ones that stay small ----------
+UA = {"User-Agent": "CoMoEvents/1.0 (+https://comoevent.com)"}
+
+
+def better_url(u):
+    """The source's full-size version of a thumbnail URL."""
+    if "calendar.missouri.edu/live/image/" in u:              # LiveWhale: 80x80 crop → native size
+        return re.sub(r"/width/\d+/height/\d+/crop/\d+/", "/width/1600/", u)
+    if "cdn-ip.allevents.in/" in u:                            # imgproxy: 500x250 → 1200x600
+        return re.sub(r"rs:fill:\d+:\d+", "rs:fill:1200:600", u)
+    if "img.evbuc.com/" in u:                                  # signed resizer: use the original behind it
+        return urllib.parse.unquote(u.split("img.evbuc.com/", 1)[1].split("?", 1)[0])
+    return u
+
+
+def probe(u, cache):
+    """[width, height, bytes] of an image (bytes 0 if unknown), cached by URL; None if unreadable."""
+    if u in cache:
+        return cache[u]
+    out = None
+    try:
+        r = requests.get(u, headers=dict(UA, Range="bytes=0-131071"), timeout=20)
+        if r.status_code in (200, 206):
+            total = r.headers.get("Content-Range", "").rsplit("/", 1)[-1]
+            n = int(total) if total.isdigit() else int(r.headers.get("Content-Length") or 0)
+            try:
+                w, h = Image.open(io.BytesIO(r.content)).size
+            except Exception:   # header past the first 128 KB: fetch it all
+                r = requests.get(u, headers=UA, timeout=30)
+                w, h = Image.open(io.BytesIO(r.content)).size
+                n = len(r.content)
+            out = [w, h, n]
+    except Exception:
+        out = None
+    cache[u] = out
+    return out
+
+
+def fix_photos(events, used):
+    """Sharpen or replace event photos in place. Returns (upgraded, replaced, resized) counts."""
+    cache = json.load(open(SIZE_CACHE)) if os.path.exists(SIZE_CACHE) else {}
+    todo = {e["imageUrl"] for e in events if e.get("imageUrl") and not e.get("imageGenerated")}
+    with ThreadPoolExecutor(max_workers=10) as pool:
+        list(pool.map(lambda u: (probe(better_url(u), cache), probe(u, cache) if better_url(u) != u else None), todo))
+    up = repl = resized = 0
+    for e in events:
+        u = e.get("imageUrl")
+        if not u or e.get("imageGenerated"):
+            continue
+        b = better_url(u)
+        dims = cache.get(b) or (cache.get(u) if b != u else None)
+        if b != u and not cache.get(b):
+            b = u
+        if not dims:
+            continue                          # can't read it: leave as is
+        w, h, n = dims
+        if w < MIN_W or h < MIN_H:
+            e.pop("imageUrl"); e["photoTooSmall"] = True; repl += 1   # make_covers draws one
+            continue
+        if n > HEAVY:
+            key = "p-" + hashlib.sha1(b.encode()).hexdigest()[:14]
+            path = os.path.join(OUT_DIR, key + ".webp")
+            if not os.path.exists(path):
+                try:
+                    im = Image.open(io.BytesIO(requests.get(b, headers=UA, timeout=40).content)).convert("RGB")
+                    im.thumbnail((1600, 1600), Image.LANCZOS)
+                    im.save(path, "WEBP", quality=80, method=6)
+                    resized += 1
+                except Exception:
+                    continue
+            e["imageUrl"] = f"{SITE}/img/gen/{key}.webp"; used.add(key)
+            continue
+        if b != u:
+            e["imageUrl"] = b; up += 1
+    os.makedirs(os.path.dirname(SIZE_CACHE), exist_ok=True)
+    keep = {k: v for k, v in cache.items() if v is not None}
+    with open(SIZE_CACHE, "w") as f:
+        json.dump(keep, f, separators=(",", ":"), sort_keys=True)
+    return up, repl, resized
 
 
 def main():
@@ -267,6 +354,8 @@ def main():
         font_b64 = base64.b64encode(f.read()).decode()
 
     todo, used = {}, set()
+    up, repl, resized = fix_photos(feed["events"], used)
+    print(f"make_covers: photos: {up} switched to the full-size version, {repl} too small (cover instead), {resized} resized")
     for e in feed["events"]:
         if e.get("imageUrl") and not e.get("imageGenerated"):
             continue
@@ -307,8 +396,11 @@ def main():
                 try:
                     render(chrome, page, png, H * len(batch))
                     sheet = Image.open(png).convert("RGB")
+                    k = sheet.width / W   # 2 (device scale factor)
                     for i, (key, _) in enumerate(batch):
-                        sheet.crop((0, i * H, W, (i + 1) * H)).save(os.path.join(OUT_DIR, key + ".webp"), "WEBP", quality=74, method=6)
+                        tile = sheet.crop((0, round(i * H * k), sheet.width, round((i + 1) * H * k)))
+                        tile.resize((OUT_W, round(OUT_W * H / W)), Image.LANCZOS).save(
+                            os.path.join(OUT_DIR, key + ".webp"), "WEBP", quality=78, method=6)
                     return len(batch)
                 except Exception as x:
                     err = x

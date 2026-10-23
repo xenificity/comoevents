@@ -13,9 +13,11 @@ struct CoMoEventsApp: App {
     @StateObject private var router = Router()
     @StateObject private var usage = UsageCounter()
 
+    @AppStorage("appearance") private var appearance = ""
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(ColorScheme.from(appearance: appearance))
                 .environmentObject(store)
                 .environmentObject(location)
                 .environmentObject(account)

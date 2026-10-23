@@ -61,7 +61,7 @@ struct MapScreen: View {
                             HotspotPin(hotspot: h, highlighted: selected == h,
                                        friendsAt: friends.friends.isEmpty ? ([], []) : friends.friends(atAny: Set(h.events.map(\.id))))
                                 .onTapGesture {
-                                    withAnimation(.snappy) { selected = h }
+                                    SoundPlayer.tap(); withAnimation(.snappy) { selected = h }
                                 }
                         }
                         .annotationTitles(.hidden)
@@ -76,12 +76,15 @@ struct MapScreen: View {
 
                 // Floating top controls
                 VStack(spacing: 8) {
-                    AudienceBar()
+                    HStack(spacing: 8) {
+                        AudienceBar()
+                        AppearanceButton()
+                    }
                     HStack(spacing: 4) {
                         ForEach(TimeWindow.allCases) { w in
                             let on = window == w
                             Button {
-                                withAnimation(.snappy(duration: 0.3)) { window = w }
+                                SoundPlayer.tap(); withAnimation(.snappy(duration: 0.3)) { window = w }
                             } label: {
                                 Text(w.rawValue)
                                     .font(.footnote.weight(.bold))
@@ -275,7 +278,7 @@ struct CategoryLegend: View {
                 ForEach(Category.allCases) { c in
                     let on = selected.contains(c)
                     Button {
-                        withAnimation(.snappy(duration: 0.25)) { if on { selected.remove(c) } else { selected.insert(c) } }
+                        SoundPlayer.tap(); withAnimation(.snappy(duration: 0.25)) { if on { selected.remove(c) } else { selected.insert(c) } }
                     } label: {
                         HStack(spacing: 5) {
                             Image(systemName: c.symbol)

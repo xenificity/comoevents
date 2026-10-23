@@ -105,3 +105,31 @@ struct HeartButton: View {
         .accessibilityLabel(on ? "Remove from saved" : "Save")
     }
 }
+
+/// Top-right moon/sun button: switches the whole app between light and dark and remembers it.
+/// The app is light by default (even when the iPhone is in dark mode); dark only after a tap.
+struct AppearanceButton: View {
+    @AppStorage("appearance") private var appearance = ""
+    @Environment(\.colorScheme) private var scheme
+
+    var body: some View {
+        Button {
+            appearance = scheme == .dark ? "light" : "dark"
+            Analytics.tap("theme-" + appearance)   // ticks too
+        } label: {
+            Image(systemName: scheme == .dark ? "sun.max.fill" : "moon.fill")
+                .font(.system(size: 16, weight: .semibold))
+                .foregroundStyle(scheme == .dark ? Theme.yellow : Theme.ink)
+                .frame(width: 40, height: 40)
+                .contentShape(Circle())
+        }
+        .buttonStyle(.plain)
+        .glass(Circle(), interactive: true)
+        .accessibilityLabel(scheme == .dark ? "Light mode" : "Dark mode")
+    }
+}
+
+extension ColorScheme {
+    /// The app-wide pick from AppearanceButton: light unless dark mode was turned on.
+    static func from(appearance: String) -> ColorScheme? { appearance == "dark" ? .dark : .light }
+}

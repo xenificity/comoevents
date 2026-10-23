@@ -71,6 +71,7 @@ struct UpcomingScreen: View {
                         Button { Task { await store.refresh() } } label: { Image(systemName: "arrow.clockwise") }
                     }
                 }
+                ToolbarItem(placement: .topBarTrailing) { AppearanceButton() }
             }
             .safeAreaInset(edge: .bottom) {
                 if let err = store.lastError {
@@ -113,7 +114,7 @@ struct UpcomingScreen: View {
                 ForEach(Category.allCases) { c in
                     let on = categories.contains(c)
                     Button {
-                        withAnimation(.snappy) { if on { categories.remove(c) } else { categories.insert(c) } }
+                        SoundPlayer.tap(); withAnimation(.snappy) { if on { categories.remove(c) } else { categories.insert(c) } }
                     } label: {
                         Label(c.label, systemImage: c.symbol)
                             .font(.caption.weight(.bold))

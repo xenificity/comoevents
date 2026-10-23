@@ -17,6 +17,7 @@ struct ContentView: View {
         }
         .tint(Theme.gold)
         .onAppear { SoundPlayer.shared.play(.welcome) }
+        .onChange(of: router.tab) { _, _ in SoundPlayer.tap() }
         .onChange(of: store.favorites.count) { old, new in askForRatingIfDue(old: old, new: new) }
         .sheet(isPresented: $router.showSubmit) { SubmitEventView() }
         .sheet(item: Binding(get: { router.pendingEventID.flatMap { id in store.events.first { $0.id == id } } },

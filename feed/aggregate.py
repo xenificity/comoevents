@@ -26,6 +26,7 @@ BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.3
               "(KHTML, like Gecko) Chrome/130 Safari/537.36")
 DOWNTOWN = (38.9517, -92.3341)   # 9th & Broadway
 RADIUS_KM = 25.0
+HORIZON_DAYS = 60            # drop events starting more than ~2 months out
 FAR_OK_SOURCES = {"lyceum"}   # regional venues the user asked to include despite the distance
 
 S = requests.Session()
@@ -1361,6 +1362,10 @@ def concept_rules():
 WORSHIP_PLACE = re.compile(r"(?<![a-z])(church|chapel|cathedral|parish|mandir|temple|mosque|masjid|islamic center|synagogue|congregation|gurd?u?wara|ministries|newman center)(?![a-z])", re.I)
 NOT_WORSHIP = re.compile(r"\b(market|bookmobile|quilt|sale|blood drive|wrestling|vs\.?|library)\b", re.I)
 
+def event_start(e):
+    return dt.datetime.fromisoformat(e["start"])
+
+
 def enrich(events):
     """Adds `tags` (smart-search concepts; "x~" = only the description mentions it), the `religious`
     category, and `score` (0-100: picture, clear title, known venue, downtown/campus, details, how
@@ -1510,6 +1515,9 @@ def main():
     save_json(PAGECACHE_PATH, PAGECACHE)
 
     merged = dedupe(kept)
+    # Only the next two months: events further out are often placeholders and aren't taken seriously.
+    horizon = now + dt.timedelta(days=HORIZON_DAYS)
+    merged = [e for e in merged if event_start(e) <= horizon]
     for e in merged:  # carried-forward and venue-table text never went through make_event's cleaning
         for k, n in (("price", 140), ("venue", 120), ("address", 160), ("organizer", 120)):
             if isinstance(e.get(k), str):

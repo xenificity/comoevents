@@ -60,6 +60,7 @@ final class AccountManager: ObservableObject {
                 if !name.isEmpty { profile.displayName = name; profile.updatedAt = Date() }
             }
             saveLocal()
+            SoundPlayer.shared.play(.signIn)
             Task { await pull(); await push() }
         }
     }

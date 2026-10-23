@@ -26,6 +26,7 @@ struct FriendsScreen: View {
                 }
             }
             .navigationTitle("Friends")
+            .toolbar { ToolbarItem(placement: .topBarTrailing) { AppearanceButton() } }
             .refreshable { await friends.refresh() }
             .alert("Friends", isPresented: Binding(get: { message != nil }, set: { if !$0 { message = nil } })) { Button("OK") {} } message: { Text(message ?? "") }
             .sheet(isPresented: $showContacts) {

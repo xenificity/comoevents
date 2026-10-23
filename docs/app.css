@@ -294,3 +294,34 @@ a{color:inherit}
 .seo-browse a{text-decoration:none;font-weight:700;font-size:13.5px;padding:8px 12px;border-radius:999px;background:var(--glass, rgba(255,255,255,.7));box-shadow:0 2px 8px rgba(0,0,0,.08);color:inherit}
 
 .linkbtn{background:none;border:0;padding:0;color:var(--gold);font:inherit;font-weight:700;cursor:pointer;text-decoration:underline}
+
+/* ---------- dark mode: [data-theme] is set in <head> from the visitor's pick or the device setting ---------- */
+.map-theme{position:absolute;top:10px;right:12px;z-index:6;width:42px;height:42px}
+.map-top{padding-right:62px}
+@media (min-width:700px){.map-top{padding-right:12px}}
+.theme-btn .ic svg{width:20px;height:20px}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --text:#f2f2f5;--muted:#a1a1ab;--page:#0e0e11;
+  --glass:rgba(34,34,40,.62);--glass2:rgba(40,40,46,.86);--edge:rgba(255,255,255,.10);
+  --shadow:0 10px 30px rgba(0,0,0,.5);
+}
+:root[data-theme="dark"] body::before{background:
+ radial-gradient(520px 520px at 0% 0%,rgba(255,214,0,.14),transparent 70%),
+ radial-gradient(520px 520px at 100% 100%,rgba(140,80,255,.16),transparent 70%)}
+:root[data-theme="dark"] .maplibregl-ctrl-attrib{background:rgba(20,20,24,.6)!important;color:#ccc}
+:root[data-theme="dark"] .maplibregl-ctrl-attrib a{color:#ddd}
+:root[data-theme="dark"] .maplibregl-ctrl-group{background:#26262c}
+:root[data-theme="dark"] .maplibregl-ctrl-group button .maplibregl-ctrl-icon{filter:invert(1)}
+:root[data-theme="dark"] .tabbar{background:rgba(30,30,36,.78)}
+:root[data-theme="dark"] .rowh{background:linear-gradient(rgba(24,24,28,.95),rgba(24,24,28,.7))}
+:root[data-theme="dark"] .row-ev:hover{background:rgba(255,255,255,.06)}
+:root[data-theme="dark"] .sheet-card{background:rgba(26,26,31,.92)}
+:root[data-theme="dark"] .hero .nav .circle{background:rgba(30,30,36,.75)}
+:root[data-theme="dark"] .menu{background:rgba(32,32,38,.95)}
+:root[data-theme="dark"] .pill.soft,:root[data-theme="dark"] .pill.count{background:rgba(30,30,36,.6);color:#fff}
+:root[data-theme="dark"] .pform input,:root[data-theme="dark"] .pform select,:root[data-theme="dark"] .pform textarea{background:rgba(255,255,255,.08)}
+:root[data-theme="dark"] .chip.on{background:color-mix(in srgb,var(--c) 55%,rgba(20,20,24,.6))}
+:root[data-theme="dark"] .seo-browse a{box-shadow:none}
+:root[data-theme="dark"] .toast{background:#f2f2f5;color:#111}
+:root[data-theme="dark"] .pin{border-color:rgba(255,255,255,.9)}

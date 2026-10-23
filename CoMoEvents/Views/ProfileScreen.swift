@@ -39,6 +39,7 @@ struct ProfileScreen: View {
                 .scrollDismissesKeyboard(.interactively)
             }
             .navigationTitle("Profile")
+            .toolbar { ToolbarItem(placement: .topBarTrailing) { AppearanceButton() } }
             .onAppear { name = account.profile.displayName; Task { await community.prepare() } }
             .alert("Sign in", isPresented: Binding(get: { account.lastError != nil }, set: { if !$0 { account.lastError = nil } })) {
                 Button("OK") { account.lastError = nil }
@@ -196,7 +197,7 @@ struct ProfileScreen: View {
             Toggle(isOn: $soundsOn) {
                 VStack(alignment: .leading) {
                     Text("Sounds").font(.subheadline.weight(.semibold))
-                    Text("A soft chime when the app opens and when you save an event. Follows the silent switch.").font(.caption).foregroundStyle(.secondary)
+                    Text("A chime when the app opens, a pluck when you save, a soft tick on buttons and a sparkle when you sign in. Follows the silent switch.").font(.caption).foregroundStyle(.secondary)
                 }
             }.tint(Theme.gold)
             .onChange(of: soundsOn) { _, on in SoundPlayer.enabled = on; if on { SoundPlayer.shared.play(.favorite) } }

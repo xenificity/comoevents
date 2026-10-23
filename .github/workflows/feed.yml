@@ -23,7 +23,7 @@ jobs:
           git config user.name "feed-bot"
           git config user.email "feed-bot@users.noreply.github.com"
           git add feed/events.json feed/cache/geocode.json docs/events.json docs/venues.json docs/search.json
-          git add -A docs/img/gen feed/assets/twemoji docs/faith
+          git add -A docs/img/gen feed/assets/twemoji docs/faith feed/cache/imagesize.json
           git add -A docs/e docs/sitemap.xml docs/robots.txt docs/index.html docs/tonight docs/this-weekend docs/free docs/music docs/family docs/nightlife docs/arts docs/food docs/sports docs/mizzou docs/venues docs/weekend-guide docs/embed feed/weekend
           # holiday pages exist only in season; add whichever are there now or were there before (deletions)
           for d in halloween thanksgiving christmas new-years-eve valentines st-patricks fourth-of-july graduation; do

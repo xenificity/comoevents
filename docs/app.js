@@ -6,7 +6,12 @@
   "use strict";
 
   var FEED = ["events.json", "https://raw.githubusercontent.com/xenificity/comoevents/main/feed/events.json"];
-  var STYLE = "https://tiles.openfreemap.org/styles/liberty";
+  var STYLES = { light: "https://tiles.openfreemap.org/styles/liberty", dark: "https://tiles.openfreemap.org/styles/dark" };
+  // Theme: light unless the visitor turns dark mode on with the top-right moon button (remembered).
+  // <head> sets data-theme before first paint; this keeps it in step.
+  function savedTheme() { try { return localStorage.getItem("theme"); } catch (e) { return null; } }
+  function currentTheme() { return savedTheme() === "dark" ? "dark" : "light"; }
+  var STYLE = STYLES[currentTheme()];
   var INSTALL = "get/?c=webapp";
   function track(path, title) { try { if (window.CE_track) window.CE_track(path, title); } catch (_) {} }
   function siteRoot() { return location.origin + location.pathname.replace(/(app\/)?[^/]*$/, ""); }   // the folder the app is served from: comoevent.com/ or github.io/comoevents/
@@ -14,6 +19,8 @@
 
   // SF-Symbol-like glyphs (Material paths, 24x24).
   var ICONS = {
+    moon: "M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z",
+    sun: "M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58a.996.996 0 0 0-1.41 0 .996.996 0 0 0 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37a.996.996 0 0 0-1.41 0 .996.996 0 0 0 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 0 0 0-1.41l-1.06-1.06zm1.06-10.96a.996.996 0 0 0 0-1.41.996.996 0 0 0-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36a.996.996 0 0 0 0-1.41.996.996 0 0 0-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z",
     party: "M14.5 2l1.1 2.4L18 5.5l-2.4 1.1L14.5 9l-1.1-2.4L11 5.5l2.4-1.1zM4 22l3-10 7 7-10 3zm15-9l.8 1.7 1.7.8-1.7.8L19 18l-.8-1.7-1.7-.8 1.7-.8z",
     music: "M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z",
     nightlife: "M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z",
@@ -191,14 +198,24 @@
 
   // ---------- sounds (same two sounds as the app, synthesised with WebAudio) ----------
   var audio;
+  var wasSignedIn = null;   // the sign-in sparkle plays only on a real sign-in, not a restored session
+  // A soft tick on every button, chip and card (hearts have their own save sound).
+  document.addEventListener("click", function (ev) {
+    var t = ev.target.closest && ev.target.closest("button, a.plink, .chip, .big, .mini, .row-ev");
+    if (t && !t.closest(".heart")) playSound("tap");
+  }, true);
   function playSound(name) {
     if (!state.sounds) return;
     try {
       audio = audio || new (window.AudioContext || window.webkitAudioContext)();
       if (audio.state === "suspended") audio.resume();
-      var notes = name === "welcome"
-        ? [[523.25, 0, .55, .8], [659.25, .16, .55, .8], [783.99, .32, .7, .85], [1046.5, .5, .95, .6]]
-        : [[783.99, 0, .22, .9], [1046.5, .09, .3, .8]];
+      // Same notes as SoundPlayer.swift: [Hz, start, length, gain].
+      var notes = {
+        welcome: [[523.25, 0, .55, .8], [659.25, .16, .55, .8], [783.99, .32, .7, .85], [1046.5, .5, .95, .6]],
+        favorite: [[783.99, 0, .22, .9], [1046.5, .09, .3, .8]],
+        tap: [[1318.5, 0, .05, .3]],
+        signin: [[659.25, 0, .3, .7], [880, .08, .3, .7], [1108.7, .16, .35, .7], [1318.5, .24, .6, .6]]
+      }[name] || [];
       var t0 = audio.currentTime;
       notes.forEach(function (n) {
         [1, 2, 3].forEach(function (h, i) {
@@ -324,7 +341,14 @@
     map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), "bottom-right");
     var geo = new maplibregl.GeolocateControl({ positionOptions: { enableHighAccuracy: false }, trackUserLocation: false, showUserLocation: true });
     map.addControl(geo, "bottom-right");
+    map.on("style.load", addHeat);   // also after a light/dark style switch
     map.on("load", function () {
+      map.on("zoomend", renderMarkers);
+      renderMarkers();
+    });
+  }
+  function addHeat() {
+      if (map.getSource("heat")) return;
       // Busy-area heat: edgeless yellow-to-amber glow under the pins, below the map's labels.
       var firstLabel = (map.getStyle().layers || []).find(function (l) { return l.type === "symbol"; });
       map.addSource("heat", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
@@ -337,9 +361,27 @@
           0, "rgba(255,214,0,0)", 0.15, "rgba(255,214,0,0.16)", 0.4, "rgba(255,214,0,0.32)",
           0.7, "rgba(237,173,0,0.42)", 1, "rgba(255,140,0,0.52)"]
       } }, firstLabel ? firstLabel.id : undefined);
-      map.on("zoomend", renderMarkers);
-      renderMarkers();
-    });
+      if (state.visible.length) renderMarkers();
+  }
+  function applyTheme(t) {
+    document.documentElement.dataset.theme = t;
+    var meta = document.querySelector('meta[name="theme-color"]'); if (meta) meta.content = t === "dark" ? "#0e0e11" : "#fff8d6";
+    document.querySelectorAll(".theme-btn").forEach(function (b) { b.innerHTML = ic(t === "dark" ? "sun" : "moon"); b.title = t === "dark" ? "Light mode" : "Dark mode"; b.setAttribute("aria-label", b.title); });
+    if (map && STYLE !== STYLES[t]) { STYLE = STYLES[t]; map.setStyle(STYLE, { diff: false }); }
+  }
+  function themeBtn() {
+    var b = el("button", "glass circle theme-btn"); b.type = "button";
+    b.onclick = function () {
+      var t = currentTheme() === "dark" ? "light" : "dark";
+      try { localStorage.setItem("theme", t); } catch (e) {}
+      applyTheme(t); track("click/theme-" + t);
+    };
+    return b;
+  }
+  function addThemeButtons() {
+    document.querySelectorAll(".page-head").forEach(function (h) { (h.querySelector(".head-actions") || h).appendChild(themeBtn()); });
+    var m = themeBtn(); m.classList.add("map-theme"); $("screen-map").appendChild(m);
+    applyTheme(currentTheme());
   }
   function cellDegrees() {
     // The app grows the grid cell as the camera pulls back; zoom 13.4 ≈ the app's default distance.
@@ -504,7 +546,7 @@
     box.appendChild(inter);
 
     var sounds = el("div", "glass card pcard", "<h3>Sounds</h3>");
-    var tg = el("div", "toggle", "<div><b>Chimes</b><small>A soft chime when you open the app and when you save an event.</small></div>");
+    var tg = el("div", "toggle", "<div><b>Chimes</b><small>A chime when you open the app, a pluck when you save, a soft tick on buttons and a sparkle when you sign in.</small></div>");
     var sw = el("button", "switch" + (state.sounds ? " on" : "")); sw.type = "button"; sw.setAttribute("aria-label", "Sounds");
     sw.onclick = function () { state.sounds = !state.sounds; store.save("sounds", state.sounds); sw.classList.toggle("on", state.sounds); if (state.sounds) playSound("favorite"); };
     tg.appendChild(sw); sounds.appendChild(tg); box.appendChild(sounds);
@@ -890,7 +932,7 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll("[data-ic]").forEach(function (n) { n.outerHTML = ic(n.dataset.ic); });
-    initMap(); renderControls();
+    initMap(); addThemeButtons(); renderControls();
     document.querySelectorAll("#tabbar button").forEach(function (b) { b.onclick = function () { showTab(b.dataset.tab); }; });
     $("all-btn").onclick = function () { showTab("upcoming"); };
     $("sheet-close").onclick = closeSheet;
@@ -923,6 +965,7 @@
       if (what === "community") mergeEvents();
       if (what === "attendance") { renderMapOverlays(); if (state.tab === "upcoming") renderUpcoming(); if (state.tab === "saved") renderSaved(); var a = $("detail").querySelector(".att"); if (a && state.selected) { var ev = state.events.find(function (x) { return x.id === state.selected; }); if (ev) renderAttendance(a, ev); } }
       if (what === "friends") { renderMarkers(); if (state.tab === "friends") renderFriends(); }
+      if (what === "auth") { if (wasSignedIn === false && Cloud.signedIn) playSound("signin"); wasSignedIn = !!Cloud.signedIn; }
       if (what === "auth" || what === "ready") { syncFriendProfile(); if (state.tab === "profile") renderProfile(); if (state.tab === "friends") renderFriends(); }
       if (what === "users") { renderMapOverlays(); if (state.tab === "profile") renderProfile(); }
     });
