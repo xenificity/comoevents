@@ -6,9 +6,11 @@ struct EventCardList: View {
     let events: [Event]
     var emptyText: String = "No events."
     var header: AnyView? = nil
+    /// Set for ranked search results: one section with this title, no day headers, cards show the day.
+    var rankedTitle: String? = nil
 
     var body: some View {
-        let groups = store.groupedByDay(events)
+        let groups = rankedTitle == nil ? store.groupedByDay(events) : [(day: Date.distantPast, events: events)]
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 14, pinnedViews: .sectionHeaders) {
                 if let header { header }
@@ -19,12 +21,13 @@ struct EventCardList: View {
                 ForEach(groups, id: \.day) { g in
                     Section {
                         ForEach(g.events) { e in
-                            NavigationLink(value: e) { EventCard(event: e) }
+                            NavigationLink(value: e) { EventCard(event: e, showDay: rankedTitle != nil) }
                                 .buttonStyle(CardPressStyle())
                         }
                     } header: {
                         HStack {
-                            Text(EventList.header(for: g.day))
+                            Text(rankedTitle ?? EventList.header(for: g.day))
+                                .lineLimit(1)
                                 .font(.subheadline.weight(.bold))
                                 .padding(.horizontal, 14).padding(.vertical, 7)
                                 .glass(Capsule())

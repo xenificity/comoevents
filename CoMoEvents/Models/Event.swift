@@ -28,6 +28,10 @@ struct Event: Codable, Identifiable, Hashable {
     let audience: [String]
     /// All categories the event belongs to, primary first. Feed events can have several.
     let categories: [String]
+    /// Smart-search concepts from the feed ("hindu", "tech", …; "x~" = only the description mentions it).
+    var tags: [String] = []
+    /// Feed quality score 0-100 (picture, clear title, known venue, downtown/campus, listed on several sites).
+    var score: Int? = nil
     /// iCloud user record name of the poster, community posts only. Used for blocking.
     var submitterID: String? = nil
 
@@ -36,10 +40,12 @@ struct Event: Codable, Identifiable, Hashable {
     private(set) var endDate: Date? = nil
     /// Every category this event belongs to, primary first. Resolved once; filters call this a lot.
     private(set) var kinds: [Category] = []
+    /// Normalized words for SmartSearch, built once at decode.
+    private(set) var search = SearchFields()
 
     enum CodingKeys: String, CodingKey {
         case id, source, sourceName, title, start, end, allDay, timeTBD, venue, address, lat, lng
-        case url, ticketUrl, phone, price, category, imageUrl, description, organizer, alsoOn, audience, categories
+        case url, ticketUrl, phone, price, category, imageUrl, description, organizer, alsoOn, audience, categories, tags, score
     }
 
     /// Last line of defence against source junk like "<p> $6 </p>" or "&amp;": strips tags, decodes
@@ -89,9 +95,12 @@ struct Event: Codable, Identifiable, Hashable {
         audience = try c.decodeIfPresent([String].self, forKey: .audience) ?? []
         let extra = try c.decodeIfPresent([String].self, forKey: .categories) ?? []
         categories = extra.isEmpty ? [category] : (extra.contains(category) ? extra : [category] + extra)
+        tags = try c.decodeIfPresent([String].self, forKey: .tags) ?? []
+        score = try c.decodeIfPresent(Int.self, forKey: .score)
         startDate = Event.parse(start) ?? .distantPast
         endDate = end.flatMap(Event.parse)
         kinds = categories.compactMap(Category.init(rawValue:))
+        search = SearchFields(self)
     }
 
     /// Memberwise init for events that don't come from the JSON feed (community submissions).
@@ -111,6 +120,7 @@ struct Event: Codable, Identifiable, Hashable {
         self.submitterID = submitterID
         self.startDate = start; self.endDate = end
         self.kinds = self.categories.compactMap(Category.init(rawValue:))
+        self.search = SearchFields(self)
     }
 
     var isCommunity: Bool { source == "community" }
@@ -181,6 +191,16 @@ struct Event: Codable, Identifiable, Hashable {
     static let timeFormatter: DateFormatter = { let f = DateFormatter(); f.dateFormat = "h:mm a"; return f }()
 }
 
+/// An event's words, normalized the way SmartSearch reads queries.
+struct SearchFields: Hashable {
+    var title: [String] = [], venue: [String] = [], org: [String] = [], desc: [String] = [], cats = ""
+    init() {}
+    init(_ e: Event) {
+        title = SmartSearch.words(e.title); venue = SmartSearch.words(e.venue); org = SmartSearch.words(e.organizer)
+        desc = SmartSearch.words(e.description.map { String($0.prefix(600)) }); cats = e.categories.joined(separator: " ")
+    }
+}
+
 struct Feed: Codable {
     let generatedAt: String
     let count: Int?
@@ -189,7 +209,7 @@ struct Feed: Codable {
 }
 
 enum Category: String, CaseIterable, Identifiable {
-    case party, music, nightlife, food, arts, sports, family, campus, community
+    case party, music, nightlife, food, arts, sports, family, campus, religious, community
     var id: String { rawValue }
     var label: String { rawValue.capitalized }
     var symbol: String {
@@ -202,6 +222,7 @@ enum Category: String, CaseIterable, Identifiable {
         case .food: return "fork.knife"
         case .nightlife: return "moon.stars"
         case .campus: return "graduationcap"
+        case .religious: return "figure.mind.and.body"
         case .community: return "person.3"
         }
     }
@@ -215,6 +236,7 @@ enum Category: String, CaseIterable, Identifiable {
         case .food: return .red
         case .nightlife: return .indigo
         case .campus: return .yellow
+        case .religious: return Color(red: 0.64, green: 0.52, blue: 0.37)
         case .community: return .blue
         }
     }

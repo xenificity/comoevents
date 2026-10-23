@@ -10,6 +10,8 @@ final class Router: ObservableObject {
     @Published var showSubmit = false
     /// When the submit sheet opens, start with the QR scanner.
     @Published var scanOnOpen = false
+    /// comoevents://upcoming?q=jazz opens Upcoming with that search.
+    @Published var pendingSearch: String?
 
     func open(eventID: String) { pendingEventID = eventID }
 
@@ -21,6 +23,9 @@ final class Router: ObservableObject {
         case "map": tab = .map
         case "submit": showSubmit = true
         case "friends": tab = .friends
+        case "upcoming":
+            tab = .upcoming
+            pendingSearch = URLComponents(url: url, resolvingAgainstBaseURL: false)?.queryItems?.first { $0.name == "q" }?.value
         default: break
         }
     }

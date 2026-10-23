@@ -22,6 +22,7 @@
     sports: "M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 2c1.3 0 2.5.3 3.6.9L12 8.3 8.4 4.9C9.5 4.3 10.7 4 12 4zM4 12c0-1.9.7-3.7 1.8-5.1L9 11v2l-3.2 4.1A7.96 7.96 0 0 1 4 12zm8 8c-1.3 0-2.5-.3-3.6-.9L12 15.7l3.6 3.4c-1.1.6-2.3.9-3.6.9zm6.2-2.9L15 13v-2l3.2-4.1A7.96 7.96 0 0 1 20 12c0 1.9-.7 3.7-1.8 5.1z",
     family: "M16 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4zM8 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm4 5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zM5 9h6l-1 7H9v5H7v-5H6L5 9zm8 0h6l-1 7h-1v5h-2v-5h-1l-1-7zm-2.5 4h3l-.5 4h-.5v3h-1v-3h-.5l-.5-4z",
     campus: "M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm0 13.5L5 12.7V16c0 1.66 3.13 3 7 3s7-1.34 7-3v-3.3l-7 3.8z",
+    religious: "M12 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm9 14v-2c-2.24 0-4.16-.96-5.6-2.68l-1.34-1.6A1.98 1.98 0 0 0 12.53 9h-1.05c-.59 0-1.15.26-1.53.72l-1.34 1.6C7.16 13.04 5.24 14 3 14v2c2.77 0 5.19-1.17 7-3.25V15l-3.88 1.55c-.67.27-1.12.93-1.12 1.66C5 19.2 5.8 20 6.79 20H9v-.5a2.5 2.5 0 0 1 2.5-2.5h3c.28 0 .5.22.5.5s-.22.5-.5.5h-3c-.83 0-1.5.67-1.5 1.5v.5h7.21c.99 0 1.79-.8 1.79-1.79 0-.73-.45-1.39-1.12-1.66L14 15v-2.25c1.81 2.08 4.23 3.25 7 3.25z",
     community: "M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z",
     sparkles: "M12 2l1.8 5.2L19 9l-5.2 1.8L12 16l-1.8-5.2L5 9l5.2-1.8zM5 16l.9 2.1L8 19l-2.1.9L5 22l-.9-2.1L2 19l2.1-.9zM19 14l.7 1.6 1.6.7-1.6.7L19 18.6l-.7-1.6-1.6-.7 1.6-.7z",
     person: "M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z",
@@ -66,6 +67,7 @@
     sports:    { label: "Sports",    color: "var(--sports)" },
     family:    { label: "Family",    color: "var(--family)" },
     campus:    { label: "Campus",    color: "var(--campus)" },
+    religious: { label: "Religious", color: "var(--religious)" },
     community: { label: "Community", color: "var(--community)" }
   };
   var WINDOWS = [["now", "Now"], ["today", "Today"], ["weekend", "Weekend"], ["week", "7 days"], ["all", "All"]];
@@ -155,13 +157,35 @@
     if (aud && (e.audience || []).indexOf(aud) < 0) return false;
     var cats = opts.categories || state.categories;
     if (cats.size && !kinds(e).some(function (k) { return cats.has(k); })) return false;
-    var q = "search" in opts ? opts.search : state.search;
-    if (q && (e.title || "").toLowerCase().indexOf(q) < 0 && (e.venue || "").toLowerCase().indexOf(q) < 0) return false;
     return true;
   }
+  function goingCount(e) { return window.Cloud && Cloud.count ? Cloud.count(e.id).going : 0; }
+  /** Filtered events. With a search: ranked best first (search.js), else by start time. */
   function query(opts) {
-    var now = new Date();
-    return state.events.filter(function (e) { return matches(e, now, opts); }).sort(function (a, b) { return a._start - b._start; });
+    opts = opts || {};
+    var now = new Date(), q = "search" in opts ? opts.search : state.search;
+    var list = state.events.filter(function (e) { return matches(e, now, opts); });
+    if (q && window.SmartSearch && SmartSearch.ready) {
+      var res = SmartSearch.search(q, list, now, goingCount), t = res.parsed.time;
+      var tomorrow = new Date(startOfDay(now).getTime() + 864e5);
+      var out = res.map(function (x) { return x.e; }).filter(function (e) {
+        if (!t) return true;
+        if (t === "tomorrow") return startOfDay(e._start).getTime() === tomorrow.getTime();
+        return inWindow(e, t, now);
+      });
+      out.parsed = res.parsed;
+      return out;
+    }
+    if (q) list = list.filter(function (e) { return ((e.title || "") + " " + (e.venue || "")).toLowerCase().indexOf(q) >= 0; });
+    return list.sort(function (a, b) { return a._start - b._start; });
+  }
+  /** Day by day; inside a day, happening-now first, then the best-ranked (quality + your taste + going). */
+  function rankWithinDays(list) {
+    var now = new Date(), S = window.SmartSearch;
+    if (!S || !S.ready) return list;
+    return list.map(function (e) { return { e: e, d: startOfDay(e._start).getTime(), live: isLive(e, now), r: S.baseRank(e, goingCount(e)) }; })
+      .sort(function (a, b) { return a.d - b.d || (b.live - a.live) || (b.r - a.r) || (a.e._start - b.e._start); })
+      .map(function (x) { return x.e; });
   }
   function favoriteEvents() { var now = new Date(); return state.events.filter(function (e) { return state.favorites.has(e.id) && effectiveEnd(e) >= now; }); }
 
@@ -207,7 +231,9 @@
     return b;
   }
   function pills(e, now, extra) {
-    var h = '<span class="pill">' + esc(timeText(e)) + "</span>";
+    // Ranked search results have no day headers, so they carry the day themselves.
+    var day = showDay && !sameDay(e._start, now) ? (dayHeader(e._start) === "Tomorrow" ? "Tomorrow" : fmtDay.format(e._start)) + " · " : "";
+    var h = '<span class="pill">' + esc(day + timeText(e)) + "</span>";
     if (isLive(e, now)) h += '<span class="pill live"><i></i>LIVE</span>';
     if (e.price && extra) h += '<span class="pill soft">' + esc(e.price) + "</span>";
     return h;
@@ -249,17 +275,19 @@
     r.onclick = function () { openDetail(e); };
     return r;
   }
-  function cardList(container, events, emptyText) {
-    container.innerHTML = "";
+  var showDay = false;
+  function cardList(container, events, emptyText, ranked) {
+    container.innerHTML = ""; showDay = !!ranked;
     if (!events.length) { container.appendChild(el("div", "empty", ic("sparkles") + emptyText)); return; }
     var now = new Date(), last = null, frag = document.createDocumentFragment();
+    if (ranked) frag.appendChild(el("div", "day glass", ranked));
     events.slice(0, 300).forEach(function (e) {
       var d = startOfDay(e._start).getTime();
-      if (d !== last) { last = d; frag.appendChild(el("div", "day glass", dayHeader(e._start))); }
+      if (!ranked && d !== last) { last = d; frag.appendChild(el("div", "day glass", dayHeader(e._start))); }
       frag.appendChild(bigCard(e, now));
     });
     if (events.length > 300) frag.appendChild(el("p", "feed-note", "Showing the first 300. Narrow the filters to see the rest."));
-    container.appendChild(frag);
+    container.appendChild(frag); showDay = false;
   }
 
   // ---------- controls ----------
@@ -395,14 +423,25 @@
 
   // ---------- pages ----------
   function renderUpcoming() {
-    var list = query({ window: "all" });
-    cardList($("upcoming-list"), list, "Nothing matches. Try another filter.");
+    var list = query({ window: "all" }), S = window.SmartSearch;
+    if (state.search) {
+      var p = list.parsed, got = p ? p.units.filter(function (u) { return u.concepts; }).map(function (u) { return u.label; }) : [];
+      if (p && p.time) got.push({ today: "Today", tomorrow: "Tomorrow", weekend: "This weekend" }[p.time]);
+      cardList($("upcoming-list"), list, "Nothing found for “" + esc(state.search) + "”. Try a simpler word, like music, church or tech.",
+               "Best matches" + (got.length ? " · " + esc(got.join(" · ")) : ""));
+    } else cardList($("upcoming-list"), rankWithinDays(list), "Nothing matches. Try another filter.");
     var fy = $("foryou"); fy.innerHTML = "";
-    var interests = new Set((state.profile.interests || []).filter(function (c) { return CATS[c]; }));
-    if (interests.size && !state.search && !state.categories.size) {
-      var picks = query({ window: "week", categories: interests }).slice(0, 10);
+    if (S && S.ready && !state.search && !state.categories.size) {
+      // Best of the next 7 days for this person: quality + what they save, attend and open (+ profile interests).
+      var seen = new Set(), now0 = new Date();
+      var picks = query({ window: "week" }).filter(function (e) { return e._start >= now0 || isLive(e, now0); })
+        .map(function (e) { return { e: e, r: S.baseRank(e, goingCount(e)) + S.personal(e) }; })
+        .sort(function (a, b) { return b.r - a.r; })
+        .filter(function (x) { var k = S.norm(x.e.title); if (seen.has(k)) return false; seen.add(k); return true; })
+        .slice(0, 10).map(function (x) { return x.e; });
       if (picks.length) {
-        var box = el("div", "foryou", "<h3>" + ic("sparkles") + "For you <small>· from your interests</small></h3>");
+        var mine = S.hasTaste();
+        var box = el("div", "foryou", "<h3>" + ic("sparkles") + (mine ? "For you <small>· from what you save and go to</small>" : "Popular this week") + "</h3>");
         var strip = el("div", "strip"); var now = new Date();
         picks.forEach(function (e) { var m = miniCard(e, now); m.onclick = function () { openDetail(e); }; strip.appendChild(m); });
         box.appendChild(strip); fy.appendChild(box);
@@ -452,10 +491,17 @@
     Object.keys(CATS).forEach(function (k) {
       var on = (p.interests || []).indexOf(k) >= 0;
       var b = el("button", "chip glass" + (on ? " on" : ""), '<span class="dot">' + ic(k) + "</span>" + CATS[k].label); b.type = "button"; b.style.setProperty("--c", CATS[k].color);
-      b.onclick = function () { p.interests = on ? p.interests.filter(function (x) { return x !== k; }) : (p.interests || []).concat([k]); store.save("profile", p); renderProfile(); renderUpcoming(); };
+      b.onclick = function () { p.interests = on ? p.interests.filter(function (x) { return x !== k; }) : (p.interests || []).concat([k]); store.save("profile", p); if (!on && window.SmartSearch) SmartSearch.seedInterests([k]); renderProfile(); renderUpcoming(); };
       flow.appendChild(b);
     });
-    inter.appendChild(flow); box.appendChild(inter);
+    inter.appendChild(flow);
+    if (window.SmartSearch) {
+      var learnNote = el("p", "", "Suggestions and search order also learn from what you save, go to and open. That stays in this browser. ");
+      var rs = el("button", "linkbtn", "Reset suggestions"); rs.type = "button";
+      rs.onclick = function () { SmartSearch.resetTaste(); SmartSearch.seedInterests(p.interests); renderUpcoming(); toast("Suggestions reset"); };
+      learnNote.appendChild(rs); inter.appendChild(learnNote);
+    }
+    box.appendChild(inter);
 
     var sounds = el("div", "glass card pcard", "<h3>Sounds</h3>");
     var tg = el("div", "toggle", "<div><b>Chimes</b><small>A soft chime when you open the app and when you save an event.</small></div>");
@@ -610,6 +656,7 @@
   var miniMap;
   function openDetail(e) {
     state.selected = e.id;
+    if (window.SmartSearch) SmartSearch.learn(e, 1);
     track("event/" + e.id, e.title + (e.venue ? " · " + e.venue : ""));
     history.replaceState(null, "", "?e=" + encodeURIComponent(e.id));
     var d = $("detail"), k = kind(e), now = new Date();
@@ -690,6 +737,7 @@
       b.onclick = function () {
         if (!window.Cloud || !Cloud.available) { toast("Going and I'm here need iCloud: add the token or use the iPhone app."); return; }
         if (mine !== st[0]) track("click/" + st[0]);
+        if (window.SmartSearch) SmartSearch.learn(e, mine === st[0] ? -4 : mine ? 0 : 4);
         Cloud.setStatus(e, mine === st[0] ? null : st[0]).then(function (msg) { if (msg) toast(msg); });
         renderAttendance(att, e);
       };
@@ -734,7 +782,8 @@
 
   // ---------- actions ----------
   function toggleFav(e) {
-    if (state.favorites.has(e.id)) state.favorites.delete(e.id); else { state.favorites.add(e.id); playSound("favorite"); track("click/save"); }
+    var learn = window.SmartSearch ? SmartSearch.learn : function () {};
+    if (state.favorites.has(e.id)) { state.favorites.delete(e.id); learn(e, -3); } else { state.favorites.add(e.id); learn(e, 3); playSound("favorite"); track("click/save"); }
     store.save("favorites", Array.from(state.favorites));
     syncFriendProfile();
     renderUpcoming(); renderSaved(); renderMapOverlays();
@@ -802,10 +851,15 @@
       ["title", "venue", "address", "price", "organizer"].forEach(function (k) { if (typeof e[k] === "string") e[k] = plain(e[k]) || (k === "title" ? e[k] : null); });
     });
     state.events = (state.feed || []).concat(extra).sort(function (a, b) { return a._start - b._start; });
+    if (window.SmartSearch) SmartSearch.setVocab(state.events);
     if (rerender !== false) { recompute(); renderSaved(); }
   }
 
   // ---------- load ----------
+  if (window.SmartSearch) {
+    SmartSearch.seedInterests(state.profile.interests);
+    SmartSearch.fetch("search.json?t=" + Math.floor(Date.now() / 600000)).then(function () { if (state.events.length) recompute(); });
+  }
   function load(i) {
     i = i || 0;
     if (i >= FEED.length) { state.error = "Offline; showing the last saved events."; $("count-n").textContent = "Could not load events"; return; }

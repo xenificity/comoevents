@@ -18,11 +18,13 @@
 		44E9E7386917D7A0E610E7D5 /* venues.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EC8B9A7577C6A98985E205A /* venues.json */; };
 		4CD21F9DEA95E27D05365E7A /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F839F290D9DD3AB3D1C3C1C /* AppLinks.swift */; };
 		51D69B4D63C571BED44FBDF9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC3F1B8022237EEC7BC0379 /* Router.swift */; };
+		546FBDB63B532D90EA0AB7DB /* SmartSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906D5180B039308976EE3848 /* SmartSearch.swift */; };
 		5CD12019CF8062D165327BC4 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD776B73BF8407921FE3E7E4 /* SoundPlayer.swift */; };
 		5CF1840A78AD4CD321B5A655 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F8C85C6DCAD73C800D171D /* MapScreen.swift */; };
 		5E82F4EA33081A9E05666BEF /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EAA017F2446BC532059B3 /* EventCard.swift */; };
 		603E787090EEBD65D3E2BC46 /* AttendanceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B51B69E81EC16E60089C76 /* AttendanceStore.swift */; };
 		6471606990678C4FBF1058E7 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DA495243C77A50B4BB28 /* EventDetailView.swift */; };
+		651603F5604373BFEE49E2CE /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = B46A87631AFC0C227D42AC37 /* search.json */; };
 		68A19BDC7989BA8C4C8FC18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890E1F509799AC7B5B9F9587 /* Assets.xcassets */; };
 		72D8488E2E070B0300A9B7A9 /* VenueLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04475B5572A08EA8C793484E /* VenueLookup.swift */; };
 		72DEF17BC34F9BDE77A39DCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD31C3A5F062C71645A158A /* ContentView.swift */; };
@@ -80,11 +82,13 @@
 		8676ED787BF68812C299CB47 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		890E1F509799AC7B5B9F9587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A6770C54F38582069D268B2 /* SpotlightIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightIndexer.swift; sourceTree = "<group>"; };
+		906D5180B039308976EE3848 /* SmartSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSearch.swift; sourceTree = "<group>"; };
 		93B51B69E81EC16E60089C76 /* AttendanceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceStore.swift; sourceTree = "<group>"; };
 		992C3EBD8133D4C87F0E74CA /* SocialConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialConnect.swift; sourceTree = "<group>"; };
 		9D084E4854C1F7B5CC4594C0 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		AB57E9BB840EDE45833BC510 /* ContentFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentFilter.swift; sourceTree = "<group>"; };
 		AC5BC8F47418CC9EB86E8A42 /* TimeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWindow.swift; sourceTree = "<group>"; };
+		B46A87631AFC0C227D42AC37 /* search.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
 		B83EAA017F2446BC532059B3 /* EventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCard.swift; sourceTree = "<group>"; };
 		BED912DEDB9BE3D2F2ABF127 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C13C07CB447BF6803BD94112 /* Hotspot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotspot.swift; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 				F3DDA08FB8045CE557E0A4B1 /* NotificationService.swift */,
 				4FC3F1B8022237EEC7BC0379 /* Router.swift */,
 				7ED89341A39084952FECB9CA /* ShareAndCalendar.swift */,
+				906D5180B039308976EE3848 /* SmartSearch.swift */,
 				992C3EBD8133D4C87F0E74CA /* SocialConnect.swift */,
 				FD776B73BF8407921FE3E7E4 /* SoundPlayer.swift */,
 				8A6770C54F38582069D268B2 /* SpotlightIndexer.swift */,
@@ -188,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				6567DC9C10C49E155A08BBFA /* events.json */,
+				B46A87631AFC0C227D42AC37 /* search.json */,
 				4EC8B9A7577C6A98985E205A /* venues.json */,
 			);
 			path = Resources;
@@ -263,6 +269,7 @@
 			files = (
 				68A19BDC7989BA8C4C8FC18A /* Assets.xcassets in Resources */,
 				8FAEE391BFF796D5FC6403AC /* events.json in Resources */,
+				651603F5604373BFEE49E2CE /* search.json in Resources */,
 				44E9E7386917D7A0E610E7D5 /* venues.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +308,7 @@
 				51D69B4D63C571BED44FBDF9 /* Router.swift in Sources */,
 				7614AC1DCA958A0203BA6958 /* SavedScreen.swift in Sources */,
 				1EED7452FBE1A04A7522DB48 /* ShareAndCalendar.swift in Sources */,
+				546FBDB63B532D90EA0AB7DB /* SmartSearch.swift in Sources */,
 				9EA558C7FAD49D640C769CC9 /* SocialConnect.swift in Sources */,
 				5CD12019CF8062D165327BC4 /* SoundPlayer.swift in Sources */,
 				D4D071D9C6AB594730237C74 /* SpotlightIndexer.swift in Sources */,
@@ -352,7 +360,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = TU583LSD8W;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -461,7 +469,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = TU583LSD8W;
 				ENABLE_NS_ASSERTIONS = NO;

@@ -5,6 +5,14 @@ struct EventCard: View {
     @EnvironmentObject var store: EventStore
     @EnvironmentObject var attendance: AttendanceStore
     let event: Event
+    /// Ranked search results have no day headers, so the card carries the day itself.
+    var showDay = false
+
+    private var dayAndTime: String {
+        guard showDay, !Calendar.current.isDateInToday(event.startDate) else { return event.timeText }
+        let day = Calendar.current.isDateInTomorrow(event.startDate) ? "Tomorrow" : Event.dayFormatter.string(from: event.startDate)
+        return "\(day) · \(event.timeText)"
+    }
 
     var body: some View {
         Color.clear
@@ -17,7 +25,7 @@ struct EventCard: View {
             .overlay(alignment: .bottomLeading) {
             VStack(alignment: .leading, spacing: 6) {
                 HStack(spacing: 8) {
-                    TimePill(text: event.timeText)
+                    TimePill(text: dayAndTime)
                     if event.isHappeningNow { NowBadge() }
                     if let p = event.price {
                         Text(p).font(.caption.weight(.semibold)).foregroundStyle(.white)

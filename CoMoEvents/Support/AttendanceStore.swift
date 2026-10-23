@@ -40,6 +40,7 @@ final class AttendanceStore: ObservableObject {
     /// Tap the same status again to clear it.
     func set(_ status: Status?, for e: Event) async {
         if let status, mine[e.id] != status { Analytics.tap(status.rawValue) }
+        TasteProfile.shared.learn(e, status == nil ? -4 : mine[e.id] == nil ? 4 : 0)
         if let status { mine[e.id] = status } else { mine.removeValue(forKey: e.id) }
         UserDefaults.standard.set(mine.mapValues(\.rawValue), forKey: "attendance.mine")
         onMineChanged?(mine)

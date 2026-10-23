@@ -90,3 +90,11 @@ Read README.md first. Short version:
   re-rendered to docs/weekend-guide/<friday>/ plus the hub docs/weekend-guide/; never delete those JSON files.
   Venue widget: hand-written `docs/embed/venue.html?v=<venue-slug>` (noindex) reads `docs/embed/v/<slug>.json`; files of
   venues with nothing upcoming are kept empty so pasted widgets keep working. Snippet + plain backlink on each venue page.
+- Smart search + ranking (Oct 2026): `feed/search.json` is the one concept list (query words, match regexes, venueStrong,
+  category/audience/parent links). `aggregate.py enrich()` uses it to add `tags` ("x~" = description only), the
+  `religious` category and `score` (0-100 quality) to every event; `update-feed.sh`/feed workflow copy it to
+  `docs/search.json` and `CoMoEvents/Resources/search.json`. Clients: `docs/search.js` and
+  `Support/SmartSearch.swift` (same logic: concept/typo matching with a real-word guard, narrow words beat broad topics,
+  loose fallback, related tail trimmed, repeats collapsed, time words) plus the taste profile (local only: save 3,
+  going 4, open 1). Change JS and Swift together. Upcoming ranks within each day; search shows "Best matches".
+  Deep link for testing: `comoevents://upcoming?q=hindu%20temple`. To make a search work better, edit search.json, not code.

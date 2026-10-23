@@ -310,18 +310,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "creation-station-afterschool-game-lab-8724b2",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "8724b29ce2352601",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8xNmNhZWEyZGFjMmJhZjUzYWUyNGJmMWQxZjZhZDQwNzQwNDc1NWFjZmUzZjViNzhkYTZiOGRhNWIyZjA3ZmJhLXJpbWctdzk2MC1oOTYwLWRjZjhmOGY4LWdtaXI_dj0xNzkyNzUyMDI2.avif",
-   "source": "allevents",
-   "start": "2026-10-23T16:00:00-05:00",
-   "title": "Creation Station - Afterschool Game Lab"
-  },
-  {
    "_slug": "wicker-738352",
    "categories": [
     "arts"
@@ -389,14 +377,17 @@
    "title": "Softball - Missouri vs. Lindenwood"
   },
   {
-   "_slug": "the-flood-brothers-72d0c3",
+   "_slug": "the-flood-brothers-bf3d6a",
+   "alsoOn": [
+    "https://allevents.in/columbia/the-flood-brothers-are-back/200030854693939"
+   ],
    "categories": [
     "music"
    ],
    "category": "music",
    "description": "@ Roots Rock, Deep Blues",
    "end": "2026-10-23T21:00:00-05:00",
-   "id": "72d0c33531ad09d7",
+   "id": "bf3d6af849653a00",
    "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/08/486624272_1193465629449938_7570150926298402289_n.jpg",
    "source": "cooperslanding",
    "start": "2026-10-23T18:00:00-05:00",
@@ -406,6 +397,7 @@
   {
    "_slug": "lakshmi-sahasranama-and-kumkuma-archana-6c571d",
    "categories": [
+    "religious",
     "community"
    ],
    "category": "community",
@@ -507,9 +499,9 @@
   {
    "_slug": "lumia-fa6529",
    "alsoOn": [
+    "https://calendar.missouri.edu/concert-series/event/17523-lumia",
     "https://mizzouarts.missouri.edu/event/lumia/",
-    "https://www.voxmagazine.com/calendar/lumia/event_e1048710-663c-46c4-95ab-f143dfc29625.html",
-    "https://calendar.missouri.edu/concert-series/event/17523-lumia"
+    "https://www.voxmagazine.com/calendar/lumia/event_e1048710-663c-46c4-95ab-f143dfc29625.html"
    ],
    "categories": [
     "family",
@@ -692,19 +684,6 @@
    "venue": "MyHouse"
   },
   {
-   "_slug": "fall-festival-bazaar-99dd85",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "99dd854ddb028b69",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy81NmYyZDVmMTQyMzkyZTM1YmU3YzRkNGE2OTE1ZWRlYTQwNjAxZmQ2NmE5OTVkODZkZTFjZDFkMzc5YzE1N2Y2LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4OTEwNDEzOQ.avif",
-   "source": "allevents",
-   "start": "2026-10-24T00:00:00-05:00",
-   "title": "Fall Festival & Bazaar",
-   "venue": "Campus Lutheran Church"
-  },
-  {
    "_slug": "graphic-design-showcase-c4659e",
    "allDay": true,
    "categories": [
@@ -825,6 +804,20 @@
    "venue": "Townsend Hall 611 Conley Ave Columbia MO 65211 United States"
   },
   {
+   "_slug": "fall-festival-bazaar-99dd85",
+   "categories": [
+    "religious",
+    "community"
+   ],
+   "category": "community",
+   "id": "99dd854ddb028b69",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy81NmYyZDVmMTQyMzkyZTM1YmU3YzRkNGE2OTE1ZWRlYTQwNjAxZmQ2NmE5OTVkODZkZTFjZDFkMzc5YzE1N2Y2LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4OTEwNDEzOQ.avif",
+   "source": "allevents",
+   "start": "2026-10-24T09:00:00-05:00",
+   "title": "Fall Festival & Bazaar",
+   "venue": "Campus Lutheran Church"
+  },
+  {
    "_slug": "friends-of-the-columbia-public-library-children-s-book-sale-3e3f26",
    "categories": [
     "family"
@@ -861,7 +854,7 @@
    "description": "Part yoga + part fundraiser + part puppy cuddle session = all fun!",
    "end": "2026-10-24T10:00:00-05:00",
    "id": "1a00c67e69149be1",
-   "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195303056%2F904364524853%2F1%2Foriginal.20261007-182404?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ef8654872bd5e2d75e3c6239e8411738",
+   "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195303056%2F904364524853%2F1%2Foriginal.20261007-182404?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=871f56f6b36b2eb209d85b34c40f25dd",
    "source": "eventbrite",
    "start": "2026-10-24T09:00:00-05:00",
    "ticketUrl": "https://www.eventbrite.com/e/puppy-yoga-at-harpos-with-sarahs-yoga-studio-tickets-2003081138607",
@@ -871,7 +864,8 @@
   {
    "_slug": "together-in-kc-90d8a6",
    "categories": [
-    "food"
+    "food",
+    "religious"
    ],
    "category": "food",
    "description": "Step away from routine and share a full day of new experiences with your spouse at Together in KC. This couples outing blends laughter, adventure, and time with other pairs, all centered on strengthening your marriage through meaningful moments together. The day begins at the KC River Market, wher…",
@@ -894,7 +888,7 @@
    "description": "15th Annual Vincent P. Gurucharri MD Foundation Invitational 9-Ball Tournament to benefit Mid-MO cancer patients who are in financial need.",
    "end": "2026-10-24T12:00:00-05:00",
    "id": "bf5aabf3e08f5340",
-   "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191621970%2F1219540419853%2F1%2Foriginal.20260821-195811?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a4a97084d02541549dade642d11e91d4",
+   "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191621970%2F1219540419853%2F1%2Foriginal.20260821-195811?crop=focalpoint&fit=crop&w=302&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1e0c9902c0ceaae84a53b4881837bf5c",
    "source": "eventbrite",
    "start": "2026-10-24T10:00:00-05:00",
    "ticketUrl": "https://www.eventbrite.com/e/15th-annual-9-ball-tournament-gurucharri-foundation-tickets-1998586996507",
@@ -925,6 +919,24 @@
    "source": "allevents",
    "start": "2026-10-24T10:00:00-05:00",
    "title": "5th Annual Spooktacular Parth"
+  },
+  {
+   "_slug": "65-hertz-ft-pollux-ages-18-e0a250",
+   "alsoOn": [
+    "https://rosemusichall.com/event/65-hertz-ft-pollux/"
+   ],
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with Asp, Babysox, BhDtheDJ, CVNETIS, ECHOEchoecho",
+   "id": "e0a2507abe781415",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iYjJhZGU2ZDdjZGYyZjhjY2ZkMGEzZGUzYmZjMWFhNWIyMTRjNzM0OTEzZmJkN2ZkYzg1NDU4NWYyNGMwYzJhLXJpbWctdzEwMjQtaDU3Ni1kYzI4MjgyOC1nbWlyLmpwZz92PTE3ODk1ODU4NjQ.avif",
+   "source": "allevents",
+   "start": "2026-10-24T10:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/65-hertz-ft-pollux-ages-18-columbia-missouri-10-24-2026/event/06006529BDF0DB78",
+   "title": "65 Hertz ft. Pollux (Ages 18+)",
+   "venue": "Rose Music Hall"
   },
   {
    "_slug": "baseball-missouri-vs-game-1-04147b",
@@ -1166,7 +1178,7 @@
    "description": "Get your little ones moving and stretching with a Halloween themed kids yoga session!",
    "end": "2026-10-24T14:00:00-05:00",
    "id": "0758b04b704d05d1",
-   "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195208152%2F904364524853%2F1%2Foriginal.20261006-183947?crop=focalpoint&fit=crop&w=302&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.718&fp-y=0.148&s=b6f424821b155d0ac3e4c4bd809c5274",
+   "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195208152%2F904364524853%2F1%2Foriginal.20261006-183947?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.718&fp-y=0.148&s=88ed2301824a1e8645a43c8bf19edb9f",
    "source": "eventbrite",
    "start": "2026-10-24T13:00:00-05:00",
    "ticketUrl": "https://www.eventbrite.com/e/halloween-kids-yoga-at-the-kitchen-with-sarahs-yoga-studio-tickets-2002832848966",
@@ -1249,6 +1261,7 @@
   {
    "_slug": "bhagwad-gita-class-b77b27",
    "categories": [
+    "religious",
     "community"
    ],
    "category": "community",
@@ -1380,7 +1393,7 @@
    "description": "Get ready to shine and shake up the online scene at DIAMOND in the Ruff: shake the city edition!",
    "end": "2026-10-24T22:00:00-05:00",
    "id": "4a3177b37e40d87d",
-   "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192899659%2F2940331680031%2F1%2Foriginal.20260907-172311?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.49&fp-y=0.104&s=6a2246d6a4e73825ae8fe18cb4d2ebdf",
+   "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192899659%2F2940331680031%2F1%2Foriginal.20260907-172311?crop=focalpoint&fit=crop&w=302&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.49&fp-y=0.104&s=87f6428fd4fee7f454f07a1d3b619011",
    "source": "eventbrite",
    "start": "2026-10-24T16:30:00-05:00",
    "ticketUrl": "https://www.eventbrite.com/e/diamond-in-the-rough-shake-the-city-edition-tickets-2000034612365",
@@ -1498,15 +1511,19 @@
    "venue": "The Kitchen Grill & Games"
   },
   {
-   "_slug": "light-the-night-gala-093ebb",
+   "_slug": "light-the-night-gala-189841",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#light-the-night-gala"
+   ],
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "Hosted by Combat Boots and High Heels, the inaugural Light the Night Gala is an evening focused on finding light in the darkness. The program honors the resilience of veterans and service members, shares stories of hope, and raises awareness for veteran suicide prevention while supporting programs…",
    "end": "2026-10-24T22:00:00-05:00",
-   "id": "093ebb5fe9e34299",
-   "source": "baselocal",
+   "id": "1898413dac891514",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYzQ5OGQxZjVjZjYzMDg5N2Y4MzI5YzBiMGNhMjI5NDQ3OTM1ZDkyN2IzZjBmMGFmY2M4ZDgzNzM5NTM5MTgzMS1yaW1nLXcxMjAwLWgxNTQ3LWRjMTgxODI4LWdtaXI_dj0xNzg4MzYwNzE2.avif",
+   "source": "allevents",
    "start": "2026-10-24T18:00:00-05:00",
    "title": "Light the Night Gala",
    "venue": "Elks Lodge"
@@ -1543,6 +1560,7 @@
   {
    "_slug": "sita-rama-pooja-bhajan-8061da",
    "categories": [
+    "religious",
     "community"
    ],
    "category": "community",
@@ -1607,13 +1625,14 @@
    ],
    "categories": [
     "family",
+    "religious",
     "food"
    ],
    "category": "family",
    "description": "Join us for Trunk or Treat at Crossway Church! Free candy, food & fun with Rumi, Elsa, Spiderman & more!",
    "end": "2026-10-24T21:00:00-05:00",
    "id": "c77ed8db77d59e5b",
-   "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194766852%2F344386319611%2F1%2Foriginal.20260930-212355?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.745&fp-y=0.38&s=306a0d3a87e5345315803dda6b43ee86",
+   "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194766852%2F344386319611%2F1%2Foriginal.20260930-212355?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.745&fp-y=0.38&s=8367fd9ce08db9a3c826e33342346239",
    "source": "eventbrite",
    "start": "2026-10-24T19:00:00-05:00",
    "ticketUrl": "https://www.eventbrite.com/e/trunk-or-treat-with-crossway-church-tickets-2002157887137",
@@ -1661,24 +1680,6 @@
    "title": "Western States + The Satans @ Cafe Berlin"
   },
   {
-   "_slug": "65-hertz-ft-pollux-ages-18-e0a250",
-   "alsoOn": [
-    "https://rosemusichall.com/event/65-hertz-ft-pollux/"
-   ],
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "with Asp, Babysox, BhDtheDJ, CVNETIS, ECHOEchoecho",
-   "id": "e0a2507abe781415",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iYjJhZGU2ZDdjZGYyZjhjY2ZkMGEzZGUzYmZjMWFhNWIyMTRjNzM0OTEzZmJkN2ZkYzg1NDU4NWYyNGMwYzJhLXJpbWctdzEwMjQtaDU3Ni1kYzI4MjgyOC1nbWlyLmpwZz92PTE3ODk1ODU4NjQ.avif",
-   "source": "allevents",
-   "start": "2026-10-24T20:30:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/65-hertz-ft-pollux-ages-18-columbia-missouri-10-24-2026/event/06006529BDF0DB78",
-   "title": "65 Hertz ft. Pollux (Ages 18+)",
-   "venue": "Rose Music Hall"
-  },
-  {
    "_slug": "65-hertz-rose-music-hall-e46caa",
    "categories": [
     "music"
@@ -1705,7 +1706,7 @@
    "description": "Crowdwork at it's Finest! SIT. UP. FRONT. We dare you...don't miss Columbia's own LADY MOE JOE!!! With guest feature Matt \"Blind\" Stein!!!",
    "end": "2026-10-24T22:30:00-05:00",
    "id": "8ced226a6fc4c220",
-   "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193851484%2F1544611459373%2F1%2Foriginal.20260918-164645?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1f698f68b562b938a37b2d1ac8eadefa",
+   "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193851484%2F1544611459373%2F1%2Foriginal.20260918-164645?crop=focalpoint&fit=crop&w=302&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=511209bd00772f3d08c5d2d8f785d719",
    "source": "eventbrite",
    "start": "2026-10-24T21:00:00-05:00",
    "ticketUrl": "https://www.eventbrite.com/e/live-hardcore-comedy-at-the-tokyo-club-lady-moe-joe-with-blind-stein-tickets-2001620494782",
@@ -1795,6 +1796,7 @@
   {
    "_slug": "bengali-durga-puja-2026-b6275e",
    "categories": [
+    "religious",
     "community",
     "family",
     "arts"
@@ -1919,8 +1921,8 @@
   {
    "_slug": "kid-disco-boo-bash-d1dffb",
    "alsoOn": [
-    "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596",
-    "https://rosemusichall.com/event/kid-disco-boo-bash/"
+    "https://rosemusichall.com/event/kid-disco-boo-bash/",
+    "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596"
    ],
    "categories": [
     "party",
@@ -2008,10 +2010,10 @@
   {
    "_slug": "theresa-caputo-live-the-experience-1b32d3",
    "alsoOn": [
-    "https://allevents.in/columbia/theresa-caputo/200030544001559",
     "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
-    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
-    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience"
+    "https://allevents.in/columbia/theresa-caputo/200030544001559",
+    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
+    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083"
    ],
    "categories": [
     "family",
@@ -2171,9 +2173,9 @@
  "friday": "2026-10-23",
  "modified": "2026-10-23",
  "picks": [
+  "bf3d6af849653a00",
   "a7c37b0296600613",
   "83f6803ea3621a5b",
-  "69d5ed1033be1006",
   "41d668bf8a25d282",
   "32c9ea4ff61bfaab",
   "e4b8d122aea2b5d4",

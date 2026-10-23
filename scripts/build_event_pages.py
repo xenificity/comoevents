@@ -28,9 +28,9 @@ OUT = os.path.join(DOCS, "e")
 SITE = "https://comoevent.com"
 FALLBACK_IMAGE = SITE + "/img/icon-512.png"
 CAT_LABEL = {"party": "Party", "music": "Music", "nightlife": "Nightlife", "food": "Food", "arts": "Arts",
-             "sports": "Sports", "family": "Family", "campus": "Campus", "community": "Community"}
+             "sports": "Sports", "family": "Family", "campus": "Campus", "religious": "Religious", "community": "Community"}
 CAT_EMOJI = {"party": "🎉", "music": "🎵", "nightlife": "🌙", "food": "🍴", "arts": "🎭",
-             "sports": "🏟️", "family": "👨‍👩‍👧", "campus": "🎓", "community": "📍"}
+             "sports": "🏟️", "family": "👨‍👩‍👧", "campus": "🎓", "religious": "🙏", "community": "📍"}
 TAG = re.compile(r"<[^>]+>")
 
 
@@ -245,7 +245,7 @@ def head(title, desc, canonical, image, extra=""):
 
 BROWSE = [("/tonight/", "Today & tonight"), ("/this-weekend/", "This weekend"), ("/free/", "Free events"),
           ("/music/", "Live music"), ("/family/", "Family & kids"), ("/nightlife/", "Nightlife"), ("/arts/", "Arts, theater & film"),
-          ("/food/", "Food & drink"), ("/sports/", "Sports"), ("/mizzou/", "Mizzou events"), ("/weekend-guide/", "Weekend guide"),
+          ("/food/", "Food & drink"), ("/sports/", "Sports"), ("/faith/", "Church & faith"), ("/mizzou/", "Mizzou events"), ("/weekend-guide/", "Weekend guide"),
           ("/venues/", "Venues"), ("/e/", "Full calendar")]
 
 
@@ -441,6 +441,8 @@ def build_landing(events, venues_table, now):
              "food and drink events in Columbia, Missouri: farmers markets, tastings, food trucks, brewery events and dinners."),
             ("sports", "sports", "Sports events in Columbia, MO", "Sports and games in Columbia, MO",
              "sports events in Columbia, Missouri: Mizzou Tigers home games, races, tournaments and rec leagues."),
+            ("faith", "religious", "Church, temple & faith events in Columbia, MO", "Church, temple and faith events in Columbia, MO",
+             "religious and faith events in Columbia, Missouri: church services and Bible studies, Shanthi Mandir Hindu temple poojas and bhajans, campus fellowships and holiday celebrations."),
             ("mizzou", "campus", "Mizzou events · University of Missouri campus events", "Mizzou and University of Missouri campus events",
              "events at the University of Missouri (Mizzou) in Columbia: concerts, lectures, student life, arts and athletics.")]
     for path, cat, title, h1, blurb in cats:

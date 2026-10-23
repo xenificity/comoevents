@@ -11,6 +11,7 @@ struct ProfileScreen: View {
     @Environment(\.colorScheme) private var scheme
     @State private var name = ""
     @State private var confirmDelete = false
+    @State private var resetDone = false
     @State private var soundsOn = SoundPlayer.enabled
     @State private var countsOn = Analytics.enabled
     @FocusState private var nameFocused: Bool
@@ -152,9 +153,21 @@ struct ProfileScreen: View {
             FlowChips(items: Category.allCases, selected: account.profile.interestSet) { c in
                 account.update {
                     var set = $0.interestSet
-                    if set.contains(c) { set.remove(c) } else { set.insert(c) }
+                    if set.contains(c) { set.remove(c) } else { set.insert(c); TasteProfile.shared.seed([c.rawValue]) }
                     $0.interests = set.map(\.rawValue).sorted()
                 }
+            }
+            HStack(alignment: .firstTextBaseline) {
+                Text("Suggestions and search order also learn from what you save, go to and open. That stays on this iPhone.")
+                    .font(.caption).foregroundStyle(.secondary)
+                Spacer(minLength: 8)
+                Button("Reset") {
+                    TasteProfile.shared.reset()
+                    TasteProfile.shared.seed(account.profile.interests)
+                    resetDone = true
+                }
+                .font(.caption.weight(.bold))
+                .disabled(resetDone)
             }
         }
         .padding(16)

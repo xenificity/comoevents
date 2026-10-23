@@ -1339,6 +1339,106 @@ def dedupe(events):
         by_key[key] = keep
     return [by_key[k] for k in order]
 
+# ---------- smart search tags + quality score ----------
+SEARCH_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "search.json")
+MU_CAMPUS = (38.9404, -92.3277)   # Francis Quadrangle
+# Venues people know by name; an event there is likelier to be worth a look.
+KNOWN_VENUES = r"missouri theatre|jesse (hall|auditorium)|blue note|rose music hall|memorial stadium|faurot|mizzou arena|hearnes|ragtag|rhynsburger|stephens|missouri symphony|talking horse|maplewood barn|columbia art league|orr street|north village|cooper'?s landing|logboat|broadway hotel|tiger hotel|flat branch|stephens lake|shelter gardens|boone county fair|arcade district|memorial student union|museum of art|state historical society|sinquefield|daniel boone|forum christian|shanthi mandir|cosmo park"
+_CONCEPT_RX = None
+
+def _rx(terms):
+    return re.compile(r"(?<![a-z0-9])(?:" + "|".join(terms) + r")(?![a-z0-9])", re.I)
+
+def concept_rules():
+    global _CONCEPT_RX
+    if _CONCEPT_RX is None:
+        data = load_json(SEARCH_PATH, {"concepts": {}})
+        _CONCEPT_RX = [(k, _rx(c["match"]) if c.get("match") else None, _rx(c["venue"]) if c.get("venue") else None,
+                        c.get("category") or ("@" + c["audience"] if c.get("audience") else None), c.get("parent"),
+                        bool(c.get("venueStrong"))) for k, c in data["concepts"].items()]
+    return _CONCEPT_RX
+
+WORSHIP_PLACE = re.compile(r"(?<![a-z])(church|chapel|cathedral|parish|mandir|temple|mosque|masjid|islamic center|synagogue|congregation|gurd?u?wara|ministries|newman center)(?![a-z])", re.I)
+NOT_WORSHIP = re.compile(r"\b(market|bookmobile|quilt|sale|blood drive|wrestling|vs\.?|library)\b", re.I)
+
+def enrich(events):
+    """Adds `tags` (smart-search concepts; "x~" = only the description mentions it), the `religious`
+    category, and `score` (0-100: picture, clear title, known venue, downtown/campus, details, how
+    many sites list it; repeats of the same weekly thing score lower)."""
+    rules = concept_rules()
+    title_counts = {}
+    for e in events:
+        k = re.sub(r"[^a-z0-9]+", " ", (e.get("title") or "").lower()).strip()
+        title_counts[k] = title_counts.get(k, 0) + 1
+    for e in events:
+        title = e.get("title") or ""
+        place = " ".join(x for x in (e.get("venue"), e.get("organizer") if isinstance(e.get("organizer"), str) else None) if x)
+        org = e.get("organizer") if isinstance(e.get("organizer"), str) else ""
+        desc = (e.get("description") or "")[:500]
+        cats = list(e.get("categories") or [e.get("category") or "community"])
+        strong, weak = set(), set()
+        for key, rx, vrx, cat, parent, venue_strong in rules:
+            strong_text = f"{title} \n {place}" if venue_strong else f"{title} \n {org}"
+            if key == "free":
+                if re.search(r"\bfree\b|no cost|no charge", f"{e.get('price') or ''} {title}", re.I):
+                    strong.add(key)
+                continue
+            if cat and (cat in cats or (cat[0] == "@" and cat[1:] in (e.get("audience") or []))):
+                strong.add(key)
+            elif rx and rx.search(strong_text):
+                strong.add(key)
+            elif (vrx and place and vrx.search(place)) or (rx and place and rx.search(place)) or (rx and desc and rx.search(desc)):
+                weak.add(key)
+        lat, lng = e.get("lat"), e.get("lng")
+        if lat is not None:
+            if haversine_km((lat, lng), DOWNTOWN) <= 1.0: strong.add("downtown")
+            if haversine_km((lat, lng), MU_CAMPUS) <= 1.3: strong.add("campus")
+        if e.get("source") == "mizzou": strong.add("campus")
+        for key, rx, vrx, cat, parent, _ in rules:   # a Hindu temple event is also religious, an AI talk is also tech
+            if parent and key in strong: strong.add(parent)
+            if parent and key in weak and parent not in strong: weak.add(parent)
+        if "sports" in cats:   # "Missouri vs. Tennessee Tech", "vs. Central Methodist"
+            for k in ("religious", "christian", "tech", "ai"):
+                strong.discard(k); weak.discard(k)
+        religious = "religious" in strong or (WORSHIP_PLACE.search(place or "") and not NOT_WORSHIP.search(title)
+                                               and e.get("source") != "dbrl"
+                                               and cats[0] not in ("music", "arts", "sports", "nightlife", "party"))
+        if religious:
+            strong.add("religious"); weak.discard("religious")
+            if "religious" not in cats:
+                cats = (["religious"] + cats) if cats[0] == "community" else (cats[:1] + ["religious"] + cats[1:])
+        e["categories"] = cats[:4]
+        e["tags"] = sorted(strong) + sorted(k + "~" for k in weak - strong)
+
+        # Quality
+        q = 0
+        img = e.get("imageUrl") or ""
+        if img and not re.search(r"placeholder|default|logo", img, re.I): q += 22
+        letters = [ch for ch in title if ch.isalpha()]
+        caps = sum(ch.isupper() for ch in letters) / max(len(letters), 1)
+        if 8 <= len(title) <= 75: q += 14
+        elif len(title) > 75: q += 6
+        if caps > 0.6 and len(letters) > 8: q -= 6
+        if re.search(r"cancel+ed|postponed", title, re.I): q -= 60
+        if re.search(r"\b(office hours|drop.in|meeting|deadline|registration|committee|orientation|session \d|"
+                     r"study hall|tutoring|check.in|weekly|board of|council|info session|hours)\b", title, re.I): q -= 10
+        v = e.get("venue") or ""
+        if v and re.search(KNOWN_VENUES, v, re.I): q += 16
+        elif v and venue_lookup(v): q += 8
+        elif v: q += 3
+        if "downtown" in strong or "campus" in strong: q += 14
+        elif lat is not None and min(haversine_km((lat, lng), DOWNTOWN), haversine_km((lat, lng), MU_CAMPUS)) <= 3: q += 6
+        if len(e.get("description") or "") > 120: q += 6
+        if e.get("ticketUrl") or e.get("url"): q += 3
+        if e.get("price"): q += 2
+        q += min(len(e.get("alsoOn") or []), 2) * 8
+        if re.search(r"\b(festival|fest|concert|live|tour|gala|parade|fair|showcase|homecoming|premiere|vs\.?|game day|tailgate)\b", title, re.I): q += 7
+        n = title_counts.get(re.sub(r"[^a-z0-9]+", " ", title.lower()).strip(), 1)
+        if n >= 4: q -= 12
+        elif n >= 2: q -= 4
+        e["score"] = max(0, min(100, q + 10))
+    return events
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=os.path.join(HERE, "events.json"))
@@ -1418,6 +1518,7 @@ def main():
             e["title"] = one_line(e["title"], 160) or e["title"]
         if isinstance(e.get("description"), str) and re.search(r"<[A-Za-z/]|&[#a-zA-Z0-9]+;", e["description"]):
             e["description"] = strip_html(e["description"], 600)
+    enrich(merged)
     merged.sort(key=lambda e: e["start"])
     with_geo = sum(1 for e in merged if e["lat"] is not None)
     feed = {

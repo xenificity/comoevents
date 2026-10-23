@@ -11,6 +11,7 @@ final class EventStore: ObservableObject {
     private func recombine() {
         let ids = Set(feedEvents.map(\.id))
         events = (feedEvents + communityEvents.filter { !ids.contains($0.id) }).sorted { $0.startDate < $1.startDate }
+        SmartSearch.shared.setVocab(events)
     }
     @Published private(set) var generatedAt: Date?
     @Published private(set) var isRefreshing = false
@@ -46,6 +47,7 @@ final class EventStore: ObservableObject {
         loaded = true
         await loadBundled()
         await refresh()
+        await SmartSearch.shared.refresh()
     }
 
     private func loadBundled() async {
@@ -100,7 +102,8 @@ final class EventStore: ObservableObject {
     // MARK: favorites
     func isFavorite(_ e: Event) -> Bool { favorites.contains(e.id) }
     func toggleFavorite(_ e: Event) {
-        if favorites.contains(e.id) { favorites.remove(e.id) } else { favorites.insert(e.id); SoundPlayer.shared.play(.favorite); Analytics.tap("save") }
+        if favorites.contains(e.id) { favorites.remove(e.id); TasteProfile.shared.learn(e, -3) }
+        else { favorites.insert(e.id); TasteProfile.shared.learn(e, 3); SoundPlayer.shared.play(.favorite); Analytics.tap("save") }
     }
     var favoriteEvents: [Event] { events.filter { favorites.contains($0.id) } }
 
@@ -118,11 +121,12 @@ final class EventStore: ObservableObject {
 
     var upcoming: [Event] { events.filter { $0.effectiveEnd >= Date() } }
 
-    /// Upcoming events grouped by calendar day, in order.
+    /// Events grouped by calendar day, days in order; inside a day the list's own order is kept
+    /// (chronological for Saved, best-ranked for Upcoming).
     func groupedByDay(_ list: [Event]) -> [(day: Date, events: [Event])] {
         let cal = Calendar.current
         let groups = Dictionary(grouping: list) { cal.startOfDay(for: $0.startDate) }
-        return groups.keys.sorted().map { ($0, groups[$0]!.sorted { $0.startDate < $1.startDate }) }
+        return groups.keys.sorted().map { ($0, groups[$0]!) }
     }
 
     private static let relative: RelativeDateTimeFormatter = { let f = RelativeDateTimeFormatter(); f.unitsStyle = .short; return f }()
