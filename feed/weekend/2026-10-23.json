@@ -52,7 +52,6 @@
    "category": "campus",
    "end": "2026-10-23T15:00:00-05:00",
    "id": "935bafe06886a041",
-   "imageUrl": "https://comoevent.com/img/gen/3663623a2a06af.webp",
    "source": "mizzou",
    "start": "2026-10-23T09:00:00-05:00",
    "title": "Researcher Writing Retreat",
@@ -627,6 +626,21 @@
    "title": "Craft Night with Kenna: Hammered Copper Earrings!"
   },
   {
+   "_slug": "dead-jones-83f680",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with Last Common Ancestor x Upper Management / Allegations, Halcyon, & Coscoroba",
+   "id": "83f6803ea3621a5b",
+   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/deadjones-web.jpg",
+   "source": "bluenote",
+   "start": "2026-10-23T20:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/dead-jones-columbia-missouri-10-23-2026/event/06006530BB35CCD9",
+   "title": "Dead Jones",
+   "venue": "Rose Music Hall (Inside)"
+  },
+  {
    "_slug": "dead-jones-rose-music-hall-055a8c",
    "categories": [
     "music"
@@ -703,20 +717,6 @@
    "ticketUrl": "https://posh.vip/e/fastpass-friday-1023",
    "title": "MyHouse Friday 10/23 Night",
    "venue": "MyHouse"
-  },
-  {
-   "_slug": "fall-festival-bazaar-99dd85",
-   "categories": [
-    "religious",
-    "community"
-   ],
-   "category": "community",
-   "id": "99dd854ddb028b69",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy81NmYyZDVmMTQyMzkyZTM1YmU3YzRkNGE2OTE1ZWRlYTQwNjAxZmQ2NmE5OTVkODZkZTFjZDFkMzc5YzE1N2Y2LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4OTEwNDEzOQ.avif",
-   "source": "allevents",
-   "start": "2026-10-24T00:00:00-05:00",
-   "title": "Fall Festival & Bazaar",
-   "venue": "Campus Lutheran Church"
   },
   {
    "_slug": "graphic-design-showcase-c4659e",
@@ -961,14 +961,19 @@
   },
   {
    "_slug": "65-hertz-ft-pollux-ages-18-e0a250",
-   "categories": [
-    "community"
+   "alsoOn": [
+    "https://rosemusichall.com/event/65-hertz-ft-pollux/"
    ],
-   "category": "community",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with Asp, Babysox, BhDtheDJ, CVNETIS, ECHOEchoecho",
    "id": "e0a2507abe781415",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iYjJhZGU2ZDdjZGYyZjhjY2ZkMGEzZGUzYmZjMWFhNWIyMTRjNzM0OTEzZmJkN2ZkYzg1NDU4NWYyNGMwYzJhLXJpbWctdzEwMjQtaDU3Ni1kYzI4MjgyOC1nbWlyLmpwZz92PTE3ODk1ODU4NjQ.avif",
    "source": "allevents",
    "start": "2026-10-24T10:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/65-hertz-ft-pollux-ages-18-columbia-missouri-10-24-2026/event/06006529BDF0DB78",
    "title": "65 Hertz ft. Pollux (Ages 18+)",
    "venue": "Rose Music Hall"
   },
@@ -1613,6 +1618,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/The-Halloween-Smash-Bash-Doubles-Pickleball-Tournament.png",
    "source": "visitcolumbia",
    "start": "2026-10-24T18:00:00-05:00",
+   "ticketUrl": "https://www.eventbrite.com/e/halloween-pickleball-showdown-doubles-tournament-tickets-2003213746240",
    "title": "Halloween Pickleball Showdown: Doubles Tournament",
    "venue": "The Kitchen Grill & Games"
   },
@@ -1787,22 +1793,6 @@
    "venue": "MU Healthcare Pavillion"
   },
   {
-   "_slug": "canceled-the-taylor-party-90ae41",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "ft. Jonny Fuzion & JayRu",
-   "id": "90ae41b4272cc087",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/InterstellarOverdrive-TBN-Web.jpg",
-   "source": "bluenote",
-   "start": "2026-10-24T19:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/the-taylor-party-ts-dance-party-columbia-missouri-09-26-2026/event/060064EAC6BBD111",
-   "timeTBD": true,
-   "title": "[CANCELED] The Taylor Party",
-   "venue": "The Blue Note"
-  },
-  {
    "_slug": "curtis-pavey-faculty-piano-recital-a43109",
    "categories": [
     "campus"
@@ -1952,23 +1942,25 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "the-taylor-party-f18213",
+   "_slug": "canceled-the-taylor-party-90ae41",
    "alsoOn": [
-    "https://allevents.in/columbia/the-taylor-party-ts-dance-party-ages-18/210008725481333"
+    "https://www.voxmagazine.com/calendar/the-taylor-party/event_d7b5d00f-e28b-46d8-8064-52c224370e7a.html"
    ],
    "categories": [
+    "music",
     "party",
     "nightlife",
     "arts"
    ],
-   "category": "party",
-   "description": "You won’t need a getaway car for every Swiftie’s dream night out: a Taylor Swift dance party. Wear a cardigan, tight little skirt or an outfit…",
-   "id": "f18213261763a604",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9lOWIzYWE3MDNlNDU0YjZjNmI3NTg1MmFlMDMzOGQwMWE4ZjEzMzRiMjAxYmI1NjE1OTVlN2Y4MmM1ODhhM2FlLXJpbWctdzEwMjQtaDU3Ni1kYzJjNzU5NS1nbWlyLmpwZz92PTE3ODQ5MTM1NDQ.avif",
+   "category": "music",
+   "description": "ft. Jonny Fuzion & JayRu",
+   "id": "90ae41b4272cc087",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/InterstellarOverdrive-TBN-Web.jpg",
    "price": "$19.30- $62",
-   "source": "vox",
+   "source": "bluenote",
    "start": "2026-10-24T21:00:00-05:00",
-   "title": "The Taylor Party",
+   "ticketUrl": "https://www.ticketmaster.com/the-taylor-party-ts-dance-party-columbia-missouri-09-26-2026/event/060064EAC6BBD111",
+   "title": "[CANCELED] The Taylor Party",
    "venue": "The Blue Note"
   },
   {
@@ -2158,7 +2150,8 @@
     "https://rosemusichall.com/event/kid-disco-boo-bash/"
    ],
    "categories": [
-    "party"
+    "party",
+    "music"
    ],
    "category": "party",
    "description": "Join us for Kid Disco: Boo Bash, a Halloween party made for tiny dancers and their grown-ups. Come dressed in your favorite costume and get ready for music, dancing, treats, and plenty of not-too-spooky fun.",
@@ -2167,6 +2160,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Kid-Disco-Boo-Bash-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-25T13:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/kid-disco-boo-bash-at-rose-columbia-missouri-10-25-2026/event/06006530044B818C",
    "title": "Kid Disco: Boo Bash",
    "venue": "Rose Park"
   },
@@ -2246,7 +2240,6 @@
    "alsoOn": [
     "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
     "https://allevents.in/columbia/theresa-caputo/200030544001559",
-    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
     "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
     "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience"
    ],
@@ -2344,6 +2337,9 @@
   },
   {
    "_slug": "hang-your-hate-rose-music-hall-091e60",
+   "alsoOn": [
+    "https://rosemusichall.com/event/hang-your-hate-3/"
+   ],
    "categories": [
     "music"
    ],
@@ -2354,6 +2350,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Hang-Your-Hate-at-Rose-Music-Hall.png",
    "source": "visitcolumbia",
    "start": "2026-10-25T19:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/hang-your-hate-columbia-missouri-10-25-2026/event/06006518AB90B11F",
    "title": "Hang Your Hate – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -2413,11 +2410,11 @@
   "69d5ed1033be1006",
   "41d668bf8a25d282",
   "32c9ea4ff61bfaab",
-  "1bae6ec782388bee",
   "e4b8d122aea2b5d4",
   "45045671d3df262a",
   "c77ed8db77d59e5b",
-  "d1dffbf60ddd7853"
+  "d1dffbf60ddd7853",
+  "091e600966e73ac8"
  ],
  "published": "2026-10-22"
 }
