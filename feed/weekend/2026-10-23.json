@@ -782,7 +782,6 @@
    "description": "Join the Booneslick Trail Quilters' Guild for the 2026 quilt show, Freedom of Expression, featuring more than 150 beautiful quilts, free prese…",
    "end": "2026-10-24T16:00:00-05:00",
    "id": "0eb0aa2a661ffea2",
-   "imageUrl": "https://comoevent.com/img/gen/794d454fc0b6e4.webp",
    "price": "$5",
    "source": "vox",
    "start": "2026-10-24T09:00:00-05:00",
@@ -824,7 +823,6 @@
    "description": "Come and browse scores of gently-used children's books and other materials. Hardback books are 50¢ and paperbacks only 25¢. There will also be special finds priced as marked. Cash or checks only. All proceeds go to support library services.",
    "end": "2026-10-24T16:45:00-05:00",
    "id": "3e3f26374cc16f7f",
-   "imageUrl": "https://comoevent.com/img/gen/193ae82eb5a0fc.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-10-24T09:00:00-05:00",
@@ -974,7 +972,6 @@
    "description": "Columbia Center for Urban Agriculture and The Food Bank for Central & Northeast Missouri host a free Crate Gardens activity focused on planting garlic alongside the fall harvest. Participants get hands-on practice in the garden and learn how to plant garlic and care for it at home. This gathering i…",
    "end": "2026-10-24T14:00:00-05:00",
    "id": "0f1e09e1c320e59f",
-   "imageUrl": "https://comoevent.com/img/gen/1bcedffc1052ec.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-10-24T10:00:00-05:00",
@@ -990,7 +987,6 @@
    "description": "$10 ticket purchases in advance or $15 dollars at the door gets you into the Big Brothers Big Sisters of Central Missouri’s first-ever Sing-Along Brunch, hosted by Harpo’s! Enjoy a complimentary cocktail and sing along with the crowd and emcee as we make our way through all your favorite hits—from M",
    "end": "2026-10-24T14:00:00-05:00",
    "id": "86e01c3c1e67bf11",
-   "imageUrl": "https://comoevent.com/img/gen/0a9783c65b5157.webp",
    "source": "visitcolumbia",
    "start": "2026-10-24T10:00:00-05:00",
    "title": "Sing-Along Brunch at Harpo’s",
@@ -1069,8 +1065,8 @@
   {
    "_slug": "vintage-vinyl-festival-1bae6e",
    "alsoOn": [
-    "https://allevents.in/columbia/vintage-and-vinyl-festival-2026/200030889074922",
-    "https://www.voxmagazine.com/calendar/vintage-and-vinyl-festival/event_4f178f91-d7d8-4074-8500-506aae4e1903.html"
+    "https://www.voxmagazine.com/calendar/vintage-and-vinyl-festival/event_4f178f91-d7d8-4074-8500-506aae4e1903.html",
+    "https://allevents.in/columbia/vintage-and-vinyl-festival-2026/200030889074922"
    ],
    "categories": [
     "music",
@@ -1142,7 +1138,6 @@
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-10-24T14:45:00-05:00",
    "id": "260b2040fa5d5117",
-   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
    "source": "ragtag",
    "start": "2026-10-24T13:00:00-05:00",
    "title": "Wicker",
@@ -1191,6 +1186,9 @@
   },
   {
    "_slug": "columbia-ballet-academy-fall-festival-4ea128",
+   "alsoOn": [
+    "https://allevents.in/columbia/columbia-ballet-academy-fall-festival/200030859822118"
+   ],
    "categories": [
     "arts",
     "family"
@@ -1203,6 +1201,19 @@
    "source": "visitcolumbia",
    "start": "2026-10-24T14:00:00-05:00",
    "title": "Columbia Ballet Academy Fall Festival"
+  },
+  {
+   "_slug": "piano-showcase-2026-32f128",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "32f12876bb789468",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wMDA5NjYzY2ZmOTljMTQ0ZGRiNGYxODhkOGY4NWM0ODgyMjkwNTY0MzFiMDBmY2E1OTZjOTM3OWU5ODUwMjY0LXJpbWctdzEwODAtaDEwODAtZGNmOGI4MzgtZ21pcj92PTE3OTI3ODAxNDM.avif",
+   "source": "allevents",
+   "start": "2026-10-24T14:00:00-05:00",
+   "title": "Piano Showcase 2026",
+   "venue": "The Missouri Theater"
   },
   {
    "_slug": "the-temptations-revue-c40c9e",
@@ -1229,7 +1240,6 @@
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-10-24T16:37:00-05:00",
    "id": "1fe14a1303fcdfc3",
-   "imageUrl": "https://comoevent.com/img/gen/787eff3a807d6d.webp",
    "source": "ragtag",
    "start": "2026-10-24T14:15:00-05:00",
    "title": "Sense and Sensibility",
@@ -1244,7 +1254,6 @@
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-10-24T17:35:00-05:00",
    "id": "20abf08bf5c8ec11",
-   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
    "source": "ragtag",
    "start": "2026-10-24T15:50:00-05:00",
    "title": "Wicker",
@@ -1260,25 +1269,11 @@
    "description": "In 2002, Missouri Symphony League member Georgia Morehouse attended a small fundraiser at the Missouri Theatre and witnessed something unforge…",
    "end": "2026-10-24T17:30:00-05:00",
    "id": "1ebf30e017540c34",
-   "imageUrl": "https://comoevent.com/img/gen/10709b280a2c3c.webp",
    "price": "$15 (adults); Free (children and students)",
    "source": "vox",
    "start": "2026-10-24T16:00:00-05:00",
    "title": "2026 Piano Student Showcase",
    "venue": "Missouri Theatre"
-  },
-  {
-   "_slug": "piano-showcase-2026-32f128",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "32f12876bb789468",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wMDA5NjYzY2ZmOTljMTQ0ZGRiNGYxODhkOGY4NWM0ODgyMjkwNTY0MzFiMDBmY2E1OTZjOTM3OWU5ODUwMjY0LXJpbWctdzEwODAtaDEwODAtZGNmOGI4MzgtZ21pcj92PTE3OTI3ODAxNDM.avif",
-   "source": "allevents",
-   "start": "2026-10-24T16:00:00-05:00",
-   "title": "Piano Showcase 2026",
-   "venue": "The Missouri Theater"
   },
   {
    "_slug": "piano-student-showcase-4dfc80",
@@ -1774,21 +1769,6 @@
    "venue": "The Blue Note"
   },
   {
-   "_slug": "myhouse-saturday-10-24-night-ae9bce",
-   "categories": [
-    "party"
-   ],
-   "category": "party",
-   "description": "Purchase a FastPass to skip the line! Ticket is a FastPass to skip the line; doors are usually around 10 PM.",
-   "id": "ae9bce8d656f1084",
-   "imageUrl": "https://comoevent.com/img/gen/p-f7d2079e2749ef.webp",
-   "source": "posh",
-   "start": "2026-10-24T22:00:00-05:00",
-   "ticketUrl": "https://posh.vip/e/fastpass-saturday-1024",
-   "title": "MyHouse Saturday 10/24 Night",
-   "venue": "MyHouse"
-  },
-  {
    "_slug": "bengali-durga-puja-2026-b6275e",
    "categories": [
     "religious",
@@ -1969,8 +1949,8 @@
   {
    "_slug": "kid-disco-boo-bash-d1dffb",
    "alsoOn": [
-    "https://rosemusichall.com/event/kid-disco-boo-bash/",
-    "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596"
+    "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596",
+    "https://rosemusichall.com/event/kid-disco-boo-bash/"
    ],
    "categories": [
     "party",
@@ -2061,10 +2041,10 @@
   {
    "_slug": "theresa-caputo-live-the-experience-1b32d3",
    "alsoOn": [
-    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
-    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
     "https://allevents.in/columbia/theresa-caputo/200030544001559",
-    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience"
+    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
+    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
+    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience"
    ],
    "categories": [
     "family",
