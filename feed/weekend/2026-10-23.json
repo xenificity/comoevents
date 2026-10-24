@@ -833,6 +833,19 @@
    "venue": "Columbia Public Library"
   },
   {
+   "_slug": "jsa-at-dugout-sports-cards-more-show-b8a33f",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "b8a33f8a54c511b6",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9hOGJhYWE4ZmE0NThlMzcxY2Q4ZTU3M2IyYjBjYmZkM2YxZmVkY2UwMzJiODRhZmM3M2RhMzI2YTE1ODFiN2EzLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjc4MDEzMw.avif",
+   "source": "allevents",
+   "start": "2026-10-24T09:00:00-05:00",
+   "title": "JSA at Dugout Sports Cards & More Show",
+   "venue": "Hilton Garden Inn - Columbia MO (Columbia, MO)"
+  },
+  {
    "_slug": "monster-bike-bash-resurrection-aa3967",
    "categories": [
     "party"
@@ -904,7 +917,6 @@
    "category": "community",
    "description": "The 15th annual invitational 9-ball tournament benefits Mid-Missouri cancer patients facing financial hardship through the Vincent P. Gurucharri MD Foundation. Taking place at Billiards on Broadway, the competition features two-person Scotch Doubles in an alternate shot format, so partners compete…",
    "id": "76a4a1f040789fbe",
-   "imageUrl": "https://comoevent.com/img/gen/e67092d85bb5a4.webp",
    "source": "baselocal",
    "start": "2026-10-24T10:00:00-05:00",
    "title": "15th Annual Invitational 9-Ball Tournament",
@@ -1175,6 +1187,9 @@
   },
   {
    "_slug": "columbia-ballet-academy-fall-festival-4ea128",
+   "alsoOn": [
+    "https://allevents.in/columbia/columbia-ballet-academy-fall-festival/200030859822118"
+   ],
    "categories": [
     "arts",
     "family"
@@ -1187,6 +1202,19 @@
    "source": "visitcolumbia",
    "start": "2026-10-24T14:00:00-05:00",
    "title": "Columbia Ballet Academy Fall Festival"
+  },
+  {
+   "_slug": "piano-showcase-2026-32f128",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "32f12876bb789468",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wMDA5NjYzY2ZmOTljMTQ0ZGRiNGYxODhkOGY4NWM0ODgyMjkwNTY0MzFiMDBmY2E1OTZjOTM3OWU5ODUwMjY0LXJpbWctdzEwODAtaDEwODAtZGNmOGI4MzgtZ21pcj92PTE3OTI3ODAxNDM.avif",
+   "source": "allevents",
+   "start": "2026-10-24T14:00:00-05:00",
+   "title": "Piano Showcase 2026",
+   "venue": "The Missouri Theater"
   },
   {
    "_slug": "the-temptations-revue-c40c9e",
@@ -1250,19 +1278,6 @@
    "start": "2026-10-24T16:00:00-05:00",
    "title": "2026 Piano Student Showcase",
    "venue": "Missouri Theatre"
-  },
-  {
-   "_slug": "piano-showcase-2026-32f128",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "32f12876bb789468",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wMDA5NjYzY2ZmOTljMTQ0ZGRiNGYxODhkOGY4NWM0ODgyMjkwNTY0MzFiMDBmY2E1OTZjOTM3OWU5ODUwMjY0LXJpbWctdzEwODAtaDEwODAtZGNmOGI4MzgtZ21pcj92PTE3OTI3ODAxNDM.avif",
-   "source": "allevents",
-   "start": "2026-10-24T16:00:00-05:00",
-   "title": "Piano Showcase 2026",
-   "venue": "The Missouri Theater"
   },
   {
    "_slug": "piano-student-showcase-4dfc80",
@@ -1377,18 +1392,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "all-alumni-reunion-tchs-homecoming-bb5aed",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "bb5aed43f12a8683",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9jNzMyYTNkNWRlY2RjNWYxNGMxOWQ4NDhlZTE2NTA5ZmM2OTI4YWI3MTQ1MmQxMmMyYTIwMTRjZWM5ODk5ZGZmLXJpbWctdzg1MS1oMzE1LWRjMDgxODQ4LWdtaXI_dj0xNzkyNzgwMTMx.avif",
-   "source": "allevents",
-   "start": "2026-10-24T18:00:00-05:00",
-   "title": "All Alumni Reunion - TCHS Homecoming"
-  },
-  {
    "_slug": "baseball-missouri-vs-game-2-fd03bd",
    "categories": [
     "sports"
@@ -1465,6 +1468,18 @@
    "title": "Open House 920 Engle Columbia MO"
   },
   {
+   "_slug": "trick-or-tee-59c7a0",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "59c7a0fe134132c4",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9lOTA1MzA1ZmM5Y2I3YWY4YzRkOTYxMmU2ZWI4ZDlmMThhNzdiMmQ0MDgwOWIxMGJjMTQ0YmJiNzNkMmM5NzI0LXJpbWctdzEyMDAtaDY3NS1kYzE4MTgxOC1nbWlyP3Y9MTc5MTgyMjc0Ng.avif",
+   "source": "allevents",
+   "start": "2026-10-24T18:00:00-05:00",
+   "title": "Trick-Or-Tee"
+  },
+  {
    "_slug": "wicker-70357b",
    "categories": [
     "arts"
@@ -1494,6 +1509,18 @@
    "start": "2026-10-24T18:30:00-05:00",
    "title": "Sita Rama pooja/Bhajan",
    "venue": "Shanthi Mandir"
+  },
+  {
+   "_slug": "all-alumni-reunion-tchs-homecoming-bb5aed",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "bb5aed43f12a8683",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9jNzMyYTNkNWRlY2RjNWYxNGMxOWQ4NDhlZTE2NTA5ZmM2OTI4YWI3MTQ1MmQxMmMyYTIwMTRjZWM5ODk5ZGZmLXJpbWctdzg1MS1oMzE1LWRjMDgxODQ4LWdtaXI_dj0xNzkyNzgwMTMx.avif",
+   "source": "allevents",
+   "start": "2026-10-24T19:00:00-05:00",
+   "title": "All Alumni Reunion - TCHS Homecoming"
   },
   {
    "_slug": "andrew-gaffigan-jack-wright-live-comedy-at-eastside-tavern-219757",
@@ -1669,19 +1696,6 @@
    "start": "2026-10-24T20:30:00-05:00",
    "title": "65 Hertz – Rose Music Hall",
    "venue": "Rose Music Hall"
-  },
-  {
-   "_slug": "jsa-at-dugout-sports-cards-more-show-b8a33f",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "b8a33f8a54c511b6",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9hOGJhYWE4ZmE0NThlMzcxY2Q4ZTU3M2IyYjBjYmZkM2YxZmVkY2UwMzJiODRhZmM3M2RhMzI2YTE1ODFiN2EzLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjc4MDEzMw.avif",
-   "source": "allevents",
-   "start": "2026-10-24T21:00:00-05:00",
-   "title": "JSA at Dugout Sports Cards & More Show",
-   "venue": "Hilton Garden Inn - Columbia MO (Columbia, MO)"
   },
   {
    "_slug": "live-hardcore-comedy-at-the-tokyo-club-lady-moe-joe-with-bli-8ced22",
@@ -2044,9 +2058,9 @@
    "_slug": "theresa-caputo-live-the-experience-1b32d3",
    "alsoOn": [
     "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
-    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
     "https://allevents.in/columbia/theresa-caputo/200030544001559",
-    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience"
+    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
+    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience"
    ],
    "categories": [
     "family",
