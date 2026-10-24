@@ -194,21 +194,6 @@
    "venue": "Memorial Student Union"
   },
   {
-   "_slug": "mizzou-family-weekend-2026-1de4d6",
-   "categories": [
-    "arts",
-    "family"
-   ],
-   "category": "arts",
-   "end": "2026-10-25T00:00:00-05:00",
-   "id": "1de4d61545a69681",
-   "imageUrl": "https://comoevent.com/img/gen/1103fa17ab364e.webp",
-   "source": "mizzou",
-   "start": "2026-10-23T12:00:00-05:00",
-   "title": "Mizzou Family Weekend 2026",
-   "venue": "Campus Various"
-  },
-  {
    "_slug": "phantom-field-haunted-house-853a15",
    "categories": [
     "community"
@@ -217,7 +202,6 @@
    "description": "Missouri Cares presents Phantom Field, a haunted house attraction in Fulton that runs from 7 to 11 p.m. every Friday and Saturday in October u…",
    "end": "2026-10-23T23:55:00-05:00",
    "id": "853a15f116824251",
-   "imageUrl": "https://comoevent.com/img/gen/f9a4b40cd98f6d.webp",
    "price": "$15",
    "source": "vox",
    "start": "2026-10-23T12:00:00-05:00",
@@ -539,16 +523,12 @@
   },
   {
    "_slug": "lumia-636c27",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/lumia/event_e1048710-663c-46c4-95ab-f143dfc29625.html"
-   ],
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "LUMIA blends the digital and the real in an immersive theatrical experience. The story follows a central character drawn into a metaverse by an AI and challenged to advance through a series of levels. Each setting comes to life with cutting edge projection mapping, vivid holographic imagery, and in…",
    "id": "636c274bc815bb19",
-   "price": "$38-$45",
    "source": "baselocal",
    "start": "2026-10-23T19:00:00-05:00",
    "title": "LUMIA",
@@ -726,12 +706,26 @@
    "category": "campus",
    "end": "2026-10-29T00:00:00-05:00",
    "id": "c4659e118c5cb7ac",
-   "imageUrl": "https://comoevent.com/img/gen/0d25b0ee5449a3.webp",
    "price": "Free",
    "source": "mizzou",
    "start": "2026-10-24T00:00:00-05:00",
    "title": "Graphic Design Showcase",
    "venue": "Fine Arts Building"
+  },
+  {
+   "_slug": "mizzou-family-weekend-2026-1de4d6",
+   "allDay": true,
+   "categories": [
+    "arts",
+    "family"
+   ],
+   "category": "arts",
+   "end": "2026-10-25T00:00:00-05:00",
+   "id": "1de4d61545a69681",
+   "source": "mizzou",
+   "start": "2026-10-24T00:00:00-05:00",
+   "title": "Mizzou Family Weekend 2026",
+   "venue": "Campus Various"
   },
   {
    "_slug": "bear-creek-run-half-marathon-32c9ea",
@@ -821,20 +815,6 @@
    "source": "visitcolumbia",
    "start": "2026-10-24T09:00:00-05:00",
    "title": "Booneslick Trail Quilters’ Guild: 2026 Quilt Show (Day 2)"
-  },
-  {
-   "_slug": "fall-2026-stem-cubs-45a9f9",
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "end": "2026-10-24T16:00:00-05:00",
-   "id": "45a9f9a5b50733da",
-   "imageUrl": "https://comoevent.com/img/gen/p-828460fa4b0b8d.webp",
-   "source": "mizzou",
-   "start": "2026-10-24T09:00:00-05:00",
-   "title": "Fall 2026 STEM Cubs",
-   "venue": "Townsend Hall 611 Conley Ave Columbia MO 65211 United States"
   },
   {
    "_slug": "friends-of-the-columbia-public-library-children-s-book-sale-3e3f26",
@@ -932,19 +912,14 @@
   },
   {
    "_slug": "65-hertz-ft-pollux-ages-18-e0a250",
-   "alsoOn": [
-    "https://rosemusichall.com/event/65-hertz-ft-pollux/"
-   ],
    "categories": [
-    "music"
+    "community"
    ],
-   "category": "music",
-   "description": "with Asp, Babysox, BhDtheDJ, CVNETIS, ECHOEchoecho",
+   "category": "community",
    "id": "e0a2507abe781415",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iYjJhZGU2ZDdjZGYyZjhjY2ZkMGEzZGUzYmZjMWFhNWIyMTRjNzM0OTEzZmJkN2ZkYzg1NDU4NWYyNGMwYzJhLXJpbWctdzEwMjQtaDU3Ni1kYzI4MjgyOC1nbWlyLmpwZz92PTE3ODk1ODU4NjQ.avif",
    "source": "allevents",
    "start": "2026-10-24T10:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/65-hertz-ft-pollux-ages-18-columbia-missouri-10-24-2026/event/06006529BDF0DB78",
    "title": "65 Hertz ft. Pollux (Ages 18+)",
    "venue": "Rose Music Hall"
   },
@@ -1019,20 +994,6 @@
    "venue": "Jazz - A Louisiana Kitchen"
   },
   {
-   "_slug": "walking-for-well-being-mizzou-traditions-and-history-tour-co-5e6c81",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "end": "2026-10-24T11:15:00-05:00",
-   "id": "5e6c81c3c0344943",
-   "imageUrl": "https://comoevent.com/img/gen/32504c9f946623.webp",
-   "source": "mizzou",
-   "start": "2026-10-24T10:00:00-05:00",
-   "title": "Walking for Well-Being: Mizzou Traditions and History Tour (COPY)",
-   "venue": "Reynolds Alumni Center next to the Beetle Baily Sculpture 2500 MU Student Center901 Rollins Columbia Miss 65211 United S"
-  },
-  {
    "_slug": "mizzou-pal-ooza-story-time-e15059",
    "categories": [
     "family"
@@ -1047,20 +1008,6 @@
    "start": "2026-10-24T11:00:00-05:00",
    "title": "Mizzou PAL-OOZA Story Time",
    "venue": "Columbia Public Library"
-  },
-  {
-   "_slug": "mizzous-botanic-garden-campus-tour-f70b3c",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "end": "2026-10-24T12:00:00-05:00",
-   "id": "f70b3c16f8c2bc19",
-   "imageUrl": "https://comoevent.com/img/gen/9a0e8cf57d5164.webp",
-   "source": "mizzou",
-   "start": "2026-10-24T11:00:00-05:00",
-   "title": "Mizzou’s Botanic Garden Campus Tour",
-   "venue": "South Exterior of Jesse Hall non Columns facing side 2500 MU Student Center901 Rollins Columbia Miss 65211 United States"
   },
   {
    "_slug": "softball-missouri-vs-ua-rich-moutain-b65799",
@@ -1091,34 +1038,6 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "college-of-health-sciences-family-weekend-sno-cone-social-3ccbb9",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "end": "2026-10-24T15:00:00-05:00",
-   "id": "3ccbb967b4c4c2d3",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2463842_CHS_Physical_Therapyjpg_a716c041-f943-4975-8028-0c937eebe2db_1015114015.jpeg",
-   "source": "mizzou",
-   "start": "2026-10-24T12:00:00-05:00",
-   "title": "College of Health Sciences Family Weekend: Sno-Cone Social",
-   "venue": "Lewis and Clark Courtyard 510 amp 701 S 5th St Columbia MO 65203 2500 MU Student Center901 Rollins Columbia Miss 65211 U"
-  },
-  {
-   "_slug": "explore-mizzous-museums-during-family-weekend-e7ff42",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "end": "2026-10-24T16:00:00-05:00",
-   "id": "e7ff42d0f85c3409",
-   "imageUrl": "https://comoevent.com/img/gen/eacbfc11d83776.webp",
-   "source": "mizzou",
-   "start": "2026-10-24T12:00:00-05:00",
-   "title": "Explore Mizzou’s Museums During Family Weekend!",
-   "venue": "1020 Lowry Street Columbia MO 65201 2500 MU Student Center901 Rollins Columbia Miss 65211 United States"
-  },
-  {
    "_slug": "naza-6bf4e9",
    "categories": [
     "arts"
@@ -1134,24 +1053,9 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "tigers-on-track-a-roadmap-for-financial-wellness-during-coll-7764c9",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "end": "2026-10-24T13:00:00-05:00",
-   "id": "7764c9147045cbd4",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2463842_EventPhoto_ddc5ad54-8d87-487a-afea-a7d624c2e198_1014134540.jpeg",
-   "source": "mizzou",
-   "start": "2026-10-24T12:00:00-05:00",
-   "title": "Tigers on Track: A Roadmap for Financial Wellness During College (COPY)",
-   "venue": "Monsanto Auditorium Bond Life Sciences Center 2500 MU Student Center901 Rollins Columbia Miss 65211 United States"
-  },
-  {
    "_slug": "vintage-vinyl-festival-1bae6e",
    "alsoOn": [
-    "https://allevents.in/columbia/vintage-and-vinyl-festival-2026/200030889074922",
-    "https://www.voxmagazine.com/calendar/vintage-and-vinyl-festival/event_4f178f91-d7d8-4074-8500-506aae4e1903.html"
+    "https://allevents.in/columbia/vintage-and-vinyl-festival-2026/200030889074922"
    ],
    "categories": [
     "music",
@@ -1162,25 +1066,10 @@
    "end": "2026-10-24T21:00:00-05:00",
    "id": "1bae6ec782388bee",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Vintage-and-Vinyl-Festival.jpg",
-   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-10-24T12:00:00-05:00",
    "title": "Vintage & Vinyl Festival",
    "venue": "The Arcade District, Columbia, Missouri"
-  },
-  {
-   "_slug": "walking-for-well-being-mizzou-traditions-and-history-tour-co-29dc3e",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "end": "2026-10-24T13:15:00-05:00",
-   "id": "29dc3e26b4fe0648",
-   "imageUrl": "https://comoevent.com/img/gen/2c2e4eb1b82cbd.webp",
-   "source": "mizzou",
-   "start": "2026-10-24T12:00:00-05:00",
-   "title": "Walking for Well-Being: Mizzou Traditions and History Tour (COPY) (COPY)",
-   "venue": "Reynolds Alumni Center next to the Beetle Baily Sculpture 2500 MU Student Center901 Rollins Columbia Miss 65211 United S"
   },
   {
    "_slug": "western-permanent-jewelry-at-fringe-5a2531",
@@ -1193,21 +1082,6 @@
    "source": "allevents",
    "start": "2026-10-24T12:00:00-05:00",
    "title": "{Western} Permanent Jewelry at Fringe!"
-  },
-  {
-   "_slug": "a-l-gustin-golf-course-beehive-checkup-72eb61",
-   "categories": [
-    "sports",
-    "campus"
-   ],
-   "category": "sports",
-   "end": "2026-10-24T14:00:00-05:00",
-   "id": "72eb61ecde40e1f5",
-   "imageUrl": "https://comoevent.com/img/gen/fa29f097d7b028.webp",
-   "source": "mizzou",
-   "start": "2026-10-24T13:00:00-05:00",
-   "title": "A.L. Gustin Golf Course Beehive Checkup",
-   "venue": "AL Gustin Golf Course Parking Lot near Clubhouse 18 Stadium Blvd Columbia 65211 United States"
   },
   {
    "_slug": "halloween-kids-yoga-at-the-kitchen-with-sarah-s-yoga-studio-0758b0",
@@ -1242,34 +1116,6 @@
    "start": "2026-10-24T13:00:00-05:00",
    "title": "James Hardie Fall Parade of Homes",
    "venue": "Various locations"
-  },
-  {
-   "_slug": "mizzous-botanic-garden-campus-tour-d8a495",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "end": "2026-10-24T14:00:00-05:00",
-   "id": "d8a4958555f36aca",
-   "imageUrl": "https://comoevent.com/img/gen/9a0e8cf57d5164.webp",
-   "source": "mizzou",
-   "start": "2026-10-24T13:00:00-05:00",
-   "title": "Mizzou’s Botanic Garden Campus Tour",
-   "venue": "South Exterior of Jesse Hall non Columns facing side 2500 MU Student Center901 Rollins Columbia Miss 65211 United States"
-  },
-  {
-   "_slug": "speakers-event-bbfcd0",
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "end": "2026-10-24T16:00:00-05:00",
-   "id": "bbfcd015f1c1bcaf",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2498011_V2_d3dc5210-1561-4e12-8e8c-c61c37f66d6a_101215717.png",
-   "source": "mizzou",
-   "start": "2026-10-24T13:00:00-05:00",
-   "title": "Speakers Event",
-   "venue": "Leadership Auditorium University of Missouri Columbia Missouri United States"
   },
   {
    "_slug": "wicker-260b20",
@@ -1329,9 +1175,6 @@
   },
   {
    "_slug": "columbia-ballet-academy-fall-festival-4ea128",
-   "alsoOn": [
-    "https://allevents.in/columbia/columbia-ballet-academy-fall-festival/200030859822118"
-   ],
    "categories": [
     "arts",
     "family"
@@ -1344,19 +1187,6 @@
    "source": "visitcolumbia",
    "start": "2026-10-24T14:00:00-05:00",
    "title": "Columbia Ballet Academy Fall Festival"
-  },
-  {
-   "_slug": "piano-showcase-2026-32f128",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "32f12876bb789468",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wMDA5NjYzY2ZmOTljMTQ0ZGRiNGYxODhkOGY4NWM0ODgyMjkwNTY0MzFiMDBmY2E1OTZjOTM3OWU5ODUwMjY0LXJpbWctdzEwODAtaDEwODAtZGNmOGI4MzgtZ21pcj92PTE3OTI3ODAxNDM.avif",
-   "source": "allevents",
-   "start": "2026-10-24T14:00:00-05:00",
-   "title": "Piano Showcase 2026",
-   "venue": "The Missouri Theater"
   },
   {
    "_slug": "the-temptations-revue-c40c9e",
@@ -1422,6 +1252,19 @@
    "venue": "Missouri Theatre"
   },
   {
+   "_slug": "piano-showcase-2026-32f128",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "32f12876bb789468",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wMDA5NjYzY2ZmOTljMTQ0ZGRiNGYxODhkOGY4NWM0ODgyMjkwNTY0MzFiMDBmY2E1OTZjOTM3OWU5ODUwMjY0LXJpbWctdzEwODAtaDEwODAtZGNmOGI4MzgtZ21pcj92PTE3OTI3ODAxNDM.avif",
+   "source": "allevents",
+   "start": "2026-10-24T16:00:00-05:00",
+   "title": "Piano Showcase 2026",
+   "venue": "The Missouri Theater"
+  },
+  {
    "_slug": "piano-student-showcase-4dfc80",
    "alsoOn": [
     "https://calendar.missouri.edu/missouri-theatre/event/18401-the-missouri-symphony-piano-student-showcase"
@@ -1443,18 +1286,6 @@
    "venue": "Missouri Theatre"
   },
   {
-   "_slug": "soul-awakenings-and-animal-communication-w-joanne-narr-ed002c",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "ed002c6b046b03ed",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9iNDU2NGI1ZTc4ZGE3ODhmNDAxYTdiNTM2YTBjZmQyMWRmYjE5ZTgwMjMzYjg3OWNhZjdhZGIzNzBiNTNjZmZkLXJpbWctdzgyMC1oMzEyLWRjZjhkOGY4LWdtaXI_dj0xNzkyNzgwMTE0.avif",
-   "source": "allevents",
-   "start": "2026-10-24T16:00:00-05:00",
-   "title": "Soul Awakenings and Animal Communication w/ Joanne Narr"
-  },
-  {
    "_slug": "diamond-in-the-rough-shake-the-city-edition-4a3177",
    "categories": [
     "community"
@@ -1471,20 +1302,6 @@
    "venue": "2717 Shepard Blvd"
   },
   {
-   "_slug": "mizzou-students-join-us-for-the-family-weekend-picture-2a1aef",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "end": "2026-10-24T17:30:00-05:00",
-   "id": "2a1aef1894b8832a",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2463842_North_endzone_ada1ce94-f5bb-4af1-af7b-6b0050d7b15c_1015115525.png",
-   "source": "mizzou",
-   "start": "2026-10-24T16:30:00-05:00",
-   "title": "Mizzou Students! Join Us for the Family Weekend Picture",
-   "venue": "New North Endzone Near Club 1926 Entry Point 2500 MU Student Center901 Rollins Columbia Miss 65211 United States"
-  },
-  {
    "_slug": "live-comedy-at-the-tokyo-club-matt-blindstein-stein-56af76",
    "categories": [
     "arts"
@@ -1496,6 +1313,18 @@
    "start": "2026-10-24T17:00:00-05:00",
    "title": "LIVE COMEDY at The Tokyo Club - Matt \"BLINDSTEIN\" Stein!!!",
    "venue": "The Tokyo Club"
+  },
+  {
+   "_slug": "soul-awakenings-and-animal-communication-w-joanne-narr-ed002c",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "ed002c6b046b03ed",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9iNDU2NGI1ZTc4ZGE3ODhmNDAxYTdiNTM2YTBjZmQyMWRmYjE5ZTgwMjMzYjg3OWNhZjdhZGIzNzBiNTNjZmZkLXJpbWctdzgyMC1oMzEyLWRjZjhkOGY4LWdtaXI_dj0xNzkyNzgwMTE0.avif",
+   "source": "allevents",
+   "start": "2026-10-24T17:00:00-05:00",
+   "title": "Soul Awakenings and Animal Communication w/ Joanne Narr"
   },
   {
    "_slug": "2026-boone-county-history-makers-hall-of-fame-gala-bb693e",
@@ -1636,18 +1465,6 @@
    "title": "Open House 920 Engle Columbia MO"
   },
   {
-   "_slug": "tryps-trivia-night-f61c3f",
-   "categories": [
-    "nightlife"
-   ],
-   "category": "nightlife",
-   "id": "f61c3fc8a378002c",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMzBlZWFmYWFjZTIwNDVlOTM5NTg2MGNiZGNlMzU2ZTYxZWNlZTM3ODhlY2U3OGVjZjhiOTJlMGVmOGFhMWE2Zi1yaW1nLXcxMjAwLWg2NzUtZGMyODI4MjgtZ21pcj92PTE3OTI3ODAxMzg.avif",
-   "source": "allevents",
-   "start": "2026-10-24T18:00:00-05:00",
-   "title": "TRYPS Trivia Night"
-  },
-  {
    "_slug": "wicker-70357b",
    "categories": [
     "arts"
@@ -1661,21 +1478,6 @@
    "start": "2026-10-24T18:20:00-05:00",
    "title": "Wicker",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "family-movie-on-campus-with-missouri-students-association-re-393ba2",
-   "categories": [
-    "arts",
-    "family"
-   ],
-   "category": "arts",
-   "end": "2026-10-24T20:30:00-05:00",
-   "id": "393ba2f8ea7fc4a6",
-   "imageUrl": "https://comoevent.com/img/gen/fab997daaefc25.webp",
-   "source": "mizzou",
-   "start": "2026-10-24T18:30:00-05:00",
-   "title": "Family Movie on Campus with Missouri Students Association & Residence Halls Association",
-   "venue": "901 Rollins MU Student CenterMain Level 2500 MU Student Center901 Rollins Columbia Miss 65211 United States"
   },
   {
    "_slug": "sita-rama-pooja-bhajan-8061da",
@@ -1827,6 +1629,18 @@
    "source": "allevents",
    "start": "2026-10-24T20:00:00-05:00",
    "title": "Doorstep Democracy: Training Part 2, Lunch & Canvass"
+  },
+  {
+   "_slug": "tryps-trivia-night-f61c3f",
+   "categories": [
+    "nightlife"
+   ],
+   "category": "nightlife",
+   "id": "f61c3fc8a378002c",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMzBlZWFmYWFjZTIwNDVlOTM5NTg2MGNiZGNlMzU2ZTYxZWNlZTM3ODhlY2U3OGVjZjhiOTJlMGVmOGFhMWE2Zi1yaW1nLXcxMjAwLWg2NzUtZGMyODI4MjgtZ21pcj92PTE3OTI3ODAxMzg.avif",
+   "source": "allevents",
+   "start": "2026-10-24T20:00:00-05:00",
+   "title": "TRYPS Trivia Night"
   },
   {
    "_slug": "trunk-or-treat-at-grace-bible-church-49fc01",
@@ -2140,12 +1954,10 @@
   {
    "_slug": "kid-disco-boo-bash-d1dffb",
    "alsoOn": [
-    "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596",
-    "https://rosemusichall.com/event/kid-disco-boo-bash/"
+    "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596"
    ],
    "categories": [
-    "party",
-    "music"
+    "party"
    ],
    "category": "party",
    "description": "Join us for Kid Disco: Boo Bash, a Halloween party made for tiny dancers and their grown-ups. Come dressed in your favorite costume and get ready for music, dancing, treats, and plenty of not-too-spooky fun.",
@@ -2154,7 +1966,6 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Kid-Disco-Boo-Bash-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-25T13:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/kid-disco-boo-bash-at-rose-columbia-missouri-10-25-2026/event/06006530044B818C",
    "title": "Kid Disco: Boo Bash",
    "venue": "Rose Park"
   },
@@ -2232,10 +2043,10 @@
   {
    "_slug": "theresa-caputo-live-the-experience-1b32d3",
    "alsoOn": [
-    "https://allevents.in/columbia/theresa-caputo/200030544001559",
-    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
+    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
     "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
-    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083"
+    "https://allevents.in/columbia/theresa-caputo/200030544001559",
+    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience"
    ],
    "categories": [
     "family",
@@ -2318,9 +2129,6 @@
   },
   {
    "_slug": "hang-your-hate-rose-music-hall-091e60",
-   "alsoOn": [
-    "https://rosemusichall.com/event/hang-your-hate-3/"
-   ],
    "categories": [
     "music"
    ],
@@ -2331,7 +2139,6 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Hang-Your-Hate-at-Rose-Music-Hall.png",
    "source": "visitcolumbia",
    "start": "2026-10-25T19:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/hang-your-hate-columbia-missouri-10-25-2026/event/06006518AB90B11F",
    "title": "Hang Your Hate – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -2384,7 +2191,7 @@
   }
  ],
  "friday": "2026-10-23",
- "modified": "2026-10-23",
+ "modified": "2026-10-24",
  "picks": [
   "a7c37b0296600613",
   "83f6803ea3621a5b",
