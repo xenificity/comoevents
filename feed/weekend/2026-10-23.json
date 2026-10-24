@@ -754,7 +754,6 @@
    "description": "Savor the flavors of mid-Missouri at the esteemed Columbia Farmers Market, renowned as one of the nation's premier farmers markets! Join them …",
    "end": "2026-10-24T12:00:00-05:00",
    "id": "c4445d9e3df1a7a5",
-   "imageUrl": "https://comoevent.com/img/gen/9491e423f31c94.webp",
    "price": "Free",
    "source": "vox",
    "start": "2026-10-24T08:00:00-05:00",
@@ -924,14 +923,19 @@
   },
   {
    "_slug": "65-hertz-ft-pollux-ages-18-e0a250",
-   "categories": [
-    "community"
+   "alsoOn": [
+    "https://rosemusichall.com/event/65-hertz-ft-pollux/"
    ],
-   "category": "community",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with Asp, Babysox, BhDtheDJ, CVNETIS, ECHOEchoecho",
    "id": "e0a2507abe781415",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iYjJhZGU2ZDdjZGYyZjhjY2ZkMGEzZGUzYmZjMWFhNWIyMTRjNzM0OTEzZmJkN2ZkYzg1NDU4NWYyNGMwYzJhLXJpbWctdzEwMjQtaDU3Ni1kYzI4MjgyOC1nbWlyLmpwZz92PTE3ODk1ODU4NjQ.avif",
    "source": "allevents",
    "start": "2026-10-24T10:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/65-hertz-ft-pollux-ages-18-columbia-missouri-10-24-2026/event/06006529BDF0DB78",
    "title": "65 Hertz ft. Pollux (Ages 18+)",
    "venue": "Rose Music Hall"
   },
@@ -1014,7 +1018,6 @@
    "description": "Trained members of Mizzou PALS will read with small groups of children and parents in four 15-minute sessions, so you can drop by any time. When you arrive, your child may pick a reading group to join; they'll hear books designed to improve reading comprehension and vocabulary. Different books will ",
    "end": "2026-10-24T12:00:00-05:00",
    "id": "e150590826fc3bc8",
-   "imageUrl": "https://comoevent.com/img/gen/c9b06111f1e4fd.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-10-24T11:00:00-05:00",
@@ -1058,7 +1061,6 @@
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-10-24T13:18:00-05:00",
    "id": "6bf4e9fddcfa4ba7",
-   "imageUrl": "https://comoevent.com/img/gen/dcee2dd60de30f.webp",
    "source": "ragtag",
    "start": "2026-10-24T12:00:00-05:00",
    "title": "NAZA",
@@ -1067,7 +1069,8 @@
   {
    "_slug": "vintage-vinyl-festival-1bae6e",
    "alsoOn": [
-    "https://allevents.in/columbia/vintage-and-vinyl-festival-2026/200030889074922"
+    "https://allevents.in/columbia/vintage-and-vinyl-festival-2026/200030889074922",
+    "https://www.voxmagazine.com/calendar/vintage-and-vinyl-festival/event_4f178f91-d7d8-4074-8500-506aae4e1903.html"
    ],
    "categories": [
     "music",
@@ -1078,6 +1081,7 @@
    "end": "2026-10-24T21:00:00-05:00",
    "id": "1bae6ec782388bee",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Vintage-and-Vinyl-Festival.jpg",
+   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-10-24T12:00:00-05:00",
    "title": "Vintage & Vinyl Festival",
@@ -1187,9 +1191,6 @@
   },
   {
    "_slug": "columbia-ballet-academy-fall-festival-4ea128",
-   "alsoOn": [
-    "https://allevents.in/columbia/columbia-ballet-academy-fall-festival/200030859822118"
-   ],
    "categories": [
     "arts",
     "family"
@@ -1202,19 +1203,6 @@
    "source": "visitcolumbia",
    "start": "2026-10-24T14:00:00-05:00",
    "title": "Columbia Ballet Academy Fall Festival"
-  },
-  {
-   "_slug": "piano-showcase-2026-32f128",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "32f12876bb789468",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wMDA5NjYzY2ZmOTljMTQ0ZGRiNGYxODhkOGY4NWM0ODgyMjkwNTY0MzFiMDBmY2E1OTZjOTM3OWU5ODUwMjY0LXJpbWctdzEwODAtaDEwODAtZGNmOGI4MzgtZ21pcj92PTE3OTI3ODAxNDM.avif",
-   "source": "allevents",
-   "start": "2026-10-24T14:00:00-05:00",
-   "title": "Piano Showcase 2026",
-   "venue": "The Missouri Theater"
   },
   {
    "_slug": "the-temptations-revue-c40c9e",
@@ -1280,6 +1268,19 @@
    "venue": "Missouri Theatre"
   },
   {
+   "_slug": "piano-showcase-2026-32f128",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "32f12876bb789468",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wMDA5NjYzY2ZmOTljMTQ0ZGRiNGYxODhkOGY4NWM0ODgyMjkwNTY0MzFiMDBmY2E1OTZjOTM3OWU5ODUwMjY0LXJpbWctdzEwODAtaDEwODAtZGNmOGI4MzgtZ21pcj92PTE3OTI3ODAxNDM.avif",
+   "source": "allevents",
+   "start": "2026-10-24T16:00:00-05:00",
+   "title": "Piano Showcase 2026",
+   "venue": "The Missouri Theater"
+  },
+  {
    "_slug": "piano-student-showcase-4dfc80",
    "alsoOn": [
     "https://calendar.missouri.edu/missouri-theatre/event/18401-the-missouri-symphony-piano-student-showcase"
@@ -1315,6 +1316,21 @@
    "ticketUrl": "https://www.eventbrite.com/e/diamond-in-the-rough-shake-the-city-edition-tickets-2000034612365",
    "title": "DIAMOND in the Rough: shake the city edition",
    "venue": "2717 Shepard Blvd"
+  },
+  {
+   "_slug": "updated-show-time-e-e-railroad-79b5ba",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "@ Join us as E. & E. Railroad takes the stage for an unforgettable performance along the river. Bring your friends, grab a drink, and soak up the afternoon with us! E&E Railroad is a mix of old-time and roots music, traditional and modern. The band consists of Ellen Gomez on fiddle, John Ellis on gu",
+   "end": "2026-10-24T19:30:00-05:00",
+   "id": "79b5ba06cdae6749",
+   "imageUrl": "https://comoevent.com/img/gen/c7399dc392b76f.webp",
+   "source": "cooperslanding",
+   "start": "2026-10-24T16:30:00-05:00",
+   "title": "UPDATED SHOW TIME: E. & E. Railroad",
+   "venue": "Cooper's Landing"
   },
   {
    "_slug": "live-comedy-at-the-tokyo-club-matt-blindstein-stein-56af76",
@@ -1360,8 +1376,8 @@
   {
    "_slug": "boone-county-history-makers-hall-of-fame-gala-2026-14949f",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#boone-county-history-makers-hall-of-fame-gala-2026",
-    "https://allevents.in/columbia/boone-county-history-makers-hall-of-fame-gala-2026/200030478622851"
+    "https://allevents.in/columbia/boone-county-history-makers-hall-of-fame-gala-2026/200030478622851",
+    "https://baselocal.com/mo/columbia/events/#boone-county-history-makers-hall-of-fame-gala-2026"
    ],
    "categories": [
     "community"
@@ -1403,21 +1419,6 @@
    "source": "mizzou",
    "start": "2026-10-24T18:00:00-05:00",
    "title": "Baseball - Missouri vs. Game 2"
-  },
-  {
-   "_slug": "e-e-railroad-79b5ba",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "@ Join us as E. & E. Railroad takes the stage for an unforgettable performance along the river. Bring your friends, grab a drink, and soak up the afternoon with us! E&E Railroad is a mix of old-time and roots music, traditional and modern. The band consists of Ellen Gomez on fiddle, John Ellis on gu",
-   "end": "2026-10-24T21:00:00-05:00",
-   "id": "79b5ba06cdae6749",
-   "imageUrl": "https://comoevent.com/img/gen/992b5142d98be2.webp",
-   "source": "cooperslanding",
-   "start": "2026-10-24T18:00:00-05:00",
-   "title": "E. & E. Railroad",
-   "venue": "Cooper's Landing"
   },
   {
    "_slug": "halloween-pickleball-showdown-doubles-tournament-e4b8d1",
@@ -1788,18 +1789,6 @@
    "venue": "MyHouse"
   },
   {
-   "_slug": "trunk-or-treat-at-broadway-282b8a",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "282b8a3a71561f1b",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy85Y2E5ZmQxNTMwY2RjNTNhOTg1M2U0NjI3MDk2NjVkMTA5YjM4OGZlYWQ5N2VhNGMxOTFlNTM3NTdkMWYzNDMzLXJpbWctdzEyMDAtaDE1NTMtZGMwODI4MzgtZ21pcj92PTE3OTA0NDE1MDU.avif",
-   "source": "allevents",
-   "start": "2026-10-25T09:00:00-05:00",
-   "title": "Trunk or Treat at Broadway"
-  },
-  {
    "_slug": "bengali-durga-puja-2026-b6275e",
    "categories": [
     "religious",
@@ -1845,6 +1834,18 @@
    "start": "2026-10-25T11:00:00-05:00",
    "title": "Brunch & Boos at The Kitchen Grill & Games",
    "venue": "The Kitchen Grill & Games"
+  },
+  {
+   "_slug": "trunk-or-treat-at-broadway-282b8a",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "282b8a3a71561f1b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy85Y2E5ZmQxNTMwY2RjNTNhOTg1M2U0NjI3MDk2NjVkMTA5YjM4OGZlYWQ5N2VhNGMxOTFlNTM3NTdkMWYzNDMzLXJpbWctdzEyMDAtaDE1NTMtZGMwODI4MzgtZ21pcj92PTE3OTA0NDE1MDU.avif",
+   "source": "allevents",
+   "start": "2026-10-25T11:30:00-05:00",
+   "title": "Trunk or Treat at Broadway"
   },
   {
    "_slug": "holy-smokes-mobile-meats-1d71cb",
@@ -1968,10 +1969,12 @@
   {
    "_slug": "kid-disco-boo-bash-d1dffb",
    "alsoOn": [
+    "https://rosemusichall.com/event/kid-disco-boo-bash/",
     "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596"
    ],
    "categories": [
-    "party"
+    "party",
+    "music"
    ],
    "category": "party",
    "description": "Join us for Kid Disco: Boo Bash, a Halloween party made for tiny dancers and their grown-ups. Come dressed in your favorite costume and get ready for music, dancing, treats, and plenty of not-too-spooky fun.",
@@ -1980,6 +1983,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Kid-Disco-Boo-Bash-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-25T13:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/kid-disco-boo-bash-at-rose-columbia-missouri-10-25-2026/event/06006530044B818C",
    "title": "Kid Disco: Boo Bash",
    "venue": "Rose Park"
   },
@@ -2058,9 +2062,9 @@
    "_slug": "theresa-caputo-live-the-experience-1b32d3",
    "alsoOn": [
     "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
+    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
     "https://allevents.in/columbia/theresa-caputo/200030544001559",
-    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
-    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience"
+    "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience"
    ],
    "categories": [
     "family",
@@ -2143,6 +2147,9 @@
   },
   {
    "_slug": "hang-your-hate-rose-music-hall-091e60",
+   "alsoOn": [
+    "https://rosemusichall.com/event/hang-your-hate-3/"
+   ],
    "categories": [
     "music"
    ],
@@ -2153,6 +2160,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Hang-Your-Hate-at-Rose-Music-Hall.png",
    "source": "visitcolumbia",
    "start": "2026-10-25T19:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/hang-your-hate-columbia-missouri-10-25-2026/event/06006518AB90B11F",
    "title": "Hang Your Hate – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
