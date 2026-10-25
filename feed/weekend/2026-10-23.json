@@ -1375,6 +1375,19 @@
    "venue": "Country Club of Missouri"
   },
   {
+   "_slug": "boone-county-history-makers-hall-of-fame-gala-2026-ffebf5",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "At the Country Club of Missouri, the Boone County Historical Society’s Endowment Trust Board presents the annual Boone County History Makers Hall of Fame Gala featuring the formal enshrinement of the newest Boone County Hall of Fame class. This year’s inductees are Carl Edwards, Wendy Noren (posthu…",
+   "id": "ffebf54a3b4a5cbd",
+   "source": "baselocal",
+   "start": "2026-10-24T17:30:00-05:00",
+   "title": "Boone County History Makers Hall of Fame Gala 2026",
+   "venue": "Country Club of Missouri"
+  },
+  {
    "_slug": "naza-6ca648",
    "categories": [
     "arts"
@@ -1686,9 +1699,6 @@
   },
   {
    "_slug": "live-hardcore-comedy-at-the-tokyo-club-lady-moe-joe-with-bli-8ced22",
-   "alsoOn": [
-    "https://thearcadedistrict.org/"
-   ],
    "categories": [
     "arts"
    ],
@@ -1715,7 +1725,6 @@
    "description": "A tribute to Columbia’s famed Shattered nightclub sets the tone for a night steeped in its legacy. Expect a dance floor that moves from goth to house, with synthpop and new wave alongside industrial and disco, all filtered through a distinctly 80s and 90s sensibility. Whether you remember it firsth…",
    "end": "2026-10-25T01:00:00-05:00",
    "id": "2b4ef6eae5837916",
-   "imageUrl": "https://comoevent.com/img/gen/78df3c16689b8a.webp",
    "source": "baselocal",
    "start": "2026-10-24T21:00:00-05:00",
    "title": "Shattered: A Dance Party",
@@ -1738,9 +1747,6 @@
   },
   {
    "_slug": "the-taylor-party-90ae41",
-   "alsoOn": [
-    "https://thebluenote.com/event/the-taylor-party/"
-   ],
    "categories": [
     "party",
     "nightlife",
@@ -1787,7 +1793,6 @@
    "category": "campus",
    "end": "2026-10-29T00:00:00-05:00",
    "id": "c4659e118c5cb7ac",
-   "imageUrl": "https://comoevent.com/img/gen/0d25b0ee5449a3.webp",
    "price": "Free",
    "source": "mizzou",
    "start": "2026-10-25T00:00:00-05:00",
@@ -1854,6 +1859,19 @@
    "venue": "Natural Nail Care Salon"
   },
   {
+   "_slug": "the-loop-s-halloweentown-eaa5d4",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "eaa5d419efc241a1",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9lYTRjMDEzMWNkNjFkMjExNWUwNTRhNmMwZTM4YWZhYmI2MzA0Y2ExOGFjNmZlNjM5N2U5MmFmNmZhN2FmMGJjLXJpbWctdzEwODAtaDEwODAtZGNmOGY4ZjgtZ21pci5qcGc_dj0xNzkxOTI4ODY1.avif",
+   "source": "allevents",
+   "start": "2026-10-25T10:00:00-05:00",
+   "title": "The Loop's Halloweentown",
+   "venue": "Community Pop-Up Park"
+  },
+  {
    "_slug": "brunch-boos-at-the-kitchen-grill-games-e33197",
    "categories": [
     "food",
@@ -1868,18 +1886,6 @@
    "start": "2026-10-25T11:00:00-05:00",
    "title": "Brunch & Boos at The Kitchen Grill & Games",
    "venue": "The Kitchen Grill & Games"
-  },
-  {
-   "_slug": "trunk-or-treat-at-broadway-282b8a",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "282b8a3a71561f1b",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy85Y2E5ZmQxNTMwY2RjNTNhOTg1M2U0NjI3MDk2NjVkMTA5YjM4OGZlYWQ5N2VhNGMxOTFlNTM3NTdkMWYzNDMzLXJpbWctdzEyMDAtaDE1NTMtZGMwODI4MzgtZ21pcj92PTE3OTA0NDE1MDU.avif",
-   "source": "allevents",
-   "start": "2026-10-25T11:30:00-05:00",
-   "title": "Trunk or Treat at Broadway"
   },
   {
    "_slug": "holy-smokes-mobile-meats-1d71cb",
@@ -2051,26 +2057,12 @@
    "venue": "Fine Arts Building"
   },
   {
-   "_slug": "nature-session-pumpkin-carving-052eaa",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "end": "2026-10-25T17:00:00-05:00",
-   "id": "052eaa9ce36abac7",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2489335_20241027_212430_587179jpg_2fecd2d8-9c65-4193-b40d-fad1fb86c3e3_1016163036.jpeg",
-   "source": "mizzou",
-   "start": "2026-10-25T15:00:00-05:00",
-   "title": "Nature Session: Pumpkin Carving",
-   "venue": "Kirklin Garden 601 S Providence Rd Columbia 65203 United States"
-  },
-  {
    "_slug": "theresa-caputo-live-the-experience-1b32d3",
    "alsoOn": [
     "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
-    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
     "https://allevents.in/columbia/theresa-caputo/200030544001559",
-    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience"
+    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
+    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083"
    ],
    "categories": [
     "family",
@@ -2238,21 +2230,20 @@
    "title": "Cat Handling & Body Language Workshop at Bertha's Beans"
   },
   {
-   "_slug": "the-loop-s-halloweentown-eaa5d4",
+   "_slug": "trunk-or-treat-at-broadway-282b8a",
    "categories": [
-    "community"
+    "family"
    ],
-   "category": "community",
-   "id": "eaa5d419efc241a1",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9lYTRjMDEzMWNkNjFkMjExNWUwNTRhNmMwZTM4YWZhYmI2MzA0Y2ExOGFjNmZlNjM5N2U5MmFmNmZhN2FmMGJjLXJpbWctdzEwODAtaDEwODAtZGNmOGY4ZjgtZ21pci5qcGc_dj0xNzkxOTI4ODY1.avif",
+   "category": "family",
+   "id": "282b8a3a71561f1b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy85Y2E5ZmQxNTMwY2RjNTNhOTg1M2U0NjI3MDk2NjVkMTA5YjM4OGZlYWQ5N2VhNGMxOTFlNTM3NTdkMWYzNDMzLXJpbWctdzEyMDAtaDE1NTMtZGMwODI4MzgtZ21pcj92PTE3OTA0NDE1MDU.avif",
    "source": "allevents",
    "start": "2026-10-25T21:00:00-05:00",
-   "title": "The Loop's Halloweentown",
-   "venue": "Community Pop-Up Park"
+   "title": "Trunk or Treat at Broadway"
   }
  ],
  "friday": "2026-10-23",
- "modified": "2026-10-24",
+ "modified": "2026-10-25",
  "picks": [
   "a7c37b0296600613",
   "83f6803ea3621a5b",
