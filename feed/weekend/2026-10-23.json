@@ -698,36 +698,6 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "graphic-design-showcase-c4659e",
-   "allDay": true,
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "end": "2026-10-29T00:00:00-05:00",
-   "id": "c4659e118c5cb7ac",
-   "price": "Free",
-   "source": "mizzou",
-   "start": "2026-10-24T00:00:00-05:00",
-   "title": "Graphic Design Showcase",
-   "venue": "Fine Arts Building"
-  },
-  {
-   "_slug": "mizzou-family-weekend-2026-1de4d6",
-   "allDay": true,
-   "categories": [
-    "arts",
-    "family"
-   ],
-   "category": "arts",
-   "end": "2026-10-25T00:00:00-05:00",
-   "id": "1de4d61545a69681",
-   "source": "mizzou",
-   "start": "2026-10-24T00:00:00-05:00",
-   "title": "Mizzou Family Weekend 2026",
-   "venue": "Campus Various"
-  },
-  {
    "_slug": "bear-creek-run-half-marathon-32c9ea",
    "alsoOn": [
     "https://allevents.in/columbia/bear-creek-run-half-marathon/200030751512335"
@@ -739,6 +709,20 @@
    "description": "Runners can explore some of Columbia’s scenic trails during the Bear Creek Run Half Marathon. The 13.1-mile, mostly gravel course begins and e…",
    "id": "32c9ea4ff61bfaab",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvN2MyZTExYmQ2ODg1MDc5MzE4YzA5NDE0YzMyNWI2NGNmNWVlNGQ1MzI3MzVkM2ZjNDNmYWQxNTMyZTY5NDI0Zi1yaW1nLXcxMjAwLWg2MjgtZGNmOGY4ZjgtZ21pcj92PTE3OTA2OTI0NzU.avif",
+   "price": "$70",
+   "source": "vox",
+   "start": "2026-10-24T08:00:00-05:00",
+   "title": "Bear Creek Run Half Marathon",
+   "venue": "Albert-Oakland Park"
+  },
+  {
+   "_slug": "bear-creek-run-half-marathon-e0e956",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "description": "Runners can explore some of Columbia’s scenic trails during the Bear Creek Run Half Marathon. The 13.1-mile, mostly gravel course begins and e…",
+   "id": "e0e9567b134c30ec",
    "price": "$70",
    "source": "vox",
    "start": "2026-10-24T08:00:00-05:00",
@@ -881,7 +865,6 @@
    "description": "Step away from routine and share a full day of new experiences with your spouse at Together in KC. This couples outing blends laughter, adventure, and time with other pairs, all centered on strengthening your marriage through meaningful moments together. The day begins at the KC River Market, wher…",
    "end": "2026-10-24T21:00:00-05:00",
    "id": "90d8a6068debf412",
-   "imageUrl": "https://comoevent.com/img/gen/f293429ebadd0d.webp",
    "source": "baselocal",
    "start": "2026-10-24T09:00:00-05:00",
    "title": "Together in KC",
@@ -889,9 +872,6 @@
   },
   {
    "_slug": "15th-annual-9-ball-tournament-gurucharri-foundation-bf5aab",
-   "alsoOn": [
-    "https://allevents.in/columbia/15th-annual-9-ball-tournament-gurucharri-foundation/100001998586996507"
-   ],
    "categories": [
     "community"
    ],
@@ -1065,8 +1045,7 @@
   {
    "_slug": "vintage-vinyl-festival-1bae6e",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/vintage-and-vinyl-festival/event_4f178f91-d7d8-4074-8500-506aae4e1903.html",
-    "https://allevents.in/columbia/vintage-and-vinyl-festival-2026/200030889074922"
+    "https://www.voxmagazine.com/calendar/vintage-and-vinyl-festival/event_4f178f91-d7d8-4074-8500-506aae4e1903.html"
    ],
    "categories": [
     "music",
@@ -1081,7 +1060,7 @@
    "source": "visitcolumbia",
    "start": "2026-10-24T12:00:00-05:00",
    "title": "Vintage & Vinyl Festival",
-   "venue": "The Arcade District, Columbia, Missouri"
+   "venue": "The Arcade District"
   },
   {
    "_slug": "western-permanent-jewelry-at-fringe-5a2531",
@@ -1110,6 +1089,20 @@
    "ticketUrl": "https://www.eventbrite.com/e/halloween-kids-yoga-at-the-kitchen-with-sarahs-yoga-studio-tickets-2002832848966",
    "title": "Halloween Kids Yoga at The Kitchen with Sarah's Yoga Studio",
    "venue": "The Kitchen Grill & Games"
+  },
+  {
+   "_slug": "james-hardie-fall-parade-of-homes-23d625",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Mid-Missouri’s signature home tour celebrates the skill, creativity, and commitment of distinguished builders and developers. This community-centered event spotlights forward-looking neighborhoods and the newest advances in thoughtful, responsible construction. Attendees can step inside standout ho…",
+   "end": "2026-10-24T16:00:00-05:00",
+   "id": "23d625007a0036ad",
+   "source": "baselocal",
+   "start": "2026-10-24T13:00:00-05:00",
+   "title": "James Hardie Fall Parade of Homes",
+   "venue": "Various locations"
   },
   {
    "_slug": "james-hardie-fall-parade-of-homes-44b92d",
@@ -1186,9 +1179,6 @@
   },
   {
    "_slug": "columbia-ballet-academy-fall-festival-4ea128",
-   "alsoOn": [
-    "https://allevents.in/columbia/columbia-ballet-academy-fall-festival/200030859822118"
-   ],
    "categories": [
     "arts",
     "family"
@@ -1321,7 +1311,6 @@
    "description": "@ Join us as E. & E. Railroad takes the stage for an unforgettable performance along the river. Bring your friends, grab a drink, and soak up the afternoon with us! E&E Railroad is a mix of old-time and roots music, traditional and modern. The band consists of Ellen Gomez on fiddle, John Ellis on gu",
    "end": "2026-10-24T19:30:00-05:00",
    "id": "79b5ba06cdae6749",
-   "imageUrl": "https://comoevent.com/img/gen/c7399dc392b76f.webp",
    "source": "cooperslanding",
    "start": "2026-10-24T16:30:00-05:00",
    "title": "UPDATED SHOW TIME: E. & E. Railroad",
@@ -1361,7 +1350,6 @@
    "description": "The Boone County Historical Society’s endowment trust board is proud to announce the 2026 enshrinees into the Boone County Hall of Fame: Carl …",
    "end": "2026-10-24T21:00:00-05:00",
    "id": "bb693e6006669f72",
-   "imageUrl": "https://comoevent.com/img/gen/491dbb542f9980.webp",
    "price": "$160 (nonmembers); $125 (members)",
    "source": "vox",
    "start": "2026-10-24T17:30:00-05:00",
@@ -1371,7 +1359,6 @@
   {
    "_slug": "boone-county-history-makers-hall-of-fame-gala-2026-14949f",
    "alsoOn": [
-    "https://allevents.in/columbia/boone-county-history-makers-hall-of-fame-gala-2026/200030478622851",
     "https://baselocal.com/mo/columbia/events/#boone-county-history-makers-hall-of-fame-gala-2026"
    ],
    "categories": [
@@ -1396,7 +1383,6 @@
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-10-24T18:48:00-05:00",
    "id": "6ca648a42d7941f5",
-   "imageUrl": "https://comoevent.com/img/gen/dcee2dd60de30f.webp",
    "source": "ragtag",
    "start": "2026-10-24T17:30:00-05:00",
    "title": "NAZA",
@@ -1417,9 +1403,6 @@
   },
   {
    "_slug": "halloween-pickleball-showdown-doubles-tournament-e4b8d1",
-   "alsoOn": [
-    "https://allevents.in/columbia/halloween-pickleball-showdown-doubles-tournament/100002003213746240"
-   ],
    "categories": [
     "sports"
    ],
@@ -1430,8 +1413,21 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/The-Halloween-Smash-Bash-Doubles-Pickleball-Tournament.png",
    "source": "visitcolumbia",
    "start": "2026-10-24T18:00:00-05:00",
-   "title": "Halloween Pickleball Showdown: Doubles Tournament",
-   "venue": "The Kitchen Grill & Games"
+   "title": "Halloween Pickleball Showdown: Doubles Tournament"
+  },
+  {
+   "_slug": "light-the-night-gala-093ebb",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Hosted by Combat Boots and High Heels, the inaugural Light the Night Gala is an evening focused on finding light in the darkness. The program honors the resilience of veterans and service members, shares stories of hope, and raises awareness for veteran suicide prevention while supporting programs…",
+   "end": "2026-10-24T22:00:00-05:00",
+   "id": "093ebb5fe9e34299",
+   "source": "baselocal",
+   "start": "2026-10-24T18:00:00-05:00",
+   "title": "Light the Night Gala",
+   "venue": "Elks Lodge"
   },
   {
    "_slug": "light-the-night-gala-189841",
@@ -1484,7 +1480,6 @@
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-10-24T20:05:00-05:00",
    "id": "70357b5caff012dd",
-   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
    "source": "ragtag",
    "start": "2026-10-24T18:20:00-05:00",
    "title": "Wicker",
@@ -1581,9 +1576,6 @@
   },
   {
    "_slug": "trunk-or-treat-with-crossway-church-c77ed8",
-   "alsoOn": [
-    "https://allevents.in/columbia/trunk-or-treat-with-crossway-church/100002002157887137"
-   ],
    "categories": [
     "family",
     "religious",
@@ -1623,7 +1615,6 @@
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-10-24T22:02:00-05:00",
    "id": "5df78c6edb7e040e",
-   "imageUrl": "https://comoevent.com/img/gen/787eff3a807d6d.webp",
    "source": "ragtag",
    "start": "2026-10-24T19:40:00-05:00",
    "title": "Sense and Sensibility",
@@ -1732,9 +1723,6 @@
   },
   {
    "_slug": "the-love-witch-607868",
-   "alsoOn": [
-    "https://allevents.in/columbia/the-love-witch/200030889084551"
-   ],
    "categories": [
     "arts"
    ],
@@ -1747,6 +1735,28 @@
    "start": "2026-10-24T21:00:00-05:00",
    "title": "The Love Witch",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "the-taylor-party-90ae41",
+   "alsoOn": [
+    "https://thebluenote.com/event/the-taylor-party/"
+   ],
+   "categories": [
+    "party",
+    "nightlife",
+    "arts",
+    "music"
+   ],
+   "category": "party",
+   "description": "You won’t need a getaway car for every Swiftie’s dream night out: a Taylor Swift dance party. Wear a cardigan, tight little skirt or an outfit…",
+   "id": "90ae41b4272cc087",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/07/TSN-June-2026-TM.jpg",
+   "price": "$19.30- $62",
+   "source": "vox",
+   "start": "2026-10-24T21:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/the-taylor-party-ts-dance-party-columbia-missouri-09-26-2026/event/060064EAC6BBD111",
+   "title": "The Taylor Party",
+   "venue": "The Blue Note"
   },
   {
    "_slug": "the-taylor-party-f18213",
@@ -1769,6 +1779,49 @@
    "venue": "The Blue Note"
   },
   {
+   "_slug": "graphic-design-showcase-c4659e",
+   "allDay": true,
+   "categories": [
+    "campus"
+   ],
+   "category": "campus",
+   "end": "2026-10-29T00:00:00-05:00",
+   "id": "c4659e118c5cb7ac",
+   "imageUrl": "https://comoevent.com/img/gen/0d25b0ee5449a3.webp",
+   "price": "Free",
+   "source": "mizzou",
+   "start": "2026-10-25T00:00:00-05:00",
+   "title": "Graphic Design Showcase",
+   "venue": "Fine Arts Building"
+  },
+  {
+   "_slug": "mizzou-family-weekend-2026-1de4d6",
+   "categories": [
+    "arts",
+    "family"
+   ],
+   "category": "arts",
+   "end": "2026-10-25T12:00:00-05:00",
+   "id": "1de4d61545a69681",
+   "imageUrl": "https://comoevent.com/img/gen/1103fa17ab364e.webp",
+   "source": "mizzou",
+   "start": "2026-10-25T00:00:00-05:00",
+   "title": "Mizzou Family Weekend 2026",
+   "venue": "Campus Various"
+  },
+  {
+   "_slug": "delta-reign-prerelease-event-9157e1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "9157e1016621a7b0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy8yY2JjZjA5YmZhYmZiMDhkMWI3ODk2NTQxMDk1Zjc4MjY3YzBiM2E5N2VjNWVlNGE1NWI0M2VjYTZjMzAzMmNiLXJpbWctdzEyMDAtaDY3NS1kYzI4Mjg0OC1nbWlyP3Y9MTc5Mjg0NDM4Nw.avif",
+   "source": "allevents",
+   "start": "2026-10-25T09:00:00-05:00",
+   "title": "Delta Reign Prerelease Event"
+  },
+  {
    "_slug": "bengali-durga-puja-2026-b6275e",
    "categories": [
     "religious",
@@ -1788,16 +1841,17 @@
    "venue": "Shanthi Mandir"
   },
   {
-   "_slug": "cat-handling-body-language-workshop-at-bertha-s-beans-a9181e",
+   "_slug": "in-search-of-a-moral-economy-free-event-b81d3f",
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "a9181e8815d5eed0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9hODhiM2M0M2QwMmRjNzNhMmY3MDE5MjJlZWM3ZDkxNDE0MWUzODBlYjRjYTcyMjAzODRlN2U0OGI0N2U3MTMwLXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTI3ODAxMjU.avif",
+   "id": "b81d3ff8a1a4aa6e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy85ZmZkZjFjNGNiMWJhM2U2ZDQ0YzQyZWU1MDQzNGFkM2E1MWZjMWUyZDEyZjU2NjJkOTYxM2U2YmM2YmQwNTJiLXJpbWctdzEyMDAtaDYwMC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3OTEyMjY4Nzk.avif",
    "source": "allevents",
    "start": "2026-10-25T10:00:00-05:00",
-   "title": "Cat Handling & Body Language Workshop at Bertha's Beans"
+   "title": "In Search of a Moral Economy (Free Event)",
+   "venue": "Natural Nail Care Salon"
   },
   {
    "_slug": "brunch-boos-at-the-kitchen-grill-games-e33197",
@@ -1841,31 +1895,6 @@
    "start": "2026-10-25T12:00:00-05:00",
    "title": "Holy Smokes Mobile Meats",
    "venue": "Cooper's Landing"
-  },
-  {
-   "_slug": "in-search-of-a-moral-economy-free-event-b81d3f",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "b81d3ff8a1a4aa6e",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy85ZmZkZjFjNGNiMWJhM2U2ZDQ0YzQyZWU1MDQzNGFkM2E1MWZjMWUyZDEyZjU2NjJkOTYxM2U2YmM2YmQwNTJiLXJpbWctdzEyMDAtaDYwMC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3OTEyMjY4Nzk.avif",
-   "source": "allevents",
-   "start": "2026-10-25T12:00:00-05:00",
-   "title": "In Search of a Moral Economy (Free Event)",
-   "venue": "Natural Nail Care Salon"
-  },
-  {
-   "_slug": "witches-in-the-woods-ae8710",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "ae8710da860a9147",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy85YWRjNGU3MjUwZTRiYzk5MDU5YzBmMTQyY2JmYWZmYmVhZjkyMjZkNGY1MTRlNDJmZjc3NWI2ZmRlYmI5N2U0LXJpbWctdzg1MS1oMzE1LWRjZjhkOGM4LWdtaXI_dj0xNzkyNzgwMTI0.avif",
-   "source": "allevents",
-   "start": "2026-10-25T12:00:00-05:00",
-   "title": "Witches in the Woods"
   },
   {
    "_slug": "woofstock-2026-963a3d",
@@ -1949,12 +1978,10 @@
   {
    "_slug": "kid-disco-boo-bash-d1dffb",
    "alsoOn": [
-    "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596",
-    "https://rosemusichall.com/event/kid-disco-boo-bash/"
+    "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596"
    ],
    "categories": [
-    "party",
-    "music"
+    "party"
    ],
    "category": "party",
    "description": "Join us for Kid Disco: Boo Bash, a Halloween party made for tiny dancers and their grown-ups. Come dressed in your favorite costume and get ready for music, dancing, treats, and plenty of not-too-spooky fun.",
@@ -1963,7 +1990,6 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Kid-Disco-Boo-Bash-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-25T13:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/kid-disco-boo-bash-at-rose-columbia-missouri-10-25-2026/event/06006530044B818C",
    "title": "Kid Disco: Boo Bash",
    "venue": "Rose Park"
   },
@@ -2041,9 +2067,9 @@
   {
    "_slug": "theresa-caputo-live-the-experience-1b32d3",
    "alsoOn": [
-    "https://allevents.in/columbia/theresa-caputo/200030544001559",
-    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
     "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
+    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
+    "https://allevents.in/columbia/theresa-caputo/200030544001559",
     "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience"
    ],
    "categories": [
@@ -2081,6 +2107,18 @@
    "venue": "Missouri Theatre"
   },
   {
+   "_slug": "witches-in-the-woods-ae8710",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "ae8710da860a9147",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy85YWRjNGU3MjUwZTRiYzk5MDU5YzBmMTQyY2JmYWZmYmVhZjkyMjZkNGY1MTRlNDJmZjc3NWI2ZmRlYmI5N2U0LXJpbWctdzg1MS1oMzE1LWRjZjhkOGM4LWdtaXI_dj0xNzkyNzgwMTI0.avif",
+   "source": "allevents",
+   "start": "2026-10-25T15:30:00-05:00",
+   "title": "Witches in the Woods"
+  },
+  {
    "_slug": "wicker-9fe9f7",
    "categories": [
     "arts"
@@ -2111,6 +2149,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "super-smash-bros-tournament-e47027",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e47027247d911c2e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
+   "source": "allevents",
+   "start": "2026-10-25T17:00:00-05:00",
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
+  },
+  {
    "_slug": "wicker-554a0d",
    "categories": [
     "arts"
@@ -2127,9 +2178,6 @@
   },
   {
    "_slug": "hang-your-hate-rose-music-hall-091e60",
-   "alsoOn": [
-    "https://rosemusichall.com/event/hang-your-hate-3/"
-   ],
    "categories": [
     "music"
    ],
@@ -2140,7 +2188,6 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Hang-Your-Hate-at-Rose-Music-Hall.png",
    "source": "visitcolumbia",
    "start": "2026-10-25T19:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/hang-your-hate-columbia-missouri-10-25-2026/event/06006518AB90B11F",
    "title": "Hang Your Hate – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -2177,6 +2224,18 @@
    "start": "2026-10-25T19:30:00-05:00",
    "title": "Timothy Howe, Faculty Trombone Recital",
    "venue": "Sinquefield Music Center"
+  },
+  {
+   "_slug": "cat-handling-body-language-workshop-at-bertha-s-beans-a9181e",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "a9181e8815d5eed0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9hODhiM2M0M2QwMmRjNzNhMmY3MDE5MjJlZWM3ZDkxNDE0MWUzODBlYjRjYTcyMjAzODRlN2U0OGI0N2U3MTMwLXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTI3ODAxMjU.avif",
+   "source": "allevents",
+   "start": "2026-10-25T20:00:00-05:00",
+   "title": "Cat Handling & Body Language Workshop at Bertha's Beans"
   },
   {
    "_slug": "the-loop-s-halloweentown-eaa5d4",
