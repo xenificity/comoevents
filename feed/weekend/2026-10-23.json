@@ -1859,19 +1859,6 @@
    "venue": "Natural Nail Care Salon"
   },
   {
-   "_slug": "the-loop-s-halloweentown-eaa5d4",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "eaa5d419efc241a1",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9lYTRjMDEzMWNkNjFkMjExNWUwNTRhNmMwZTM4YWZhYmI2MzA0Y2ExOGFjNmZlNjM5N2U5MmFmNmZhN2FmMGJjLXJpbWctdzEwODAtaDEwODAtZGNmOGY4ZjgtZ21pci5qcGc_dj0xNzkxOTI4ODY1.avif",
-   "source": "allevents",
-   "start": "2026-10-25T10:00:00-05:00",
-   "title": "The Loop's Halloweentown",
-   "venue": "Community Pop-Up Park"
-  },
-  {
    "_slug": "brunch-boos-at-the-kitchen-grill-games-e33197",
    "categories": [
     "food",
@@ -1886,6 +1873,18 @@
    "start": "2026-10-25T11:00:00-05:00",
    "title": "Brunch & Boos at The Kitchen Grill & Games",
    "venue": "The Kitchen Grill & Games"
+  },
+  {
+   "_slug": "trunk-or-treat-at-broadway-282b8a",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "282b8a3a71561f1b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy85Y2E5ZmQxNTMwY2RjNTNhOTg1M2U0NjI3MDk2NjVkMTA5YjM4OGZlYWQ5N2VhNGMxOTFlNTM3NTdkMWYzNDMzLXJpbWctdzEyMDAtaDE1NTMtZGMwODI4MzgtZ21pcj92PTE3OTA0NDE1MDU.avif",
+   "source": "allevents",
+   "start": "2026-10-25T11:30:00-05:00",
+   "title": "Trunk or Treat at Broadway"
   },
   {
    "_slug": "holy-smokes-mobile-meats-1d71cb",
@@ -2061,8 +2060,8 @@
    "alsoOn": [
     "https://calendar.missouri.edu/jesse-auditorium/event/16182-theresa-caputo-live-the-experience",
     "https://allevents.in/columbia/theresa-caputo/200030544001559",
-    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
-    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083"
+    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083",
+    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience"
    ],
    "categories": [
     "family",
@@ -2230,16 +2229,17 @@
    "title": "Cat Handling & Body Language Workshop at Bertha's Beans"
   },
   {
-   "_slug": "trunk-or-treat-at-broadway-282b8a",
+   "_slug": "the-loop-s-halloweentown-eaa5d4",
    "categories": [
-    "family"
+    "community"
    ],
-   "category": "family",
-   "id": "282b8a3a71561f1b",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy85Y2E5ZmQxNTMwY2RjNTNhOTg1M2U0NjI3MDk2NjVkMTA5YjM4OGZlYWQ5N2VhNGMxOTFlNTM3NTdkMWYzNDMzLXJpbWctdzEyMDAtaDE1NTMtZGMwODI4MzgtZ21pcj92PTE3OTA0NDE1MDU.avif",
+   "category": "community",
+   "id": "eaa5d419efc241a1",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9lYTRjMDEzMWNkNjFkMjExNWUwNTRhNmMwZTM4YWZhYmI2MzA0Y2ExOGFjNmZlNjM5N2U5MmFmNmZhN2FmMGJjLXJpbWctdzEwODAtaDEwODAtZGNmOGY4ZjgtZ21pci5qcGc_dj0xNzkxOTI4ODY1.avif",
    "source": "allevents",
    "start": "2026-10-25T21:00:00-05:00",
-   "title": "Trunk or Treat at Broadway"
+   "title": "The Loop's Halloweentown",
+   "venue": "Community Pop-Up Park"
   }
  ],
  "friday": "2026-10-23",
