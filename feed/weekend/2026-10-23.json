@@ -1846,6 +1846,18 @@
    "venue": "Shanthi Mandir"
   },
   {
+   "_slug": "cat-handling-body-language-workshop-at-bertha-s-beans-a9181e",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "a9181e8815d5eed0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9hODhiM2M0M2QwMmRjNzNhMmY3MDE5MjJlZWM3ZDkxNDE0MWUzODBlYjRjYTcyMjAzODRlN2U0OGI0N2U3MTMwLXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTI3ODAxMjU.avif",
+   "source": "allevents",
+   "start": "2026-10-25T10:00:00-05:00",
+   "title": "Cat Handling & Body Language Workshop at Bertha's Beans"
+  },
+  {
    "_slug": "in-search-of-a-moral-economy-free-event-b81d3f",
    "categories": [
     "community"
@@ -1857,6 +1869,19 @@
    "start": "2026-10-25T10:00:00-05:00",
    "title": "In Search of a Moral Economy (Free Event)",
    "venue": "Natural Nail Care Salon"
+  },
+  {
+   "_slug": "the-loop-s-halloweentown-eaa5d4",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "eaa5d419efc241a1",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9lYTRjMDEzMWNkNjFkMjExNWUwNTRhNmMwZTM4YWZhYmI2MzA0Y2ExOGFjNmZlNjM5N2U5MmFmNmZhN2FmMGJjLXJpbWctdzEwODAtaDEwODAtZGNmOGY4ZjgtZ21pci5qcGc_dj0xNzkxOTI4ODY1.avif",
+   "source": "allevents",
+   "start": "2026-10-25T10:00:00-05:00",
+   "title": "The Loop's Halloweentown",
+   "venue": "Community Pop-Up Park"
   },
   {
    "_slug": "brunch-boos-at-the-kitchen-grill-games-e33197",
@@ -1873,18 +1898,6 @@
    "start": "2026-10-25T11:00:00-05:00",
    "title": "Brunch & Boos at The Kitchen Grill & Games",
    "venue": "The Kitchen Grill & Games"
-  },
-  {
-   "_slug": "trunk-or-treat-at-broadway-282b8a",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "282b8a3a71561f1b",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy85Y2E5ZmQxNTMwY2RjNTNhOTg1M2U0NjI3MDk2NjVkMTA5YjM4OGZlYWQ5N2VhNGMxOTFlNTM3NTdkMWYzNDMzLXJpbWctdzEyMDAtaDE1NTMtZGMwODI4MzgtZ21pcj92PTE3OTA0NDE1MDU.avif",
-   "source": "allevents",
-   "start": "2026-10-25T11:30:00-05:00",
-   "title": "Trunk or Treat at Broadway"
   },
   {
    "_slug": "holy-smokes-mobile-meats-1d71cb",
@@ -1959,7 +1972,6 @@
    "category": "community",
    "description": "This monthly Gym Leader Challenge tournament from the Columbia Pokemon League features best-of-one Swiss rounds with free entry for all age divisions and no decklists required. Winners in each age group receive Series 8 prize packs. The GLC ruleset is Singleton, Monotype, Non Rule Box, and Expanded…",
    "id": "4f4f38602b33a53d",
-   "imageUrl": "https://comoevent.com/img/gen/999d60460296e9.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-10-25T13:00:00-05:00",
@@ -2073,6 +2085,26 @@
    "id": "1b32d3d2ea44b285",
    "imageUrl": "https://comoevent.com/img/gen/ce963b844f94cb.webp",
    "price": "Tickets start at $49.75",
+   "source": "visitcolumbia",
+   "start": "2026-10-25T15:00:00-05:00",
+   "title": "Theresa Caputo Live: The Experience!",
+   "venue": "Missouri Theatre"
+  },
+  {
+   "_slug": "theresa-caputo-live-the-experience-48466a",
+   "alsoOn": [
+    "https://allevents.in/columbia/theresa-caputo/200030544001559",
+    "https://baselocal.com/mo/columbia/events/#theresa-caputo-live-the-experience",
+    "https://allevents.in/columbia/theresa-caputo-live-the-experience/210003367837083"
+   ],
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "For more than a decade, Theresa Caputo – known worldwide as the Long Island Medium – has touched the lives of millions of fans, comforting supporters when they need it most. Through personal life stories, candid humor, and intimate details about her gift to communicate with those who have passed on,",
+   "end": "2026-10-25T17:00:00-05:00",
+   "id": "48466a85997ef7e6",
+   "imageUrl": "https://comoevent.com/img/gen/ce963b844f94cb.webp",
    "source": "visitcolumbia",
    "start": "2026-10-25T15:00:00-05:00",
    "title": "Theresa Caputo Live: The Experience!",
@@ -2217,29 +2249,29 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "cat-handling-body-language-workshop-at-bertha-s-beans-a9181e",
+   "_slug": "university-symphony-orchestra-concert-545470",
    "categories": [
-    "community"
+    "music"
    ],
-   "category": "community",
-   "id": "a9181e8815d5eed0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9hODhiM2M0M2QwMmRjNzNhMmY3MDE5MjJlZWM3ZDkxNDE0MWUzODBlYjRjYTcyMjAzODRlN2U0OGI0N2U3MTMwLXJpbWctdzEyMDAtaDE1NTMtZGNmOGY4ZjgtZ21pcj92PTE3OTI3ODAxMjU.avif",
+   "category": "music",
+   "id": "545470430bf3a613",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy83ODNjYjdmYzQ4OWQ5ODk2ZmFkZjhhYmQ5NzdhNTU1N2YyYTRlMzRmNmM4ODYyMjU3ZTcxMTMwODU1Yzc4ZDIzLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MTE0NTQ2Nw.avif",
    "source": "allevents",
    "start": "2026-10-25T20:00:00-05:00",
-   "title": "Cat Handling & Body Language Workshop at Bertha's Beans"
+   "title": "University Symphony Orchestra Concert",
+   "venue": "The Missouri Theater"
   },
   {
-   "_slug": "the-loop-s-halloweentown-eaa5d4",
+   "_slug": "trunk-or-treat-at-broadway-282b8a",
    "categories": [
-    "community"
+    "family"
    ],
-   "category": "community",
-   "id": "eaa5d419efc241a1",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9lYTRjMDEzMWNkNjFkMjExNWUwNTRhNmMwZTM4YWZhYmI2MzA0Y2ExOGFjNmZlNjM5N2U5MmFmNmZhN2FmMGJjLXJpbWctdzEwODAtaDEwODAtZGNmOGY4ZjgtZ21pci5qcGc_dj0xNzkxOTI4ODY1.avif",
+   "category": "family",
+   "id": "282b8a3a71561f1b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy85Y2E5ZmQxNTMwY2RjNTNhOTg1M2U0NjI3MDk2NjVkMTA5YjM4OGZlYWQ5N2VhNGMxOTFlNTM3NTdkMWYzNDMzLXJpbWctdzEyMDAtaDE1NTMtZGMwODI4MzgtZ21pcj92PTE3OTA0NDE1MDU.avif",
    "source": "allevents",
    "start": "2026-10-25T21:00:00-05:00",
-   "title": "The Loop's Halloweentown",
-   "venue": "Community Pop-Up Park"
+   "title": "Trunk or Treat at Broadway"
   }
  ],
  "friday": "2026-10-23",
