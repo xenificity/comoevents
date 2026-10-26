@@ -116,6 +116,23 @@
       "sourceName": "North Village Arts District",
       "link": "https://northvillageartsdistrict.org/first-fridays/",
       "description": "Monthly art walk: open studios and galleries, live music and pop-ups along Orr St, Walnut St and 10th St, 6 to 9 pm. Free."
+    },
+    {
+      "id": "vendor-village-halloween-2026",
+      "title": "The Vendor Village Halloween Market",
+      "start": "2026-10-31T10:00:00-05:00",
+      "venue": "The Village of Cherry Hill",
+      "category": "food",
+      "categories": [
+        "food",
+        "family",
+        "community"
+      ],
+      "organizer": "The Vendor Village",
+      "imageUrl": "https://comoevent.com/img/flyers/vendor-village-halloween-2026.jpg",
+      "link": "https://www.instagram.com/vendorvillagecomo/",
+      "description": "Halloween market at the Village of Cherry Hill: local vendors, flowers, plants, baked goods and gifts around the gazebo. Come in costume and trick-or-treat with the vendors. 10 AM to 2 PM. Vendor list on @vendorvillagecomo on Instagram.",
+      "end": "2026-10-31T14:00:00-05:00"
     }
   ]
 }

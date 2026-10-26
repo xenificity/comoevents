@@ -1003,7 +1003,7 @@ def src_extra(days):
         if address and v and "Columbia" not in address and "Jefferson" not in address:
             address = f"{address}, Columbia, MO"
         out.append(make_event("flyer", r.get("sourceName") or "Posted from a flyer", r.get("id") or r["title"], r["title"],
-                              start, parse_dt(r.get("end")), all_day=bool(r.get("allDay")),
+                              start, parse_dt(r.get("end")), all_day=bool(r.get("allDay")), time_tbd=bool(r.get("timeTBD")),
                               venue=v.get("name") or r.get("venue"), address=address,
                               lat=r.get("lat") or v.get("lat"), lng=r.get("lng") or v.get("lng"),
                               url=r.get("link") or v.get("website"), phone=r.get("phone") or v.get("phone"),
@@ -1473,16 +1473,20 @@ def main():
     # Previous feed: if a source fails or returns nothing (site down, bot block on the
     # CI runner, parser broken), keep its last known events instead of dropping them.
     previous = load_json(args.out, {}).get("events", [])
-    prev_by_source = {}
+    # Carry-forward is keyed by the reader function that made an event ("via"), not its source id: one
+    # reader can feed several sources (src_ics → shanthimandir, arcadedistrict, …; src_tribe → cooperslanding).
+    # Older feeds have no "via"; their events are keyed by source id and picked up as leftovers below.
+    prev_by_via = {}
     for e in previous:
-        prev_by_source.setdefault(e.get("source"), []).append(e)
+        prev_by_via.setdefault(e.get("via") or e.get("source"), []).append(e)
+    fn_names = {fn.__name__[4:] for fn in SOURCES}
 
     all_events = []
     stats = {}
     for fn in SOURCES:
         name = fn.__name__[4:]
         if args.only and name not in args.only.split(","):
-            evs = prev_by_source.get(name, [])
+            evs = prev_by_via.get(name, [])
             log(f"[{name}] skipped (--only); carrying {len(evs)} events forward")
             all_events += evs
             continue
@@ -1492,14 +1496,24 @@ def main():
         except Exception as e:
             log(f"[{name}] FAILED: {e}")
             evs = []
-        if not evs and prev_by_source.get(name):
-            evs = prev_by_source[name]
+        for e in evs:
+            e["via"] = name
+        if not evs and prev_by_via.get(name):
+            evs = prev_by_via[name]
             log(f"[{name}] returned nothing; carrying {len(evs)} previous events forward")
             stats[name] = {"carriedForward": len(evs)}
         else:
             stats[name] = len(evs)
         log(f"[{name}] {len(evs)} events in {time.time()-t0:.1f}s")
         all_events += evs
+    if args.only:
+        # Leftovers from an older feed without "via" (keyed by source id): keep them unless a reader
+        # that ran this time already produced that source.
+        ran = set(args.only.split(","))
+        produced = {e.get("source") for e in all_events if e.get("via") in ran}
+        for key, evs in prev_by_via.items():
+            if key not in fn_names and key not in produced:
+                all_events += evs
 
     # window + geocode + radius
     kept = []

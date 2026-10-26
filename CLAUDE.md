@@ -121,3 +121,6 @@ Read README.md first. Short version:
 - Seasonal stars: `FEATURED` in aggregate.py (Halloween: tag "halloween", 🎃, Oct 1–Nov 2, +25 score) sets `badge`.
   Web and iOS draw badged events as their own emoji pins (`Hotspot.buildWithStars`, `.pin.feat`), clustered only
   with each other. Add a row for Christmas etc.
+- Carry-forward is keyed by `via` (the src_* reader that made an event), because one reader feeds several source ids
+  (src_ics → shanthimandir/arcadedistrict, src_tribe → cooperslanding, squarespace → mosy/cec). `--only` also keeps
+  leftovers from older feeds without `via`. Flyer rows in extra.json accept `timeTBD`.

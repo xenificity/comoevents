@@ -56,9 +56,6 @@
   },
   {
    "_slug": "halloween-party-10f759",
-   "alsoOn": [
-    "https://allevents.in/columbia/nightmare-in-quelumbia-halloween-party/4600030745194940"
-   ],
    "categories": [
     "party",
     "family"
@@ -106,9 +103,6 @@
   },
   {
    "_slug": "instrument-petting-zoo-cfcda5",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17132397"
-   ],
    "categories": [
     "campus"
    ],
@@ -181,9 +175,6 @@
   },
   {
    "_slug": "eurydice-d080b7",
-   "alsoOn": [
-    "https://calendar.stephens.edu/event/eurydice"
-   ],
    "categories": [
     "arts"
    ],
@@ -301,10 +292,6 @@
   },
   {
    "_slug": "sphero-nauts-registration-full-waitlist-available-19005b",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17132468",
-    "https://events.dbrl.org/event/17132469"
-   ],
    "categories": [
     "campus"
    ],
@@ -321,9 +308,6 @@
   },
   {
    "_slug": "candlelight-a-haunted-evening-of-halloween-classics-519b41",
-   "alsoOn": [
-    "https://allevents.in/columbia/candlelight-a-haunted-evening-of-halloween-classics-columbia/200030557391555"
-   ],
    "categories": [
     "music"
    ],
@@ -475,9 +459,6 @@
   },
   {
    "_slug": "superheroes-heroes-dinner-at-park-restaurant-9f076a",
-   "alsoOn": [
-    "https://allevents.in/columbia/superheroes-and-heroes-dinner-at-park-restaurant/100002003431167553"
-   ],
    "categories": [
     "food"
    ],
@@ -494,9 +475,6 @@
   },
   {
    "_slug": "bored-gamer-night-spooky-edition-426eac",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17133710"
-   ],
    "categories": [
     "community"
    ],
@@ -575,9 +553,6 @@
   },
   {
    "_slug": "ladies-night-night-of-the-living-canvas-1f885a",
-   "alsoOn": [
-    "https://allevents.in/columbia/ladies-night-night-of-the-living-canvas/200030781710701"
-   ],
    "categories": [
     "nightlife"
    ],
@@ -593,9 +568,6 @@
   },
   {
    "_slug": "live-stand-up-comedy-with-lady-moe-joe-and-jd-rowland-8fd695",
-   "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-with-lady-moe-joe-and-jd-rowland/100002002168989344"
-   ],
    "categories": [
     "arts"
    ],
@@ -795,9 +767,6 @@
   },
   {
    "_slug": "ken-russell-s-the-devils-7effb6",
-   "alsoOn": [
-    "https://allevents.in/columbia/ken-russells-the-devils/200030911207319"
-   ],
    "categories": [
     "arts"
    ],
@@ -813,9 +782,6 @@
   },
   {
    "_slug": "latin-night-como-dia-de-los-muertos-halloween-c132e8",
-   "alsoOn": [
-    "https://allevents.in/columbia/latin-night-como-presents-dia-de-los-muertos-halloween/210001038548169"
-   ],
    "categories": [
     "party"
    ],
@@ -899,9 +865,6 @@
   },
   {
    "_slug": "halloween-world-record-event-07efe9",
-   "alsoOn": [
-    "https://allevents.in/columbia/halloween-world-record-event/100002003255505142"
-   ],
    "categories": [
     "community"
    ],
@@ -932,6 +895,23 @@
    "title": "Saturday Morning Science: Pumpkins, Plants & Healthy Soil"
   },
   {
+   "_slug": "the-vendor-village-halloween-market-d8dfc1",
+   "categories": [
+    "food",
+    "family",
+    "community"
+   ],
+   "category": "food",
+   "description": "Halloween market at the Village of Cherry Hill: local vendors, flowers, plants, baked goods and gifts around the gazebo. Come in costume and trick-or-treat with the vendors. 10 AM to 2 PM. Vendor list on @vendorvillagecomo on Instagram.",
+   "end": "2026-10-31T14:00:00-05:00",
+   "id": "d8dfc14294306d28",
+   "imageUrl": "https://comoevent.com/img/flyers/vendor-village-halloween-2026.jpg",
+   "source": "flyer",
+   "start": "2026-10-31T10:00:00-05:00",
+   "title": "The Vendor Village Halloween Market",
+   "venue": "The Village of Cherry Hill"
+  },
+  {
    "_slug": "trick-or-treating-loyalty-event-2a2f63",
    "categories": [
     "community"
@@ -946,12 +926,6 @@
   },
   {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
-   "alsoOn": [
-    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
-    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
-    "https://www.themosy.org/calendar/spooktacular",
-    "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html"
-   ],
    "categories": [
     "music",
     "family"
@@ -1127,22 +1101,7 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "bmw-of-columbia-trunk-or-treat-3d9104",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "3d9104b6730106b7",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNWQxYThkMDZjNzQ0Y2MzNGUxZjQ5Yjc5MzJlZTAxMDY4MDliMWQ4NDk5YzEyNTM4ODhhN2JiNDQyMDhkMjBmOS1yaW1nLXcxMjAwLWg2NzUtZGNjOGI4YTgtZ21pcj92PTE3OTExNDE3NDU.avif",
-   "source": "allevents",
-   "start": "2026-10-31T15:00:00-05:00",
-   "title": "BMW of Columbia Trunk or Treat"
-  },
-  {
    "_slug": "douglas-schaedler-trumpet-natalia-bolshakova-recital-570819",
-   "alsoOn": [
-    "https://calendar.missouri.edu/event/20583-douglas-schaedler-trumpet-natalia-bolshakova-"
-   ],
    "categories": [
     "campus"
    ],
@@ -1183,8 +1142,9 @@
    "title": "Spooky Sensory Play"
   },
   {
-   "_slug": "trunk-or-treat-843f9c",
+   "_slug": "trunk-or-treat-3d9104",
    "alsoOn": [
+    "https://allevents.in/columbia/bmw-of-columbia-trunk-or-treat/200030775571625",
     "https://allevents.in/columbia/trunk-or-treat-at-bethel/200030751813957"
    ],
    "categories": [
@@ -1193,7 +1153,7 @@
    "category": "family",
    "description": "This family-friendly Halloween gathering offers candy, games, and plenty of fun with a focus on keeping kids safe.",
    "end": "2026-10-31T19:00:00-05:00",
-   "id": "843f9c93a494a8cf",
+   "id": "3d9104b6730106b7",
    "imageUrl": "https://comoevent.com/img/gen/583de2dcd016ae.webp",
    "source": "baselocal",
    "start": "2026-10-31T17:00:00-05:00",
@@ -1309,9 +1269,6 @@
   },
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56",
-   "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065"
-   ],
    "categories": [
     "arts"
    ],
@@ -1422,9 +1379,6 @@
   },
   {
    "_slug": "the-faint-5b0a89",
-   "alsoOn": [
-    "https://allevents.in/columbia/the-faint/210001871606536"
-   ],
    "categories": [
     "community"
    ],
@@ -1548,9 +1502,6 @@
   },
   {
    "_slug": "fall-2026-league-cup-f62230",
-   "alsoOn": [
-    "https://allevents.in/columbia/fall-2026-league-cup/200030902615047"
-   ],
    "categories": [
     "community"
    ],
@@ -1565,10 +1516,6 @@
   },
   {
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
-   "alsoOn": [
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
-    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/"
-   ],
    "categories": [
     "sports"
    ],
@@ -1670,9 +1617,6 @@
   },
   {
    "_slug": "day-of-the-dead-dia-de-muertos-celebracion-we-are-one-somos-7aeacb",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17480153"
-   ],
    "categories": [
     "family",
     "campus"
@@ -1765,9 +1709,6 @@
   },
   {
    "_slug": "mizzou-volleyball-vs-tennessee-2-pm-8d5bb6",
-   "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/"
-   ],
    "categories": [
     "sports"
    ],
@@ -1950,14 +1891,14 @@
  "friday": "2026-10-30",
  "modified": "2026-10-26",
  "picks": [
+  "09d1639d9680ab5e",
   "9f076a30d8f71e25",
-  "8fd69589116a7b8f",
-  "1f885ae2b1a074ba",
   "1f54537526793be3",
+  "8fd69589116a7b8f",
+  "81d22a3c0b873d97",
   "2b3596efcad32e23",
   "c132e8a6377bdbd9",
   "80ce0294bea34108",
-  "39395612e3b79d82",
   "81ad089266813acb",
   "96ef06019c1f47af"
  ],

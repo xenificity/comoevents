@@ -62,7 +62,6 @@
   <url><loc>https://comoevent.com/venues/jefferson-farm/</loc></url>
   <url><loc>https://comoevent.com/venues/jesse-auditorium/</loc></url>
   <url><loc>https://comoevent.com/venues/jesse-hall/</loc></url>
-  <url><loc>https://comoevent.com/venues/jesse-hall-auditorium/</loc></url>
   <url><loc>https://comoevent.com/venues/ladybird-cafe/</loc></url>
   <url><loc>https://comoevent.com/venues/mu-health-care-pavilion-at-columbias-agriculture-park/</loc></url>
   <url><loc>https://comoevent.com/venues/mu-student-center-columbia-mo-65201/</loc></url>
@@ -72,6 +71,7 @@
   <url><loc>https://comoevent.com/venues/forum-christian-church/</loc></url>
   <url><loc>https://comoevent.com/venues/info-desks-24-mu-student-center-columbia-mo-65201/</loc></url>
   <url><loc>https://comoevent.com/venues/info-tables-3-and-4-mu-student-center-columbia-mo-65201/</loc></url>
+  <url><loc>https://comoevent.com/venues/jesse-hall-auditorium/</loc></url>
   <url><loc>https://comoevent.com/venues/lowry-mall/</loc></url>
   <url><loc>https://comoevent.com/venues/macklanburg-playhouse/</loc></url>
   <url><loc>https://comoevent.com/venues/mizzou-arena-university-of-missouri-columbia-missouri-united/</loc></url>
@@ -177,6 +177,7 @@
   <url><loc>https://comoevent.com/venues/the-shack-university-of-missouri-columbia-missouri-united-st/</loc></url>
   <url><loc>https://comoevent.com/venues/the-sheldon/</loc></url>
   <url><loc>https://comoevent.com/venues/the-tiger-hotel/</loc></url>
+  <url><loc>https://comoevent.com/venues/the-village-of-cherry-hill/</loc></url>
   <url><loc>https://comoevent.com/venues/tiger-hotel/</loc></url>
   <url><loc>https://comoevent.com/venues/tournament/</loc></url>
   <url><loc>https://comoevent.com/venues/townsend-hall/</loc></url>
@@ -396,6 +397,7 @@
   <url><loc>https://comoevent.com/e/columbia-farmers-market-02be96/</loc></url>
   <url><loc>https://comoevent.com/e/halloween-world-record-event-07efe9/</loc></url>
   <url><loc>https://comoevent.com/e/saturday-morning-science-pumpkins-plants-healthy-soil-0516dc/</loc></url>
+  <url><loc>https://comoevent.com/e/the-vendor-village-halloween-market-d8dfc1/</loc></url>
   <url><loc>https://comoevent.com/e/trick-or-treating-loyalty-event-2a2f63/</loc></url>
   <url><loc>https://comoevent.com/e/a-spooktacular-symphony-halloween-with-mosy-393956/</loc></url>
   <url><loc>https://comoevent.com/e/food-truck-pop-up-with-highbread-bakery-treats-5bbd6c/</loc></url>
@@ -409,11 +411,10 @@
   <url><loc>https://comoevent.com/e/eurydice-by-sarah-ruhl-51b9ae/</loc></url>
   <url><loc>https://comoevent.com/e/eurydice-stephens-college-performing-arts-524cb1/</loc></url>
   <url><loc>https://comoevent.com/e/the-diddy-wah-daddies-8e111f/</loc></url>
-  <url><loc>https://comoevent.com/e/bmw-of-columbia-trunk-or-treat-3d9104/</loc></url>
   <url><loc>https://comoevent.com/e/douglas-schaedler-trumpet-natalia-bolshakova-recital-570819/</loc></url>
   <url><loc>https://comoevent.com/e/indianite-2026-a9e17a/</loc></url>
   <url><loc>https://comoevent.com/e/spooky-sensory-play-e8ee25/</loc></url>
-  <url><loc>https://comoevent.com/e/trunk-or-treat-843f9c/</loc></url>
+  <url><loc>https://comoevent.com/e/trunk-or-treat-3d9104/</loc></url>
   <url><loc>https://comoevent.com/e/2026-zombie-pub-crawl-1910d4/</loc></url>
   <url><loc>https://comoevent.com/e/fools-face-5a08bb/</loc></url>
   <url><loc>https://comoevent.com/e/trick-or-treat-with-us-8449ac/</loc></url>
@@ -678,7 +679,6 @@
   <url><loc>https://comoevent.com/e/arts-autumnal-third-annual-west-ash-neighborhood-art-festiva-f2a6de/</loc></url>
   <url><loc>https://comoevent.com/e/mu-tuba-and-euphonium-ensemble-recital-0f1579/</loc></url>
   <url><loc>https://comoevent.com/e/missouri-tigers-womens-volleyball-vs-texas-a-m-aggies-womens-7983a3/</loc></url>
-  <url><loc>https://comoevent.com/e/nurse-blake-but-did-you-die-64a5e2/</loc></url>
   <url><loc>https://comoevent.com/e/nurse-blake-but-did-you-die-comedy-tour-08b802/</loc></url>
   <url><loc>https://comoevent.com/e/the-soul-the-scientific-method-free-event-50e8b6/</loc></url>
   <url><loc>https://comoevent.com/e/health-insurance-marketplace-medicaid-b58907/</loc></url>
@@ -718,7 +718,6 @@
   <url><loc>https://comoevent.com/e/anjaneya-aaku-pooja-c921a4/</loc></url>
   <url><loc>https://comoevent.com/e/when-dylan-met-guthrie-6eff9e/</loc></url>
   <url><loc>https://comoevent.com/e/chi-alpha-worship-service-bf50c0/</loc></url>
-  <url><loc>https://comoevent.com/e/the-st-louis-symphony-orchestra-833445/</loc></url>
   <url><loc>https://comoevent.com/e/st-louis-symphony-orchestra-university-concert-series-0f1510/</loc></url>
   <url><loc>https://comoevent.com/e/tak-in-concert-d79763/</loc></url>
   <url><loc>https://comoevent.com/e/2026-undergraduate-cap-reading-a720e7/</loc></url>

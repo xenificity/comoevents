@@ -791,5 +791,15 @@
     "lat": 38.95275,
     "lng": -92.32573,
     "website": "https://northvillageartsdistrict.org/"
+  },
+  "The Village of Cherry Hill": {
+    "aliases": [
+      "cherry hill",
+      "village of cherry hill",
+      "the vendor village at cherry hill"
+    ],
+    "address": "Cherry Hill Dr",
+    "lat": 38.9324,
+    "lng": -92.3981
   }
 }
