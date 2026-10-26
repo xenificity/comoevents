@@ -48,6 +48,18 @@ enum VenueLookup {
         return nil
     }
 
+    /// A known venue named anywhere in free text (a scanned flyer). Longest name or alias wins.
+    static func mentioned(in text: String) -> Match? {
+        let t = text.lowercased()
+        var best: (len: Int, name: String)?
+        for (vname, row) in table {
+            for cand in [vname] + (row.aliases ?? []) where cand.count >= 5 && t.contains(cand.lowercased()) {
+                if cand.count > (best?.len ?? 0) { best = (cand.count, vname) }
+            }
+        }
+        return best.flatMap { fromTable($0.name) }
+    }
+
     /// Table first, then Apple Maps.
     static func find(_ name: String) async -> Match? {
         if let m = fromTable(name) { return m }

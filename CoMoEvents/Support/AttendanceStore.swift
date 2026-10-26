@@ -44,7 +44,15 @@ final class AttendanceStore: ObservableObject {
         if let status { mine[e.id] = status } else { mine.removeValue(forKey: e.id) }
         UserDefaults.standard.set(mine.mapValues(\.rawValue), forKey: "attendance.mine")
         onMineChanged?(mine)
-        guard let uid = userID else { return }
+        guard let uid = userID else {
+            // No iCloud identity: a Google/Facebook-account user writes through our API.
+            guard CoMoAPI.session != nil else { return }
+            var body: [String: Any] = ["eventID": e.id, "eventStart": e.startDate.timeIntervalSince1970 * 1000]
+            if let status { body["status"] = status.rawValue }
+            do { try await CoMoAPI.call("/me/attendance", json: body); await refreshCounts() }
+            catch { lastError = error.localizedDescription }
+            return
+        }
         let rid = CKRecord.ID(recordName: "att-\(uid)-\(e.id)")
         do {
             if let status {

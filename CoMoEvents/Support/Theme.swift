@@ -109,23 +109,28 @@ struct HeartButton: View {
 /// Top-right moon/sun button: switches the whole app between light and dark and remembers it.
 /// The app is light by default (even when the iPhone is in dark mode); dark only after a tap.
 struct AppearanceButton: View {
+    /// In a navigation bar the system already draws the glass; drawing our own circle too stacks two shapes.
+    var inToolbar = false
     @AppStorage("appearance") private var appearance = ""
     @Environment(\.colorScheme) private var scheme
 
     var body: some View {
-        Button {
+        let button = Button {
             appearance = scheme == .dark ? "light" : "dark"
             Analytics.tap("theme-" + appearance)   // ticks too
         } label: {
             Image(systemName: scheme == .dark ? "sun.max.fill" : "moon.fill")
                 .font(.system(size: 16, weight: .semibold))
-                .foregroundStyle(scheme == .dark ? Theme.yellow : Theme.ink)
-                .frame(width: 40, height: 40)
+                .foregroundStyle(scheme == .dark ? Theme.yellow : (inToolbar ? Color.primary : Theme.ink))
+                .frame(width: inToolbar ? nil : 40, height: inToolbar ? nil : 40)
                 .contentShape(Circle())
         }
-        .buttonStyle(.plain)
-        .glass(Circle(), interactive: true)
         .accessibilityLabel(scheme == .dark ? "Light mode" : "Dark mode")
+        if inToolbar {
+            button
+        } else {
+            button.buttonStyle(.plain).glass(Circle(), interactive: true)
+        }
     }
 }
 

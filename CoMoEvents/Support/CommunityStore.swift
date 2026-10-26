@@ -100,11 +100,14 @@ final class CommunityStore: ObservableObject {
         var hasEnd = false; var end = Date()
         var venue = ""; var address = ""; var price = ""; var link = ""; var details = ""; var submitterName = ""
         var agreedToGuidelines = false
+        /// Optional photo (picked, or the scanned flyer); uploaded when posting.
+        var photo: UIImage? = nil
     }
 
     /// Geocodes the address on device, then saves a pending record. Returns an error message or nil.
     func submit(_ d: Draft) async -> String? {
-        guard iCloudAvailable else { return "Posting needs iCloud signed in on this iPhone (Settings › your name)." }
+        let viaAccount = !iCloudAvailable && CoMoAPI.session != nil   // signed in with Google/Facebook, no iCloud
+        guard iCloudAvailable || viaAccount else { return "Posting needs you signed in: iCloud on this iPhone, or Google or Facebook in Profile." }
         guard d.title.trimmingCharacters(in: .whitespaces).count >= 3 else { return "Give the event a title." }
         guard !d.venue.isEmpty || !d.address.isEmpty else { return "Where is it? Add a venue or an address." }
         guard d.agreedToGuidelines else { return "Please agree to the community guidelines first." }
@@ -122,10 +125,25 @@ final class CommunityStore: ObservableObject {
                 lat = c.latitude; lng = c.longitude
             }
         }
+        var imageUrl: String?
+        if let photo = d.photo {
+            do { imageUrl = try await CoMoAPI.upload(photo) } catch { return "Couldn't upload the photo: \(error.localizedDescription)" }
+        }
+        let cats = ([d.category] + d.extraCategories.filter { $0 != d.category }).map(\.rawValue)
+        if viaAccount {
+            var body: [String: Any] = ["title": d.title.trimmingCharacters(in: .whitespaces), "category": d.category.rawValue, "categories": cats,
+                                       "start": d.start.timeIntervalSince1970 * 1000, "venue": d.venue, "address": d.address, "price": d.price,
+                                       "link": d.link, "details": d.details, "submitterName": d.submitterName]
+            if d.hasEnd { body["end"] = d.end.timeIntervalSince1970 * 1000 }
+            if let lat, let lng { body["lat"] = lat; body["lng"] = lng }
+            if let imageUrl { body["imageUrl"] = imageUrl }
+            do { try await CoMoAPI.call("/me/post", json: body); return nil } catch { return "Couldn't post: \(error.localizedDescription)" }
+        }
         let rec = CKRecord(recordType: "SubmittedEvent")
         rec["title"] = d.title.trimmingCharacters(in: .whitespaces) as CKRecordValue
         rec["category"] = d.category.rawValue as CKRecordValue
-        rec["categories"] = ([d.category] + d.extraCategories.filter { $0 != d.category }).map(\.rawValue) as CKRecordValue
+        rec["categories"] = cats as CKRecordValue
+        if let imageUrl { rec["imageUrl"] = imageUrl as CKRecordValue }
         rec["start"] = d.start as CKRecordValue
         if d.hasEnd { rec["end"] = d.end as CKRecordValue }
         rec["venue"] = d.venue as CKRecordValue
@@ -159,6 +177,10 @@ final class CommunityStore: ObservableObject {
     /// Anyone can flag a community post. Three flags hide it until a moderator looks.
     func report(_ event: Event, reason: String) async -> String? {
         guard event.isCommunity, let name = event.id.split(separator: ":").last else { return "Only community posts can be reported here." }
+        if !iCloudAvailable, CoMoAPI.session != nil {
+            do { try await CoMoAPI.call("/me/report", json: ["eventRecordName": String(name), "reason": reason]); return nil }
+            catch { return error.localizedDescription }
+        }
         let r = CKRecord(recordType: "Report")
         r["eventRecordName"] = String(name) as CKRecordValue
         r["reason"] = reason as CKRecordValue
@@ -180,6 +202,7 @@ final class CommunityStore: ObservableObject {
                      price: (r["price"] as? String).flatMap { $0.isEmpty ? nil : $0 },
                      category: r["category"] as? String ?? "community",
                      categories: r["categories"] as? [String] ?? [],
+                     imageUrl: (r["imageUrl"] as? String).flatMap { $0.isEmpty ? nil : $0 },
                      description: r["details"] as? String,
                      organizer: name.map { "Posted by \(ContentFilter.safeName($0, fallback: "a community member"))" },
                      audience: ["groups", "singles", "couples", "family"],

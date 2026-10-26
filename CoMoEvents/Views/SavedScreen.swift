@@ -11,7 +11,7 @@ struct SavedScreen: View {
                               emptyText: "Tap the heart on any event and it lands here.")
             }
             .navigationTitle("Saved")
-            .toolbar { ToolbarItem(placement: .topBarTrailing) { AppearanceButton() } }
+            .toolbar { ToolbarItem(placement: .topBarTrailing) { AppearanceButton(inToolbar: true) } }
         }
     }
 }

@@ -19,6 +19,7 @@
 		4CD21F9DEA95E27D05365E7A /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F839F290D9DD3AB3D1C3C1C /* AppLinks.swift */; };
 		51D69B4D63C571BED44FBDF9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC3F1B8022237EEC7BC0379 /* Router.swift */; };
 		546FBDB63B532D90EA0AB7DB /* SmartSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906D5180B039308976EE3848 /* SmartSearch.swift */; };
+		5588FF9E56BF79E50B3F40F7 /* CoMoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C71216D857C3C1DC21AC7 /* CoMoAPI.swift */; };
 		5CD12019CF8062D165327BC4 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD776B73BF8407921FE3E7E4 /* SoundPlayer.swift */; };
 		5CF1840A78AD4CD321B5A655 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F8C85C6DCAD73C800D171D /* MapScreen.swift */; };
 		5E82F4EA33081A9E05666BEF /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EAA017F2446BC532059B3 /* EventCard.swift */; };
@@ -34,6 +35,7 @@
 		8FAEE391BFF796D5FC6403AC /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 6567DC9C10C49E155A08BBFA /* events.json */; };
 		9E4027851A0F22372D3EF1D1 /* FriendsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDE406C3CA3CD41CA21D590 /* FriendsScreen.swift */; };
 		9EA558C7FAD49D640C769CC9 /* SocialConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C3EBD8133D4C87F0E74CA /* SocialConnect.swift */; };
+		9EC434A4E01A81D57DEF523B /* FlyerScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0B7E8E129EFFB5212FD945 /* FlyerScanner.swift */; };
 		A2788463541C619471DBF3B6 /* UpcomingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E361E619397E4616B87260CE /* UpcomingScreen.swift */; };
 		A6925D37DE0D47FCF70F3D78 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DDA08FB8045CE557E0A4B1 /* NotificationService.swift */; };
 		AF139E757D144C45D0E20ADB /* TimeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BC8F47418CC9EB86E8A42 /* TimeWindow.swift */; };
@@ -69,6 +71,7 @@
 		545FA8220F66F5EF2E8E8EC3 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		5717CC84A215533058E7FB50 /* CoMoEventsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoMoEventsApp.swift; sourceTree = "<group>"; };
 		5E0EA88088E79B7E0A40576B /* CommunityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityStore.swift; sourceTree = "<group>"; };
+		5E1C71216D857C3C1DC21AC7 /* CoMoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoMoAPI.swift; sourceTree = "<group>"; };
 		5E37AC286171D31A11C304AE /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
 		6567DC9C10C49E155A08BBFA /* events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
 		6691C2FA41EA70797F58A89D /* FriendsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsStore.swift; sourceTree = "<group>"; };
@@ -94,6 +97,7 @@
 		C13C07CB447BF6803BD94112 /* Hotspot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotspot.swift; sourceTree = "<group>"; };
 		CB86AEFE35325A9F60C65D59 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
 		E361E619397E4616B87260CE /* UpcomingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingScreen.swift; sourceTree = "<group>"; };
+		ED0B7E8E129EFFB5212FD945 /* FlyerScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerScanner.swift; sourceTree = "<group>"; };
 		F3DDA08FB8045CE557E0A4B1 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		F3F8C85C6DCAD73C800D171D /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
 		FD776B73BF8407921FE3E7E4 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
@@ -108,8 +112,10 @@
 				2F839F290D9DD3AB3D1C3C1C /* AppLinks.swift */,
 				93B51B69E81EC16E60089C76 /* AttendanceStore.swift */,
 				5E0EA88088E79B7E0A40576B /* CommunityStore.swift */,
+				5E1C71216D857C3C1DC21AC7 /* CoMoAPI.swift */,
 				77DEAE03921526A9495EDAB5 /* ContactsInvite.swift */,
 				AB57E9BB840EDE45833BC510 /* ContentFilter.swift */,
+				ED0B7E8E129EFFB5212FD945 /* FlyerScanner.swift */,
 				6691C2FA41EA70797F58A89D /* FriendsStore.swift */,
 				466EB52C7EDEB647B64D7BDA /* LocationManager.swift */,
 				F3DDA08FB8045CE557E0A4B1 /* NotificationService.swift */,
@@ -286,6 +292,7 @@
 				4CD21F9DEA95E27D05365E7A /* AppLinks.swift in Sources */,
 				603E787090EEBD65D3E2BC46 /* AttendanceStore.swift in Sources */,
 				23CA5479B528AD472593369A /* AudienceBar.swift in Sources */,
+				5588FF9E56BF79E50B3F40F7 /* CoMoAPI.swift in Sources */,
 				B636F1418EB66E64D2809776 /* CoMoEventsApp.swift in Sources */,
 				094C71D4E8AA18D776247297 /* CoMoIntents.swift in Sources */,
 				D27BC47CA1A5C07E589E15D0 /* CommunityStore.swift in Sources */,
@@ -297,6 +304,7 @@
 				6471606990678C4FBF1058E7 /* EventDetailView.swift in Sources */,
 				E0E56298A5E53588EB84AB84 /* EventList.swift in Sources */,
 				E8B6B3C7C45E8F08A2EAE4AB /* EventStore.swift in Sources */,
+				9EC434A4E01A81D57DEF523B /* FlyerScanner.swift in Sources */,
 				9E4027851A0F22372D3EF1D1 /* FriendsScreen.swift in Sources */,
 				30EC3F9647DD8FE2E67F85BD /* FriendsStore.swift in Sources */,
 				20B41AEB72069FAB1DCB3E2C /* Hotspot.swift in Sources */,

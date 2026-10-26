@@ -50,10 +50,14 @@ final class FriendsStore: ObservableObject {
     }
 
     /// Turn Friends on: needs iCloud on the phone. Creates or refreshes my public profile.
+    /// Signed in with Google/Facebook: the friend profile is written through our API under the account id.
+    private var accountMode: Bool { CoMoAPI.session != nil && userRecordName != nil && userRecordName == CoMoAPI.account?.id }
+
     func enable() async -> Bool {
-        guard ((try? await container.accountStatus()) ?? .noAccount) == .available,
-              let id = try? await container.userRecordID().recordName else {
-            lastError = "Friends needs iCloud signed in on this iPhone."; return false
+        var icloudID: String?
+        if ((try? await container.accountStatus()) ?? .noAccount) == .available { icloudID = try? await container.userRecordID().recordName }
+        guard let id = (CoMoAPI.session != nil ? CoMoAPI.account?.id : nil) ?? icloudID else {
+            lastError = "Friends needs you signed in: iCloud on this iPhone, or Google or Facebook in Profile."; return false
         }
         userRecordName = id
         myCode = Self.code(for: id)
@@ -66,12 +70,20 @@ final class FriendsStore: ObservableObject {
 
     func restore() async {
         guard enabled else { return }
-        if let id = try? await container.userRecordID().recordName { userRecordName = id; myCode = Self.code(for: id) }
+        if CoMoAPI.session != nil, let id = CoMoAPI.account?.id { userRecordName = id; myCode = Self.code(for: id) }
+        else if let id = try? await container.userRecordID().recordName { userRecordName = id; myCode = Self.code(for: id) }
         await refresh()
     }
 
     func publish() async {
         guard enabled, let rid = myRecordID else { return }
+        if accountMode {
+            do {
+                try await CoMoAPI.call("/me/friend", json: ["code": myCode ?? "", "displayName": ContentFilter.safeName(displayName),
+                    "sharing": shareSaves, "favorites": shareSaves ? favorites : [], "going": shareSaves ? going : [], "here": shareSaves ? here : []])
+            } catch { lastError = error.localizedDescription }
+            return
+        }
         let rec = (try? await db.record(for: rid)) ?? CKRecord(recordType: "FriendProfile", recordID: rid)
         rec["displayName"] = ContentFilter.safeName(displayName) as CKRecordValue
         rec["code"] = (myCode ?? "") as CKRecordValue
@@ -120,6 +132,10 @@ final class FriendsStore: ObservableObject {
         if !blockedIDs.contains(f.id) { blockedIDs.append(f.id) }
     }
     func report(_ f: Friend, reason: String) async -> String? {
+        if accountMode {
+            do { try await CoMoAPI.call("/me/report", json: ["eventRecordName": f.id, "reason": "friend profile: \(reason)"]); return nil }
+            catch { return error.localizedDescription }
+        }
         let r = CKRecord(recordType: "Report")
         r["eventRecordName"] = f.id as CKRecordValue
         r["reason"] = "friend profile: \(reason)" as CKRecordValue

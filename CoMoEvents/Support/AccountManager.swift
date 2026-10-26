@@ -2,8 +2,10 @@ import Foundation
 import AuthenticationServices
 import CloudKit
 import SwiftUI
+import UIKit
 
-/// Sign in with Apple + CloudKit private database. No server of our own.
+/// Sign in with Apple + CloudKit private database, or a Google/Facebook account (CoMoAPI) whose profile
+/// is kept by our worker.
 ///
 /// - Signed out: the profile is kept locally (Application Support/profile.json).
 /// - Signed in: the same profile is also saved as one CKRecord ("Profile") in the user's
@@ -16,8 +18,12 @@ final class AccountManager: ObservableObject {
     @Published var profile = UserProfile()
     @Published private(set) var sync: SyncState = .idle
     @Published var lastError: String?
+    /// Google/Facebook account (CoMoAPI), if signed in that way.
+    @Published private(set) var linked: CoMoAPI.Account? = CoMoAPI.account
+    @Published private(set) var signingIn: String?
 
-    var isSignedIn: Bool { userID != nil }
+    var isSignedIn: Bool { userID != nil || linked != nil }
+    var signInLabel: String? { userID != nil ? "Apple" : linked?.providerLabel }
 
     static let containerID = "iCloud.com.xenificity.comoevents"
     private let recordType = "Profile"
@@ -33,6 +39,7 @@ final class AccountManager: ObservableObject {
 
     /// Check the Apple credential is still valid, then pull the cloud copy.
     func restore() async {
+        if linked != nil { await pullAccount() }
         guard let id = userID else { return }
         let state = try? await ASAuthorizationAppleIDProvider().credentialState(forUserID: id)
         if state == .revoked || state == .notFound {
@@ -65,8 +72,36 @@ final class AccountManager: ObservableObject {
         }
     }
 
+    /// Sign in with Google or Facebook ("google" / "facebook").
+    func signIn(with provider: String) async {
+        signingIn = provider; defer { signingIn = nil }
+        do {
+            let remote = try await CoMoAPI.signIn(provider)
+            linked = CoMoAPI.account
+            if let r = remote { profile = profile.merged(with: Self.profile(from: r)) }
+            if profile.displayName.isEmpty, let n = linked?.name { profile.displayName = n }
+            profile.updatedAt = Date()
+            saveLocal()
+            SoundPlayer.shared.play(.signIn)
+            await pushAccount()
+        } catch {
+            if (error as? ASWebAuthenticationSessionError)?.code == .canceledLogin || (error as? URLError)?.code == .cancelled { return }
+            lastError = "Sign in didn't finish: \(error.localizedDescription)"
+        }
+    }
+
+    /// Profile picture: uploads to our photo host and saves the link in the profile.
+    func setAvatar(_ image: UIImage) async {
+        do {
+            let url = try await CoMoAPI.upload(image, maxSide: 600)
+            update { $0.avatarUrl = url }
+        } catch { lastError = "Couldn't save the picture: \(error.localizedDescription)" }
+    }
+
     func signOut(keepLocal: Bool = true) {
         Keychain.delete("apple.userID")
+        CoMoAPI.signOut()
+        linked = nil
         userID = nil
         sync = .idle
         if !keepLocal { profile = UserProfile(); saveLocal() }
@@ -74,6 +109,7 @@ final class AccountManager: ObservableObject {
 
     /// App Store rule 5.1.1(v): people must be able to delete what we hold about them.
     func deleteAccountData() async {
+        if linked != nil { _ = try? await CoMoAPI.call("/me/delete") }
         if let id = userID {
             do { try await db.deleteRecord(withID: recordID(for: id)) } catch { /* nothing there is fine */ }
         }
@@ -99,6 +135,7 @@ final class AccountManager: ObservableObject {
     private func recordID(for id: String) -> CKRecord.ID { CKRecord.ID(recordName: "profile-\(id)") }
 
     func pull() async {
+        if linked != nil { await pullAccount() }
         guard let id = userID else { return }
         sync = .syncing
         do {
@@ -143,6 +180,7 @@ final class AccountManager: ObservableObject {
     }
 
     func push() async {
+        if linked != nil { await pushAccount() }
         guard let id = userID else { return }
         sync = .syncing
         do {
@@ -153,6 +191,7 @@ final class AccountManager: ObservableObject {
             rec["audience"] = (profile.audience ?? "") as CKRecordValue
             rec["favorites"] = profile.favorites as CKRecordValue
             rec["updatedAt"] = profile.updatedAt as CKRecordValue
+            if let a = profile.avatarUrl { rec["avatarUrl"] = a as CKRecordValue }
             _ = try await db.save(rec)
             sync = .synced(Date())
         } catch {
@@ -168,6 +207,38 @@ final class AccountManager: ObservableObject {
         p.audience = a.isEmpty ? nil : a
         p.favorites = rec["favorites"] as? [String] ?? []
         p.updatedAt = rec["updatedAt"] as? Date ?? .distantPast
+        p.avatarUrl = rec["avatarUrl"] as? String
+        return p
+    }
+
+    // MARK: Google / Facebook account profile (our worker)
+
+    private func pullAccount() async {
+        guard let data = try? await CoMoAPI.call("/me", method: "GET"),
+              let obj = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
+              let pd = obj["profile"], let pdata = try? JSONSerialization.data(withJSONObject: pd),
+              let remote = try? JSONDecoder().decode(CoMoAPI.RemoteProfile.self, from: pdata) else { return }
+        profile = profile.merged(with: Self.profile(from: remote))
+        saveLocal()
+        sync = .synced(Date())
+    }
+
+    private func pushAccount() async {
+        var body: [String: Any] = ["displayName": profile.displayName, "interests": profile.interests,
+                                   "audience": profile.audience ?? "", "favorites": profile.favorites]
+        if let a = profile.avatarUrl { body["avatarUrl"] = a }
+        do { try await CoMoAPI.call("/me", method: "PUT", json: ["profile": body]); sync = .synced(Date()) }
+        catch { sync = .failed("Couldn't sync your profile. It's saved on this phone.") }
+    }
+
+    private static func profile(from r: CoMoAPI.RemoteProfile) -> UserProfile {
+        var p = UserProfile()
+        p.displayName = r.displayName ?? ""
+        p.interests = r.interests ?? []
+        p.audience = (r.audience ?? "").isEmpty ? nil : r.audience
+        p.favorites = r.favorites ?? []
+        p.avatarUrl = r.avatarUrl
+        p.updatedAt = r.updatedAt.map { Date(timeIntervalSince1970: $0 / 1000) } ?? .distantPast
         return p
     }
 

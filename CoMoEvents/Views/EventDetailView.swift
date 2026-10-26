@@ -209,8 +209,8 @@ struct EventDetailView: View {
                 Label("\(here.map(\.name).joined(separator: ", ")) \(here.count == 1 ? "is" : "are") here now", systemImage: "person.fill.checkmark")
                     .font(.caption.weight(.semibold)).foregroundStyle(.green)
             }
-            if !community.iCloudAvailable {
-                Text("Counts sync when iCloud is signed in on this iPhone.").font(.caption2).foregroundStyle(.secondary)
+            if !community.iCloudAvailable && CoMoAPI.session == nil {
+                Text("Counts sync when you're signed in (iCloud, or Google or Facebook in Profile).").font(.caption2).foregroundStyle(.secondary)
             }
         }
         .padding(16)

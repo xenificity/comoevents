@@ -131,3 +131,16 @@ Read README.md first. Short version:
 - dedupe also merges one event under two titles: same start minute, ≥60% shared key words (`sig_words`: Missouri/Mizzou/
   Tigers = one word, no stop words) and within 0.8 km. make_covers treats any /img/gen/ (non p-) link as a generated cover
   even without the flag, because merges can copy the link alone.
+- Accounts (Oct 2026): besides Sign in with Apple / iCloud, people can sign in with Google or Facebook through the worker
+  (`/login/<p>/start` → session token "s.<payload>.<sig>"; iOS `CoMoAPI` + Keychain "como.session", web `Cloud.session`).
+  Account users have no CloudKit identity, so their Going / friend profile / posts / reports go through `/me/*` and the
+  worker writes CloudKit with the S2S key under ids like "g-<hash>" / "f-<hash>". Profile (name, picture, interests,
+  saves) is in KV `acct:<id>` via GET/PUT `/me`; `/me/delete` deletes the account (App Store 5.1.1(v)). Google OAuth is in
+  Testing and the Meta app in Development: only test users can sign in until Ajay publishes them.
+- Photos: POST `/img` (session or "CK <web auth token>") stores JPEGs in KV, served at `/img/<id>`. Used for post photos
+  (`SubmittedEvent.imageUrl`) and profile pictures (`avatarUrl` in Profile / FriendProfile / KV profile). Schema fields were
+  added in feed/cloudkit-schema.ckdb; they must be deployed to Production before clients write them.
+- Flyer scan: iOS `FlyerScanner` (Vision text recognition, accurate then fast; tallest real-word line block = title,
+  NSDataDetector + forgiving month/day regex, time ranges, venue table `VenueLookup.mentioned`). Web `scanFlyer` uses
+  Tesseract.js 5.1.1 from jsDelivr, loaded on demand, one worker in sparse-text mode (PSM 11) on a grayscale,
+  high-contrast copy; lines under 55% confidence are dropped. Both make the flyer the event photo.

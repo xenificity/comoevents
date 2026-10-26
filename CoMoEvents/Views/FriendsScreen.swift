@@ -26,7 +26,7 @@ struct FriendsScreen: View {
                 }
             }
             .navigationTitle("Friends")
-            .toolbar { ToolbarItem(placement: .topBarTrailing) { AppearanceButton() } }
+            .toolbar { ToolbarItem(placement: .topBarTrailing) { AppearanceButton(inToolbar: true) } }
             .refreshable { await friends.refresh() }
             .alert("Friends", isPresented: Binding(get: { message != nil }, set: { if !$0 { message = nil } })) { Button("OK") {} } message: { Text(message ?? "") }
             .sheet(isPresented: $showContacts) {
@@ -53,7 +53,7 @@ struct FriendsScreen: View {
                 Task { working = true; if await friends.enable() == false { message = friends.lastError }; working = false }
             } label: { Label(working ? "Setting up…" : "Turn on Friends", systemImage: "sparkles").frame(maxWidth: .infinity) }
                 .buttonStyle(.borderedProminent).tint(Theme.yellow).foregroundStyle(Theme.ink).disabled(working)
-            Text("Uses the iCloud account on this iPhone. Nothing else is shared.").font(.caption2).foregroundStyle(.secondary)
+            Text("Uses your iCloud, Google or Facebook sign-in. Nothing else is shared.").font(.caption2).foregroundStyle(.secondary)
             inviteButton
         }
         .padding(16).frame(maxWidth: .infinity, alignment: .leading)

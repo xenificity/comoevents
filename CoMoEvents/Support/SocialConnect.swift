@@ -40,10 +40,14 @@ final class SocialConnect: NSObject, ObservableObject, ASWebAuthenticationPresen
     func connect(_ p: Provider, friends: FriendsStore) async -> String {
         guard Self.isConfigured else { return "Facebook and Google sign-in aren't set up yet." }
         working = p; defer { working = nil }
-        if !friends.enabled, !(await friends.enable()) { return friends.lastError ?? "Friends needs iCloud signed in on this iPhone." }
-        guard let token = await webAuthToken() else { return "Couldn't confirm your iCloud account. Check that iCloud is signed in." }
+        if !friends.enabled, !(await friends.enable()) { return friends.lastError ?? "Friends needs you signed in." }
+        // Google/Facebook-account users are identified by their CoMo session, iCloud users by CloudKit.
+        let ident: URLQueryItem
+        if let s = CoMoAPI.session { ident = URLQueryItem(name: "session", value: s) }
+        else if let token = await Self.ckWebAuthToken() { ident = URLQueryItem(name: "ck", value: token) }
+        else { return "Couldn't confirm your account. Check that iCloud is signed in." }
         var c = URLComponents(string: "\(Self.api)/auth/\(p.rawValue)/start")!
-        c.queryItems = [URLQueryItem(name: "ck", value: token), URLQueryItem(name: "return", value: "comoevents://social")]
+        c.queryItems = [ident, URLQueryItem(name: "return", value: "comoevents://social")]
         guard let url = c.url else { return "Couldn't start sign-in." }
         let callback: URL
         do { callback = try await authenticate(url) } catch { return "Sign-in was cancelled." }
@@ -62,11 +66,15 @@ final class SocialConnect: NSObject, ObservableObject, ASWebAuthenticationPresen
     }
 
     func disconnect(_ p: Provider) async -> String {
-        guard Self.isConfigured, let token = await webAuthToken() else { return "Couldn't confirm your iCloud account." }
+        guard Self.isConfigured else { return "Couldn't confirm your account." }
+        var body = ["provider": p.rawValue]
+        if let s = CoMoAPI.session { body["session"] = s }
+        else if let token = await Self.ckWebAuthToken() { body["ck"] = token }
+        else { return "Couldn't confirm your account." }
         var req = URLRequest(url: URL(string: "\(Self.api)/unlink")!)
         req.httpMethod = "POST"
         req.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        req.httpBody = try? JSONEncoder().encode(["ck": token, "provider": p.rawValue])
+        req.httpBody = try? JSONEncoder().encode(body)
         guard (try? await URLSession.shared.data(for: req)) != nil else { return "Couldn't disconnect. Try again." }
         UserDefaults.standard.removeObject(forKey: "social.\(p.rawValue)")
         objectWillChange.send()
@@ -78,7 +86,8 @@ final class SocialConnect: NSObject, ObservableObject, ASWebAuthenticationPresen
         let provider: String; let checked: Int; let linkedUsers: Int; let matches: [Match]
     }
 
-    private func webAuthToken() async -> String? {
+    /// CloudKit web auth token for this iPhone's iCloud user (the worker checks it with CloudKit).
+    static func ckWebAuthToken() async -> String? {
         await withCheckedContinuation { cont in
             let op = CKFetchWebAuthTokenOperation(apiToken: Self.ckAPIToken)
             op.qualityOfService = .userInitiated

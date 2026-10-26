@@ -1,4 +1,6 @@
 import SwiftUI
+import PhotosUI
+import VisionKit
 
 struct SubmitEventView: View {
     @EnvironmentObject var community: CommunityStore
@@ -13,6 +15,11 @@ struct SubmitEventView: View {
     @State private var prefilling = false
     @State private var venueHint: String?
     @State private var venueTask: Task<Void, Never>?
+    @State private var photoItem: PhotosPickerItem?
+    @State private var flyerItem: PhotosPickerItem?
+    @State private var showFlyerCamera = false
+    @State private var scanning = false
+    @State private var scanNote = false
 
     var body: some View {
         NavigationStack {
@@ -24,8 +31,19 @@ struct SubmitEventView: View {
                         Button { Task { await prefill(from: UIPasteboard.general.string ?? "") } } label: { Label("Paste link", systemImage: "link").frame(maxWidth: .infinity) }
                             .buttonStyle(.bordered)
                     }
+                    HStack(spacing: 10) {
+                        if VNDocumentCameraViewController.isSupported {
+                            Button { showFlyerCamera = true } label: { Label("Scan flyer", systemImage: "doc.viewfinder").frame(maxWidth: .infinity) }
+                                .buttonStyle(.borderedProminent).tint(Theme.yellow).foregroundStyle(Theme.ink)
+                        }
+                        PhotosPicker(selection: $flyerItem, matching: .images) {
+                            Label(VNDocumentCameraViewController.isSupported ? "Flyer photo" : "Scan flyer photo", systemImage: "photo.on.rectangle").frame(maxWidth: .infinity)
+                        }
+                        .buttonStyle(.bordered)
+                    }
                     if prefilling { HStack { ProgressView(); Text("Reading the page…").font(.caption).foregroundStyle(.secondary) } }
-                } header: { Text("Quick fill") } footer: { Text("A poster QR code or an Eventbrite, Facebook or venue link fills in what it can. You can edit everything after.") }
+                    if scanning { HStack { ProgressView(); Text("Reading the flyer…").font(.caption).foregroundStyle(.secondary) } }
+                } header: { Text("Quick fill") } footer: { Text("Scan a flyer, a poster QR code, or paste an Eventbrite, Facebook or venue link: it fills in what it can, and the flyer becomes the event photo. You can edit everything after.") }
                 Section {
                     TextField("Event title", text: $draft.title)
                     Picker("Type", selection: $draft.category) {
@@ -56,6 +74,19 @@ struct SubmitEventView: View {
                     Text(venueHint ?? "Type the venue and we fill in the address, phone and website from the venue table or Apple Maps. Columbia, MO is assumed.")
                 }
                 Section {
+                    if let photo = draft.photo {
+                        ZStack(alignment: .topTrailing) {
+                            Image(uiImage: photo).resizable().scaledToFit().frame(maxHeight: 220).frame(maxWidth: .infinity)
+                                .clipShape(RoundedRectangle(cornerRadius: 12))
+                            Button { draft.photo = nil } label: { Image(systemName: "xmark.circle.fill").font(.title2).symbolRenderingMode(.palette).foregroundStyle(.white, .black.opacity(0.6)) }
+                                .buttonStyle(.plain).padding(6).accessibilityLabel("Remove photo")
+                        }
+                    }
+                    PhotosPicker(selection: $photoItem, matching: .images) {
+                        Label(draft.photo == nil ? "Add a photo (optional)" : "Change photo", systemImage: "photo.badge.plus")
+                    }
+                } header: { Text("Photo") } footer: { Text("Shown on the event card and page. Without one, CoMo Events draws a cover from the details.") }
+                Section {
                     TextField("Price (e.g. Free, $10)", text: $draft.price)
                     TextField("Link for tickets or details", text: $draft.link).keyboardType(.URL).textInputAutocapitalization(.never)
                     TextField("Tell people about it", text: $draft.details, axis: .vertical).lineLimit(3...8)
@@ -84,13 +115,24 @@ struct SubmitEventView: View {
                 }
             }
             .sheet(isPresented: $showScanner) { QRScanView { text in Task { await prefill(from: text) } } }
+            .fullScreenCover(isPresented: $showFlyerCamera) {
+                FlyerCamera { image in Task { await scanFlyer(image) } }.ignoresSafeArea()
+            }
+            .onChange(of: photoItem) { _, item in
+                guard let item else { return }
+                Task { if let d = try? await item.loadTransferable(type: Data.self), let img = UIImage(data: d) { draft.photo = img }; photoItem = nil }
+            }
+            .onChange(of: flyerItem) { _, item in
+                guard let item else { return }
+                Task { if let d = try? await item.loadTransferable(type: Data.self), let img = UIImage(data: d) { await scanFlyer(img) }; flyerItem = nil }
+            }
             .onAppear {
                 if draft.submitterName.isEmpty { draft.submitterName = account.profile.displayName }
                 if router.scanOnOpen { router.scanOnOpen = false; showScanner = true }
                 draft.end = draft.start.addingTimeInterval(2 * 3600)
                 Task { await community.prepare() }
             }
-            .alert(done ? "Thanks!" : "Couldn't post", isPresented: Binding(get: { message != nil }, set: { if !$0 { message = nil; if done { dismiss() } } })) {
+            .alert(done ? "Thanks!" : (scanNote ? "Flyer" : "Couldn't post"), isPresented: Binding(get: { message != nil }, set: { if !$0 { message = nil; scanNote = false; if done { dismiss() } } })) {
                 Button("OK") {}
             } message: { Text(message ?? "") }
         }
@@ -127,11 +169,58 @@ struct SubmitEventView: View {
         draft.category = Category(rawValue: "community") ?? .community
     }
 
+    /// Fill the form from a flyer photo; the flyer also becomes the event photo.
+    private func scanFlyer(_ image: UIImage) async {
+        scanning = true
+        let r = await FlyerScanner.read(image)
+        scanning = false
+        Analytics.tap("scan-flyer")
+        if draft.photo == nil { draft.photo = image }
+        guard r.foundAnything else { scanNote = true; message = "Couldn't read that flyer. Try a sharper, straight-on photo, or fill the form by hand."; return }
+        if !r.title.isEmpty { draft.title = String(r.title.prefix(120)) }
+        if let s = r.start, s > Date() {
+            draft.start = s
+            if let e = r.end, e > s { draft.hasEnd = true; draft.end = e } else { draft.end = s.addingTimeInterval(2 * 3600) }
+        }
+        if !r.venue.isEmpty { draft.venue = r.venue }
+        if !r.address.isEmpty && draft.address.isEmpty { draft.address = r.address }
+        if !r.price.isEmpty { draft.price = r.price }
+        if !r.link.isEmpty && draft.link.isEmpty { draft.link = r.link }
+        if !r.details.isEmpty && draft.details.isEmpty { draft.details = r.details }
+        if !r.venue.isEmpty { lookupVenue(r.venue) }
+    }
+
     private func post() async {
         sending = true
         let err = await community.submit(draft)
         sending = false
         if let err { message = err } else { done = true; message = "Your event is in. It shows up on the map once it's approved, usually within a day." }
+    }
+}
+
+/// VisionKit document camera: finds the flyer's edges and flattens it. Returns the first page.
+struct FlyerCamera: UIViewControllerRepresentable {
+    let onScan: (UIImage) -> Void
+    @Environment(\.dismiss) private var dismiss
+
+    func makeUIViewController(context: Context) -> VNDocumentCameraViewController {
+        let vc = VNDocumentCameraViewController()
+        vc.delegate = context.coordinator
+        return vc
+    }
+    func updateUIViewController(_ vc: VNDocumentCameraViewController, context: Context) {}
+    func makeCoordinator() -> Coordinator { Coordinator(self) }
+
+    final class Coordinator: NSObject, VNDocumentCameraViewControllerDelegate {
+        let parent: FlyerCamera
+        init(_ p: FlyerCamera) { parent = p }
+        func documentCameraViewController(_ c: VNDocumentCameraViewController, didFinishWith scan: VNDocumentCameraScan) {
+            let img = scan.pageCount > 0 ? scan.imageOfPage(at: 0) : nil
+            parent.dismiss()
+            if let img { parent.onScan(img) }
+        }
+        func documentCameraViewControllerDidCancel(_ c: VNDocumentCameraViewController) { parent.dismiss() }
+        func documentCameraViewController(_ c: VNDocumentCameraViewController, didFailWithError error: Error) { parent.dismiss() }
     }
 }
 

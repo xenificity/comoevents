@@ -155,7 +155,11 @@
     save("attendance.mine", Cloud.attendance.mine);
     Cloud.emit("attendance");
     if (Cloud.friends.enabled) Cloud.publishFriend();
-    if (!Cloud.signedIn) return Promise.resolve("Sign in with iCloud (Profile tab) to share your plans with everyone.");
+    if (!Cloud.signedIn && Cloud.session) {   // Google/Facebook account: write through our API
+      return Cloud.api("/me/attendance", { eventID: event.id, status: status || null, eventStart: event._start.getTime() })
+        .then(function () { setTimeout(Cloud.refreshCounts, 4000); return null; }).catch(function (e) { return e.message; });
+    }
+    if (!Cloud.signedIn) return Promise.resolve("Sign in (Profile tab) to share your plans with everyone.");
     var name = "att-" + Cloud.userRecordName + "-" + event.id;
     var p = status
       ? upsert("Attendance", name, { eventID: event.id, status: status, userID: Cloud.userRecordName, eventStart: event._start.getTime(), updatedAt: Date.now() })
@@ -178,17 +182,22 @@
 
   // ---------- friends ----------
   Cloud.enableFriends = function () {
-    if (!Cloud.signedIn) return Promise.resolve("Sign in with iCloud first (Profile tab).");
+    if (!Cloud.loggedIn()) return Promise.resolve("Sign in first (Profile tab).");
+    if (!Cloud.friends.myCode) Cloud.friends.myCode = Cloud.code(Cloud.myId());
     Cloud.friends.enabled = true; save("friends.enabled", true);
     return Cloud.publishFriend().then(function () { return Cloud.refreshFriends(); }).then(function () { Cloud.emit("friends"); return null; });
   };
   Cloud.setShare = function (on) { Cloud.friends.share = on; save("friends.share", on); Cloud.publishFriend(); Cloud.emit("friends"); };
   Cloud.publishFriend = function (profile) {
-    if (!Cloud.signedIn || !Cloud.friends.enabled) return Promise.resolve();
+    if (!Cloud.loggedIn() || !Cloud.friends.enabled) return Promise.resolve();
     var p = profile || Cloud.profileForFriends || {};
     var mine = Cloud.attendance.mine, going = [], here = [];
     Object.keys(mine).forEach(function (id) { if (mine[id] === "going") going.push(id); if (mine[id] === "here") here.push(id); });
     var share = Cloud.friends.share;
+    if (!Cloud.signedIn) {
+      return Cloud.api("/me/friend", { code: Cloud.friends.myCode, displayName: Cloud.safeName(p.name || "", "A CoMo Events user"), sharing: share,
+        favorites: share ? (p.favorites || []) : [], going: share ? going.sort() : [], here: share ? here.sort() : [] }).catch(function (e) { Cloud.error = e.message; });
+    }
     return upsert("FriendProfile", "friend-" + Cloud.userRecordName, {
       displayName: Cloud.safeName(p.name || "", "A CoMo Events user"), code: Cloud.friends.myCode, sharing: share ? 1 : 0,
       favorites: share ? (p.favorites || []) : [], going: share ? going.sort() : [], here: share ? here.sort() : [], updatedAt: Date.now()
@@ -222,13 +231,14 @@
   // Leaves the page: the worker sends the browser to Facebook/Google and back to ?tab=friends&social=<id>.
   Cloud.connectSocial = function (provider) {
     if (!Cloud.social.api) return Promise.resolve("Facebook and Google sign-in aren't set up yet.");
-    if (!Cloud.signedIn) return Promise.resolve("Sign in with iCloud first.");
+    if (!Cloud.loggedIn()) return Promise.resolve("Sign in first (Profile tab).");
     var ready = Cloud.friends.enabled ? Promise.resolve(null) : Cloud.enableFriends();
     return ready.then(function (msg) {
       if (msg) return msg;
-      var tok = Cloud.socialToken();
-      if (!tok) return "Couldn't read your iCloud sign-in. Sign out and back in, then try again.";
-      location.href = Cloud.social.api + "/auth/" + provider + "/start?" + new URLSearchParams({ ck: tok, return: location.origin + "/?tab=friends" });
+      var ident = Cloud.signedIn ? { ck: Cloud.socialToken() } : { session: Cloud.session };
+      if (!ident.ck && !ident.session) return "Couldn't read your sign-in. Sign out and back in, then try again.";
+      ident["return"] = location.origin + "/?tab=friends";
+      location.href = Cloud.social.api + "/auth/" + provider + "/start?" + new URLSearchParams(ident);
       return null;
     });
   };
@@ -253,9 +263,10 @@
     }).catch(function () { return "Couldn't finish connecting. Try again."; });
   };
   Cloud.disconnectSocial = function (provider) {
-    var tok = Cloud.socialToken();
-    if (!Cloud.social.api || !tok) return Promise.resolve("Sign in with iCloud first.");
-    return fetch(Cloud.social.api + "/unlink", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ck: tok, provider: provider }) })
+    var body = Cloud.signedIn ? { ck: Cloud.socialToken() } : { session: Cloud.session };
+    if (!Cloud.social.api || (!body.ck && !body.session)) return Promise.resolve("Sign in first.");
+    body.provider = provider;
+    return fetch(Cloud.social.api + "/unlink", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })
       .then(function (r) { return r.json(); }).then(function () { try { localStorage.removeItem("social." + provider); } catch (e) {} return "Disconnected " + (provider === "facebook" ? "Facebook" : "Google") + "."; })
       .catch(function () { return "Couldn't disconnect. Try again."; });
   };
@@ -332,7 +343,7 @@
       start: new Date(start).toISOString(), end: val(f.end) ? new Date(val(f.end)).toISOString() : null, allDay: false, timeTBD: false,
       venue: val(f.venue) || null, address: val(f.address) || v.address || null, lat: val(f.lat) != null ? val(f.lat) : (v.lat || null), lng: val(f.lng) != null ? val(f.lng) : (v.lng || null),
       url: val(f.link) || v.website || null, ticketUrl: null, phone: v.phone || null, price: val(f.price) || null,
-      category: cat, categories: cats.length ? cats : [cat], imageUrl: null, description: val(f.details) || "",
+      category: cat, categories: cats.length ? cats : [cat], imageUrl: val(f.imageUrl) || null, description: val(f.details) || "",
       organizer: "Posted by " + name, audience: ["groups", "singles", "couples", "family"], alsoOn: [],
       submitterID: val(f.submitterID) || null, recordName: rec.recordName, status: val(f.status)
     };
@@ -353,7 +364,7 @@
     }).then(function (recs) {
       Cloud.community.approved = recs.filter(function (r) { return decisions[r.recordName] === true && (reports[r.recordName] || 0) < 3 && Cloud.community.blocked.indexOf(val(r.fields.submitterID) || "") < 0; })
         .map(mapEvent).filter(Boolean);
-      Cloud.community.mine = recs.filter(function (r) { return Cloud.userRecordName && val(r.fields.submitterID) === Cloud.userRecordName; }).map(function (r) { var e = mapEvent(r); if (e) e.decision = decisions[r.recordName]; return e; }).filter(Boolean);
+      Cloud.community.mine = recs.filter(function (r) { return Cloud.myId() && val(r.fields.submitterID) === Cloud.myId(); }).map(function (r) { var e = mapEvent(r); if (e) e.decision = decisions[r.recordName]; return e; }).filter(Boolean);
       Cloud.emit("community");
     }).catch(function (e) { Cloud.error = err(e); });
   };
@@ -375,13 +386,16 @@
     });
   };
   Cloud.submit = function (d) {
-    if (!Cloud.signedIn) return Promise.resolve("Sign in with iCloud (Profile tab) to post.");
+    if (!Cloud.loggedIn()) return Promise.resolve("Sign in (Profile tab) to post.");
     if ((d.title || "").trim().length < 3) return Promise.resolve("Give the event a title.");
     if (!d.venue && !d.address) return Promise.resolve("Where is it? Add a venue or an address.");
     if (!d.agreed) return Promise.resolve("Please agree to the community guidelines first.");
     var bad = [d.title, d.details, d.venue, d.submitterName, d.link].map(Cloud.offendingTerm).filter(Boolean)[0];
     if (bad) return Promise.resolve("That post can't go up: it contains \"" + bad + "\". Please reword it.");
-    return Cloud.lookupVenue(d.venue).then(function (m) {
+    var imageUrl = null;
+    return (d.photo ? Cloud.uploadImage(d.photo, 1600).then(function (u) { imageUrl = u; }) : Promise.resolve()).then(function () {
+      return Cloud.lookupVenue(d.venue);
+    }).then(function (m) {
       if (m && m.lat != null) { if (!d.address && m.address) d.address = m.address; if (!d.link && m.website) d.link = m.website; return { lat: m.lat, lng: m.lng }; }
       return Cloud.geocode(d.venue, d.address);
     }).then(function (pt) {
@@ -392,15 +406,21 @@
       };
       if (d.end) fields.end = d.end.getTime();
       if (pt) { fields.lat = pt.lat; fields.lng = pt.lng; }
+      if (imageUrl) fields.imageUrl = imageUrl;
+      if (!Cloud.signedIn) {   // Google/Facebook account: the worker saves the post
+        delete fields.submitterID; delete fields.status; delete fields.reports;
+        return Cloud.api("/me/post", fields).then(function () { Cloud.loadCommunity(); return null; });
+      }
       var rec = { recordType: "SubmittedEvent", fields: {} };
       Object.keys(fields).forEach(function (k) { rec.fields[k] = { value: fields[k] }; });
       return db.saveRecords([rec]).then(function (r) { if (r.hasErrors) throw r.errors[0]; Cloud.loadCommunity(); return null; });
-    }).catch(function (e) { return "Couldn't post: " + err(e); });
+    }).catch(function (e) { return "Couldn't post: " + (e && e.message ? e.message : err(e)); });
   };
   Cloud.report = function (event, reason) {
-    if (!Cloud.available) return Promise.resolve("Reporting needs iCloud on the web; email xenificity@icloud.com instead.");
     var name = event.recordName || (event.id.indexOf("community:") === 0 ? event.id.slice(10) : null);
     if (!name) return Promise.resolve("Only community posts can be reported here.");
+    if (!Cloud.signedIn && Cloud.session) return Cloud.api("/me/report", { eventRecordName: name, reason: reason }).then(function () { return null; }).catch(function (e) { return e.message; });
+    if (!Cloud.available) return Promise.resolve("Reporting needs you signed in; email xenificity@icloud.com instead.");
     return db.saveRecords([{ recordType: "Report", fields: { eventRecordName: { value: name }, reason: { value: reason }, reporterID: { value: Cloud.userRecordName || "anonymous" } } }])
       .then(function (r) { if (r.hasErrors) throw r.errors[0]; return null; }).catch(function (e) { return err(e); });
   };
@@ -413,6 +433,69 @@
   Cloud.unblockAll = function () { Cloud.community.blocked = []; save("community.blocked", []); Cloud.loadCommunity(); };
   Cloud.isModerator = function () { return Cloud.userRecordName && MODERATORS.indexOf(Cloud.userRecordName) >= 0; };
   Cloud.signOut = function () { if (container) return container.signOut ? container.signOut() : null; };
+
+  // ---------- Google / Facebook accounts + photos (comoevents-social worker) ----------
+  Cloud.session = load("como.session", null);
+  Cloud.acct = load("como.account", null);
+  Cloud.loggedIn = function () { return !!(Cloud.signedIn || Cloud.session); };
+  Cloud.myId = function () { return Cloud.userRecordName || (Cloud.session && Cloud.acct ? Cloud.acct.id : null); };
+  if (Cloud.session && Cloud.acct && !Cloud.friends.myCode) Cloud.friends.myCode = Cloud.code(Cloud.acct.id);
+  Cloud.authHeader = function () {
+    if (Cloud.session) return "Bearer " + Cloud.session;
+    var t = Cloud.signedIn && Cloud.socialToken();
+    return t ? "CK " + t : null;
+  };
+  /** JSON call to the worker with our session (or the iCloud web token). Rejects with Error(message). */
+  Cloud.api = function (path, body, method) {
+    var auth = Cloud.authHeader();
+    if (!auth) return Promise.reject(new Error("Sign in first (Profile tab)."));
+    var opts = { method: method || (body ? "POST" : "GET"), headers: { Authorization: auth } };
+    if (body) { opts.headers["Content-Type"] = "application/json"; opts.body = JSON.stringify(body); }
+    return fetch(Cloud.social.api + path, opts).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (j) { if (!r.ok) throw new Error(j.error || ("Server error " + r.status)); return j; });
+    });
+  };
+  /** Sends the browser to Google/Facebook; it comes back to ?tab=profile&login=<id>. */
+  Cloud.loginWith = function (provider) {
+    location.href = Cloud.social.api + "/login/" + provider + "/start?" + new URLSearchParams({ client: "web", "return": location.origin + "/?tab=profile" });
+  };
+  Cloud.finishLogin = function (rid) {
+    return fetch(Cloud.social.api + "/result/" + encodeURIComponent(rid)).then(function (r) { return r.json(); }).then(function (res) {
+      if (!res.token) throw new Error("That sign-in expired. Try again.");
+      Cloud.session = res.token; Cloud.acct = { id: res.account.id, provider: res.account.provider, name: res.account.name, email: res.account.email };
+      save("como.session", Cloud.session); save("como.account", Cloud.acct);
+      Cloud.friends.myCode = Cloud.code(Cloud.acct.id);
+      Cloud.emit("auth");
+      return res.account;
+    });
+  };
+  Cloud.logoutAccount = function () {
+    Cloud.session = null; Cloud.acct = null;
+    try { localStorage.removeItem("como.session"); localStorage.removeItem("como.account"); } catch (e) {}
+    Cloud.emit("auth");
+  };
+  Cloud.deleteAccount = function () {
+    return Cloud.api("/me/delete", {}).then(function () { Cloud.logoutAccount(); return null; }).catch(function (e) { return e.message; });
+  };
+  /** Resizes a photo in the browser (longest side maxSide, JPEG) and uploads it; resolves to its URL. */
+  Cloud.uploadImage = function (file, maxSide) {
+    var auth = Cloud.authHeader();
+    if (!auth) return Promise.reject(new Error("Sign in to add photos."));
+    return new Promise(function (resolve, reject) {
+      var img = new Image(), url = URL.createObjectURL(file);
+      img.onload = function () {
+        var k = Math.min(1, (maxSide || 1600) / Math.max(img.width, img.height));
+        var c = document.createElement("canvas"); c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+        c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+        URL.revokeObjectURL(url);
+        c.toBlob(function (blob) { blob ? resolve(blob) : reject(new Error("Couldn't read that photo.")); }, "image/jpeg", 0.82);
+      };
+      img.onerror = function () { URL.revokeObjectURL(url); reject(new Error("Couldn't read that photo.")); };
+      img.src = url;
+    }).then(function (blob) {
+      return fetch(Cloud.social.api + "/img", { method: "POST", headers: { Authorization: auth, "Content-Type": "image/jpeg" }, body: blob });
+    }).then(function (r) { return r.json().then(function (j) { if (!r.ok || !j.url) throw new Error(j.error || "Couldn't upload the photo."); return j.url; }); });
+  };
 
   window.Cloud = Cloud;
 })();

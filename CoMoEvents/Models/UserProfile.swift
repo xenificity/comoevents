@@ -7,6 +7,7 @@ struct UserProfile: Codable, Equatable {
     var interests: [String] = []          // Category raw values
     var audience: String? = nil           // Audience raw value ("singles", "couples", ...)
     var favorites: [String] = []          // Event ids
+    var avatarUrl: String? = nil          // profile picture (uploaded to our photo host, or the Google/Facebook one)
     var updatedAt: Date = .distantPast
 
     var interestSet: Set<Category> { Set(interests.compactMap(Category.init(rawValue:))) }
@@ -22,6 +23,7 @@ struct UserProfile: Codable, Equatable {
         var newer = updatedAt >= other.updatedAt ? self : other
         newer.favorites = Array(Set(favorites).union(other.favorites))
         if newer.displayName.isEmpty { newer.displayName = updatedAt >= other.updatedAt ? other.displayName : displayName }
+        if newer.avatarUrl == nil { newer.avatarUrl = updatedAt >= other.updatedAt ? other.avatarUrl : avatarUrl }
         return newer
     }
 }

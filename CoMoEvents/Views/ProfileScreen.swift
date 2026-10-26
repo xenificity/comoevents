@@ -1,5 +1,6 @@
 import SwiftUI
 import AuthenticationServices
+import PhotosUI
 
 struct ProfileScreen: View {
     @EnvironmentObject var account: AccountManager
@@ -12,8 +13,9 @@ struct ProfileScreen: View {
     @State private var name = ""
     @State private var confirmDelete = false
     @State private var resetDone = false
+    @State private var avatarItem: PhotosPickerItem?
+    @State private var savingAvatar = false
     @State private var soundsOn = SoundPlayer.enabled
-    @State private var countsOn = Analytics.enabled
     @FocusState private var nameFocused: Bool
 
     var body: some View {
@@ -31,7 +33,6 @@ struct ProfileScreen: View {
                         savedCard
                         if account.isSignedIn { accountCard }
                         supportCard
-                        idCard
                     }
                     .padding(16)
                     .padding(.bottom, 24)
@@ -39,7 +40,7 @@ struct ProfileScreen: View {
                 .scrollDismissesKeyboard(.interactively)
             }
             .navigationTitle("Profile")
-            .toolbar { ToolbarItem(placement: .topBarTrailing) { AppearanceButton() } }
+            .toolbar { ToolbarItem(placement: .topBarTrailing) { AppearanceButton(inToolbar: true) } }
             .onAppear { name = account.profile.displayName; Task { await community.prepare() } }
             .alert("Sign in", isPresented: Binding(get: { account.lastError != nil }, set: { if !$0 { account.lastError = nil } })) {
                 Button("OK") { account.lastError = nil }
@@ -49,7 +50,7 @@ struct ProfileScreen: View {
                     Task { await account.deleteAccountData(); store.replaceFavorites([]) }
                 }
             } message: {
-                Text("Removes your name, interests and saved events from this device and from your iCloud. Events on the map are not affected.")
+                Text("Removes your name, picture, interests, saved events and your account from this device, iCloud and CoMo Events. Events on the map are not affected.")
             }
         }
     }
@@ -58,16 +59,19 @@ struct ProfileScreen: View {
 
     private var header: some View {
         HStack(spacing: 14) {
-            Text(account.profile.initials)
-                .font(.system(size: 26, weight: .heavy, design: .rounded))
-                .foregroundStyle(Theme.ink)
-                .frame(width: 68, height: 68)
-                .background(Theme.yellow.gradient, in: Circle())
-                .overlay(Circle().stroke(.white.opacity(0.6), lineWidth: 2))
-                .shadow(color: Theme.yellow.opacity(0.5), radius: 10, y: 4)
+            avatar
             VStack(alignment: .leading, spacing: 4) {
-                Text(account.profile.displayName.isEmpty ? "Hey there" : account.profile.displayName)
-                    .font(.title2.bold())
+                if account.profile.displayName.isEmpty {
+                    // Unknown name: ask right here instead of a generic greeting.
+                    TextField("What's your name?", text: $name)
+                        .font(.title3.bold())
+                        .textInputAutocapitalization(.words)
+                        .submitLabel(.done)
+                        .onSubmit { commitName() }
+                } else {
+                    Text(account.profile.displayName)
+                        .font(.title2.bold())
+                }
                 Text(statusLine).font(.caption).foregroundStyle(.secondary)
                 if let t = usage.text {
                     Label(t, systemImage: "person.2.fill").font(.caption.weight(.semibold)).foregroundStyle(Theme.gold)
@@ -79,8 +83,48 @@ struct ProfileScreen: View {
         .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
     }
 
+    /// Profile picture: tap to choose one when signed in; initials otherwise.
+    private var avatar: some View {
+        let circle = ZStack {
+            Text(account.profile.initials)
+                .font(.system(size: 26, weight: .heavy, design: .rounded))
+                .foregroundStyle(Theme.ink)
+                .frame(width: 68, height: 68)
+                .background(Theme.yellow.gradient, in: Circle())
+            if let s = account.profile.avatarUrl, let url = URL(string: s) {
+                AsyncImage(url: url) { img in img.resizable().scaledToFill() } placeholder: { Color.clear }
+                    .frame(width: 68, height: 68).clipShape(Circle())
+            }
+            if savingAvatar { ProgressView().frame(width: 68, height: 68).background(.black.opacity(0.25), in: Circle()) }
+        }
+        .overlay(Circle().stroke(.white.opacity(0.6), lineWidth: 2))
+        .shadow(color: Theme.yellow.opacity(0.5), radius: 10, y: 4)
+        return Group {
+            if account.isSignedIn {
+                PhotosPicker(selection: $avatarItem, matching: .images) {
+                    circle.overlay(alignment: .bottomTrailing) {
+                        Image(systemName: "camera.fill").font(.system(size: 11, weight: .bold)).foregroundStyle(Theme.ink)
+                            .frame(width: 24, height: 24).background(.white, in: Circle()).shadow(radius: 2)
+                    }
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("Change profile picture")
+                .onChange(of: avatarItem) { _, item in
+                    guard let item else { return }
+                    Task {
+                        savingAvatar = true; defer { savingAvatar = false; avatarItem = nil }
+                        if let d = try? await item.loadTransferable(type: Data.self), let img = UIImage(data: d) { await account.setAvatar(img) }
+                    }
+                }
+            } else { circle }
+        }
+    }
+
     private var statusLine: String {
         guard account.isSignedIn else { return "Not signed in · profile saved on this phone only" }
+        if account.userID == nil, let l = account.linked {
+            return "Signed in with \(l.providerLabel)" + (l.email.map { " · \($0)" } ?? "")
+        }
         switch account.sync {
         case .idle: return "Signed in with Apple"
         case .syncing: return "Syncing with iCloud…"
@@ -91,8 +135,8 @@ struct ProfileScreen: View {
 
     private var signInCard: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Label("Keep your profile", systemImage: "icloud.fill").font(.headline)
-            Text("Sign in to save your name, interests and saved events to your iCloud, so they're there on your next phone. No password, no email list. You can also just keep using the app without an account.")
+            Label("Sign in", systemImage: "person.crop.circle.badge.checkmark").font(.headline)
+            Text("Keep your name, picture, interests and saved events on every device, and say you're going, find friends and post events. You can also just keep using the app without an account.")
                 .font(.subheadline).foregroundStyle(.secondary)
             SignInWithAppleButton(.continue) { req in
                 req.requestedScopes = [.fullName]
@@ -103,10 +147,29 @@ struct ProfileScreen: View {
             .signInWithAppleButtonStyle(scheme == .dark ? .white : .black)
             .frame(height: 48)
             .clipShape(Capsule())
+            providerButton("google", "Continue with Google", "g.circle.fill")
+            providerButton("facebook", "Continue with Facebook", "f.circle.fill")
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
         .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
+    }
+
+    private func providerButton(_ p: String, _ title: String, _ symbol: String) -> some View {
+        Button {
+            Task { await account.signIn(with: p); name = account.profile.displayName }
+        } label: {
+            HStack(spacing: 8) {
+                if account.signingIn == p { ProgressView() } else { Image(systemName: symbol).font(.title3) }
+                Text(title).font(.system(size: 17, weight: .medium))
+            }
+            .frame(maxWidth: .infinity, minHeight: 48)
+            .foregroundStyle(p == "facebook" ? .white : .primary)
+            .background(p == "facebook" ? Color(red: 0.09, green: 0.47, blue: 0.95) : Color(.systemBackground), in: Capsule())
+            .overlay(Capsule().stroke(Color.secondary.opacity(p == "facebook" ? 0 : 0.35), lineWidth: 1))
+        }
+        .buttonStyle(.plain)
+        .disabled(account.signingIn != nil)
     }
 
     private var aboutYou: some View {
@@ -201,13 +264,6 @@ struct ProfileScreen: View {
                 }
             }.tint(Theme.gold)
             .onChange(of: soundsOn) { _, on in SoundPlayer.enabled = on; if on { SoundPlayer.shared.play(.favorite) } }
-            Toggle(isOn: $countsOn) {
-                VStack(alignment: .leading) {
-                    Text("Anonymous usage counts").font(.subheadline.weight(.semibold))
-                    Text("Adds your app opens and taps to the public stats at comoevent.com/stats. No name, no device ID.").font(.caption).foregroundStyle(.secondary)
-                }
-            }.tint(Theme.gold)
-            .onChange(of: countsOn) { _, on in Analytics.enabled = on }
         }
         .padding(16).frame(maxWidth: .infinity, alignment: .leading)
         .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
@@ -256,33 +312,15 @@ struct ProfileScreen: View {
             Link(destination: URL(string: "https://comoevent.com/privacy.html")!) {
                 Label("Privacy policy", systemImage: "lock").frame(maxWidth: .infinity, alignment: .leading)
             }
-            Text("Events without a picture get one drawn from their details, with Twemoji art (CC-BY 4.0).")
-                .font(.caption2).foregroundStyle(.secondary)
             if !community.blockedSubmitters.isEmpty {
                 Button { community.unblockAll(); store.communityEvents = community.approved } label: {
                     Label("Unblock \(community.blockedSubmitters.count) blocked poster\(community.blockedSubmitters.count == 1 ? "" : "s")", systemImage: "hand.raised.slash").frame(maxWidth: .infinity, alignment: .leading)
                 }
             }
-            Text("Reports are read by a person, usually the same day. Blocking hides someone's posts for you right away.").font(.caption2).foregroundStyle(.secondary)
         }
         .font(.subheadline)
         .padding(16).frame(maxWidth: .infinity, alignment: .leading)
         .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
-    }
-
-    private var idCard: some View {
-        HStack {
-            VStack(alignment: .leading, spacing: 2) {
-                Text("Your CoMo ID").font(.caption.weight(.semibold)).foregroundStyle(.secondary)
-                Text(community.userRecordName ?? "iCloud not signed in").font(.caption2.monospaced()).lineLimit(1).truncationMode(.middle)
-            }
-            Spacer()
-            if let id = community.userRecordName {
-                Button { UIPasteboard.general.string = id } label: { Image(systemName: "doc.on.doc") }.buttonStyle(.plain)
-            }
-        }
-        .padding(14)
-        .glass(RoundedRectangle(cornerRadius: 18, style: .continuous))
     }
 
     private var savedCard: some View {
@@ -313,7 +351,9 @@ struct ProfileScreen: View {
                 confirmDelete = true
             } label: { Label("Delete my profile", systemImage: "trash").frame(maxWidth: .infinity) }
                 .buttonStyle(.bordered)
-            Text("Your data: a name, interests and saved event ids, in your own iCloud. We run no server and keep no copy.")
+            Text(account.userID != nil
+                 ? "Your name, picture link, interests and saved event ids live in your own iCloud."
+                 : "Your name, picture, interests and saved event ids are kept by CoMo Events so they follow you to any device. Delete removes them.")
                 .font(.caption2).foregroundStyle(.secondary)
         }
         .padding(16)

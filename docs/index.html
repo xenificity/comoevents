@@ -22,7 +22,7 @@
 <link rel="apple-touch-icon" href="img/icon-512.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.css" integrity="sha512-DBNed2oEjOrfIRj8Czuzs7padWawLWbA64OoDekn8gs2a3J6WOaR5xXfnFgaxKGpxIuSn/rAo/PsgOgO6PZ/vA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <script>try{document.documentElement.dataset.theme=localStorage.getItem("theme")==="dark"?"dark":"light"}catch(e){}</script>
-<link rel="stylesheet" href="app.css?v=18">
+<link rel="stylesheet" href="app.css?v=19">
 </head>
 <body>
 <noscript><p style="padding:16px;font-family:sans-serif">The live map needs JavaScript. <a href="/e/">Browse all upcoming events in Columbia, MO</a>.</p></noscript>
@@ -109,6 +109,10 @@
     <div class="inner"><div class="body">
       <header class="page-head"><h1>Post an event</h1><button class="glass circle" id="post-close" type="button" title="Close"><i class="ic" data-ic="back"></i></button></header>
       <form id="post-form" class="glass card pform" autocomplete="off">
+        <div class="quickfill">
+          <label class="ylink filebtn"><input type="file" accept="image/*" id="post-scan" hidden>Scan a flyer</label>
+          <p class="hint" id="post-scan-hint">Pick or snap a photo of a flyer: we read the title, date, time, place and price, and the flyer becomes the event photo. You can edit everything after.</p>
+        </div>
         <label>Event title<input name="title" required maxlength="120" placeholder="e.g. Trivia night at Cafe Berlin"></label>
         <label>Type<select name="category"></select></label>
         <div class="lbl">Also show under</div><div class="flow" id="post-extra"></div>
@@ -122,6 +126,9 @@
         <label>Price<input name="price" maxlength="40" placeholder="e.g. Free, $10"></label>
         <label>Link<input name="link" type="url" maxlength="300" placeholder="Tickets or details"></label>
         <label>Tell people about it<textarea name="details" rows="4" maxlength="1500"></textarea></label>
+        <div class="lbl">Photo (optional)</div>
+        <div id="post-photo-prev" hidden></div>
+        <label class="glass capsule filebtn"><input type="file" accept="image/*" id="post-photo" hidden><span id="post-photo-lbl">Add a photo</span></label>
         <label>Your name or organization<input name="submitterName" maxlength="60"></label>
         <label class="inline"><input name="agreed" type="checkbox"> I agree to the <a href="guidelines.html" target="_blank" rel="noopener">community guidelines</a></label>
         <p class="hint">Public events only. No spam, no hate, no adult content, no private parties, nothing illegal. A moderator checks every post before it appears, usually within a day.</p>
@@ -139,9 +146,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.js" integrity="sha512-BmEBFbeO0lgfo1PPX5M4B4zxlhZWhOP4Qb1Bn+NVtEI7W1ESwRrLPHpWYqw1WH3QgTqRDNsagD/Fj8mjFCXvSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="ck-config.js?v=13"></script>
 <script src="https://cdn.apple-cloudkit.com/ck/2/cloudkit.js" async onload="window.__ckLoaded=1"></script>
-<script src="cloud.js?v=15"></script>
+<script src="cloud.js?v=16"></script>
 <script src="/gc.js?v=1" defer></script>
 <script src="search.js?v=1"></script>
-<script src="app.js?v=21"></script>
+<script src="app.js?v=22"></script>
 </body>
 </html>

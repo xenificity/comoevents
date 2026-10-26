@@ -71,7 +71,7 @@ struct UpcomingScreen: View {
                         Button { Task { await store.refresh() } } label: { Image(systemName: "arrow.clockwise") }
                     }
                 }
-                ToolbarItem(placement: .topBarTrailing) { AppearanceButton() }
+                ToolbarItem(placement: .topBarTrailing) { AppearanceButton(inToolbar: true) }
             }
             .safeAreaInset(edge: .bottom) {
                 if let err = store.lastError {

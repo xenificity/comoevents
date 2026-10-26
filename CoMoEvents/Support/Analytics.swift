@@ -12,10 +12,8 @@ enum Analytics {
     private static let endpoint = "https://comoevent.goatcounter.com/count"
     private static var lastOpen: Date?
 
-    static var enabled: Bool {
-        get { UserDefaults.standard.object(forKey: "analytics.enabled") as? Bool ?? true }
-        set { UserDefaults.standard.set(newValue, forKey: "analytics.enabled") }
-    }
+    /// Always on (anonymous counts only); the old per-device switch was removed.
+    static var enabled: Bool { true }
 
     /// Counted once per visit: again only after the app has been away for 30 minutes.
     static func appOpened() {
