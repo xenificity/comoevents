@@ -19,12 +19,22 @@
   "lng": -92.3225127,
   "name": null
  },
+ "101 n 10th st, columbia, mo": {
+  "lat": 38.9528915,
+  "lng": -92.3268771,
+  "name": "First Christian Church"
+ },
  "1013 park ave, columbia, mo": {
   "lat": 38.9548056,
   "lng": -92.325182,
   "name": "Rose Park"
  },
  "102 stewart hall parker auditorium university of missouri columbia missouri united states, columbia, mo": null,
+ "1020 e walnut st, columbia, mo": {
+  "lat": 38.9524543,
+  "lng": -92.3260373,
+  "name": null
+ },
  "1020 e. walnut st columbia, mo 65201": {
   "lat": 38.9524561,
   "lng": -92.3261457,
@@ -66,6 +76,11 @@
   "lat": 38.942241,
   "lng": -92.323441,
   "name": null
+ },
+ "1217 business loop 70 w, columbia, mo": {
+  "lat": 38.9673787,
+  "lng": -92.3563844,
+  "name": "Memorial Funeral Home, Crematory & Memorial Park Cemetery"
  },
  "1300 woodrail ave, columbia, mo": {
   "lat": 38.9109695,
@@ -149,6 +164,11 @@
   "lng": -92.3746347,
   "name": null
  },
+ "2615 shepard blvd, columbia, mo": {
+  "lat": 38.9377166,
+  "lng": -92.297759,
+  "name": null
+ },
  "2804 forum blvd, #1, columbia, mo": null,
  "29 s 10th st columbia, mo 65201": {
   "lat": 38.9506349,
@@ -183,6 +203,11 @@
  "3301 west broadway columbia, mo columbia, mo 65203": {
   "lat": 38.9551665,
   "lng": -92.3852221,
+  "name": null
+ },
+ "3605 s providence rd, columbia, mo": {
+  "lat": 38.9118295,
+  "lng": -92.3348535,
   "name": null
  },
  "3711 discovery parkway columbia, mo 65201": {
@@ -356,6 +381,11 @@
   "name": "Missouri United Methodist Church"
  },
  "mizzou arena university of missouri columbia missouri united states, columbia, mo": null,
+ "mizzou athletic training complex, columbia, mo": {
+  "lat": 38.937124,
+  "lng": -92.3366503,
+  "name": "Mizzou Athletic Training Complex"
+ },
  "mizzourec studio a 3rd floor  1000 rollins st columbia miss 65211 united states, columbia, mo": null,
  "mizzourec studio a 3rd floor 1000 rollins st columbia miss 65211 united states, columbia, mo": null,
  "monsanto auditorium bond life sciences center university of missouri columbia missouri united states, columbia, mo": null,
