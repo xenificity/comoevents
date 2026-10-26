@@ -3,10 +3,7 @@
   "venues": [
     {
       "name": "Columbia Ballet",
-      "tags": [
-        "Dance",
-        "Nutcracker Dec 12–13"
-      ],
+      "tags": ["Dance", "Nutcracker Dec 12–13"],
       "why": "Lists only dates without times or places on a Wix page, and the performances page is out of date. Ask them to post shows on CoMo Events or turn on Wix Events or a Google Calendar.",
       "address": "110 Orr St, Suite 102, Columbia, MO 65201",
       "phone": "573-540-7876",
@@ -16,10 +13,7 @@
     },
     {
       "name": "Columbia Community Band",
-      "tags": [
-        "Music",
-        "Free concerts"
-      ],
+      "tags": ["Music", "Free concerts"],
       "why": "Its concerts page says 'no upcoming events' and points to Facebook. Ask them to post concerts on CoMo Events. Email: columbiaband@gmail.com.",
       "address": "Mailing: P.O. Box 7254, Columbia, MO 65205 (concerts at Shelter Gardens, Stephens Lake Park, Missouri Theatre)",
       "phone": "(573) 446-2263",
@@ -28,10 +22,7 @@
     },
     {
       "name": "Columbia Civic Orchestra",
-      "tags": [
-        "Music",
-        "Free concerts"
-      ],
+      "tags": ["Music", "Free concerts"],
       "why": "The season is posted only as a picture, so nothing can read it. Its 3 remaining concerts were added by hand. Ask for a Google Calendar or for them to post on CoMo Events.",
       "address": "Concerts at First Presbyterian (16 Hitt St), Broadway Christian (2601 W Broadway), Missouri Theatre",
       "website": "https://cco.missouri.org/",
@@ -40,10 +31,7 @@
     },
     {
       "name": "North Village Arts District",
-      "tags": [
-        "Arts",
-        "First Fridays"
-      ],
+      "tags": ["Arts", "First Fridays"],
       "why": "First Friday is listed only as a rule (first Friday, 6 to 9 pm), with no dated events or special programs. First Fridays are now added by hand. Ask the district or its galleries to post their First Friday programs.",
       "address": "1019 E Walnut St, Columbia, MO 65201",
       "website": "https://northvillageartsdistrict.org/",
@@ -52,10 +40,7 @@
     },
     {
       "name": "Sake Japanese Bistro & Bar",
-      "tags": [
-        "Food",
-        "Nightlife"
-      ],
+      "tags": ["Food", "Nightlife"],
       "why": "No public events page, and its website blocks automated reading. Ask about special nights (sake tastings, karaoke, holiday menus) and have them post on CoMo Events.",
       "address": "16 S 10th St, Columbia, MO 65201",
       "phone": "(573) 443-7253",
@@ -63,18 +48,13 @@
     },
     {
       "name": "Toaster Steaks (place not confirmed)",
-      "tags": [
-        "Needs details"
-      ],
+      "tags": ["Needs details"],
       "why": "No Columbia business by this name was found. Note the exact name and address when you visit, so it can be added to the map.",
       "address": ""
     },
     {
       "name": "The Social Room",
-      "tags": [
-        "Nightclub",
-        "DJ nights, live music, karaoke"
-      ],
+      "tags": ["Nightclub", "DJ nights, live music, karaoke"],
       "why": "Downtown nightclub with regular DJ, music and karaoke nights, but the Upcoming Events section on its Wix site is empty; nights are only announced on Instagram and Facebook. Ask them to add their nights to that Wix Events section (the feed can then read it) or post them on CoMo Events.",
       "address": "220 N 8th St, Columbia, MO 65201",
       "website": "https://www.socialroomcomo.com/entertainment"
