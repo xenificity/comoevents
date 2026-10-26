@@ -359,6 +359,10 @@ def main():
         font_b64 = base64.b64encode(f.read()).decode()
 
     todo, used = {}, set()
+    for e in feed["events"]:   # our own covers can arrive without the flag (e.g. copied over in a duplicate merge)
+        u = e.get("imageUrl") or ""
+        if u.startswith(f"{SITE}/img/gen/") and not u.startswith(f"{SITE}/img/gen/p-"):
+            e["imageGenerated"] = True
     up, repl, resized = fix_photos(feed["events"], used)
     print(f"make_covers: photos: {up} switched to the full-size version, {repl} too small (cover instead), {resized} resized")
     for e in feed["events"]:

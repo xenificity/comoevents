@@ -6,6 +6,7 @@ normalizes them, geocodes venues, de-duplicates, and writes events.json.
 
 Sources (all public, no login):
   mizzou        calendar.missouri.edu  (LiveWhale JSON + RSS with coordinates)
+  engage        engage.missouri.edu    (MU Engage / CampusGroups .ics: student-org events with a public location)
   visitcolumbia visitcolumbiamo.com    (WordPress REST + event page for address)
   eventbrite    eventbrite.com         (listing page server data)
   allevents     allevents.in           (listing JSON-LD; mirrors public Facebook events)
@@ -261,7 +262,7 @@ def make_event(source, source_name, sid, title, start, end=None, all_day=False, 
         "organizer": one_line(organizer, 120) if isinstance(organizer, str) else organizer,
         "audience": infer_audience(title, strip_html(description, 2000) if description else "", category or "community"),
         "categories": all_categories(title, description, category or "community",
-                                     campus_ok=source in ("mizzou", "dbrl")),
+                                     campus_ok=source in ("mizzou", "dbrl", "engage")),
     }
 
 def all_categories(title, desc, primary, campus_ok=False):
@@ -888,6 +889,98 @@ def _ics_datetime(params, val):
     d = d.replace(tzinfo=dt.timezone.utc).astimezone(TZ) if utc else d.replace(tzinfo=tz).astimezone(TZ)
     return d, False
 
+# ----------------------------------------------------------------- MU Engage (student organizations)
+ENGAGE_ICS = "https://engage.missouri.edu/ical/missouri/ical_missouri.ics"
+# Engage event_type → our category. Business meetings and academic deadlines aren't events for the public.
+ENGAGE_TYPES = {"Learning": "campus", "Social": "community", "Athletics": "sports", "Service": "community",
+                "Cultural": "community", "Arts & Music": "arts", "Spirituality": "religious", "Fundraising": "community"}
+ENGAGE_SKIP_TYPES = {"Group Business", "Academic Calendar"}
+ENGAGE_NO_PLACE = re.compile(r"^(sign in|online|virtual|zoom|tbd|tba|various|columbia\b|$)", re.I)
+ENGAGE_BOILER = re.compile(r"The University of Missouri strives for all events to be inclusive.*?(?=\n---|$)|\n?---\s*\nEvent Details:.*$", re.S)
+
+
+def engage_place(loc):
+    """'Rectangle Space - MU Student Center, Columbia, MO 65201,' → (shown venue, building to map, address)."""
+    parts = [p.strip() for p in loc.split(",") if p.strip()]
+    if not parts:
+        return None, None, None
+    shown = parts[0].strip(" |")
+    building = shown
+    if " - " in building:   # "Rectangle Space - MU Student Center": map the building
+        a, b = building.rsplit(" - ", 1)
+        building = b if re.search(r"center|hall|building|library|stadium|arena|auditorium|rec", b, re.I) else a
+    building = re.sub(r"(?i)\b(room|rm\.?)\s*[\w-]+", "", building)
+    building = re.sub(r":.*$", "", building)                                   # "Agriculture Building: 2-64"
+    building = re.sub(r"(?i)\s+(lobby|atrium|ballroom|basement)$", "", building)
+    building = re.sub(r"^[A-Za-z]?\d+[A-Za-z]*\s+|\s+[A-Za-z]?\d+[A-Za-z]*$", "", building).strip(" -|")   # room numbers
+    building = re.sub(r"(?i)^(mizzou |mu )?student center$", "MU Student Center", building)
+    address = ", ".join(parts[1:]) or None
+    return shown, building or shown, address
+
+
+def src_engage(days):
+    """MU Engage (CampusGroups): every student organization's events, from the public campus-wide .ics.
+    Only events with a public location: many hide it behind a Mizzou sign-in, and online ones have no map spot."""
+    try:
+        text = get(ENGAGE_ICS).text.replace("\r\n", "\n")
+    except Exception as e:
+        log("  engage failed:", e); return []
+    text = re.sub(r"\n[ \t]", "", text)
+    now = dt.datetime.now(TZ)
+    horizon = now + dt.timedelta(days=days)
+    out = []
+    for block in text.split("BEGIN:VEVENT")[1:]:
+        block = block.split("END:VEVENT")[0]
+        props = {}
+        for line in block.split("\n"):
+            if ":" not in line:
+                continue
+            head, val = line.split(":", 1)
+            parts = head.split(";")
+            params = dict(p.split("=", 1) for p in parts[1:] if "=" in p)
+            props.setdefault(parts[0], []).append((params, val))
+        cats = {}
+        for params, val in props.get("CATEGORIES", []):
+            kind = params.get("X-CG-CATEGORY", "")
+            cats[kind] = val.split(":", 1)[1].strip() if ":" in val and kind == "" else val.strip()
+        etype = cats.get("event_type", "")
+        if etype in ENGAGE_SKIP_TYPES:
+            continue
+        loc = _ics_unescape(props.get("LOCATION", [({}, "")])[0][1]).strip()
+        if ENGAGE_NO_PLACE.search(loc):
+            continue
+        summary = _ics_unescape(props.get("SUMMARY", [({}, "")])[0][1]).strip()
+        if not summary or ICS_SKIP.search(summary) or "DTSTART" not in props:
+            continue
+        try:
+            start, all_day = _ics_datetime(*props["DTSTART"][0])
+            end = _ics_datetime(*props["DTEND"][0])[0] if "DTEND" in props else None
+        except Exception:
+            continue
+        start, end = start.astimezone(TZ) if start.tzinfo else start, (end.astimezone(TZ) if end and end.tzinfo else end)
+        if (end or start) < now - dt.timedelta(hours=6) or start > horizon:
+            continue
+        shown, building, address = engage_place(loc)
+        if not shown or ENGAGE_NO_PLACE.search(shown) or shown.startswith("http"):
+            continue
+        org = re.search(r'CN="?([^":]+)', next((h for h in block.split("\n") if h.startswith("ORGANIZER")), ""))
+        desc = _ics_unescape(props.get("DESCRIPTION", [({}, "")])[0][1])
+        desc = ENGAGE_BOILER.sub("", desc).strip()
+        known = venue_lookup(building) or {}
+        ev = make_event("engage", "MU Engage · student organizations", props.get("UID", [({}, summary)])[0][1], summary,
+                        start, end, all_day=all_day, venue=shown,
+                        address=address if address and re.search(r"\d", address) else (known.get("address") or f"{building}, University of Missouri, Columbia, MO"),
+                        lat=known.get("lat"), lng=known.get("lng"),
+                        url=props.get("URL", [({}, None)])[0][1], category=ENGAGE_TYPES.get(etype, "campus"),
+                        description=desc or None, organizer=org.group(1).strip() if org else None)
+        if ev:
+            ev["_geovenue"] = building   # geocode by the building, not "Rectangle Space - …"
+            if "campus" not in ev["categories"]:
+                ev["categories"] = (ev["categories"] + ["campus"])[:4]
+            out.append(ev)
+    return out
+
+
 def src_ics(days):
     """One-off and recurring events from public .ics calendars. Recurring rules are expanded with
     dateutil when it is installed (the workflow installs it); without it only one-off dates are used."""
@@ -1289,11 +1382,36 @@ def src_caam(days):
                                   description=" · ".join(sub) or None, organizer="Choral Arts Alliance of Missouri"))
     return out
 
-SOURCES = [src_mizzou, src_visitcolumbia, src_eventbrite, src_allevents, src_baselocal, src_bluenote, src_dbrl,
+SOURCES = [src_mizzou, src_engage, src_visitcolumbia, src_eventbrite, src_allevents, src_baselocal, src_bluenote, src_dbrl,
            src_posh, src_tribe, src_vox, src_ics, src_extra,
            src_squarespace, src_ragtag, src_stephens, src_talkinghorse, src_mizzouarts, src_wealwaysswing, src_lyceum, src_caam]
 
 # ----------------------------------------------------------------- merge
+DEDUPE_STOP = set("the a an of at in on and or for with to vs v am pm presents presented by featuring feat ft live event "
+                  "columbia mo university concert series tour".split())
+
+
+def sig_words(title):
+    """Key words of a title for matching the same event under different names:
+    'Mizzou Volleyball vs. Tennessee - 2 PM' and 'Volleyball - Missouri vs. Tennessee' → {mizzou, volleyball, tennessee}."""
+    t = re.sub(r"(?i)\b(missouri|mizzou|tigers?)\b", "mizzou", title.lower().replace("’", "'"))
+    t = re.sub(r"(?i)\bwomen'?s\b", "women", t)
+    t = re.sub(r"(?i)\bmen'?s\b", "men", t)
+    return {w for w in re.findall(r"[a-z0-9&]+", t) if w not in DEDUPE_STOP and not w.isdigit()}
+
+
+def same_event_words(a, b):
+    """Same start time, mostly the same key words, and not far apart: one event under two titles."""
+    if a["start"] != b["start"]:
+        return False
+    wa, wb = sig_words(a["title"]), sig_words(b["title"])
+    if min(len(wa), len(wb)) < 2 or len(wa & wb) / min(len(wa), len(wb)) < 0.6:
+        return False
+    if a.get("lat") is not None and b.get("lat") is not None and haversine_km((a["lat"], a["lng"]), (b["lat"], b["lng"])) > 0.8:
+        return False
+    return True
+
+
 def dedupe(events):
     """Merge the same event listed by several sources: same normalized title (or one title containing the
     other) on the same local date. Showtimes from ONE source at different times stay separate (a film's
@@ -1309,7 +1427,7 @@ def dedupe(events):
                 continue
             other = norm_key(by_key[k2]["title"])
             short, long_ = sorted((nk, other), key=len)
-            if k2[0] == nk[:40] or (len(short) >= 12 and short in long_):
+            if k2[0] == nk[:40] or (len(short) >= 12 and short in long_) or same_event_words(by_key[k2], e):
                 candidates.append(k2)
         same_time = [k2 for k2 in candidates if by_key[k2]["start"] == e["start"]]
         other_source = [k2 for k2 in candidates if by_key[k2]["source"] != e["source"]]
@@ -1531,8 +1649,9 @@ def main():
             e["lat"], e["lng"] = known["lat"], known["lng"]
             e["address"] = e.get("address") or known.get("address")
             e["phone"] = e.get("phone") or known.get("phone")
+        geovenue = e.pop("_geovenue", None) or e.get("venue")   # MU Engage: map the building, not the room
         if e["lat"] is None and (e.get("venue") or e.get("address")):
-            g = geocode(e.get("venue"), e.get("address"))
+            g = geocode(geovenue, e.get("address"))
             if g:
                 e["lat"], e["lng"], v, a = g
                 e["venue"] = e.get("venue") or v

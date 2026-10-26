@@ -77,6 +77,7 @@
   "name": null
  },
  "111f townsend grad hub university of missouri columbia missouri united states, columbia, mo": null,
+ "111f townsend hall, columbia 65211, united states": null,
  "114a ellis library university of missouri columbia missouri united states, columbia, mo": null,
  "1201 rollins street columbia, mo 65201": {
   "lat": 38.942241,
@@ -98,6 +99,7 @@
   "lng": -92.3381448,
   "name": null
  },
+ "14020 w hwy bb rocheport, mo 65279": null,
  "17 n. 9th street columbia, mo 65201": {
   "lat": 38.9521799,
   "lng": -92.327852,
@@ -133,6 +135,7 @@
   "lng": -92.296934,
   "name": null
  },
+ "1820 market st., st. louis, mo 63103, united states": null,
  "1906 n providence rd, columbia, mo": {
   "lat": 38.9728212,
   "lng": -92.3334009,
@@ -253,6 +256,16 @@
   "lng": -92.3228595,
   "name": null
  },
+ "515 s 5th st, columbia, mo 65201, united states": {
+  "lat": 38.9456866,
+  "lng": -92.332172,
+  "name": null
+ },
+ "518 hitt st, columbia 65201, united states": {
+  "lat": 38.9450184,
+  "lng": -92.3253026,
+  "name": null
+ },
  "520 e broadway, columbia, mo": {
   "lat": 38.9514088,
   "lng": -92.3311145,
@@ -300,12 +313,27 @@
   "lng": -92.3284561,
   "name": null
  },
+ "900 e stadium blvd, columbia 65201, united states": {
+  "lat": 38.933639,
+  "lng": -92.3273012,
+  "name": null
+ },
+ "900 virginia ave, columbia, mo 65201, united states": {
+  "lat": 38.9409088,
+  "lng": -92.3227967,
+  "name": "Plaza 900"
+ },
  "901 e rollins st, columbia, mo": {
   "lat": 38.9420895,
   "lng": -92.3178789,
   "name": null
  },
  "agriculture building 264 university of missouri columbia missouri united states, columbia, mo": null,
+ "agriculture building, columbia, mo": {
+  "lat": 38.9428504,
+  "lng": -92.3253327,
+  "name": null
+ },
  "al gustin golf course parking lot near clubhouse  18 stadium blvd columbia 65211 united states, columbia, mo": null,
  "al gustin golf course parking lot near clubhouse 18 stadium blvd columbia 65211 united states, columbia, mo": null,
  "arts amp science building room 113  university of missouri columbia missouri united states, columbia, mo": null,
@@ -314,6 +342,7 @@
  "carnahan quad columbia mo, columbia, mo": null,
  "city of columbia solid waste utility  columbia mo, columbia, mo": null,
  "city of columbia solid waste utility columbia mo, columbia, mo": null,
+ "city of columbia solid waste utility, columbia, mo": null,
  "clark hall 104 university of missouri columbia missouri united states, columbia, mo": null,
  "columbia  65203 united states, columbia, mo": null,
  "columbia 65203 united states, columbia, mo": null,
@@ -334,6 +363,7 @@
  "elks lodge, columbia, mo": null,
  "ellis library room 4d11 computer classroom university of missouri columbia missouri united states, columbia, mo": null,
  "ellis library university of missouri columbia missouri united states, columbia, mo": null,
+ "elyer  memorial union, columbia, mo": null,
  "equipment/linen deploy, columbia, mo": null,
  "fine arts building lobby university of missouri columbia missouri united states, columbia, mo": null,
  "fine arts building, columbia, mo": {
@@ -345,7 +375,9 @@
  "general services building 900 e stadium blvd columbia 65201 united states, columbia, mo": null,
  "gentry hall 6 riso room  507 s 9th st columbia mo 65201 united states, columbia, mo": null,
  "gqt forum 8, columbia, mo": null,
+ "gqt forum, columbia, mo": null,
  "grad hub 111f townsend hall columbia 65211 united states, columbia, mo": null,
+ "grad hub, columbia, mo": null,
  "gwynn hall lounge room 117 university of missouri columbia missouri united states, columbia, mo": null,
  "hampton inn & suites columbia (at the university of missouri), columbia, mo": {
   "lat": 38.9340762,
@@ -360,6 +392,7 @@
  "jesse hall auditorium, columbia, mo": null,
  "jesse hall university of missouri columbia mo 65211 united states, columbia, mo": null,
  "ketchum auditorium w1005 lafferre hall university of missouri columbia missouri united states, columbia, mo": null,
+ "ketchum auditorium, columbia, mo": null,
  "kirklin garden 601 s providence rd columbia  65203 united states, columbia, mo": null,
  "kirklin garden 601 s providence rd columbia 65203 united states, columbia, mo": null,
  "kuhlman court columbia mo, columbia, mo": {
@@ -378,15 +411,18 @@
  "lions club park · 120 e. sexton st., harrisburg, columbia, mo": null,
  "live event via zoom, columbia, mo": null,
  "lloyd l gaines fireplace lounge university of missouri columbia missouri united states, columbia, mo": null,
+ "lloyd l. gaines fireplace lounge, columbia, mo": null,
  "memorial student union  stotler lounge 518 hitt st columbia 65201 united states, columbia, mo": null,
  "memorial student union memorial union518 hitt streetuniversity of missouri columbia mo 65211 united states, columbia, mo": null,
  "memorial student union stotler lounge 518 hitt st columbia 65201 united states, columbia, mo": null,
  "memorial student union the eyler room s110 university of missouri columbia missouri united states, columbia, mo": null,
+ "memorial student union, columbia, mo": null,
  "memorial union columbia mo 65201, columbia, mo": {
   "lat": 38.9450184,
   "lng": -92.3253026,
   "name": null
  },
+ "memorial union, 518 hitt street, university of missouri, columbia, mo 65211, united states": null,
  "missouri cares, columbia, mo": null,
  "missouri united methodist church, columbia, mo": {
   "lat": 38.9489435,
@@ -413,6 +449,8 @@
  "novak leadership institute lee hills hall room 202 221 s 8th street columbia mo 65201, columbia, mo": null,
  "plaza 900 900 virginia ave columbia mo 65201 united states, columbia, mo": null,
  "prenger foods · 105 w. smith st., sturgeon, columbia, mo": null,
+ "rji palmer 100 (j-school), columbia, mo": null,
+ "rji palmer 100 (j-school), university of missouri, columbia, mo": null,
  "rji palmer 100 jschool  columbia mo, columbia, mo": null,
  "rji palmer 100 jschool columbia mo, columbia, mo": null,
  "rocheport merchants, columbia, mo": null,
@@ -422,9 +460,15 @@
  "security bank parking lot · 101 e. walnut st., auxvasse, columbia, mo": null,
  "security bank parking lot · 101 e. walnut st., columbia, mo": null,
  "sinclair school of nursing lobby university of missouri columbia missouri united states, columbia, mo": null,
+ "sinclair school of nursing, columbia, mo": {
+  "lat": 38.9395478,
+  "lng": -92.3277867,
+  "name": null
+ },
  "sinquefield music center lobby university of missouri columbia missouri united states, columbia, mo": null,
  "sinquefield music center, columbia, mo": null,
  "st louis union station hotel 1820 market st  st louis mo 63103 united states, columbia, mo": null,
+ "st. louis union station hotel, columbia, mo": null,
  "strickland hall 204 university of missouri columbia missouri united states, columbia, mo": null,
  "strickland hall room 105  805 e rollins st columbia mo 65201 united states, columbia, mo": null,
  "strickland hall room 105 805 e rollins st columbia mo 65201 united states, columbia, mo": null,
@@ -443,21 +487,35 @@
   "lng": -92.3281725,
   "name": null
  },
+ "tate, columbia, mo": {
+  "lat": 38.9447306,
+  "lng": -92.3281725,
+  "name": null
+ },
  "teaching for learning center, columbia, mo": null,
  "the arcade district, columbia, mo": null,
+ "the bistro, columbia, mo": null,
+ "the eyler room (s110), university of missouri, columbia, missouri, united states": null,
  "the mark on 5th street  515 s 5th st columbia mo 65201 united states, columbia, mo": null,
  "the mark on 5th street 515 s 5th st columbia mo 65201 united states, columbia, mo": null,
  "the missouri theatre, columbia, mo": null,
  "the shack university of missouri columbia missouri united states, columbia, mo": null,
  "the sheldon, columbia, mo": null,
  "tournament, columbia, mo": null,
+ "townsend (grad hub), columbia, mo": null,
  "townsend hall 611 conley ave columbia mo 65211 united states, columbia, mo": null,
  "townsend hall lobby  university of missouri columbia missouri united states, columbia, mo": null,
  "townsend hall lobby university of missouri columbia missouri united states, columbia, mo": null,
  "tucker hall 18 university of missouri columbia missouri united states, columbia, mo": null,
+ "tucker hall, columbia, mo": {
+  "lat": 38.9436597,
+  "lng": -92.3243424,
+  "name": null
+ },
  "varies, in person or online, columbia, mo": null,
  "various locations university of missouri columbia missouri united states, columbia, mo": null,
  "victoria park, columbia, mo": null,
  "virtual, columbia, mo": null,
+ "w1005 lafferre hall, university of missouri, columbia, missouri, united states": null,
  "we always swing jazz series, columbia, mo": null
 }

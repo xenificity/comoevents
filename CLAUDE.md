@@ -124,3 +124,10 @@ Read README.md first. Short version:
 - Carry-forward is keyed by `via` (the src_* reader that made an event), because one reader feeds several source ids
   (src_ics → shanthimandir/arcadedistrict, src_tribe → cooperslanding, squarespace → mosy/cec). `--only` also keeps
   leftovers from older feeds without `via`. Flyer rows in extra.json accept `timeTBD`.
+- MU Engage (student orgs): `src_engage` reads the campus-wide public .ics (engage.missouri.edu/ical/missouri/ical_missouri.ics,
+  redirects to S3). Only events with a public location: skips "Sign in to download the location", online/TBD/"Columbia"-only,
+  and event types Group Business / Academic Calendar. `engage_place()` splits "Room - Building, address" and the geocoder maps
+  the building (`_geovenue`). Event types map via `ENGAGE_TYPES`; every Engage event also gets the campus category.
+- dedupe also merges one event under two titles: same start minute, ≥60% shared key words (`sig_words`: Missouri/Mizzou/
+  Tigers = one word, no stop words) and within 0.8 km. make_covers treats any /img/gen/ (non p-) link as a generated cover
+  even without the flag, because merges can copy the link alone.
