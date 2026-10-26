@@ -24,6 +24,11 @@
   "lng": -92.3268771,
   "name": "First Christian Church"
  },
+ "101 n 10th st, columbia, mo 65201": {
+  "lat": 38.9528915,
+  "lng": -92.3268771,
+  "name": "First Christian Church"
+ },
  "1013 park ave, columbia, mo": {
   "lat": 38.9548056,
   "lng": -92.325182,
@@ -45,6 +50,7 @@
   "lng": -92.326015,
   "name": null
  },
+ "1023 e walnut st, columbia, mo 65201 columbia, mo 65201": null,
  "106 orr st columbia, mo 65201": {
   "lat": 38.9526974,
   "lng": -92.3249265,
@@ -210,6 +216,7 @@
   "lng": -92.3348535,
   "name": null
  },
+ "3669 legion ln, columbia, mo 65201 columbia, mo 65201": null,
  "3711 discovery parkway columbia, mo 65201": {
   "lat": 38.893966,
   "lng": -92.2844374,
@@ -226,6 +233,11 @@
   "name": null
  },
  "3801 ponderosa st, columbia, mo": {
+  "lat": 38.9078037,
+  "lng": -92.2934276,
+  "name": null
+ },
+ "3801 ponderosa st., columbia, mo columbia, mo 65201": {
   "lat": 38.9078037,
   "lng": -92.2934276,
   "name": null
@@ -251,6 +263,7 @@
   "lng": -92.372988,
   "name": null
  },
+ "5695 clark ln, columbia, mo 65202 columbia, mo 65202": null,
  "5900 e log providence rd columbia, mo 65201": {
   "lat": 38.8309632,
   "lng": -92.2514616,

@@ -67,7 +67,7 @@
    "description": "Designed for little ones from birth to age five and their caregivers, this free Halloween gathering at Lend & Learn features playful sensory experiences, simple crafts, and treats. Costumes are welcome but not required. An initial sensory-friendly indoor period with limited capacity is available, f…",
    "end": "2026-10-30T13:00:00-05:00",
    "id": "10f759587eafb971",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9mNGEzOWJlMC1kMDlhLTExZjEtOTU4Zi0zMWFkODU1NWJhYmItcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTI5NDk5Mzc.avif",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8zZGEwY2RhMC1kMTMwLTExZjEtYWQ0NS1kOWJlNzQxMjNhMGUtcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTMwMTQwNTQ.avif",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-10-30T09:00:00-05:00",
@@ -200,6 +200,20 @@
    "venue": "Warehouse Theatre"
   },
   {
+   "_slug": "jakes-bar-final-farewell-7a0089",
+   "categories": [
+    "nightlife"
+   ],
+   "category": "nightlife",
+   "description": "Join us on Oct 30th to celebrate on our last day of business. We will be open normal hours 11am – 1am. We will have specials going all day and will have some new swag on sale! We will have a $10 cover starting at 6pm.",
+   "end": "2026-10-30T23:00:00-05:00",
+   "id": "7a0089b6541f1236",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Jakes-Bar-Farewell-Event.jpg",
+   "source": "visitcolumbia",
+   "start": "2026-10-30T11:00:00-05:00",
+   "title": "Jake’s Bar Final Farewell"
+  },
+  {
    "_slug": "study-abroad-walk-in-advising-67d74c",
    "categories": [
     "campus"
@@ -228,6 +242,18 @@
    "start": "2026-10-30T12:00:00-05:00",
    "title": "Phantom Field Haunted House",
    "venue": "Missouri Cares"
+  },
+  {
+   "_slug": "tales-from-the-crypt-movie-screening-static-paisley-zoner-ou-48ac35",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "48ac35e48d3bbb22",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9mMmY2NTRiZTliZTFlNGQ2NDc1YTIwYjQxYTBmZDhmMjJhNzU5NWQyYzI4YmE1MWJmYjUyNGZmMTE3N2I5MDZjLXJpbWctdzExNjgtaDE1MDQtZGMyODI4MjgtZ21pcj92PTE3OTI5Njc0NzU.avif",
+   "source": "allevents",
+   "start": "2026-10-30T12:00:00-05:00",
+   "title": "Tales from the Crypt Movie Screening | Static Paisley, Zoner Outer, and Aum Syndicate"
   },
   {
    "_slug": "luncheon-workshop-2-make-it-a-habit-habits-of-successful-lea-ef267e",
@@ -323,6 +349,19 @@
    "title": "Trunk or Treat"
   },
   {
+   "_slug": "macalester-dose-the-rebels-live-at-harpo-s-in-columbia-mo-e769b9",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e769b93f67d97e69",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8zMTQ0OGVhZDQyOGIwMmQ4OTFmZDhhMDQ5MjQ0YzMyNTlhNmJkMWYwMzIxNGYzZTMwNTE0YzE0ZjljOGI1MTc1LXJpbWctdzEyMDAtaDEwNTQtZGMwODA4MzgtZ21pcj92PTE3OTI5Njc0NjM.avif",
+   "source": "allevents",
+   "start": "2026-10-30T15:30:00-05:00",
+   "title": "Macalester Dose & The Rebels LIVE at Harpo's in Columbia, MO.",
+   "venue": "Harpo's Columbia"
+  },
+  {
    "_slug": "annual-trunk-or-treat-eb9530",
    "categories": [
     "family"
@@ -393,16 +432,16 @@
    "venue": "Rose Music Hall"
   },
   {
-   "_slug": "hocus-pocus-trunk-or-treat-columbia-a4d92e",
+   "_slug": "magic-the-gathering-villainous-commander-night-9e7f0d",
    "categories": [
-    "family"
+    "community"
    ],
-   "category": "family",
-   "id": "a4d92e72552df690",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy80M2UzZjk2YjcxYWE3YmVlMjY1MWY3NzVjNWNkMWNhMjk0NTcyNmI4YzY1NmUzZDliMWU0MDZiOWJkNzlmNTkwLXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhlOC1nbWlyP3Y9MTc5Mjc4MDEyMA.avif",
+   "category": "community",
+   "id": "9e7f0d96a811bb9a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy83ODVkODQ3MzNmMDIzM2MxOGM1NjkzNDg5ZTdkMDc2MWQxZTMxNGJjZmY0NmZjNzJiMzBlYjUwMTliYjFjZWI1LXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ2Ng.avif",
    "source": "allevents",
    "start": "2026-10-30T18:00:00-05:00",
-   "title": "Hocus Pocus Trunk or Treat (Columbia)"
+   "title": "Magic the Gathering: Villainous Commander Night"
   },
   {
    "_slug": "magic-friday-night-commander-e708b8",
@@ -572,6 +611,30 @@
    "venue": "The Tokyo Club"
   },
   {
+   "_slug": "magic-leyline-eve-chaos-draft-2a3825",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "2a3825f6833565a0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy80ZGFmZGFmNzMwNTkyYjBjMTc4N2NjMWNmOWQ0MTVhMWE5MjBjZGVmNzZiNzMzZDE5OWNmMjgxNzlhOTYxMDhhLXJpbWctdzEyMDAtaDY3NS1kYzI4MjgyOC1nbWlyP3Y9MTc5Mjk2NzQ3MA.avif",
+   "source": "allevents",
+   "start": "2026-10-30T19:00:00-05:00",
+   "title": "MAGIC: Leyline Eve Chaos Draft"
+  },
+  {
+   "_slug": "october-30th-7pm-lady-moe-joe-b27b6e",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "b27b6e046ba7d8ee",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy85MjI4MmEyZDY3M2VkYjcwMWNmZWVjNzBmYThiZTdmMjUxODRjOTE5NjQwMzE3NWRlMjM2YzI5YjAxZjg3MWM2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ3MA.avif",
+   "source": "allevents",
+   "start": "2026-10-30T19:00:00-05:00",
+   "title": "October 30th - 7PM Lady Moe Joe"
+  },
+  {
    "_slug": "ryan-lowe-euphonium-recital-f9d6f9",
    "categories": [
     "campus"
@@ -631,6 +694,18 @@
    "title": "Evil Dead: The Musical – Columbia Entertainment Co."
   },
   {
+   "_slug": "hocus-pocus-halloween-movie-night-at-bertha-s-beans-cat-cafe-72286c",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "72286c656a5e7bf5",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy83MDY1MmMwZWJiYjgyOThhYzU0NWEzOGE1ZGRhMWVmZTljZDEzZDRkZjgxMGQxMGIwZTQ2ZjVkYjdkNTQ2YmU5LXJpbWctdzEyMDAtaDE1NTMtZGMxODQ4NjgtZ21pcj92PTE3OTI5Njc0NzM.avif",
+   "source": "allevents",
+   "start": "2026-10-30T19:30:00-05:00",
+   "title": "Hocus Pocus Halloween Movie Night at Bertha's Beans Cat Cafe"
+  },
+  {
    "_slug": "rodney-carrington-c140a5",
    "categories": [
     "community"
@@ -674,9 +749,6 @@
   },
   {
    "_slug": "dance-of-the-dead-rose-music-hall-108356",
-   "alsoOn": [
-    "https://rosemusichall.com/event/dance-of-the-dead-2/"
-   ],
    "categories": [
     "arts",
     "music"
@@ -688,21 +760,8 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Dance-of-the-Dead-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-30T20:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/dance-of-the-dead-ft-drona-columbia-missouri-10-30-2026/event/0600652E9EA66545",
    "title": "Dance of the Dead – Rose Music Hall",
    "venue": "Rose Music Hall"
-  },
-  {
-   "_slug": "hocus-pocus-yoga-sound-bowl-experience-0a9a71",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "0a9a715b67a5bde2",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy81NzViNmVjYWI4ZDE1ZmY5M2Y3ZTMwYmVjNjQzNDVkNWMyZjdhZmFkN2I1ZWFmYjNmYmFmMjg4ZmI5YjYzZGM4LXJpbWctdzEyMDAtaDY3NS1kY2Y4Nzg0OC1nbWlyP3Y9MTc5MjYzNTcwMQ.avif",
-   "source": "allevents",
-   "start": "2026-10-30T20:00:00-05:00",
-   "title": "Hocus Pocus Yoga & Sound Bowl Experience"
   },
   {
    "_slug": "trick-or-treat-night-c0399f",
@@ -735,15 +794,18 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "ken-russell-s-the-devils-f490d6",
+   "_slug": "ken-russell-s-the-devils-7effb6",
+   "alsoOn": [
+    "https://allevents.in/columbia/ken-russells-the-devils/200030911207319"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-10-30T22:54:00-05:00",
-   "id": "f490d6a9e1018402",
-   "imageUrl": "https://comoevent.com/img/gen/bddc8556a46c5b.webp",
+   "id": "7effb677784eb320",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy85YzU0ODI3OGEwYTZlNWE1ODgxZDkwNjViMjFiMjc0N2ZkZTFjMGMxN2NkYmFkNmRiMjZkYjkyNGFiYzAwYjg5LXJpbWctdzEyMDAtaDY3NS1kYzg4MjhhOC1nbWlyP3Y9MTc5Mjk2ODM3OQ.avif",
    "source": "ragtag",
    "start": "2026-10-30T21:00:00-05:00",
    "title": "Ken Russell's The Devils",
@@ -883,23 +945,12 @@
    "venue": "Columbia Mall (Columbia, MO)"
   },
   {
-   "_slug": "flash-tattoos-trick-or-treat-edition-a714b7",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "a714b78633879594",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy81NmU5ZjNmM2U2NzI2NDIyMGJkOTJkY2ZkMjlmNDMxMTBlZTcxOWJkZWNjM2Q3MDUxNzMwNjU1ODZhNTkxMGE3LXJpbWctdzEyMDAtaDgwMC1kYzE4MTgxOC1nbWlyP3Y9MTc5Mjc4MDEwMQ.avif",
-   "source": "allevents",
-   "start": "2026-10-31T10:00:00-05:00",
-   "title": "🕷️ FLASH TATTOOS: TRICK OR TREAT EDITION 🕷️"
-  },
-  {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
-    "https://www.themosy.org/calendar/spooktacular",
     "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
-    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108"
+    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
+    "https://www.themosy.org/calendar/spooktacular",
+    "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html"
    ],
    "categories": [
     "music",
@@ -929,6 +980,18 @@
    "start": "2026-10-31T11:00:00-05:00",
    "title": "Food Truck Pop Up with Highbread Bakery & Treats",
    "venue": "Clovers Natural Market (2100 Chapel Plaza Ct, Columbia, MO)"
+  },
+  {
+   "_slug": "halloween-comicsfest-at-distant-planet-2026-16a5a3",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "16a5a32b2e48dfed",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy85MzIwZTlhNjgyOGVlN2RlYjNkMzdhMjc0ZDA0ZTE4ODAwNWQyYjY4OWU3OWQ0ZGNiYmRhODk3M2FmZmM4OTdlLXJpbWctdzEyMDAtaDE4MjAtZGMwODA4MDgtZ21pcj92PTE3OTI3ODAxMDU.avif",
+   "source": "allevents",
+   "start": "2026-10-31T11:00:00-05:00",
+   "title": "Halloween ComicsFest at Distant Planet 2026"
   },
   {
    "_slug": "friends-of-the-columbia-public-library-lobby-book-sale-c48dea",
@@ -1212,7 +1275,7 @@
    ],
    "category": "party",
    "id": "df7c98aca61d483d",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy84NWEwZTViMC1jZWRiLTExZjEtOTU4Zi0zMWFkODU1NWJhYmItcmltZy13MTIwMC1oMTE5NC1kYzA4MDgwOC1nbWlyLndlYnA_dj0xNzkyNzU3NzY2.avif",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9jZDEzMWFhMC1kMTMxLTExZjEtYWQ0NS1kOWJlNzQxMjNhMGUtcmltZy13MTIwMC1oMTE5NC1kYzA4MDgwOC1nbWlyLndlYnA_dj0xNzkzMDE0NzI0.avif",
    "source": "allevents",
    "start": "2026-10-31T18:30:00-05:00",
    "title": "FASTPASS: Saturday 10/31",
@@ -1233,16 +1296,16 @@
    "venue": "Christian Fellowship Church"
   },
   {
-   "_slug": "halloween-comicsfest-at-distant-planet-2026-16a5a3",
+   "_slug": "flash-tattoos-trick-or-treat-edition-a714b7",
    "categories": [
-    "community"
+    "family"
    ],
-   "category": "community",
-   "id": "16a5a32b2e48dfed",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy85MzIwZTlhNjgyOGVlN2RlYjNkMzdhMjc0ZDA0ZTE4ODAwNWQyYjY4OWU3OWQ0ZGNiYmRhODk3M2FmZmM4OTdlLXJpbWctdzEyMDAtaDE4MjAtZGMwODA4MDgtZ21pcj92PTE3OTI3ODAxMDU.avif",
+   "category": "family",
+   "id": "a714b78633879594",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy81NmU5ZjNmM2U2NzI2NDIyMGJkOTJkY2ZkMjlmNDMxMTBlZTcxOWJkZWNjM2Q3MDUxNzMwNjU1ODZhNTkxMGE3LXJpbWctdzEyMDAtaDgwMC1kYzE4MTgxOC1nbWlyP3Y9MTc5Mjc4MDEwMQ.avif",
    "source": "allevents",
-   "start": "2026-10-31T19:00:00-05:00",
-   "title": "Halloween ComicsFest at Distant Planet 2026"
+   "start": "2026-10-31T18:30:00-05:00",
+   "title": "🕷️ FLASH TATTOOS: TRICK OR TREAT EDITION 🕷️"
   },
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56",
@@ -1360,19 +1423,17 @@
   {
    "_slug": "the-faint-5b0a89",
    "alsoOn": [
-    "https://rosemusichall.com/event/the-faint/",
     "https://allevents.in/columbia/the-faint/210001871606536"
    ],
    "categories": [
-    "music"
+    "community"
    ],
-   "category": "music",
+   "category": "community",
    "description": "The Faint takes the stage in the indoor space at Rose Music Hall. The performance is presented inside the venue.",
    "id": "5b0a8924ad58c204",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zNzhkNjMwYzc0NWMxZTk1MTEwZWQyYmVlZDMyYjYwMmRjOTgwYjJkNTFkZmZjOWQyYjM3YTExNDZhMmQ4ZmQwLXJpbWctdzEwMjQtaDU3Ni1kYzc4Nzg3OC1nbWlyLmpwZz92PTE3ODU2NjcyNzY.avif",
    "source": "baselocal",
    "start": "2026-10-31T20:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/the-faint-columbia-missouri-10-31-2026/event/060064F8DBBC69E2",
    "title": "The Faint",
    "venue": "Rose Music Hall"
   },
@@ -1390,6 +1451,18 @@
    "start": "2026-10-31T20:00:00-05:00",
    "title": "The Faint – Rose Music Hall",
    "venue": "Rose Music Hall"
+  },
+  {
+   "_slug": "woodstock-community-halloween-party-ef0d7f",
+   "categories": [
+    "party"
+   ],
+   "category": "party",
+   "id": "ef0d7f6fe317c7a2",
+   "imageUrl": "https://comoevent.com/img/gen/b84d0378c0033d.webp",
+   "source": "allevents",
+   "start": "2026-10-31T20:00:00-05:00",
+   "title": "🎃 WOODSTOCK COMMUNITY HALLOWEEN PARTY! 👻"
   },
   {
    "_slug": "hardcore-comedy-at-the-tokyo-club-261a77",
@@ -1780,6 +1853,18 @@
    "venue": "Fine Arts Building"
   },
   {
+   "_slug": "samhain-ritual-open-for-all-bdc42b",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "bdc42bbbac223752",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wMmE4NGU0NzY1NmQzODQ0MmZiMjRkM2NkYjE1MjBlNzI2YTY2YjY1ZmU5MDQ0NjI2ODVhZjU3ZDYxNjE0YjE4LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDQ1.avif",
+   "source": "allevents",
+   "start": "2026-11-01T18:30:00-06:00",
+   "title": "Samhain Ritual - Open for All"
+  },
+  {
    "_slug": "chakra-restorative-sound-immersion-46ad97",
    "categories": [
     "community"
@@ -1866,14 +1951,14 @@
  "modified": "2026-10-26",
  "picks": [
   "9f076a30d8f71e25",
-  "09d1639d9680ab5e",
   "8fd69589116a7b8f",
   "1f885ae2b1a074ba",
-  "10835673f9070dc3",
+  "1f54537526793be3",
   "2b3596efcad32e23",
   "c132e8a6377bdbd9",
   "80ce0294bea34108",
   "39395612e3b79d82",
+  "81ad089266813acb",
   "96ef06019c1f47af"
  ],
  "published": "2026-10-26"
