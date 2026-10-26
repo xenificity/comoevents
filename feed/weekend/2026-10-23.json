@@ -1916,9 +1916,6 @@
   },
   {
    "_slug": "woofstock-2026-963a3d",
-   "alsoOn": [
-    "https://allevents.in/columbia/woofstock-2026/200030751977722"
-   ],
    "categories": [
     "family",
     "music"
@@ -1942,7 +1939,6 @@
    "description": "Hexagon Alley hosts weekly Flesh and Blood play in Columbia, MO, featuring quick, interactive matches and a growing community. Entry is $5, and the format is Standard.",
    "end": "2026-10-25T16:00:00-05:00",
    "id": "12badd2f8dc83e0a",
-   "imageUrl": "https://comoevent.com/img/gen/099bc5a022d492.webp",
    "source": "baselocal",
    "start": "2026-10-25T13:00:00-05:00",
    "title": "Flesh and Blood Weekly Play",
@@ -1957,7 +1953,6 @@
    "description": "Come and browse scores of gently-used children's books and other materials. Hardback books are 50¢ and paperbacks only 25¢. There will also be special finds priced as marked. Cash or checks only. All proceeds go to support library services.",
    "end": "2026-10-25T16:00:00-05:00",
    "id": "667cfe32729f6a7a",
-   "imageUrl": "https://comoevent.com/img/gen/193ae82eb5a0fc.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-10-25T13:00:00-05:00",
@@ -1987,16 +1982,12 @@
    "description": "Hexagon Alley presents a weekly session for Lorcana players in the Standard format. The entry fee is $5. Participants can meet other players and play matches throughout the event.",
    "end": "2026-10-25T16:00:00-05:00",
    "id": "52800c13ebfa25a5",
-   "imageUrl": "https://comoevent.com/img/gen/2bc75d98ee7a84.webp",
    "source": "baselocal",
    "start": "2026-10-25T13:00:00-05:00",
    "title": "Hexagon Alley Presents Lorcana Weekly Play"
   },
   {
    "_slug": "kid-disco-boo-bash-d1dffb",
-   "alsoOn": [
-    "https://allevents.in/columbia/kid-disco-boo-bash-at-rose-park/210003919040596"
-   ],
    "categories": [
     "party"
    ],
@@ -2104,7 +2095,6 @@
    "description": "For more than a decade, Theresa Caputo – known worldwide as the Long Island Medium – has touched the lives of millions of fans, comforting supporters when they need it most. Through personal life stories, candid humor, and intimate details about her gift to communicate with those who have passed on,",
    "end": "2026-10-25T17:00:00-05:00",
    "id": "48466a85997ef7e6",
-   "imageUrl": "https://comoevent.com/img/gen/ce963b844f94cb.webp",
    "source": "visitcolumbia",
    "start": "2026-10-25T15:00:00-05:00",
    "title": "Theresa Caputo Live: The Experience!",
@@ -2247,31 +2237,6 @@
    "start": "2026-10-25T19:30:00-05:00",
    "title": "Timothy Howe, Faculty Trombone Recital",
    "venue": "Sinquefield Music Center"
-  },
-  {
-   "_slug": "university-symphony-orchestra-concert-545470",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "id": "545470430bf3a613",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy83ODNjYjdmYzQ4OWQ5ODk2ZmFkZjhhYmQ5NzdhNTU1N2YyYTRlMzRmNmM4ODYyMjU3ZTcxMTMwODU1Yzc4ZDIzLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MTE0NTQ2Nw.avif",
-   "source": "allevents",
-   "start": "2026-10-25T20:00:00-05:00",
-   "title": "University Symphony Orchestra Concert",
-   "venue": "The Missouri Theater"
-  },
-  {
-   "_slug": "trunk-or-treat-at-broadway-282b8a",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "282b8a3a71561f1b",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy85Y2E5ZmQxNTMwY2RjNTNhOTg1M2U0NjI3MDk2NjVkMTA5YjM4OGZlYWQ5N2VhNGMxOTFlNTM3NTdkMWYzNDMzLXJpbWctdzEyMDAtaDE1NTMtZGMwODI4MzgtZ21pcj92PTE3OTA0NDE1MDU.avif",
-   "source": "allevents",
-   "start": "2026-10-25T21:00:00-05:00",
-   "title": "Trunk or Treat at Broadway"
   }
  ],
  "friday": "2026-10-23",
