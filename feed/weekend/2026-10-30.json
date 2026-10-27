@@ -1,16 +1,17 @@
 {
  "events": [
   {
-   "_slug": "boo-bash-2026-664787",
+   "_slug": "dance-of-the-dead-ft-drona-shnolk-slow-fast-hazel-marc-renz-0b4a47",
    "categories": [
-    "party"
+    "arts"
    ],
-   "category": "party",
-   "id": "6647875563874b06",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9iYjdjNmQyNTkwZGM2OTY2NWUxM2VmYzliMTUwYTdkZTk5M2ZjODM3MzRlNmNmNTY4Y2VhYTkyNDZjN2MxZmJhLXJpbWctdzEyMDAtaDY3Ni1kYzA4MDgwOC1nbWlyP3Y9MTc5MjEyMzY2NA.avif",
+   "category": "arts",
+   "id": "0b4a47c9979a3ff7",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy84OTM2OWNjMGYwOWQ2ODg0MzU5NmJlZWNmMDVjYzk2ZDliYTMzMWU2M2E0YTk5OTcxZWYzNDUyNWUxMTk4YzVjLXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODk1ODU4NjQ.avif",
    "source": "allevents",
    "start": "2026-10-30T00:00:00-05:00",
-   "title": "Boo Bash 2026"
+   "title": "Dance Of The Dead Ft. Drona, Shnolk, Slow Fast Hazel, & Marc Renz",
+   "venue": "Rose Music Hall"
   },
   {
    "_slug": "cross-country-missouri-vs-sec-championship-ac73c7",
@@ -280,6 +281,21 @@
    "venue": "Grad Hub"
   },
   {
+   "_slug": "wicker-e65cc7",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-10-30T15:15:00-05:00",
+   "id": "e65cc79571338ca9",
+   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
+   "source": "ragtag",
+   "start": "2026-10-30T13:30:00-05:00",
+   "title": "Wicker",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "device-advice-and-tech-help-drop-in-50d847",
    "categories": [
     "community"
@@ -294,6 +310,21 @@
    "start": "2026-10-30T14:00:00-05:00",
    "title": "Device Advice and Tech Help Drop-in",
    "venue": "Columbia Public Library"
+  },
+  {
+   "_slug": "fjord-11715b",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-10-30T16:26:00-05:00",
+   "id": "11715b8d32ed068f",
+   "imageUrl": "https://comoevent.com/img/gen/aa36f92cd327da.webp",
+   "source": "ragtag",
+   "start": "2026-10-30T14:00:00-05:00",
+   "title": "Fjord",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "sphero-nauts-registration-full-waitlist-available-19005b",
@@ -331,18 +362,6 @@
    "start": "2026-10-30T14:45:00-05:00",
    "title": "Candlelight: A Haunted Evening of Halloween Classics",
    "venue": "The Tiger Hotel"
-  },
-  {
-   "_slug": "trunk-or-treat-8351ef",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "8351ef59ce38759e",
-   "imageUrl": "https://comoevent.com/img/gen/7efa92646bd7f8.webp",
-   "source": "allevents",
-   "start": "2026-10-30T15:00:00-05:00",
-   "title": "Trunk or Treat"
   },
   {
    "_slug": "annual-trunk-or-treat-eb9530",
@@ -399,6 +418,21 @@
    "venue": "Museum of Art and Archaeology"
   },
   {
+   "_slug": "naza-32fbed",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-10-30T17:33:00-05:00",
+   "id": "32fbedd00fd832b3",
+   "imageUrl": "https://comoevent.com/img/gen/dcee2dd60de30f.webp",
+   "source": "ragtag",
+   "start": "2026-10-30T16:15:00-05:00",
+   "title": "NAZA",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "dws-kitchen-catering-590a11",
    "categories": [
     "food"
@@ -414,40 +448,46 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "dance-of-the-dead-ft-drona-shnolk-slow-fast-hazel-marc-renz-0b4a47",
+   "_slug": "fjord-3078fd",
    "categories": [
     "arts"
    ],
    "category": "arts",
-   "id": "0b4a47c9979a3ff7",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy84OTM2OWNjMGYwOWQ2ODg0MzU5NmJlZWNmMDVjYzk2ZDliYTMzMWU2M2E0YTk5OTcxZWYzNDUyNWUxMTk4YzVjLXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODk1ODU4NjQ.avif",
-   "source": "allevents",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-10-30T19:56:00-05:00",
+   "id": "3078fd361139d4e3",
+   "imageUrl": "https://comoevent.com/img/gen/aa36f92cd327da.webp",
+   "source": "ragtag",
    "start": "2026-10-30T17:30:00-05:00",
-   "title": "Dance Of The Dead Ft. Drona, Shnolk, Slow Fast Hazel, & Marc Renz",
-   "venue": "Rose Music Hall"
+   "title": "Fjord",
+   "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "hocus-pocus-trunk-or-treat-columbia-a4d92e",
+   "_slug": "macalester-dose-the-rebels-live-at-harpo-s-in-columbia-mo-e769b9",
    "categories": [
-    "family"
+    "community"
    ],
-   "category": "family",
-   "id": "a4d92e72552df690",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy80M2UzZjk2YjcxYWE3YmVlMjY1MWY3NzVjNWNkMWNhMjk0NTcyNmI4YzY1NmUzZDliMWU0MDZiOWJkNzlmNTkwLXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhlOC1nbWlyP3Y9MTc5Mjc4MDEyMA.avif",
+   "category": "community",
+   "id": "e769b93f67d97e69",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8zMTQ0OGVhZDQyOGIwMmQ4OTFmZDhhMDQ5MjQ0YzMyNTlhNmJkMWYwMzIxNGYzZTMwNTE0YzE0ZjljOGI1MTc1LXJpbWctdzEyMDAtaDEwNTQtZGMwODA4MzgtZ21pcj92PTE3OTI5Njc0NjM.avif",
    "source": "allevents",
    "start": "2026-10-30T18:00:00-05:00",
-   "title": "Hocus Pocus Trunk or Treat (Columbia)"
+   "title": "Macalester Dose & The Rebels LIVE at Harpo's in Columbia, MO.",
+   "venue": "Harpo's Columbia"
   },
   {
-   "_slug": "magic-friday-night-commander-e708b8",
+   "_slug": "magic-friday-night-commander-9e7f0d",
+   "alsoOn": [
+    "https://allevents.in/columbia/magic-the-gathering-villainous-commander-night/200030911007807"
+   ],
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "At Hexagon Alley in Columbia, MO, this Magic: The Gathering Commander night welcomes players of every experience level. Pods are organized to match groups well, and door prizes add extra excitement. The event also features Pick 2 Draft pick-up games and a monthly rotation of Commander variants for…",
    "end": "2026-10-30T21:00:00-05:00",
-   "id": "e708b8fcc47850af",
-   "imageUrl": "https://comoevent.com/img/gen/b946da70740467.webp",
+   "id": "9e7f0d96a811bb9a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy83ODVkODQ3MzNmMDIzM2MxOGM1NjkzNDg5ZTdkMDc2MWQxZTMxNGJjZmY0NmZjNzJiMzBlYjUwMTliYjFjZWI1LXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ2Ng.avif",
    "source": "baselocal",
    "start": "2026-10-30T18:00:00-05:00",
    "title": "Magic: Friday Night Commander",
@@ -486,6 +526,33 @@
    "ticketUrl": "https://www.eventbrite.com/e/superheroes-heroes-dinner-at-park-restaurant-tickets-2003431167553",
    "title": "Superheroes & Heroes Dinner at Park Restaurant",
    "venue": "Park Restaurant & Bar"
+  },
+  {
+   "_slug": "tales-from-the-crypt-movie-screening-static-paisley-zoner-ou-48ac35",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "48ac35e48d3bbb22",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9mMmY2NTRiZTliZTFlNGQ2NDc1YTIwYjQxYTBmZDhmMjJhNzU5NWQyYzI4YmE1MWJmYjUyNGZmMTE3N2I5MDZjLXJpbWctdzExNjgtaDE1MDQtZGMyODI4MjgtZ21pcj92PTE3OTI5Njc0NzU.avif",
+   "source": "allevents",
+   "start": "2026-10-30T18:00:00-05:00",
+   "title": "Tales from the Crypt Movie Screening | Static Paisley, Zoner Outer, and Aum Syndicate"
+  },
+  {
+   "_slug": "wicker-87ce57",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-10-30T20:05:00-05:00",
+   "id": "87ce57983ede0b53",
+   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
+   "source": "ragtag",
+   "start": "2026-10-30T18:20:00-05:00",
+   "title": "Wicker",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "bored-gamer-night-spooky-edition-426eac",
@@ -606,6 +673,30 @@
    "venue": "The Tokyo Club"
   },
   {
+   "_slug": "magic-leyline-eve-chaos-draft-2a3825",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "2a3825f6833565a0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy80ZGFmZGFmNzMwNTkyYjBjMTc4N2NjMWNmOWQ0MTVhMWE5MjBjZGVmNzZiNzMzZDE5OWNmMjgxNzlhOTYxMDhhLXJpbWctdzEyMDAtaDY3NS1kYzI4MjgyOC1nbWlyP3Y9MTc5Mjk2NzQ3MA.avif",
+   "source": "allevents",
+   "start": "2026-10-30T19:00:00-05:00",
+   "title": "MAGIC: Leyline Eve Chaos Draft"
+  },
+  {
+   "_slug": "october-30th-7pm-lady-moe-joe-b27b6e",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "b27b6e046ba7d8ee",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy85MjI4MmEyZDY3M2VkYjcwMWNmZWVjNzBmYThiZTdmMjUxODRjOTE5NjQwMzE3NWRlMjM2YzI5YjAxZjg3MWM2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ3MA.avif",
+   "source": "allevents",
+   "start": "2026-10-30T19:00:00-05:00",
+   "title": "October 30th - 7PM Lady Moe Joe"
+  },
+  {
    "_slug": "ryan-lowe-euphonium-recital-f9d6f9",
    "categories": [
     "campus"
@@ -618,6 +709,18 @@
    "start": "2026-10-30T19:00:00-05:00",
    "title": "Ryan Lowe, Euphonium Recital",
    "venue": "Sinquefield Music Center"
+  },
+  {
+   "_slug": "trunk-or-treat-8351ef",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "8351ef59ce38759e",
+   "imageUrl": "https://comoevent.com/img/gen/7efa92646bd7f8.webp",
+   "source": "allevents",
+   "start": "2026-10-30T19:00:00-05:00",
+   "title": "Trunk or Treat"
   },
   {
    "_slug": "eurydice-by-sarah-ruhl-0c7e88",
@@ -680,6 +783,18 @@
    "title": "Evil Dead: The Musical – Columbia Entertainment Co."
   },
   {
+   "_slug": "hocus-pocus-halloween-movie-night-at-bertha-s-beans-cat-cafe-72286c",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "72286c656a5e7bf5",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy83MDY1MmMwZWJiYjgyOThhYzU0NWEzOGE1ZGRhMWVmZTljZDEzZDRkZjgxMGQxMGIwZTQ2ZjVkYjdkNTQ2YmU5LXJpbWctdzEyMDAtaDE1NTMtZGMxODQ4NjgtZ21pcj92PTE3OTI5Njc0NzM.avif",
+   "source": "allevents",
+   "start": "2026-10-30T19:30:00-05:00",
+   "title": "Hocus Pocus Halloween Movie Night at Bertha's Beans Cat Cafe"
+  },
+  {
    "_slug": "rodney-carrington-c140a5",
    "categories": [
     "community"
@@ -691,6 +806,18 @@
    "start": "2026-10-30T19:30:00-05:00",
    "title": "Rodney Carrington",
    "venue": "Columbia County Performing Arts Center"
+  },
+  {
+   "_slug": "boo-bash-2026-664787",
+   "categories": [
+    "party"
+   ],
+   "category": "party",
+   "id": "6647875563874b06",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9iYjdjNmQyNTkwZGM2OTY2NWUxM2VmYzliMTUwYTdkZTk5M2ZjODM3MzRlNmNmNTY4Y2VhYTkyNDZjN2MxZmJhLXJpbWctdzEyMDAtaDY3Ni1kYzA4MDgwOC1nbWlyP3Y9MTc5MjEyMzY2NA.avif",
+   "source": "allevents",
+   "start": "2026-10-30T20:00:00-05:00",
+   "title": "Boo Bash 2026"
   },
   {
    "_slug": "craft-club-2b3596",
@@ -726,16 +853,16 @@
    "venue": "Rose Music Hall"
   },
   {
-   "_slug": "hocus-pocus-yoga-sound-bowl-experience-0a9a71",
+   "_slug": "delta-reign-prerelease-event-2-26a415",
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "0a9a715b67a5bde2",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy81NzViNmVjYWI4ZDE1ZmY5M2Y3ZTMwYmVjNjQzNDVkNWMyZjdhZmFkN2I1ZWFmYjNmYmFmMjg4ZmI5YjYzZGM4LXJpbWctdzEyMDAtaDY3NS1kY2Y4Nzg0OC1nbWlyP3Y9MTc5MjYzNTcwMQ.avif",
+   "id": "26a4159d3d889c98",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9iNWNkODdhZDY2NzhlNTgxYTg2NmNhMzM4NDhhM2M0NzFiMmVhMzU4NTg0NGEwYjEyNWExODExMTUxYjNjZjYzLXJpbWctdzEyMDAtaDY3NS1kYzI4Mjg0OC1nbWlyP3Y9MTc5MzAwNTU0MA.avif",
    "source": "allevents",
    "start": "2026-10-30T20:00:00-05:00",
-   "title": "Hocus Pocus Yoga & Sound Bowl Experience"
+   "title": "Delta Reign Prerelease Event #2"
   },
   {
    "_slug": "trick-or-treat-night-c0399f",
@@ -748,6 +875,18 @@
    "source": "allevents",
    "start": "2026-10-30T20:00:00-05:00",
    "title": "Trick-or-Treat Night"
+  },
+  {
+   "_slug": "hocus-pocus-trunk-or-treat-columbia-a4d92e",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "a4d92e72552df690",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy80M2UzZjk2YjcxYWE3YmVlMjY1MWY3NzVjNWNkMWNhMjk0NTcyNmI4YzY1NmUzZDliMWU0MDZiOWJkNzlmNTkwLXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhlOC1nbWlyP3Y9MTc5Mjc4MDEyMA.avif",
+   "source": "allevents",
+   "start": "2026-10-30T20:45:00-05:00",
+   "title": "Hocus Pocus Trunk or Treat (Columbia)"
   },
   {
    "_slug": "friday-october-30th-dj-halloween-dance-party-6f5a28",
@@ -768,15 +907,18 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "ken-russell-s-the-devils-f490d6",
+   "_slug": "ken-russell-s-the-devils-7effb6",
+   "alsoOn": [
+    "https://allevents.in/columbia/ken-russells-the-devils/200030911207319"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-10-30T22:54:00-05:00",
-   "id": "f490d6a9e1018402",
-   "imageUrl": "https://comoevent.com/img/gen/bddc8556a46c5b.webp",
+   "id": "7effb677784eb320",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy85YzU0ODI3OGEwYTZlNWE1ODgxZDkwNjViMjFiMjc0N2ZkZTFjMGMxN2NkYmFkNmRiMjZkYjkyNGFiYzAwYjg5LXJpbWctdzEyMDAtaDY3NS1kYzg4MjhhOC1nbWlyP3Y9MTc5Mjk2ODM3OQ.avif",
    "source": "ragtag",
    "start": "2026-10-30T21:00:00-05:00",
    "title": "Ken Russell's The Devils",
@@ -802,6 +944,21 @@
    "ticketUrl": "https://www.ticketmaster.com/latin-night-como-halloween-ages-18-columbia-missouri-10-30-2026/event/0600652BA4428DD6",
    "title": "Latin Night CoMo: Dia De Los Muertos Halloween",
    "venue": "The Blue Note"
+  },
+  {
+   "_slug": "wicker-64b7de",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-10-30T23:15:00-05:00",
+   "id": "64b7debbcfb0f9f2",
+   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
+   "source": "ragtag",
+   "start": "2026-10-30T21:30:00-05:00",
+   "title": "Wicker",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "myhouse-friday-10-30-night-80ce02",
@@ -924,24 +1081,12 @@
    "venue": "The Village of Cherry Hill"
   },
   {
-   "_slug": "flash-tattoos-trick-or-treat-edition-a714b7",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "a714b78633879594",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy81NmU5ZjNmM2U2NzI2NDIyMGJkOTJkY2ZkMjlmNDMxMTBlZTcxOWJkZWNjM2Q3MDUxNzMwNjU1ODZhNTkxMGE3LXJpbWctdzEyMDAtaDgwMC1kYzE4MTgxOC1nbWlyP3Y9MTc5Mjc4MDEwMQ.avif",
-   "source": "allevents",
-   "start": "2026-10-31T10:00:00-05:00",
-   "title": "🕷️ FLASH TATTOOS: TRICK OR TREAT EDITION 🕷️"
-  },
-  {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
-    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
-    "https://www.themosy.org/calendar/spooktacular",
     "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
-    "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html"
+    "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html",
+    "https://www.themosy.org/calendar/spooktacular",
+    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy"
    ],
    "categories": [
     "music",
@@ -989,6 +1134,21 @@
    "venue": "Columbia Public Library"
   },
   {
+   "_slug": "naza-160476",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-10-31T13:18:00-05:00",
+   "id": "1604763131463d86",
+   "imageUrl": "https://comoevent.com/img/gen/dcee2dd60de30f.webp",
+   "source": "ragtag",
+   "start": "2026-10-31T12:00:00-05:00",
+   "title": "NAZA",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "trail-boss-bbq-206224",
    "categories": [
     "food"
@@ -1004,30 +1164,31 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "trick-or-treating-loyalty-event-2a2f63",
+   "_slug": "fjord-0265ea",
    "categories": [
-    "community"
+    "arts"
    ],
-   "category": "community",
-   "id": "2a2f63c71327becb",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8zY2JjYTExMTUzNzkzM2I1MTJhODE1MDQ5YmU4YWE1YjQ5MWIyMjllMTgyYTQ5MGIwZTUwZmJlZGYzN2JmYmQ2LXJpbWctdzExMTYtaDE0NDAtZGNmOGY4ZjgtZ21pcj92PTE3OTI3ODAxMDI.avif",
-   "source": "allevents",
-   "start": "2026-10-31T12:00:00-05:00",
-   "title": "Trick or Treating Loyalty Event",
-   "venue": "Columbia Mall (Columbia, MO)"
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-10-31T14:56:00-05:00",
+   "id": "0265ea5204f5eb1d",
+   "imageUrl": "https://comoevent.com/img/gen/aa36f92cd327da.webp",
+   "source": "ragtag",
+   "start": "2026-10-31T12:30:00-05:00",
+   "title": "Fjord",
+   "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "halloween-mahjong-open-play-0df17e",
+   "_slug": "spooky-sensory-play-e8ee25",
    "categories": [
-    "community"
+    "family"
    ],
-   "category": "community",
-   "id": "0df17eb44551b3dd",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9kNTA0M2RmZWQwOWQ5YTIwZmVmMTc1MTM5NTFlN2NhNTM0NDA2MmZhNTM0ZGQzYjg4YzcyNWVkMmE0MDBkOGZiLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjc4MDEwOA.avif",
+   "category": "family",
+   "id": "e8ee25b9dbba9127",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9iMzZlOWUwNjdiZDhlYWY5OGY4MDA5NGIzOWE0MDZhOTBjODhiODA2N2ZjNDgyYjI5Yjc5NWJmMjI4OTRjZjAzLXJpbWctdzEyMDAtaDE1NTMtZGNmOGM4NzgtZ21pcj92PTE3OTI4NTYzNzE.avif",
    "source": "allevents",
-   "start": "2026-10-31T12:30:00-05:00",
-   "title": "Halloween Mahjong Open Play",
-   "venue": "Serendipity Polish Pottery & Gallery, 1020 E. Walnut St., Ste. 100, Columbia, MO, United States, Missouri 65201"
+   "start": "2026-10-31T13:00:00-05:00",
+   "title": "Spooky Sensory Play"
   },
   {
    "_slug": "bhagwad-gita-class-fb842e",
@@ -1160,6 +1321,21 @@
    "venue": "Bethel Church"
   },
   {
+   "_slug": "wicker-9ba7f3",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-10-31T15:55:00-05:00",
+   "id": "9ba7f3d7b552d73c",
+   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
+   "source": "ragtag",
+   "start": "2026-10-31T14:10:00-05:00",
+   "title": "Wicker",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "douglas-schaedler-trumpet-natalia-bolshakova-recital-570819",
    "alsoOn": [
     "https://calendar.missouri.edu/event/20583-douglas-schaedler-trumpet-natalia-bolshakova-"
@@ -1176,6 +1352,33 @@
    "start": "2026-10-31T15:30:00-05:00",
    "title": "Douglas Schaedler, trumpet & Natalia Bolshakova - Recital",
    "venue": "Sinquefield Music Center"
+  },
+  {
+   "_slug": "fjord-ab701d",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-10-31T18:11:00-05:00",
+   "id": "ab701db21e2eb73d",
+   "imageUrl": "https://comoevent.com/img/gen/aa36f92cd327da.webp",
+   "source": "ragtag",
+   "start": "2026-10-31T15:45:00-05:00",
+   "title": "Fjord",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "halloween-comicsfest-at-distant-planet-2026-16a5a3",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "16a5a32b2e48dfed",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy85MzIwZTlhNjgyOGVlN2RlYjNkMzdhMjc0ZDA0ZTE4ODAwNWQyYjY4OWU3OWQ0ZGNiYmRhODk3M2FmZmM4OTdlLXJpbWctdzEyMDAtaDE4MjAtZGMwODA4MDgtZ21pcj92PTE3OTI3ODAxMDU.avif",
+   "source": "allevents",
+   "start": "2026-10-31T16:00:00-05:00",
+   "title": "Halloween ComicsFest at Distant Planet 2026"
   },
   {
    "_slug": "halloween-party-in-the-arcade-district-879725",
@@ -1230,6 +1433,33 @@
    "venue": "Harbor House"
   },
   {
+   "_slug": "woodstock-community-halloween-party-ef0d7f",
+   "categories": [
+    "party"
+   ],
+   "category": "party",
+   "id": "ef0d7f6fe317c7a2",
+   "imageUrl": "https://comoevent.com/img/gen/b84d0378c0033d.webp",
+   "source": "allevents",
+   "start": "2026-10-31T17:00:00-05:00",
+   "title": "🎃 WOODSTOCK COMMUNITY HALLOWEEN PARTY! 👻"
+  },
+  {
+   "_slug": "fjord-7af2f7",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-10-31T19:41:00-05:00",
+   "id": "7af2f780f902a47f",
+   "imageUrl": "https://comoevent.com/img/gen/aa36f92cd327da.webp",
+   "source": "ragtag",
+   "start": "2026-10-31T17:15:00-05:00",
+   "title": "Fjord",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "glow-pickleball-open-play-7dfc57",
    "categories": [
     "community"
@@ -1270,18 +1500,6 @@
    "start": "2026-10-31T18:00:00-05:00",
    "title": "Fools Face",
    "venue": "Cooper's Landing"
-  },
-  {
-   "_slug": "harvest-party-fwccomo-be4f28",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "be4f289c2f19983d",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9lOGZiMjVhYzA1MThmZmUyNTIwYTQxYTQ3M2QwY2FjNDlkMjNkYWJjNGM2NGY4YjExMTE2ZTViM2U4ZWJkYjljLXJpbWctdzg1MS1oMzE1LWRjNTgyODA4LWdtaXI_dj0xNzkyNzgwMTE2.avif",
-   "source": "allevents",
-   "start": "2026-10-31T18:00:00-05:00",
-   "title": "Harvest Party @ FWCCOMO"
   },
   {
    "_slug": "costume-makeup-contest-7a915e",
@@ -1338,22 +1556,10 @@
    "title": "Trunk or Treat Resource Fair"
   },
   {
-   "_slug": "halloween-comicsfest-at-distant-planet-2026-16a5a3",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "16a5a32b2e48dfed",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy85MzIwZTlhNjgyOGVlN2RlYjNkMzdhMjc0ZDA0ZTE4ODAwNWQyYjY4OWU3OWQ0ZGNiYmRhODk3M2FmZmM4OTdlLXJpbWctdzEyMDAtaDE4MjAtZGMwODA4MDgtZ21pcj92PTE3OTI3ODAxMDU.avif",
-   "source": "allevents",
-   "start": "2026-10-31T19:00:00-05:00",
-   "title": "Halloween ComicsFest at Distant Planet 2026"
-  },
-  {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065"
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts"
@@ -1469,16 +1675,19 @@
    "venue": "Rose Music Hall"
   },
   {
-   "_slug": "trick-or-treat-with-us-8449ac",
+   "_slug": "wicker-f1d32b",
    "categories": [
-    "family"
+    "arts"
    ],
-   "category": "family",
-   "id": "8449ac8993fd176a",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy83NmEzYjkyZjc5NDFmZWVjODlhNzg3YWFmOTkwMmQyZjMwMDI5YWUzOGU5MDQ3N2U0Mzg4N2NjMmNhM2RjMDRjLXJpbWctdzEyMDAtaDYxMS1kYzI4MjgyOC1nbWlyP3Y9MTc5Mjc4MDA5Nw.avif",
-   "source": "allevents",
-   "start": "2026-10-31T20:00:00-05:00",
-   "title": "Trick or Treat with us!"
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-10-31T22:15:00-05:00",
+   "id": "f1d32be894177972",
+   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
+   "source": "ragtag",
+   "start": "2026-10-31T20:30:00-05:00",
+   "title": "Wicker",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "hardcore-comedy-at-the-tokyo-club-261a77",
@@ -1555,19 +1764,6 @@
    "start": "2026-11-01T00:00:00-05:00",
    "title": "Missouri Tigers Womens Volleyball vs. Tennessee Vols Womens Volleyball",
    "venue": "Hearnes Center"
-  },
-  {
-   "_slug": "roemer-estate-online-auction-58f519",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "58f51907fb7c5e86",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9lMTU2NzExZjJmOTBiY2NmMjBlMGQ0NDQzMDQxZjZhYjc1ZTM5NGIyZTdmMjIwOTYwZTE4NzhmNjllMDYxMzc3LXJpbWctdzEyMDAtaDg3MC1kY2Q4YzhiOC1nbWlyP3Y9MTc5Mjc4MDA4Nw.avif",
-   "source": "allevents",
-   "start": "2026-11-01T00:00:00-05:00",
-   "title": "Roemer Estate Online Auction",
-   "venue": "West Broadway Area, Columbia, MO, United States, Missouri 65202"
   },
   {
    "_slug": "trek-through-belize-a76b25",
@@ -1804,8 +2000,8 @@
   {
    "_slug": "mizzou-volleyball-vs-tennessee-2-pm-299f5f",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/",
     "https://calendar.missouri.edu/athletics/event/19995-volleyball-missouri-vs-tennessee",
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001"
    ],
    "categories": [
@@ -1821,6 +2017,21 @@
    "start": "2026-11-01T14:00:00-06:00",
    "title": "Mizzou Volleyball vs. Tennessee - 2 PM",
    "venue": "Hearnes Center"
+  },
+  {
+   "_slug": "naza-2c8690",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-01T15:18:00-06:00",
+   "id": "2c86908032bbdcb9",
+   "imageUrl": "https://comoevent.com/img/gen/dcee2dd60de30f.webp",
+   "source": "ragtag",
+   "start": "2026-11-01T14:00:00-06:00",
+   "title": "NAZA",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "the-barroom-billies-1a17ee",
@@ -1882,6 +2093,36 @@
    "venue": "Fine Arts Building"
   },
   {
+   "_slug": "fjord-a7586a",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-01T18:11:00-06:00",
+   "id": "a7586a472cb02378",
+   "imageUrl": "https://comoevent.com/img/gen/aa36f92cd327da.webp",
+   "source": "ragtag",
+   "start": "2026-11-01T15:45:00-06:00",
+   "title": "Fjord",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "wicker-172d96",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-01T18:00:00-06:00",
+   "id": "172d96a2c988ad24",
+   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
+   "source": "ragtag",
+   "start": "2026-11-01T16:15:00-06:00",
+   "title": "Wicker",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "chakra-restorative-sound-immersion-46ad97",
    "categories": [
     "community"
@@ -1892,6 +2133,48 @@
    "source": "allevents",
    "start": "2026-11-01T19:00:00-06:00",
    "title": "Chakra Restorative Sound Immersion"
+  },
+  {
+   "_slug": "fjord-b11fd4",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-01T21:26:00-06:00",
+   "id": "b11fd4a3dcbce7f0",
+   "imageUrl": "https://comoevent.com/img/gen/aa36f92cd327da.webp",
+   "source": "ragtag",
+   "start": "2026-11-01T19:00:00-06:00",
+   "title": "Fjord",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "samhain-ritual-open-for-all-bdc42b",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "bdc42bbbac223752",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wMmE4NGU0NzY1NmQzODQ0MmZiMjRkM2NkYjE1MjBlNzI2YTY2YjY1ZmU5MDQ0NjI2ODVhZjU3ZDYxNjE0YjE4LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDQ1.avif",
+   "source": "allevents",
+   "start": "2026-11-01T19:30:00-06:00",
+   "title": "Samhain Ritual - Open for All"
+  },
+  {
+   "_slug": "wicker-9a2d05",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-01T21:15:00-06:00",
+   "id": "9a2d051ab5d186c3",
+   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
+   "source": "ragtag",
+   "start": "2026-11-01T19:30:00-06:00",
+   "title": "Wicker",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "sunsquabi-96ef06",
@@ -1931,7 +2214,7 @@
   "8fd69589116a7b8f",
   "1f885ae2b1a074ba",
   "1f54537526793be3",
-  "2b3596efcad32e23",
+  "6647875563874b06",
   "c132e8a6377bdbd9",
   "80ce0294bea34108",
   "39395612e3b79d82",
