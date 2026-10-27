@@ -255,6 +255,11 @@
   "lng": -92.3523653,
   "name": "Forum Christian Church"
  },
+ "4380 nocona pkwy columbia, mo 65201": {
+  "lat": 38.9011508,
+  "lng": -92.286677,
+  "name": "Park Restaurant & Bar"
+ },
  "4747 e elk park dr, columbia, mo": null,
  "509 fay st, columbia, mo columbia, mo 65201": {
   "lat": 38.9571128,
@@ -336,6 +341,11 @@
  "901 e rollins st, columbia, mo": {
   "lat": 38.9420895,
   "lng": -92.3178789,
+  "name": null
+ },
+ "901 rogers st columbia, mo columbia, mo 65201": {
+  "lat": 38.9574018,
+  "lng": -92.3270927,
   "name": null
  },
  "agriculture building 264 university of missouri columbia missouri united states, columbia, mo": null,
@@ -515,6 +525,7 @@
  "the eyler room (s110), university of missouri, columbia, missouri, united states": null,
  "the mark on 5th street  515 s 5th st columbia mo 65201 united states, columbia, mo": null,
  "the mark on 5th street 515 s 5th st columbia mo 65201 united states, columbia, mo": null,
+ "the missouri theater, columbia, mo": null,
  "the missouri theatre, columbia, mo": null,
  "the shack university of missouri columbia missouri united states, columbia, mo": null,
  "the sheldon, columbia, mo": null,
