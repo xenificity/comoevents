@@ -372,8 +372,8 @@
   {
    "_slug": "sphero-nauts-registration-full-waitlist-available-19005b",
    "alsoOn": [
-    "https://events.dbrl.org/event/17132469",
-    "https://events.dbrl.org/event/17132468"
+    "https://events.dbrl.org/event/17132468",
+    "https://events.dbrl.org/event/17132469"
    ],
    "categories": [
     "campus"
@@ -926,17 +926,21 @@
   {
    "_slug": "latin-night-como-dia-de-los-muertos-halloween-c132e8",
    "alsoOn": [
-    "https://allevents.in/columbia/latin-night-como-presents-dia-de-los-muertos-halloween/210001038548169"
+    "https://allevents.in/columbia/latin-night-como-presents-dia-de-los-muertos-halloween/210001038548169",
+    "https://thebluenote.com/event/latin-night-como-halloween/"
    ],
    "categories": [
-    "party"
+    "party",
+    "music"
    ],
    "category": "party",
+   "description": "Slacker University Presents · ft. Jonny Fuzion & JayRu",
    "end": "2026-10-30T23:00:00-05:00",
    "id": "c132e8a6377bdbd9",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/09/Latin-Night-CoMo-Dia-De-Los-Muertos-Halloween.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-30T21:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/latin-night-como-halloween-ages-18-columbia-missouri-10-30-2026/event/0600652BA4428DD6",
    "title": "Latin Night CoMo: Dia De Los Muertos Halloween",
    "venue": "The Blue Note"
   },
@@ -1126,9 +1130,10 @@
   {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
-    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
+    "https://www.themosy.org/calendar/spooktacular",
     "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
-    "https://www.themosy.org/calendar/spooktacular"
+    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
+    "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html"
    ],
    "categories": [
     "music",
@@ -1482,7 +1487,7 @@
    "id": "b5295639ce79f6de",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy84M2ZlZDhjYTAzYzk2MzY1MjdlZjhhMDc1NWUzNThmMWMyMGU3YWQ5ZDBhZTVlOWQ1YWQ5NzIxY2E5NjI2MDUxLXJpbWctdzEyMDAtaDY3NS1kY2E4OTg5OC1nbWlyP3Y9MTc5MDQzNzY2NA.avif",
    "source": "allevents",
-   "start": "2026-10-31T18:30:00-05:00",
+   "start": "2026-10-31T19:00:00-05:00",
    "title": "Fall Festival 2026",
    "venue": "Christian Fellowship Church"
   },
@@ -1705,8 +1710,8 @@
   {
    "_slug": "its-a-2000s-party-halloween-edition-the-blue-note-00cc8a",
    "alsoOn": [
-    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422",
-    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082"
+    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082",
+    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422"
    ],
    "categories": [
     "family",
@@ -1803,10 +1808,10 @@
   {
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
    "alsoOn": [
-    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
+    "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
     "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
-    "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu"
+    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu"
    ],
    "categories": [
     "sports",
