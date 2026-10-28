@@ -372,8 +372,8 @@
   {
    "_slug": "sphero-nauts-registration-full-waitlist-available-19005b",
    "alsoOn": [
-    "https://events.dbrl.org/event/17132469",
-    "https://events.dbrl.org/event/17132468"
+    "https://events.dbrl.org/event/17132468",
+    "https://events.dbrl.org/event/17132469"
    ],
    "categories": [
     "campus"
@@ -728,18 +728,6 @@
    "title": "MAGIC: Leyline Eve Chaos Draft"
   },
   {
-   "_slug": "october-30th-7pm-lady-moe-joe-b27b6e",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "b27b6e046ba7d8ee",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy85MjI4MmEyZDY3M2VkYjcwMWNmZWVjNzBmYThiZTdmMjUxODRjOTE5NjQwMzE3NWRlMjM2YzI5YjAxZjg3MWM2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ3MA.avif",
-   "source": "allevents",
-   "start": "2026-10-30T19:00:00-05:00",
-   "title": "October 30th - 7PM Lady Moe Joe"
-  },
-  {
    "_slug": "ryan-lowe-euphonium-recital-f9d6f9",
    "categories": [
     "campus"
@@ -921,23 +909,31 @@
   {
    "_slug": "latin-night-como-dia-de-los-muertos-halloween-c132e8",
    "alsoOn": [
-    "https://allevents.in/columbia/latin-night-como-presents-dia-de-los-muertos-halloween/210001038548169",
-    "https://thebluenote.com/event/latin-night-como-halloween/"
+    "https://allevents.in/columbia/latin-night-como-presents-dia-de-los-muertos-halloween/210001038548169"
    ],
    "categories": [
-    "party",
-    "music"
+    "party"
    ],
    "category": "party",
-   "description": "Slacker University Presents · ft. Jonny Fuzion & JayRu",
    "end": "2026-10-30T23:00:00-05:00",
    "id": "c132e8a6377bdbd9",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/09/Latin-Night-CoMo-Dia-De-Los-Muertos-Halloween.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-30T21:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/latin-night-como-halloween-ages-18-columbia-missouri-10-30-2026/event/0600652BA4428DD6",
    "title": "Latin Night CoMo: Dia De Los Muertos Halloween",
    "venue": "The Blue Note"
+  },
+  {
+   "_slug": "october-30th-7pm-lady-moe-joe-b27b6e",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "b27b6e046ba7d8ee",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy85MjI4MmEyZDY3M2VkYjcwMWNmZWVjNzBmYThiZTdmMjUxODRjOTE5NjQwMzE3NWRlMjM2YzI5YjAxZjg3MWM2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ3MA.avif",
+   "source": "allevents",
+   "start": "2026-10-30T21:00:00-05:00",
+   "title": "October 30th - 7PM Lady Moe Joe"
   },
   {
    "_slug": "the-worts-homebrew-club-october-2026-social-38f638",
@@ -951,19 +947,6 @@
    "start": "2026-10-30T21:00:00-05:00",
    "title": "The Worts Homebrew Club October 2026 Social",
    "venue": "Pierpont General Store"
-  },
-  {
-   "_slug": "macalester-dose-the-rebels-live-at-harpo-s-in-columbia-mo-e769b9",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "e769b93f67d97e69",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8zMTQ0OGVhZDQyOGIwMmQ4OTFmZDhhMDQ5MjQ0YzMyNTlhNmJkMWYwMzIxNGYzZTMwNTE0YzE0ZjljOGI1MTc1LXJpbWctdzEyMDAtaDEwNTQtZGMwODA4MzgtZ21pcj92PTE3OTI5Njc0NjM.avif",
-   "source": "allevents",
-   "start": "2026-10-30T21:30:00-05:00",
-   "title": "Macalester Dose & The Rebels LIVE at Harpo's in Columbia, MO.",
-   "venue": "Harpo's Columbia"
   },
   {
    "_slug": "wicker-64b7de",
@@ -1019,6 +1002,18 @@
    "source": "baselocal",
    "start": "2026-10-31T08:00:00-05:00",
    "title": "Blue Star Mothers Community 5k"
+  },
+  {
+   "_slug": "circa-salvage-sale-4514e3",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "4514e3865eef7205",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvZjcxYTMyMjk1NTBhZTZkZGFiNWM2MDQyMTJmMTliYmVkMzFiYThkOWZhNDNmYTc2MWMyOGUyYjdmZjI3ZjQ1ZC1yaW1nLXcxMjAwLWg2NzUtZGNmOGY4ZjgtZ21pcj92PTE3OTMxNDQzODk.avif",
+   "source": "allevents",
+   "start": "2026-10-31T08:00:00-05:00",
+   "title": "Circa Salvage Sale"
   },
   {
    "_slug": "columbia-farmers-market-02be96",
@@ -1081,6 +1076,9 @@
   },
   {
    "_slug": "saturday-morning-science-pumpkins-plants-healthy-soil-0516dc",
+   "alsoOn": [
+    "https://allevents.in/columbia/saturday-morning-science-oct-31-2026/200030927918212"
+   ],
    "categories": [
     "campus",
     "food"
@@ -1114,10 +1112,9 @@
   {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
-    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
-    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
     "https://www.themosy.org/calendar/spooktacular",
-    "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html"
+    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
+    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108"
    ],
    "categories": [
     "music",
@@ -1429,18 +1426,6 @@
    "title": "2026 Zombie Pub Crawl"
   },
   {
-   "_slug": "bryce-stanley-returns-for-one-show-only-8e07ed",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "8e07ed8d1345627a",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNDc3N2FlODAwNmRhM2RiNDc0Y2M2OWMzMzE2N2ZjYmU1Y2E5NTg2MTk0MmYzZjllMzVjYjQwOTFiYmEyNWQwYi1yaW1nLXcxMjAwLWg2MDAtZGMwODA4MDgtZ21pcj92PTE3OTMxNDQ0MjU.avif",
-   "source": "allevents",
-   "start": "2026-10-31T18:00:00-05:00",
-   "title": "Bryce Stanley Returns for ONE SHOW ONLY!!!"
-  },
-  {
    "_slug": "fools-face-5a08bb",
    "categories": [
     "music"
@@ -1630,28 +1615,16 @@
    "title": "Back Water Freaks Out - Halloween At The Tavern"
   },
   {
-   "_slug": "circa-salvage-sale-4514e3",
+   "_slug": "bryce-stanley-returns-for-one-show-only-8e07ed",
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "4514e3865eef7205",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvZjcxYTMyMjk1NTBhZTZkZGFiNWM2MDQyMTJmMTliYmVkMzFiYThkOWZhNDNmYTc2MWMyOGUyYjdmZjI3ZjQ1ZC1yaW1nLXcxMjAwLWg2NzUtZGNmOGY4ZjgtZ21pcj92PTE3OTMxNDQzODk.avif",
+   "id": "8e07ed8d1345627a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNDc3N2FlODAwNmRhM2RiNDc0Y2M2OWMzMzE2N2ZjYmU1Y2E5NTg2MTk0MmYzZjllMzVjYjQwOTFiYmEyNWQwYi1yaW1nLXcxMjAwLWg2MDAtZGMwODA4MDgtZ21pcj92PTE3OTMxNDQ0MjU.avif",
    "source": "allevents",
    "start": "2026-10-31T20:00:00-05:00",
-   "title": "Circa Salvage Sale"
-  },
-  {
-   "_slug": "saturday-morning-science-oct-31-2026-a751aa",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "a751aa4d7dff0d3b",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy82NjRhNjZkYTljNDgwNWVjMzEyNjY1MWFkMTdmZjc0Nzk0NjJlOTY5ZThhNjdhYTJmMjA4ZmQ0NDNmMGY1NjI2LXJpbWctdzEyMDAtaDYwMC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MzE0NDQxMg.avif",
-   "source": "allevents",
-   "start": "2026-10-31T20:00:00-05:00",
-   "title": "Saturday Morning Science - Oct. 31, 2026"
+   "title": "Bryce Stanley Returns for ONE SHOW ONLY!!!"
   },
   {
    "_slug": "the-faint-5b0a89",
@@ -1804,10 +1777,10 @@
   {
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
-    "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
-    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu"
+    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
+    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
+    "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu"
    ],
    "categories": [
     "sports",
@@ -1997,9 +1970,9 @@
   {
    "_slug": "mizzou-volleyball-vs-tennessee-2-pm-299f5f",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/",
     "https://calendar.missouri.edu/athletics/event/19995-volleyball-missouri-vs-tennessee",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001"
    ],
    "categories": [
     "sports",
@@ -2191,7 +2164,7 @@
   }
  ],
  "friday": "2026-10-30",
- "modified": "2026-10-27",
+ "modified": "2026-10-28",
  "picks": [
   "9f076a30d8f71e25",
   "09d1639d9680ab5e",
