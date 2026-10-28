@@ -372,8 +372,8 @@
   {
    "_slug": "sphero-nauts-registration-full-waitlist-available-19005b",
    "alsoOn": [
-    "https://events.dbrl.org/event/17132468",
-    "https://events.dbrl.org/event/17132469"
+    "https://events.dbrl.org/event/17132469",
+    "https://events.dbrl.org/event/17132468"
    ],
    "categories": [
     "campus"
@@ -490,6 +490,25 @@
    "start": "2026-10-30T17:00:00-05:00",
    "title": "Find Your People",
    "venue": "The Salvation Army Columbia, MO"
+  },
+  {
+   "_slug": "whodunnit-murder-mystery-night-7e9823",
+   "alsoOn": [
+    "https://engage.missouri.edu/WSDC/rsvp?id=453573"
+   ],
+   "categories": [
+    "campus",
+    "arts"
+   ],
+   "category": "campus",
+   "description": "Come join us for our Halloween murder mystery night! We will be playing both Murder at Castle Bloodmoor and Murder at the Museum! Sign up early to reserve your spot before the night begins.",
+   "end": "2026-10-30T19:00:00-05:00",
+   "id": "7e98233c662a170a",
+   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2500800_Screenshot_26102026_1574_wwwcanvacom_c0855d45-6449-4d82-9ef0-2e6137febdfd_1026161417.jpeg",
+   "source": "engage",
+   "start": "2026-10-30T17:00:00-05:00",
+   "title": "WHODUNNIT? Murder Mystery Night",
+   "venue": "Tate Hall 101"
   },
   {
    "_slug": "fjord-3078fd",
@@ -621,21 +640,6 @@
    "venue": "Shanthi Mandir"
   },
   {
-   "_slug": "alpha-omega-devotional-ea6e0a",
-   "categories": [
-    "campus",
-    "religious"
-   ],
-   "category": "campus",
-   "end": "2026-10-30T21:00:00-05:00",
-   "id": "ea6e0aa890083297",
-   "imageUrl": "https://comoevent.com/img/gen/511326a4bc8d91.webp",
-   "source": "mizzou",
-   "start": "2026-10-30T19:00:00-05:00",
-   "title": "Alpha Omega Devotional",
-   "venue": "MU Student Center"
-  },
-  {
    "_slug": "boo-bash-2026-664787",
    "categories": [
     "party"
@@ -740,6 +744,18 @@
    "start": "2026-10-30T19:00:00-05:00",
    "title": "Ryan Lowe, Euphonium Recital",
    "venue": "Sinquefield Music Center"
+  },
+  {
+   "_slug": "trunk-or-treat-8351ef",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "8351ef59ce38759e",
+   "imageUrl": "https://comoevent.com/img/gen/7efa92646bd7f8.webp",
+   "source": "allevents",
+   "start": "2026-10-30T19:00:00-05:00",
+   "title": "Trunk or Treat"
   },
   {
    "_slug": "eurydice-by-sarah-ruhl-0c7e88",
@@ -847,6 +863,19 @@
    "venue": "Rose Music Hall"
   },
   {
+   "_slug": "macalester-dose-the-rebels-live-at-harpo-s-in-columbia-mo-e769b9",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e769b93f67d97e69",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8zMTQ0OGVhZDQyOGIwMmQ4OTFmZDhhMDQ5MjQ0YzMyNTlhNmJkMWYwMzIxNGYzZTMwNTE0YzE0ZjljOGI1MTc1LXJpbWctdzEyMDAtaDEwNTQtZGMwODA4MzgtZ21pcj92PTE3OTI5Njc0NjM.avif",
+   "source": "allevents",
+   "start": "2026-10-30T20:00:00-05:00",
+   "title": "Macalester Dose & The Rebels LIVE at Harpo's in Columbia, MO.",
+   "venue": "Harpo's Columbia"
+  },
+  {
    "_slug": "trick-or-treat-night-c0399f",
    "categories": [
     "family"
@@ -857,18 +886,6 @@
    "source": "allevents",
    "start": "2026-10-30T20:00:00-05:00",
    "title": "Trick-or-Treat Night"
-  },
-  {
-   "_slug": "trunk-or-treat-8351ef",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "8351ef59ce38759e",
-   "imageUrl": "https://comoevent.com/img/gen/7efa92646bd7f8.webp",
-   "source": "allevents",
-   "start": "2026-10-30T20:00:00-05:00",
-   "title": "Trunk or Treat"
   },
   {
    "_slug": "friday-october-30th-dj-halloween-dance-party-6f5a28",
@@ -1076,9 +1093,6 @@
   },
   {
    "_slug": "saturday-morning-science-pumpkins-plants-healthy-soil-0516dc",
-   "alsoOn": [
-    "https://allevents.in/columbia/saturday-morning-science-oct-31-2026/200030927918212"
-   ],
    "categories": [
     "campus",
     "food"
@@ -1112,9 +1126,9 @@
   {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
-    "https://www.themosy.org/calendar/spooktacular",
+    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
     "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
-    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108"
+    "https://www.themosy.org/calendar/spooktacular"
    ],
    "categories": [
     "music",
@@ -1502,22 +1516,10 @@
    "venue": "The Blue Note"
   },
   {
-   "_slug": "live-hardcore-comedy-crowd-work-with-lady-moe-joe-00f7c0",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "00f7c0a0f5093ee0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy80YTdkMzFmZWFiOTUxZGNjOTU2NzJjMTM5ZTNiMWM0OGZiNTk2NDU0NzgzMWI2ZWY1OTExNWMyM2QwMGRmMTgwLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5MzE0NDQyNA.avif",
-   "source": "allevents",
-   "start": "2026-10-31T19:00:00-05:00",
-   "title": "Live - Hardcore Comedy Crowd-work with Lady Moe Joe!!"
-  },
-  {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065"
    ],
    "categories": [
     "arts"
@@ -1627,6 +1629,18 @@
    "title": "Bryce Stanley Returns for ONE SHOW ONLY!!!"
   },
   {
+   "_slug": "saturday-morning-science-oct-31-2026-a751aa",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "a751aa4d7dff0d3b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy82NjRhNjZkYTljNDgwNWVjMzEyNjY1MWFkMTdmZjc0Nzk0NjJlOTY5ZThhNjdhYTJmMjA4ZmQ0NDNmMGY1NjI2LXJpbWctdzEyMDAtaDYwMC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MzE0NDQxMg.avif",
+   "source": "allevents",
+   "start": "2026-10-31T20:00:00-05:00",
+   "title": "Saturday Morning Science - Oct. 31, 2026"
+  },
+  {
    "_slug": "the-faint-5b0a89",
    "alsoOn": [
     "https://allevents.in/columbia/the-faint/210001871606536"
@@ -1691,8 +1705,8 @@
   {
    "_slug": "its-a-2000s-party-halloween-edition-the-blue-note-00cc8a",
    "alsoOn": [
-    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082",
-    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422"
+    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422",
+    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082"
    ],
    "categories": [
     "family",
@@ -1706,6 +1720,18 @@
    "start": "2026-10-31T21:00:00-05:00",
    "title": "It’s a 2000’s Party: Halloween Edition – The Blue Note",
    "venue": "The Blue Note"
+  },
+  {
+   "_slug": "live-hardcore-comedy-crowd-work-with-lady-moe-joe-00f7c0",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "00f7c0a0f5093ee0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy80YTdkMzFmZWFiOTUxZGNjOTU2NzJjMTM5ZTNiMWM0OGZiNTk2NDU0NzgzMWI2ZWY1OTExNWMyM2QwMGRmMTgwLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5MzE0NDQyNA.avif",
+   "source": "allevents",
+   "start": "2026-10-31T21:00:00-05:00",
+   "title": "Live - Hardcore Comedy Crowd-work with Lady Moe Joe!!"
   },
   {
    "_slug": "myhouse-saturday-10-31-night-a153ab",
@@ -1777,9 +1803,9 @@
   {
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
    "alsoOn": [
+    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
     "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
-    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
     "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu"
    ],
    "categories": [
@@ -1856,6 +1882,19 @@
    "start": "2026-11-01T13:00:00-06:00",
    "title": "Lorcana Weekly Play",
    "venue": "Hexagon Alley"
+  },
+  {
+   "_slug": "volleyball-missouri-vs-6-tennessee-299f5f",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "end": "2026-11-01T15:30:00-06:00",
+   "id": "299f5f45915f86a8",
+   "imageUrl": "https://comoevent.com/img/gen/c93b4549e139ae.webp",
+   "source": "mizzou",
+   "start": "2026-11-01T13:30:00-06:00",
+   "title": "Volleyball - Missouri vs. #6 Tennessee"
   },
   {
    "_slug": "day-of-the-dead-dia-de-muertos-celebracion-we-are-one-somos-7aeacb",
@@ -1968,11 +2007,10 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "mizzou-volleyball-vs-tennessee-2-pm-299f5f",
+   "_slug": "mizzou-volleyball-vs-tennessee-2-pm-8d5bb6",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/",
-    "https://calendar.missouri.edu/athletics/event/19995-volleyball-missouri-vs-tennessee",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001",
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/"
    ],
    "categories": [
     "sports",
@@ -1981,7 +2019,7 @@
    "category": "sports",
    "description": "Join us for Volloween as the Tigers take on Tennessee at 2 PM!",
    "end": "2026-11-01T16:00:00-06:00",
-   "id": "299f5f45915f86a8",
+   "id": "8d5bb621836def25",
    "imageUrl": "https://comoevent.com/img/gen/p-7e670ade57a9bc.webp",
    "source": "engage",
    "start": "2026-11-01T14:00:00-06:00",
