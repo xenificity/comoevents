@@ -294,18 +294,6 @@
    "title": "Delta Reign Prerelease Event #2"
   },
   {
-   "_slug": "tales-from-the-crypt-movie-screening-static-paisley-zoner-ou-48ac35",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "48ac35e48d3bbb22",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9mMmY2NTRiZTliZTFlNGQ2NDc1YTIwYjQxYTBmZDhmMjJhNzU5NWQyYzI4YmE1MWJmYjUyNGZmMTE3N2I5MDZjLXJpbWctdzExNjgtaDE1MDQtZGMyODI4MjgtZ21pcj92PTE3OTI5Njc0NzU.avif",
-   "source": "allevents",
-   "start": "2026-10-30T13:00:00-05:00",
-   "title": "Tales from the Crypt Movie Screening | Static Paisley, Zoner Outer, and Aum Syndicate"
-  },
-  {
    "_slug": "your-leadership-blueprint-graduate-professional-students-a49daa",
    "alsoOn": [
     "https://engage.missouri.edu/Leadership/rsvp?id=451293"
@@ -337,6 +325,18 @@
    "start": "2026-10-30T13:30:00-05:00",
    "title": "Wicker",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "magic-leyline-eve-chaos-draft-2a3825",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "2a3825f6833565a0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy80ZGFmZGFmNzMwNTkyYjBjMTc4N2NjMWNmOWQ0MTVhMWE5MjBjZGVmNzZiNzMzZDE5OWNmMjgxNzlhOTYxMDhhLXJpbWctdzEyMDAtaDY3NS1kYzI4MjgyOC1nbWlyP3Y9MTc5Mjk2NzQ3MA.avif",
+   "source": "allevents",
+   "start": "2026-10-30T13:45:00-05:00",
+   "title": "MAGIC: Leyline Eve Chaos Draft"
   },
   {
    "_slug": "device-advice-and-tech-help-drop-in-50d847",
@@ -417,18 +417,6 @@
    "source": "allevents",
    "start": "2026-10-30T16:00:00-05:00",
    "title": "Annual Trunk or Treat"
-  },
-  {
-   "_slug": "dwci-fall-festival-f881e9",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "f881e94210ee372f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9lNTMxNjQ0ZDk0MjA1ODcwNjgzZTRjNmYyYTU4YWZjMmJkMmFhOWRkZjk1YmNmYzYzNjA0Nzk2MWYwZGRiZGQ5LXJpbWctdzkxMi1oMTE4MS1kY2Y4ZjhlOC1nbWlyP3Y9MTc5Mjk2NzQ3NQ.avif",
-   "source": "allevents",
-   "start": "2026-10-30T16:00:00-05:00",
-   "title": "DWCI Fall Festival"
   },
   {
    "_slug": "halloweenie-in-the-district-8f7fb6",
@@ -717,18 +705,6 @@
    "venue": "The Tokyo Club"
   },
   {
-   "_slug": "magic-leyline-eve-chaos-draft-2a3825",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "2a3825f6833565a0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy80ZGFmZGFmNzMwNTkyYjBjMTc4N2NjMWNmOWQ0MTVhMWE5MjBjZGVmNzZiNzMzZDE5OWNmMjgxNzlhOTYxMDhhLXJpbWctdzEyMDAtaDY3NS1kYzI4MjgyOC1nbWlyP3Y9MTc5Mjk2NzQ3MA.avif",
-   "source": "allevents",
-   "start": "2026-10-30T19:00:00-05:00",
-   "title": "MAGIC: Leyline Eve Chaos Draft"
-  },
-  {
    "_slug": "ryan-lowe-euphonium-recital-f9d6f9",
    "categories": [
     "campus"
@@ -878,18 +854,15 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "ken-russell-s-the-devils-7effb6",
-   "alsoOn": [
-    "https://allevents.in/columbia/ken-russells-the-devils/200030911207319"
-   ],
+   "_slug": "ken-russell-s-the-devils-f490d6",
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-10-30T22:54:00-05:00",
-   "id": "7effb677784eb320",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy85YzU0ODI3OGEwYTZlNWE1ODgxZDkwNjViMjFiMjc0N2ZkZTFjMGMxN2NkYmFkNmRiMjZkYjkyNGFiYzAwYjg5LXJpbWctdzEyMDAtaDY3NS1kYzg4MjhhOC1nbWlyP3Y9MTc5Mjk2ODM3OQ.avif",
+   "id": "f490d6a9e1018402",
+   "imageUrl": "https://comoevent.com/img/gen/bddc8556a46c5b.webp",
    "source": "ragtag",
    "start": "2026-10-30T21:00:00-05:00",
    "title": "Ken Russell's The Devils",
@@ -898,35 +871,19 @@
   {
    "_slug": "latin-night-como-dia-de-los-muertos-halloween-c132e8",
    "alsoOn": [
-    "https://allevents.in/columbia/latin-night-como-presents-dia-de-los-muertos-halloween/210001038548169",
-    "https://thebluenote.com/event/latin-night-como-halloween/"
+    "https://allevents.in/columbia/latin-night-como-presents-dia-de-los-muertos-halloween/210001038548169"
    ],
    "categories": [
-    "party",
-    "music"
+    "party"
    ],
    "category": "party",
-   "description": "Slacker University Presents · ft. Jonny Fuzion & JayRu",
    "end": "2026-10-30T23:00:00-05:00",
    "id": "c132e8a6377bdbd9",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/09/Latin-Night-CoMo-Dia-De-Los-Muertos-Halloween.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-30T21:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/latin-night-como-halloween-ages-18-columbia-missouri-10-30-2026/event/0600652BA4428DD6",
    "title": "Latin Night CoMo: Dia De Los Muertos Halloween",
    "venue": "The Blue Note"
-  },
-  {
-   "_slug": "october-30th-7pm-lady-moe-joe-b27b6e",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "b27b6e046ba7d8ee",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy85MjI4MmEyZDY3M2VkYjcwMWNmZWVjNzBmYThiZTdmMjUxODRjOTE5NjQwMzE3NWRlMjM2YzI5YjAxZjg3MWM2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ3MA.avif",
-   "source": "allevents",
-   "start": "2026-10-30T21:00:00-05:00",
-   "title": "October 30th - 7PM Lady Moe Joe"
   },
   {
    "_slug": "the-worts-homebrew-club-october-2026-social-38f638",
@@ -1014,6 +971,9 @@
   },
   {
    "_slug": "halloween-world-record-event-07efe9",
+   "alsoOn": [
+    "https://allevents.in/columbia/halloween-world-record-event/100002003255505142"
+   ],
    "categories": [
     "community"
    ],
@@ -1064,8 +1024,8 @@
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
     "https://www.themosy.org/calendar/spooktacular",
-    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
-    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108"
+    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
+    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy"
    ],
    "categories": [
     "music",
@@ -1296,6 +1256,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "it-s-a-2000s-halloween-party-ages-18-dd2e00",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "dd2e008cd11efe55",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNWNiYjY1ZDgxNTY2NGM1NTRlNGQwMmM0MzMwNjYzZTQyYWNjMjE5N2RlODIwYzRlNDg2ZDE3MDMwZWI5NGJkYS1yaW1nLXcxMDI0LWg1NzYtZGMwODA4MDgtZ21pci5qcGc_dj0xNzg5MDAxOTQ0.avif",
+   "source": "allevents",
+   "start": "2026-10-31T16:30:00-05:00",
+   "title": "It's a 2000s (Halloween) Party (Ages 18+)",
+   "venue": "The Blue Note"
+  },
+  {
    "_slug": "halloween-party-in-the-arcade-district-879725",
    "categories": [
     "party",
@@ -1375,19 +1348,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "glow-pickleball-open-play-7dfc57",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "7dfc5716df431a8e",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy84YWZlZDZkM2E1ZTczODUzNDgxZGVkMTA5MGNiNmVjNjYxZjI0NjZkZDkxNjVkMzUwZWUzMDI1N2UyYmU5YzhhLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTIzNjcxNjY.avif",
-   "source": "allevents",
-   "start": "2026-10-31T17:30:00-05:00",
-   "title": "Glow Pickleball Open Play",
-   "venue": "The kitchen grill and games"
-  },
-  {
    "_slug": "2026-zombie-pub-crawl-1910d4",
    "categories": [
     "nightlife"
@@ -1460,6 +1420,19 @@
    "start": "2026-10-31T19:00:00-05:00",
    "title": "Fall Festival 2026",
    "venue": "Christian Fellowship Church"
+  },
+  {
+   "_slug": "glow-pickleball-open-play-7dfc57",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "7dfc5716df431a8e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy84YWZlZDZkM2E1ZTczODUzNDgxZGVkMTA5MGNiNmVjNjYxZjI0NjZkZDkxNjVkMzUwZWUzMDI1N2UyYmU5YzhhLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTIzNjcxNjY.avif",
+   "source": "allevents",
+   "start": "2026-10-31T19:00:00-05:00",
+   "title": "Glow Pickleball Open Play",
+   "venue": "The kitchen grill and games"
   },
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56",
@@ -1677,9 +1650,9 @@
   {
    "_slug": "its-a-2000s-party-halloween-edition-00cc8a",
    "alsoOn": [
-    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082",
+    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422",
     "https://www.visitcolumbiamo.com/event/its-a-2000s-party-halloween-edition-the-blue-note/",
-    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422"
+    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082"
    ],
    "categories": [
     "music",
@@ -1793,8 +1766,8 @@
    "alsoOn": [
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
     "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
-    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
-    "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu"
+    "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
+    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu"
    ],
    "categories": [
     "sports",
@@ -2132,18 +2105,6 @@
    "venue": "Hearnes Center"
   },
   {
-   "_slug": "samhain-ritual-open-for-all-bdc42b",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "bdc42bbbac223752",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wMmE4NGU0NzY1NmQzODQ0MmZiMjRkM2NkYjE1MjBlNzI2YTY2YjY1ZmU5MDQ0NjI2ODVhZjU3ZDYxNjE0YjE4LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDQ1.avif",
-   "source": "allevents",
-   "start": "2026-11-01T18:30:00-06:00",
-   "title": "Samhain Ritual - Open for All"
-  },
-  {
    "_slug": "fjord-b11fd4",
    "categories": [
     "arts"
@@ -2193,15 +2154,15 @@
  "modified": "2026-10-29",
  "picks": [
   "9f076a30d8f71e25",
-  "09d1639d9680ab5e",
   "8fd69589116a7b8f",
+  "6647875563874b06",
   "1f885ae2b1a074ba",
   "1f54537526793be3",
-  "c132e8a6377bdbd9",
   "80ce0294bea34108",
   "39395612e3b79d82",
   "879725e376f3fd22",
-  "81ad089266813acb"
+  "81ad089266813acb",
+  "00cc8a9a7ee7d4b3"
  ],
  "published": "2026-10-26"
 }
