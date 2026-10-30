@@ -42,7 +42,6 @@
    "description": "Join us at Gans Creek as the Tigers host the SEC Cross Country Championships on Friday, October 30th, at 8:00 AM. Free admission for students and Double Zou loyalty points!",
    "end": "2026-10-30T10:00:00-05:00",
    "id": "2ef581e117c6c907",
-   "imageUrl": "https://comoevent.com/img/gen/abaff6d6edea55.webp",
    "source": "engage",
    "start": "2026-10-30T08:00:00-05:00",
    "title": "Mizzou Cross Country SEC Championships",
@@ -128,6 +127,24 @@
    "venue": "Memorial Student Union"
   },
   {
+   "_slug": "2026-zombie-pub-crawl-1910d4",
+   "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/2026-zombie-pub-crawl/"
+   ],
+   "categories": [
+    "nightlife"
+   ],
+   "category": "nightlife",
+   "description": "The zombies are taking over Downtown Columbia this Halloween! Join us for the Woodhaven Zombie Pub Crawl on October 31 for a night of costumes, cocktails, spooky fun and supporting a great cause. Your $15 wristband gets you free cover at 20+ participating downtown bars along with exclusive food and ",
+   "end": "2026-10-30T23:00:00-05:00",
+   "id": "1910d45771a42b11",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9jNzJiODBjNjY0N2Y0NDlmNThmNTQ4ODIxZTFhZGY2MDJjNzBiNTI5MDJhZGY4ZTNkZjRmMzQwZWY3ZDQ3YmI3LXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5MTcwMjI5Mg.avif",
+   "source": "allevents",
+   "start": "2026-10-30T10:00:00-05:00",
+   "title": "2026 Zombie Pub Crawl",
+   "venue": "Downtown Columbia"
+  },
+  {
    "_slug": "2026-zombie-pub-crawl-f18123",
    "categories": [
     "nightlife"
@@ -165,7 +182,6 @@
    "description": "Explore a hands-on instrument petting zoo with brass, string, woodwind, and percussion available to try. Student volunteers from Mizzou will offer guidance as participants experiment with sounds and get a feel for each instrument. This event is sponsored by the Paul D. Higday Mozart Trust and the U…",
    "end": "2026-10-30T11:30:00-05:00",
    "id": "cfcda55632eb60c8",
-   "imageUrl": "https://comoevent.com/img/gen/d800ed50f45a63.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-10-30T10:00:00-05:00",
@@ -274,11 +290,35 @@
    "description": "Good habits are hard to form and bad ones are even harder to break. One of the most counterproductive habits is procrastination. We’ve all experienced procrastination that gets in the way of achieving our goals because we either put off or delay in getting started on a task or project. Procrastinati",
    "end": "2026-10-30T13:30:00-05:00",
    "id": "994ab3d31e20a4ff",
-   "imageUrl": "https://comoevent.com/img/gen/0ce26e273b9ed8.webp",
    "source": "engage",
    "start": "2026-10-30T12:30:00-05:00",
    "title": "Luncheon Workshop # 2: Make it a Habit: Habits of Successful Leaders",
    "venue": "Novak Leadership Institute"
+  },
+  {
+   "_slug": "delta-reign-prerelease-event-2-26a415",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "26a4159d3d889c98",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9iNWNkODdhZDY2NzhlNTgxYTg2NmNhMzM4NDhhM2M0NzFiMmVhMzU4NTg0NGEwYjEyNWExODExMTUxYjNjZjYzLXJpbWctdzEyMDAtaDY3NS1kYzI4Mjg0OC1nbWlyP3Y9MTc5MzAwNTU0MA.avif",
+   "source": "allevents",
+   "start": "2026-10-30T13:00:00-05:00",
+   "title": "Delta Reign Prerelease Event #2"
+  },
+  {
+   "_slug": "find-your-people-eccef1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "eccef1533db2fac6",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9kNzM3MjNlYzU3MGQ3YzcyYjA4ZGE5MTdjYWE0NDJiYjM3MzcwMGMxMzM5NjVhMzJhNTI1ZDFkMjU1NDMyM2NiLXJpbWctdzEyMDAtaDgwMC1kYzA4MDgxOC1nbWlyP3Y9MTc5MzE0NDU5Mw.avif",
+   "source": "allevents",
+   "start": "2026-10-30T13:00:00-05:00",
+   "title": "Find Your People",
+   "venue": "The Salvation Army Columbia, MO"
   },
   {
    "_slug": "your-leadership-blueprint-graduate-professional-students-8100b4",
@@ -463,19 +503,6 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "find-your-people-eccef1",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "eccef1533db2fac6",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9kNzM3MjNlYzU3MGQ3YzcyYjA4ZGE5MTdjYWE0NDJiYjM3MzcwMGMxMzM5NjVhMzJhNTI1ZDFkMjU1NDMyM2NiLXJpbWctdzEyMDAtaDgwMC1kYzA4MDgxOC1nbWlyP3Y9MTc5MzE0NDU5Mw.avif",
-   "source": "allevents",
-   "start": "2026-10-30T17:00:00-05:00",
-   "title": "Find Your People",
-   "venue": "The Salvation Army Columbia, MO"
-  },
-  {
    "_slug": "lee-s-summit-vs-hickman-football-4a82cf",
    "categories": [
     "sports"
@@ -519,18 +546,6 @@
    "start": "2026-10-30T17:30:00-05:00",
    "title": "Fjord",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "trick-or-treat-night-c0399f",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "c0399f1fa741f539",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNjlkOGRjMDFiNjZhZDU4OTY1NjMyYzZhMDBiNWFhYzk1ZGJlOTk3MjY5NTFmNDBhNTA0NTZmN2E4ZDg0Zjk4Mi1yaW1nLXcxMjAwLWgxNTUzLWRjMzgyODU4LWdtaXI_dj0xNzg5MDE4MTE1.avif",
-   "source": "allevents",
-   "start": "2026-10-30T17:30:00-05:00",
-   "title": "Trick-or-Treat Night"
   },
   {
    "_slug": "magic-friday-night-commander-e708b8",
@@ -819,6 +834,18 @@
    "venue": "Rose Music Hall"
   },
   {
+   "_slug": "trick-or-treat-night-c0399f",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "c0399f1fa741f539",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNjlkOGRjMDFiNjZhZDU4OTY1NjMyYzZhMDBiNWFhYzk1ZGJlOTk3MjY5NTFmNDBhNTA0NTZmN2E4ZDg0Zjk4Mi1yaW1nLXcxMjAwLWgxNTUzLWRjMzgyODU4LWdtaXI_dj0xNzg5MDE4MTE1.avif",
+   "source": "allevents",
+   "start": "2026-10-30T20:00:00-05:00",
+   "title": "Trick-or-Treat Night"
+  },
+  {
    "_slug": "trunk-or-treat-8351ef",
    "categories": [
     "family"
@@ -1018,10 +1045,10 @@
   {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html",
-    "https://www.themosy.org/calendar/spooktacular",
     "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
-    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy"
+    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
+    "https://www.themosy.org/calendar/spooktacular",
+    "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html"
    ],
    "categories": [
     "music",
@@ -1312,9 +1339,9 @@
    "venue": "Jesse Hall"
   },
   {
-   "_slug": "trunk-or-treat-3d9104",
+   "_slug": "trunk-or-treat-843f9c",
    "alsoOn": [
-    "https://allevents.in/columbia/bmw-of-columbia-trunk-or-treat/200030775571625"
+    "https://allevents.in/columbia/trunk-or-treat-at-bethel/200030751813957"
    ],
    "categories": [
     "family"
@@ -1322,8 +1349,8 @@
    "category": "family",
    "description": "This family-friendly Halloween gathering offers candy, games, and plenty of fun with a focus on keeping kids safe.",
    "end": "2026-10-31T19:00:00-05:00",
-   "id": "3d9104b6730106b7",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNWQxYThkMDZjNzQ0Y2MzNGUxZjQ5Yjc5MzJlZTAxMDY4MDliMWQ4NDk5YzEyNTM4ODhhN2JiNDQyMDhkMjBmOS1yaW1nLXcxMjAwLWg2NzUtZGNjOGI4YTgtZ21pcj92PTE3OTExNDE3NDU.avif",
+   "id": "843f9c93a494a8cf",
+   "imageUrl": "https://comoevent.com/img/gen/583de2dcd016ae.webp",
    "source": "baselocal",
    "start": "2026-10-31T17:00:00-05:00",
    "title": "Trunk or Treat",
@@ -1395,20 +1422,6 @@
    "venue": "The kitchen grill and games"
   },
   {
-   "_slug": "2026-zombie-pub-crawl-1910d4",
-   "categories": [
-    "nightlife"
-   ],
-   "category": "nightlife",
-   "description": "The zombies are taking over Downtown Columbia this Halloween! Join us for the Woodhaven Zombie Pub Crawl on October 31 for a night of costumes, cocktails, spooky fun and supporting a great cause. Your $15 wristband gets you free cover at 20+ participating downtown bars along with exclusive food and ",
-   "end": "2026-10-31T23:00:00-05:00",
-   "id": "1910d45771a42b11",
-   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/2026-Zombie-Pub-Crawl.jpg",
-   "source": "visitcolumbia",
-   "start": "2026-10-31T18:00:00-05:00",
-   "title": "2026 Zombie Pub Crawl"
-  },
-  {
    "_slug": "fools-face-0c67f9",
    "alsoOn": [
     "https://allevents.in/columbia/the-legend-of-fools-face-halloween-night-at-coopers/200030841889414"
@@ -1461,8 +1474,8 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065"
    ],
    "categories": [
     "arts"
@@ -1504,20 +1517,6 @@
    "start": "2026-10-31T19:00:00-05:00",
    "title": "Sophie Bock, trumpet & Natalia Bolshakova, piano - Senior Recital",
    "venue": "Fine Arts Building"
-  },
-  {
-   "_slug": "trunk-or-treat-at-bethel-843f9c",
-   "categories": [
-    "family",
-    "religious"
-   ],
-   "category": "family",
-   "id": "843f9c93a494a8cf",
-   "imageUrl": "https://comoevent.com/img/gen/0c175a822d0e8f.webp",
-   "source": "allevents",
-   "start": "2026-10-31T19:00:00-05:00",
-   "title": "Trunk or Treat at Bethel",
-   "venue": "Bethel Church"
   },
   {
    "_slug": "ken-russell-s-the-devils-25e927",
@@ -1649,8 +1648,8 @@
   {
    "_slug": "its-a-2000s-party-halloween-edition-the-blue-note-00cc8a",
    "alsoOn": [
-    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422",
-    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082"
+    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082",
+    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422"
    ],
    "categories": [
     "family",
@@ -1747,10 +1746,10 @@
   {
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
     "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
+    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
-    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu"
+    "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu"
    ],
    "categories": [
     "sports",
@@ -1978,8 +1977,8 @@
   {
    "_slug": "mizzou-volleyball-vs-tennessee-2-pm-8d5bb6",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001",
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/"
    ],
    "categories": [
     "sports",
@@ -2113,6 +2112,18 @@
    "start": "2026-11-01T19:00:00-06:00",
    "title": "Fjord",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "liberty-tree-dedication-deb69d",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "deb69d4afc499f65",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9kNDA0OWEwMjVjNzdiNDIyNWNlMTVmYWZiODM3MjdlMzM4MzZmNTI2NTI4YTdlYjQ4YjU5NTJlOGEzZjdiYTVlLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk2NzQ3MQ.avif",
+   "source": "allevents",
+   "start": "2026-11-01T19:00:00-06:00",
+   "title": "Liberty Tree Dedication"
   },
   {
    "_slug": "prenatal-yoga-pop-up-33711b",
