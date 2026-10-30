@@ -33,6 +33,22 @@
    "venue": "Gans Creek Recreation Area"
   },
   {
+   "_slug": "mizzou-cross-country-sec-championships-2ef581",
+   "categories": [
+    "sports",
+    "campus"
+   ],
+   "category": "sports",
+   "description": "Join us at Gans Creek as the Tigers host the SEC Cross Country Championships on Friday, October 30th, at 8:00 AM. Free admission for students and Double Zou loyalty points!",
+   "end": "2026-10-30T10:00:00-05:00",
+   "id": "2ef581e117c6c907",
+   "imageUrl": "https://comoevent.com/img/gen/abaff6d6edea55.webp",
+   "source": "engage",
+   "start": "2026-10-30T08:00:00-05:00",
+   "title": "Mizzou Cross Country SEC Championships",
+   "venue": "Gans Creek Recreation Area"
+  },
+  {
    "_slug": "passport-walk-in-hours-b7e7e6",
    "categories": [
     "campus"
@@ -74,7 +90,7 @@
    "description": "Designed for little ones from birth to age five and their caregivers, this free Halloween gathering at Lend & Learn features playful sensory experiences, simple crafts, and treats. Costumes are welcome but not required. An initial sensory-friendly indoor period with limited capacity is available, f…",
    "end": "2026-10-30T13:00:00-05:00",
    "id": "10f759587eafb971",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wNDNmNWQ2MC1kMzk3LTExZjEtODI4OC1jMWE0M2FkOTlmNjktcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTMyNzgwOTk.avif",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9iODhlYzU5MC1kNDJjLTExZjEtODI4OC1jMWE0M2FkOTlmNjktcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTMzNDIzOTY.avif",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-10-30T09:00:00-05:00",
@@ -110,6 +126,19 @@
    "start": "2026-10-30T09:30:00-05:00",
    "title": "Passport Application Walk-in Hours",
    "venue": "Memorial Student Union"
+  },
+  {
+   "_slug": "2026-zombie-pub-crawl-f18123",
+   "categories": [
+    "nightlife"
+   ],
+   "category": "nightlife",
+   "id": "f1812393563e3de9",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9jNzJiODBjNjY0N2Y0NDlmNThmNTQ4ODIxZTFhZGY2MDJjNzBiNTI5MDJhZGY4ZTNkZjRmMzQwZWY3ZDQ3YmI3LXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5MTcwMjI5Mg.avif",
+   "source": "allevents",
+   "start": "2026-10-30T10:00:00-05:00",
+   "title": "2026 Zombie Pub Crawl",
+   "venue": "Downtown Columbia"
   },
   {
    "_slug": "cross-country-missouri-vs-sec-championships-ac73c7",
@@ -156,20 +185,6 @@
    "start": "2026-10-30T10:00:00-05:00",
    "title": "Study Abroad Walk-in Advising",
    "venue": "Memorial Student Union"
-  },
-  {
-   "_slug": "3mt-practice-session-restricted-to-3mt-participants-0c5f18",
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "end": "2026-10-30T12:45:00-05:00",
-   "id": "0c5f1889408d2364",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2437520_3MT_Logo_RGBjpg_2abf3805-d537-489d-9de8-cf723ffd90b3_831155113.jpeg",
-   "source": "mizzou",
-   "start": "2026-10-30T11:00:00-05:00",
-   "title": "3MT® Practice Session (Restricted to 3MT® Participants)",
-   "venue": "111F Townsend Grad Hub University of Missouri Columbia Missouri United States"
   },
   {
    "_slug": "columbia-job-fair-columbia-career-fair-99104a",
@@ -251,48 +266,30 @@
    "venue": "Missouri Cares"
   },
   {
-   "_slug": "luncheon-workshop-2-make-it-a-habit-habits-of-successful-lea-ef267e",
-   "alsoOn": [
-    "https://engage.missouri.edu/NLI/rsvp?id=452015"
-   ],
+   "_slug": "luncheon-workshop-2-make-it-a-habit-habits-of-successful-lea-994ab3",
    "categories": [
     "campus"
    ],
    "category": "campus",
    "description": "Good habits are hard to form and bad ones are even harder to break. One of the most counterproductive habits is procrastination. We’ve all experienced procrastination that gets in the way of achieving our goals because we either put off or delay in getting started on a task or project. Procrastinati",
    "end": "2026-10-30T13:30:00-05:00",
-   "id": "ef267ecfa5a62005",
-   "imageUrl": "https://comoevent.com/img/gen/p-f648597f47dea0.webp",
+   "id": "994ab3d31e20a4ff",
+   "imageUrl": "https://comoevent.com/img/gen/0ce26e273b9ed8.webp",
    "source": "engage",
    "start": "2026-10-30T12:30:00-05:00",
    "title": "Luncheon Workshop # 2: Make it a Habit: Habits of Successful Leaders",
    "venue": "Novak Leadership Institute"
   },
   {
-   "_slug": "delta-reign-prerelease-event-2-26a415",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "26a4159d3d889c98",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9iNWNkODdhZDY2NzhlNTgxYTg2NmNhMzM4NDhhM2M0NzFiMmVhMzU4NTg0NGEwYjEyNWExODExMTUxYjNjZjYzLXJpbWctdzEyMDAtaDY3NS1kYzI4Mjg0OC1nbWlyP3Y9MTc5MzAwNTU0MA.avif",
-   "source": "allevents",
-   "start": "2026-10-30T13:00:00-05:00",
-   "title": "Delta Reign Prerelease Event #2"
-  },
-  {
-   "_slug": "your-leadership-blueprint-graduate-professional-students-a49daa",
-   "alsoOn": [
-    "https://engage.missouri.edu/Leadership/rsvp?id=451293"
-   ],
+   "_slug": "your-leadership-blueprint-graduate-professional-students-8100b4",
    "categories": [
     "campus"
    ],
    "category": "campus",
    "description": "Your leadership starts with knowing what you bring to the table. Designed specifically for graduate students, this interactive workshop will help you build your personal leadership blueprint by exploring your strengths, identifying the values that guide you, and connecting both to how you lead and w",
    "end": "2026-10-30T14:30:00-05:00",
-   "id": "a49daa965345c0f5",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2025/image_upload_2504196_Explore_Leadership_Workshops_1031103757.png",
+   "id": "8100b4a72ad8103b",
+   "imageUrl": "https://comoevent.com/img/gen/424d31d0a4e07b.webp",
    "source": "engage",
    "start": "2026-10-30T13:00:00-05:00",
    "title": "Your Leadership Blueprint (Graduate / Professional Students)",
@@ -466,6 +463,19 @@
    "venue": "Cooper's Landing"
   },
   {
+   "_slug": "find-your-people-eccef1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "eccef1533db2fac6",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9kNzM3MjNlYzU3MGQ3YzcyYjA4ZGE5MTdjYWE0NDJiYjM3MzcwMGMxMzM5NjVhMzJhNTI1ZDFkMjU1NDMyM2NiLXJpbWctdzEyMDAtaDgwMC1kYzA4MDgxOC1nbWlyP3Y9MTc5MzE0NDU5Mw.avif",
+   "source": "allevents",
+   "start": "2026-10-30T17:00:00-05:00",
+   "title": "Find Your People",
+   "venue": "The Salvation Army Columbia, MO"
+  },
+  {
    "_slug": "lee-s-summit-vs-hickman-football-4a82cf",
    "categories": [
     "sports"
@@ -479,19 +489,17 @@
    "venue": "Hickman High School"
   },
   {
-   "_slug": "whodunnit-murder-mystery-night-7e9823",
-   "alsoOn": [
-    "https://engage.missouri.edu/WSDC/rsvp?id=453573"
-   ],
+   "_slug": "whodunnit-murder-mystery-night-987a59",
    "categories": [
-    "campus",
-    "arts"
+    "community",
+    "arts",
+    "campus"
    ],
-   "category": "campus",
+   "category": "community",
    "description": "Come join us for our Halloween murder mystery night! We will be playing both Murder at Castle Bloodmoor and Murder at the Museum! Sign up early to reserve your spot before the night begins.",
    "end": "2026-10-30T19:00:00-05:00",
-   "id": "7e98233c662a170a",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2500800_Screenshot_26102026_1574_wwwcanvacom_c0855d45-6449-4d82-9ef0-2e6137febdfd_1026161417.jpeg",
+   "id": "987a594298681fee",
+   "imageUrl": "https://comoevent.com/img/gen/d1babe921d0788.webp",
    "source": "engage",
    "start": "2026-10-30T17:00:00-05:00",
    "title": "WHODUNNIT? Murder Mystery Night",
@@ -523,19 +531,6 @@
    "source": "allevents",
    "start": "2026-10-30T17:30:00-05:00",
    "title": "Trick-or-Treat Night"
-  },
-  {
-   "_slug": "2026-zombie-pub-crawl-f18123",
-   "categories": [
-    "nightlife"
-   ],
-   "category": "nightlife",
-   "id": "f1812393563e3de9",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9jNzJiODBjNjY0N2Y0NDlmNThmNTQ4ODIxZTFhZGY2MDJjNzBiNTI5MDJhZGY4ZTNkZjRmMzQwZWY3ZDQ3YmI3LXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5MTcwMjI5Mg.avif",
-   "source": "allevents",
-   "start": "2026-10-30T18:00:00-05:00",
-   "title": "2026 Zombie Pub Crawl",
-   "venue": "Downtown Columbia"
   },
   {
    "_slug": "magic-friday-night-commander-e708b8",
@@ -809,9 +804,6 @@
   },
   {
    "_slug": "dance-of-the-dead-rose-music-hall-108356",
-   "alsoOn": [
-    "https://rosemusichall.com/event/dance-of-the-dead-2/"
-   ],
    "categories": [
     "arts",
     "music"
@@ -823,7 +815,6 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Dance-of-the-Dead-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-30T20:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/dance-of-the-dead-ft-drona-columbia-missouri-10-30-2026/event/0600652E9EA66545",
    "title": "Dance of the Dead – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -1027,10 +1018,10 @@
   {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
-    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
-    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
+    "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html",
     "https://www.themosy.org/calendar/spooktacular",
-    "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html"
+    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
+    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy"
    ],
    "categories": [
     "music",
@@ -1261,16 +1252,17 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "the-legend-of-fools-face-halloween-night-at-cooper-s-0c67f9",
+   "_slug": "single-awareness-dinner-columbia-foodies-new-friends-1301d3",
    "categories": [
-    "community"
+    "food"
    ],
-   "category": "community",
-   "id": "0c67f9343a9d41a0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy80YzBiODBmOGIyNjJhMWM4YjA1MzZkYjk2MDg3ZmI2NjliNWYzMDg3MmE5OTIyNGM3YjFkN2M4ZDY5OTY4OTg3LXJpbWctdzEyMDAtaDY3NS1kY2M4NDgwOC1nbWlyP3Y9MTc5MjEyNTY3NA.avif",
+   "category": "food",
+   "id": "1301d322972f1054",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jMWQ3NzM2OTU5ZjdhZWIxZTExMjgzYzI1MDJlNmViMTgwNzAxZmE4YzBjZjFjMTcwYjJjNzc1MTFmNWFkNzkyLXJpbWctdzk3MS1oODU1LWRjMTQxYTJkLWdtaXIuanBnP3Y9MTc4Mjc3MzcwNA.avif",
    "source": "allevents",
    "start": "2026-10-31T16:00:00-05:00",
-   "title": "The Legend of Fools Face: Halloween Night at Cooper's!"
+   "title": "Single Awareness Dinner: Columbia | Foodies + New Friends",
+   "venue": "Restaurant of the Week"
   },
   {
    "_slug": "ghouls-night-out-vip-b33104",
@@ -1417,14 +1409,17 @@
    "title": "2026 Zombie Pub Crawl"
   },
   {
-   "_slug": "fools-face-5a08bb",
+   "_slug": "fools-face-0c67f9",
+   "alsoOn": [
+    "https://allevents.in/columbia/the-legend-of-fools-face-halloween-night-at-coopers/200030841889414"
+   ],
    "categories": [
     "music"
    ],
    "category": "music",
    "description": "@ Fools Face is a five piece Midwest regional rock band from Springfield Missouri. They released their first album, “Here To Observe”, in ’78. And their second album, “Tell America”, in ’81. Brian Coffman is a founding member and lead guitarist of FOOL’S FACE. Fool’s Face was a popular Midwestern po",
    "end": "2026-10-31T21:00:00-05:00",
-   "id": "5a08bbaa4ee174ef",
+   "id": "0c67f9343a9d41a0",
    "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2026/09/IMG_4309-scaled.jpeg",
    "source": "cooperslanding",
    "start": "2026-10-31T18:00:00-05:00",
@@ -1466,8 +1461,8 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065"
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts"
@@ -1580,19 +1575,17 @@
   {
    "_slug": "the-faint-5b0a89",
    "alsoOn": [
-    "https://rosemusichall.com/event/the-faint/",
     "https://allevents.in/columbia/the-faint/210001871606536"
    ],
    "categories": [
-    "music"
+    "community"
    ],
-   "category": "music",
+   "category": "community",
    "description": "The Faint takes the stage in the indoor space at Rose Music Hall. The performance is presented inside the venue.",
    "id": "5b0a8924ad58c204",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zNzhkNjMwYzc0NWMxZTk1MTEwZWQyYmVlZDMyYjYwMmRjOTgwYjJkNTFkZmZjOWQyYjM3YTExNDZhMmQ4ZmQwLXJpbWctdzEwMjQtaDU3Ni1kYzc4Nzg3OC1nbWlyLmpwZz92PTE3ODU2NjcyNzY.avif",
    "source": "baselocal",
    "start": "2026-10-31T20:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/the-faint-columbia-missouri-10-31-2026/event/060064F8DBBC69E2",
    "title": "The Faint",
    "venue": "Rose Music Hall"
   },
@@ -1656,8 +1649,8 @@
   {
    "_slug": "its-a-2000s-party-halloween-edition-the-blue-note-00cc8a",
    "alsoOn": [
-    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082",
-    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422"
+    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422",
+    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082"
    ],
    "categories": [
     "family",
@@ -1738,18 +1731,6 @@
    "title": "Trek Through Belize"
   },
   {
-   "_slug": "night-of-remembrance-a45879",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "a45879e0a7e91f68",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9jYzk0ODY5YzRkMTAzMzJkZTk5ZmUzZjA4NmRkYTI5ZTYwZDQ0YWUzMGJjZjJhNGNjOGJlYjhhZTQyM2FjOGEwLXJpbWctdzEwODAtaDEzNTAtZGMwODA4MDgtZ21pcj92PTE3OTI4NDQzOTY.avif",
-   "source": "allevents",
-   "start": "2026-11-01T10:00:00-06:00",
-   "title": "Night of Remembrance"
-  },
-  {
    "_slug": "fall-2026-league-cup-632f08",
    "categories": [
     "community"
@@ -1766,10 +1747,10 @@
   {
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
     "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
-    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240"
+    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
+    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu"
    ],
    "categories": [
     "sports",
@@ -1784,6 +1765,18 @@
    "start": "2026-11-01T12:00:00-06:00",
    "title": "Mizzou Soccer vs. LSU",
    "venue": "Audrey J. Walton Stadium"
+  },
+  {
+   "_slug": "night-of-remembrance-a45879",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "a45879e0a7e91f68",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9jYzk0ODY5YzRkMTAzMzJkZTk5ZmUzZjA4NmRkYTI5ZTYwZDQ0YWUzMGJjZjJhNGNjOGJlYjhhZTQyM2FjOGEwLXJpbWctdzEwODAtaDEzNTAtZGMwODA4MDgtZ21pcj92PTE3OTI4NDQzOTY.avif",
+   "source": "allevents",
+   "start": "2026-11-01T12:00:00-06:00",
+   "title": "Night of Remembrance"
   },
   {
    "_slug": "retro-pre-release-duskmourn-house-of-horrors-237c26",
@@ -2184,14 +2177,14 @@
  "modified": "2026-10-30",
  "picks": [
   "9f076a30d8f71e25",
-  "09d1639d9680ab5e",
   "8fd69589116a7b8f",
   "1f885ae2b1a074ba",
-  "10835673f9070dc3",
+  "1f54537526793be3",
   "c132e8a6377bdbd9",
   "80ce0294bea34108",
   "39395612e3b79d82",
   "879725e376f3fd22",
+  "0c67f9343a9d41a0",
   "96ef06019c1f47af"
  ],
  "published": "2026-10-26"
