@@ -74,7 +74,7 @@
    "description": "Designed for little ones from birth to age five and their caregivers, this free Halloween gathering at Lend & Learn features playful sensory experiences, simple crafts, and treats. Costumes are welcome but not required. An initial sensory-friendly indoor period with limited capacity is available, f…",
    "end": "2026-10-30T13:00:00-05:00",
    "id": "10f759587eafb971",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9hNWEzYzgxMC1kMWViLTExZjEtYTFjYi1hNTgxNWU1YmJhYWEtcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTMwOTQ1NDU.avif",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wNDNmNWQ2MC1kMzk3LTExZjEtODI4OC1jMWE0M2FkOTlmNjktcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTMyNzgwOTk.avif",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-10-30T09:00:00-05:00",
@@ -125,17 +125,17 @@
    "venue": "Downtown Columbia"
   },
   {
-   "_slug": "cross-country-missouri-vs-sec-championship-ac73c7",
+   "_slug": "cross-country-missouri-vs-sec-championships-ac73c7",
    "categories": [
     "sports"
    ],
    "category": "sports",
    "end": "2026-10-30T12:00:00-05:00",
    "id": "ac73c7f9c68a8356",
-   "imageUrl": "https://comoevent.com/img/gen/a133f862d9b8e3.webp",
+   "imageUrl": "https://comoevent.com/img/gen/3c4ebe24f115b3.webp",
    "source": "mizzou",
    "start": "2026-10-30T10:00:00-05:00",
-   "title": "Cross Country - Missouri vs. SEC Championship"
+   "title": "Cross Country - Missouri vs. SEC Championships"
   },
   {
    "_slug": "instrument-petting-zoo-cfcda5",
@@ -372,8 +372,8 @@
   {
    "_slug": "sphero-nauts-registration-full-waitlist-available-19005b",
    "alsoOn": [
-    "https://events.dbrl.org/event/17132468",
-    "https://events.dbrl.org/event/17132469"
+    "https://events.dbrl.org/event/17132469",
+    "https://events.dbrl.org/event/17132468"
    ],
    "categories": [
     "campus"
@@ -490,6 +490,19 @@
    "start": "2026-10-30T17:00:00-05:00",
    "title": "Find Your People",
    "venue": "The Salvation Army Columbia, MO"
+  },
+  {
+   "_slug": "lee-s-summit-vs-hickman-football-4a82cf",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "4a82cf0372ce14b4",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9mYzViMmE1YzA3YTZhNjQ5YTk4MTEzYmE0NjAyNmI5NTdhODk0Mzc2Y2NlODZhNjkyNGY0NmI2MzhmMTY1NzBlLXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5MzI3NDQyNw.avif",
+   "source": "allevents",
+   "start": "2026-10-30T17:00:00-05:00",
+   "title": "Lee's Summit vs. Hickman | Football",
+   "venue": "Hickman High School"
   },
   {
    "_slug": "whodunnit-murder-mystery-night-7e9823",
@@ -809,6 +822,9 @@
   },
   {
    "_slug": "dance-of-the-dead-rose-music-hall-108356",
+   "alsoOn": [
+    "https://rosemusichall.com/event/dance-of-the-dead-2/"
+   ],
    "categories": [
     "arts",
     "music"
@@ -820,6 +836,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Dance-of-the-Dead-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-30T20:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/dance-of-the-dead-ft-drona-columbia-missouri-10-30-2026/event/0600652E9EA66545",
    "title": "Dance of the Dead – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -929,18 +946,6 @@
    "venue": "MyHouse"
   },
   {
-   "_slug": "the-legend-of-fools-face-halloween-night-at-cooper-s-0c67f9",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "0c67f9343a9d41a0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy80YzBiODBmOGIyNjJhMWM4YjA1MzZkYjk2MDg3ZmI2NjliNWYzMDg3MmE5OTIyNGM3YjFkN2M4ZDY5OTY4OTg3LXJpbWctdzEyMDAtaDY3NS1kY2M4NDgwOC1nbWlyP3Y9MTc5MjEyNTY3NA.avif",
-   "source": "allevents",
-   "start": "2026-10-31T07:00:00-05:00",
-   "title": "The Legend of Fools Face: Halloween Night at Cooper's!"
-  },
-  {
    "_slug": "blue-star-mothers-community-5k-808b4a",
    "categories": [
     "sports"
@@ -1023,9 +1028,9 @@
   {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
-    "https://www.themosy.org/calendar/spooktacular",
     "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
-    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy"
+    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
+    "https://www.themosy.org/calendar/spooktacular"
    ],
    "categories": [
     "music",
@@ -1256,17 +1261,16 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "it-s-a-2000s-halloween-party-ages-18-dd2e00",
+   "_slug": "the-legend-of-fools-face-halloween-night-at-cooper-s-0c67f9",
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "dd2e008cd11efe55",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNWNiYjY1ZDgxNTY2NGM1NTRlNGQwMmM0MzMwNjYzZTQyYWNjMjE5N2RlODIwYzRlNDg2ZDE3MDMwZWI5NGJkYS1yaW1nLXcxMDI0LWg1NzYtZGMwODA4MDgtZ21pci5qcGc_dj0xNzg5MDAxOTQ0.avif",
+   "id": "0c67f9343a9d41a0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy80YzBiODBmOGIyNjJhMWM4YjA1MzZkYjk2MDg3ZmI2NjliNWYzMDg3MmE5OTIyNGM3YjFkN2M4ZDY5OTY4OTg3LXJpbWctdzEyMDAtaDY3NS1kY2M4NDgwOC1nbWlyP3Y9MTc5MjEyNTY3NA.avif",
    "source": "allevents",
-   "start": "2026-10-31T16:30:00-05:00",
-   "title": "It's a 2000s (Halloween) Party (Ages 18+)",
-   "venue": "The Blue Note"
+   "start": "2026-10-31T16:00:00-05:00",
+   "title": "The Legend of Fools Face: Halloween Night at Cooper's!"
   },
   {
    "_slug": "halloween-party-in-the-arcade-district-879725",
@@ -1348,6 +1352,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "fastpass-saturday-10-31-df7c98",
+   "categories": [
+    "party"
+   ],
+   "category": "party",
+   "id": "df7c98aca61d483d",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy80YzliOGZhMC1kM2U5LTExZjEtODI4OC1jMWE0M2FkOTlmNjktcmltZy13MTIwMC1oMTE5NC1kYzA4MDgwOC1nbWlyLndlYnA_dj0xNzkzMzEzNDM5.avif",
+   "source": "allevents",
+   "start": "2026-10-31T17:30:00-05:00",
+   "title": "FASTPASS: Saturday 10/31",
+   "venue": "MyHouse"
+  },
+  {
    "_slug": "2026-zombie-pub-crawl-1910d4",
    "categories": [
     "nightlife"
@@ -1393,19 +1410,6 @@
    "start": "2026-10-31T18:30:00-05:00",
    "title": "Costume & Makeup Contest",
    "venue": "Columbia Entertainment Company"
-  },
-  {
-   "_slug": "fastpass-saturday-10-31-df7c98",
-   "categories": [
-    "party"
-   ],
-   "category": "party",
-   "id": "df7c98aca61d483d",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9hZjNkZWI5MC1kMjMwLTExZjEtODQ0Ny05Nzc5ZTFhZTkzN2UtcmltZy13MTIwMC1oMTE5NC1kYzA4MDgwOC1nbWlyLndlYnA_dj0xNzkzMTI0MTk2.avif",
-   "source": "allevents",
-   "start": "2026-10-31T18:30:00-05:00",
-   "title": "FASTPASS: Saturday 10/31",
-   "venue": "MyHouse"
   },
   {
    "_slug": "fall-festival-2026-b52956",
@@ -1498,6 +1502,18 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "bryce-stanley-returns-for-one-show-only-8e07ed",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "8e07ed8d1345627a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNDc3N2FlODAwNmRhM2RiNDc0Y2M2OWMzMzE2N2ZjYmU1Y2E5NTg2MTk0MmYzZjllMzVjYjQwOTFiYmEyNWQwYi1yaW1nLXcxMjAwLWg2MDAtZGMwODA4MDgtZ21pcj92PTE3OTMxNDQ0MjU.avif",
+   "source": "allevents",
+   "start": "2026-10-31T19:30:00-05:00",
+   "title": "Bryce Stanley Returns for ONE SHOW ONLY!!!"
+  },
+  {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-93eb66",
    "categories": [
     "arts"
@@ -1536,18 +1552,6 @@
    "title": "Back Water Freaks Out - Halloween At The Tavern"
   },
   {
-   "_slug": "bryce-stanley-returns-for-one-show-only-8e07ed",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "8e07ed8d1345627a",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNDc3N2FlODAwNmRhM2RiNDc0Y2M2OWMzMzE2N2ZjYmU1Y2E5NTg2MTk0MmYzZjllMzVjYjQwOTFiYmEyNWQwYi1yaW1nLXcxMjAwLWg2MDAtZGMwODA4MDgtZ21pcj92PTE3OTMxNDQ0MjU.avif",
-   "source": "allevents",
-   "start": "2026-10-31T20:00:00-05:00",
-   "title": "Bryce Stanley Returns for ONE SHOW ONLY!!!"
-  },
-  {
    "_slug": "ghouls-night-out-vip-b33104",
    "categories": [
     "nightlife"
@@ -1576,17 +1580,19 @@
   {
    "_slug": "the-faint-5b0a89",
    "alsoOn": [
+    "https://rosemusichall.com/event/the-faint/",
     "https://allevents.in/columbia/the-faint/210001871606536"
    ],
    "categories": [
-    "community"
+    "music"
    ],
-   "category": "community",
+   "category": "music",
    "description": "The Faint takes the stage in the indoor space at Rose Music Hall. The performance is presented inside the venue.",
    "id": "5b0a8924ad58c204",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zNzhkNjMwYzc0NWMxZTk1MTEwZWQyYmVlZDMyYjYwMmRjOTgwYjJkNTFkZmZjOWQyYjM3YTExNDZhMmQ4ZmQwLXJpbWctdzEwMjQtaDU3Ni1kYzc4Nzg3OC1nbWlyLmpwZz92PTE3ODU2NjcyNzY.avif",
    "source": "baselocal",
    "start": "2026-10-31T20:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/the-faint-columbia-missouri-10-31-2026/event/060064F8DBBC69E2",
    "title": "The Faint",
    "venue": "Rose Music Hall"
   },
@@ -1648,26 +1654,22 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "its-a-2000s-party-halloween-edition-00cc8a",
+   "_slug": "its-a-2000s-party-halloween-edition-the-blue-note-00cc8a",
    "alsoOn": [
     "https://allevents.in/columbia/ladybird-halloween-party/200030751317422",
-    "https://www.visitcolumbiamo.com/event/its-a-2000s-party-halloween-edition-the-blue-note/",
     "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082"
    ],
    "categories": [
-    "music",
     "family",
     "party"
    ],
-   "category": "music",
-   "description": "Slacker University Presents · with The Ransom Brothers",
+   "category": "family",
    "end": "2026-10-31T23:00:00-05:00",
    "id": "00cc8a9a7ee7d4b3",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/09/halloween-party-1200-600-press-photo-jpg-e1789401764445.jpg",
-   "source": "bluenote",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/09/2000s-Dance-Party-Halloween-Edition.jpg",
+   "source": "visitcolumbia",
    "start": "2026-10-31T21:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/its-a-2000s-halloween-party-ages-columbia-missouri-10-31-2026/event/060065239058635A",
-   "title": "It’s a 2000s Party: Halloween Edition",
+   "title": "It’s a 2000’s Party: Halloween Edition – The Blue Note",
    "venue": "The Blue Note"
   },
   {
@@ -1765,9 +1767,9 @@
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
    "alsoOn": [
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
-    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
     "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
-    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu"
+    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
+    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/"
    ],
    "categories": [
     "sports",
@@ -1843,6 +1845,19 @@
    "start": "2026-11-01T13:00:00-06:00",
    "title": "Lorcana Weekly Play",
    "venue": "Hexagon Alley"
+  },
+  {
+   "_slug": "missouri-tigers-womens-volleyball-vs-tennessee-vols-womens-v-23ecc9",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "23ecc99021bbda47",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9iOGVlYjlhZWI5YjY2MjMzZTllN2UwMjg5NzJkMGE1NjRlNzhhNzk2ODU4ZjM5ZDRlNWQxZWUxNzU5MjA3NzA2LXJpbWctdzEwMjQtaDU3Ni1kYzc4MjkxZS1nbWlyLmpwZz92PTE3ODAyMjcwNjg.avif",
+   "source": "allevents",
+   "start": "2026-11-01T13:00:00-06:00",
+   "title": "Missouri Tigers Womens Volleyball vs. Tennessee Vols Womens Volleyball",
+   "venue": "Hearnes Center"
   },
   {
    "_slug": "volleyball-missouri-vs-6-tennessee-299f5f",
@@ -2092,19 +2107,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "missouri-tigers-womens-volleyball-vs-tennessee-vols-womens-v-23ecc9",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "23ecc99021bbda47",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9iOGVlYjlhZWI5YjY2MjMzZTllN2UwMjg5NzJkMGE1NjRlNzhhNzk2ODU4ZjM5ZDRlNWQxZWUxNzU5MjA3NzA2LXJpbWctdzEwMjQtaDU3Ni1kYzc4MjkxZS1nbWlyLmpwZz92PTE3ODAyMjcwNjg.avif",
-   "source": "allevents",
-   "start": "2026-11-01T18:30:00-06:00",
-   "title": "Missouri Tigers Womens Volleyball vs. Tennessee Vols Womens Volleyball",
-   "venue": "Hearnes Center"
-  },
-  {
    "_slug": "fjord-b11fd4",
    "categories": [
     "arts"
@@ -2118,6 +2120,22 @@
    "start": "2026-11-01T19:00:00-06:00",
    "title": "Fjord",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "sunsquabi-96ef06",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with Babysox",
+   "id": "96ef06019c1f47af",
+   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/07/TheFaint-RMH-Web.jpg",
+   "source": "bluenote",
+   "start": "2026-11-01T19:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/sunsquabi-columbia-missouri-11-01-2026/event/06006519A71659E5",
+   "timeTBD": true,
+   "title": "SunSquabi",
+   "venue": "Rose Music Hall (Inside)"
   },
   {
    "_slug": "wicker-9a2d05",
@@ -2154,15 +2172,15 @@
  "modified": "2026-10-29",
  "picks": [
   "9f076a30d8f71e25",
+  "09d1639d9680ab5e",
   "8fd69589116a7b8f",
-  "6647875563874b06",
   "1f885ae2b1a074ba",
-  "1f54537526793be3",
+  "10835673f9070dc3",
+  "c132e8a6377bdbd9",
   "80ce0294bea34108",
   "39395612e3b79d82",
   "879725e376f3fd22",
-  "81ad089266813acb",
-  "00cc8a9a7ee7d4b3"
+  "96ef06019c1f47af"
  ],
  "published": "2026-10-26"
 }
