@@ -112,19 +112,6 @@
    "venue": "Memorial Student Union"
   },
   {
-   "_slug": "2026-zombie-pub-crawl-f18123",
-   "categories": [
-    "nightlife"
-   ],
-   "category": "nightlife",
-   "id": "f1812393563e3de9",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9jNzJiODBjNjY0N2Y0NDlmNThmNTQ4ODIxZTFhZGY2MDJjNzBiNTI5MDJhZGY4ZTNkZjRmMzQwZWY3ZDQ3YmI3LXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5MTcwMjI5Mg.avif",
-   "source": "allevents",
-   "start": "2026-10-30T10:00:00-05:00",
-   "title": "2026 Zombie Pub Crawl",
-   "venue": "Downtown Columbia"
-  },
-  {
    "_slug": "cross-country-missouri-vs-sec-championships-ac73c7",
    "categories": [
     "sports"
@@ -479,19 +466,6 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "find-your-people-eccef1",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "eccef1533db2fac6",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9kNzM3MjNlYzU3MGQ3YzcyYjA4ZGE5MTdjYWE0NDJiYjM3MzcwMGMxMzM5NjVhMzJhNTI1ZDFkMjU1NDMyM2NiLXJpbWctdzEyMDAtaDgwMC1kYzA4MDgxOC1nbWlyP3Y9MTc5MzE0NDU5Mw.avif",
-   "source": "allevents",
-   "start": "2026-10-30T17:00:00-05:00",
-   "title": "Find Your People",
-   "venue": "The Salvation Army Columbia, MO"
-  },
-  {
    "_slug": "lee-s-summit-vs-hickman-football-4a82cf",
    "categories": [
     "sports"
@@ -537,6 +511,31 @@
    "start": "2026-10-30T17:30:00-05:00",
    "title": "Fjord",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "trick-or-treat-night-c0399f",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "c0399f1fa741f539",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNjlkOGRjMDFiNjZhZDU4OTY1NjMyYzZhMDBiNWFhYzk1ZGJlOTk3MjY5NTFmNDBhNTA0NTZmN2E4ZDg0Zjk4Mi1yaW1nLXcxMjAwLWgxNTUzLWRjMzgyODU4LWdtaXI_dj0xNzg5MDE4MTE1.avif",
+   "source": "allevents",
+   "start": "2026-10-30T17:30:00-05:00",
+   "title": "Trick-or-Treat Night"
+  },
+  {
+   "_slug": "2026-zombie-pub-crawl-f18123",
+   "categories": [
+    "nightlife"
+   ],
+   "category": "nightlife",
+   "id": "f1812393563e3de9",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9jNzJiODBjNjY0N2Y0NDlmNThmNTQ4ODIxZTFhZGY2MDJjNzBiNTI5MDJhZGY4ZTNkZjRmMzQwZWY3ZDQ3YmI3LXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5MTcwMjI5Mg.avif",
+   "source": "allevents",
+   "start": "2026-10-30T18:00:00-05:00",
+   "title": "2026 Zombie Pub Crawl",
+   "venue": "Downtown Columbia"
   },
   {
    "_slug": "magic-friday-night-commander-e708b8",
@@ -732,18 +731,6 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "trunk-or-treat-8351ef",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "8351ef59ce38759e",
-   "imageUrl": "https://comoevent.com/img/gen/7efa92646bd7f8.webp",
-   "source": "allevents",
-   "start": "2026-10-30T19:00:00-05:00",
-   "title": "Trunk or Treat"
-  },
-  {
    "_slug": "eurydice-by-sarah-ruhl-0c7e88",
    "categories": [
     "community"
@@ -841,16 +828,16 @@
    "venue": "Rose Music Hall"
   },
   {
-   "_slug": "trick-or-treat-night-c0399f",
+   "_slug": "trunk-or-treat-8351ef",
    "categories": [
     "family"
    ],
    "category": "family",
-   "id": "c0399f1fa741f539",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNjlkOGRjMDFiNjZhZDU4OTY1NjMyYzZhMDBiNWFhYzk1ZGJlOTk3MjY5NTFmNDBhNTA0NTZmN2E4ZDg0Zjk4Mi1yaW1nLXcxMjAwLWgxNTUzLWRjMzgyODU4LWdtaXI_dj0xNzg5MDE4MTE1.avif",
+   "id": "8351ef59ce38759e",
+   "imageUrl": "https://comoevent.com/img/gen/7efa92646bd7f8.webp",
    "source": "allevents",
    "start": "2026-10-30T20:00:00-05:00",
-   "title": "Trick-or-Treat Night"
+   "title": "Trunk or Treat"
   },
   {
    "_slug": "friday-october-30th-dj-halloween-dance-party-6f5a28",
@@ -975,6 +962,18 @@
    "venue": "Columbia Farmers Market"
   },
   {
+   "_slug": "spooky-sensory-play-e8ee25",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "e8ee25b9dbba9127",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9iMzZlOWUwNjdiZDhlYWY5OGY4MDA5NGIzOWE0MDZhOTBjODhiODA2N2ZjNDgyYjI5Yjc5NWJmMjI4OTRjZjAzLXJpbWctdzEyMDAtaDE1NTMtZGNmOGM4NzgtZ21pcj92PTE3OTI4NTYzNzE.avif",
+   "source": "allevents",
+   "start": "2026-10-31T09:00:00-05:00",
+   "title": "Spooky Sensory Play"
+  },
+  {
    "_slug": "halloween-world-record-event-07efe9",
    "alsoOn": [
     "https://allevents.in/columbia/halloween-world-record-event/100002003255505142"
@@ -1028,9 +1027,10 @@
   {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
-    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
     "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
-    "https://www.themosy.org/calendar/spooktacular"
+    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
+    "https://www.themosy.org/calendar/spooktacular",
+    "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html"
    ],
    "categories": [
     "music",
@@ -1273,6 +1273,19 @@
    "title": "The Legend of Fools Face: Halloween Night at Cooper's!"
   },
   {
+   "_slug": "ghouls-night-out-vip-b33104",
+   "categories": [
+    "nightlife"
+   ],
+   "category": "nightlife",
+   "id": "b3310448f538309d",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9kMTEwODUwMzBlNTk3OTE2ZDMxMDYzZDg4MDMxYjNjODNjZDM5MGQwYzQyNjZkZWVkOTZjOWU3NTMyMWVhMmNmLXJpbWctdzEyMDAtaDE1NTMtZGMwODA4MDgtZ21pci5qcGc_dj0xNzkzMTcxNzY0.avif",
+   "source": "allevents",
+   "start": "2026-10-31T17:00:00-05:00",
+   "title": "Ghouls Night Out: VIP",
+   "venue": "The Social Room, North 8th Street, Columbia, MO, USA"
+  },
+  {
    "_slug": "halloween-party-in-the-arcade-district-879725",
    "categories": [
     "party",
@@ -1352,6 +1365,18 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "back-water-freaks-out-halloween-at-the-tavern-58a9c4",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "58a9c4465dc37476",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy83ZTE1OTAwYzU1YzlkNzkxNzlmNGY5MDM0NzliNDY4NTI2NDc4OWYyYTY5MDVjNmNhZDkyMjYzM2Y3ZGY2ZGM3LXJpbWctdzEyMDAtaDEyMDAtZGMwODA4MDgtZ21pcj92PTE3ODg2MDc5MDk.avif",
+   "source": "allevents",
+   "start": "2026-10-31T17:30:00-05:00",
+   "title": "Back Water Freaks Out - Halloween At The Tavern"
+  },
+  {
    "_slug": "fastpass-saturday-10-31-df7c98",
    "categories": [
     "party"
@@ -1363,6 +1388,19 @@
    "start": "2026-10-31T17:30:00-05:00",
    "title": "FASTPASS: Saturday 10/31",
    "venue": "MyHouse"
+  },
+  {
+   "_slug": "glow-pickleball-open-play-7dfc57",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "7dfc5716df431a8e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy84YWZlZDZkM2E1ZTczODUzNDgxZGVkMTA5MGNiNmVjNjYxZjI0NjZkZDkxNjVkMzUwZWUzMDI1N2UyYmU5YzhhLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTIzNjcxNjY.avif",
+   "source": "allevents",
+   "start": "2026-10-31T17:30:00-05:00",
+   "title": "Glow Pickleball Open Play",
+   "venue": "The kitchen grill and games"
   },
   {
    "_slug": "2026-zombie-pub-crawl-1910d4",
@@ -1426,19 +1464,6 @@
    "venue": "Christian Fellowship Church"
   },
   {
-   "_slug": "glow-pickleball-open-play-7dfc57",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "7dfc5716df431a8e",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy84YWZlZDZkM2E1ZTczODUzNDgxZGVkMTA5MGNiNmVjNjYxZjI0NjZkZDkxNjVkMzUwZWUzMDI1N2UyYmU5YzhhLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTIzNjcxNjY.avif",
-   "source": "allevents",
-   "start": "2026-10-31T19:00:00-05:00",
-   "title": "Glow Pickleball Open Play",
-   "venue": "The kitchen grill and games"
-  },
-  {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56",
    "alsoOn": [
     "https://thearcadedistrict.org/",
@@ -1457,6 +1482,19 @@
    "ticketUrl": "https://www.eventbrite.com/e/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley-tickets-2002648330065",
    "title": "Live Stand-Up COMEDY at The Tokyo Club - The Return of Bryce Stanley!!!",
    "venue": "The Tokyo Club"
+  },
+  {
+   "_slug": "mu-vs-arkansas-tailgate-all-you-can-eat-buffet-raffle-drink-e52e40",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "e52e40a51002ff2b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy84MWM4NTM0ZTk2NmY3YmM0ZDE3ZjhhOTJjZWU1NDE0YWVmMjkwMjMxOTdkZjU5YjJkM2Q2YTAyOTM4ZGJiYzE0LXJpbWctdzEyMDAtaDYwMC1kY2Y4ZDg1OC1nbWlyLmpwZz92PTE3OTMxNzE3NjM.avif",
+   "source": "allevents",
+   "start": "2026-10-31T19:00:00-05:00",
+   "title": "MU vs Arkansas Tailgate | All You Can Eat Buffet, Raffle, Drink Specials",
+   "venue": "The Kitchen Grill and Games"
   },
   {
    "_slug": "sophie-bock-trumpet-natalia-bolshakova-piano-senior-recital-8d80f5",
@@ -1540,44 +1578,6 @@
    "title": "The 5th Down Bar & Grill Halloween Costume Contest & Party!"
   },
   {
-   "_slug": "back-water-freaks-out-halloween-at-the-tavern-58a9c4",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "58a9c4465dc37476",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy83ZTE1OTAwYzU1YzlkNzkxNzlmNGY5MDM0NzliNDY4NTI2NDc4OWYyYTY5MDVjNmNhZDkyMjYzM2Y3ZGY2ZGM3LXJpbWctdzEyMDAtaDEyMDAtZGMwODA4MDgtZ21pcj92PTE3ODg2MDc5MDk.avif",
-   "source": "allevents",
-   "start": "2026-10-31T20:00:00-05:00",
-   "title": "Back Water Freaks Out - Halloween At The Tavern"
-  },
-  {
-   "_slug": "ghouls-night-out-vip-b33104",
-   "categories": [
-    "nightlife"
-   ],
-   "category": "nightlife",
-   "id": "b3310448f538309d",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9kMTEwODUwMzBlNTk3OTE2ZDMxMDYzZDg4MDMxYjNjODNjZDM5MGQwYzQyNjZkZWVkOTZjOWU3NTMyMWVhMmNmLXJpbWctdzEyMDAtaDE1NTMtZGMwODA4MDgtZ21pci5qcGc_dj0xNzkzMTcxNzY0.avif",
-   "source": "allevents",
-   "start": "2026-10-31T20:00:00-05:00",
-   "title": "Ghouls Night Out: VIP",
-   "venue": "The Social Room, North 8th Street, Columbia, MO, USA"
-  },
-  {
-   "_slug": "mu-vs-arkansas-tailgate-all-you-can-eat-buffet-raffle-drink-e52e40",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "e52e40a51002ff2b",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy84MWM4NTM0ZTk2NmY3YmM0ZDE3ZjhhOTJjZWU1NDE0YWVmMjkwMjMxOTdkZjU5YjJkM2Q2YTAyOTM4ZGJiYzE0LXJpbWctdzEyMDAtaDYwMC1kY2Y4ZDg1OC1nbWlyLmpwZz92PTE3OTMxNzE3NjM.avif",
-   "source": "allevents",
-   "start": "2026-10-31T20:00:00-05:00",
-   "title": "MU vs Arkansas Tailgate | All You Can Eat Buffet, Raffle, Drink Specials",
-   "venue": "The Kitchen Grill and Games"
-  },
-  {
    "_slug": "the-faint-5b0a89",
    "alsoOn": [
     "https://rosemusichall.com/event/the-faint/",
@@ -1656,8 +1656,8 @@
   {
    "_slug": "its-a-2000s-party-halloween-edition-the-blue-note-00cc8a",
    "alsoOn": [
-    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422",
-    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082"
+    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082",
+    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422"
    ],
    "categories": [
     "family",
@@ -1766,10 +1766,10 @@
   {
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
    "alsoOn": [
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
+    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
     "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
     "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
-    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240"
    ],
    "categories": [
     "sports",
@@ -1985,8 +1985,8 @@
   {
    "_slug": "mizzou-volleyball-vs-tennessee-2-pm-8d5bb6",
    "alsoOn": [
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/"
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/",
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001"
    ],
    "categories": [
     "sports",
@@ -2122,20 +2122,17 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "sunsquabi-96ef06",
+   "_slug": "prenatal-yoga-pop-up-33711b",
    "categories": [
-    "music"
+    "community"
    ],
-   "category": "music",
-   "description": "with Babysox",
-   "id": "96ef06019c1f47af",
-   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/07/TheFaint-RMH-Web.jpg",
-   "source": "bluenote",
+   "category": "community",
+   "id": "33711bdc010cec12",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9iZGQwZTBjNTJiMzUwNmQyZDRlMzk1OGYxZjc5ZTA5MjIyM2FmY2RlYjU0NDM4M2ViZTU2ZTAyMTMzZTAxMzJlLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhlOC1nbWlyP3Y9MTc5MzA4OTE4Nw.avif",
+   "source": "allevents",
    "start": "2026-11-01T19:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/sunsquabi-columbia-missouri-11-01-2026/event/06006519A71659E5",
-   "timeTBD": true,
-   "title": "SunSquabi",
-   "venue": "Rose Music Hall (Inside)"
+   "title": "Prenatal Yoga Pop Up",
+   "venue": "MoonYoga"
   },
   {
    "_slug": "wicker-9a2d05",
@@ -2151,6 +2148,21 @@
    "start": "2026-11-01T19:30:00-06:00",
    "title": "Wicker",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "sunsquabi-96ef06",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with Babysox",
+   "id": "96ef06019c1f47af",
+   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/07/TheFaint-RMH-Web.jpg",
+   "source": "bluenote",
+   "start": "2026-11-01T20:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/sunsquabi-columbia-missouri-11-01-2026/event/06006519A71659E5",
+   "title": "SunSquabi",
+   "venue": "Rose Music Hall (Inside)"
   },
   {
    "_slug": "sunsquabi-rose-music-hall-133e2c",
@@ -2169,7 +2181,7 @@
   }
  ],
  "friday": "2026-10-30",
- "modified": "2026-10-29",
+ "modified": "2026-10-30",
  "picks": [
   "9f076a30d8f71e25",
   "09d1639d9680ab5e",
