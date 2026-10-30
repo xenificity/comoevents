@@ -70,7 +70,6 @@
    "description": "Weird Kids’ School’s Out Club offers a full day of hands-on fun for creative, curious kids who like things a little different. Instead of a typical daycare setting, the day focuses on making projects, moving, playing games, listening to music, trying unusual activities, and exploring whatever spark…",
    "end": "2026-10-30T16:30:00-05:00",
    "id": "5071de9c9d7e2411",
-   "imageUrl": "https://comoevent.com/img/gen/a9768482567663.webp",
    "source": "baselocal",
    "start": "2026-10-30T08:30:00-05:00",
    "title": "Weird Kids' School's Out Club",
@@ -89,7 +88,7 @@
    "description": "Designed for little ones from birth to age five and their caregivers, this free Halloween gathering at Lend & Learn features playful sensory experiences, simple crafts, and treats. Costumes are welcome but not required. An initial sensory-friendly indoor period with limited capacity is available, f…",
    "end": "2026-10-30T13:00:00-05:00",
    "id": "10f759587eafb971",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9iODhlYzU5MC1kNDJjLTExZjEtODI4OC1jMWE0M2FkOTlmNjktcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTMzNDIzOTY.avif",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy82OWVjZDA0MC1kNDZjLTExZjEtYmZlNC04N2IzNmFlYzk5MjUtcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTMzNjk3NTI.avif",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-10-30T09:00:00-05:00",
@@ -125,24 +124,6 @@
    "start": "2026-10-30T09:30:00-05:00",
    "title": "Passport Application Walk-in Hours",
    "venue": "Memorial Student Union"
-  },
-  {
-   "_slug": "2026-zombie-pub-crawl-1910d4",
-   "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/2026-zombie-pub-crawl/"
-   ],
-   "categories": [
-    "nightlife"
-   ],
-   "category": "nightlife",
-   "description": "The zombies are taking over Downtown Columbia this Halloween! Join us for the Woodhaven Zombie Pub Crawl on October 31 for a night of costumes, cocktails, spooky fun and supporting a great cause. Your $15 wristband gets you free cover at 20+ participating downtown bars along with exclusive food and ",
-   "end": "2026-10-30T23:00:00-05:00",
-   "id": "1910d45771a42b11",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9jNzJiODBjNjY0N2Y0NDlmNThmNTQ4ODIxZTFhZGY2MDJjNzBiNTI5MDJhZGY4ZTNkZjRmMzQwZWY3ZDQ3YmI3LXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5MTcwMjI5Mg.avif",
-   "source": "allevents",
-   "start": "2026-10-30T10:00:00-05:00",
-   "title": "2026 Zombie Pub Crawl",
-   "venue": "Downtown Columbia"
   },
   {
    "_slug": "2026-zombie-pub-crawl-f18123",
@@ -329,7 +310,6 @@
    "description": "Your leadership starts with knowing what you bring to the table. Designed specifically for graduate students, this interactive workshop will help you build your personal leadership blueprint by exploring your strengths, identifying the values that guide you, and connecting both to how you lead and w",
    "end": "2026-10-30T14:30:00-05:00",
    "id": "8100b4a72ad8103b",
-   "imageUrl": "https://comoevent.com/img/gen/424d31d0a4e07b.webp",
    "source": "engage",
    "start": "2026-10-30T13:00:00-05:00",
    "title": "Your Leadership Blueprint (Graduate / Professional Students)",
@@ -351,18 +331,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "magic-leyline-eve-chaos-draft-2a3825",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "2a3825f6833565a0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy80ZGFmZGFmNzMwNTkyYjBjMTc4N2NjMWNmOWQ0MTVhMWE5MjBjZGVmNzZiNzMzZDE5OWNmMjgxNzlhOTYxMDhhLXJpbWctdzEyMDAtaDY3NS1kYzI4MjgyOC1nbWlyP3Y9MTc5Mjk2NzQ3MA.avif",
-   "source": "allevents",
-   "start": "2026-10-30T13:45:00-05:00",
-   "title": "MAGIC: Leyline Eve Chaos Draft"
-  },
-  {
    "_slug": "device-advice-and-tech-help-drop-in-50d847",
    "categories": [
     "community"
@@ -371,7 +339,6 @@
    "description": "Visit our computer lab to enhance your technology skills. Library trainers can help you with the basic functions of your Windows, Chrome, Android or Apple laptop or device. You can also use self-paced tutorials to work on keyboarding skills. Staff are unable to troubleshoot or repair malfunctioning ",
    "end": "2026-10-30T15:30:00-05:00",
    "id": "50d84701fe72ac82",
-   "imageUrl": "https://comoevent.com/img/gen/5293fdbcd054d6.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-10-30T14:00:00-05:00",
@@ -406,7 +373,6 @@
    "description": "Young engineers ages 8 to 14 can explore basic computer programming with the Sphero BOLT+, a robotic ball they will guide through a series of obstacles and an all-things-fall course.",
    "end": "2026-10-30T14:45:00-05:00",
    "id": "19005b8c7fe4ddbd",
-   "imageUrl": "https://comoevent.com/img/gen/3636509bc298e9.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-10-30T14:00:00-05:00",
@@ -451,7 +417,6 @@
    "description": "It’s that time of year! The CUTEST day of the year! Join us for Halloweenie, the safest trick or treating in Columbia! Friday Oct 30th from 4-6pm local businesses will have all the trick-or-treating goodies! Bring the family, grab some friends, and get out for the cutest day! Don’t forget that the S",
    "end": "2026-10-30T18:00:00-05:00",
    "id": "8f7fb6522f1d68aa",
-   "imageUrl": "https://comoevent.com/img/gen/3883a99534876f.webp",
    "source": "visitcolumbia",
    "start": "2026-10-30T16:00:00-05:00",
    "title": "Halloweenie in The District"
@@ -546,6 +511,24 @@
    "start": "2026-10-30T17:30:00-05:00",
    "title": "Fjord",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "2026-zombie-pub-crawl-1910d4",
+   "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/2026-zombie-pub-crawl/"
+   ],
+   "categories": [
+    "nightlife"
+   ],
+   "category": "nightlife",
+   "description": "The zombies are taking over Downtown Columbia this Halloween! Join us for the Woodhaven Zombie Pub Crawl on October 31 for a night of costumes, cocktails, spooky fun and supporting a great cause. Your $15 wristband gets you free cover at 20+ participating downtown bars along with exclusive food and ",
+   "end": "2026-10-30T23:00:00-05:00",
+   "id": "1910d45771a42b11",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9jNzJiODBjNjY0N2Y0NDlmNThmNTQ4ODIxZTFhZGY2MDJjNzBiNTI5MDJhZGY4ZTNkZjRmMzQwZWY3ZDQ3YmI3LXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5MTcwMjI5Mg.avif",
+   "source": "allevents",
+   "start": "2026-10-30T18:00:00-05:00",
+   "title": "2026 Zombie Pub Crawl",
+   "venue": "Downtown Columbia"
   },
   {
    "_slug": "magic-friday-night-commander-e708b8",
@@ -727,6 +710,18 @@
    "venue": "The Tokyo Club"
   },
   {
+   "_slug": "magic-leyline-eve-chaos-draft-2a3825",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "2a3825f6833565a0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy80ZGFmZGFmNzMwNTkyYjBjMTc4N2NjMWNmOWQ0MTVhMWE5MjBjZGVmNzZiNzMzZDE5OWNmMjgxNzlhOTYxMDhhLXJpbWctdzEyMDAtaDY3NS1kYzI4MjgyOC1nbWlyP3Y9MTc5Mjk2NzQ3MA.avif",
+   "source": "allevents",
+   "start": "2026-10-30T19:00:00-05:00",
+   "title": "MAGIC: Leyline Eve Chaos Draft"
+  },
+  {
    "_slug": "ryan-lowe-euphonium-recital-f9d6f9",
    "categories": [
     "campus"
@@ -819,6 +814,9 @@
   },
   {
    "_slug": "dance-of-the-dead-rose-music-hall-108356",
+   "alsoOn": [
+    "https://rosemusichall.com/event/dance-of-the-dead-2/"
+   ],
    "categories": [
     "arts",
     "music"
@@ -830,6 +828,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Dance-of-the-Dead-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-10-30T20:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/dance-of-the-dead-ft-drona-columbia-missouri-10-30-2026/event/0600652E9EA66545",
    "title": "Dance of the Dead – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -936,19 +935,18 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "myhouse-friday-10-30-night-80ce02",
+   "_slug": "single-awareness-dinner-columbia-foodies-new-friends-1301d3",
    "categories": [
-    "party"
+    "food"
    ],
-   "category": "party",
-   "description": "Purchase a FastPass to skip the line! Ticket is a FastPass to skip the line; doors are usually around 10 PM.",
-   "id": "80ce0294bea34108",
-   "imageUrl": "https://comoevent.com/img/gen/p-f7d2079e2749ef.webp",
-   "source": "posh",
-   "start": "2026-10-30T22:00:00-05:00",
-   "ticketUrl": "https://posh.vip/e/fastpass-friday-1030",
-   "title": "MyHouse Friday 10/30 Night",
-   "venue": "MyHouse"
+   "category": "food",
+   "id": "1301d322972f1054",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jMWQ3NzM2OTU5ZjdhZWIxZTExMjgzYzI1MDJlNmViMTgwNzAxZmE4YzBjZjFjMTcwYjJjNzc1MTFmNWFkNzkyLXJpbWctdzk3MS1oODU1LWRjMTQxYTJkLWdtaXIuanBnP3Y9MTc4Mjc3MzcwNA.avif",
+   "source": "allevents",
+   "start": "2026-10-31T00:00:00-05:00",
+   "timeTBD": true,
+   "title": "Single Awareness Dinner: Columbia | Foodies + New Friends",
+   "venue": "Restaurant of the Week"
   },
   {
    "_slug": "blue-star-mothers-community-5k-808b4a",
@@ -1045,9 +1043,9 @@
   {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
-    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
-    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
     "https://www.themosy.org/calendar/spooktacular",
+    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
+    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
     "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html"
    ],
    "categories": [
@@ -1125,6 +1123,18 @@
    "start": "2026-10-31T12:30:00-05:00",
    "title": "Fjord",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "bmw-of-columbia-trunk-or-treat-3d9104",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "3d9104b6730106b7",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNWQxYThkMDZjNzQ0Y2MzNGUxZjQ5Yjc5MzJlZTAxMDY4MDliMWQ4NDk5YzEyNTM4ODhhN2JiNDQyMDhkMjBmOS1yaW1nLXcxMjAwLWg2NzUtZGNjOGI4YTgtZ21pcj92PTE3OTExNDE3NDU.avif",
+   "source": "allevents",
+   "start": "2026-10-31T13:00:00-05:00",
+   "title": "BMW of Columbia Trunk or Treat"
   },
   {
    "_slug": "bhagwad-gita-class-fb842e",
@@ -1279,19 +1289,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "single-awareness-dinner-columbia-foodies-new-friends-1301d3",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "id": "1301d322972f1054",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jMWQ3NzM2OTU5ZjdhZWIxZTExMjgzYzI1MDJlNmViMTgwNzAxZmE4YzBjZjFjMTcwYjJjNzc1MTFmNWFkNzkyLXJpbWctdzk3MS1oODU1LWRjMTQxYTJkLWdtaXIuanBnP3Y9MTc4Mjc3MzcwNA.avif",
-   "source": "allevents",
-   "start": "2026-10-31T16:00:00-05:00",
-   "title": "Single Awareness Dinner: Columbia | Foodies + New Friends",
-   "venue": "Restaurant of the Week"
-  },
-  {
    "_slug": "ghouls-night-out-vip-b33104",
    "categories": [
     "nightlife"
@@ -1402,24 +1399,11 @@
    ],
    "category": "party",
    "id": "df7c98aca61d483d",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy80YzliOGZhMC1kM2U5LTExZjEtODI4OC1jMWE0M2FkOTlmNjktcmltZy13MTIwMC1oMTE5NC1kYzA4MDgwOC1nbWlyLndlYnA_dj0xNzkzMzEzNDM5.avif",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8zMTk4NmZmMC1kNDcyLTExZjEtYmZlNC04N2IzNmFlYzk5MjUtcmltZy13MTIwMC1oMTE5NC1kYzA4MDgwOC1nbWlyLndlYnA_dj0xNzkzMzcyMjM3.avif",
    "source": "allevents",
    "start": "2026-10-31T17:30:00-05:00",
    "title": "FASTPASS: Saturday 10/31",
    "venue": "MyHouse"
-  },
-  {
-   "_slug": "glow-pickleball-open-play-7dfc57",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "7dfc5716df431a8e",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy84YWZlZDZkM2E1ZTczODUzNDgxZGVkMTA5MGNiNmVjNjYxZjI0NjZkZDkxNjVkMzUwZWUzMDI1N2UyYmU5YzhhLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTIzNjcxNjY.avif",
-   "source": "allevents",
-   "start": "2026-10-31T17:30:00-05:00",
-   "title": "Glow Pickleball Open Play",
-   "venue": "The kitchen grill and games"
   },
   {
    "_slug": "fools-face-0c67f9",
@@ -1472,10 +1456,22 @@
    "venue": "Christian Fellowship Church"
   },
   {
+   "_slug": "ladybird-halloween-party-f1e707",
+   "categories": [
+    "party"
+   ],
+   "category": "party",
+   "id": "f1e7079f2e730c22",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy81NDY2MzdhOTlkYTVjZGM3N2QwYWM1ZTc1NWM4OGNkM2FiN2M1YTYzNGM0MTE3NTE4NDRmY2E3ZDc5YzhiYjdlLXJpbWctdzEyMDAtaDY3Ni1kYzE4MTgxOC1nbWlyP3Y9MTc5MDY4Njk1Mw.avif",
+   "source": "allevents",
+   "start": "2026-10-31T19:00:00-05:00",
+   "title": "Ladybird Halloween Party! 🎃"
+  },
+  {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065"
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts"
@@ -1574,17 +1570,19 @@
   {
    "_slug": "the-faint-5b0a89",
    "alsoOn": [
-    "https://allevents.in/columbia/the-faint/210001871606536"
+    "https://allevents.in/columbia/the-faint/210001871606536",
+    "https://rosemusichall.com/event/the-faint/"
    ],
    "categories": [
-    "community"
+    "music"
    ],
-   "category": "community",
+   "category": "music",
    "description": "The Faint takes the stage in the indoor space at Rose Music Hall. The performance is presented inside the venue.",
    "id": "5b0a8924ad58c204",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zNzhkNjMwYzc0NWMxZTk1MTEwZWQyYmVlZDMyYjYwMmRjOTgwYjJkNTFkZmZjOWQyYjM3YTExNDZhMmQ4ZmQwLXJpbWctdzEwMjQtaDU3Ni1kYzc4Nzg3OC1nbWlyLmpwZz92PTE3ODU2NjcyNzY.avif",
    "source": "baselocal",
    "start": "2026-10-31T20:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/the-faint-columbia-missouri-10-31-2026/event/060064F8DBBC69E2",
    "title": "The Faint",
    "venue": "Rose Music Hall"
   },
@@ -1648,12 +1646,10 @@
   {
    "_slug": "its-a-2000s-party-halloween-edition-the-blue-note-00cc8a",
    "alsoOn": [
-    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082",
-    "https://allevents.in/columbia/ladybird-halloween-party/200030751317422"
+    "https://allevents.in/columbia/its-a-2000s-halloween-party-ages-18/210002889261082"
    ],
    "categories": [
-    "family",
-    "party"
+    "family"
    ],
    "category": "family",
    "end": "2026-10-31T23:00:00-05:00",
@@ -1746,10 +1742,10 @@
   {
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
-    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
-    "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu"
+    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
+    "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
+    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu"
    ],
    "categories": [
     "sports",
@@ -1977,8 +1973,8 @@
   {
    "_slug": "mizzou-volleyball-vs-tennessee-2-pm-8d5bb6",
    "alsoOn": [
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/"
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/",
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001"
    ],
    "categories": [
     "sports",
@@ -2112,18 +2108,6 @@
    "start": "2026-11-01T19:00:00-06:00",
    "title": "Fjord",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "liberty-tree-dedication-deb69d",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "deb69d4afc499f65",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9kNDA0OWEwMjVjNzdiNDIyNWNlMTVmYWZiODM3MjdlMzM4MzZmNTI2NTI4YTdlYjQ4YjU5NTJlOGEzZjdiYTVlLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk2NzQ3MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-01T19:00:00-06:00",
-   "title": "Liberty Tree Dedication"
   },
   {
    "_slug": "prenatal-yoga-pop-up-33711b",
