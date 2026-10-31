@@ -96,6 +96,22 @@
    "venue": "Lend & Learn Toy Lending Library"
   },
   {
+   "_slug": "halloween-party-df55aa",
+   "categories": [
+    "party",
+    "family"
+   ],
+   "category": "party",
+   "description": "Designed for little ones from birth to age five and their caregivers, this free Halloween gathering at Lend & Learn features playful sensory experiences, simple crafts, and treats. Costumes are welcome but not required. An initial sensory-friendly indoor period with limited capacity is available, f…",
+   "end": "2026-10-30T13:00:00-05:00",
+   "id": "df55aa9d2be4cc10",
+   "price": "Free",
+   "source": "baselocal",
+   "start": "2026-10-30T09:00:00-05:00",
+   "title": "Halloween Party",
+   "venue": "Lend & Learn Toy Lending Library"
+  },
+  {
    "_slug": "lakshmi-abhishekam-c4d5b4",
    "categories": [
     "religious",
@@ -153,17 +169,13 @@
   },
   {
    "_slug": "instrument-petting-zoo-cfcda5",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17132397"
-   ],
    "categories": [
-    "campus"
+    "community"
    ],
-   "category": "campus",
+   "category": "community",
    "description": "Explore a hands-on instrument petting zoo with brass, string, woodwind, and percussion available to try. Student volunteers from Mizzou will offer guidance as participants experiment with sounds and get a feel for each instrument. This event is sponsored by the Paul D. Higday Mozart Trust and the U…",
    "end": "2026-10-30T11:30:00-05:00",
    "id": "cfcda55632eb60c8",
-   "price": "Free",
    "source": "baselocal",
    "start": "2026-10-30T10:00:00-05:00",
    "title": "Instrument Petting Zoo",
@@ -200,9 +212,6 @@
   },
   {
    "_slug": "eurydice-d080b7",
-   "alsoOn": [
-    "https://calendar.stephens.edu/event/eurydice"
-   ],
    "categories": [
     "arts"
    ],
@@ -255,7 +264,6 @@
    "description": "Missouri Cares presents Phantom Field, a haunted house attraction in Fulton that runs from 7 to 11 p.m. every Friday and Saturday in October u…",
    "end": "2026-10-30T23:55:00-05:00",
    "id": "e177409514018c25",
-   "imageUrl": "https://comoevent.com/img/gen/f9a4b40cd98f6d.webp",
    "price": "$15",
    "source": "vox",
    "start": "2026-10-30T12:00:00-05:00",
@@ -362,18 +370,13 @@
   },
   {
    "_slug": "sphero-nauts-registration-full-waitlist-available-19005b",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17132469",
-    "https://events.dbrl.org/event/17132468"
-   ],
    "categories": [
-    "campus"
+    "community"
    ],
-   "category": "campus",
+   "category": "community",
    "description": "Young engineers ages 8 to 14 can explore basic computer programming with the Sphero BOLT+, a robotic ball they will guide through a series of obstacles and an all-things-fall course.",
    "end": "2026-10-30T14:45:00-05:00",
    "id": "19005b8c7fe4ddbd",
-   "price": "Free",
    "source": "baselocal",
    "start": "2026-10-30T14:00:00-05:00",
    "title": "Sphero-nauts (Registration Full, Waitlist Available)",
@@ -391,6 +394,19 @@
    "description": "Experience an intimate, candlelit concert in Columbia as a string quartet brings Halloween-inspired music to life at voco The Tiger Hotel. The Lisetso String Quartet leads a program that blends iconic themes and classical favorites, including Thriller by Michael Jackson, Gounod’s Funeral March of a…",
    "id": "519b41c7e486ebc3",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy85NmQzYzdiNmNlMmNiZWMzZDE3YjNkMWUxOWZhM2E1NWYzMzhiZmY2OTEyN2QyMjc1YjhkMmZkYzNiNTZlYjM3LXJpbWctdzc2OC1oNzY4LWRjMDgxODE4LWdtaXI_dj0xNzg4MjUxMTU5.avif",
+   "source": "baselocal",
+   "start": "2026-10-30T14:45:00-05:00",
+   "title": "Candlelight: A Haunted Evening of Halloween Classics",
+   "venue": "The Tiger Hotel"
+  },
+  {
+   "_slug": "candlelight-a-haunted-evening-of-halloween-classics-7e4507",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Experience an intimate, candlelit concert in Columbia as a string quartet brings Halloween-inspired music to life at voco The Tiger Hotel. The Lisetso String Quartet leads a program that blends iconic themes and classical favorites, including Thriller by Michael Jackson, Gounod’s Funeral March of a…",
+   "id": "7e45077bf0619fd2",
    "source": "baselocal",
    "start": "2026-10-30T14:45:00-05:00",
    "title": "Candlelight: A Haunted Evening of Halloween Classics",
@@ -491,7 +507,6 @@
    "description": "Come join us for our Halloween murder mystery night! We will be playing both Murder at Castle Bloodmoor and Murder at the Museum! Sign up early to reserve your spot before the night begins.",
    "end": "2026-10-30T19:00:00-05:00",
    "id": "987a594298681fee",
-   "imageUrl": "https://comoevent.com/img/gen/d1babe921d0788.webp",
    "source": "engage",
    "start": "2026-10-30T17:00:00-05:00",
    "title": "WHODUNNIT? Murder Mystery Night",
@@ -539,7 +554,6 @@
    "description": "At Hexagon Alley in Columbia, MO, this Magic: The Gathering Commander night welcomes players of every experience level. Pods are organized to match groups well, and door prizes add extra excitement. The event also features Pick 2 Draft pick-up games and a monthly rotation of Commander variants for…",
    "end": "2026-10-30T21:00:00-05:00",
    "id": "e708b8fcc47850af",
-   "imageUrl": "https://comoevent.com/img/gen/b946da70740467.webp",
    "source": "baselocal",
    "start": "2026-10-30T18:00:00-05:00",
    "title": "Magic: Friday Night Commander",
@@ -562,9 +576,6 @@
   },
   {
    "_slug": "superheroes-heroes-dinner-at-park-restaurant-9f076a",
-   "alsoOn": [
-    "https://allevents.in/columbia/superheroes-and-heroes-dinner-at-park-restaurant/100002003431167553"
-   ],
    "categories": [
     "food"
    ],
@@ -596,9 +607,6 @@
   },
   {
    "_slug": "bored-gamer-night-spooky-edition-426eac",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17133710"
-   ],
    "categories": [
     "community"
    ],
@@ -606,8 +614,6 @@
    "description": "Bored Gamer Night gets a spooky twist during an after hours gathering at Columbia Public Library. Try new games or revisit favorites while socializing with fellow gamers. A variety of games and snacks will be provided, and you are welcome to bring your own games. Costumes are encouraged but not req…",
    "end": "2026-10-30T21:00:00-05:00",
    "id": "426eac6451659ba2",
-   "imageUrl": "https://comoevent.com/img/gen/70539224316851.webp",
-   "price": "Free",
    "source": "baselocal",
    "start": "2026-10-30T18:30:00-05:00",
    "title": "Bored Gamer Night: Spooky Edition",
@@ -691,10 +697,38 @@
    "venue": "Living Canvas Tattoo & Body Piercing"
   },
   {
-   "_slug": "live-stand-up-comedy-with-lady-moe-joe-and-jd-rowland-8fd695",
-   "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-with-lady-moe-joe-and-jd-rowland/100002002168989344"
+   "_slug": "ladies-night-night-of-the-living-canvas-296b3a",
+   "categories": [
+    "nightlife"
    ],
+   "category": "nightlife",
+   "description": "Celebrate a girls night out where costumes are encouraged and the vibe is all about living canvas creativity. Flash tattoos are available for $50, or $40 when you bring a friend. Jewelry upgrades are 25% off. Space is first come, first served, so plan accordingly and invite a friend or a sister to…",
+   "end": "2026-10-30T22:00:00-05:00",
+   "id": "296b3a0c1d8a89df",
+   "source": "baselocal",
+   "start": "2026-10-30T19:00:00-05:00",
+   "title": "Ladies Night: Night of the Living Canvas",
+   "venue": "Living Canvas Tattoo & Body Piercing"
+  },
+  {
+   "_slug": "latin-night-como-dia-de-los-muertos-halloween-ee0fc4",
+   "categories": [
+    "music",
+    "party"
+   ],
+   "category": "music",
+   "description": "Slacker University Presents · ft. Jonny Fuzion & JayRu",
+   "id": "ee0fc41139731ad1",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/09/halloween-party-1200-600-press-photo-jpg-e1789401764445.jpg",
+   "source": "bluenote",
+   "start": "2026-10-30T19:00:00-05:00",
+   "ticketUrl": "https://www.ticketmaster.com/latin-night-como-halloween-ages-18-columbia-missouri-10-30-2026/event/0600652BA4428DD6",
+   "timeTBD": true,
+   "title": "Latin Night CoMo: Dia De Los Muertos Halloween",
+   "venue": "The Blue Note"
+  },
+  {
+   "_slug": "live-stand-up-comedy-with-lady-moe-joe-and-jd-rowland-8fd695",
    "categories": [
     "arts"
    ],
@@ -744,7 +778,6 @@
    "description": "Eurydice reimagines the classic Greek myth of Orpheus and Eurydice from Eurydice’s perspective. After falling deeply in love with Orpheus, a g…",
    "end": "2026-10-30T21:30:00-05:00",
    "id": "0c7e885a0235b710",
-   "imageUrl": "https://comoevent.com/img/gen/9256fe9283f43f.webp",
    "price": "$17.05",
    "source": "vox",
    "start": "2026-10-30T19:30:00-05:00",
@@ -806,7 +839,6 @@
    "description": "Start the weekend on a creative, music filled note at Ladybird Cafe. A DJ keeps the energy moving while craft materials are available throughout the evening, so you can make something between songs, dance when the mood hits, sip a drink, browse, or simply relax with friends. Projects rotate, and th…",
    "end": "2026-10-30T23:00:00-05:00",
    "id": "2b3596efcad32e23",
-   "imageUrl": "https://comoevent.com/img/gen/2366f2f412bbaa.webp",
    "source": "baselocal",
    "start": "2026-10-30T20:00:00-05:00",
    "title": "Craft Club",
@@ -935,6 +967,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "glow-pickleball-open-play-7dfc57",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "7dfc5716df431a8e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy84YWZlZDZkM2E1ZTczODUzNDgxZGVkMTA5MGNiNmVjNjYxZjI0NjZkZDkxNjVkMzUwZWUzMDI1N2UyYmU5YzhhLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTIzNjcxNjY.avif",
+   "source": "allevents",
+   "start": "2026-10-31T00:00:00-05:00",
+   "title": "Glow Pickleball Open Play",
+   "venue": "The kitchen grill and games"
+  },
+  {
    "_slug": "single-awareness-dinner-columbia-foodies-new-friends-1301d3",
    "categories": [
     "food"
@@ -1043,10 +1088,9 @@
   {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
-    "https://www.themosy.org/calendar/spooktacular",
-    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
     "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
-    "https://www.voxmagazine.com/calendar/a-spooktacular-symphony-halloween-with-the-mosy/event_4ac41618-e9b8-48e3-a65c-e460f04a47ca.html"
+    "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
+    "https://www.themosy.org/calendar/spooktacular"
    ],
    "categories": [
     "music",
@@ -1125,16 +1169,16 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "bmw-of-columbia-trunk-or-treat-3d9104",
+   "_slug": "hex-o-ween-ii-the-hexrooms-halloween-party-5f8e2e",
    "categories": [
-    "family"
+    "party"
    ],
-   "category": "family",
-   "id": "3d9104b6730106b7",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNWQxYThkMDZjNzQ0Y2MzNGUxZjQ5Yjc5MzJlZTAxMDY4MDliMWQ4NDk5YzEyNTM4ODhhN2JiNDQyMDhkMjBmOS1yaW1nLXcxMjAwLWg2NzUtZGNjOGI4YTgtZ21pcj92PTE3OTExNDE3NDU.avif",
+   "category": "party",
+   "id": "5f8e2e4ff175635c",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy84ODk0NDRjMTA4MGQ2NDVjODc0NTA1NWIyZWVjYmU2ZjQ0ZDFiYmI1MmIwNjY2OGE4Y2ZlYmNjNjY0NDRiZmQ4LXJpbWctdzEwODAtaDEzNTAtZGM4ODc4MzgtZ21pcj92PTE3OTI0MjgyMzg.avif",
    "source": "allevents",
    "start": "2026-10-31T13:00:00-05:00",
-   "title": "BMW of Columbia Trunk or Treat"
+   "title": "Hex-o-ween II: The Hexrooms - Halloween Party"
   },
   {
    "_slug": "bhagwad-gita-class-fb842e",
@@ -1289,6 +1333,18 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "the-village-grand-opening-trunk-or-treat-c89445",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "c8944564ed03e459",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMmI3MDBjOTJhMWY0YmQ4YmMzZWFjN2M3YjRiNzJhMjA4NWQwOWJiODhmZDIwYWVjYzU3OTBlOTFkYTcyNjEzOS1yaW1nLXcxMTU0LWgxMzQ2LWRjZjhmOGU4LWdtaXI_dj0xNzkyMzc1Mzgz.avif",
+   "source": "allevents",
+   "start": "2026-10-31T16:00:00-05:00",
+   "title": "The Village Grand Opening- Trunk or Treat"
+  },
+  {
    "_slug": "ghouls-night-out-vip-b33104",
    "categories": [
     "nightlife"
@@ -1406,6 +1462,18 @@
    "venue": "MyHouse"
   },
   {
+   "_slug": "bmw-of-columbia-trunk-or-treat-3d9104",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "3d9104b6730106b7",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNWQxYThkMDZjNzQ0Y2MzNGUxZjQ5Yjc5MzJlZTAxMDY4MDliMWQ4NDk5YzEyNTM4ODhhN2JiNDQyMDhkMjBmOS1yaW1nLXcxMjAwLWg2NzUtZGNjOGI4YTgtZ21pcj92PTE3OTExNDE3NDU.avif",
+   "source": "allevents",
+   "start": "2026-10-31T18:00:00-05:00",
+   "title": "BMW of Columbia Trunk or Treat"
+  },
+  {
    "_slug": "fools-face-0c67f9",
    "alsoOn": [
     "https://allevents.in/columbia/the-legend-of-fools-face-halloween-night-at-coopers/200030841889414"
@@ -1451,21 +1519,28 @@
    "id": "b5295639ce79f6de",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy84M2ZlZDhjYTAzYzk2MzY1MjdlZjhhMDc1NWUzNThmMWMyMGU3YWQ5ZDBhZTVlOWQ1YWQ5NzIxY2E5NjI2MDUxLXJpbWctdzEyMDAtaDY3NS1kY2E4OTg5OC1nbWlyP3Y9MTc5MDQzNzY2NA.avif",
    "source": "allevents",
-   "start": "2026-10-31T19:00:00-05:00",
+   "start": "2026-10-31T18:30:00-05:00",
    "title": "Fall Festival 2026",
    "venue": "Christian Fellowship Church"
   },
   {
    "_slug": "ladybird-halloween-party-f1e707",
+   "alsoOn": [
+    "https://thebluenote.com/event/its-a-2000s-halloween-party/"
+   ],
    "categories": [
-    "party"
+    "party",
+    "music"
    ],
    "category": "party",
+   "description": "Slacker University Presents · with The Ransom Brothers",
    "id": "f1e7079f2e730c22",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy81NDY2MzdhOTlkYTVjZGM3N2QwYWM1ZTc1NWM4OGNkM2FiN2M1YTYzNGM0MTE3NTE4NDRmY2E3ZDc5YzhiYjdlLXJpbWctdzEyMDAtaDY3Ni1kYzE4MTgxOC1nbWlyP3Y9MTc5MDY4Njk1Mw.avif",
    "source": "allevents",
    "start": "2026-10-31T19:00:00-05:00",
-   "title": "Ladybird Halloween Party! 🎃"
+   "ticketUrl": "https://www.ticketmaster.com/its-a-2000s-halloween-party-ages-columbia-missouri-10-31-2026/event/060065239058635A",
+   "title": "Ladybird Halloween Party! 🎃",
+   "venue": "The Blue Note"
   },
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56",
@@ -1530,18 +1605,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "bryce-stanley-returns-for-one-show-only-8e07ed",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "8e07ed8d1345627a",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNDc3N2FlODAwNmRhM2RiNDc0Y2M2OWMzMzE2N2ZjYmU1Y2E5NTg2MTk0MmYzZjllMzVjYjQwOTFiYmEyNWQwYi1yaW1nLXcxMjAwLWg2MDAtZGMwODA4MDgtZ21pcj92PTE3OTMxNDQ0MjU.avif",
-   "source": "allevents",
-   "start": "2026-10-31T19:30:00-05:00",
-   "title": "Bryce Stanley Returns for ONE SHOW ONLY!!!"
-  },
-  {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-93eb66",
    "categories": [
     "arts"
@@ -1568,21 +1631,31 @@
    "title": "The 5th Down Bar & Grill Halloween Costume Contest & Party!"
   },
   {
+   "_slug": "bryce-stanley-returns-for-one-show-only-8e07ed",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "8e07ed8d1345627a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNDc3N2FlODAwNmRhM2RiNDc0Y2M2OWMzMzE2N2ZjYmU1Y2E5NTg2MTk0MmYzZjllMzVjYjQwOTFiYmEyNWQwYi1yaW1nLXcxMjAwLWg2MDAtZGMwODA4MDgtZ21pcj92PTE3OTMxNDQ0MjU.avif",
+   "source": "allevents",
+   "start": "2026-10-31T20:00:00-05:00",
+   "title": "Bryce Stanley Returns for ONE SHOW ONLY!!!"
+  },
+  {
    "_slug": "the-faint-5b0a89",
    "alsoOn": [
-    "https://allevents.in/columbia/the-faint/210001871606536",
-    "https://rosemusichall.com/event/the-faint/"
+    "https://allevents.in/columbia/the-faint/210001871606536"
    ],
    "categories": [
-    "music"
+    "community"
    ],
-   "category": "music",
+   "category": "community",
    "description": "The Faint takes the stage in the indoor space at Rose Music Hall. The performance is presented inside the venue.",
    "id": "5b0a8924ad58c204",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zNzhkNjMwYzc0NWMxZTk1MTEwZWQyYmVlZDMyYjYwMmRjOTgwYjJkNTFkZmZjOWQyYjM3YTExNDZhMmQ4ZmQwLXJpbWctdzEwMjQtaDU3Ni1kYzc4Nzg3OC1nbWlyLmpwZz92PTE3ODU2NjcyNzY.avif",
    "source": "baselocal",
    "start": "2026-10-31T20:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/the-faint-columbia-missouri-10-31-2026/event/060064F8DBBC69E2",
    "title": "The Faint",
    "venue": "Rose Music Hall"
   },
@@ -1615,18 +1688,6 @@
    "start": "2026-10-31T20:30:00-05:00",
    "title": "Wicker",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "circa-salvage-sale-4514e3",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "4514e3865eef7205",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvZjcxYTMyMjk1NTBhZTZkZGFiNWM2MDQyMTJmMTliYmVkMzFiYThkOWZhNDNmYTc2MWMyOGUyYjdmZjI3ZjQ1ZC1yaW1nLXcxMjAwLWg2NzUtZGNmOGY4ZjgtZ21pcj92PTE3OTMxNDQzODk.avif",
-   "source": "allevents",
-   "start": "2026-10-31T20:45:00-05:00",
-   "title": "Circa Salvage Sale"
   },
   {
    "_slug": "hardcore-comedy-at-the-tokyo-club-261a77",
@@ -1671,18 +1732,6 @@
    "source": "allevents",
    "start": "2026-10-31T21:00:00-05:00",
    "title": "Live - Hardcore Comedy Crowd-work with Lady Moe Joe!!"
-  },
-  {
-   "_slug": "saturday-morning-science-oct-31-2026-a751aa",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "a751aa4d7dff0d3b",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy82NjRhNjZkYTljNDgwNWVjMzEyNjY1MWFkMTdmZjc0Nzk0NjJlOTY5ZThhNjdhYTJmMjA4ZmQ0NDNmMGY1NjI2LXJpbWctdzEyMDAtaDYwMC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MzE0NDQxMg.avif",
-   "source": "allevents",
-   "start": "2026-10-31T21:30:00-05:00",
-   "title": "Saturday Morning Science - Oct. 31, 2026"
   },
   {
    "_slug": "myhouse-saturday-10-31-night-a153ab",
@@ -1742,9 +1791,9 @@
   {
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
    "alsoOn": [
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
     "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
     "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
     "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu"
    ],
    "categories": [
@@ -1760,18 +1809,6 @@
    "start": "2026-11-01T12:00:00-06:00",
    "title": "Mizzou Soccer vs. LSU",
    "venue": "Audrey J. Walton Stadium"
-  },
-  {
-   "_slug": "night-of-remembrance-a45879",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "a45879e0a7e91f68",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9jYzk0ODY5YzRkMTAzMzJkZTk5ZmUzZjA4NmRkYTI5ZTYwZDQ0YWUzMGJjZjJhNGNjOGJlYjhhZTQyM2FjOGEwLXJpbWctdzEwODAtaDEzNTAtZGMwODA4MDgtZ21pcj92PTE3OTI4NDQzOTY.avif",
-   "source": "allevents",
-   "start": "2026-11-01T12:00:00-06:00",
-   "title": "Night of Remembrance"
   },
   {
    "_slug": "retro-pre-release-duskmourn-house-of-horrors-237c26",
@@ -2006,6 +2043,18 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "night-of-remembrance-a45879",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "a45879e0a7e91f68",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9jYzk0ODY5YzRkMTAzMzJkZTk5ZmUzZjA4NmRkYTI5ZTYwZDQ0YWUzMGJjZjJhNGNjOGJlYjhhZTQyM2FjOGEwLXJpbWctdzEwODAtaDEzNTAtZGMwODA4MDgtZ21pcj92PTE3OTI4NDQzOTY.avif",
+   "source": "allevents",
+   "start": "2026-11-01T14:00:00-06:00",
+   "title": "Night of Remembrance"
+  },
+  {
    "_slug": "the-barroom-billies-1a17ee",
    "categories": [
     "music"
@@ -2095,6 +2144,18 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "magic-reality-fracture-store-championship-576809",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "5768090feb65e73d",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9kMDExYTk2ZjlhNTEwYTAyMjM3OWY0YTFlODU3YTQ3ZTRlZjNlOTEwNzA3MjVjOWRkNTQ4ODk3NmVlYzE2MzQ2LXJpbWctdzEyMDAtaDY3NS1kYzQ4NDg0OC1nbWlyP3Y9MTc5MzE0NDQ0Mg.avif",
+   "source": "allevents",
+   "start": "2026-11-01T17:00:00-06:00",
+   "title": "MAGIC: Reality Fracture Store Championship"
+  },
+  {
    "_slug": "fjord-b11fd4",
    "categories": [
     "arts"
@@ -2138,21 +2199,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "sunsquabi-96ef06",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "with Babysox",
-   "id": "96ef06019c1f47af",
-   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/07/TheFaint-RMH-Web.jpg",
-   "source": "bluenote",
-   "start": "2026-11-01T20:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/sunsquabi-columbia-missouri-11-01-2026/event/06006519A71659E5",
-   "title": "SunSquabi",
-   "venue": "Rose Music Hall (Inside)"
-  },
-  {
    "_slug": "sunsquabi-rose-music-hall-133e2c",
    "categories": [
     "music"
@@ -2169,7 +2215,7 @@
   }
  ],
  "friday": "2026-10-30",
- "modified": "2026-10-30",
+ "modified": "2026-10-31",
  "picks": [
   "9f076a30d8f71e25",
   "8fd69589116a7b8f",
