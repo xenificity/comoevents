@@ -262,6 +262,11 @@
   "name": "Park Restaurant & Bar"
  },
  "4747 e elk park dr, columbia, mo": null,
+ "507 s 9th st, columbia, mo 65201, united states": {
+  "lat": 38.9448697,
+  "lng": -92.327436,
+  "name": null
+ },
  "509 fay st, columbia, mo columbia, mo 65201": {
   "lat": 38.9571128,
   "lng": -92.3228595,
@@ -403,6 +408,7 @@
  "ellis library university of missouri columbia missouri united states, columbia, mo": null,
  "elyer  memorial union, columbia, mo": null,
  "equipment/linen deploy, columbia, mo": null,
+ "fine arts building a207 north side 507 s 9th st columbia mo 65201 united states, columbia, mo": null,
  "fine arts building lobby university of missouri columbia missouri united states, columbia, mo": null,
  "fine arts building, columbia, mo": {
   "lat": 38.9455455,
@@ -463,6 +469,7 @@
  },
  "memorial union s203 (arvarh e. strickland room), columbia, mo": null,
  "memorial union s203 (arvarh e. strickland room), university of missouri, columbia, mo": null,
+ "memorial union s206 university of missouri columbia missouri united states, columbia, mo": null,
  "memorial union, 518 hitt street, university of missouri, columbia, mo 65211, united states": null,
  "missouri cares, columbia, mo": null,
  "missouri united methodist church, columbia, mo": {
@@ -478,7 +485,10 @@
  },
  "mizzourec studio a 3rd floor  1000 rollins st columbia miss 65211 united states, columbia, mo": null,
  "mizzourec studio a 3rd floor 1000 rollins st columbia miss 65211 united states, columbia, mo": null,
+ "mizzourec studio b 3rd floor 1000 rollins st columbia miss 65211 united states, columbia, mo": null,
+ "mizzourec studio c 3rd floor 1000 rollins st columbia miss 65211 united states, columbia, mo": null,
  "monsanto auditorium bond life sciences center university of missouri columbia missouri united states, columbia, mo": null,
+ "n201 and n214 memorial union university of missouri columbia missouri united states, columbia, mo": null,
  "n201 memorial union university of missouri columbia missouri united states, columbia, mo": null,
  "n52 memorial union  university of missouri columbia missouri united states, columbia, mo": null,
  "n52 memorial union university of missouri columbia missouri united states, columbia, mo": null,

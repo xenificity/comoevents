@@ -980,20 +980,6 @@
    "venue": "The kitchen grill and games"
   },
   {
-   "_slug": "single-awareness-dinner-columbia-foodies-new-friends-1301d3",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "id": "1301d322972f1054",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jMWQ3NzM2OTU5ZjdhZWIxZTExMjgzYzI1MDJlNmViMTgwNzAxZmE4YzBjZjFjMTcwYjJjNzc1MTFmNWFkNzkyLXJpbWctdzk3MS1oODU1LWRjMTQxYTJkLWdtaXIuanBnP3Y9MTc4Mjc3MzcwNA.avif",
-   "source": "allevents",
-   "start": "2026-10-31T00:00:00-05:00",
-   "timeTBD": true,
-   "title": "Single Awareness Dinner: Columbia | Foodies + New Friends",
-   "venue": "Restaurant of the Week"
-  },
-  {
    "_slug": "blue-star-mothers-community-5k-808b4a",
    "categories": [
     "sports"
@@ -1023,16 +1009,17 @@
    "venue": "Columbia Farmers Market"
   },
   {
-   "_slug": "spooky-sensory-play-e8ee25",
+   "_slug": "fastpass-saturday-10-31-df7c98",
    "categories": [
-    "family"
+    "party"
    ],
-   "category": "family",
-   "id": "e8ee25b9dbba9127",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9iMzZlOWUwNjdiZDhlYWY5OGY4MDA5NGIzOWE0MDZhOTBjODhiODA2N2ZjNDgyYjI5Yjc5NWJmMjI4OTRjZjAzLXJpbWctdzEyMDAtaDE1NTMtZGNmOGM4NzgtZ21pcj92PTE3OTI4NTYzNzE.avif",
+   "category": "party",
+   "id": "df7c98aca61d483d",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy8wN2U0NTgyMC1kNTE5LTExZjEtYjg3Ni0wZmQ1NmU2ODQ2YmUtcmltZy13MTIwMC1oMTE5NC1kYzA4MDgwOC1nbWlyLndlYnA_dj0xNzkzNDQzODkw.avif",
    "source": "allevents",
-   "start": "2026-10-31T09:00:00-05:00",
-   "title": "Spooky Sensory Play"
+   "start": "2026-10-31T10:00:00-05:00",
+   "title": "FASTPASS: Saturday 10/31",
+   "venue": "MyHouse"
   },
   {
    "_slug": "halloween-world-record-event-07efe9",
@@ -1054,6 +1041,18 @@
    "venue": "1200 N 7th St"
   },
   {
+   "_slug": "live-hardcore-comedy-crowd-work-with-lady-moe-joe-00f7c0",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "00f7c0a0f5093ee0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy80YTdkMzFmZWFiOTUxZGNjOTU2NzJjMTM5ZTNiMWM0OGZiNTk2NDU0NzgzMWI2ZWY1OTExNWMyM2QwMGRmMTgwLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5MzE0NDQyNA.avif",
+   "source": "allevents",
+   "start": "2026-10-31T10:00:00-05:00",
+   "title": "Live - Hardcore Comedy Crowd-work with Lady Moe Joe!!"
+  },
+  {
    "_slug": "saturday-morning-science-pumpkins-plants-healthy-soil-0516dc",
    "categories": [
     "campus",
@@ -1067,6 +1066,18 @@
    "source": "visitcolumbia",
    "start": "2026-10-31T10:00:00-05:00",
    "title": "Saturday Morning Science: Pumpkins, Plants & Healthy Soil"
+  },
+  {
+   "_slug": "spooky-sensory-play-e8ee25",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "e8ee25b9dbba9127",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9iMzZlOWUwNjdiZDhlYWY5OGY4MDA5NGIzOWE0MDZhOTBjODhiODA2N2ZjNDgyYjI5Yjc5NWJmMjI4OTRjZjAzLXJpbWctdzEyMDAtaDE1NTMtZGNmOGM4NzgtZ21pcj92PTE3OTI4NTYzNzE.avif",
+   "source": "allevents",
+   "start": "2026-10-31T10:00:00-05:00",
+   "title": "Spooky Sensory Play"
   },
   {
    "_slug": "the-vendor-village-halloween-market-d8dfc1",
@@ -1088,9 +1099,9 @@
   {
    "_slug": "a-spooktacular-symphony-halloween-with-mosy-393956",
    "alsoOn": [
-    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108",
     "https://calendar.missouri.edu/missouri-theatre/event/18707-a-spooktacular-symphony-halloween-with-the-mosy",
-    "https://www.themosy.org/calendar/spooktacular"
+    "https://www.themosy.org/calendar/spooktacular",
+    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108"
    ],
    "categories": [
     "music",
@@ -1106,6 +1117,31 @@
    "start": "2026-10-31T11:00:00-05:00",
    "title": "A Spooktacular Symphony: Halloween with MOSY",
    "venue": "Missouri Theatre"
+  },
+  {
+   "_slug": "single-awareness-dinner-columbia-foodies-new-friends-1301d3",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "1301d322972f1054",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jMWQ3NzM2OTU5ZjdhZWIxZTExMjgzYzI1MDJlNmViMTgwNzAxZmE4YzBjZjFjMTcwYjJjNzc1MTFmNWFkNzkyLXJpbWctdzk3MS1oODU1LWRjMTQxYTJkLWdtaXIuanBnP3Y9MTc4Mjc3MzcwNA.avif",
+   "source": "allevents",
+   "start": "2026-10-31T11:00:00-05:00",
+   "title": "Single Awareness Dinner: Columbia | Foodies + New Friends",
+   "venue": "Restaurant of the Week"
+  },
+  {
+   "_slug": "the-5th-down-bar-grill-halloween-costume-contest-party-ec81d4",
+   "categories": [
+    "nightlife"
+   ],
+   "category": "nightlife",
+   "id": "ec81d490e314e2cc",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wMjQ3NWFhNmVjZDQ2MWI4YzUwNTRjZGRkYmQ2NzMxMzY4MTk5NzYxNDBiNGMyN2FjMTQ2ZTExNzZiYzU0NDNiLXJpbWctdzk0MC1oNzg4LWRjMDgwODA4LWdtaXI_dj0xNzkzMTQ0Mzg4.avif",
+   "source": "allevents",
+   "start": "2026-10-31T11:00:00-05:00",
+   "title": "The 5th Down Bar & Grill Halloween Costume Contest & Party!"
   },
   {
    "_slug": "friends-of-the-columbia-public-library-lobby-book-sale-c48dea",
@@ -1197,13 +1233,16 @@
    "venue": "Shanthi Mandir"
   },
   {
-   "_slug": "eurydice-69b0c3",
+   "_slug": "eurydice-59fc0b",
+   "alsoOn": [
+    "https://allevents.in/columbia/eurydice/100001989603687187"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Join the Conservatory for the Performing Arts at Stephens College for Season 79! Eurydice reimagines the classic Greek myth of Orpheus and Eurydice from Eurydice’s perspective. After falling deeply in love with Orpheus, a gifted musician, Eurydice dies unexpectedly on her wedding day and journeys to",
-   "id": "69b0c36d697427d3",
+   "id": "59fc0b6d65bfb3ec",
    "imageUrl": "https://localist-images.azureedge.net/photos/53487781194818/huge/e84f6abc42832f758b1623bf87f34533d8abdbc4.jpg",
    "price": "$15",
    "source": "stephens",
@@ -1288,16 +1327,16 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "pendulum-class-w-michelle-78829e",
+   "_slug": "the-village-grand-opening-trunk-or-treat-c89445",
    "categories": [
-    "community"
+    "family"
    ],
-   "category": "community",
-   "id": "78829ed5d13f24a0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9iYTZmNzVkMDRmNWNhYjg2ZTFlNDhlOThiMjgxYWUzZGVjNzFjMWZiN2UwZWE4YjhlMmIxMmQ3NWIyY2U5ZjI2LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkzMTQ0NDI1.avif",
+   "category": "family",
+   "id": "c8944564ed03e459",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMmI3MDBjOTJhMWY0YmQ4YmMzZWFjN2M3YjRiNzJhMjA4NWQwOWJiODhmZDIwYWVjYzU3OTBlOTFkYTcyNjEzOS1yaW1nLXcxMTU0LWgxMzQ2LWRjZjhmOGU4LWdtaXI_dj0xNzkyMzc1Mzgz.avif",
    "source": "allevents",
    "start": "2026-10-31T15:00:00-05:00",
-   "title": "Pendulum Class w/ Michelle"
+   "title": "The Village Grand Opening- Trunk or Treat"
   },
   {
    "_slug": "douglas-schaedler-trumpet-natalia-bolshakova-recital-570819",
@@ -1333,18 +1372,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "the-village-grand-opening-trunk-or-treat-c89445",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "c8944564ed03e459",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMmI3MDBjOTJhMWY0YmQ4YmMzZWFjN2M3YjRiNzJhMjA4NWQwOWJiODhmZDIwYWVjYzU3OTBlOTFkYTcyNjEzOS1yaW1nLXcxMTU0LWgxMzQ2LWRjZjhmOGU4LWdtaXI_dj0xNzkyMzc1Mzgz.avif",
-   "source": "allevents",
-   "start": "2026-10-31T16:00:00-05:00",
-   "title": "The Village Grand Opening- Trunk or Treat"
-  },
-  {
    "_slug": "ghouls-night-out-vip-b33104",
    "categories": [
     "nightlife"
@@ -1374,18 +1401,16 @@
    "venue": "Beet Box"
   },
   {
-   "_slug": "indianite-2026-a9e17a",
-   "alsoOn": [
-    "https://engage.missouri.edu/CAI/rsvp?id=453487"
-   ],
+   "_slug": "indianite-2026-0f7611",
    "categories": [
+    "community",
     "campus"
    ],
-   "category": "campus",
+   "category": "community",
    "description": "The Cultural Association of India presents Indianite, our 34th Annual India Night and Mizzou’s largest student-organized cultural showcase. This year’s theme is Indian Music. Join us for a two-hour production at Jesse Hall featuring Bollywood, folk, and classical dance, live vocalists, East-meets-We",
    "end": "2026-10-31T19:00:00-05:00",
-   "id": "a9e17a2f93afe92c",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2502397_Brown_Illustration_Indonesia_Traditional_Culture_Festival_Instagram_Post_Facebook_Cover_e6db246e-a9ae-4fcb-b38c-9166ed29b7a4_102114378.png",
+   "id": "0f7611574bc23f09",
+   "imageUrl": "https://comoevent.com/img/gen/82e96bc13a71ee.webp",
    "source": "engage",
    "start": "2026-10-31T17:00:00-05:00",
    "title": "Indianite 2026",
@@ -1437,31 +1462,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "back-water-freaks-out-halloween-at-the-tavern-58a9c4",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "58a9c4465dc37476",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy83ZTE1OTAwYzU1YzlkNzkxNzlmNGY5MDM0NzliNDY4NTI2NDc4OWYyYTY5MDVjNmNhZDkyMjYzM2Y3ZGY2ZGM3LXJpbWctdzEyMDAtaDEyMDAtZGMwODA4MDgtZ21pcj92PTE3ODg2MDc5MDk.avif",
-   "source": "allevents",
-   "start": "2026-10-31T17:30:00-05:00",
-   "title": "Back Water Freaks Out - Halloween At The Tavern"
-  },
-  {
-   "_slug": "fastpass-saturday-10-31-df7c98",
-   "categories": [
-    "party"
-   ],
-   "category": "party",
-   "id": "df7c98aca61d483d",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8zMTk4NmZmMC1kNDcyLTExZjEtYmZlNC04N2IzNmFlYzk5MjUtcmltZy13MTIwMC1oMTE5NC1kYzA4MDgwOC1nbWlyLndlYnA_dj0xNzkzMzcyMjM3.avif",
-   "source": "allevents",
-   "start": "2026-10-31T17:30:00-05:00",
-   "title": "FASTPASS: Saturday 10/31",
-   "venue": "MyHouse"
-  },
-  {
    "_slug": "bmw-of-columbia-trunk-or-treat-3d9104",
    "categories": [
     "family"
@@ -1472,6 +1472,18 @@
    "source": "allevents",
    "start": "2026-10-31T18:00:00-05:00",
    "title": "BMW of Columbia Trunk or Treat"
+  },
+  {
+   "_slug": "back-water-freaks-out-halloween-at-the-tavern-58a9c4",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "58a9c4465dc37476",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy83ZTE1OTAwYzU1YzlkNzkxNzlmNGY5MDM0NzliNDY4NTI2NDc4OWYyYTY5MDVjNmNhZDkyMjYzM2Y3ZGY2ZGM3LXJpbWctdzEyMDAtaDEyMDAtZGMwODA4MDgtZ21pcj92PTE3ODg2MDc5MDk.avif",
+   "source": "allevents",
+   "start": "2026-10-31T18:00:00-05:00",
+   "title": "Back Water Freaks Out - Halloween At The Tavern"
   },
   {
    "_slug": "fools-face-0c67f9",
@@ -1619,18 +1631,6 @@
    "title": "Evil Dead: The Musical – Columbia Entertainment Co."
   },
   {
-   "_slug": "the-5th-down-bar-grill-halloween-costume-contest-party-ec81d4",
-   "categories": [
-    "nightlife"
-   ],
-   "category": "nightlife",
-   "id": "ec81d490e314e2cc",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wMjQ3NWFhNmVjZDQ2MWI4YzUwNTRjZGRkYmQ2NzMxMzY4MTk5NzYxNDBiNGMyN2FjMTQ2ZTExNzZiYzU0NDNiLXJpbWctdzk0MC1oNzg4LWRjMDgwODA4LWdtaXI_dj0xNzkzMTQ0Mzg4.avif",
-   "source": "allevents",
-   "start": "2026-10-31T19:30:00-05:00",
-   "title": "The 5th Down Bar & Grill Halloween Costume Contest & Party!"
-  },
-  {
    "_slug": "bryce-stanley-returns-for-one-show-only-8e07ed",
    "categories": [
     "community"
@@ -1722,18 +1722,6 @@
    "venue": "The Blue Note"
   },
   {
-   "_slug": "live-hardcore-comedy-crowd-work-with-lady-moe-joe-00f7c0",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "00f7c0a0f5093ee0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy80YTdkMzFmZWFiOTUxZGNjOTU2NzJjMTM5ZTNiMWM0OGZiNTk2NDU0NzgzMWI2ZWY1OTExNWMyM2QwMGRmMTgwLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5MzE0NDQyNA.avif",
-   "source": "allevents",
-   "start": "2026-10-31T21:00:00-05:00",
-   "title": "Live - Hardcore Comedy Crowd-work with Lady Moe Joe!!"
-  },
-  {
    "_slug": "myhouse-saturday-10-31-night-a153ab",
    "categories": [
     "party"
@@ -1791,10 +1779,10 @@
   {
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
+    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
     "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
-    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu"
+    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/"
    ],
    "categories": [
     "sports",
@@ -2010,8 +1998,8 @@
   {
    "_slug": "mizzou-volleyball-vs-tennessee-2-pm-8d5bb6",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001",
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/"
    ],
    "categories": [
     "sports",
@@ -2041,18 +2029,6 @@
    "start": "2026-11-01T14:00:00-06:00",
    "title": "NAZA",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "night-of-remembrance-a45879",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "a45879e0a7e91f68",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9jYzk0ODY5YzRkMTAzMzJkZTk5ZmUzZjA4NmRkYTI5ZTYwZDQ0YWUzMGJjZjJhNGNjOGJlYjhhZTQyM2FjOGEwLXJpbWctdzEwODAtaDEzNTAtZGMwODA4MDgtZ21pcj92PTE3OTI4NDQzOTY.avif",
-   "source": "allevents",
-   "start": "2026-11-01T14:00:00-06:00",
-   "title": "Night of Remembrance"
   },
   {
    "_slug": "the-barroom-billies-1a17ee",
@@ -2152,7 +2128,7 @@
    "id": "5768090feb65e73d",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9kMDExYTk2ZjlhNTEwYTAyMjM3OWY0YTFlODU3YTQ3ZTRlZjNlOTEwNzA3MjVjOWRkNTQ4ODk3NmVlYzE2MzQ2LXJpbWctdzEyMDAtaDY3NS1kYzQ4NDg0OC1nbWlyP3Y9MTc5MzE0NDQ0Mg.avif",
    "source": "allevents",
-   "start": "2026-11-01T17:00:00-06:00",
+   "start": "2026-11-01T18:00:00-06:00",
    "title": "MAGIC: Reality Fracture Store Championship"
   },
   {
@@ -2169,6 +2145,18 @@
    "start": "2026-11-01T19:00:00-06:00",
    "title": "Fjord",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "night-of-remembrance-a45879",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "a45879e0a7e91f68",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9jYzk0ODY5YzRkMTAzMzJkZTk5ZmUzZjA4NmRkYTI5ZTYwZDQ0YWUzMGJjZjJhNGNjOGJlYjhhZTQyM2FjOGEwLXJpbWctdzEwODAtaDEzNTAtZGMwODA4MDgtZ21pcj92PTE3OTI4NDQzOTY.avif",
+   "source": "allevents",
+   "start": "2026-11-01T19:00:00-06:00",
+   "title": "Night of Remembrance"
   },
   {
    "_slug": "prenatal-yoga-pop-up-33711b",
