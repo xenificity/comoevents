@@ -987,7 +987,6 @@
    "category": "sports",
    "description": "This community 5K supports the Central Missouri Blue Star Mothers, a nonprofit whose members serve deployed troops, veterans, and military families through care packages, volunteer work, and other acts of service. Participants can walk, jog, or run, or show their support without taking part in the…",
    "id": "808b4ac2fdd4bdf4",
-   "imageUrl": "https://comoevent.com/img/gen/748ef62c76698d.webp",
    "source": "baselocal",
    "start": "2026-10-31T08:00:00-05:00",
    "title": "Blue Star Mothers Community 5k"
@@ -1001,25 +1000,11 @@
    "description": "Savor the flavors of mid-Missouri at the esteemed Columbia Farmers Market, renowned as one of the nation's premier farmers markets! Join them …",
    "end": "2026-10-31T12:00:00-05:00",
    "id": "02be96c2a953fe9c",
-   "imageUrl": "https://comoevent.com/img/gen/9491e423f31c94.webp",
    "price": "Free",
    "source": "vox",
    "start": "2026-10-31T08:00:00-05:00",
    "title": "Columbia Farmers Market",
    "venue": "Columbia Farmers Market"
-  },
-  {
-   "_slug": "fastpass-saturday-10-31-df7c98",
-   "categories": [
-    "party"
-   ],
-   "category": "party",
-   "id": "df7c98aca61d483d",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy8wN2U0NTgyMC1kNTE5LTExZjEtYjg3Ni0wZmQ1NmU2ODQ2YmUtcmltZy13MTIwMC1oMTE5NC1kYzA4MDgwOC1nbWlyLndlYnA_dj0xNzkzNDQzODkw.avif",
-   "source": "allevents",
-   "start": "2026-10-31T10:00:00-05:00",
-   "title": "FASTPASS: Saturday 10/31",
-   "venue": "MyHouse"
   },
   {
    "_slug": "halloween-world-record-event-07efe9",
@@ -1062,22 +1047,9 @@
    "description": "This presentation will tie into the Halloween theme with a discussion of how healthy soils are important for growing healthy pumpkins and all kinds of other plants, including the many food plants we eat. Use of cover crops such as crimson clover and rye are one important way farmers are working to i",
    "end": "2026-10-31T12:00:00-05:00",
    "id": "0516dc21b7c190b9",
-   "imageUrl": "https://comoevent.com/img/gen/98d866dca383ce.webp",
    "source": "visitcolumbia",
    "start": "2026-10-31T10:00:00-05:00",
    "title": "Saturday Morning Science: Pumpkins, Plants & Healthy Soil"
-  },
-  {
-   "_slug": "spooky-sensory-play-e8ee25",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "e8ee25b9dbba9127",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9iMzZlOWUwNjdiZDhlYWY5OGY4MDA5NGIzOWE0MDZhOTBjODhiODA2N2ZjNDgyYjI5Yjc5NWJmMjI4OTRjZjAzLXJpbWctdzEyMDAtaDE1NTMtZGNmOGM4NzgtZ21pcj92PTE3OTI4NTYzNzE.avif",
-   "source": "allevents",
-   "start": "2026-10-31T10:00:00-05:00",
-   "title": "Spooky Sensory Play"
   },
   {
    "_slug": "the-vendor-village-halloween-market-d8dfc1",
@@ -1113,6 +1085,25 @@
    "id": "39395612e3b79d82",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/A-Spooktacular-Symphony-at-The-Missouri-Theatre.png",
    "price": "Ticket Prices & Fees:; All concerts at the Missouri Theatre have three tiers of reserved seating.; Tier 1 Seating: $59; Tier 2 Seating: $49",
+   "source": "visitcolumbia",
+   "start": "2026-10-31T11:00:00-05:00",
+   "title": "A Spooktacular Symphony: Halloween with MOSY",
+   "venue": "Missouri Theatre"
+  },
+  {
+   "_slug": "a-spooktacular-symphony-halloween-with-mosy-b547c2",
+   "alsoOn": [
+    "https://allevents.in/columbia/a-spooktacular-symphony-halloween-with-the-mosy/200030513220108"
+   ],
+   "categories": [
+    "music",
+    "family"
+   ],
+   "category": "music",
+   "description": "A little spooky, a little silly, and full of live orchestral fun. This one-hour family concert is designed for audiences of all ages, with music inspired by Halloween classics, cinematic favorites, and the playful drama of the season. Come in costume, enjoy lobby activities, and experience the Misso",
+   "end": "2026-10-31T13:00:00-05:00",
+   "id": "b547c2272d5027df",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/A-Spooktacular-Symphony-at-The-Missouri-Theatre.png",
    "source": "visitcolumbia",
    "start": "2026-10-31T11:00:00-05:00",
    "title": "A Spooktacular Symphony: Halloween with MOSY",
@@ -1168,7 +1159,6 @@
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-10-31T13:18:00-05:00",
    "id": "1604763131463d86",
-   "imageUrl": "https://comoevent.com/img/gen/dcee2dd60de30f.webp",
    "source": "ragtag",
    "start": "2026-10-31T12:00:00-05:00",
    "title": "NAZA",
@@ -1295,6 +1285,18 @@
    "start": "2026-10-31T14:00:00-05:00",
    "title": "Eurydice – Stephens College Performing Arts",
    "venue": "Stephens College Performing Arts"
+  },
+  {
+   "_slug": "spooky-sensory-play-e8ee25",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "e8ee25b9dbba9127",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9iMzZlOWUwNjdiZDhlYWY5OGY4MDA5NGIzOWE0MDZhOTBjODhiODA2N2ZjNDgyYjI5Yjc5NWJmMjI4OTRjZjAzLXJpbWctdzEyMDAtaDE1NTMtZGNmOGM4NzgtZ21pcj92PTE3OTI4NTYzNzE.avif",
+   "source": "allevents",
+   "start": "2026-10-31T14:00:00-05:00",
+   "title": "Spooky Sensory Play"
   },
   {
    "_slug": "the-diddy-wah-daddies-8e111f",
@@ -1462,6 +1464,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "fastpass-saturday-10-31-df7c98",
+   "categories": [
+    "party"
+   ],
+   "category": "party",
+   "id": "df7c98aca61d483d",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8zMTk4NmZmMC1kNDcyLTExZjEtYmZlNC04N2IzNmFlYzk5MjUtcmltZy13MTIwMC1oMTE5NC1kYzA4MDgwOC1nbWlyLndlYnA_dj0xNzkzMzcyMjM3.avif",
+   "source": "allevents",
+   "start": "2026-10-31T17:30:00-05:00",
+   "title": "FASTPASS: Saturday 10/31",
+   "venue": "MyHouse"
+  },
+  {
    "_slug": "bmw-of-columbia-trunk-or-treat-3d9104",
    "categories": [
     "family"
@@ -1537,28 +1552,21 @@
   },
   {
    "_slug": "ladybird-halloween-party-f1e707",
-   "alsoOn": [
-    "https://thebluenote.com/event/its-a-2000s-halloween-party/"
-   ],
    "categories": [
-    "party",
-    "music"
+    "party"
    ],
    "category": "party",
-   "description": "Slacker University Presents · with The Ransom Brothers",
    "id": "f1e7079f2e730c22",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy81NDY2MzdhOTlkYTVjZGM3N2QwYWM1ZTc1NWM4OGNkM2FiN2M1YTYzNGM0MTE3NTE4NDRmY2E3ZDc5YzhiYjdlLXJpbWctdzEyMDAtaDY3Ni1kYzE4MTgxOC1nbWlyP3Y9MTc5MDY4Njk1Mw.avif",
    "source": "allevents",
    "start": "2026-10-31T19:00:00-05:00",
-   "ticketUrl": "https://www.ticketmaster.com/its-a-2000s-halloween-party-ages-columbia-missouri-10-31-2026/event/060065239058635A",
-   "title": "Ladybird Halloween Party! 🎃",
-   "venue": "The Blue Note"
+   "title": "Ladybird Halloween Party! 🎃"
   },
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065"
    ],
    "categories": [
     "arts"
@@ -1779,8 +1787,8 @@
   {
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
    "alsoOn": [
-    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
     "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
+    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
     "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/"
    ],
@@ -1998,8 +2006,8 @@
   {
    "_slug": "mizzou-volleyball-vs-tennessee-2-pm-8d5bb6",
    "alsoOn": [
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/"
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/",
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001"
    ],
    "categories": [
     "sports",
@@ -2128,7 +2136,7 @@
    "id": "5768090feb65e73d",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9kMDExYTk2ZjlhNTEwYTAyMjM3OWY0YTFlODU3YTQ3ZTRlZjNlOTEwNzA3MjVjOWRkNTQ4ODk3NmVlYzE2MzQ2LXJpbWctdzEyMDAtaDY3NS1kYzQ4NDg0OC1nbWlyP3Y9MTc5MzE0NDQ0Mg.avif",
    "source": "allevents",
-   "start": "2026-11-01T18:00:00-06:00",
+   "start": "2026-11-01T17:00:00-06:00",
    "title": "MAGIC: Reality Fracture Store Championship"
   },
   {
