@@ -1769,6 +1769,19 @@
    "title": "Trek Through Belize"
   },
   {
+   "_slug": "super-smash-bros-tournament-e47027",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e47027247d911c2e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
+   "source": "allevents",
+   "start": "2026-11-01T10:00:00-06:00",
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
+  },
+  {
    "_slug": "chiefs-game-day-at-the-kitchen-16159b",
    "categories": [
     "community"
@@ -1796,12 +1809,11 @@
    "title": "Fall 2026 League Cup"
   },
   {
-   "_slug": "mizzou-soccer-vs-lsu-339f5b",
+   "_slug": "mizzou-soccer-vs-lsu-115e37",
    "alsoOn": [
-    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
     "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
-    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240"
+    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
+    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/"
    ],
    "categories": [
     "sports",
@@ -1810,8 +1822,8 @@
    "category": "sports",
    "description": "Come join us for Mizzou Soccer's LAST home game on Sunday November 1st at 12pm as they take on LSU.",
    "end": "2026-11-01T14:00:00-06:00",
-   "id": "339f5b52405fa675",
-   "imageUrl": "https://comoevent.com/img/gen/p-e2369a57a78f9a.webp",
+   "id": "115e3704593a45a3",
+   "imageUrl": "https://comoevent.com/img/gen/643d6974a08e54.webp",
    "source": "engage",
    "start": "2026-11-01T12:00:00-06:00",
    "title": "Mizzou Soccer vs. LSU",
@@ -1877,19 +1889,6 @@
    "start": "2026-11-01T13:00:00-06:00",
    "title": "Lorcana Weekly Play",
    "venue": "Hexagon Alley"
-  },
-  {
-   "_slug": "super-smash-bros-tournament-e47027",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "e47027247d911c2e",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
-   "source": "allevents",
-   "start": "2026-11-01T13:00:00-06:00",
-   "title": "Super Smash Bros Tournament",
-   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "volleyball-missouri-vs-6-tennessee-299f5f",
@@ -2018,9 +2017,8 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "mizzou-volleyball-vs-tennessee-2-pm-8d5bb6",
+   "_slug": "mizzou-volleyball-vs-tennessee-2-pm-798534",
    "alsoOn": [
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452001",
     "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-tennessee/"
    ],
    "categories": [
@@ -2030,8 +2028,8 @@
    "category": "sports",
    "description": "Join us for Volloween as the Tigers take on Tennessee at 2 PM!",
    "end": "2026-11-01T16:00:00-06:00",
-   "id": "8d5bb621836def25",
-   "imageUrl": "https://comoevent.com/img/gen/p-7e670ade57a9bc.webp",
+   "id": "7985342cfa917901",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/08/Mizzou-Volleyball-playing-a-home-game-in-front-of-a-packed-crowd.jpg",
    "source": "engage",
    "start": "2026-11-01T14:00:00-06:00",
    "title": "Mizzou Volleyball vs. Tennessee - 2 PM",
