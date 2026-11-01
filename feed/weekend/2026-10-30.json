@@ -1008,9 +1008,6 @@
   },
   {
    "_slug": "halloween-world-record-event-07efe9",
-   "alsoOn": [
-    "https://allevents.in/columbia/halloween-world-record-event/100002003255505142"
-   ],
    "categories": [
     "community"
    ],
@@ -1194,24 +1191,6 @@
    "start": "2026-10-31T14:00:00-05:00",
    "title": "Bhagwad Gita Class",
    "venue": "Shanthi Mandir"
-  },
-  {
-   "_slug": "eurydice-59fc0b",
-   "alsoOn": [
-    "https://allevents.in/columbia/eurydice/100001989603687187"
-   ],
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "description": "Join the Conservatory for the Performing Arts at Stephens College for Season 79! Eurydice reimagines the classic Greek myth of Orpheus and Eurydice from Eurydice’s perspective. After falling deeply in love with Orpheus, a gifted musician, Eurydice dies unexpectedly on her wedding day and journeys to",
-   "id": "59fc0b6d65bfb3ec",
-   "imageUrl": "https://localist-images.azureedge.net/photos/53487781194818/huge/e84f6abc42832f758b1623bf87f34533d8abdbc4.jpg",
-   "price": "$15",
-   "source": "stephens",
-   "start": "2026-10-31T14:00:00-05:00",
-   "title": "Eurydice",
-   "venue": "Macklanburg Playhouse"
   },
   {
    "_slug": "eurydice-by-sarah-ruhl-51b9ae",
@@ -1403,6 +1382,20 @@
    "title": "The 5th Down Bar & Grill Halloween Costume Contest & Party!"
   },
   {
+   "_slug": "trunk-or-treat-7ed421",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "This family-friendly Halloween gathering offers candy, games, and plenty of fun with a focus on keeping kids safe.",
+   "end": "2026-10-31T19:00:00-05:00",
+   "id": "7ed4215cb830f063",
+   "source": "baselocal",
+   "start": "2026-10-31T17:00:00-05:00",
+   "title": "Trunk or Treat",
+   "venue": "Harbor House"
+  },
+  {
    "_slug": "trunk-or-treat-843f9c",
    "alsoOn": [
     "https://allevents.in/columbia/trunk-or-treat-at-bethel/200030751813957"
@@ -1490,6 +1483,21 @@
    "venue": "Cooper's Landing"
   },
   {
+   "_slug": "fools-face-5a08bb",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "@ Fools Face is a five piece Midwest regional rock band from Springfield Missouri. They released their first album, “Here To Observe”, in ’78. And their second album, “Tell America”, in ’81. Brian Coffman is a founding member and lead guitarist of FOOL’S FACE. Fool’s Face was a popular Midwestern po",
+   "end": "2026-10-31T21:00:00-05:00",
+   "id": "5a08bbaa4ee174ef",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2026/09/IMG_4309-scaled.jpeg",
+   "source": "cooperslanding",
+   "start": "2026-10-31T18:00:00-05:00",
+   "title": "Fools Face",
+   "venue": "Cooper's Landing"
+  },
+  {
    "_slug": "costume-makeup-contest-fe440e",
    "alsoOn": [
     "https://allevents.in/columbia/costume-and-makeup-contest/200030927917046"
@@ -1521,10 +1529,6 @@
   },
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-s-ef0c56",
-   "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-bryce-stanley/100002002648330065",
-    "https://thearcadedistrict.org/"
-   ],
    "categories": [
     "arts"
    ],
@@ -1652,6 +1656,19 @@
    "venue": "Rose Music Hall"
   },
   {
+   "_slug": "the-faint-c0f4a2",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "The Faint takes the stage in the indoor space at Rose Music Hall. The performance is presented inside the venue.",
+   "id": "c0f4a2fce635adce",
+   "source": "baselocal",
+   "start": "2026-10-31T20:00:00-05:00",
+   "title": "The Faint",
+   "venue": "Rose Music Hall"
+  },
+  {
    "_slug": "the-faint-rose-music-hall-81ad08",
    "categories": [
     "music"
@@ -1752,6 +1769,19 @@
    "title": "Trek Through Belize"
   },
   {
+   "_slug": "chiefs-game-day-at-the-kitchen-16159b",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "16159b869ba05ae0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9pbWcuZXZidWMuY29tL2h0dHBzJTNBJTJGJTJGY2RuLmV2YnVjLmNvbSUyRmltYWdlcyUyRjExOTI3MTkwMzklMkYyMjc2MzY1ODYzNDgzJTJGMSUyRm9yaWdpbmFsLjIwMjYwOTA0LTIwNTQxND9hdXRvPWZvcm1hdCUyQ2NvbXByZXNzJnE9NzUmc2hhcnA9MTAmcz1kMjk1NDZmMzA3Njk1NDNiYTY2ZDZhNWZjZjc0NzRiMA.avif",
+   "source": "allevents",
+   "start": "2026-11-01T10:30:00-06:00",
+   "title": "Chiefs Game Day at The Kitchen",
+   "venue": "The Kitchen Grill and Games"
+  },
+  {
    "_slug": "fall-2026-league-cup-632f08",
    "categories": [
     "community"
@@ -1768,10 +1798,10 @@
   {
    "_slug": "mizzou-soccer-vs-lsu-339f5b",
    "alsoOn": [
+    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu",
     "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240",
     "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
-    "https://calendar.missouri.edu/athletics/event/19644-soccer-missouri-vs-lsu"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=450240"
    ],
    "categories": [
     "sports",
@@ -1849,17 +1879,17 @@
    "venue": "Hexagon Alley"
   },
   {
-   "_slug": "missouri-tigers-womens-volleyball-vs-tennessee-vols-womens-v-23ecc9",
+   "_slug": "super-smash-bros-tournament-e47027",
    "categories": [
-    "sports"
+    "community"
    ],
-   "category": "sports",
-   "id": "23ecc99021bbda47",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9iOGVlYjlhZWI5YjY2MjMzZTllN2UwMjg5NzJkMGE1NjRlNzhhNzk2ODU4ZjM5ZDRlNWQxZWUxNzU5MjA3NzA2LXJpbWctdzEwMjQtaDU3Ni1kYzc4MjkxZS1nbWlyLmpwZz92PTE3ODAyMjcwNjg.avif",
+   "category": "community",
+   "id": "e47027247d911c2e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
    "source": "allevents",
    "start": "2026-11-01T13:00:00-06:00",
-   "title": "Missouri Tigers Womens Volleyball vs. Tennessee Vols Womens Volleyball",
-   "venue": "Hearnes Center"
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "volleyball-missouri-vs-6-tennessee-299f5f",
@@ -1895,13 +1925,16 @@
    "venue": "Columbia Public Library"
   },
   {
-   "_slug": "eurydice-f197f7",
+   "_slug": "eurydice-59fc0b",
+   "alsoOn": [
+    "https://allevents.in/columbia/eurydice/100001989603687187"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Join the Conservatory for the Performing Arts at Stephens College for Season 79! Eurydice reimagines the classic Greek myth of Orpheus and Eurydice from Eurydice’s perspective. After falling deeply in love with Orpheus, a gifted musician, Eurydice dies unexpectedly on her wedding day and journeys to",
-   "id": "f197f76b430ffc91",
+   "id": "59fc0b6d65bfb3ec",
    "imageUrl": "https://localist-images.azureedge.net/photos/53487781194818/huge/e84f6abc42832f758b1623bf87f34533d8abdbc4.jpg",
    "price": "$15",
    "source": "stephens",
@@ -2109,6 +2142,18 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "night-of-remembrance-a45879",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "a45879e0a7e91f68",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9jYzk0ODY5YzRkMTAzMzJkZTk5ZmUzZjA4NmRkYTI5ZTYwZDQ0YWUzMGJjZjJhNGNjOGJlYjhhZTQyM2FjOGEwLXJpbWctdzEwODAtaDEzNTAtZGMwODA4MDgtZ21pcj92PTE3OTI4NDQzOTY.avif",
+   "source": "allevents",
+   "start": "2026-11-01T18:00:00-06:00",
+   "title": "Night of Remembrance"
+  },
+  {
    "_slug": "samhain-ritual-open-for-all-bdc42b",
    "categories": [
     "community"
@@ -2134,18 +2179,6 @@
    "start": "2026-11-01T19:00:00-06:00",
    "title": "Fjord",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "night-of-remembrance-a45879",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "a45879e0a7e91f68",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9jYzk0ODY5YzRkMTAzMzJkZTk5ZmUzZjA4NmRkYTI5ZTYwZDQ0YWUzMGJjZjJhNGNjOGJlYjhhZTQyM2FjOGEwLXJpbWctdzEwODAtaDEzNTAtZGMwODA4MDgtZ21pcj92PTE3OTI4NDQzOTY.avif",
-   "source": "allevents",
-   "start": "2026-11-01T19:00:00-06:00",
-   "title": "Night of Remembrance"
   },
   {
    "_slug": "prenatal-yoga-pop-up-33711b",
@@ -2192,6 +2225,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "missouri-tigers-womens-volleyball-vs-tennessee-vols-womens-v-23ecc9",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "23ecc99021bbda47",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9iOGVlYjlhZWI5YjY2MjMzZTllN2UwMjg5NzJkMGE1NjRlNzhhNzk2ODU4ZjM5ZDRlNWQxZWUxNzU5MjA3NzA2LXJpbWctdzEwMjQtaDU3Ni1kYzc4MjkxZS1nbWlyLmpwZz92PTE3ODAyMjcwNjg.avif",
+   "source": "allevents",
+   "start": "2026-11-01T20:00:00-06:00",
+   "title": "Missouri Tigers Womens Volleyball vs. Tennessee Vols Womens Volleyball",
+   "venue": "Hearnes Center"
+  },
+  {
    "_slug": "sunsquabi-rose-music-hall-133e2c",
    "categories": [
     "music"
@@ -2208,7 +2254,7 @@
   }
  ],
  "friday": "2026-10-30",
- "modified": "2026-10-31",
+ "modified": "2026-11-01",
  "picks": [
   "9f076a30d8f71e25",
   "8fd69589116a7b8f",
