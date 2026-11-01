@@ -1829,6 +1829,26 @@
    "venue": "Audrey J. Walton Stadium"
   },
   {
+   "_slug": "mizzou-soccer-vs-lsu-7b2e1f",
+   "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/mizzou-soccer-vs-lsu/",
+    "https://baselocal.com/mo/columbia/events/#mizzou-soccer-vs-lsu"
+   ],
+   "categories": [
+    "sports",
+    "campus"
+   ],
+   "category": "sports",
+   "description": "Come join us for Mizzou Soccer's LAST home game on Sunday November 1st at 12pm as they take on LSU.",
+   "end": "2026-11-01T14:00:00-06:00",
+   "id": "7b2e1f8285323d71",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/08/Mizzou-Soccer-Home-Game-2026.jpg",
+   "source": "engage",
+   "start": "2026-11-01T12:00:00-06:00",
+   "title": "Mizzou Soccer vs. LSU",
+   "venue": "Audrey J. Walton Stadium"
+  },
+  {
    "_slug": "retro-pre-release-duskmourn-house-of-horrors-237c26",
    "categories": [
     "community"
@@ -1882,7 +1902,6 @@
    "description": "Hexagon Alley presents a weekly Lorcana play session in Columbia, MO. The event uses the Standard format, and entry is $5.",
    "end": "2026-11-01T16:00:00-06:00",
    "id": "5a0a276bd4fd7a6e",
-   "imageUrl": "https://comoevent.com/img/gen/d2a3e1cbc7a7a4.webp",
    "source": "baselocal",
    "start": "2026-11-01T13:00:00-06:00",
    "title": "Lorcana Weekly Play",
@@ -1914,7 +1933,6 @@
    "description": "This family focused celebration honors loved ones and Mexican heritage with traditional games, hands-on crafts, music, and a bilingual story time, along with additional activities. Enjoy an afternoon filled with vibrant color and a welcoming sense of community. Admission is free. Co-sponsored by So…",
    "end": "2026-11-01T16:00:00-06:00",
    "id": "7aeacb432494c0d5",
-   "imageUrl": "https://comoevent.com/img/gen/c212334a050ef2.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-01T14:00:00-06:00",
@@ -1948,7 +1966,6 @@
    "description": "Eurydice reimagines the classic Greek myth of Orpheus and Eurydice from Eurydice’s perspective. After falling deeply in love with Orpheus, a g…",
    "end": "2026-11-01T16:00:00-06:00",
    "id": "fb9ac3db31ab4559",
-   "imageUrl": "https://comoevent.com/img/gen/9256fe9283f43f.webp",
    "price": "$17.05",
    "source": "vox",
    "start": "2026-11-01T14:00:00-06:00",
@@ -1994,7 +2011,6 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-01T16:00:00-06:00",
    "id": "78cb67fd0fceafa2",
-   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
    "source": "visitcolumbia",
    "start": "2026-11-01T14:00:00-06:00",
    "title": "Evil Dead: The Musical – Columbia Entertainment Co."
