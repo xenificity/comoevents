@@ -106,18 +106,6 @@
    "venue": "Memorial Student Union"
   },
   {
-   "_slug": "tiny-flea-80bb78",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "80bb7861102b547a",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yZDI1NmI3ODI2ODk4MzQ2MDM4NTQwM2NlYzU0ZTA5ZDMzMTJhNTBlMWIxZTYyZjViYjhjZmNjOTlkMjNlMzA4LXJpbWctdzEyMDAtaDY3Ni1kYzA4MzgyOC1nbWlyP3Y9MTc5MzYxMzMyNA.avif",
-   "source": "allevents",
-   "start": "2026-11-06T10:00:00-06:00",
-   "title": "Tiny Flea"
-  },
-  {
    "_slug": "bundt-cakes-and-buddies-8d9cb6",
    "alsoOn": [
     "https://engage.missouri.edu/CampusActivities/rsvp?id=452550"
@@ -138,8 +126,8 @@
   {
    "_slug": "mizine-5eb1ad",
    "alsoOn": [
-    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403",
     "https://calendar.missouri.edu/event/21268-mizine",
+    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403",
     "https://engage.missouri.edu/rsvp?id=453403"
    ],
    "categories": [
@@ -185,6 +173,21 @@
    "venue": "Memorial Student Union"
   },
   {
+   "_slug": "wild-horse-nine-c92429",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-06T14:57:00-06:00",
+   "id": "c9242992fc981173",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-06T13:00:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "bookmobile-stop-at-battle-crossing-02e4f1",
    "categories": [
     "family"
@@ -199,6 +202,21 @@
    "start": "2026-11-06T13:30:00-06:00",
    "title": "Bookmobile Stop at Battle Crossing",
    "venue": "Schnucks parking lot · 5410 Clark Lane, Columbia"
+  },
+  {
+   "_slug": "you-can-see-everything-8fd556",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-06T16:24:00-06:00",
+   "id": "8fd5561a7de5a33e",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-06T13:30:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "basic-first-aid-training-for-program-leaders-and-internation-fd9607",
@@ -259,6 +277,21 @@
    "venue": "Memorial Student Union"
   },
   {
+   "_slug": "wicker-a601e5",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-06T17:35:00-06:00",
+   "id": "a601e5ccaca43368",
+   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
+   "source": "ragtag",
+   "start": "2026-11-06T15:50:00-06:00",
+   "title": "Wicker",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "the-munchbox-056fc3",
    "categories": [
     "food"
@@ -292,6 +325,24 @@
    "venue": "Tate Hall 101"
   },
   {
+   "_slug": "everest-the-other-side-5ec2d1",
+   "alsoOn": [
+    "https://allevents.in/columbia/everest-the-other-side/200030945698746"
+   ],
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-06T19:10:00-06:00",
+   "id": "5ec2d14ad14a4d17",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9mODdjNDhlYzdiODA3MzMwYTJmYTgwNzgzMTZiMmRhYzE2NGQwNWM1Y2ZlMGE4NjUwM2E3MTEwMDVjZjhkZDFkLXJpbWctdzEyMDAtaDY3NS1kYzE4NjhhOC1nbWlyP3Y9MTc5MzQ3NjQ4Ng.avif",
+   "source": "ragtag",
+   "start": "2026-11-06T17:15:00-06:00",
+   "title": "Everest: The Other Side",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "11th-annual-welcome-home-casino-night-80b9a3",
    "categories": [
     "community"
@@ -303,18 +354,6 @@
    "start": "2026-11-06T17:30:00-06:00",
    "title": "11th Annual Welcome Home Casino Night",
    "venue": "Country Club of Missouri"
-  },
-  {
-   "_slug": "everest-the-other-side-5ec2d1",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "5ec2d14ad14a4d17",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9mODdjNDhlYzdiODA3MzMwYTJmYTgwNzgzMTZiMmRhYzE2NGQwNWM1Y2ZlMGE4NjUwM2E3MTEwMDVjZjhkZDFkLXJpbWctdzEyMDAtaDY3NS1kYzE4NjhhOC1nbWlyP3Y9MTc5MzQ3NjQ4Ng.avif",
-   "source": "allevents",
-   "start": "2026-11-06T17:30:00-06:00",
-   "title": "Everest: The Other Side"
   },
   {
    "_slug": "summer-welcome-informational-session-2-cc6439",
@@ -367,9 +406,9 @@
   {
    "_slug": "first-friday-at-serendipity-7102fd",
    "alsoOn": [
-    "https://northvillageartsdistrict.org/first-fridays/",
+    "https://baselocal.com/mo/columbia/events/#first-friday-marketplace",
     "https://allevents.in/columbia/first-friday-marketplace/200030369845436",
-    "https://baselocal.com/mo/columbia/events/#first-friday-marketplace"
+    "https://northvillageartsdistrict.org/first-fridays/"
    ],
    "categories": [
     "arts",
@@ -418,6 +457,30 @@
    "venue": "Hexagon Alley"
   },
   {
+   "_slug": "tiny-flea-80bb78",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "80bb7861102b547a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yZDI1NmI3ODI2ODk4MzQ2MDM4NTQwM2NlYzU0ZTA5ZDMzMTJhNTBlMWIxZTYyZjViYjhjZmNjOTlkMjNlMzA4LXJpbWctdzEyMDAtaDY3Ni1kYzA4MzgyOC1nbWlyP3Y9MTc5MzYxMzMyNA.avif",
+   "source": "allevents",
+   "start": "2026-11-06T18:00:00-06:00",
+   "title": "Tiny Flea"
+  },
+  {
+   "_slug": "emily-baskett-real-estate-grand-opening-and-ribbon-cutting-c-758367",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "7583671b7a2faa18",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9kMDM5ZDVkYzI2MTY3ODU2ODRiYTBhNDY5NzdhYzNmNjRmNTlmMjM3ZDY0NWE2YzMwMTU4OWJlZTE3N2E3MmFmLXJpbWctdzEyMDAtaDg1Ny1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MzYwODA0Mw.avif",
+   "source": "allevents",
+   "start": "2026-11-06T18:30:00-06:00",
+   "title": "Emily Baskett Real Estate Grand Opening and Ribbon Cutting Ceremony"
+  },
+  {
    "_slug": "first-friday-at-serendipity-4b2157",
    "categories": [
     "community"
@@ -445,6 +508,21 @@
    "start": "2026-11-06T18:30:00-06:00",
    "title": "Lakshmi Sahasranama and Kumkuma Archana",
    "venue": "Shanthi Mandir"
+  },
+  {
+   "_slug": "wild-horse-nine-d7be1e",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-06T20:27:00-06:00",
+   "id": "d7be1eff03701fc4",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-06T18:30:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "alpha-omega-devotional-b87592",
@@ -547,6 +625,22 @@
    "venue": "Missouri Theatre"
   },
   {
+   "_slug": "southall-236bb0",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with The Ransom Brothers",
+   "id": "236bb060f8b95037",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Southall-TBN-Web.jpg",
+   "source": "bluenote",
+   "start": "2026-11-06T19:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/southall-a-few-more-tour-columbia-missouri-11-06-2026/event/06006503E2D920B8",
+   "timeTBD": true,
+   "title": "Southall",
+   "venue": "The Blue Note"
+  },
+  {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-1a3578",
    "categories": [
     "arts"
@@ -642,6 +736,21 @@
    "venue": "The Blue Note"
   },
   {
+   "_slug": "you-can-see-everything-13bf42",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-06T22:54:00-06:00",
+   "id": "13bf421631fbfba7",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-06T20:00:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "friday-night-comedy-at-the-tokyo-club-a57d85",
    "categories": [
     "arts"
@@ -655,6 +764,21 @@
    "start": "2026-11-06T21:00:00-06:00",
    "title": "Friday Night Comedy at The Tokyo Club",
    "venue": "The Arcade District"
+  },
+  {
+   "_slug": "wicker-9438e9",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-06T23:00:00-06:00",
+   "id": "9438e98a7c6c9aee",
+   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
+   "source": "ragtag",
+   "start": "2026-11-06T21:15:00-06:00",
+   "title": "Wicker",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "myhouse-friday-11-6-night-459eb7",
@@ -719,18 +843,6 @@
    "venue": "Scouting Adventure Center"
   },
   {
-   "_slug": "holiday-gratitude-circle-w-tricia-dietrich-5a6f05",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "5a6f054e4faaaed5",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYTEyODUwODY3Y2ZhMzRmMzgzMjYwNzVkNzkwMWNhZWM4NGZiZmM2ZTA1MWY2MWFkYTk2MjkzZWYzNWYyM2Q0MS1yaW1nLXc4MjAtaDMxMi1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MzE2NDAzNw.avif",
-   "source": "allevents",
-   "start": "2026-11-07T09:00:00-06:00",
-   "title": "Holiday Gratitude Circle w/ Tricia Dietrich"
-  },
-  {
    "_slug": "pumpkin-smash-8d9189",
    "categories": [
     "family"
@@ -793,16 +905,18 @@
    "venue": "Columbia Public Library, First Floor"
   },
   {
-   "_slug": "tin-emboss-ornaments-525182",
+   "_slug": "peaceworks-37th-annual-dinner-131177",
    "categories": [
-    "community"
+    "food",
+    "religious"
    ],
-   "category": "community",
-   "id": "525182615e560796",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9lNjlkM2ZlYjYyOGVlZmIyYjg1MzMwMDk4ODQ4YTNjNTY2N2MyZDY3MTM0ZDZjMTY5YTUzM2M0ZWYyN2Q4NDg2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ1Mg.avif",
+   "category": "food",
+   "id": "131177a4a5a49ce2",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMTk2NWYyNThmODdlOTcyN2NhZDc1M2M3N2EyNjU2Yjc4YjZhZGRlNWFmOThkNTY0MDlkOWMwZjkzZjM4MGFjLXJpbWctdzEyMDAtaDQzNi1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk1NTI5NA.avif",
    "source": "allevents",
    "start": "2026-11-07T10:00:00-06:00",
-   "title": "Tin Emboss Ornaments"
+   "title": "Peaceworks' 37th Annual Dinner",
+   "venue": "First Christian Church-Disciples of Christ, Columbia, Missouri"
   },
   {
    "_slug": "natural-dyes-with-wildherness-d0a68c",
@@ -834,8 +948,8 @@
   {
    "_slug": "mizzou-football-vs-texas-c426be",
    "alsoOn": [
-    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas",
-    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927"
+    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927",
+    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas"
    ],
    "categories": [
     "sports"
@@ -848,6 +962,36 @@
    "start": "2026-11-07T11:00:00-06:00",
    "title": "Mizzou Football vs. Texas",
    "venue": "Champions Drive"
+  },
+  {
+   "_slug": "wild-horse-nine-a3532e",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-07T12:57:00-06:00",
+   "id": "a3532e118c9a3be6",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-07T11:00:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "you-can-see-everything-dd6ba6",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-07T14:24:00-06:00",
+   "id": "dd6ba617f93702ac",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-07T11:30:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "drop-in-and-draw-173c36",
@@ -895,16 +1039,34 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "journey-through-the-kleshas-the-5-roots-of-suffering-522211",
+   "_slug": "holiday-gratitude-circle-w-tricia-dietrich-5a6f05",
+   "alsoOn": [
+    "https://allevents.in/columbia/holiday-gratitude-circle-w-tricia-dietrich/200030929363318"
+   ],
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "522211a47d2c7ec4",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYmRkMDZkZjk2MDNiNDZkODhkOThjZWJmZGUwY2I5M2MyOWYzODQ0NjNjYjk0ZGQ4ZTY3NmE3MjJiZmYwNGM5OS1yaW1nLXcxMjAwLWg2NzItZGNmOGY4ZjgtZ21pcj92PTE3OTI5Njc0Njg.avif",
+   "description": "Take a pause before the holiday rush to explore gratitude as a practice and consider how you want the season to feel. The gathering includes conversation, warm spiced apple cider, snacks, and a Gratitude Circle for sharing what you appreciate. There will also be time to reflect on meaningful tradit…",
+   "end": "2026-11-07T15:00:00-06:00",
+   "id": "5a6f054e4faaaed5",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYTEyODUwODY3Y2ZhMzRmMzgzMjYwNzVkNzkwMWNhZWM4NGZiZmM2ZTA1MWY2MWFkYTk2MjkzZWYzNWYyM2Q0MS1yaW1nLXc4MjAtaDMxMi1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MzE2NDAzNw.avif",
+   "source": "baselocal",
+   "start": "2026-11-07T13:00:00-06:00",
+   "title": "Holiday Gratitude Circle w/ Tricia Dietrich",
+   "venue": "Heart, Body, & Soul"
+  },
+  {
+   "_slug": "open-climb-on-the-indoor-climbing-wall-8fae64",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "8fae64949204d363",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy83NDc4OGM3MTM4YzAyMjNmODY0MzliNzRiNjgzMmUxNzE4NTJhYTk1MWZmNzNjZDkyN2Y3YjgxMTFlYzhiZmY5LXJpbWctdzEyMDAtaDYwMC1kY2U4MzgzOC1nbWlyP3Y9MTc5MjExNjQyMA.avif",
    "source": "allevents",
    "start": "2026-11-07T13:00:00-06:00",
-   "title": "Journey Through the Kleshas: The 5 Roots of Suffering"
+   "title": "Open Climb on the Indoor Climbing Wall"
   },
   {
    "_slug": "santa-s-magic-arrival-1307ac",
@@ -996,16 +1158,46 @@
    "title": "Crafternoon @ Ladybird Craft Cafe!"
   },
   {
-   "_slug": "beaded-bookmarks-e2f428",
+   "_slug": "tin-emboss-ornaments-525182",
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "e2f4282f71761254",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy84YWJmZDdkNjUzZWZkNWNmOTAwOWY0ZTM0NGE0NDgyNGM0Y2NiNTRjMmI2NzQxMDY0NjI1Y2I2ZmUyOWExNmE0LXJpbWctdzEyMDAtaDYwMC1kY2I4YjgwOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
+   "id": "525182615e560796",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9lNjlkM2ZlYjYyOGVlZmIyYjg1MzMwMDk4ODQ4YTNjNTY2N2MyZDY3MTM0ZDZjMTY5YTUzM2M0ZWYyN2Q4NDg2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ1Mg.avif",
    "source": "allevents",
-   "start": "2026-11-07T17:30:00-06:00",
-   "title": "Beaded Bookmarks"
+   "start": "2026-11-07T15:00:00-06:00",
+   "title": "Tin Emboss Ornaments"
+  },
+  {
+   "_slug": "everest-the-other-side-6087c3",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-07T17:10:00-06:00",
+   "id": "6087c3a6078b9a5a",
+   "imageUrl": "https://comoevent.com/img/gen/039a788b692ccd.webp",
+   "source": "ragtag",
+   "start": "2026-11-07T15:15:00-06:00",
+   "title": "Everest: The Other Side",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "wild-horse-nine-1fdf48",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-07T18:42:00-06:00",
+   "id": "1fdf480207f8db8b",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-07T16:45:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "artistry-on-the-runway-hair-fashion-show-8aa53a",
@@ -1035,18 +1227,19 @@
    "venue": "The Blue Note"
   },
   {
-   "_slug": "peaceworks-37th-annual-dinner-131177",
+   "_slug": "wicker-4fb531",
    "categories": [
-    "food",
-    "religious"
+    "arts"
    ],
-   "category": "food",
-   "id": "131177a4a5a49ce2",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMTk2NWYyNThmODdlOTcyN2NhZDc1M2M3N2EyNjU2Yjc4YjZhZGRlNWFmOThkNTY0MDlkOWMwZjkzZjM4MGFjLXJpbWctdzEyMDAtaDQzNi1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk1NTI5NA.avif",
-   "source": "allevents",
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-07T19:45:00-06:00",
+   "id": "4fb531dec4699cc1",
+   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
+   "source": "ragtag",
    "start": "2026-11-07T18:00:00-06:00",
-   "title": "Peaceworks' 37th Annual Dinner",
-   "venue": "First Christian Church-Disciples of Christ, Columbia, Missouri"
+   "title": "Wicker",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "wine-cheese-please-453d2c",
@@ -1060,6 +1253,22 @@
    "start": "2026-11-07T18:00:00-06:00",
    "title": "Wine & Cheese, please!",
    "venue": "Clovers Natural Market (2012 E Broadway, Columbia, MO)"
+  },
+  {
+   "_slug": "emo-royale-vii-67a74f",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with Scout Speer",
+   "id": "67a74f662ff10463",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Southall-TBN-Web.jpg",
+   "source": "bluenote",
+   "start": "2026-11-07T19:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/emo-royale-columbia-missouri-11-07-2026/event/06006521CAF1E0A7",
+   "timeTBD": true,
+   "title": "Emo Royale VII",
+   "venue": "The Blue Note"
   },
   {
    "_slug": "r-b-night-friendsgiving-edition-columbia-mo-85910f",
@@ -1176,6 +1385,21 @@
    "venue": "The Tokyo Club"
   },
   {
+   "_slug": "you-can-see-everything-c06731",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-07T22:24:00-06:00",
+   "id": "c06731cec6225e93",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-07T19:30:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "certainly-so-rose-music-hall-f64117",
    "categories": [
     "music"
@@ -1191,16 +1415,31 @@
    "venue": "Rose Music Hall"
   },
   {
-   "_slug": "open-climb-on-the-indoor-climbing-wall-8fae64",
+   "_slug": "wild-horse-nine-d2c990",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-07T22:37:00-06:00",
+   "id": "d2c990b9f9719eda",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-07T20:40:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "journey-through-the-kleshas-the-5-roots-of-suffering-522211",
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "8fae64949204d363",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy83NDc4OGM3MTM4YzAyMjNmODY0MzliNzRiNjgzMmUxNzE4NTJhYTk1MWZmNzNjZDkyN2Y3YjgxMTFlYzhiZmY5LXJpbWctdzEyMDAtaDYwMC1kY2U4MzgzOC1nbWlyP3Y9MTc5MjExNjQyMA.avif",
+   "id": "522211a47d2c7ec4",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYmRkMDZkZjk2MDNiNDZkODhkOThjZWJmZGUwY2I5M2MyOWYzODQ0NjNjYjk0ZGQ4ZTY3NmE3MjJiZmYwNGM5OS1yaW1nLXcxMjAwLWg2NzItZGNmOGY4ZjgtZ21pcj92PTE3OTI5Njc0Njg.avif",
    "source": "allevents",
-   "start": "2026-11-07T20:00:00-06:00",
-   "title": "Open Climb on the Indoor Climbing Wall"
+   "start": "2026-11-07T21:00:00-06:00",
+   "title": "Journey Through the Kleshas: The 5 Roots of Suffering"
   },
   {
    "_slug": "saturday-night-comedy-at-the-tokyo-club-bc176d",
@@ -1233,17 +1472,17 @@
    "venue": "MyHouse"
   },
   {
-   "_slug": "missouri-tigers-womens-volleyball-vs-texas-a-m-aggies-womens-7983a3",
+   "_slug": "nurse-blake-at-missouri-theater-columbia-e7bf72",
    "categories": [
-    "sports"
+    "arts"
    ],
-   "category": "sports",
-   "id": "7983a3e752f915ba",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy81MThmNGNhMjQxNjc4ZmRmNTJiMTFlMDBmOTExYzkyNTcwMWI5YmU3OTcwZThiYTc4MTA0ZmE3ODEzNTgzZmI4LXJpbWctdzEwMjQtaDU3Ni1kYzc4MjkxZS1nbWlyLmpwZz92PTE3ODAyMjcwNDg.avif",
+   "category": "arts",
+   "id": "e7bf72c7024f6d1b",
+   "imageUrl": "https://comoevent.com/img/gen/c38893ccc450f8.webp",
    "source": "allevents",
-   "start": "2026-11-08T00:00:00-06:00",
-   "title": "Missouri Tigers Womens Volleyball vs. Texas A&M Aggies Womens Volleyball",
-   "venue": "Hearnes Center"
+   "start": "2026-11-08T10:00:00-06:00",
+   "title": "Nurse Blake at Missouri Theater - Columbia",
+   "venue": "Stephens Lake Park, Columbia, Missouri"
   },
   {
    "_slug": "merry-maplewood-a-festive-holiday-celebration-at-historic-ma-a9d48a",
@@ -1289,17 +1528,19 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "welcoming-winter-through-psyche-soma-soul-a-mini-retreat-76adc2",
+   "_slug": "everest-the-other-side-2b636d",
    "categories": [
-    "community"
+    "arts"
    ],
-   "category": "community",
-   "id": "76adc232f145eaf7",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xOTI1YjRhMTcxMTE0Y2MwNTJmZTFmZTYxNzQ0MzQ1ODA3MDdmMWFiNGVlMzQ0ZDhiOGIzYTUyMmI2NWM0MmI5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhlOC1nbWlyLmpwZz92PTE3OTMwOTk3NjY.avif",
-   "source": "allevents",
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-08T13:55:00-06:00",
+   "id": "2b636d60f17c24b2",
+   "imageUrl": "https://comoevent.com/img/gen/039a788b692ccd.webp",
+   "source": "ragtag",
    "start": "2026-11-08T12:00:00-06:00",
-   "title": "Welcoming Winter through Psyche, Soma & Soul: A Mini-Retreat",
-   "venue": "Heart, Body, & Soul"
+   "title": "Everest: The Other Side",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "all-state-prep-day-1381ab",
@@ -1348,14 +1589,14 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "flesh-and-blood-weekly-play-0a3ded",
+   "_slug": "flesh-and-blood-weekly-play-12badd",
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "Get started with the Flesh and Blood trading card game at a weekly play event featuring Standard format play. Expect fast-paced, interactive games and a growing community. Entry is $5.",
    "end": "2026-11-08T16:00:00-06:00",
-   "id": "0a3ded6f7044240e",
+   "id": "12badd2f8dc83e0a",
    "imageUrl": "https://comoevent.com/img/gen/099bc5a022d492.webp",
    "source": "baselocal",
    "start": "2026-11-08T13:00:00-06:00",
@@ -1470,9 +1711,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
+    "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
-    "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm"
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
    ],
    "categories": [
     "sports",
@@ -1552,17 +1793,19 @@
    "venue": "CoMo Cooks Shared Kitchen"
   },
   {
-   "_slug": "nurse-blake-at-missouri-theater-columbia-e7bf72",
+   "_slug": "wild-horse-nine-204c43",
    "categories": [
     "arts"
    ],
    "category": "arts",
-   "id": "e7bf72c7024f6d1b",
-   "imageUrl": "https://comoevent.com/img/gen/c38893ccc450f8.webp",
-   "source": "allevents",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-08T16:57:00-06:00",
+   "id": "204c43ae784a83a0",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
    "start": "2026-11-08T15:00:00-06:00",
-   "title": "Nurse Blake at Missouri Theater - Columbia",
-   "venue": "Stephens Lake Park, Columbia, Missouri"
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "university-of-missouri-trombone-ensemble-fall-concert-67638b",
@@ -1580,6 +1823,21 @@
    "venue": "Fine Arts Building"
   },
   {
+   "_slug": "you-can-see-everything-1fb89c",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-08T18:24:00-06:00",
+   "id": "1fb89c817998b2e6",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-08T15:30:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "mizzoumade-holiday-market-bad902",
    "categories": [
     "food"
@@ -1590,6 +1848,21 @@
    "source": "allevents",
    "start": "2026-11-08T16:00:00-06:00",
    "title": "MIZZOUMADE Holiday Market"
+  },
+  {
+   "_slug": "wild-horse-nine-472faa",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-08T19:47:00-06:00",
+   "id": "472faa257891fdac",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-08T17:50:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "tunes-at-two-rocket-kirchner-a14610",
@@ -1632,6 +1905,19 @@
    "venue": "Sinquefield Music Center"
   },
   {
+   "_slug": "missouri-tigers-womens-volleyball-vs-texas-a-m-aggies-womens-7983a3",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "7983a3e752f915ba",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy81MThmNGNhMjQxNjc4ZmRmNTJiMTFlMDBmOTExYzkyNTcwMWI5YmU3OTcwZThiYTc4MTA0ZmE3ODEzNTgzZmI4LXJpbWctdzEwMjQtaDU3Ni1kYzc4MjkxZS1nbWlyLmpwZz92PTE3ODAyMjcwNDg.avif",
+   "source": "allevents",
+   "start": "2026-11-08T19:00:00-06:00",
+   "title": "Missouri Tigers Womens Volleyball vs. Texas A&M Aggies Womens Volleyball",
+   "venue": "Hearnes Center"
+  },
+  {
    "_slug": "nurse-blake-but-did-you-die-comedy-tour-64a5e2",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die",
@@ -1651,16 +1937,46 @@
    "start": "2026-11-08T19:00:00-06:00",
    "title": "Nurse Blake: But Did You Die? Comedy Tour",
    "venue": "Missouri Theatre"
+  },
+  {
+   "_slug": "you-can-see-everything-12de80",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-08T22:09:00-06:00",
+   "id": "12de80f2f60fccf4",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-08T19:15:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "wicker-c6e4d2",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-08T22:25:00-06:00",
+   "id": "c6e4d26ff5df93c8",
+   "imageUrl": "https://comoevent.com/img/gen/72d86c3891ecd0.webp",
+   "source": "ragtag",
+   "start": "2026-11-08T20:40:00-06:00",
+   "title": "Wicker",
+   "venue": "Ragtag Cinema"
   }
  ],
  "friday": "2026-11-06",
  "modified": "2026-11-02",
  "picks": [
+  "5ec2d14ad14a4d17",
   "7102fdd64592154f",
-  "dbd2385e9a51bff2",
   "c8db621e22518e28",
+  "236bb060f8b95037",
   "3c0b59735fcc15c4",
-  "fb82ed79f16ed38a",
   "459eb79409a786bb",
   "214d639665554a51",
   "c426be1aa6bd900c",

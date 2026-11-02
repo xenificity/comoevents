@@ -20,6 +20,11 @@
   "lng": -92.3225127,
   "name": null
  },
+ "1004 w worley st, columbia, mo": {
+  "lat": 38.9593896,
+  "lng": -92.3532687,
+  "name": null
+ },
  "101 n 10th st, columbia, mo": {
   "lat": 38.9528915,
   "lng": -92.3268771,
@@ -111,6 +116,11 @@
   "lng": -92.327852,
   "name": "The Blue Note"
  },
+ "1751 w ash st, columbia, mo": {
+  "lat": 38.9569254,
+  "lng": -92.3640846,
+  "name": null
+ },
  "1769 w. ash columbia, mo 65203": {
   "lat": 38.9584756,
   "lng": -92.3646957,
@@ -169,6 +179,7 @@
   "lng": -92.372874,
   "name": null
  },
+ "2210 n country club dr, columbia, mo": null,
  "2525 n stadium blvd, columbia, mo columbia, mo 65202": {
   "lat": 38.9813192,
   "lng": -92.3746347,
@@ -226,6 +237,11 @@
   "name": null
  },
  "3669 legion ln, columbia, mo 65201 columbia, mo 65201": null,
+ "3700 buttonwood dr, columbia, mo": {
+  "lat": 38.9092388,
+  "lng": -92.3298335,
+  "name": "Sonic"
+ },
  "3711 discovery parkway columbia, mo 65201": {
   "lat": 38.893966,
   "lng": -92.2844374,
@@ -297,6 +313,11 @@
   "lng": -92.372988,
   "name": null
  },
+ "551 e southampton dr, columbia, mo": {
+  "lat": 38.9020588,
+  "lng": -92.3727329,
+  "name": "Southampton Drive"
+ },
  "5695 clark ln, columbia, mo 65202 columbia, mo 65202": null,
  "5900 e log providence rd columbia, mo 65201": {
   "lat": 38.8309632,
@@ -333,6 +354,11 @@
   "lat": 38.9672802,
   "lng": -92.3479926,
   "name": "The Food Bank Market"
+ },
+ "805 fairview ave, columbia, mo": {
+  "lat": 38.961517,
+  "lng": -92.327104,
+  "name": null
  },
  "806 locust st, columbia, mo": {
   "lat": 38.9494042,
@@ -384,6 +410,11 @@
  "clothing bins across campus, columbia, mo": null,
  "columbia  65203 united states, columbia, mo": null,
  "columbia 65203 united states, columbia, mo": null,
+ "columbia country club, columbia, mo": {
+  "lat": 38.9583408,
+  "lng": -92.3016565,
+  "name": "Columbia Country Club"
+ },
  "columbia entertainment company, columbia, mo": null,
  "columbia mall, columbia, missouri, columbia, mo": {
   "lat": 38.9638232,
