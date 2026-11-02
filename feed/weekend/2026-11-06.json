@@ -18,7 +18,8 @@
   {
    "_slug": "black-and-gold-friday-2fc01a",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
    ],
    "categories": [
     "campus"
@@ -91,19 +92,6 @@
    "venue": "Memorial Student Union"
   },
   {
-   "_slug": "ribbon-cutting-celebration-6456af",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "6456afa6aa585adb",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy80ODU5NjM4ZTE5NzVkMzcxYTI3M2FiMzJhOWM4NzZmMGI4ZWY0YTUyNDIwYjk4MjI2ZWE5NDUyMjVlZDhhOTA3LXJpbWctdzExMDUtaDE1NzAtZGNmOGY4ZjgtZ21pcj92PTE3OTI5Njc0Njk.avif",
-   "source": "allevents",
-   "start": "2026-11-06T10:00:00-06:00",
-   "title": "Ribbon Cutting & Celebration",
-   "venue": "Orr Street Studios"
-  },
-  {
    "_slug": "study-abroad-walk-in-advising-3ba96d",
    "categories": [
     "campus"
@@ -116,6 +104,18 @@
    "start": "2026-11-06T10:00:00-06:00",
    "title": "Study Abroad Walk-in Advising",
    "venue": "Memorial Student Union"
+  },
+  {
+   "_slug": "tiny-flea-80bb78",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "80bb7861102b547a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yZDI1NmI3ODI2ODk4MzQ2MDM4NTQwM2NlYzU0ZTA5ZDMzMTJhNTBlMWIxZTYyZjViYjhjZmNjOTlkMjNlMzA4LXJpbWctdzEyMDAtaDY3Ni1kYzA4MzgyOC1nbWlyP3Y9MTc5MzYxMzMyNA.avif",
+   "source": "allevents",
+   "start": "2026-11-06T10:00:00-06:00",
+   "title": "Tiny Flea"
   },
   {
    "_slug": "bundt-cakes-and-buddies-8d9cb6",
@@ -139,8 +139,8 @@
    "_slug": "mizine-5eb1ad",
    "alsoOn": [
     "https://engage.missouri.edu/RisoRoom/rsvp?id=453403",
-    "https://engage.missouri.edu/rsvp?id=453403",
-    "https://calendar.missouri.edu/event/21268-mizine"
+    "https://calendar.missouri.edu/event/21268-mizine",
+    "https://engage.missouri.edu/rsvp?id=453403"
    ],
    "categories": [
     "arts",
@@ -365,10 +365,10 @@
    "venue": "Serendipity Salon and Gallery"
   },
   {
-   "_slug": "first-friday-at-serendipity-4b2157",
+   "_slug": "first-friday-at-serendipity-7102fd",
    "alsoOn": [
-    "https://allevents.in/columbia/first-friday-at-serendipity/200030865981009",
     "https://northvillageartsdistrict.org/first-fridays/",
+    "https://allevents.in/columbia/first-friday-marketplace/200030369845436",
     "https://baselocal.com/mo/columbia/events/#first-friday-marketplace"
    ],
    "categories": [
@@ -379,8 +379,8 @@
    "category": "arts",
    "description": "Explore a new gallery exhibit featuring “Birds in CoMo,” vibrant, light-hearted paintings by Jeff Kapfer that draw on his graphic design background and lifelong interest in birds. The patio will feature returning and new special guests, roasted chestnuts, and allergen-free baked goods. Browse newly…",
    "end": "2026-11-06T21:00:00-06:00",
-   "id": "4b2157d212e23abc",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zNjU0MzY5MzIzZTU2ZTQ1OWE0NzhlMjk4ODRhY2QxMzZjMmIwMGY1YzJiMDkyYzU5YmJkYWY4NWYxNTMzNzcxLXJpbWctdzEyMDAtaDY3NS1kY2M4MTg3OC1nbWlyP3Y9MTc5MjU3MDc0OQ.avif",
+   "id": "7102fdd64592154f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9kY2U2ZTlhZTA3Njk2NWRkMmNjNjBhMTI0Y2NmMjdhZmNmYmZjMmU5MTQ1OWIyN2YwNmU3NTQ1NjFmZjEwMDEwLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4NTY1Njg1NA.avif",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-06T18:00:00-06:00",
@@ -416,6 +416,19 @@
    "start": "2026-11-06T18:00:00-06:00",
    "title": "MAGIC: Friday Night Commander",
    "venue": "Hexagon Alley"
+  },
+  {
+   "_slug": "first-friday-at-serendipity-4b2157",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "4b2157d212e23abc",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zNjU0MzY5MzIzZTU2ZTQ1OWE0NzhlMjk4ODRhY2QxMzZjMmIwMGY1YzJiMDkyYzU5YmJkYWY4NWYxNTMzNzcxLXJpbWctdzEyMDAtaDY3NS1kY2M4MTg3OC1nbWlyP3Y9MTc5MjU3MDc0OQ.avif",
+   "source": "allevents",
+   "start": "2026-11-06T18:30:00-06:00",
+   "title": "First Friday at Serendipity!",
+   "venue": "Serendipity Polish Pottery & Gallery, 1020 E. Walnut St., Ste. 100, Columbia, MO, United States, Missouri 65201"
   },
   {
    "_slug": "lakshmi-sahasranama-and-kumkuma-archana-94d79a",
@@ -674,7 +687,6 @@
   {
    "_slug": "columbia-farmers-market-winter-season-214d63",
    "alsoOn": [
-    "https://allevents.in/columbia/winter-market-kickoff/200030760342314",
     "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
    ],
    "categories": [
@@ -690,6 +702,21 @@
    "start": "2026-11-07T09:00:00-06:00",
    "title": "Columbia Farmers Market – Winter Season",
    "venue": "Winter Season"
+  },
+  {
+   "_slug": "first-aid-cpr-and-aed-certification-course-000b25",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Build practical, life-saving skills in first aid, CPR, and AED use through a certification course open to the public for ages 13 and older. Course materials are included, and group classes are available for six or more participants. Participants can earn ECSI certification.",
+   "end": "2026-11-07T12:00:00-06:00",
+   "id": "000b259110e2676b",
+   "imageUrl": "https://comoevent.com/img/gen/9e7de3a1f9120d.webp",
+   "source": "baselocal",
+   "start": "2026-11-07T09:00:00-06:00",
+   "title": "First Aid, CPR, and AED Certification Course",
+   "venue": "Scouting Adventure Center"
   },
   {
    "_slug": "holiday-gratitude-circle-w-tricia-dietrich-5a6f05",
@@ -731,24 +758,6 @@
    "venue": "Head Indian Motorcycle (5708 Freedom Dr Columbia, MO 65202)"
   },
   {
-   "_slug": "first-aid-cpr-and-aed-certification-course-c69bac",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#first-aid-cpr-and-aed-certification-course"
-   ],
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "description": "Build practical, life-saving skills in first aid, CPR, and AED use through a certification course open to the public for ages 13 and older. Course materials are included, and group classes are available for six or more participants. Participants can earn ECSI certification.",
-   "end": "2026-11-07T12:00:00-06:00",
-   "id": "c69bacf893acec0b",
-   "imageUrl": "https://comoevent.com/img/gen/9e7de3a1f9120d.webp",
-   "source": "allevents",
-   "start": "2026-11-07T10:00:00-06:00",
-   "title": "First Aid, CPR, and AED Certification Course",
-   "venue": "Scouting Adventure Center"
-  },
-  {
    "_slug": "health-insurance-marketplace-medicaid-open-enrollment-assist-d81a0b",
    "alsoOn": [
     "https://events.dbrl.org/event/17410800"
@@ -766,6 +775,34 @@
    "start": "2026-11-07T10:00:00-06:00",
    "title": "Health Insurance Marketplace & Medicaid: Open Enrollment Assistance",
    "venue": "Columbia Public Library"
+  },
+  {
+   "_slug": "local-authors-open-house-e61c2f",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "Come meet some talented local and regional authors at this open house and hear about their writing and publishing experiences. All authors will have books available for purchase and signing, so you can take home a signed copy for yourself or as a gift for someone else. Adults, teens and school-aged ",
+   "end": "2026-11-07T13:00:00-06:00",
+   "id": "e61c2fd7773b07d3",
+   "imageUrl": "https://comoevent.com/img/gen/736c7afdf79ca4.webp",
+   "price": "Free",
+   "source": "dbrl",
+   "start": "2026-11-07T10:00:00-06:00",
+   "title": "Local Authors Open House",
+   "venue": "Columbia Public Library, First Floor"
+  },
+  {
+   "_slug": "tin-emboss-ornaments-525182",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "525182615e560796",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9lNjlkM2ZlYjYyOGVlZmIyYjg1MzMwMDk4ODQ4YTNjNTY2N2MyZDY3MTM0ZDZjMTY5YTUzM2M0ZWYyN2Q4NDg2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ1Mg.avif",
+   "source": "allevents",
+   "start": "2026-11-07T10:00:00-06:00",
+   "title": "Tin Emboss Ornaments"
   },
   {
    "_slug": "natural-dyes-with-wildherness-d0a68c",
@@ -858,18 +895,6 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "beaded-bookmarks-e2f428",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "e2f4282f71761254",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy84YWJmZDdkNjUzZWZkNWNmOTAwOWY0ZTM0NGE0NDgyNGM0Y2NiNTRjMmI2NzQxMDY0NjI1Y2I2ZmUyOWExNmE0LXJpbWctdzEyMDAtaDYwMC1kY2I4YjgwOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
-   "source": "allevents",
-   "start": "2026-11-07T13:00:00-06:00",
-   "title": "Beaded Bookmarks"
-  },
-  {
    "_slug": "journey-through-the-kleshas-the-5-roots-of-suffering-522211",
    "categories": [
     "community"
@@ -959,16 +984,28 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "tin-emboss-ornaments-525182",
+   "_slug": "crafternoon-ladybird-craft-cafe-6baae0",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "6baae0d36a638d68",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80ZjFlZjU1MGM4ZjEyZmU2ODI5NzE0NGM5Njc0NjI1NTYzMDE4YmM2YTdlZjNkODVlYWI1ZGM4OTUzOGUwNDM0LXJpbWctdzEyMDAtaDY3Ni1kY2Y4ZDg1OC1nbWlyP3Y9MTc5MzYwMjU3OQ.avif",
+   "source": "allevents",
+   "start": "2026-11-07T15:00:00-06:00",
+   "title": "Crafternoon @ Ladybird Craft Cafe!"
+  },
+  {
+   "_slug": "beaded-bookmarks-e2f428",
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "525182615e560796",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9lNjlkM2ZlYjYyOGVlZmIyYjg1MzMwMDk4ODQ4YTNjNTY2N2MyZDY3MTM0ZDZjMTY5YTUzM2M0ZWYyN2Q4NDg2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ1Mg.avif",
+   "id": "e2f4282f71761254",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy84YWJmZDdkNjUzZWZkNWNmOTAwOWY0ZTM0NGE0NDgyNGM0Y2NiNTRjMmI2NzQxMDY0NjI1Y2I2ZmUyOWExNmE0LXJpbWctdzEyMDAtaDYwMC1kY2I4YjgwOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
    "source": "allevents",
-   "start": "2026-11-07T15:00:00-06:00",
-   "title": "Tin Emboss Ornaments"
+   "start": "2026-11-07T17:30:00-06:00",
+   "title": "Beaded Bookmarks"
   },
   {
    "_slug": "artistry-on-the-runway-hair-fashion-show-8aa53a",
@@ -996,25 +1033,6 @@
    "start": "2026-11-07T18:00:00-06:00",
    "title": "Emo Royale",
    "venue": "The Blue Note"
-  },
-  {
-   "_slug": "local-authors-open-house-6e3c07",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17384325"
-   ],
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "description": "Come meet some talented local and regional authors at this open house and hear about their writing and publishing experiences. All authors will have books available for purchase and signing, so you can take home a signed copy for yourself or as a gift for someone else. Adults, teens and school-aged ",
-   "end": "2026-11-07T13:00:00-06:00",
-   "id": "6e3c07057500e480",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy82ZTU2NzlhMjEzNzg1NWYwNzA5MDZjNTU2Y2IwZGZiNjExNjU0Yzc2Zjg4ZmQ4NDcwNWUwMTg2YTBmZDgwMzdiLXJpbWctdzEyMDAtaDYyOC1kYzc4OTg0OC1nbWlyP3Y9MTc5MzE0NDU5MQ.avif",
-   "price": "Free",
-   "source": "allevents",
-   "start": "2026-11-07T18:00:00-06:00",
-   "title": "Local Authors Open House",
-   "venue": "Columbia Public Library"
   },
   {
    "_slug": "peaceworks-37th-annual-dinner-131177",
@@ -1083,6 +1101,18 @@
    "start": "2026-11-07T19:00:00-06:00",
    "title": "Three Days Grace: Alienation Tour",
    "venue": "St.Louis Mo"
+  },
+  {
+   "_slug": "winter-market-kickoff-e9650d",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "e9650d9fa2184b68",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy80MzU1OGM3NTNmMmY5ODcyMDMwN2U2ZTQ3YjZlNWQ4NDRkNTY0ODI4OWEzNTkzNjM4ZGU2OTQwNTQxNDllMGQyLXJpbWctdzEyMDAtaDYyOC1kY2E4ZDhkOC1nbWlyP3Y9MTc5MDg3NzkxOQ.avif",
+   "source": "allevents",
+   "start": "2026-11-07T19:00:00-06:00",
+   "title": "Winter Market Kickoff"
   },
   {
    "_slug": "emo-royale-7-the-blue-note-c9c494",
@@ -1229,6 +1259,19 @@
    "start": "2026-11-08T11:00:00-06:00",
    "title": "Merry Maplewood: A Festive Holiday Celebration at Historic Maplewood House",
    "venue": "Historic Maplewood House"
+  },
+  {
+   "_slug": "kids-yoga-at-bricks-and-mini-figs-with-sarah-s-yoga-studio-8b54fd",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "8b54fdff61945605",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iOWIwNTBmNjBhYWNjODc3NGNiMDBiYmNiNjQyOTRhMzljNjA0MjFhMTlhZmU2Y2Y0MDA4OGFjOThmZjhkNGE3LXJpbWctdzEwODAtaDEzNTAtZGNlOGU4ZTgtZ21pci5qcGc_dj0xNzkzMjgwNjY2.avif",
+   "source": "allevents",
+   "start": "2026-11-08T11:30:00-06:00",
+   "title": "Kids Yoga at Bricks and Mini Figs with Sarah's Yoga Studio",
+   "venue": "Bricks & Minifigs Columbia"
   },
   {
    "_slug": "billy-hinsons-old-school-bbq-f66e5a",
@@ -1427,9 +1470,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
-    "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
+    "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm"
    ],
    "categories": [
     "sports",
@@ -1509,17 +1552,17 @@
    "venue": "CoMo Cooks Shared Kitchen"
   },
   {
-   "_slug": "kids-yoga-at-bricks-and-mini-figs-with-sarah-s-yoga-studio-8b54fd",
+   "_slug": "nurse-blake-at-missouri-theater-columbia-e7bf72",
    "categories": [
-    "family"
+    "arts"
    ],
-   "category": "family",
-   "id": "8b54fdff61945605",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9iOWIwNTBmNjBhYWNjODc3NGNiMDBiYmNiNjQyOTRhMzljNjA0MjFhMTlhZmU2Y2Y0MDA4OGFjOThmZjhkNGE3LXJpbWctdzEwODAtaDEzNTAtZGNlOGU4ZTgtZ21pci5qcGc_dj0xNzkzMjgwNjY2.avif",
+   "category": "arts",
+   "id": "e7bf72c7024f6d1b",
+   "imageUrl": "https://comoevent.com/img/gen/c38893ccc450f8.webp",
    "source": "allevents",
    "start": "2026-11-08T15:00:00-06:00",
-   "title": "Kids Yoga at Bricks and Mini Figs with Sarah's Yoga Studio",
-   "venue": "Bricks & Minifigs Columbia"
+   "title": "Nurse Blake at Missouri Theater - Columbia",
+   "venue": "Stephens Lake Park, Columbia, Missouri"
   },
   {
    "_slug": "university-of-missouri-trombone-ensemble-fall-concert-67638b",
@@ -1589,19 +1632,6 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "nurse-blake-at-missouri-theater-columbia-e7bf72",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "e7bf72c7024f6d1b",
-   "imageUrl": "https://comoevent.com/img/gen/c38893ccc450f8.webp",
-   "source": "allevents",
-   "start": "2026-11-08T19:00:00-06:00",
-   "title": "Nurse Blake at Missouri Theater - Columbia",
-   "venue": "Stephens Lake Park, Columbia, Missouri"
-  },
-  {
    "_slug": "nurse-blake-but-did-you-die-comedy-tour-64a5e2",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die",
@@ -1626,7 +1656,7 @@
  "friday": "2026-11-06",
  "modified": "2026-11-02",
  "picks": [
-  "4b2157d212e23abc",
+  "7102fdd64592154f",
   "dbd2385e9a51bff2",
   "c8db621e22518e28",
   "3c0b59735fcc15c4",
