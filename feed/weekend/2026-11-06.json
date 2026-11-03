@@ -18,7 +18,6 @@
   {
    "_slug": "black-and-gold-friday-2fc01a",
    "alsoOn": [
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
     "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
    ],
    "categories": [
@@ -92,16 +91,17 @@
    "venue": "Memorial Student Union"
   },
   {
-   "_slug": "first-friday-marketplace-7102fd",
+   "_slug": "ribbon-cutting-celebration-6456af",
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "7102fdd64592154f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9kY2U2ZTlhZTA3Njk2NWRkMmNjNjBhMTI0Y2NmMjdhZmNmYmZjMmU5MTQ1OWIyN2YwNmU3NTQ1NjFmZjEwMDEwLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4NTY1Njg1NA.avif",
+   "id": "6456afa6aa585adb",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy80ODU5NjM4ZTE5NzVkMzcxYTI3M2FiMzJhOWM4NzZmMGI4ZWY0YTUyNDIwYjk4MjI2ZWE5NDUyMjVlZDhhOTA3LXJpbWctdzExMDUtaDE1NzAtZGNmOGY4ZjgtZ21pcj92PTE3OTI5Njc0Njk.avif",
    "source": "allevents",
    "start": "2026-11-06T10:00:00-06:00",
-   "title": "First Friday Marketplace"
+   "title": "Ribbon Cutting & Celebration",
+   "venue": "Orr Street Studios"
   },
   {
    "_slug": "study-abroad-walk-in-advising-3ba96d",
@@ -138,9 +138,9 @@
   {
    "_slug": "mizine-5eb1ad",
    "alsoOn": [
-    "https://engage.missouri.edu/rsvp?id=453403",
     "https://calendar.missouri.edu/event/21268-mizine",
-    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403"
+    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403",
+    "https://engage.missouri.edu/rsvp?id=453403"
    ],
    "categories": [
     "arts",
@@ -183,6 +183,18 @@
    "start": "2026-11-06T11:00:00-06:00",
    "title": "Study Abroad Walk-in Advising",
    "venue": "Memorial Student Union"
+  },
+  {
+   "_slug": "dennis-layne-old-plank-tavern-with-scott-mccullough-1de0c1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "1de0c14ccb6a3cb0",
+   "imageUrl": "https://comoevent.com/img/gen/38f81485d86e3d.webp",
+   "source": "allevents",
+   "start": "2026-11-06T13:00:00-06:00",
+   "title": "Dennis Layne @ Old Plank Tavern / with Scott McCullough"
   },
   {
    "_slug": "wild-horse-nine-c92429",
@@ -572,10 +584,10 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-7-pm-3c0b59",
    "alsoOn": [
+    "https://allevents.in/columbia/missouri-tigers-womens-volleyball-vs-texas-longhorns-womens-volleyball/210001980707192",
     "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452002",
-    "https://allevents.in/columbia/missouri-tigers-womens-volleyball-vs-texas-longhorns-womens-volleyball/210001980707192"
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/"
    ],
    "categories": [
     "sports",
@@ -839,20 +851,6 @@
    "venue": "Columbia's Agriculture Park, 1769 W Ash Street"
   },
   {
-   "_slug": "american-legion-riders-toy-run-and-vendor-craft-show-7c7acf",
-   "categories": [
-    "sports",
-    "arts"
-   ],
-   "category": "sports",
-   "id": "7c7acf9c86d3a3c7",
-   "imageUrl": "https://comoevent.com/img/gen/4c160eda29dd11.webp",
-   "source": "allevents",
-   "start": "2026-11-07T10:00:00-06:00",
-   "title": "American Legion Riders Toy Run and vendor craft show",
-   "venue": "Head Indian Motorcycle (5708 Freedom Dr Columbia, MO 65202)"
-  },
-  {
    "_slug": "health-insurance-marketplace-medicaid-open-enrollment-assist-d81a0b",
    "alsoOn": [
     "https://events.dbrl.org/event/17410800"
@@ -888,18 +886,16 @@
    "venue": "Columbia Public Library, First Floor"
   },
   {
-   "_slug": "peaceworks-37th-annual-dinner-131177",
+   "_slug": "r-b-night-friendsgiving-edition-columbia-mo-85910f",
    "categories": [
-    "food",
-    "religious"
+    "community"
    ],
-   "category": "food",
-   "id": "131177a4a5a49ce2",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMTk2NWYyNThmODdlOTcyN2NhZDc1M2M3N2EyNjU2Yjc4YjZhZGRlNWFmOThkNTY0MDlkOWMwZjkzZjM4MGFjLXJpbWctdzEyMDAtaDQzNi1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk1NTI5NA.avif",
+   "category": "community",
+   "id": "85910ff50917a1be",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wNGY3YTQyMDg0MjM3NjZmODJiN2Q2M2U5Yjk1MmRmNzhhZGIyZTIxOGYyODgxMGUzMTI2YTlkOTJiNTk3NWU3LXJpbWctdzEwMjQtaDE1MzYtZGMwODA4MDgtZ21pcj92PTE3OTI5NDIxMzc.avif",
    "source": "allevents",
    "start": "2026-11-07T10:00:00-06:00",
-   "title": "Peaceworks' 37th Annual Dinner",
-   "venue": "First Christian Church-Disciples of Christ, Columbia, Missouri"
+   "title": "R&B Night: Friendsgiving Edition | Columbia, MO"
   },
   {
    "_slug": "natural-dyes-with-wildherness-d0a68c",
@@ -1053,6 +1049,18 @@
    "venue": "Bass Pro Shops (Columbia, MO)"
   },
   {
+   "_slug": "tin-emboss-ornaments-525182",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "525182615e560796",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9lNjlkM2ZlYjYyOGVlZmIyYjg1MzMwMDk4ODQ4YTNjNTY2N2MyZDY3MTM0ZDZjMTY5YTUzM2M0ZWYyN2Q4NDg2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ1Mg.avif",
+   "source": "allevents",
+   "start": "2026-11-07T13:45:00-06:00",
+   "title": "Tin Emboss Ornaments"
+  },
+  {
    "_slug": "2026-sale-horse-preview-silent-auction-7e7e7f",
    "alsoOn": [
     "https://calendar.missouri.edu/cafnr/event/21303-sale-horse-preview-and-silent-auction"
@@ -1132,6 +1140,18 @@
    "venue": "Museum Of Art And Archaeology"
   },
   {
+   "_slug": "beaded-bookmarks-e2f428",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e2f4282f71761254",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy84YWJmZDdkNjUzZWZkNWNmOTAwOWY0ZTM0NGE0NDgyNGM0Y2NiNTRjMmI2NzQxMDY0NjI1Y2I2ZmUyOWExNmE0LXJpbWctdzEyMDAtaDYwMC1kY2I4YjgwOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
+   "source": "allevents",
+   "start": "2026-11-07T15:00:00-06:00",
+   "title": "Beaded Bookmarks"
+  },
+  {
    "_slug": "crafternoon-ladybird-craft-cafe-6baae0",
    "categories": [
     "arts"
@@ -1142,18 +1162,6 @@
    "source": "allevents",
    "start": "2026-11-07T15:00:00-06:00",
    "title": "Crafternoon @ Ladybird Craft Cafe!"
-  },
-  {
-   "_slug": "tin-emboss-ornaments-525182",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "525182615e560796",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9lNjlkM2ZlYjYyOGVlZmIyYjg1MzMwMDk4ODQ4YTNjNTY2N2MyZDY3MTM0ZDZjMTY5YTUzM2M0ZWYyN2Q4NDg2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ1Mg.avif",
-   "source": "allevents",
-   "start": "2026-11-07T15:00:00-06:00",
-   "title": "Tin Emboss Ornaments"
   },
   {
    "_slug": "everest-the-other-side-6087c3",
@@ -1200,19 +1208,6 @@
    "title": "Artistry on the Runway: Hair & Fashion Show"
   },
   {
-   "_slug": "emo-royale-7937a4",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "7937a4dd393dc582",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy82MjM5MDdiZDkwNDFmMTJjYTcyMTZkN2RmNTlmZTVkYjI4NGZiZjczMzBkMzkzNTQzNGJkZGU4M2RlZTVjNTc3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODkwMDE5NDY.avif",
-   "source": "allevents",
-   "start": "2026-11-07T18:00:00-06:00",
-   "title": "Emo Royale",
-   "venue": "The Blue Note"
-  },
-  {
    "_slug": "wicker-4fb531",
    "categories": [
     "arts"
@@ -1257,16 +1252,18 @@
    "venue": "The Blue Note"
   },
   {
-   "_slug": "r-b-night-friendsgiving-edition-columbia-mo-85910f",
+   "_slug": "peaceworks-37th-annual-dinner-131177",
    "categories": [
-    "community"
+    "food",
+    "religious"
    ],
-   "category": "community",
-   "id": "85910ff50917a1be",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wNGY3YTQyMDg0MjM3NjZmODJiN2Q2M2U5Yjk1MmRmNzhhZGIyZTIxOGYyODgxMGUzMTI2YTlkOTJiNTk3NWU3LXJpbWctdzEwMjQtaDE1MzYtZGMwODA4MDgtZ21pcj92PTE3OTI5NDIxMzc.avif",
+   "category": "food",
+   "id": "131177a4a5a49ce2",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMTk2NWYyNThmODdlOTcyN2NhZDc1M2M3N2EyNjU2Yjc4YjZhZGRlNWFmOThkNTY0MDlkOWMwZjkzZjM4MGFjLXJpbWctdzEyMDAtaDQzNi1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk1NTI5NA.avif",
    "source": "allevents",
    "start": "2026-11-07T19:00:00-06:00",
-   "title": "R&B Night: Friendsgiving Edition | Columbia, MO"
+   "title": "Peaceworks' 37th Annual Dinner",
+   "venue": "First Christian Church-Disciples of Christ, Columbia, Missouri"
   },
   {
    "_slug": "rewind-the-curtain-broadway-now-then-0d9300",
@@ -1395,6 +1392,20 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "american-legion-riders-toy-run-and-vendor-craft-show-7c7acf",
+   "categories": [
+    "sports",
+    "arts"
+   ],
+   "category": "sports",
+   "id": "7c7acf9c86d3a3c7",
+   "imageUrl": "https://comoevent.com/img/gen/4c160eda29dd11.webp",
+   "source": "allevents",
+   "start": "2026-11-07T20:00:00-06:00",
+   "title": "American Legion Riders Toy Run and vendor craft show",
+   "venue": "Head Indian Motorcycle (5708 Freedom Dr Columbia, MO 65202)"
+  },
+  {
    "_slug": "certainly-so-rose-music-hall-f64117",
    "categories": [
     "music"
@@ -1408,6 +1419,19 @@
    "start": "2026-11-07T20:00:00-06:00",
    "title": "Certainly So – Rose Music Hall",
    "venue": "Rose Music Hall"
+  },
+  {
+   "_slug": "emo-royale-7937a4",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "7937a4dd393dc582",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy82MjM5MDdiZDkwNDFmMTJjYTcyMTZkN2RmNTlmZTVkYjI4NGZiZjczMzBkMzkzNTQzNGJkZGU4M2RlZTVjNTc3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODkwMDE5NDY.avif",
+   "source": "allevents",
+   "start": "2026-11-07T20:00:00-06:00",
+   "title": "Emo Royale",
+   "venue": "The Blue Note"
   },
   {
    "_slug": "open-climb-on-the-indoor-climbing-wall-8fae64",
@@ -1450,6 +1474,18 @@
    "venue": "University of Missouri"
   },
   {
+   "_slug": "journey-through-the-kleshas-the-5-roots-of-suffering-522211",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "522211a47d2c7ec4",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYmRkMDZkZjk2MDNiNDZkODhkOThjZWJmZGUwY2I5M2MyOWYzODQ0NjNjYjk0ZGQ4ZTY3NmE3MjJiZmYwNGM5OS1yaW1nLXcxMjAwLWg2NzItZGNmOGY4ZjgtZ21pcj92PTE3OTI5Njc0Njg.avif",
+   "source": "allevents",
+   "start": "2026-11-07T21:00:00-06:00",
+   "title": "Journey Through the Kleshas: The 5 Roots of Suffering"
+  },
+  {
    "_slug": "saturday-night-comedy-at-the-tokyo-club-bc176d",
    "categories": [
     "arts"
@@ -1478,6 +1514,19 @@
    "ticketUrl": "https://posh.vip/e/fastpass-saturday-117",
    "title": "MyHouse Saturday 11/7 Night",
    "venue": "MyHouse"
+  },
+  {
+   "_slug": "the-soul-the-scientific-method-free-event-50e8b6",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "50e8b6c06a153938",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wYjIxZjdjNzg1NDlmMWI1ZGNmZGExNzczMjc1NzFiNTE4MDY4ODdhM2Q4NTViMTIwOTE5YTUwZmY4ZmYwOWZjLXJpbWctdzEyMDAtaDYwMC1kY2U4ZDhhOC1nbWlyLmpwZz92PTE3OTE4Mjk4NzA.avif",
+   "source": "allevents",
+   "start": "2026-11-08T10:00:00-06:00",
+   "title": "The Soul & The Scientific Method (Free Event)",
+   "venue": "Natural Nail Care Salon"
   },
   {
    "_slug": "merry-maplewood-a-festive-holiday-celebration-at-historic-ma-a9d48a",
@@ -1645,19 +1694,6 @@
    "venue": "Columbia Public Library"
   },
   {
-   "_slug": "the-soul-the-scientific-method-free-event-50e8b6",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "50e8b6c06a153938",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wYjIxZjdjNzg1NDlmMWI1ZGNmZGExNzczMjc1NzFiNTE4MDY4ODdhM2Q4NTViMTIwOTE5YTUwZmY4ZmYwOWZjLXJpbWctdzEyMDAtaDYwMC1kY2U4ZDhhOC1nbWlyLmpwZz92PTE3OTE4Mjk4NzA.avif",
-   "source": "allevents",
-   "start": "2026-11-08T13:45:00-06:00",
-   "title": "The Soul & The Scientific Method (Free Event)",
-   "venue": "Natural Nail Care Salon"
-  },
-  {
    "_slug": "ars-nova-singers-concert-e9543c",
    "categories": [
     "music",
@@ -1728,9 +1764,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
     "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
    ],
    "categories": [
     "sports",
@@ -1950,8 +1986,8 @@
   {
    "_slug": "nurse-blake-but-did-you-die-comedy-tour-64a5e2",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die",
-    "https://calendar.missouri.edu/missouri-theatre/event/16271-nurse-blake-but-did-you-die-tour"
+    "https://calendar.missouri.edu/missouri-theatre/event/16271-nurse-blake-but-did-you-die-tour",
+    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die"
    ],
    "categories": [
     "music",
