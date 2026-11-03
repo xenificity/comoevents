@@ -47,6 +47,18 @@
    "venue": "Memorial Student Union"
   },
   {
+   "_slug": "tiny-flea-80bb78",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "80bb7861102b547a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yZDI1NmI3ODI2ODk4MzQ2MDM4NTQwM2NlYzU0ZTA5ZDMzMTJhNTBlMWIxZTYyZjViYjhjZmNjOTlkMjNlMzA4LXJpbWctdzEyMDAtaDY3Ni1kYzA4MzgyOC1nbWlyP3Y9MTc5MzYxMzMyNA.avif",
+   "source": "allevents",
+   "start": "2026-11-06T09:00:00-06:00",
+   "title": "Tiny Flea"
+  },
+  {
    "_slug": "international-student-workshop-optional-practical-training-6547c9",
    "categories": [
     "campus"
@@ -91,19 +103,6 @@
    "venue": "Memorial Student Union"
   },
   {
-   "_slug": "ribbon-cutting-celebration-6456af",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "6456afa6aa585adb",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy80ODU5NjM4ZTE5NzVkMzcxYTI3M2FiMzJhOWM4NzZmMGI4ZWY0YTUyNDIwYjk4MjI2ZWE5NDUyMjVlZDhhOTA3LXJpbWctdzExMDUtaDE1NzAtZGNmOGY4ZjgtZ21pcj92PTE3OTI5Njc0Njk.avif",
-   "source": "allevents",
-   "start": "2026-11-06T10:00:00-06:00",
-   "title": "Ribbon Cutting & Celebration",
-   "venue": "Orr Street Studios"
-  },
-  {
    "_slug": "study-abroad-walk-in-advising-3ba96d",
    "categories": [
     "campus"
@@ -138,9 +137,9 @@
   {
    "_slug": "mizine-5eb1ad",
    "alsoOn": [
+    "https://engage.missouri.edu/rsvp?id=453403",
     "https://calendar.missouri.edu/event/21268-mizine",
-    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403",
-    "https://engage.missouri.edu/rsvp?id=453403"
+    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403"
    ],
    "categories": [
     "arts",
@@ -367,19 +366,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "11th-annual-welcome-home-casino-night-80b9a3",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "80b9a3689f9a8d67",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9iZWVkNTk2ODAxY2ViYWVkM2NhMDJiNWFiYTY1MWM4MmJiMmU2ZDYwMWRmZDRkM2ZjNjZhYWY0OWEzOTkzZjkzLXJpbWctdzEyMDAtaDY3NS1kY2I4MjgyOC1nbWlyP3Y9MTc4ODgxNTQwMw.avif",
-   "source": "allevents",
-   "start": "2026-11-06T17:30:00-06:00",
-   "title": "11th Annual Welcome Home Casino Night",
-   "venue": "Country Club of Missouri"
-  },
-  {
    "_slug": "summer-welcome-informational-session-2-cc6439",
    "categories": [
     "campus"
@@ -430,9 +416,9 @@
   {
    "_slug": "first-friday-at-serendipity-4b2157",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#first-friday-marketplace",
+    "https://allevents.in/columbia/first-friday-at-serendipity/200030865981009",
     "https://northvillageartsdistrict.org/first-fridays/",
-    "https://allevents.in/columbia/first-friday-at-serendipity/200030865981009"
+    "https://baselocal.com/mo/columbia/events/#first-friday-marketplace"
    ],
    "categories": [
     "arts",
@@ -481,18 +467,6 @@
    "venue": "Hexagon Alley"
   },
   {
-   "_slug": "tiny-flea-80bb78",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "80bb7861102b547a",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yZDI1NmI3ODI2ODk4MzQ2MDM4NTQwM2NlYzU0ZTA5ZDMzMTJhNTBlMWIxZTYyZjViYjhjZmNjOTlkMjNlMzA4LXJpbWctdzEyMDAtaDY3Ni1kYzA4MzgyOC1nbWlyP3Y9MTc5MzYxMzMyNA.avif",
-   "source": "allevents",
-   "start": "2026-11-06T18:00:00-06:00",
-   "title": "Tiny Flea"
-  },
-  {
    "_slug": "emily-baskett-real-estate-grand-opening-and-ribbon-cutting-c-758367",
    "categories": [
     "community"
@@ -534,6 +508,19 @@
    "start": "2026-11-06T18:30:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "11th-annual-welcome-home-casino-night-80b9a3",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "80b9a3689f9a8d67",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9iZWVkNTk2ODAxY2ViYWVkM2NhMDJiNWFiYTY1MWM4MmJiMmU2ZDYwMWRmZDRkM2ZjNjZhYWY0OWEzOTkzZjkzLXJpbWctdzEyMDAtaDY3NS1kY2I4MjgyOC1nbWlyP3Y9MTc4ODgxNTQwMw.avif",
+   "source": "allevents",
+   "start": "2026-11-06T19:00:00-06:00",
+   "title": "11th Annual Welcome Home Casino Night",
+   "venue": "Country Club of Missouri"
   },
   {
    "_slug": "alpha-omega-devotional-b87592",
@@ -585,8 +572,8 @@
    "_slug": "mizzou-volleyball-vs-texas-7-pm-3c0b59",
    "alsoOn": [
     "https://allevents.in/columbia/missouri-tigers-womens-volleyball-vs-texas-longhorns-womens-volleyball/210001980707192",
-    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452002",
+    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas",
     "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/"
    ],
    "categories": [
@@ -851,7 +838,7 @@
    "venue": "Columbia's Agriculture Park, 1769 W Ash Street"
   },
   {
-   "_slug": "health-insurance-marketplace-medicaid-open-enrollment-assist-d81a0b",
+   "_slug": "health-insurance-marketplace-medicaid-open-enrollment-assist-4348ba",
    "alsoOn": [
     "https://events.dbrl.org/event/17410800"
    ],
@@ -861,7 +848,7 @@
    "category": "community",
    "description": "A licensed navigator from Missouri Connections for Health can help adults explore their options, compare plans, and enroll in 2027 Health Insurance Marketplace plans or Medicaid (MO HealthNet). Appointments are required. To request one, call Kevin Wehner and leave a voicemail; your call will be ret…",
    "end": "2026-11-07T14:00:00-06:00",
-   "id": "d81a0b0600827d85",
+   "id": "4348ba7b76fa674f",
    "imageUrl": "https://comoevent.com/img/gen/6163e5de0123b2.webp",
    "price": "Free",
    "source": "baselocal",
@@ -925,10 +912,29 @@
    "venue": "Scouting Adventure Center"
   },
   {
+   "_slug": "2026-sale-horse-preview-silent-auction-7e7e7f",
+   "alsoOn": [
+    "https://calendar.missouri.edu/cafnr/event/21303-sale-horse-preview-and-silent-auction"
+   ],
+   "categories": [
+    "campus",
+    "food"
+   ],
+   "category": "campus",
+   "description": "Preview available sale horses and their portfolios, meet student trainers, learn about the program, and enjoy sponsor-provided food.",
+   "end": "2026-11-07T14:00:00-06:00",
+   "id": "7e7e7ffaa81720b4",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy83ZTgyZDRkNDE2MGQzM2ZlNDhjYjJkMDYwZTJkZmJkZjAwMWY1NWNiNjM0MWY0Yzg4MTVmNTcwYTU4NWNkYmExLXJpbWctdzEyMDAtaDgzMi1kY2I4YzhkOC1nbWlyP3Y9MTc5MTE1MjAwOA.avif",
+   "source": "allevents",
+   "start": "2026-11-07T11:00:00-06:00",
+   "title": "2026 Sale Horse Preview & Silent Auction",
+   "venue": "South Farm - Equine Teaching Facility"
+  },
+  {
    "_slug": "mizzou-football-vs-texas-c426be",
    "alsoOn": [
-    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas",
-    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927"
+    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927",
+    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas"
    ],
    "categories": [
     "sports"
@@ -956,6 +962,19 @@
    "start": "2026-11-07T11:00:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "texas-takeover-texas-football-vs-missouri-rsvp-thru-idonate-5b598f",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "5b598f510db931dc",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xMTA4OTYyZGEwN2I5Mzg5YmQ2OGE3MjUyYzcxNTg5ZDgwZDc0OTk2MGFiM2ViZmRiOWZkMzU3NGMyY2JlYjM5LXJpbWctdzEyMDAtaDEzNTAtZGNmZmZmZmYtZ21pci5qcGc_dj0xNzgyMzY1NTk3.avif",
+   "source": "allevents",
+   "start": "2026-11-07T11:30:00-06:00",
+   "title": "Texas Takeover - Texas Football vs. Missouri (RSVP thru idonate link)",
+   "venue": "University of Missouri"
   },
   {
    "_slug": "you-can-see-everything-dd6ba6",
@@ -1061,25 +1080,6 @@
    "title": "Tin Emboss Ornaments"
   },
   {
-   "_slug": "2026-sale-horse-preview-silent-auction-7e7e7f",
-   "alsoOn": [
-    "https://calendar.missouri.edu/cafnr/event/21303-sale-horse-preview-and-silent-auction"
-   ],
-   "categories": [
-    "campus",
-    "food"
-   ],
-   "category": "campus",
-   "description": "Preview available sale horses and their portfolios, meet student trainers, learn about the program, and enjoy sponsor-provided food.",
-   "end": "2026-11-07T14:00:00-06:00",
-   "id": "7e7e7ffaa81720b4",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy83ZTgyZDRkNDE2MGQzM2ZlNDhjYjJkMDYwZTJkZmJkZjAwMWY1NWNiNjM0MWY0Yzg4MTVmNTcwYTU4NWNkYmExLXJpbWctdzEyMDAtaDgzMi1kY2I4YzhkOC1nbWlyP3Y9MTc5MTE1MjAwOA.avif",
-   "source": "allevents",
-   "start": "2026-11-07T14:00:00-06:00",
-   "title": "2026 Sale Horse Preview & Silent Auction",
-   "venue": "South Farm - Equine Teaching Facility"
-  },
-  {
    "_slug": "bhagwad-gita-class-a027e4",
    "categories": [
     "religious",
@@ -1140,18 +1140,6 @@
    "venue": "Museum Of Art And Archaeology"
   },
   {
-   "_slug": "beaded-bookmarks-e2f428",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "e2f4282f71761254",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy84YWJmZDdkNjUzZWZkNWNmOTAwOWY0ZTM0NGE0NDgyNGM0Y2NiNTRjMmI2NzQxMDY0NjI1Y2I2ZmUyOWExNmE0LXJpbWctdzEyMDAtaDYwMC1kY2I4YjgwOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
-   "source": "allevents",
-   "start": "2026-11-07T15:00:00-06:00",
-   "title": "Beaded Bookmarks"
-  },
-  {
    "_slug": "crafternoon-ladybird-craft-cafe-6baae0",
    "categories": [
     "arts"
@@ -1194,6 +1182,18 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "open-climb-on-the-indoor-climbing-wall-8fae64",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "8fae64949204d363",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy83NDc4OGM3MTM4YzAyMjNmODY0MzliNzRiNjgzMmUxNzE4NTJhYTk1MWZmNzNjZDkyN2Y3YjgxMTFlYzhiZmY5LXJpbWctdzEyMDAtaDYwMC1kY2U4MzgzOC1nbWlyP3Y9MTc5MjExNjQyMA.avif",
+   "source": "allevents",
+   "start": "2026-11-07T17:00:00-06:00",
+   "title": "Open Climb on the Indoor Climbing Wall"
+  },
+  {
    "_slug": "artistry-on-the-runway-hair-fashion-show-8aa53a",
    "categories": [
     "community"
@@ -1206,6 +1206,19 @@
    "source": "visitcolumbia",
    "start": "2026-11-07T18:00:00-06:00",
    "title": "Artistry on the Runway: Hair & Fashion Show"
+  },
+  {
+   "_slug": "emo-royale-7937a4",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "7937a4dd393dc582",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy82MjM5MDdiZDkwNDFmMTJjYTcyMTZkN2RmNTlmZTVkYjI4NGZiZjczMzBkMzkzNTQzNGJkZGU4M2RlZTVjNTc3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODkwMDE5NDY.avif",
+   "source": "allevents",
+   "start": "2026-11-07T18:00:00-06:00",
+   "title": "Emo Royale",
+   "venue": "The Blue Note"
   },
   {
    "_slug": "wicker-4fb531",
@@ -1421,31 +1434,6 @@
    "venue": "Rose Music Hall"
   },
   {
-   "_slug": "emo-royale-7937a4",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "7937a4dd393dc582",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy82MjM5MDdiZDkwNDFmMTJjYTcyMTZkN2RmNTlmZTVkYjI4NGZiZjczMzBkMzkzNTQzNGJkZGU4M2RlZTVjNTc3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODkwMDE5NDY.avif",
-   "source": "allevents",
-   "start": "2026-11-07T20:00:00-06:00",
-   "title": "Emo Royale",
-   "venue": "The Blue Note"
-  },
-  {
-   "_slug": "open-climb-on-the-indoor-climbing-wall-8fae64",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "8fae64949204d363",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy83NDc4OGM3MTM4YzAyMjNmODY0MzliNzRiNjgzMmUxNzE4NTJhYTk1MWZmNzNjZDkyN2Y3YjgxMTFlYzhiZmY5LXJpbWctdzEyMDAtaDYwMC1kY2U4MzgzOC1nbWlyP3Y9MTc5MjExNjQyMA.avif",
-   "source": "allevents",
-   "start": "2026-11-07T20:00:00-06:00",
-   "title": "Open Climb on the Indoor Climbing Wall"
-  },
-  {
    "_slug": "wild-horse-nine-d2c990",
    "categories": [
     "arts"
@@ -1459,19 +1447,6 @@
    "start": "2026-11-07T20:40:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "texas-takeover-texas-football-vs-missouri-rsvp-thru-idonate-5b598f",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "5b598f510db931dc",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xMTA4OTYyZGEwN2I5Mzg5YmQ2OGE3MjUyYzcxNTg5ZDgwZDc0OTk2MGFiM2ViZmRiOWZkMzU3NGMyY2JlYjM5LXJpbWctdzEyMDAtaDEzNTAtZGNmZmZmZmYtZ21pci5qcGc_dj0xNzgyMzY1NTk3.avif",
-   "source": "allevents",
-   "start": "2026-11-07T20:45:00-06:00",
-   "title": "Texas Takeover - Texas Football vs. Missouri (RSVP thru idonate link)",
-   "venue": "University of Missouri"
   },
   {
    "_slug": "journey-through-the-kleshas-the-5-roots-of-suffering-522211",
@@ -1764,9 +1739,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
     "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003"
    ],
    "categories": [
     "sports",
@@ -1916,19 +1891,6 @@
    "start": "2026-11-08T17:50:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "tunes-at-two-rocket-kirchner-a14610",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "a1461061813582b9",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9lZjFjMTEwNmQwNTczMjk3YWZmZmJiOTk2ODdmYzU2M2YzNTk0OGE4ODlmOTVjNWU5NTg0MmY0ZWZlODIxNzAxLXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjg0NDM5NQ.avif",
-   "source": "allevents",
-   "start": "2026-11-08T18:00:00-06:00",
-   "title": "Tunes at Two: Rocket Kirchner",
-   "venue": "Columbia Public Library"
   },
   {
    "_slug": "arts-autumnal-third-annual-west-ash-neighborhood-art-festiva-f2a6de",
