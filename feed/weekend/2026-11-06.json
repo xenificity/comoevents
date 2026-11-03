@@ -18,8 +18,8 @@
   {
    "_slug": "black-and-gold-friday-2fc01a",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
    ],
    "categories": [
     "campus"
@@ -92,6 +92,18 @@
    "venue": "Memorial Student Union"
   },
   {
+   "_slug": "first-friday-marketplace-7102fd",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "7102fdd64592154f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9kY2U2ZTlhZTA3Njk2NWRkMmNjNjBhMTI0Y2NmMjdhZmNmYmZjMmU5MTQ1OWIyN2YwNmU3NTQ1NjFmZjEwMDEwLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4NTY1Njg1NA.avif",
+   "source": "allevents",
+   "start": "2026-11-06T10:00:00-06:00",
+   "title": "First Friday Marketplace"
+  },
+  {
    "_slug": "study-abroad-walk-in-advising-3ba96d",
    "categories": [
     "campus"
@@ -126,9 +138,9 @@
   {
    "_slug": "mizine-5eb1ad",
    "alsoOn": [
+    "https://engage.missouri.edu/rsvp?id=453403",
     "https://calendar.missouri.edu/event/21268-mizine",
-    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403",
-    "https://engage.missouri.edu/rsvp?id=453403"
+    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403"
    ],
    "categories": [
     "arts",
@@ -404,11 +416,11 @@
    "venue": "Serendipity Salon and Gallery"
   },
   {
-   "_slug": "first-friday-at-serendipity-7102fd",
+   "_slug": "first-friday-at-serendipity-4b2157",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#first-friday-marketplace",
-    "https://allevents.in/columbia/first-friday-marketplace/200030369845436",
-    "https://northvillageartsdistrict.org/first-fridays/"
+    "https://northvillageartsdistrict.org/first-fridays/",
+    "https://allevents.in/columbia/first-friday-at-serendipity/200030865981009"
    ],
    "categories": [
     "arts",
@@ -418,8 +430,8 @@
    "category": "arts",
    "description": "Explore a new gallery exhibit featuring “Birds in CoMo,” vibrant, light-hearted paintings by Jeff Kapfer that draw on his graphic design background and lifelong interest in birds. The patio will feature returning and new special guests, roasted chestnuts, and allergen-free baked goods. Browse newly…",
    "end": "2026-11-06T21:00:00-06:00",
-   "id": "7102fdd64592154f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9kY2U2ZTlhZTA3Njk2NWRkMmNjNjBhMTI0Y2NmMjdhZmNmYmZjMmU5MTQ1OWIyN2YwNmU3NTQ1NjFmZjEwMDEwLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4NTY1Njg1NA.avif",
+   "id": "4b2157d212e23abc",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zNjU0MzY5MzIzZTU2ZTQ1OWE0NzhlMjk4ODRhY2QxMzZjMmIwMGY1YzJiMDkyYzU5YmJkYWY4NWYxNTMzNzcxLXJpbWctdzEyMDAtaDY3NS1kY2M4MTg3OC1nbWlyP3Y9MTc5MjU3MDc0OQ.avif",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-06T18:00:00-06:00",
@@ -479,19 +491,6 @@
    "source": "allevents",
    "start": "2026-11-06T18:30:00-06:00",
    "title": "Emily Baskett Real Estate Grand Opening and Ribbon Cutting Ceremony"
-  },
-  {
-   "_slug": "first-friday-at-serendipity-4b2157",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "4b2157d212e23abc",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zNjU0MzY5MzIzZTU2ZTQ1OWE0NzhlMjk4ODRhY2QxMzZjMmIwMGY1YzJiMDkyYzU5YmJkYWY4NWYxNTMzNzcxLXJpbWctdzEyMDAtaDY3NS1kY2M4MTg3OC1nbWlyP3Y9MTc5MjU3MDc0OQ.avif",
-   "source": "allevents",
-   "start": "2026-11-06T18:30:00-06:00",
-   "title": "First Friday at Serendipity!",
-   "venue": "Serendipity Polish Pottery & Gallery, 1020 E. Walnut St., Ste. 100, Columbia, MO, United States, Missouri 65201"
   },
   {
    "_slug": "lakshmi-sahasranama-and-kumkuma-archana-94d79a",
@@ -573,9 +572,10 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-7-pm-3c0b59",
    "alsoOn": [
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452002",
+    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas",
     "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/",
-    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452002",
+    "https://allevents.in/columbia/missouri-tigers-womens-volleyball-vs-texas-longhorns-womens-volleyball/210001980707192"
    ],
    "categories": [
     "sports",
@@ -642,6 +642,9 @@
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-1a3578",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
+   ],
    "categories": [
     "arts"
    ],
@@ -649,23 +652,29 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-06T21:00:00-06:00",
    "id": "1a3578014a9a8203",
-   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
+   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
+   "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
    "source": "visitcolumbia",
    "start": "2026-11-06T19:30:00-06:00",
-   "title": "Evil Dead: The Musical – Columbia Entertainment Co."
+   "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
+   "venue": "Columbia Entertainment Company"
   },
   {
-   "_slug": "little-women-44a943",
+   "_slug": "little-women-the-musical-44a943",
+   "alsoOn": [
+    "https://calendar.missouri.edu/theatre/event/20640-little-women"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
+   "description": "Based on Louisa May Alcott’s beloved novel, see the story of the March sisters come to life on stage. Take a break from screens and travel bac…",
    "id": "44a943854d89184d",
-   "imageUrl": "https://comoevent.com/img/gen/3bf7593e2c33cc.webp",
-   "price": "23",
-   "source": "mizzou",
+   "imageUrl": "https://comoevent.com/img/gen/34c4d5bc738769.webp",
+   "price": "$23; $18 groups of eight or more; $15 undergraduate…",
+   "source": "vox",
    "start": "2026-11-06T19:30:00-06:00",
-   "title": "Little Women",
+   "title": "Little Women: The Musical",
    "venue": "Rhynsburger Theatre"
   },
   {
@@ -694,19 +703,6 @@
    "start": "2026-11-06T20:00:00-06:00",
    "title": "Craft Club",
    "venue": "Ladybird Cafe"
-  },
-  {
-   "_slug": "missouri-tigers-womens-volleyball-vs-texas-longhorns-womens-2af25e",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "2af25ead412e2fd0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMWI5ZDEzYzZkMzk0YjQ5YmM5Y2MyNmYwZjZlZjYzMDdmYzMyOWQ2NTgwNjE1NzQ0YjJmYmVlYjFiOGIwNzYxMy1yaW1nLXcxMDI0LWg1NzYtZGM3ODI5MWUtZ21pci5qcGc_dj0xNzgwMjI3MDc4.avif",
-   "source": "allevents",
-   "start": "2026-11-06T20:00:00-06:00",
-   "title": "Missouri Tigers Womens Volleyball vs. Texas Longhorns Womens Volleyball",
-   "venue": "Hearnes Center"
   },
   {
    "_slug": "southall-the-blue-note-fb82ed",
@@ -794,19 +790,6 @@
    "ticketUrl": "https://posh.vip/e/fastpass-friday-116",
    "title": "MyHouse Friday 11/6 Night",
    "venue": "MyHouse"
-  },
-  {
-   "_slug": "texas-takeover-texas-football-vs-missouri-rsvp-thru-idonate-5b598f",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "5b598f510db931dc",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xMTA4OTYyZGEwN2I5Mzg5YmQ2OGE3MjUyYzcxNTg5ZDgwZDc0OTk2MGFiM2ViZmRiOWZkMzU3NGMyY2JlYjM5LXJpbWctdzEyMDAtaDEzNTAtZGNmZmZmZmYtZ21pci5qcGc_dj0xNzgyMzY1NTk3.avif",
-   "source": "allevents",
-   "start": "2026-11-07T00:00:00-06:00",
-   "title": "Texas Takeover - Texas Football vs. Missouri (RSVP thru idonate link)",
-   "venue": "University of Missouri"
   },
   {
    "_slug": "columbia-farmers-market-winter-season-214d63",
@@ -948,8 +931,8 @@
   {
    "_slug": "mizzou-football-vs-texas-c426be",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927",
-    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas"
+    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas",
+    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927"
    ],
    "categories": [
     "sports"
@@ -1057,18 +1040,6 @@
    "venue": "Heart, Body, & Soul"
   },
   {
-   "_slug": "open-climb-on-the-indoor-climbing-wall-8fae64",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "8fae64949204d363",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy83NDc4OGM3MTM4YzAyMjNmODY0MzliNzRiNjgzMmUxNzE4NTJhYTk1MWZmNzNjZDkyN2Y3YjgxMTFlYzhiZmY5LXJpbWctdzEyMDAtaDYwMC1kY2U4MzgzOC1nbWlyP3Y9MTc5MjExNjQyMA.avif",
-   "source": "allevents",
-   "start": "2026-11-07T13:00:00-06:00",
-   "title": "Open Climb on the Indoor Climbing Wall"
-  },
-  {
    "_slug": "santa-s-magic-arrival-1307ac",
    "categories": [
     "community"
@@ -1144,6 +1115,21 @@
    "start": "2026-11-07T14:00:00-06:00",
    "title": "Mint Jelly",
    "venue": "Cooper's Landing"
+  },
+  {
+   "_slug": "deanna-dikeman-a-sense-of-place-guided-tour-aeb5dd",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Visitors can discuss, think and learn as they are guided through the exhibition “Deanna Dikeman: A Sense of Place.” Get an inside look at the …",
+   "id": "aeb5dda41fa773ee",
+   "imageUrl": "https://comoevent.com/img/gen/ee2efbb7310ef6.webp",
+   "price": "Free",
+   "source": "vox",
+   "start": "2026-11-07T14:00:00-06:00",
+   "title": "“Deanna Dikeman: A Sense of Place” guided tour",
+   "venue": "Museum Of Art And Archaeology"
   },
   {
    "_slug": "crafternoon-ladybird-craft-cafe-6baae0",
@@ -1339,6 +1325,9 @@
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-054a6f",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
+   ],
    "categories": [
     "arts"
    ],
@@ -1346,23 +1335,29 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-07T21:00:00-06:00",
    "id": "054a6f8f38b946ec",
-   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
+   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
+   "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
    "source": "visitcolumbia",
    "start": "2026-11-07T19:30:00-06:00",
-   "title": "Evil Dead: The Musical – Columbia Entertainment Co."
+   "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
+   "venue": "Columbia Entertainment Company"
   },
   {
-   "_slug": "little-women-99df5b",
+   "_slug": "little-women-the-musical-99df5b",
+   "alsoOn": [
+    "https://calendar.missouri.edu/theatre/event/20641-little-women"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
+   "description": "Based on Louisa May Alcott’s beloved novel, see the story of the March sisters come to life on stage. Take a break from screens and travel bac…",
    "id": "99df5b10d36440c0",
-   "imageUrl": "https://comoevent.com/img/gen/3bf7593e2c33cc.webp",
-   "price": "23",
-   "source": "mizzou",
+   "imageUrl": "https://comoevent.com/img/gen/34c4d5bc738769.webp",
+   "price": "$23; $18 groups of eight or more; $15 undergraduate…",
+   "source": "vox",
    "start": "2026-11-07T19:30:00-06:00",
-   "title": "Little Women",
+   "title": "Little Women: The Musical",
    "venue": "Rhynsburger Theatre"
   },
   {
@@ -1415,6 +1410,18 @@
    "venue": "Rose Music Hall"
   },
   {
+   "_slug": "open-climb-on-the-indoor-climbing-wall-8fae64",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "8fae64949204d363",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy83NDc4OGM3MTM4YzAyMjNmODY0MzliNzRiNjgzMmUxNzE4NTJhYTk1MWZmNzNjZDkyN2Y3YjgxMTFlYzhiZmY5LXJpbWctdzEyMDAtaDYwMC1kY2U4MzgzOC1nbWlyP3Y9MTc5MjExNjQyMA.avif",
+   "source": "allevents",
+   "start": "2026-11-07T20:00:00-06:00",
+   "title": "Open Climb on the Indoor Climbing Wall"
+  },
+  {
    "_slug": "wild-horse-nine-d2c990",
    "categories": [
     "arts"
@@ -1430,16 +1437,17 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "journey-through-the-kleshas-the-5-roots-of-suffering-522211",
+   "_slug": "texas-takeover-texas-football-vs-missouri-rsvp-thru-idonate-5b598f",
    "categories": [
-    "community"
+    "sports"
    ],
-   "category": "community",
-   "id": "522211a47d2c7ec4",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYmRkMDZkZjk2MDNiNDZkODhkOThjZWJmZGUwY2I5M2MyOWYzODQ0NjNjYjk0ZGQ4ZTY3NmE3MjJiZmYwNGM5OS1yaW1nLXcxMjAwLWg2NzItZGNmOGY4ZjgtZ21pcj92PTE3OTI5Njc0Njg.avif",
+   "category": "sports",
+   "id": "5b598f510db931dc",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xMTA4OTYyZGEwN2I5Mzg5YmQ2OGE3MjUyYzcxNTg5ZDgwZDc0OTk2MGFiM2ViZmRiOWZkMzU3NGMyY2JlYjM5LXJpbWctdzEyMDAtaDEzNTAtZGNmZmZmZmYtZ21pci5qcGc_dj0xNzgyMzY1NTk3.avif",
    "source": "allevents",
-   "start": "2026-11-07T21:00:00-06:00",
-   "title": "Journey Through the Kleshas: The 5 Roots of Suffering"
+   "start": "2026-11-07T20:45:00-06:00",
+   "title": "Texas Takeover - Texas Football vs. Missouri (RSVP thru idonate link)",
+   "venue": "University of Missouri"
   },
   {
    "_slug": "saturday-night-comedy-at-the-tokyo-club-bc176d",
@@ -1470,19 +1478,6 @@
    "ticketUrl": "https://posh.vip/e/fastpass-saturday-117",
    "title": "MyHouse Saturday 11/7 Night",
    "venue": "MyHouse"
-  },
-  {
-   "_slug": "nurse-blake-at-missouri-theater-columbia-e7bf72",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "e7bf72c7024f6d1b",
-   "imageUrl": "https://comoevent.com/img/gen/c38893ccc450f8.webp",
-   "source": "allevents",
-   "start": "2026-11-08T10:00:00-06:00",
-   "title": "Nurse Blake at Missouri Theater - Columbia",
-   "venue": "Stephens Lake Park, Columbia, Missouri"
   },
   {
    "_slug": "merry-maplewood-a-festive-holiday-celebration-at-historic-ma-a9d48a",
@@ -1541,6 +1536,19 @@
    "start": "2026-11-08T12:00:00-06:00",
    "title": "Everest: The Other Side",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "welcoming-winter-through-psyche-soma-soul-a-mini-retreat-76adc2",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "76adc232f145eaf7",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xOTI1YjRhMTcxMTE0Y2MwNTJmZTFmZTYxNzQ0MzQ1ODA3MDdmMWFiNGVlMzQ0ZDhiOGIzYTUyMmI2NWM0MmI5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhlOC1nbWlyLmpwZz92PTE3OTMwOTk3NjY.avif",
+   "source": "allevents",
+   "start": "2026-11-08T12:00:00-06:00",
+   "title": "Welcoming Winter through Psyche, Soma & Soul: A Mini-Retreat",
+   "venue": "Heart, Body, & Soul"
   },
   {
    "_slug": "all-state-prep-day-1381ab",
@@ -1682,6 +1690,9 @@
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-75f56b",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
+   ],
    "categories": [
     "arts"
    ],
@@ -1689,31 +1700,37 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-08T16:00:00-06:00",
    "id": "75f56b19cdfe4841",
-   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
+   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
+   "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
    "source": "visitcolumbia",
    "start": "2026-11-08T14:00:00-06:00",
-   "title": "Evil Dead: The Musical – Columbia Entertainment Co."
+   "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
+   "venue": "Columbia Entertainment Company"
   },
   {
-   "_slug": "little-women-ad7c32",
+   "_slug": "little-women-the-musical-ad7c32",
+   "alsoOn": [
+    "https://calendar.missouri.edu/theatre/event/18335-little-women"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
+   "description": "Based on Louisa May Alcott’s beloved novel, see the story of the March sisters come to life on stage. Take a break from screens and travel bac…",
    "id": "ad7c324a75664b03",
-   "imageUrl": "https://comoevent.com/img/gen/3bf7593e2c33cc.webp",
-   "price": "23",
-   "source": "mizzou",
+   "imageUrl": "https://comoevent.com/img/gen/34c4d5bc738769.webp",
+   "price": "$23; $18 groups of eight or more; $15 undergraduate…",
+   "source": "vox",
    "start": "2026-11-08T14:00:00-06:00",
-   "title": "Little Women",
+   "title": "Little Women: The Musical",
    "venue": "Rhynsburger Theatre"
   },
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
     "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003"
    ],
    "categories": [
     "sports",
@@ -1918,6 +1935,19 @@
    "venue": "Hearnes Center"
   },
   {
+   "_slug": "nurse-blake-at-missouri-theater-columbia-e7bf72",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "e7bf72c7024f6d1b",
+   "imageUrl": "https://comoevent.com/img/gen/c38893ccc450f8.webp",
+   "source": "allevents",
+   "start": "2026-11-08T19:00:00-06:00",
+   "title": "Nurse Blake at Missouri Theater - Columbia",
+   "venue": "Stephens Lake Park, Columbia, Missouri"
+  },
+  {
    "_slug": "nurse-blake-but-did-you-die-comedy-tour-64a5e2",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die",
@@ -1970,13 +2000,13 @@
   }
  ],
  "friday": "2026-11-06",
- "modified": "2026-11-02",
+ "modified": "2026-11-03",
  "picks": [
-  "5ec2d14ad14a4d17",
-  "7102fdd64592154f",
   "c8db621e22518e28",
   "236bb060f8b95037",
   "3c0b59735fcc15c4",
+  "1a3578014a9a8203",
+  "44a943854d89184d",
   "459eb79409a786bb",
   "214d639665554a51",
   "c426be1aa6bd900c",
