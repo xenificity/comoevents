@@ -56,20 +56,14 @@ Find the good stuff faster. Search now understands what you mean, typos included
 
 Also new: dark mode, a cleaner map that glows where it's busy, a profile picture, sounds, and adding a photo or scanning a flyer when you post an event. Sign in with Google or Facebook too.
 
-**Notes for App Review:**
+**Notes for App Review:** the saved text is in App Store Connect on the 1.2.1 draft (Nov 4, 2026). It replaced the old "no analytics" claim: GoatCounter counts and our Cloudflare Worker are disclosed. Add a line about Google/Facebook sign-in only when they are switched on.
 
-No account is needed to browse events, search, save or use the map. Sign in with Apple in the Profile tab turns on Going, friends, posting and a profile picture.
-
-Posting: Upcoming > + > Post an event. "Scan flyer" or "Flyer photo" reads a flyer on the device with Vision and fills the form. Every post waits for moderator approval before anyone else sees it, and photos are reviewed with the post. Posts can be reported and posters blocked from the event page; three reports hide a post until a moderator checks it. Reports are read within 24 hours. Account deletion: Profile > Delete my profile.
-
-The camera is used only for scanning QR codes and flyers. Location is used only to show the blue dot on the map and is not stored or sent.
-
-**App Privacy label changes** (App Store Connect > App Privacy). All "used for App Functionality", none used for tracking:
+**App Privacy label** (App Store Connect > App Privacy; published before: Name, Other User Content, User ID. New: Photos or Videos, Product Interaction). None used for tracking:
 
 | Data type | Linked to user | Why |
 |---|---|---|
 | Contact Info > Name | Yes | Display name; Google/Facebook sign-in |
-| Contact Info > Email Address | Yes | Google/Facebook sign-in only |
+| Contact Info > Email Address | Yes | Add when Google/Facebook sign-in goes public |
 | User Content > Photos or Videos | Yes | Profile picture, event photos |
 | User Content > Other User Content | Yes | Posted events, reports |
 | Identifiers > User ID | Yes | Hashed account id, iCloud user id on public records |
