@@ -398,6 +398,11 @@
  "and n214 memorial union, columbia, mo": null,
  "and n214 memorial union, university of missouri, columbia, mo": null,
  "arts amp science building room 113  university of missouri columbia missouri united states, columbia, mo": null,
+ "arts and science, columbia, mo": {
+  "lat": 38.9435496,
+  "lng": -92.327382,
+  "name": null
+ },
  "arts and sciences, columbia, mo": null,
  "campus various, columbia, mo": null,
  "carnahan quad columbia mo 65201, columbia, mo": null,
@@ -568,6 +573,11 @@
  "strickland hall room 105 805 rollins st columbia mo 65201 united states, columbia, mo": null,
  "strickland hall room 105 united states, columbia, mo": null,
  "switzler hall university of missouri columbia missouri united states, columbia, mo": null,
+ "switzler hall, columbia, mo": {
+  "lat": 38.9467698,
+  "lng": -92.3294815,
+  "name": null
+ },
  "tate 110  university of missouri columbia missouri united states, columbia, mo": null,
  "tate 110 university of missouri columbia missouri united states, columbia, mo": null,
  "tate hall 101 university of missouri columbia missouri united states, columbia, mo": null,

@@ -137,9 +137,9 @@
   {
    "_slug": "mizine-5eb1ad",
    "alsoOn": [
-    "https://engage.missouri.edu/rsvp?id=453403",
     "https://calendar.missouri.edu/event/21268-mizine",
-    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403"
+    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403",
+    "https://engage.missouri.edu/rsvp?id=453403"
    ],
    "categories": [
     "arts",
@@ -182,18 +182,6 @@
    "start": "2026-11-06T11:00:00-06:00",
    "title": "Study Abroad Walk-in Advising",
    "venue": "Memorial Student Union"
-  },
-  {
-   "_slug": "dennis-layne-old-plank-tavern-with-scott-mccullough-1de0c1",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "1de0c14ccb6a3cb0",
-   "imageUrl": "https://comoevent.com/img/gen/38f81485d86e3d.webp",
-   "source": "allevents",
-   "start": "2026-11-06T13:00:00-06:00",
-   "title": "Dennis Layne @ Old Plank Tavern / with Scott McCullough"
   },
   {
    "_slug": "wild-horse-nine-c92429",
@@ -240,19 +228,6 @@
    "start": "2026-11-06T13:30:00-06:00",
    "title": "You Can See Everything",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "missouri-tigers-womens-volleyball-vs-texas-longhorns-womens-2af25e",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "2af25ead412e2fd0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMWI5ZDEzYzZkMzk0YjQ5YmM5Y2MyNmYwZjZlZjYzMDdmYzMyOWQ2NTgwNjE1NzQ0YjJmYmVlYjFiOGIwNzYxMy1yaW1nLXcxMDI0LWg1NzYtZGM3ODI5MWUtZ21pci5qcGc_dj0xNzgwMjI3MDc4.avif",
-   "source": "allevents",
-   "start": "2026-11-06T13:45:00-06:00",
-   "title": "Missouri Tigers Womens Volleyball vs. Texas Longhorns Womens Volleyball",
-   "venue": "Hearnes Center"
   },
   {
    "_slug": "basic-first-aid-training-for-program-leaders-and-internation-fd9607",
@@ -581,8 +556,8 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-7-pm-3c0b59",
    "alsoOn": [
-    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452002",
+    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas",
     "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/"
    ],
    "categories": [
@@ -631,22 +606,6 @@
    "start": "2026-11-06T19:00:00-06:00",
    "title": "Rewind the Curtain: Broadway Now & Then",
    "venue": "Missouri Theatre"
-  },
-  {
-   "_slug": "southall-236bb0",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "with The Ransom Brothers",
-   "id": "236bb060f8b95037",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Southall-TBN-Web.jpg",
-   "source": "bluenote",
-   "start": "2026-11-06T19:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/southall-a-few-more-tour-columbia-missouri-11-06-2026/event/06006503E2D920B8",
-   "timeTBD": true,
-   "title": "Southall",
-   "venue": "The Blue Note"
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-1a3578",
@@ -770,6 +729,19 @@
    "venue": "The Arcade District"
   },
   {
+   "_slug": "missouri-tigers-womens-volleyball-vs-texas-longhorns-womens-2af25e",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "2af25ead412e2fd0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMWI5ZDEzYzZkMzk0YjQ5YmM5Y2MyNmYwZjZlZjYzMDdmYzMyOWQ2NTgwNjE1NzQ0YjJmYmVlYjFiOGIwNzYxMy1yaW1nLXcxMDI0LWg1NzYtZGM3ODI5MWUtZ21pci5qcGc_dj0xNzgwMjI3MDc4.avif",
+   "source": "allevents",
+   "start": "2026-11-06T21:00:00-06:00",
+   "title": "Missouri Tigers Womens Volleyball vs. Texas Longhorns Womens Volleyball",
+   "venue": "Hearnes Center"
+  },
+  {
    "_slug": "wicker-9438e9",
    "categories": [
     "arts"
@@ -881,18 +853,6 @@
    "title": "R&B Night: Friendsgiving Edition | Columbia, MO"
   },
   {
-   "_slug": "natural-dyes-with-wildherness-d0a68c",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "d0a68c28d123f916",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9hODRlMWNiNTg0NDRmZThjZThlZmMxMWJmNjYwZjhjZjliMWU2YjE5YjI3YzQzN2I0YTFhNWQ4OTc1NDM3YmU4LXJpbWctdzEyMDAtaDEyMDAtZGNhODQ4NzgtZ21pcj92PTE3OTMxNDQ2MDM.avif",
-   "source": "allevents",
-   "start": "2026-11-07T10:30:00-06:00",
-   "title": "Natural Dyes with wildHERness"
-  },
-  {
    "_slug": "open-climb-166327",
    "categories": [
     "community"
@@ -941,8 +901,8 @@
   {
    "_slug": "mizzou-football-vs-texas-c426be",
    "alsoOn": [
-    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas",
-    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927"
+    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927",
+    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas"
    ],
    "categories": [
     "sports"
@@ -1118,6 +1078,18 @@
    "venue": "Sinquefield Music Center"
   },
   {
+   "_slug": "magic-star-trek-encore-1v1-prerelease-834a0b",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "834a0bdf1f24c577",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9kZGYyYjVmZWJiODIxOWQyODQyY2U3YjZhZTM4NDQ3M2NlOTJiNjYzZmQyYmY3MjJjMmMxYzZmYTZiNTI1NTViLXJpbWctdzEyMDAtaDY3NS1kYzI4Mzg0OC1nbWlyP3Y9MTc5Mzc4MTcyOQ.avif",
+   "source": "allevents",
+   "start": "2026-11-07T14:00:00-06:00",
+   "title": "MAGIC: Star Trek Encore 1v1 Prerelease"
+  },
+  {
    "_slug": "mint-jelly-128397",
    "categories": [
     "music"
@@ -1283,20 +1255,17 @@
    "title": "Winter Market Kickoff"
   },
   {
-   "_slug": "emo-royale-vii-67a74f",
+   "_slug": "mu-vs-texas-tailgate-all-you-can-eat-buffet-raffle-drink-spe-a7f16c",
    "categories": [
-    "music"
+    "sports"
    ],
-   "category": "music",
-   "description": "with Scout Speer",
-   "id": "67a74f662ff10463",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Southall-TBN-Web.jpg",
-   "source": "bluenote",
+   "category": "sports",
+   "id": "a7f16c37d445382f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9jNGEyYzk3NzQ3NmQ2ZWRkZDAyNjcyNGQyNTc5MDhhMmFhMDhlNzQ1YTk1OGEwMjY5OWZlNmRiNDVhYmFkNzhiLXJpbWctdzEyMDAtaDYwMC1kY2Y4ZDg1OC1nbWlyLmpwZz92PTE3OTM3ODQyNjE.avif",
+   "source": "allevents",
    "start": "2026-11-07T19:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/emo-royale-columbia-missouri-11-07-2026/event/06006521CAF1E0A7",
-   "timeTBD": true,
-   "title": "Emo Royale VII",
-   "venue": "The Blue Note"
+   "title": "MU vs Texas Tailgate | All You Can Eat Buffet, Raffle, Drink Specials",
+   "venue": "The Kitchen Grill and Games"
   },
   {
    "_slug": "peaceworks-37th-annual-dinner-131177",
@@ -1340,19 +1309,6 @@
    "start": "2026-11-07T19:00:00-06:00",
    "title": "Santa's Magic Arrival",
    "venue": "Bass Pro Shops (Columbia, MO)"
-  },
-  {
-   "_slug": "three-days-grace-alienation-tour-65c3f1",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "id": "65c3f1a6638483d0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy80OWRmOTVhOGM3MzBmNDA2MWQ2NjY0YzViM2E5NGMzN2I0ZDJhMWY0OTljY2Q4YzA0MDBiYzA3MzgxNDY5NmU4LXJpbWctdzEyMDAtaDY3NS1kYzA4MTgwOC1nbWlyP3Y9MTc4ODA4MDg2Ng.avif",
-   "source": "allevents",
-   "start": "2026-11-07T19:00:00-06:00",
-   "title": "Three Days Grace: Alienation Tour",
-   "venue": "St.Louis Mo"
   },
   {
    "_slug": "emo-royale-7-the-blue-note-c9c494",
@@ -1455,6 +1411,9 @@
   },
   {
    "_slug": "certainly-so-rose-music-hall-f64117",
+   "alsoOn": [
+    "https://rosemusichall.com/event/certainly-so/"
+   ],
    "categories": [
     "music"
    ],
@@ -1465,6 +1424,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Certainly-So-at-Rose-Music-Hall.jpeg",
    "source": "visitcolumbia",
    "start": "2026-11-07T20:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/certainly-so-columbia-missouri-11-07-2026/event/0600652ACD83D829",
    "title": "Certainly So – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -1525,6 +1485,19 @@
    "ticketUrl": "https://posh.vip/e/fastpass-saturday-117",
    "title": "MyHouse Saturday 11/7 Night",
    "venue": "MyHouse"
+  },
+  {
+   "_slug": "three-days-grace-alienation-tour-65c3f1",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "id": "65c3f1a6638483d0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy80OWRmOTVhOGM3MzBmNDA2MWQ2NjY0YzViM2E5NGMzN2I0ZDJhMWY0OTljY2Q4YzA0MDBiYzA3MzgxNDY5NmU4LXJpbWctdzEyMDAtaDY3NS1kYzA4MTgwOC1nbWlyP3Y9MTc4ODA4MDg2Ng.avif",
+   "source": "allevents",
+   "start": "2026-11-07T23:59:00-06:00",
+   "title": "Three Days Grace: Alienation Tour",
+   "venue": "St.Louis Mo"
   },
   {
    "_slug": "arts-autumnal-third-annual-west-ash-neighborhood-art-festiva-f2a6de",
@@ -1751,7 +1724,7 @@
     "arts"
    ],
    "category": "music",
-   "description": "Mizzou's School of Music and the Museum of Art & Archaeology present the Art & Music concert showcasing performances by the Ars Nova Singers.",
+   "description": "Mizzou's School of Music and the Museum of Art & Archaeology present the Art & Music concert showcasing performances by the Ars Nova Repertory Chorus; Jade Leung, conductor .",
    "id": "40984ee0402fb6e9",
    "imageUrl": "https://comoevent.com/img/gen/6c42baa21f132c.webp",
    "source": "mizzou",
@@ -1799,9 +1772,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
     "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003"
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
    ],
    "categories": [
     "sports",
@@ -2024,10 +1997,10 @@
  "modified": "2026-11-04",
  "picks": [
   "c8db621e22518e28",
-  "236bb060f8b95037",
   "3c0b59735fcc15c4",
   "1a3578014a9a8203",
   "44a943854d89184d",
+  "fb82ed79f16ed38a",
   "459eb79409a786bb",
   "214d639665554a51",
   "c426be1aa6bd900c",
