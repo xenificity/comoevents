@@ -109,7 +109,16 @@ export default {
       }
       if (url.pathname === "/facebook/deletion" && req.method === "POST") return await fbDeletion(req, env);
       if (url.pathname === "/deletion-status") return html(`<p>Your CoMo Events Facebook link has been deleted. Confirmation: ${esc(url.searchParams.get("code") || "")}</p>`);
-      if (url.pathname === "/health") return json({ ok: true, facebook: !!(env.FB_APP_ID && env.FB_APP_SECRET), google: !!(env.GOOGLE_CLIENT_ID && env.GOOGLE_CLIENT_SECRET), cloudkit: !!(env.CK_KEY_ID && env.CK_PRIVATE_KEY && env.SECRET), login: true, images: true }, 200, cors);
+      if (url.pathname === "/health") {
+        // A provider shows in the apps only once it works for the public (see LOGIN_PUBLIC / FRIENDS_PUBLIC in
+        // wrangler.toml): Google and Meta limit unpublished apps to test users. ?all=1 is for testers.
+        const keys = { facebook: !!(env.FB_APP_ID && env.FB_APP_SECRET), google: !!(env.GOOGLE_CLIENT_ID && env.GOOGLE_CLIENT_SECRET) };
+        const all = url.searchParams.get("all") === "1";
+        const on = (list, p) => keys[p] && (all || (list || "").split(",").map((x) => x.trim()).includes(p));
+        return json({ ok: true, facebook: on(env.FRIENDS_PUBLIC, "facebook"), google: on(env.FRIENDS_PUBLIC, "google"),
+          cloudkit: !!(env.CK_KEY_ID && env.CK_PRIVATE_KEY && env.SECRET), images: true,
+          login: ["google", "facebook"].filter((p) => on(env.LOGIN_PUBLIC, p)) }, 200, cors);
+      }
       return json({ error: "not found" }, 404, cors);
     } catch (e) {
       console.error("social error", url.pathname, String(e && e.stack || e));
@@ -192,6 +201,13 @@ async function fbDeletion(req, env) {
   const h = await hmacHex(env.SECRET, "fb:" + data.user_id);
   const recs = await ckQuery(env, "SocialLink", [{ fieldName: "idHash", comparator: "EQUALS", fieldValue: { value: h } }]);
   if (recs.length) await ckModify(env, recs.map((r) => ({ operationType: "forceDelete", record: { recordName: r.recordName } })));
+  // Signed in with Facebook: delete that account too (profile, attendance, friend profile).
+  const acctId = "f-" + (await hmacHex(env.SECRET, "facebook:" + data.user_id)).slice(0, 24);
+  await env.KV.delete("acct:" + acctId);
+  const att = await ckQueryKeys(env, "Attendance", [{ fieldName: "userID", comparator: "EQUALS", fieldValue: { value: acctId } }]);
+  await ckModify(env, att.map((r) => ({ operationType: "forceDelete", record: { recordName: r.recordName } }))
+    .concat([{ operationType: "forceDelete", record: { recordName: "friend-" + acctId } }]));
+  await deleteLinks(env, { ckUser: acctId });
   const code = randomId().slice(0, 12);
   return json({ url: new URL("/deletion-status?code=" + code, req.url).toString(), confirmation_code: code }, 200);
 }

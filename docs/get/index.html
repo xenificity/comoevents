@@ -39,7 +39,7 @@ var done = false;
 function go(url) { if (done) return; done = true; var a = document.getElementById("fallback"); if (a) a.href = url; location.replace(url); }
 // Is the app live? iTunes lookup supports JSONP, so this works from a static page.
 window.lookupDone = function (r) { go(r && r.resultCount > 0 ? appStoreURL() : TESTFLIGHT); };
-setTimeout(function () { go(TESTFLIGHT); }, 2500);   // offline or blocked lookup: beta link
+setTimeout(function () { go(appStoreURL()); }, 2500);   // slow or blocked lookup: the app is live (Oct 31, 2026), go to the store
 document.write('<script src="https://itunes.apple.com/lookup?id=' + APP_ID + '&country=us&callback=lookupDone"><\/script>');
 </script>
 </head>
@@ -48,7 +48,7 @@ document.write('<script src="https://itunes.apple.com/lookup?id=' + APP_ID + '&c
 <img src="../img/icon-512.png" alt="CoMo Events">
 <h1>CoMo Events</h1>
 <p>Everything happening in Columbia, MO on one map. Free, no ads.</p>
-<a class="btn" id="fallback" href="https://testflight.apple.com/join/HcEcPnzW">Get it for iPhone</a>
+<a class="btn" id="fallback" href="https://apps.apple.com/us/app/id6824363992">Get it for iPhone</a>
 <p style="font-size:.85rem">Opening the download page…</p>
 </div>
 </body>

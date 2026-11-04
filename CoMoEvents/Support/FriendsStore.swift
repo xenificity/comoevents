@@ -51,12 +51,12 @@ final class FriendsStore: ObservableObject {
 
     /// Turn Friends on: needs iCloud on the phone. Creates or refreshes my public profile.
     /// Signed in with Google/Facebook: the friend profile is written through our API under the account id.
-    private var accountMode: Bool { CoMoAPI.session != nil && userRecordName != nil && userRecordName == CoMoAPI.account?.id }
+    var accountMode: Bool { CoMoAPI.session != nil && userRecordName != nil && userRecordName == CoMoAPI.account?.id }
 
     func enable() async -> Bool {
         var icloudID: String?
         if ((try? await container.accountStatus()) ?? .noAccount) == .available { icloudID = try? await container.userRecordID().recordName }
-        guard let id = (CoMoAPI.session != nil ? CoMoAPI.account?.id : nil) ?? icloudID else {
+        guard let id = icloudID ?? (CoMoAPI.session != nil ? CoMoAPI.account?.id : nil) else {   // iCloud first, like Going and posts
             lastError = "Friends needs you signed in: iCloud on this iPhone, or Google or Facebook in Profile."; return false
         }
         userRecordName = id
@@ -70,8 +70,8 @@ final class FriendsStore: ObservableObject {
 
     func restore() async {
         guard enabled else { return }
-        if CoMoAPI.session != nil, let id = CoMoAPI.account?.id { userRecordName = id; myCode = Self.code(for: id) }
-        else if let id = try? await container.userRecordID().recordName { userRecordName = id; myCode = Self.code(for: id) }
+        if ((try? await container.accountStatus()) ?? .noAccount) == .available, let id = try? await container.userRecordID().recordName { userRecordName = id; myCode = Self.code(for: id) }
+        else if CoMoAPI.session != nil, let id = CoMoAPI.account?.id { userRecordName = id; myCode = Self.code(for: id) }
         await refresh()
     }
 

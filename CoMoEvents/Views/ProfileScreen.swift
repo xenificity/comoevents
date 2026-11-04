@@ -15,6 +15,7 @@ struct ProfileScreen: View {
     @State private var resetDone = false
     @State private var avatarItem: PhotosPickerItem?
     @State private var savingAvatar = false
+    @State private var loginProviders: [String] = []
     @State private var soundsOn = SoundPlayer.enabled
     @FocusState private var nameFocused: Bool
 
@@ -42,6 +43,7 @@ struct ProfileScreen: View {
             .navigationTitle("Profile")
             .toolbar { ToolbarItem(placement: .topBarTrailing) { AppearanceButton(inToolbar: true) } }
             .onAppear { name = account.profile.displayName; Task { await community.prepare() } }
+            .task { loginProviders = await CoMoAPI.loginProviders() }
             .alert("Sign in", isPresented: Binding(get: { account.lastError != nil }, set: { if !$0 { account.lastError = nil } })) {
                 Button("OK") { account.lastError = nil }
             } message: { Text(account.lastError ?? "") }
@@ -147,8 +149,8 @@ struct ProfileScreen: View {
             .signInWithAppleButtonStyle(scheme == .dark ? .white : .black)
             .frame(height: 48)
             .clipShape(Capsule())
-            providerButton("google", "Continue with Google", "g.circle.fill")
-            providerButton("facebook", "Continue with Facebook", "f.circle.fill")
+            if loginProviders.contains("google") { providerButton("google", "Continue with Google", "g.circle.fill") }
+            if loginProviders.contains("facebook") { providerButton("facebook", "Continue with Facebook", "f.circle.fill") }
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)

@@ -540,13 +540,13 @@
         Cloud.deleteAccount().then(function (msg) { if (msg) { toast(msg); return; } p.avatarUrl = null; store.save("profile", p); renderProfile(); toast("Account deleted"); });
       };
       ab.appendChild(so); ab.appendChild(del); ac.appendChild(ab); box.appendChild(ac);
-    } else if (ck.available || (ck.social && ck.social.api)) {
+    } else if (ck.available || (ck.social && (ck.social.login || []).length)) {
       var sc = el("div", "glass card pcard", ck.signedIn
         ? "<h3>iCloud</h3><p>Going, I'm here, friends and posting are on. Your name and saves stay in this browser; attendance and your friend code are public records, like in the iPhone app.</p><div id=\"ck-signout\"></div>"
-        : "<h3>Sign in</h3><p>Say you're going, see friends, post events and add a profile picture. Use iCloud, Google or Facebook. No password is shared with us.</p><div id=\"ck-signin\"></div>");
-      if (!ck.signedIn && ck.social && ck.social.api) {
+        : "<h3>Sign in</h3><p>Say you're going, see friends, post events and add a profile picture. No password is shared with us.</p><div id=\"ck-signin\"></div>");
+      if (!ck.signedIn && ck.social && (ck.social.login || []).length) {
         var sb = el("div", "signin-btns");
-        [["google", "Continue with Google"], ["facebook", "Continue with Facebook"]].forEach(function (x) {
+        [["google", "Continue with Google"], ["facebook", "Continue with Facebook"]].filter(function (x) { return ck.social.login.indexOf(x[0]) >= 0; }).forEach(function (x) {
           var b = el("button", x[0], x[1]); b.type = "button"; b.onclick = function () { track("click/login-" + x[0]); Cloud.loginWith(x[0]); }; sb.appendChild(b);
         });
         sc.appendChild(sb);
@@ -644,7 +644,7 @@
       var b = el("button", "ylink", ic("sparkles") + (ck.loggedIn() ? "Turn on Friends" : "Sign in first")); b.type = "button";
       b.onclick = function () { if (!ck.loggedIn()) { showTab("profile"); return; } ck.enableFriends().then(function (msg) { if (msg) toast(msg); renderFriends(); }); };
       intro.appendChild(b);
-      intro.appendChild(el("p", "", "<small>Uses your iCloud, Google or Facebook sign-in. Nothing else is shared.</small>"));
+      intro.appendChild(el("p", "", "<small>Uses your sign-in. Nothing else is shared.</small>"));
       box.appendChild(intro);
       if (ck.loggedIn()) socialCard(box, ck);
       return;

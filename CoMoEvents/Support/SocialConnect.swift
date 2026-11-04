@@ -27,10 +27,15 @@ final class SocialConnect: NSObject, ObservableObject, ASWebAuthenticationPresen
     @Published private(set) var ready: [Provider] = []
 
     func checkReady() async {
-        guard Self.isConfigured, let url = URL(string: "\(Self.api)/health"),
+        #if DEBUG
+        let path = "/health?all=1"   // testers see providers that aren't public yet
+        #else
+        let path = "/health"
+        #endif
+        guard Self.isConfigured, let url = URL(string: Self.api + path),
               let (data, _) = try? await URLSession.shared.data(from: url),
-              let h = try? JSONDecoder().decode([String: Bool].self, from: data), h["cloudkit"] == true else { return }
-        ready = Provider.allCases.filter { h[$0.rawValue] == true }
+              let h = try? JSONSerialization.jsonObject(with: data) as? [String: Any], h["cloudkit"] as? Bool == true else { return }
+        ready = Provider.allCases.filter { h[$0.rawValue] as? Bool == true }
     }
     private var session: ASWebAuthenticationSession?
 
@@ -43,7 +48,7 @@ final class SocialConnect: NSObject, ObservableObject, ASWebAuthenticationPresen
         if !friends.enabled, !(await friends.enable()) { return friends.lastError ?? "Friends needs you signed in." }
         // Google/Facebook-account users are identified by their CoMo session, iCloud users by CloudKit.
         let ident: URLQueryItem
-        if let s = CoMoAPI.session { ident = URLQueryItem(name: "session", value: s) }
+        if friends.accountMode, let s = CoMoAPI.session { ident = URLQueryItem(name: "session", value: s) }
         else if let token = await Self.ckWebAuthToken() { ident = URLQueryItem(name: "ck", value: token) }
         else { return "Couldn't confirm your account. Check that iCloud is signed in." }
         var c = URLComponents(string: "\(Self.api)/auth/\(p.rawValue)/start")!
@@ -68,8 +73,8 @@ final class SocialConnect: NSObject, ObservableObject, ASWebAuthenticationPresen
     func disconnect(_ p: Provider) async -> String {
         guard Self.isConfigured else { return "Couldn't confirm your account." }
         var body = ["provider": p.rawValue]
-        if let s = CoMoAPI.session { body["session"] = s }
-        else if let token = await Self.ckWebAuthToken() { body["ck"] = token }
+        if let token = await Self.ckWebAuthToken() { body["ck"] = token }
+        else if let s = CoMoAPI.session { body["session"] = s }
         else { return "Couldn't confirm your account." }
         var req = URLRequest(url: URL(string: "\(Self.api)/unlink")!)
         req.httpMethod = "POST"

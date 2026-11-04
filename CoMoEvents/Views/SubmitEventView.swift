@@ -233,6 +233,10 @@ struct ModerationView: View {
             ForEach(community.pending, id: \.recordID) { r in
                 let e = CommunityStore.event(from: r)
                 VStack(alignment: .leading, spacing: 6) {
+                    if let s = e?.imageUrl, let url = URL(string: s) {
+                        AsyncImage(url: url) { img in img.resizable().scaledToFit() } placeholder: { ProgressView().frame(maxWidth: .infinity, minHeight: 80) }
+                            .frame(maxHeight: 240).frame(maxWidth: .infinity).clipShape(RoundedRectangle(cornerRadius: 10))
+                    }
                     Text(e?.title ?? "?").font(.headline)
                     Text([e?.whenText, e?.placeText].compactMap { $0 }.joined(separator: " · ")).font(.caption).foregroundStyle(.secondary)
                     if let d = e?.description, !d.isEmpty { Text(d).font(.footnote).lineLimit(4) }

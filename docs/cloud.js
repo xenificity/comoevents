@@ -217,8 +217,11 @@
   };
   // ---------- find friends through Facebook / Google (comoevents-social worker) ----------
   Cloud.social = { api: (window.SOCIAL_API || "").replace(/\/$/, ""), providers: {} };
-  if (Cloud.social.api) fetch(Cloud.social.api + "/health").then(function (r) { return r.json(); }).then(function (h) {
-    Cloud.social.providers = { facebook: !!(h.facebook && h.cloudkit), google: !!(h.google && h.cloudkit) }; Cloud.emit("friends");
+  // Testers: localStorage como.tester = 1 shows providers that aren't public yet.
+  if (Cloud.social.api) fetch(Cloud.social.api + "/health" + (load("como.tester", 0) ? "?all=1" : "")).then(function (r) { return r.json(); }).then(function (h) {
+    Cloud.social.providers = { facebook: !!(h.facebook && h.cloudkit), google: !!(h.google && h.cloudkit) };
+    Cloud.social.login = Array.isArray(h.login) ? h.login : [];
+    Cloud.emit("friends"); Cloud.emit("auth");
   }).catch(function () {});
   // The CloudKit web-auth token: kept on the auth object and, with persist:true, in its token store.
   Cloud.socialToken = function () {

@@ -57,6 +57,18 @@ enum CoMoAPI {
         return r.account.profile
     }
 
+    /// Providers that work for the public right now (worker /health, LOGIN_PUBLIC). Debug builds see all, for testing.
+    static func loginProviders() async -> [String] {
+        #if DEBUG
+        let path = "/health?all=1"
+        #else
+        let path = "/health"
+        #endif
+        guard let url = URL(string: base + path), let (data, _) = try? await URLSession.shared.data(from: url),
+              let obj = try? JSONSerialization.jsonObject(with: data) as? [String: Any] else { return [] }
+        return obj["login"] as? [String] ?? []
+    }
+
     // MARK: calls
 
     struct APIError: LocalizedError { let message: String; var errorDescription: String? { message } }

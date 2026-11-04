@@ -144,3 +144,4 @@ Read README.md first. Short version:
   NSDataDetector + forgiving month/day regex, time ranges, venue table `VenueLookup.mentioned`). Web `scanFlyer` uses
   Tesseract.js 5.1.1 from jsDelivr, loaded on demand, one worker in sparse-text mode (PSM 11) on a grayscale,
   high-contrast copy; lines under 55% confidence are dropped. Both make the flyer the event photo.
+- Public switches: worker vars LOGIN_PUBLIC and FRIENDS_PUBLIC (wrangler.toml) decide which providers the apps show (/health; `?all=1` for testers: iOS Debug builds, web localStorage `como.tester`=1). Add a provider only once it works for everyone (Google consent screen in production / Meta app Live; friend-finding also needs contacts.readonly verification and user_friends App Review), then redeploy the worker. No app release needed. Release notes, review notes and privacy label for 1.2.1: AppStore/listing.md.
