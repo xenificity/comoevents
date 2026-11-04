@@ -361,18 +361,15 @@
    "venue": "Tate Hall 101"
   },
   {
-   "_slug": "everest-the-other-side-5ec2d1",
-   "alsoOn": [
-    "https://allevents.in/columbia/everest-the-other-side/200030945698746"
-   ],
+   "_slug": "everest-the-other-side-937582",
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-11-06T19:10:00-06:00",
-   "id": "5ec2d14ad14a4d17",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9mODdjNDhlYzdiODA3MzMwYTJmYTgwNzgzMTZiMmRhYzE2NGQwNWM1Y2ZlMGE4NjUwM2E3MTEwMDVjZjhkZDFkLXJpbWctdzEyMDAtaDY3NS1kYzE4NjhhOC1nbWlyP3Y9MTc5MzQ3NjQ4Ng.avif",
+   "id": "9375824755a22b3a",
+   "imageUrl": "https://comoevent.com/img/gen/039a788b692ccd.webp",
    "source": "ragtag",
    "start": "2026-11-06T17:15:00-06:00",
    "title": "Everest: The Other Side",
@@ -429,9 +426,9 @@
   {
    "_slug": "first-friday-at-serendipity-4b2157",
    "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#first-friday-marketplace",
     "https://allevents.in/columbia/first-friday-at-serendipity/200030865981009",
-    "https://northvillageartsdistrict.org/first-fridays/",
-    "https://baselocal.com/mo/columbia/events/#first-friday-marketplace"
+    "https://northvillageartsdistrict.org/first-fridays/"
    ],
    "categories": [
     "arts",
@@ -837,20 +834,6 @@
    "venue": "Scouting Adventure Center"
   },
   {
-   "_slug": "american-legion-riders-toy-run-and-vendor-craft-show-7c7acf",
-   "categories": [
-    "sports",
-    "arts"
-   ],
-   "category": "sports",
-   "id": "7c7acf9c86d3a3c7",
-   "imageUrl": "https://comoevent.com/img/gen/4c160eda29dd11.webp",
-   "source": "allevents",
-   "start": "2026-11-07T10:00:00-06:00",
-   "title": "American Legion Riders Toy Run and vendor craft show",
-   "venue": "Head Indian Motorcycle (5708 Freedom Dr Columbia, MO 65202)"
-  },
-  {
    "_slug": "health-insurance-marketplace-medicaid-open-enrollment-assist-4348ba",
    "alsoOn": [
     "https://events.dbrl.org/event/17410800"
@@ -944,6 +927,18 @@
    "venue": "South Farm - Equine Teaching Facility"
   },
   {
+   "_slug": "coffee-conversation-a-weekly-chat-25c1ee",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "25c1ee4bfc6b6a2a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy85YmViMTQ0YjMxNTk5ZTE0ZjViMmU1N2I1YmIzOTczNTFjODQ3Nzg1ZTBkMWVmMDM0MTJlZDBjZjFmOTA3NTMzLXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkzNzUyOTQw.avif",
+   "source": "allevents",
+   "start": "2026-11-07T11:00:00-06:00",
+   "title": "Coffee & Conversation - A Weekly Chat"
+  },
+  {
    "_slug": "mizzou-football-vs-texas-c426be",
    "alsoOn": [
     "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas",
@@ -1017,6 +1012,21 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "big-hungry-patty-wagon-397fa6",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "description": "@ Corn dogs, hot dogs, burgers, and tenderloins galore with Big Hungry Patty Wagon! https://www.facebook.com/BigHungryPattyWagon",
+   "end": "2026-11-07T20:00:00-06:00",
+   "id": "397fa6a486a9bad1",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/03/big-hungry-patty-wagon.jpg",
+   "source": "cooperslanding",
+   "start": "2026-11-07T12:00:00-06:00",
+   "title": "Big Hungry Patty Wagon",
+   "venue": "Cooper's Landing"
+  },
+  {
    "_slug": "drop-in-and-draw-173c36",
    "categories": [
     "family"
@@ -1045,21 +1055,6 @@
    "start": "2026-11-07T12:00:00-06:00",
    "title": "Friends of the Columbia Public Library Lobby Book Sale",
    "venue": "Columbia Public Library"
-  },
-  {
-   "_slug": "holy-smokes-mobile-meats-9a907e",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "@ Holy Smokes Mobile Meats is on a mission to serve more than just mouth-watering, slow-smoked meats – they’re dedicated to provide quality, affordable smoked meats that exceed our customers’ expectations, while also giving back to the community that supports us. https://www.facebook.com/people/Holy",
-   "end": "2026-11-07T20:00:00-06:00",
-   "id": "9a907e42793155ea",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/06/holy-smokes.jpg",
-   "source": "cooperslanding",
-   "start": "2026-11-07T12:00:00-06:00",
-   "title": "Holy Smokes Mobile Meats",
-   "venue": "Cooper's Landing"
   },
   {
    "_slug": "holiday-gratitude-circle-w-tricia-dietrich-5a6f05",
@@ -1091,19 +1086,6 @@
    "start": "2026-11-07T13:00:00-06:00",
    "title": "Pumpkin Smash!",
    "venue": "Columbia's Agriculture Park, 1769 W Ash Street"
-  },
-  {
-   "_slug": "santa-s-magic-arrival-1307ac",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "1307acbfdf1cad45",
-   "imageUrl": "https://comoevent.com/img/gen/18e51db19d82bf.webp",
-   "source": "allevents",
-   "start": "2026-11-07T13:00:00-06:00",
-   "title": "Santa's Magic Arrival",
-   "venue": "Bass Pro Shops (Columbia, MO)"
   },
   {
    "_slug": "bhagwad-gita-class-a027e4",
@@ -1232,6 +1214,21 @@
    "title": "Open Climb on the Indoor Climbing Wall"
   },
   {
+   "_slug": "3221-9a1af9",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "@ Come check out the debut of 3221 only at Cooper’s Landing!",
+   "end": "2026-11-07T21:00:00-06:00",
+   "id": "9a1af915fee74bc8",
+   "imageUrl": "https://comoevent.com/img/gen/p-2f902ada52e584.webp",
+   "source": "cooperslanding",
+   "start": "2026-11-07T18:00:00-06:00",
+   "title": "3221",
+   "venue": "Cooper's Landing"
+  },
+  {
    "_slug": "artistry-on-the-runway-hair-fashion-show-8aa53a",
    "categories": [
     "community"
@@ -1332,6 +1329,19 @@
    "venue": "Missouri Theatre"
   },
   {
+   "_slug": "santa-s-magic-arrival-1307ac",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "1307acbfdf1cad45",
+   "imageUrl": "https://comoevent.com/img/gen/18e51db19d82bf.webp",
+   "source": "allevents",
+   "start": "2026-11-07T19:00:00-06:00",
+   "title": "Santa's Magic Arrival",
+   "venue": "Bass Pro Shops (Columbia, MO)"
+  },
+  {
    "_slug": "three-days-grace-alienation-tour-65c3f1",
    "categories": [
     "music"
@@ -1430,6 +1440,20 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "american-legion-riders-toy-run-and-vendor-craft-show-7c7acf",
+   "categories": [
+    "sports",
+    "arts"
+   ],
+   "category": "sports",
+   "id": "7c7acf9c86d3a3c7",
+   "imageUrl": "https://comoevent.com/img/gen/4c160eda29dd11.webp",
+   "source": "allevents",
+   "start": "2026-11-07T20:00:00-06:00",
+   "title": "American Legion Riders Toy Run and vendor craft show",
+   "venue": "Head Indian Motorcycle (5708 Freedom Dr Columbia, MO 65202)"
+  },
+  {
    "_slug": "certainly-so-rose-music-hall-f64117",
    "categories": [
     "music"
@@ -1501,6 +1525,18 @@
    "ticketUrl": "https://posh.vip/e/fastpass-saturday-117",
    "title": "MyHouse Saturday 11/7 Night",
    "venue": "MyHouse"
+  },
+  {
+   "_slug": "arts-autumnal-third-annual-west-ash-neighborhood-art-festiva-f2a6de",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "f2a6de2198cd04f1",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wZmNlN2VkZDcxYzg1Njk5N2ZlMjg5MzUwMzJmYThhY2MwMjI5NGVhYjBkN2FhMTA0YjYzNTkwZGY3OTVkYThlLXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyP3Y9MTc4NzUxOTE3Mw.avif",
+   "source": "allevents",
+   "start": "2026-11-08T10:00:00-06:00",
+   "title": "Arts, Autumnal - Third annual West Ash Neighborhood Art Festival"
   },
   {
    "_slug": "the-soul-the-scientific-method-free-event-50e8b6",
@@ -1763,9 +1799,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
     "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003"
    ],
    "categories": [
     "sports",
@@ -1905,18 +1941,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "arts-autumnal-third-annual-west-ash-neighborhood-art-festiva-f2a6de",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "f2a6de2198cd04f1",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wZmNlN2VkZDcxYzg1Njk5N2ZlMjg5MzUwMzJmYThhY2MwMjI5NGVhYjBkN2FhMTA0YjYzNTkwZGY3OTVkYThlLXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyP3Y9MTc4NzUxOTE3Mw.avif",
-   "source": "allevents",
-   "start": "2026-11-08T19:00:00-06:00",
-   "title": "Arts, Autumnal - Third annual West Ash Neighborhood Art Festival"
-  },
-  {
    "_slug": "mu-tuba-and-euphonium-ensemble-recital-0f1579",
    "categories": [
     "campus"
@@ -1930,32 +1954,6 @@
    "start": "2026-11-08T19:00:00-06:00",
    "title": "MU Tuba and Euphonium Ensemble Recital",
    "venue": "Sinquefield Music Center"
-  },
-  {
-   "_slug": "missouri-tigers-womens-volleyball-vs-texas-a-m-aggies-womens-7983a3",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "7983a3e752f915ba",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy81MThmNGNhMjQxNjc4ZmRmNTJiMTFlMDBmOTExYzkyNTcwMWI5YmU3OTcwZThiYTc4MTA0ZmE3ODEzNTgzZmI4LXJpbWctdzEwMjQtaDU3Ni1kYzc4MjkxZS1nbWlyLmpwZz92PTE3ODAyMjcwNDg.avif",
-   "source": "allevents",
-   "start": "2026-11-08T19:00:00-06:00",
-   "title": "Missouri Tigers Womens Volleyball vs. Texas A&M Aggies Womens Volleyball",
-   "venue": "Hearnes Center"
-  },
-  {
-   "_slug": "nurse-blake-at-missouri-theater-columbia-e7bf72",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "e7bf72c7024f6d1b",
-   "imageUrl": "https://comoevent.com/img/gen/c38893ccc450f8.webp",
-   "source": "allevents",
-   "start": "2026-11-08T19:00:00-06:00",
-   "title": "Nurse Blake at Missouri Theater - Columbia",
-   "venue": "Stephens Lake Park, Columbia, Missouri"
   },
   {
    "_slug": "nurse-blake-but-did-you-die-comedy-tour-64a5e2",
@@ -1994,6 +1992,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "missouri-tigers-womens-volleyball-vs-texas-a-m-aggies-womens-7983a3",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "7983a3e752f915ba",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy81MThmNGNhMjQxNjc4ZmRmNTJiMTFlMDBmOTExYzkyNTcwMWI5YmU3OTcwZThiYTc4MTA0ZmE3ODEzNTgzZmI4LXJpbWctdzEwMjQtaDU3Ni1kYzc4MjkxZS1nbWlyLmpwZz92PTE3ODAyMjcwNDg.avif",
+   "source": "allevents",
+   "start": "2026-11-08T19:30:00-06:00",
+   "title": "Missouri Tigers Womens Volleyball vs. Texas A&M Aggies Womens Volleyball",
+   "venue": "Hearnes Center"
+  },
+  {
    "_slug": "wicker-c6e4d2",
    "categories": [
     "arts"
@@ -2010,7 +2021,7 @@
   }
  ],
  "friday": "2026-11-06",
- "modified": "2026-11-03",
+ "modified": "2026-11-04",
  "picks": [
   "c8db621e22518e28",
   "236bb060f8b95037",
