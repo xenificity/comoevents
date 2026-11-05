@@ -18,8 +18,8 @@
   {
    "_slug": "black-and-gold-friday-2fc01a",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
    ],
    "categories": [
     "campus"
@@ -46,6 +46,18 @@
    "start": "2026-11-06T08:30:00-06:00",
    "title": "Passport Walk-in Hours",
    "venue": "Memorial Student Union"
+  },
+  {
+   "_slug": "coco-at-lakeside-ashaland-5046db",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "5046db9b19badae4",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy83ODA3OTMyYTA4NjlkYjNhNDM1MzMxM2MwMjg3ZTBlMjg3OTFjNmNhM2MzZjY1YTNjOTYzOWE3MmQxZjRlODkxLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MzkxODM4NA.avif",
+   "source": "allevents",
+   "start": "2026-11-06T09:00:00-06:00",
+   "title": "Coco at Lakeside Ashaland"
   },
   {
    "_slug": "magic-star-trek-two-headed-prerelease-e790d2",
@@ -138,9 +150,9 @@
   {
    "_slug": "mizine-5eb1ad",
    "alsoOn": [
-    "https://engage.missouri.edu/rsvp?id=453403",
     "https://engage.missouri.edu/RisoRoom/rsvp?id=453403",
-    "https://calendar.missouri.edu/event/21268-mizine"
+    "https://calendar.missouri.edu/event/21268-mizine",
+    "https://engage.missouri.edu/rsvp?id=453403"
    ],
    "categories": [
     "arts",
@@ -557,8 +569,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-7-pm-3c0b59",
    "alsoOn": [
-    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452002"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452002",
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/",
+    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas"
    ],
    "categories": [
     "sports",
@@ -625,9 +638,6 @@
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-1a3578",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
-   ],
    "categories": [
     "arts"
    ],
@@ -635,12 +645,10 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-06T21:00:00-06:00",
    "id": "1a3578014a9a8203",
-   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
-   "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
+   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
    "source": "visitcolumbia",
    "start": "2026-11-06T19:30:00-06:00",
-   "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
-   "venue": "Columbia Entertainment Company"
+   "title": "Evil Dead: The Musical – Columbia Entertainment Co."
   },
   {
    "_slug": "first-friday-marketplace-7102fd",
@@ -801,9 +809,6 @@
   },
   {
    "_slug": "columbia-farmers-market-winter-season-214d63",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
-   ],
    "categories": [
     "food"
    ],
@@ -812,7 +817,6 @@
    "end": "2026-11-07T12:00:00-06:00",
    "id": "214d639665554a51",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
-   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-11-07T09:00:00-06:00",
    "title": "Columbia Farmers Market – Winter Season",
@@ -930,8 +934,8 @@
   {
    "_slug": "mizzou-football-vs-texas-c426be",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927",
-    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas"
+    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas",
+    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927"
    ],
    "categories": [
     "sports"
@@ -969,18 +973,6 @@
    "start": "2026-11-07T11:00:00-06:00",
    "title": "Single Awareness Dinner: Columbia | Foodies + New Friends",
    "venue": "Restaurant of the Week"
-  },
-  {
-   "_slug": "tin-emboss-ornaments-525182",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "525182615e560796",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9lNjlkM2ZlYjYyOGVlZmIyYjg1MzMwMDk4ODQ4YTNjNTY2N2MyZDY3MTM0ZDZjMTY5YTUzM2M0ZWYyN2Q4NDg2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ1Mg.avif",
-   "source": "allevents",
-   "start": "2026-11-07T11:00:00-06:00",
-   "title": "Tin Emboss Ornaments"
   },
   {
    "_slug": "wild-horse-nine-a3532e",
@@ -1071,6 +1063,18 @@
    "venue": "Columbia Public Library"
   },
   {
+   "_slug": "texas-vs-mizzou-tailgate-1ee0aa",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "1ee0aaf483415b0b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy84NzY4ZTg0OWYwYmZlMjYxYWNiNmU2MjVlZDQ3MzBiOGQ2OTE5Y2U4MTNiZTYzNmJhMTAzYWZlNTM4ZTA0NDY0LXJpbWctdzk2MC1oNzIwLWRjMTgxODE4LWdtaXI_dj0xNzkzODc2OTcx.avif",
+   "source": "allevents",
+   "start": "2026-11-07T12:00:00-06:00",
+   "title": "Texas vs Mizzou Tailgate"
+  },
+  {
    "_slug": "holiday-gratitude-circle-w-tricia-dietrich-5a6f05",
    "alsoOn": [
     "https://allevents.in/columbia/holiday-gratitude-circle-w-tricia-dietrich/200030929363318"
@@ -1144,6 +1148,19 @@
    "start": "2026-11-07T14:00:00-06:00",
    "title": "Mint Jelly",
    "venue": "Cooper's Landing"
+  },
+  {
+   "_slug": "santa-s-magic-arrival-1307ac",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "1307acbfdf1cad45",
+   "imageUrl": "https://comoevent.com/img/gen/18e51db19d82bf.webp",
+   "source": "allevents",
+   "start": "2026-11-07T14:00:00-06:00",
+   "title": "Santa's Magic Arrival",
+   "venue": "Bass Pro Shops (Columbia, MO)"
   },
   {
    "_slug": "deanna-dikeman-a-sense-of-place-guided-tour-aeb5dd",
@@ -1225,19 +1242,6 @@
    "source": "allevents",
    "start": "2026-11-07T17:00:00-06:00",
    "title": "Open Climb on the Indoor Climbing Wall"
-  },
-  {
-   "_slug": "santa-s-magic-arrival-1307ac",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "1307acbfdf1cad45",
-   "imageUrl": "https://comoevent.com/img/gen/18e51db19d82bf.webp",
-   "source": "allevents",
-   "start": "2026-11-07T17:00:00-06:00",
-   "title": "Santa's Magic Arrival",
-   "venue": "Bass Pro Shops (Columbia, MO)"
   },
   {
    "_slug": "3221-9a1af9",
@@ -1368,6 +1372,18 @@
    "venue": "Missouri Theatre"
   },
   {
+   "_slug": "tin-emboss-ornaments-525182",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "525182615e560796",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9lNjlkM2ZlYjYyOGVlZmIyYjg1MzMwMDk4ODQ4YTNjNTY2N2MyZDY3MTM0ZDZjMTY5YTUzM2M0ZWYyN2Q4NDg2LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ1Mg.avif",
+   "source": "allevents",
+   "start": "2026-11-07T19:00:00-06:00",
+   "title": "Tin Emboss Ornaments"
+  },
+  {
    "_slug": "emo-royale-7-the-blue-note-c9c494",
    "categories": [
     "music"
@@ -1383,9 +1399,6 @@
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-054a6f",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
-   ],
    "categories": [
     "arts"
    ],
@@ -1393,12 +1406,10 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-07T21:00:00-06:00",
    "id": "054a6f8f38b946ec",
-   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
-   "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
+   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
    "source": "visitcolumbia",
    "start": "2026-11-07T19:30:00-06:00",
-   "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
-   "venue": "Columbia Entertainment Company"
+   "title": "Evil Dead: The Musical – Columbia Entertainment Co."
   },
   {
    "_slug": "little-women-the-musical-99df5b",
@@ -1495,18 +1506,6 @@
    "venue": "The Blue Note"
   },
   {
-   "_slug": "texas-vs-mizzou-tailgate-1ee0aa",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "1ee0aaf483415b0b",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy84NzY4ZTg0OWYwYmZlMjYxYWNiNmU2MjVlZDQ3MzBiOGQ2OTE5Y2U4MTNiZTYzNmJhMTAzYWZlNTM4ZTA0NDY0LXJpbWctdzk2MC1oNzIwLWRjMTgxODE4LWdtaXI_dj0xNzkzODc2OTcx.avif",
-   "source": "allevents",
-   "start": "2026-11-07T20:00:00-06:00",
-   "title": "Texas vs Mizzou Tailgate"
-  },
-  {
    "_slug": "wild-horse-nine-d2c990",
    "categories": [
     "arts"
@@ -1578,9 +1577,6 @@
   },
   {
    "_slug": "merry-maplewood-a-festive-holiday-celebration-at-historic-ma-a9d48a",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/families/merry-maplewood-a-festive-holiday-celebration-at-historic-maplewood-house/event_b10662fc-e62d-4ddd-81eb-6422d2ab4ca5.html"
-   ],
    "categories": [
     "family"
    ],
@@ -1589,7 +1585,6 @@
    "end": "2026-11-08T14:00:00-06:00",
    "id": "a9d48a39d4efe2ea",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Merry-Maplewood-at-the-Historic-Maplewood-House.png",
-   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-11-08T11:00:00-06:00",
    "title": "Merry Maplewood: A Festive Holiday Celebration at Historic Maplewood House",
@@ -1637,19 +1632,6 @@
    "start": "2026-11-08T12:00:00-06:00",
    "title": "Everest: The Other Side",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "welcoming-winter-through-psyche-soma-soul-a-mini-retreat-76adc2",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "76adc232f145eaf7",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xOTI1YjRhMTcxMTE0Y2MwNTJmZTFmZTYxNzQ0MzQ1ODA3MDdmMWFiNGVlMzQ0ZDhiOGIzYTUyMmI2NWM0MmI5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhlOC1nbWlyLmpwZz92PTE3OTMwOTk3NjY.avif",
-   "source": "allevents",
-   "start": "2026-11-08T12:00:00-06:00",
-   "title": "Welcoming Winter through Psyche, Soma & Soul: A Mini-Retreat",
-   "venue": "Heart, Body, & Soul"
   },
   {
    "_slug": "all-state-prep-day-1381ab",
@@ -1714,17 +1696,21 @@
   },
   {
    "_slug": "nature-session-garden-cleanup-and-compost-8e0509",
+   "alsoOn": [
+    "https://engage.missouri.edu/SustainMizzou/rsvp?id=451798"
+   ],
    "categories": [
     "campus"
    ],
    "category": "campus",
+   "description": "Nature Sessions are a bi-weekly event series aimed at getting folks outside and connected with nature all while learning more about various sustainability, ecology, and gardening-related topics. This will be a great way to connect with nature and with your fellow student environmentalists.",
    "end": "2026-11-08T15:00:00-06:00",
    "id": "8e05094589a267d2",
    "imageUrl": "https://comoevent.com/img/gen/p-cb555ec0e3008d.webp",
-   "source": "mizzou",
+   "source": "engage",
    "start": "2026-11-08T13:00:00-06:00",
    "title": "Nature Session: Garden Cleanup and Compost",
-   "venue": "Kirklin Garden 601 S Providence Rd Columbia 65203 United States"
+   "venue": "Kirklin Garden"
   },
   {
    "_slug": "beginning-sewing-with-como-craftcycle-four-week-class-boxy-t-9e0d8c",
@@ -1778,9 +1764,6 @@
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-75f56b",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
-   ],
    "categories": [
     "arts"
    ],
@@ -1788,12 +1771,10 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-08T16:00:00-06:00",
    "id": "75f56b19cdfe4841",
-   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
-   "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
+   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
    "source": "visitcolumbia",
    "start": "2026-11-08T14:00:00-06:00",
-   "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
-   "venue": "Columbia Entertainment Company"
+   "title": "Evil Dead: The Musical – Columbia Entertainment Co."
   },
   {
    "_slug": "little-women-the-musical-ad7c32",
@@ -1816,6 +1797,7 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
     "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003"
    ],
@@ -1958,6 +1940,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "welcoming-winter-through-psyche-soma-soul-a-mini-retreat-76adc2",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "76adc232f145eaf7",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xOTI1YjRhMTcxMTE0Y2MwNTJmZTFmZTYxNzQ0MzQ1ODA3MDdmMWFiNGVlMzQ0ZDhiOGIzYTUyMmI2NWM0MmI5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhlOC1nbWlyLmpwZz92PTE3OTMwOTk3NjY.avif",
+   "source": "allevents",
+   "start": "2026-11-08T16:00:00-06:00",
+   "title": "Welcoming Winter through Psyche, Soma & Soul: A Mini-Retreat",
+   "venue": "Heart, Body, & Soul"
+  },
+  {
    "_slug": "wild-horse-nine-472faa",
    "categories": [
     "arts"
@@ -1990,8 +1985,8 @@
   {
    "_slug": "nurse-blake-but-did-you-die-comedy-tour-64a5e2",
    "alsoOn": [
-    "https://calendar.missouri.edu/missouri-theatre/event/16271-nurse-blake-but-did-you-die-tour",
-    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die"
+    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die",
+    "https://calendar.missouri.edu/missouri-theatre/event/16271-nurse-blake-but-did-you-die-tour"
    ],
    "categories": [
     "music",
@@ -2092,13 +2087,13 @@
  "friday": "2026-11-06",
  "modified": "2026-11-05",
  "picks": [
+  "4b2157d212e23abc",
   "c8db621e22518e28",
   "236bb060f8b95037",
   "3c0b59735fcc15c4",
-  "1a3578014a9a8203",
   "44a943854d89184d",
+  "5f2e2cff64a69392",
   "459eb79409a786bb",
-  "214d639665554a51",
   "c426be1aa6bd900c",
   "f64117160b4c0060",
   "64a5e21351dd7342"

@@ -95,6 +95,7 @@
   "lng": -92.3563844,
   "name": "Memorial Funeral Home, Crematory & Memorial Park Cemetery"
  },
+ "12847 w hwy bb, rocheport, mo 65279 rocheport, mo 65279": null,
  "1300 woodrail ave, columbia, mo": {
   "lat": 38.9109695,
   "lng": -92.3625846,
@@ -106,6 +107,11 @@
   "name": null
  },
  "14020 w hwy bb rocheport, mo 65279": null,
+ "1600 west broadway columbia, mo columbia, mo 65203": {
+  "lat": 38.952952,
+  "lng": -92.362459,
+  "name": null
+ },
  "17 n. 9th street columbia, mo 65201": {
   "lat": 38.9521799,
   "lng": -92.327852,
@@ -329,6 +335,11 @@
   "lng": -92.2514616,
   "name": "Lakeside Ashland"
  },
+ "601 business loop 70 w, columbia, mo columbia, mo 65203": {
+  "lat": 38.9668725,
+  "lng": -92.3448706,
+  "name": "T C Nails"
+ },
  "601 s providence rd, columbia 65203, united states": {
   "lat": 38.945025,
   "lng": -92.334609,
@@ -348,6 +359,11 @@
   "lat": 38.9488319,
   "lng": -92.3303585,
   "name": "Center for Missouri Studies"
+ },
+ "605 elm st. columbia, mo columbia, mo 65201": {
+  "lat": 38.9488319,
+  "lng": -92.3303585,
+  "name": null
  },
  "6081 w van horn tavern rd, columbia, mo": null,
  "613 e ash st, columbia, mo": {
@@ -635,6 +651,7 @@
  "the missouri theatre, columbia, mo": null,
  "the shack university of missouri columbia missouri united states, columbia, mo": null,
  "the sheldon, columbia, mo": null,
+ "the tasting room, columbia, mo": null,
  "tournament, columbia, mo": null,
  "townsend (grad hub), columbia, mo": null,
  "townsend hall 611 conley ave columbia mo 65211 united states, columbia, mo": null,
