@@ -137,9 +137,9 @@
   {
    "_slug": "mizine-5eb1ad",
    "alsoOn": [
-    "https://calendar.missouri.edu/event/21268-mizine",
+    "https://engage.missouri.edu/rsvp?id=453403",
     "https://engage.missouri.edu/RisoRoom/rsvp?id=453403",
-    "https://engage.missouri.edu/rsvp?id=453403"
+    "https://calendar.missouri.edu/event/21268-mizine"
    ],
    "categories": [
     "arts",
@@ -182,6 +182,18 @@
    "start": "2026-11-06T11:00:00-06:00",
    "title": "Study Abroad Walk-in Advising",
    "venue": "Memorial Student Union"
+  },
+  {
+   "_slug": "dennis-layne-old-plank-tavern-with-scott-mccullough-1de0c1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "1de0c14ccb6a3cb0",
+   "imageUrl": "https://comoevent.com/img/gen/38f81485d86e3d.webp",
+   "source": "allevents",
+   "start": "2026-11-06T13:00:00-06:00",
+   "title": "Dennis Layne @ Old Plank Tavern / with Scott McCullough"
   },
   {
    "_slug": "wild-horse-nine-c92429",
@@ -556,9 +568,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-7-pm-3c0b59",
    "alsoOn": [
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452002",
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/",
     "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452002"
    ],
    "categories": [
     "sports",
@@ -606,6 +618,22 @@
    "start": "2026-11-06T19:00:00-06:00",
    "title": "Rewind the Curtain: Broadway Now & Then",
    "venue": "Missouri Theatre"
+  },
+  {
+   "_slug": "southall-236bb0",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with The Ransom Brothers",
+   "id": "236bb060f8b95037",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Southall-TBN-Web.jpg",
+   "source": "bluenote",
+   "start": "2026-11-06T19:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/southall-a-few-more-tour-columbia-missouri-11-06-2026/event/06006503E2D920B8",
+   "timeTBD": true,
+   "title": "Southall",
+   "venue": "The Blue Note"
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-1a3578",
@@ -901,8 +929,8 @@
   {
    "_slug": "mizzou-football-vs-texas-c426be",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927",
-    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas"
+    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas",
+    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927"
    ],
    "categories": [
     "sports"
@@ -915,6 +943,31 @@
    "start": "2026-11-07T11:00:00-06:00",
    "title": "Mizzou Football vs. Texas",
    "venue": "Champions Drive"
+  },
+  {
+   "_slug": "santa-s-magic-arrival-1307ac",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "1307acbfdf1cad45",
+   "imageUrl": "https://comoevent.com/img/gen/18e51db19d82bf.webp",
+   "source": "allevents",
+   "start": "2026-11-07T11:00:00-06:00",
+   "title": "Santa's Magic Arrival",
+   "venue": "Bass Pro Shops (Columbia, MO)"
+  },
+  {
+   "_slug": "season-of-wellness-health-resource-fair-c5c0e5",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "c5c0e56aac17d1e5",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy84OGY1NDU1OWE2OWZlYjRhZjZlNDlhYjEzNzc0ZWI0NTNjYjdiNmI0NjgyYTVjODVmZjlhOWI5ZWRiYTNlMmI5LXJpbWctdzEyMDAtaDY3NS1kYzU4NTg2OC1nbWlyP3Y9MTc5Mzc1Mjk0MQ.avif",
+   "source": "allevents",
+   "start": "2026-11-07T11:00:00-06:00",
+   "title": "Season of Wellness Health Resource Fair"
   },
   {
    "_slug": "tin-emboss-ornaments-525182",
@@ -1035,17 +1088,16 @@
    "venue": "Heart, Body, & Soul"
   },
   {
-   "_slug": "pumpkin-smash-8d9189",
+   "_slug": "magic-star-trek-encore-1v1-prerelease-834a0b",
    "categories": [
-    "family"
+    "community"
    ],
-   "category": "family",
-   "id": "8d9189456366a246",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8zZmE2NjRiODJlZjBiMGMzMjRkNGY1YTgwODdlMjY0MzVjMjU4NzhkOGJjYmY4MDFmMmM2MGNlNDg2ZmFkY2U2LXJpbWctdzEyMDAtaDY3Ni1kYzg4MjgzOC1nbWlyP3Y9MTc5Mjc4MDEwNA.avif",
+   "category": "community",
+   "id": "834a0bdf1f24c577",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9kZGYyYjVmZWJiODIxOWQyODQyY2U3YjZhZTM4NDQ3M2NlOTJiNjYzZmQyYmY3MjJjMmMxYzZmYTZiNTI1NTViLXJpbWctdzEyMDAtaDY3NS1kYzI4Mzg0OC1nbWlyP3Y9MTc5Mzc4MTcyOQ.avif",
    "source": "allevents",
    "start": "2026-11-07T13:00:00-06:00",
-   "title": "Pumpkin Smash!",
-   "venue": "Columbia's Agriculture Park, 1769 W Ash Street"
+   "title": "MAGIC: Star Trek Encore 1v1 Prerelease"
   },
   {
    "_slug": "bhagwad-gita-class-a027e4",
@@ -1078,18 +1130,6 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "magic-star-trek-encore-1v1-prerelease-834a0b",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "834a0bdf1f24c577",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9kZGYyYjVmZWJiODIxOWQyODQyY2U3YjZhZTM4NDQ3M2NlOTJiNjYzZmQyYmY3MjJjMmMxYzZmYTZiNTI1NTViLXJpbWctdzEyMDAtaDY3NS1kYzI4Mzg0OC1nbWlyP3Y9MTc5Mzc4MTcyOQ.avif",
-   "source": "allevents",
-   "start": "2026-11-07T14:00:00-06:00",
-   "title": "MAGIC: Star Trek Encore 1v1 Prerelease"
-  },
-  {
    "_slug": "mint-jelly-128397",
    "categories": [
     "music"
@@ -1103,18 +1143,6 @@
    "start": "2026-11-07T14:00:00-06:00",
    "title": "Mint Jelly",
    "venue": "Cooper's Landing"
-  },
-  {
-   "_slug": "season-of-wellness-health-resource-fair-c5c0e5",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "c5c0e56aac17d1e5",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy84OGY1NDU1OWE2OWZlYjRhZjZlNDlhYjEzNzc0ZWI0NTNjYjdiNmI0NjgyYTVjODVmZjlhOWI5ZWRiYTNlMmI5LXJpbWctdzEyMDAtaDY3NS1kYzU4NTg2OC1nbWlyP3Y9MTc5Mzc1Mjk0MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-07T14:00:00-06:00",
-   "title": "Season of Wellness Health Resource Fair"
   },
   {
    "_slug": "deanna-dikeman-a-sense-of-place-guided-tour-aeb5dd",
@@ -1255,6 +1283,34 @@
    "title": "Winter Market Kickoff"
   },
   {
+   "_slug": "natural-dyes-with-wildherness-d0a68c",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "d0a68c28d123f916",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9hODRlMWNiNTg0NDRmZThjZThlZmMxMWJmNjYwZjhjZjliMWU2YjE5YjI3YzQzN2I0YTFhNWQ4OTc1NDM3YmU4LXJpbWctdzEyMDAtaDEyMDAtZGNhODQ4NzgtZ21pcj92PTE3OTMxNDQ2MDM.avif",
+   "source": "allevents",
+   "start": "2026-11-07T18:30:00-06:00",
+   "title": "Natural Dyes with wildHERness"
+  },
+  {
+   "_slug": "emo-royale-vii-67a74f",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Club 90s Presents · with Scout Speer",
+   "id": "67a74f662ff10463",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Southall-TBN-Web.jpg",
+   "source": "bluenote",
+   "start": "2026-11-07T19:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/emo-royale-columbia-missouri-11-07-2026/event/06006521CAF1E0A7",
+   "timeTBD": true,
+   "title": "Emo Royale VII",
+   "venue": "The Blue Note"
+  },
+  {
    "_slug": "mu-vs-texas-tailgate-all-you-can-eat-buffet-raffle-drink-spe-a7f16c",
    "categories": [
     "sports"
@@ -1282,6 +1338,19 @@
    "venue": "First Christian Church-Disciples of Christ, Columbia, Missouri"
   },
   {
+   "_slug": "pumpkin-smash-8d9189",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "8d9189456366a246",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8zZmE2NjRiODJlZjBiMGMzMjRkNGY1YTgwODdlMjY0MzVjMjU4NzhkOGJjYmY4MDFmMmM2MGNlNDg2ZmFkY2U2LXJpbWctdzEyMDAtaDY3Ni1kYzg4MjgzOC1nbWlyP3Y9MTc5Mjc4MDEwNA.avif",
+   "source": "allevents",
+   "start": "2026-11-07T19:00:00-06:00",
+   "title": "Pumpkin Smash!",
+   "venue": "Columbia's Agriculture Park, 1769 W Ash Street"
+  },
+  {
    "_slug": "rewind-the-curtain-broadway-now-then-0d9300",
    "categories": [
     "campus",
@@ -1296,19 +1365,6 @@
    "start": "2026-11-07T19:00:00-06:00",
    "title": "Rewind the Curtain: Broadway Now & Then",
    "venue": "Missouri Theatre"
-  },
-  {
-   "_slug": "santa-s-magic-arrival-1307ac",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "1307acbfdf1cad45",
-   "imageUrl": "https://comoevent.com/img/gen/18e51db19d82bf.webp",
-   "source": "allevents",
-   "start": "2026-11-07T19:00:00-06:00",
-   "title": "Santa's Magic Arrival",
-   "venue": "Bass Pro Shops (Columbia, MO)"
   },
   {
    "_slug": "emo-royale-7-the-blue-note-c9c494",
@@ -1411,9 +1467,6 @@
   },
   {
    "_slug": "certainly-so-rose-music-hall-f64117",
-   "alsoOn": [
-    "https://rosemusichall.com/event/certainly-so/"
-   ],
    "categories": [
     "music"
    ],
@@ -1424,7 +1477,6 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Certainly-So-at-Rose-Music-Hall.jpeg",
    "source": "visitcolumbia",
    "start": "2026-11-07T20:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/certainly-so-columbia-missouri-11-07-2026/event/0600652ACD83D829",
    "title": "Certainly So – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -1595,19 +1647,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "welcoming-winter-through-psyche-soma-soul-a-mini-retreat-76adc2",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "76adc232f145eaf7",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xOTI1YjRhMTcxMTE0Y2MwNTJmZTFmZTYxNzQ0MzQ1ODA3MDdmMWFiNGVlMzQ0ZDhiOGIzYTUyMmI2NWM0MmI5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhlOC1nbWlyLmpwZz92PTE3OTMwOTk3NjY.avif",
-   "source": "allevents",
-   "start": "2026-11-08T12:00:00-06:00",
-   "title": "Welcoming Winter through Psyche, Soma & Soul: A Mini-Retreat",
-   "venue": "Heart, Body, & Soul"
-  },
-  {
    "_slug": "all-state-prep-day-1381ab",
    "categories": [
     "family"
@@ -1681,6 +1720,19 @@
    "start": "2026-11-08T13:00:00-06:00",
    "title": "Nature Session",
    "venue": "Columbia 65203 United States"
+  },
+  {
+   "_slug": "welcoming-winter-through-psyche-soma-soul-a-mini-retreat-76adc2",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "76adc232f145eaf7",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xOTI1YjRhMTcxMTE0Y2MwNTJmZTFmZTYxNzQ0MzQ1ODA3MDdmMWFiNGVlMzQ0ZDhiOGIzYTUyMmI2NWM0MmI5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhlOC1nbWlyLmpwZz92PTE3OTMwOTk3NjY.avif",
+   "source": "allevents",
+   "start": "2026-11-08T13:00:00-06:00",
+   "title": "Welcoming Winter through Psyche, Soma & Soul: A Mini-Retreat",
+   "venue": "Heart, Body, & Soul"
   },
   {
    "_slug": "beginning-sewing-with-como-craftcycle-four-week-class-boxy-t-9e0d8c",
@@ -1772,9 +1824,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
     "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003"
    ],
    "categories": [
     "sports",
@@ -1965,6 +2017,18 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "auditions-proof-by-david-auburn-a70e1b",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "a70e1b3f90dd8c68",
+   "imageUrl": "https://comoevent.com/img/gen/ef4de11d982321.webp",
+   "source": "allevents",
+   "start": "2026-11-08T19:30:00-06:00",
+   "title": "Auditions -- Proof by David Auburn"
+  },
+  {
    "_slug": "missouri-tigers-womens-volleyball-vs-texas-a-m-aggies-womens-7983a3",
    "categories": [
     "sports"
@@ -1997,10 +2061,10 @@
  "modified": "2026-11-04",
  "picks": [
   "c8db621e22518e28",
+  "236bb060f8b95037",
   "3c0b59735fcc15c4",
   "1a3578014a9a8203",
   "44a943854d89184d",
-  "fb82ed79f16ed38a",
   "459eb79409a786bb",
   "214d639665554a51",
   "c426be1aa6bd900c",
