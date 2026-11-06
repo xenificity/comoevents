@@ -16,6 +16,23 @@
    "venue": "Columbia Misourri"
   },
   {
+   "_slug": "black-gold-friday-dc4681",
+   "alsoOn": [
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
+   ],
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Show your Mizzou pride wherever you go by wearing black and gold. This Friday, let everyone know who you represent and get 25% off at The Mizzou Store. Shop in person or online.",
+   "id": "dc4681af2bad947b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy85OGUxMTgwZWQ0YWJiNGNlZDYxMjJlZjVhMTEyMmQ5YmU1NjgyZmI1ZTY3NjkxMTlmMDNhZTM4YTQ0NjIxZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4YjgxOC1nbWlyP3Y9MTc5MDIyODc0MA.avif",
+   "source": "baselocal",
+   "start": "2026-11-06T08:30:00-06:00",
+   "title": "Black & Gold Friday",
+   "venue": "The Mizzou Store"
+  },
+  {
    "_slug": "black-and-gold-friday-2fc01a",
    "alsoOn": [
     "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
@@ -46,18 +63,6 @@
    "start": "2026-11-06T08:30:00-06:00",
    "title": "Passport Walk-in Hours",
    "venue": "Memorial Student Union"
-  },
-  {
-   "_slug": "coco-at-lakeside-ashaland-5046db",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "5046db9b19badae4",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy83ODA3OTMyYTA4NjlkYjNhNDM1MzMxM2MwMjg3ZTBlMjg3OTFjNmNhM2MzZjY1YTNjOTYzOWE3MmQxZjRlODkxLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MzkxODM4NA.avif",
-   "source": "allevents",
-   "start": "2026-11-06T09:00:00-06:00",
-   "title": "Coco at Lakeside Ashaland"
   },
   {
    "_slug": "magic-star-trek-two-headed-prerelease-e790d2",
@@ -130,29 +135,26 @@
    "venue": "Memorial Student Union"
   },
   {
-   "_slug": "bundt-cakes-and-buddies-8d9cb6",
-   "alsoOn": [
-    "https://engage.missouri.edu/CampusActivities/rsvp?id=452550"
-   ],
+   "_slug": "bundt-cakes-and-buddies-ba6fb2",
    "categories": [
+    "community",
     "campus"
    ],
-   "category": "campus",
+   "category": "community",
    "description": "Stop by to snag a FREE mini bundt cake and learn about exciting opportunities to get involved on campus! Whether you’re looking to try something new, meet people, or find your next campus adventure, swing by and see what’s waiting for you. Find us at The Info tables in the MUSC from 11am-1pm.",
    "end": "2026-11-06T13:00:00-06:00",
-   "id": "8d9cb6576169045f",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2478384_bundt_cakes_29f40b42-b5bc-4fb7-b627-ec9c8ffb36a0_108102639.png",
+   "id": "ba6fb2d89404776a",
+   "imageUrl": "https://comoevent.com/img/gen/488f05afd5f592.webp",
    "source": "engage",
    "start": "2026-11-06T11:00:00-06:00",
    "title": "Bundt Cakes and Buddies",
    "venue": "Info Tables - MU Student Center"
   },
   {
-   "_slug": "mizine-5eb1ad",
+   "_slug": "mizine-2f3bd6",
    "alsoOn": [
-    "https://engage.missouri.edu/rsvp?id=453403",
     "https://calendar.missouri.edu/event/21268-mizine",
-    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403"
+    "https://engage.missouri.edu/rsvp?id=453403"
    ],
    "categories": [
     "arts",
@@ -161,8 +163,8 @@
    "category": "arts",
    "description": "MIZine is a student-centered zine fair organized by Riso Room Org, celebrating independent publishing and artist-made work. Featuring zines, small books, posters, prints, and other creative publications, the fair brings together makers and readers to share work, exchange ideas, and celebrate student",
    "end": "2026-11-06T17:00:00-06:00",
-   "id": "5eb1adca7f499e9c",
-   "imageUrl": "https://comoevent.com/img/gen/p-4b087033b5c21e.webp",
+   "id": "2f3bd67776adc34f",
+   "imageUrl": "https://comoevent.com/img/gen/1136c1ae7f0c45.webp",
    "source": "engage",
    "start": "2026-11-06T11:00:00-06:00",
    "title": "MIZine",
@@ -328,6 +330,18 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "coco-at-lakeside-ashaland-5046db",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "5046db9b19badae4",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy83ODA3OTMyYTA4NjlkYjNhNDM1MzMxM2MwMjg3ZTBlMjg3OTFjNmNhM2MzZjY1YTNjOTYzOWE3MmQxZjRlODkxLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MzkxODM4NA.avif",
+   "source": "allevents",
+   "start": "2026-11-06T16:00:00-06:00",
+   "title": "Coco at Lakeside Ashaland"
+  },
+  {
    "_slug": "the-munchbox-056fc3",
    "categories": [
     "food"
@@ -343,17 +357,15 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "whodunnit-weekly-game-night-d16e74",
-   "alsoOn": [
-    "https://engage.missouri.edu/WSDC/rsvp?id=452209"
-   ],
+   "_slug": "whodunnit-weekly-game-night-364fdd",
    "categories": [
+    "community",
     "campus"
    ],
-   "category": "campus",
+   "category": "community",
    "description": "Come play social deduction games with us, this time chosen by the exec board!",
    "end": "2026-11-06T19:00:00-06:00",
-   "id": "d16e744c09a81347",
+   "id": "364fdd9f70ea43ea",
    "imageUrl": "https://comoevent.com/img/gen/04dfc18d76b75b.webp",
    "source": "engage",
    "start": "2026-11-06T17:00:00-06:00",
@@ -376,18 +388,17 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "summer-welcome-informational-session-2-cc6439",
+   "_slug": "first-friday-at-serendipity-4b2157",
    "categories": [
-    "campus"
+    "community"
    ],
-   "category": "campus",
-   "end": "2026-11-06T18:30:00-06:00",
-   "id": "cc64390397cc90bb",
-   "imageUrl": "https://comoevent.com/img/gen/8d9f1bce4c6b6f.webp",
-   "source": "mizzou",
+   "category": "community",
+   "id": "4b2157d212e23abc",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zNjU0MzY5MzIzZTU2ZTQ1OWE0NzhlMjk4ODRhY2QxMzZjMmIwMGY1YzJiMDkyYzU5YmJkYWY4NWYxNTMzNzcxLXJpbWctdzEyMDAtaDY3NS1kY2M4MTg3OC1nbWlyP3Y9MTc5MjU3MDc0OQ.avif",
+   "source": "allevents",
    "start": "2026-11-06T17:30:00-06:00",
-   "title": "Summer Welcome Informational Session #2",
-   "venue": "Strickland Hall Room 105 805 E Rollins St Columbia MO 65201 United States"
+   "title": "First Friday at Serendipity!",
+   "venue": "Serendipity Polish Pottery & Gallery, 1020 E. Walnut St., Ste. 100, Columbia, MO, United States, Missouri 65201"
   },
   {
    "_slug": "back-water-bcb562",
@@ -424,11 +435,11 @@
    "venue": "Serendipity Salon and Gallery"
   },
   {
-   "_slug": "first-friday-at-serendipity-4b2157",
+   "_slug": "first-friday-at-serendipity-7102fd",
    "alsoOn": [
-    "https://allevents.in/columbia/first-friday-at-serendipity/200030865981009",
+    "https://northvillageartsdistrict.org/first-fridays/",
     "https://baselocal.com/mo/columbia/events/#first-friday-marketplace",
-    "https://northvillageartsdistrict.org/first-fridays/"
+    "https://allevents.in/columbia/first-friday-marketplace/200030369845436"
    ],
    "categories": [
     "arts",
@@ -438,8 +449,8 @@
    "category": "arts",
    "description": "Explore a new gallery exhibit featuring “Birds in CoMo,” vibrant, light-hearted paintings by Jeff Kapfer that draw on his graphic design background and lifelong interest in birds. The patio will feature returning and new special guests, roasted chestnuts, and allergen-free baked goods. Browse newly…",
    "end": "2026-11-06T21:00:00-06:00",
-   "id": "4b2157d212e23abc",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zNjU0MzY5MzIzZTU2ZTQ1OWE0NzhlMjk4ODRhY2QxMzZjMmIwMGY1YzJiMDkyYzU5YmJkYWY4NWYxNTMzNzcxLXJpbWctdzEyMDAtaDY3NS1kY2M4MTg3OC1nbWlyP3Y9MTc5MjU3MDc0OQ.avif",
+   "id": "7102fdd64592154f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9kY2U2ZTlhZTA3Njk2NWRkMmNjNjBhMTI0Y2NmMjdhZmNmYmZjMmU5MTQ1OWIyN2YwNmU3NTQ1NjFmZjEwMDEwLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4NTY1Njg1NA.avif",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-06T18:00:00-06:00",
@@ -475,6 +486,19 @@
    "start": "2026-11-06T18:00:00-06:00",
    "title": "MAGIC: Friday Night Commander",
    "venue": "Hexagon Alley"
+  },
+  {
+   "_slug": "southall-a-few-more-tour-de08d5",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "id": "de08d5dc7055e228",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8xOTVjOThhMTFlOTMwYmRkZGZhZmJlZTIyZGM5N2QxN2JkZTdmY2ZlZjI4NDI5ZTliN2E5MDM2YTRkN2RlNjNmLXJpbWctdzEwMjQtaDU3Ni1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODY3MzA0MDg.avif",
+   "source": "allevents",
+   "start": "2026-11-06T18:00:00-06:00",
+   "title": "Southall: A Few More Tour",
+   "venue": "The Blue Note"
   },
   {
    "_slug": "lakshmi-sahasranama-and-kumkuma-archana-94d79a",
@@ -536,18 +560,6 @@
    "venue": "MU Student Center"
   },
   {
-   "_slug": "emily-baskett-real-estate-grand-opening-and-ribbon-cutting-c-758367",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "7583671b7a2faa18",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9kMDM5ZDVkYzI2MTY3ODU2ODRiYTBhNDY5NzdhYzNmNjRmNTlmMjM3ZDY0NWE2YzMwMTU4OWJlZTE3N2E3MmFmLXJpbWctdzEyMDAtaDg1Ny1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MzYwODA0Mw.avif",
-   "source": "allevents",
-   "start": "2026-11-06T19:00:00-06:00",
-   "title": "Emily Baskett Real Estate Grand Opening and Ribbon Cutting Ceremony"
-  },
-  {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-a-saint-louis-comedia-c8db62",
    "alsoOn": [
     "https://thearcadedistrict.org/"
@@ -569,9 +581,8 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-7-pm-3c0b59",
    "alsoOn": [
-    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452002",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/"
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/",
+    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas"
    ],
    "categories": [
     "sports",
@@ -638,6 +649,9 @@
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-1a3578",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
+   ],
    "categories": [
     "arts"
    ],
@@ -645,22 +659,12 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-06T21:00:00-06:00",
    "id": "1a3578014a9a8203",
-   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
+   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
+   "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
    "source": "visitcolumbia",
    "start": "2026-11-06T19:30:00-06:00",
-   "title": "Evil Dead: The Musical – Columbia Entertainment Co."
-  },
-  {
-   "_slug": "first-friday-marketplace-7102fd",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "7102fdd64592154f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9kY2U2ZTlhZTA3Njk2NWRkMmNjNjBhMTI0Y2NmMjdhZmNmYmZjMmU5MTQ1OWIyN2YwNmU3NTQ1NjFmZjEwMDEwLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4NTY1Njg1NA.avif",
-   "source": "allevents",
-   "start": "2026-11-06T19:30:00-06:00",
-   "title": "First Friday Marketplace"
+   "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
+   "venue": "Columbia Entertainment Company"
   },
   {
    "_slug": "little-women-the-musical-44a943",
@@ -719,19 +723,6 @@
    "source": "visitcolumbia",
    "start": "2026-11-06T20:00:00-06:00",
    "title": "Southall – The Blue Note",
-   "venue": "The Blue Note"
-  },
-  {
-   "_slug": "southall-a-few-more-tour-de08d5",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "id": "de08d5dc7055e228",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8xOTVjOThhMTFlOTMwYmRkZGZhZmJlZTIyZGM5N2QxN2JkZTdmY2ZlZjI4NDI5ZTliN2E5MDM2YTRkN2RlNjNmLXJpbWctdzEwMjQtaDU3Ni1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODY3MzA0MDg.avif",
-   "source": "allevents",
-   "start": "2026-11-06T20:00:00-06:00",
-   "title": "Southall: A Few More Tour",
    "venue": "The Blue Note"
   },
   {
@@ -820,6 +811,9 @@
   },
   {
    "_slug": "columbia-farmers-market-winter-season-214d63",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
+   ],
    "categories": [
     "food"
    ],
@@ -828,6 +822,7 @@
    "end": "2026-11-07T12:00:00-06:00",
    "id": "214d639665554a51",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
+   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-11-07T09:00:00-06:00",
    "title": "Columbia Farmers Market – Winter Season",
@@ -860,18 +855,6 @@
    "start": "2026-11-07T09:00:00-06:00",
    "title": "Pumpkin Smash!",
    "venue": "Columbia's Agriculture Park, 1769 W Ash Street"
-  },
-  {
-   "_slug": "coffee-conversation-a-weekly-chat-25c1ee",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "id": "25c1ee4bfc6b6a2a",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy85YmViMTQ0YjMxNTk5ZTE0ZjViMmU1N2I1YmIzOTczNTFjODQ3Nzg1ZTBkMWVmMDM0MTJlZDBjZjFmOTA3NTMzLXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkzNzUyOTQw.avif",
-   "source": "allevents",
-   "start": "2026-11-07T10:00:00-06:00",
-   "title": "Coffee & Conversation - A Weekly Chat"
   },
   {
    "_slug": "health-insurance-marketplace-medicaid-open-enrollment-assist-4348ba",
@@ -907,19 +890,6 @@
    "start": "2026-11-07T10:00:00-06:00",
    "title": "Local Authors Open House",
    "venue": "Columbia Public Library, First Floor"
-  },
-  {
-   "_slug": "toys-for-tots-craft-event-92ebc7",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "92ebc782ca9ccf35",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy80ZGNiNTY5ZWU5YmVkM2Y4NGNhODRhZTE0MGY4M2Q0N2M3YzhkMWM3NjRkMjgwZGIxNDYyNzNkN2VjM2I0NzhjLXJpbWctdzEyMDAtaDEyMDAtZGNmOGY4ZjgtZ21pcj92PTE3OTM5NDIxOTg.avif",
-   "source": "allevents",
-   "start": "2026-11-07T10:00:00-06:00",
-   "title": "Toys for Tots Craft Event",
-   "venue": "Legion Field Columbia Missouri"
   },
   {
    "_slug": "open-climb-166327",
@@ -958,8 +928,8 @@
   {
    "_slug": "mizzou-football-vs-texas-c426be",
    "alsoOn": [
-    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas",
-    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927"
+    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927",
+    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas"
    ],
    "categories": [
     "sports"
@@ -1190,16 +1160,16 @@
    "venue": "Museum Of Art And Archaeology"
   },
   {
-   "_slug": "r-b-night-friendsgiving-edition-columbia-mo-85910f",
+   "_slug": "coffee-conversation-a-weekly-chat-25c1ee",
    "categories": [
-    "community"
+    "food"
    ],
-   "category": "community",
-   "id": "85910ff50917a1be",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wNGY3YTQyMDg0MjM3NjZmODJiN2Q2M2U5Yjk1MmRmNzhhZGIyZTIxOGYyODgxMGUzMTI2YTlkOTJiNTk3NWU3LXJpbWctdzEwMjQtaDE1MzYtZGMwODA4MDgtZ21pcj92PTE3OTI5NDIxMzc.avif",
+   "category": "food",
+   "id": "25c1ee4bfc6b6a2a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy85YmViMTQ0YjMxNTk5ZTE0ZjViMmU1N2I1YmIzOTczNTFjODQ3Nzg1ZTBkMWVmMDM0MTJlZDBjZjFmOTA3NTMzLXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkzNzUyOTQw.avif",
    "source": "allevents",
    "start": "2026-11-07T15:00:00-06:00",
-   "title": "R&B Night: Friendsgiving Edition | Columbia, MO"
+   "title": "Coffee & Conversation - A Weekly Chat"
   },
   {
    "_slug": "everest-the-other-side-6087c3",
@@ -1261,6 +1231,32 @@
    "title": "Artistry on the Runway: Hair & Fashion Show"
   },
   {
+   "_slug": "peaceworks-37th-annual-dinner-131177",
+   "categories": [
+    "food",
+    "religious"
+   ],
+   "category": "food",
+   "id": "131177a4a5a49ce2",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMTk2NWYyNThmODdlOTcyN2NhZDc1M2M3N2EyNjU2Yjc4YjZhZGRlNWFmOThkNTY0MDlkOWMwZjkzZjM4MGFjLXJpbWctdzEyMDAtaDQzNi1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk1NTI5NA.avif",
+   "source": "allevents",
+   "start": "2026-11-07T18:00:00-06:00",
+   "title": "Peaceworks' 37th Annual Dinner",
+   "venue": "First Christian Church-Disciples of Christ, Columbia, Missouri"
+  },
+  {
+   "_slug": "r-b-night-friendsgiving-edition-columbia-mo-85910f",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "85910ff50917a1be",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wNGY3YTQyMDg0MjM3NjZmODJiN2Q2M2U5Yjk1MmRmNzhhZGIyZTIxOGYyODgxMGUzMTI2YTlkOTJiNTk3NWU3LXJpbWctdzEwMjQtaDE1MzYtZGMwODA4MDgtZ21pcj92PTE3OTI5NDIxMzc.avif",
+   "source": "allevents",
+   "start": "2026-11-07T18:00:00-06:00",
+   "title": "R&B Night: Friendsgiving Edition | Columbia, MO"
+  },
+  {
    "_slug": "wicker-4fb531",
    "categories": [
     "arts"
@@ -1314,19 +1310,14 @@
   },
   {
    "_slug": "emo-royale-7937a4",
-   "alsoOn": [
-    "https://thebluenote.com/event/emo-royale/"
-   ],
    "categories": [
-    "music"
+    "community"
    ],
-   "category": "music",
-   "description": "Club 90s Presents · with Scout Speer",
+   "category": "community",
    "id": "7937a4dd393dc582",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy82MjM5MDdiZDkwNDFmMTJjYTcyMTZkN2RmNTlmZTVkYjI4NGZiZjczMzBkMzkzNTQzNGJkZGU4M2RlZTVjNTc3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODkwMDE5NDY.avif",
    "source": "allevents",
    "start": "2026-11-07T19:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/emo-royale-columbia-missouri-11-07-2026/event/06006521CAF1E0A7",
    "title": "Emo Royale",
    "venue": "The Blue Note"
   },
@@ -1342,20 +1333,6 @@
    "start": "2026-11-07T19:00:00-06:00",
    "title": "MU vs Texas Tailgate | All You Can Eat Buffet, Raffle, Drink Specials",
    "venue": "The Kitchen Grill and Games"
-  },
-  {
-   "_slug": "peaceworks-37th-annual-dinner-131177",
-   "categories": [
-    "food",
-    "religious"
-   ],
-   "category": "food",
-   "id": "131177a4a5a49ce2",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMTk2NWYyNThmODdlOTcyN2NhZDc1M2M3N2EyNjU2Yjc4YjZhZGRlNWFmOThkNTY0MDlkOWMwZjkzZjM4MGFjLXJpbWctdzEyMDAtaDQzNi1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk1NTI5NA.avif",
-   "source": "allevents",
-   "start": "2026-11-07T19:00:00-06:00",
-   "title": "Peaceworks' 37th Annual Dinner",
-   "venue": "First Christian Church-Disciples of Christ, Columbia, Missouri"
   },
   {
    "_slug": "rewind-the-curtain-broadway-now-then-0d9300",
@@ -1401,6 +1378,9 @@
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-054a6f",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
+   ],
    "categories": [
     "arts"
    ],
@@ -1408,10 +1388,12 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-07T21:00:00-06:00",
    "id": "054a6f8f38b946ec",
-   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
+   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
+   "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
    "source": "visitcolumbia",
    "start": "2026-11-07T19:30:00-06:00",
-   "title": "Evil Dead: The Musical – Columbia Entertainment Co."
+   "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
+   "venue": "Columbia Entertainment Company"
   },
   {
    "_slug": "little-women-the-musical-99df5b",
@@ -1590,6 +1572,9 @@
   },
   {
    "_slug": "merry-maplewood-a-festive-holiday-celebration-at-historic-ma-a9d48a",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/families/merry-maplewood-a-festive-holiday-celebration-at-historic-maplewood-house/event_b10662fc-e62d-4ddd-81eb-6422d2ab4ca5.html"
+   ],
    "categories": [
     "family"
    ],
@@ -1598,6 +1583,7 @@
    "end": "2026-11-08T14:00:00-06:00",
    "id": "a9d48a39d4efe2ea",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Merry-Maplewood-at-the-Historic-Maplewood-House.png",
+   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-11-08T11:00:00-06:00",
    "title": "Merry Maplewood: A Festive Holiday Celebration at Historic Maplewood House",
@@ -1789,6 +1775,9 @@
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-75f56b",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
+   ],
    "categories": [
     "arts"
    ],
@@ -1796,10 +1785,12 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-08T16:00:00-06:00",
    "id": "75f56b19cdfe4841",
-   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
+   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
+   "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
    "source": "visitcolumbia",
    "start": "2026-11-08T14:00:00-06:00",
-   "title": "Evil Dead: The Musical – Columbia Entertainment Co."
+   "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
+   "venue": "Columbia Entertainment Company"
   },
   {
    "_slug": "little-women-the-musical-ad7c32",
@@ -1823,8 +1814,8 @@
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
-    "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
+    "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm"
    ],
    "categories": [
     "sports",
@@ -1834,7 +1825,7 @@
    "description": "Join us for Alumni Day as the Tigers take on Texas A&M at 2 PM! Giveaway: Truman Building Block Set",
    "end": "2026-11-08T16:00:00-06:00",
    "id": "961f4cec69452e0a",
-   "imageUrl": "https://comoevent.com/img/gen/4bf5ca4ecc91cd.webp",
+   "imageUrl": "https://comoevent.com/img/gen/p-a5c73bb4306d3a.webp",
    "source": "engage",
    "start": "2026-11-08T14:00:00-06:00",
    "title": "Mizzou Volleyball vs. Texas A&M - 2 PM",
@@ -1993,6 +1984,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "chiefs-game-day-at-the-kitchen-16159b",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "16159b869ba05ae0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9pbWcuZXZidWMuY29tL2h0dHBzJTNBJTJGJTJGY2RuLmV2YnVjLmNvbSUyRmltYWdlcyUyRjExOTI3MTkwMzklMkYyMjc2MzY1ODYzNDgzJTJGMSUyRm9yaWdpbmFsLjIwMjYwOTA0LTIwNTQxND9hdXRvPWZvcm1hdCUyQ2NvbXByZXNzJnE9NzUmc2hhcnA9MTAmcz1kMjk1NDZmMzA3Njk1NDNiYTY2ZDZhNWZjZjc0NzRiMA.avif",
+   "source": "allevents",
+   "start": "2026-11-08T18:00:00-06:00",
+   "title": "Chiefs Game Day at The Kitchen",
+   "venue": "The Kitchen Grill and Games"
+  },
+  {
    "_slug": "the-soul-the-scientific-method-free-event-50e8b6",
    "categories": [
     "community"
@@ -2082,6 +2086,19 @@
    "venue": "Hearnes Center"
   },
   {
+   "_slug": "super-smash-bros-tournament-e47027",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e47027247d911c2e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
+   "source": "allevents",
+   "start": "2026-11-08T19:30:00-06:00",
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
+  },
+  {
    "_slug": "wicker-c6e4d2",
    "categories": [
     "arts"
@@ -2100,14 +2117,14 @@
  "friday": "2026-11-06",
  "modified": "2026-11-06",
  "picks": [
-  "4b2157d212e23abc",
   "c8db621e22518e28",
+  "236bb060f8b95037",
   "3c0b59735fcc15c4",
+  "1a3578014a9a8203",
   "44a943854d89184d",
-  "5f2e2cff64a69392",
   "459eb79409a786bb",
+  "214d639665554a51",
   "c426be1aa6bd900c",
-  "7937a4dd393dc582",
   "f64117160b4c0060",
   "64a5e21351dd7342"
  ],

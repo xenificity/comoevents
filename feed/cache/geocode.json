@@ -441,6 +441,7 @@
  "clothing bins across campus, columbia, mo": null,
  "columbia  65203 united states, columbia, mo": null,
  "columbia 65203 united states, columbia, mo": null,
+ "columbia art league, columbia, mo": null,
  "columbia country club, columbia, mo": {
   "lat": 38.9583408,
   "lng": -92.3016565,
@@ -501,6 +502,7 @@
  "harry s. truman building, columbia, mo": null,
  "historic maplewood house at boone county history and culture center, columbia, mo": null,
  "hulston hall court room  university of missouri columbia missouri united states, columbia, mo": null,
+ "hulston hall room 109 university of missouri columbia missouri united states, columbia, mo": null,
  "hulston hall room 4 hulston hall columbia mo 65211 united states, columbia, mo": null,
  "hybrid, columbia, mo": null,
  "jefferson farm, columbia, mo": null,
@@ -561,6 +563,11 @@
  "mizzourec studio b 3rd floor 1000 rollins st columbia miss 65211 united states, columbia, mo": null,
  "mizzourec studio c 3rd floor 1000 rollins st columbia miss 65211 united states, columbia, mo": null,
  "monsanto auditorium bond life sciences center university of missouri columbia missouri united states, columbia, mo": null,
+ "murry’s restaurant, columbia, mo": {
+  "lat": 38.9172589,
+  "lng": -92.3373668,
+  "name": "Murry's"
+ },
  "n201 and n214 memorial union university of missouri columbia missouri united states, columbia, mo": null,
  "n201 memorial union university of missouri columbia missouri united states, columbia, mo": null,
  "n52 memorial union  university of missouri columbia missouri united states, columbia, mo": null,
