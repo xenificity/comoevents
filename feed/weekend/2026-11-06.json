@@ -144,7 +144,6 @@
    "description": "Stop by to snag a FREE mini bundt cake and learn about exciting opportunities to get involved on campus! Whether you’re looking to try something new, meet people, or find your next campus adventure, swing by and see what’s waiting for you. Find us at The Info tables in the MUSC from 11am-1pm.",
    "end": "2026-11-06T13:00:00-06:00",
    "id": "ba6fb2d89404776a",
-   "imageUrl": "https://comoevent.com/img/gen/488f05afd5f592.webp",
    "source": "engage",
    "start": "2026-11-06T11:00:00-06:00",
    "title": "Bundt Cakes and Buddies",
@@ -279,7 +278,6 @@
    "description": "Visit our computer lab to enhance your technology skills. Library trainers can help you with the basic functions of your Windows, Chrome, Android or Apple laptop or device. You can also use self-paced tutorials to work on keyboarding skills. Staff are unable to troubleshoot or repair malfunctioning ",
    "end": "2026-11-06T15:30:00-06:00",
    "id": "c9c60318629019f2",
-   "imageUrl": "https://comoevent.com/img/gen/5293fdbcd054d6.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-11-06T14:00:00-06:00",
@@ -294,7 +292,6 @@
    "category": "community",
    "description": "Build a 40-card deck from six Star Trek Play Boosters, then compete in Swiss rounds. Each kit includes six boosters, a promo, and a Spindown.",
    "id": "cc69e92aef968692",
-   "imageUrl": "https://comoevent.com/img/gen/40e9f1064ef3d0.webp",
    "source": "baselocal",
    "start": "2026-11-06T15:00:00-06:00",
    "title": "MAGIC: Star Trek 1v1 Earlybird Prerelease",
@@ -308,7 +305,6 @@
    "category": "campus",
    "end": "2026-11-06T15:30:00-06:00",
    "id": "5a009e5127d55718",
-   "imageUrl": "https://comoevent.com/img/gen/1545725592fcc9.webp",
    "source": "mizzou",
    "start": "2026-11-06T15:00:00-06:00",
    "title": "Study Abroad Info Session: Spanish Language and Andean Society",
@@ -342,7 +338,7 @@
    "title": "Coco at Lakeside Ashaland"
   },
   {
-   "_slug": "the-munchbox-056fc3",
+   "_slug": "cancelled-due-to-weather-the-munchbox-056fc3",
    "categories": [
     "food"
    ],
@@ -350,10 +346,10 @@
    "description": "@ Get a taste of some Munch with a Punch! Serving a variety of food including sandwiches, tacos and more. The Munch Box keeps their menu and their food nice and fresh! Come see what all the munch is about!",
    "end": "2026-11-06T20:00:00-06:00",
    "id": "056fc3450f77ed7d",
-   "imageUrl": "https://comoevent.com/img/gen/9f71f037561dce.webp",
+   "imageUrl": "https://comoevent.com/img/gen/3ee2923aeae4bd.webp",
    "source": "cooperslanding",
    "start": "2026-11-06T16:30:00-06:00",
-   "title": "The Munchbox",
+   "title": "CANCELLED DUE TO WEATHER: The Munchbox",
    "venue": "Cooper's Landing"
   },
   {
@@ -401,21 +397,6 @@
    "venue": "Serendipity Polish Pottery & Gallery, 1020 E. Walnut St., Ste. 100, Columbia, MO, United States, Missouri 65201"
   },
   {
-   "_slug": "back-water-bcb562",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "@ Back Water will be serving up a lively mix of folk fusion and riverbillie jams you won’t want to miss. https://www.facebook.com/profile.php?id=100088906775144",
-   "end": "2026-11-06T21:00:00-06:00",
-   "id": "bcb5624dcef7014b",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2024/10/Back-Water.jpg",
-   "source": "cooperslanding",
-   "start": "2026-11-06T18:00:00-06:00",
-   "title": "Back Water",
-   "venue": "Cooper's Landing"
-  },
-  {
    "_slug": "bookdrive-pop-up-dbd238",
    "alsoOn": [
     "https://allevents.in/columbia/bookdrive-pop-up-at-serendipity-salon-and-gallery/200030840933605"
@@ -435,11 +416,26 @@
    "venue": "Serendipity Salon and Gallery"
   },
   {
+   "_slug": "cancelled-due-to-weather-back-water-bcb562",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "@ Unfortunately this show is cancelled due to the chilly weather. See you next time! Back Water will be serving up a lively mix of folk fusion and riverbillie jams you won’t want to miss. https://www.facebook.com/profile.php?id=100088906775144",
+   "end": "2026-11-06T21:00:00-06:00",
+   "id": "bcb5624dcef7014b",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2024/10/Back-Water.jpg",
+   "source": "cooperslanding",
+   "start": "2026-11-06T18:00:00-06:00",
+   "title": "CANCELLED DUE TO WEATHER: Back Water",
+   "venue": "Cooper's Landing"
+  },
+  {
    "_slug": "first-friday-at-serendipity-7102fd",
    "alsoOn": [
-    "https://northvillageartsdistrict.org/first-fridays/",
     "https://baselocal.com/mo/columbia/events/#first-friday-marketplace",
-    "https://allevents.in/columbia/first-friday-marketplace/200030369845436"
+    "https://allevents.in/columbia/first-friday-marketplace/200030369845436",
+    "https://northvillageartsdistrict.org/first-fridays/"
    ],
    "categories": [
     "arts",
@@ -892,6 +888,32 @@
    "venue": "Columbia Public Library, First Floor"
   },
   {
+   "_slug": "mu-vs-texas-tailgate-all-you-can-eat-buffet-raffle-drink-spe-a7f16c",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "a7f16c37d445382f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9jNGEyYzk3NzQ3NmQ2ZWRkZDAyNjcyNGQyNTc5MDhhMmFhMDhlNzQ1YTk1OGEwMjY5OWZlNmRiNDVhYmFkNzhiLXJpbWctdzEyMDAtaDYwMC1kY2Y4ZDg1OC1nbWlyLmpwZz92PTE3OTM3ODQyNjE.avif",
+   "source": "allevents",
+   "start": "2026-11-07T10:00:00-06:00",
+   "title": "MU vs Texas Tailgate | All You Can Eat Buffet, Raffle, Drink Specials",
+   "venue": "The Kitchen Grill and Games"
+  },
+  {
+   "_slug": "toys-for-tots-craft-event-92ebc7",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "92ebc782ca9ccf35",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy80ZGNiNTY5ZWU5YmVkM2Y4NGNhODRhZTE0MGY4M2Q0N2M3YzhkMWM3NjRkMjgwZGIxNDYyNzNkN2VjM2I0NzhjLXJpbWctdzEyMDAtaDEyMDAtZGNmOGY4ZjgtZ21pcj92PTE3OTM5NDIxOTg.avif",
+   "source": "allevents",
+   "start": "2026-11-07T10:00:00-06:00",
+   "title": "Toys for Tots Craft Event",
+   "venue": "Legion Field Columbia Missouri"
+  },
+  {
    "_slug": "open-climb-166327",
    "categories": [
     "community"
@@ -928,8 +950,8 @@
   {
    "_slug": "mizzou-football-vs-texas-c426be",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927",
-    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas"
+    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas",
+    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927"
    ],
    "categories": [
     "sports"
@@ -1322,19 +1344,6 @@
    "venue": "The Blue Note"
   },
   {
-   "_slug": "mu-vs-texas-tailgate-all-you-can-eat-buffet-raffle-drink-spe-a7f16c",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "a7f16c37d445382f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9jNGEyYzk3NzQ3NmQ2ZWRkZDAyNjcyNGQyNTc5MDhhMmFhMDhlNzQ1YTk1OGEwMjY5OWZlNmRiNDVhYmFkNzhiLXJpbWctdzEyMDAtaDYwMC1kY2Y4ZDg1OC1nbWlyLmpwZz92PTE3OTM3ODQyNjE.avif",
-   "source": "allevents",
-   "start": "2026-11-07T19:00:00-06:00",
-   "title": "MU vs Texas Tailgate | All You Can Eat Buffet, Raffle, Drink Specials",
-   "venue": "The Kitchen Grill and Games"
-  },
-  {
    "_slug": "rewind-the-curtain-broadway-now-then-0d9300",
    "categories": [
     "campus",
@@ -1615,6 +1624,18 @@
    "venue": "Bricks & Minifigs Columbia"
   },
   {
+   "_slug": "walk-up-book-sale-everything-1-7bb6b1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "7bb6b16e9014a9a2",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9jNzZkOWJmZDBkZjFkZmRhYWI3NzdhOTk4NTVmYmNlOTE3ZDM2YTdmMGY1ZTk1OWZhMzI2ZjNhYzdiZTI5OTY5LXJpbWctdzEyMDAtaDkwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mzk4NTcxNg.avif",
+   "source": "allevents",
+   "start": "2026-11-08T11:30:00-06:00",
+   "title": "Walk Up Book Sale - Everything $1"
+  },
+  {
    "_slug": "billy-hinsons-old-school-bbq-f66e5a",
    "categories": [
     "food"
@@ -1813,9 +1834,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
     "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
-    "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm"
+    "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003"
    ],
    "categories": [
     "sports",
@@ -2027,8 +2048,8 @@
   {
    "_slug": "nurse-blake-but-did-you-die-comedy-tour-64a5e2",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die",
-    "https://calendar.missouri.edu/missouri-theatre/event/16271-nurse-blake-but-did-you-die-tour"
+    "https://calendar.missouri.edu/missouri-theatre/event/16271-nurse-blake-but-did-you-die-tour",
+    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die"
    ],
    "categories": [
     "music",
