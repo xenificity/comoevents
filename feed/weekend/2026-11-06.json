@@ -150,9 +150,9 @@
   {
    "_slug": "mizine-5eb1ad",
    "alsoOn": [
-    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403",
+    "https://engage.missouri.edu/rsvp?id=453403",
     "https://calendar.missouri.edu/event/21268-mizine",
-    "https://engage.missouri.edu/rsvp?id=453403"
+    "https://engage.missouri.edu/RisoRoom/rsvp?id=453403"
    ],
    "categories": [
     "arts",
@@ -195,6 +195,18 @@
    "start": "2026-11-06T11:00:00-06:00",
    "title": "Study Abroad Walk-in Advising",
    "venue": "Memorial Student Union"
+  },
+  {
+   "_slug": "live-comedy-the-tokyo-club-the-stl-comedy-assault-533862",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "5338620d0179daf6",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9iMzNlM2VhMTM2MzJiYWVmN2JmYTlmMDY4YWFiYTM3ZjcwMGQ0NTBlYzcxMWE5ODk0NmFmN2Q4NzFhZGQ1Nzg5LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mzk0MjE5NQ.avif",
+   "source": "allevents",
+   "start": "2026-11-06T12:00:00-06:00",
+   "title": "Live Comedy - The Tokyo Club - The STL COMEDY ASSAULT"
   },
   {
    "_slug": "wild-horse-nine-c92429",
@@ -414,9 +426,9 @@
   {
    "_slug": "first-friday-at-serendipity-4b2157",
    "alsoOn": [
-    "https://northvillageartsdistrict.org/first-fridays/",
+    "https://allevents.in/columbia/first-friday-at-serendipity/200030865981009",
     "https://baselocal.com/mo/columbia/events/#first-friday-marketplace",
-    "https://allevents.in/columbia/first-friday-at-serendipity/200030865981009"
+    "https://northvillageartsdistrict.org/first-fridays/"
    ],
    "categories": [
     "arts",
@@ -463,18 +475,6 @@
    "start": "2026-11-06T18:00:00-06:00",
    "title": "MAGIC: Friday Night Commander",
    "venue": "Hexagon Alley"
-  },
-  {
-   "_slug": "tiny-flea-80bb78",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "80bb7861102b547a",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yZDI1NmI3ODI2ODk4MzQ2MDM4NTQwM2NlYzU0ZTA5ZDMzMTJhNTBlMWIxZTYyZjViYjhjZmNjOTlkMjNlMzA4LXJpbWctdzEyMDAtaDY3Ni1kYzA4MzgyOC1nbWlyP3Y9MTc5MzYxMzMyNA.avif",
-   "source": "allevents",
-   "start": "2026-11-06T18:00:00-06:00",
-   "title": "Tiny Flea"
   },
   {
    "_slug": "lakshmi-sahasranama-and-kumkuma-archana-94d79a",
@@ -569,9 +569,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-7-pm-3c0b59",
    "alsoOn": [
+    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452002",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/",
-    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas"
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/"
    ],
    "categories": [
     "sports",
@@ -735,6 +735,18 @@
    "venue": "The Blue Note"
   },
   {
+   "_slug": "tiny-flea-80bb78",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "80bb7861102b547a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yZDI1NmI3ODI2ODk4MzQ2MDM4NTQwM2NlYzU0ZTA5ZDMzMTJhNTBlMWIxZTYyZjViYjhjZmNjOTlkMjNlMzA4LXJpbWctdzEyMDAtaDY3Ni1kYzA4MzgyOC1nbWlyP3Y9MTc5MzYxMzMyNA.avif",
+   "source": "allevents",
+   "start": "2026-11-06T20:00:00-06:00",
+   "title": "Tiny Flea"
+  },
+  {
    "_slug": "you-can-see-everything-13bf42",
    "categories": [
     "arts"
@@ -750,6 +762,18 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "mtg-star-trek-prerelease-weekend-28c0f1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "28c0f1726e08e78a",
+   "imageUrl": "https://comoevent.com/img/gen/c053d73b0103f8.webp",
+   "source": "allevents",
+   "start": "2026-11-06T20:45:00-06:00",
+   "title": "MTG Star Trek Prerelease Weekend"
+  },
+  {
    "_slug": "friday-night-comedy-at-the-tokyo-club-a57d85",
    "categories": [
     "arts"
@@ -763,19 +787,6 @@
    "start": "2026-11-06T21:00:00-06:00",
    "title": "Friday Night Comedy at The Tokyo Club",
    "venue": "The Arcade District"
-  },
-  {
-   "_slug": "missouri-tigers-womens-volleyball-vs-texas-longhorns-womens-2af25e",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "2af25ead412e2fd0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMWI5ZDEzYzZkMzk0YjQ5YmM5Y2MyNmYwZjZlZjYzMDdmYzMyOWQ2NTgwNjE1NzQ0YjJmYmVlYjFiOGIwNzYxMy1yaW1nLXcxMDI0LWg1NzYtZGM3ODI5MWUtZ21pci5qcGc_dj0xNzgwMjI3MDc4.avif",
-   "source": "allevents",
-   "start": "2026-11-06T21:00:00-06:00",
-   "title": "Missouri Tigers Womens Volleyball vs. Texas Longhorns Womens Volleyball",
-   "venue": "Hearnes Center"
   },
   {
    "_slug": "wicker-9438e9",
@@ -851,13 +862,13 @@
    "venue": "Columbia's Agriculture Park, 1769 W Ash Street"
   },
   {
-   "_slug": "coffee-conversation-a-weekly-chat-5fdfc4",
+   "_slug": "coffee-conversation-a-weekly-chat-25c1ee",
    "categories": [
     "food"
    ],
    "category": "food",
-   "id": "5fdfc4271c59adc2",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMWUwMjJhYTg0NmQyZGFkMGYwYTk0NGZlODQ4ZWE2ODE1OTYxY2U2NzQ3MjhmMjU0NjA2MTlhNjYzZjk5MGMwYy1yaW1nLXc4MjAtaDMxMi1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mzc1Mjk1NQ.avif",
+   "id": "25c1ee4bfc6b6a2a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy85YmViMTQ0YjMxNTk5ZTE0ZjViMmU1N2I1YmIzOTczNTFjODQ3Nzg1ZTBkMWVmMDM0MTJlZDBjZjFmOTA3NTMzLXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkzNzUyOTQw.avif",
    "source": "allevents",
    "start": "2026-11-07T10:00:00-06:00",
    "title": "Coffee & Conversation - A Weekly Chat"
@@ -896,6 +907,19 @@
    "start": "2026-11-07T10:00:00-06:00",
    "title": "Local Authors Open House",
    "venue": "Columbia Public Library, First Floor"
+  },
+  {
+   "_slug": "toys-for-tots-craft-event-92ebc7",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "92ebc782ca9ccf35",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy80ZGNiNTY5ZWU5YmVkM2Y4NGNhODRhZTE0MGY4M2Q0N2M3YzhkMWM3NjRkMjgwZGIxNDYyNzNkN2VjM2I0NzhjLXJpbWctdzEyMDAtaDEyMDAtZGNmOGY4ZjgtZ21pcj92PTE3OTM5NDIxOTg.avif",
+   "source": "allevents",
+   "start": "2026-11-07T10:00:00-06:00",
+   "title": "Toys for Tots Craft Event",
+   "venue": "Legion Field Columbia Missouri"
   },
   {
    "_slug": "open-climb-166327",
@@ -948,18 +972,6 @@
    "start": "2026-11-07T11:00:00-06:00",
    "title": "Mizzou Football vs. Texas",
    "venue": "Champions Drive"
-  },
-  {
-   "_slug": "season-of-wellness-health-resource-fair-c5c0e5",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "c5c0e56aac17d1e5",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy84OGY1NDU1OWE2OWZlYjRhZjZlNDlhYjEzNzc0ZWI0NTNjYjdiNmI0NjgyYTVjODVmZjlhOWI5ZWRiYTNlMmI5LXJpbWctdzEyMDAtaDY3NS1kYzU4NTg2OC1nbWlyP3Y9MTc5Mzc1Mjk0MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-07T11:00:00-06:00",
-   "title": "Season of Wellness Health Resource Fair"
   },
   {
    "_slug": "single-awareness-dinner-columbia-foodies-new-friends-1301d3",
@@ -1178,18 +1190,6 @@
    "venue": "Museum Of Art And Archaeology"
   },
   {
-   "_slug": "crafternoon-ladybird-craft-cafe-6baae0",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "6baae0d36a638d68",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80ZjFlZjU1MGM4ZjEyZmU2ODI5NzE0NGM5Njc0NjI1NTYzMDE4YmM2YTdlZjNkODVlYWI1ZGM4OTUzOGUwNDM0LXJpbWctdzEyMDAtaDY3Ni1kY2Y4ZDg1OC1nbWlyP3Y9MTc5MzYwMjU3OQ.avif",
-   "source": "allevents",
-   "start": "2026-11-07T15:00:00-06:00",
-   "title": "Crafternoon @ Ladybird Craft Cafe!"
-  },
-  {
    "_slug": "r-b-night-friendsgiving-edition-columbia-mo-85910f",
    "categories": [
     "community"
@@ -1230,18 +1230,6 @@
    "start": "2026-11-07T16:45:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "open-climb-on-the-indoor-climbing-wall-8fae64",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "8fae64949204d363",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy83NDc4OGM3MTM4YzAyMjNmODY0MzliNzRiNjgzMmUxNzE4NTJhYTk1MWZmNzNjZDkyN2Y3YjgxMTFlYzhiZmY5LXJpbWctdzEyMDAtaDYwMC1kY2U4MzgzOC1nbWlyP3Y9MTc5MjExNjQyMA.avif",
-   "source": "allevents",
-   "start": "2026-11-07T17:00:00-06:00",
-   "title": "Open Climb on the Indoor Climbing Wall"
   },
   {
    "_slug": "3221-9a1af9",
@@ -1313,19 +1301,33 @@
    "title": "Winter Market Kickoff"
   },
   {
-   "_slug": "emo-royale-vii-67a74f",
+   "_slug": "season-of-wellness-health-resource-fair-c5c0e5",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "c5c0e56aac17d1e5",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy84OGY1NDU1OWE2OWZlYjRhZjZlNDlhYjEzNzc0ZWI0NTNjYjdiNmI0NjgyYTVjODVmZjlhOWI5ZWRiYTNlMmI5LXJpbWctdzEyMDAtaDY3NS1kYzU4NTg2OC1nbWlyP3Y9MTc5Mzc1Mjk0MQ.avif",
+   "source": "allevents",
+   "start": "2026-11-07T18:30:00-06:00",
+   "title": "Season of Wellness Health Resource Fair"
+  },
+  {
+   "_slug": "emo-royale-7937a4",
+   "alsoOn": [
+    "https://thebluenote.com/event/emo-royale/"
+   ],
    "categories": [
     "music"
    ],
    "category": "music",
    "description": "Club 90s Presents · with Scout Speer",
-   "id": "67a74f662ff10463",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Southall-TBN-Web.jpg",
-   "source": "bluenote",
+   "id": "7937a4dd393dc582",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy82MjM5MDdiZDkwNDFmMTJjYTcyMTZkN2RmNTlmZTVkYjI4NGZiZjczMzBkMzkzNTQzNGJkZGU4M2RlZTVjNTc3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODkwMDE5NDY.avif",
+   "source": "allevents",
    "start": "2026-11-07T19:00:00-06:00",
    "ticketUrl": "https://www.ticketmaster.com/emo-royale-columbia-missouri-11-07-2026/event/06006521CAF1E0A7",
-   "timeTBD": true,
-   "title": "Emo Royale VII",
+   "title": "Emo Royale",
    "venue": "The Blue Note"
   },
   {
@@ -1493,19 +1495,6 @@
    "venue": "Rose Music Hall"
   },
   {
-   "_slug": "emo-royale-7937a4",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "7937a4dd393dc582",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy82MjM5MDdiZDkwNDFmMTJjYTcyMTZkN2RmNTlmZTVkYjI4NGZiZjczMzBkMzkzNTQzNGJkZGU4M2RlZTVjNTc3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODkwMDE5NDY.avif",
-   "source": "allevents",
-   "start": "2026-11-07T20:00:00-06:00",
-   "title": "Emo Royale",
-   "venue": "The Blue Note"
-  },
-  {
    "_slug": "wild-horse-nine-d2c990",
    "categories": [
     "arts"
@@ -1564,6 +1553,18 @@
    "venue": "St.Louis Mo"
   },
   {
+   "_slug": "yoga-with-cats-at-bertha-s-beans-cat-cafe-578cf1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "578cf1bc1a2c71f8",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy81OTQ2NWQ5ZThlNmEyYjcyOTNlZWI4MDQ1YmE1YmE5MTNkYTA3ZjQxMzY3NjI2MDI2ZDU4NjU4NWQ0MTliODNhLXJpbWctdzEyMDAtaDkwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mzk0MjIwMw.avif",
+   "source": "allevents",
+   "start": "2026-11-08T09:00:00-06:00",
+   "title": "Yoga With Cats at Bertha's Beans Cat Cafe"
+  },
+  {
    "_slug": "arts-autumnal-third-annual-west-ash-neighborhood-art-festiva-f2a6de",
    "categories": [
     "arts"
@@ -1572,8 +1573,20 @@
    "id": "f2a6de2198cd04f1",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wZmNlN2VkZDcxYzg1Njk5N2ZlMjg5MzUwMzJmYThhY2MwMjI5NGVhYjBkN2FhMTA0YjYzNTkwZGY3OTVkYThlLXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyP3Y9MTc4NzUxOTE3Mw.avif",
    "source": "allevents",
-   "start": "2026-11-08T09:00:00-06:00",
+   "start": "2026-11-08T10:00:00-06:00",
    "title": "Arts, Autumnal - Third annual West Ash Neighborhood Art Festival"
+  },
+  {
+   "_slug": "mizzoumade-holiday-market-bad902",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "bad902898627e602",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy85NDYwODdkMGNiYzZmMjRmODY1NTJiNmUxMTg5YWM4NzhiMDY2NDkzZjEyMTgzMzUwYjc4YTk5MjVhZjIzNDAwLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhkOC1nbWlyP3Y9MTc5MTMxNzQwMg.avif",
+   "source": "allevents",
+   "start": "2026-11-08T10:00:00-06:00",
+   "title": "MIZZOUMADE Holiday Market"
   },
   {
    "_slug": "merry-maplewood-a-festive-holiday-celebration-at-historic-ma-a9d48a",
@@ -1589,6 +1602,18 @@
    "start": "2026-11-08T11:00:00-06:00",
    "title": "Merry Maplewood: A Festive Holiday Celebration at Historic Maplewood House",
    "venue": "Historic Maplewood House"
+  },
+  {
+   "_slug": "tending-the-roots-5-tending-the-unseen-39e685",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "39e685f3e4883877",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xN2Y3MzM3ZTk5MWI0N2NjNDkyYjI2ZjNhNTYyYjZmODIwNDk4NWM4ZGM1YjZkN2FlODIzMmE5YmY2NDY0MzBiLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5Mzk0MjE5NA.avif",
+   "source": "allevents",
+   "start": "2026-11-08T11:00:00-06:00",
+   "title": "Tending the Roots 5: Tending the Unseen"
   },
   {
    "_slug": "kids-yoga-at-bricks-and-mini-figs-with-sarah-s-yoga-studio-8b54fd",
@@ -1797,9 +1822,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
     "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003"
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
    ],
    "categories": [
     "sports",
@@ -1968,6 +1993,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "the-soul-the-scientific-method-free-event-50e8b6",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "50e8b6c06a153938",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wYjIxZjdjNzg1NDlmMWI1ZGNmZGExNzczMjc1NzFiNTE4MDY4ODdhM2Q4NTViMTIwOTE5YTUwZmY4ZmYwOWZjLXJpbWctdzEyMDAtaDYwMC1kY2U4ZDhhOC1nbWlyLmpwZz92PTE3OTE4Mjk4NzA.avif",
+   "source": "allevents",
+   "start": "2026-11-08T18:00:00-06:00",
+   "title": "The Soul & The Scientific Method (Free Event)",
+   "venue": "Natural Nail Care Salon"
+  },
+  {
    "_slug": "mu-tuba-and-euphonium-ensemble-recital-0f1579",
    "categories": [
     "campus"
@@ -2044,18 +2082,6 @@
    "venue": "Hearnes Center"
   },
   {
-   "_slug": "mizzoumade-holiday-market-bad902",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "id": "bad902898627e602",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy85NDYwODdkMGNiYzZmMjRmODY1NTJiNmUxMTg5YWM4NzhiMDY2NDkzZjEyMTgzMzUwYjc4YTk5MjVhZjIzNDAwLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhkOC1nbWlyP3Y9MTc5MTMxNzQwMg.avif",
-   "source": "allevents",
-   "start": "2026-11-08T20:00:00-06:00",
-   "title": "MIZZOUMADE Holiday Market"
-  },
-  {
    "_slug": "wicker-c6e4d2",
    "categories": [
     "arts"
@@ -2069,32 +2095,19 @@
    "start": "2026-11-08T20:40:00-06:00",
    "title": "Wicker",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "the-soul-the-scientific-method-free-event-50e8b6",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "50e8b6c06a153938",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wYjIxZjdjNzg1NDlmMWI1ZGNmZGExNzczMjc1NzFiNTE4MDY4ODdhM2Q4NTViMTIwOTE5YTUwZmY4ZmYwOWZjLXJpbWctdzEyMDAtaDYwMC1kY2U4ZDhhOC1nbWlyLmpwZz92PTE3OTE4Mjk4NzA.avif",
-   "source": "allevents",
-   "start": "2026-11-08T20:45:00-06:00",
-   "title": "The Soul & The Scientific Method (Free Event)",
-   "venue": "Natural Nail Care Salon"
   }
  ],
  "friday": "2026-11-06",
- "modified": "2026-11-05",
+ "modified": "2026-11-06",
  "picks": [
   "4b2157d212e23abc",
   "c8db621e22518e28",
-  "236bb060f8b95037",
   "3c0b59735fcc15c4",
   "44a943854d89184d",
   "5f2e2cff64a69392",
   "459eb79409a786bb",
   "c426be1aa6bd900c",
+  "7937a4dd393dc582",
   "f64117160b4c0060",
   "64a5e21351dd7342"
  ],
