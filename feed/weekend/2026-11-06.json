@@ -16,6 +16,19 @@
    "venue": "Columbia Misourri"
   },
   {
+   "_slug": "black-gold-friday-047ac0",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Show your Mizzou pride wherever you go by wearing black and gold. This Friday, let everyone know who you represent and get 25% off at The Mizzou Store. Shop in person or online.",
+   "id": "047ac073e65c880c",
+   "source": "baselocal",
+   "start": "2026-11-06T08:30:00-06:00",
+   "title": "Black & Gold Friday",
+   "venue": "The Mizzou Store"
+  },
+  {
    "_slug": "black-gold-friday-dc4681",
    "alsoOn": [
     "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
@@ -170,6 +183,24 @@
    "venue": "Memorial Student Union - Stotler Lounge"
   },
   {
+   "_slug": "mizine-361f36",
+   "alsoOn": [
+    "https://engage.missouri.edu/rsvp?id=453403"
+   ],
+   "categories": [
+    "arts",
+    "campus"
+   ],
+   "category": "arts",
+   "description": "MIZine is a student-centered zine fair organized by Riso Room Org, celebrating independent publishing and artist-made work. Featuring zines, small books, posters, prints, and other creative publications, the fair brings together makers and readers to share work, exchange ideas, and celebrate student",
+   "end": "2026-11-06T17:00:00-06:00",
+   "id": "361f36105b87c38d",
+   "source": "engage",
+   "start": "2026-11-06T11:00:00-06:00",
+   "title": "MIZine",
+   "venue": "Memorial Student Union - Stotler Lounge"
+  },
+  {
    "_slug": "orin-ethics-symposium-bc620d",
    "categories": [
     "campus"
@@ -233,7 +264,6 @@
    "description": "On board, you'll find books, music, DVDs and other services for all ages. You can browse several thousand titles or pick up items you've requested online or over the phone.",
    "end": "2026-11-06T18:00:00-06:00",
    "id": "02e4f13df9d902cd",
-   "imageUrl": "https://comoevent.com/img/gen/b663d2557f0779.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-11-06T13:30:00-06:00",
@@ -362,7 +392,6 @@
    "description": "Come play social deduction games with us, this time chosen by the exec board!",
    "end": "2026-11-06T19:00:00-06:00",
    "id": "364fdd9f70ea43ea",
-   "imageUrl": "https://comoevent.com/img/gen/04dfc18d76b75b.webp",
    "source": "engage",
    "start": "2026-11-06T17:00:00-06:00",
    "title": "WHODUNNIT? Weekly Game Night",
@@ -397,6 +426,22 @@
    "venue": "Serendipity Polish Pottery & Gallery, 1020 E. Walnut St., Ste. 100, Columbia, MO, United States, Missouri 65201"
   },
   {
+   "_slug": "bookdrive-pop-up-3c2ec0",
+   "categories": [
+    "arts",
+    "food"
+   ],
+   "category": "arts",
+   "description": "BookDrive pops up at Serendipity Salon & Gallery during the First Friday market, offering a small, curated selection of books chosen with intention. Visitors can browse the collection, explore the gallery, and take in the work of local artists and creators throughout the space.",
+   "end": "2026-11-06T21:00:00-06:00",
+   "id": "3c2ec0a2b4c7ce98",
+   "imageUrl": "https://comoevent.com/img/gen/5df7aa0c467705.webp",
+   "source": "baselocal",
+   "start": "2026-11-06T18:00:00-06:00",
+   "title": "BookDrive Pop Up",
+   "venue": "Serendipity Salon and Gallery"
+  },
+  {
    "_slug": "bookdrive-pop-up-dbd238",
    "alsoOn": [
     "https://allevents.in/columbia/bookdrive-pop-up-at-serendipity-salon-and-gallery/200030840933605"
@@ -429,6 +474,28 @@
    "start": "2026-11-06T18:00:00-06:00",
    "title": "CANCELLED DUE TO WEATHER: Back Water",
    "venue": "Cooper's Landing"
+  },
+  {
+   "_slug": "first-friday-at-serendipity-674353",
+   "alsoOn": [
+    "https://northvillageartsdistrict.org/first-fridays/",
+    "https://baselocal.com/mo/columbia/events/#first-friday-marketplace"
+   ],
+   "categories": [
+    "arts",
+    "family",
+    "music"
+   ],
+   "category": "arts",
+   "description": "Explore a new gallery exhibit featuring “Birds in CoMo,” vibrant, light-hearted paintings by Jeff Kapfer that draw on his graphic design background and lifelong interest in birds. The patio will feature returning and new special guests, roasted chestnuts, and allergen-free baked goods. Browse newly…",
+   "end": "2026-11-06T21:00:00-06:00",
+   "id": "6743536babd10dda",
+   "imageUrl": "https://comoevent.com/img/gen/36f3d23f72aada.webp",
+   "price": "Free",
+   "source": "baselocal",
+   "start": "2026-11-06T18:00:00-06:00",
+   "title": "First Friday at Serendipity!",
+   "venue": "Serendipity Polish Pottery & Gallery"
   },
   {
    "_slug": "first-friday-at-serendipity-7102fd",
@@ -506,7 +573,6 @@
    "description": "At Shanthi Mandir, the Hindu Temple and Community Center of Mid-Missouri. Everyone is welcome; regular poojas are led by volunteers and can be sponsored. Details: shanthimandir.missouri.org",
    "end": "2026-11-06T19:30:00-06:00",
    "id": "94d79a1d22bcb7b5",
-   "imageUrl": "https://comoevent.com/img/gen/b3496d30abf892.webp",
    "source": "shanthimandir",
    "start": "2026-11-06T18:30:00-06:00",
    "title": "Lakshmi Sahasranama and Kumkuma Archana",
@@ -577,8 +643,8 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-7-pm-3c0b59",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/",
-    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas"
+    "https://calendar.missouri.edu/athletics/event/19994-volleyball-missouri-vs-texas",
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas/"
    ],
    "categories": [
     "sports",
@@ -681,6 +747,20 @@
    "venue": "Rhynsburger Theatre"
   },
   {
+   "_slug": "little-women-the-musical-49ecfd",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Based on Louisa May Alcott’s beloved novel, see the story of the March sisters come to life on stage. Take a break from screens and travel bac…",
+   "id": "49ecfd20456b9450",
+   "price": "$23; $18 groups of eight or more; $15 undergraduate…",
+   "source": "vox",
+   "start": "2026-11-06T19:30:00-06:00",
+   "title": "Little Women: The Musical",
+   "venue": "Rhynsburger Theatre"
+  },
+  {
    "_slug": "smilin-jack-happy-hour-cafe-berlin-5f2e2c",
    "categories": [
     "nightlife"
@@ -749,18 +829,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "mtg-star-trek-prerelease-weekend-28c0f1",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "28c0f1726e08e78a",
-   "imageUrl": "https://comoevent.com/img/gen/c053d73b0103f8.webp",
-   "source": "allevents",
-   "start": "2026-11-06T20:45:00-06:00",
-   "title": "MTG Star Trek Prerelease Weekend"
-  },
-  {
    "_slug": "friday-night-comedy-at-the-tokyo-club-a57d85",
    "categories": [
     "arts"
@@ -789,21 +857,6 @@
    "start": "2026-11-06T21:15:00-06:00",
    "title": "Wicker",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "myhouse-friday-11-6-night-459eb7",
-   "categories": [
-    "party"
-   ],
-   "category": "party",
-   "description": "Purchase a FastPass to skip the line! Ticket is a FastPass to skip the line; doors are usually around 10 PM.",
-   "id": "459eb79409a786bb",
-   "imageUrl": "https://comoevent.com/img/gen/p-f7d2079e2749ef.webp",
-   "source": "posh",
-   "start": "2026-11-06T22:00:00-06:00",
-   "ticketUrl": "https://posh.vip/e/fastpass-friday-116",
-   "title": "MyHouse Friday 11/6 Night",
-   "venue": "MyHouse"
   },
   {
    "_slug": "columbia-farmers-market-winter-season-214d63",
@@ -838,19 +891,6 @@
    "start": "2026-11-07T09:00:00-06:00",
    "title": "First Aid, CPR, and AED Certification Course",
    "venue": "Scouting Adventure Center"
-  },
-  {
-   "_slug": "pumpkin-smash-8d9189",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "8d9189456366a246",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8zZmE2NjRiODJlZjBiMGMzMjRkNGY1YTgwODdlMjY0MzVjMjU4NzhkOGJjYmY4MDFmMmM2MGNlNDg2ZmFkY2U2LXJpbWctdzEyMDAtaDY3Ni1kYzg4MjgzOC1nbWlyP3Y9MTc5Mjc4MDEwNA.avif",
-   "source": "allevents",
-   "start": "2026-11-07T09:00:00-06:00",
-   "title": "Pumpkin Smash!",
-   "venue": "Columbia's Agriculture Park, 1769 W Ash Street"
   },
   {
    "_slug": "health-insurance-marketplace-medicaid-open-enrollment-assist-4348ba",
@@ -901,17 +941,17 @@
    "venue": "The Kitchen Grill and Games"
   },
   {
-   "_slug": "toys-for-tots-craft-event-92ebc7",
+   "_slug": "pumpkin-smash-8d9189",
    "categories": [
-    "arts"
+    "family"
    ],
-   "category": "arts",
-   "id": "92ebc782ca9ccf35",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy80ZGNiNTY5ZWU5YmVkM2Y4NGNhODRhZTE0MGY4M2Q0N2M3YzhkMWM3NjRkMjgwZGIxNDYyNzNkN2VjM2I0NzhjLXJpbWctdzEyMDAtaDEyMDAtZGNmOGY4ZjgtZ21pcj92PTE3OTM5NDIxOTg.avif",
+   "category": "family",
+   "id": "8d9189456366a246",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8zZmE2NjRiODJlZjBiMGMzMjRkNGY1YTgwODdlMjY0MzVjMjU4NzhkOGJjYmY4MDFmMmM2MGNlNDg2ZmFkY2U2LXJpbWctdzEyMDAtaDY3Ni1kYzg4MjgzOC1nbWlyP3Y9MTc5Mjc4MDEwNA.avif",
    "source": "allevents",
    "start": "2026-11-07T10:00:00-06:00",
-   "title": "Toys for Tots Craft Event",
-   "venue": "Legion Field Columbia Missouri"
+   "title": "Pumpkin Smash!",
+   "venue": "Columbia's Agriculture Park, 1769 W Ash Street"
   },
   {
    "_slug": "open-climb-166327",
@@ -950,8 +990,8 @@
   {
    "_slug": "mizzou-football-vs-texas-c426be",
    "alsoOn": [
-    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas",
-    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927"
+    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927",
+    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas"
    ],
    "categories": [
     "sports"
@@ -992,19 +1032,6 @@
    "start": "2026-11-07T11:00:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "texas-takeover-texas-football-vs-missouri-rsvp-thru-idonate-5b598f",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "5b598f510db931dc",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xMTA4OTYyZGEwN2I5Mzg5YmQ2OGE3MjUyYzcxNTg5ZDgwZDc0OTk2MGFiM2ViZmRiOWZkMzU3NGMyY2JlYjM5LXJpbWctdzEyMDAtaDEzNTAtZGNmZmZmZmYtZ21pci5qcGc_dj0xNzgyMzY1NTk3.avif",
-   "source": "allevents",
-   "start": "2026-11-07T11:30:00-06:00",
-   "title": "Texas Takeover - Texas Football vs. Missouri (RSVP thru idonate link)",
-   "venue": "University of Missouri"
   },
   {
    "_slug": "you-can-see-everything-dd6ba6",
@@ -1294,19 +1321,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "wine-cheese-please-453d2c",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "id": "453d2c49dfa0176c",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8zZWRlMTI0YTQwZjM4MmMwMTExZDU2ODcyYTMzYmMyZjQzM2NiNjEzMGYxY2UxMmUyYTA5NWVlMDU2YTQ0NWM5LXJpbWctdzEyMDAtaDYzMC1kYzU4Nzg2OC1nbWlyP3Y9MTc5MTcwMjMxNQ.avif",
-   "source": "allevents",
-   "start": "2026-11-07T18:00:00-06:00",
-   "title": "Wine & Cheese, please!",
-   "venue": "Clovers Natural Market (2012 E Broadway, Columbia, MO)"
-  },
-  {
    "_slug": "winter-market-kickoff-e9650d",
    "categories": [
     "food"
@@ -1329,19 +1343,6 @@
    "source": "allevents",
    "start": "2026-11-07T18:30:00-06:00",
    "title": "Season of Wellness Health Resource Fair"
-  },
-  {
-   "_slug": "emo-royale-7937a4",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "7937a4dd393dc582",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy82MjM5MDdiZDkwNDFmMTJjYTcyMTZkN2RmNTlmZTVkYjI4NGZiZjczMzBkMzkzNTQzNGJkZGU4M2RlZTVjNTc3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODkwMDE5NDY.avif",
-   "source": "allevents",
-   "start": "2026-11-07T19:00:00-06:00",
-   "title": "Emo Royale",
-   "venue": "The Blue Note"
   },
   {
    "_slug": "rewind-the-curtain-broadway-now-then-0d9300",
@@ -1373,6 +1374,9 @@
   },
   {
    "_slug": "emo-royale-7-the-blue-note-c9c494",
+   "alsoOn": [
+    "https://allevents.in/columbia/emo-royale/210001227324947"
+   ],
    "categories": [
     "music"
    ],
@@ -1440,6 +1444,19 @@
    "ticketUrl": "https://www.eventbrite.com/e/live-stand-up-comedy-at-the-tokyo-club-njs-scott-kiggins-tickets-2003074878884",
    "title": "Live Stand-Up COMEDY at The Tokyo Club - N.J.'s Scott Kiggins!!!",
    "venue": "The Tokyo Club"
+  },
+  {
+   "_slug": "wine-cheese-please-453d2c",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "453d2c49dfa0176c",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8zZWRlMTI0YTQwZjM4MmMwMTExZDU2ODcyYTMzYmMyZjQzM2NiNjEzMGYxY2UxMmUyYTA5NWVlMDU2YTQ0NWM5LXJpbWctdzEyMDAtaDYzMC1kYzU4Nzg2OC1nbWlyP3Y9MTc5MTcwMjMxNQ.avif",
+   "source": "allevents",
+   "start": "2026-11-07T19:30:00-06:00",
+   "title": "Wine & Cheese, please!",
+   "venue": "Clovers Natural Market (2012 E Broadway, Columbia, MO)"
   },
   {
    "_slug": "you-can-see-everything-c06731",
@@ -1609,6 +1626,19 @@
    "source": "allevents",
    "start": "2026-11-08T11:00:00-06:00",
    "title": "Tending the Roots 5: Tending the Unseen"
+  },
+  {
+   "_slug": "the-soul-the-scientific-method-free-event-50e8b6",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "50e8b6c06a153938",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wYjIxZjdjNzg1NDlmMWI1ZGNmZGExNzczMjc1NzFiNTE4MDY4ODdhM2Q4NTViMTIwOTE5YTUwZmY4ZmYwOWZjLXJpbWctdzEyMDAtaDYwMC1kY2U4ZDhhOC1nbWlyLmpwZz92PTE3OTE4Mjk4NzA.avif",
+   "source": "allevents",
+   "start": "2026-11-08T11:00:00-06:00",
+   "title": "The Soul & The Scientific Method (Free Event)",
+   "venue": "Natural Nail Care Salon"
   },
   {
    "_slug": "kids-yoga-at-bricks-and-mini-figs-with-sarah-s-yoga-studio-8b54fd",
@@ -1795,6 +1825,18 @@
    "venue": "Sinquefield Music Center"
   },
   {
+   "_slug": "auditions-proof-by-david-auburn-a70e1b",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "a70e1b3f90dd8c68",
+   "imageUrl": "https://comoevent.com/img/gen/ef4de11d982321.webp",
+   "source": "allevents",
+   "start": "2026-11-08T14:00:00-06:00",
+   "title": "Auditions -- Proof by David Auburn"
+  },
+  {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-75f56b",
    "alsoOn": [
     "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
@@ -1835,8 +1877,8 @@
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
     "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
-    "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003"
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
+    "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm"
    ],
    "categories": [
     "sports",
@@ -1990,6 +2032,19 @@
    "venue": "Heart, Body, & Soul"
   },
   {
+   "_slug": "chamber-music-on-the-hill-4a316a",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "4a316ac8208f8dfc",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy83NDY5ZDE4ZDc5MWZiMmY3MGI1ZmYxNWQ5M2MwZmVjMWY2ZmNjM2VlYTMwZDU1MThlNjAxNTA0ZDcwMWM3MzM2LXJpbWctdzEyMDAtaDY4MC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mzk0MjIwMQ.avif",
+   "source": "allevents",
+   "start": "2026-11-08T17:30:00-06:00",
+   "title": "Chamber Music on the Hill",
+   "venue": "Naganna Forum, Roj Student Center"
+  },
+  {
    "_slug": "wild-horse-nine-472faa",
    "categories": [
     "arts"
@@ -2018,19 +2073,6 @@
    "venue": "The Kitchen Grill and Games"
   },
   {
-   "_slug": "the-soul-the-scientific-method-free-event-50e8b6",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "50e8b6c06a153938",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wYjIxZjdjNzg1NDlmMWI1ZGNmZGExNzczMjc1NzFiNTE4MDY4ODdhM2Q4NTViMTIwOTE5YTUwZmY4ZmYwOWZjLXJpbWctdzEyMDAtaDYwMC1kY2U4ZDhhOC1nbWlyLmpwZz92PTE3OTE4Mjk4NzA.avif",
-   "source": "allevents",
-   "start": "2026-11-08T18:00:00-06:00",
-   "title": "The Soul & The Scientific Method (Free Event)",
-   "venue": "Natural Nail Care Salon"
-  },
-  {
    "_slug": "mu-tuba-and-euphonium-ensemble-recital-0f1579",
    "categories": [
     "campus"
@@ -2048,8 +2090,8 @@
   {
    "_slug": "nurse-blake-but-did-you-die-comedy-tour-64a5e2",
    "alsoOn": [
-    "https://calendar.missouri.edu/missouri-theatre/event/16271-nurse-blake-but-did-you-die-tour",
-    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die"
+    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die",
+    "https://calendar.missouri.edu/missouri-theatre/event/16271-nurse-blake-but-did-you-die-tour"
    ],
    "categories": [
     "music",
@@ -2080,18 +2122,6 @@
    "start": "2026-11-08T19:15:00-06:00",
    "title": "You Can See Everything",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "auditions-proof-by-david-auburn-a70e1b",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "a70e1b3f90dd8c68",
-   "imageUrl": "https://comoevent.com/img/gen/ef4de11d982321.webp",
-   "source": "allevents",
-   "start": "2026-11-08T19:30:00-06:00",
-   "title": "Auditions -- Proof by David Auburn"
   },
   {
    "_slug": "missouri-tigers-womens-volleyball-vs-texas-a-m-aggies-womens-7983a3",

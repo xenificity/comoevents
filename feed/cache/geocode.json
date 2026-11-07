@@ -381,6 +381,7 @@
   "lng": -92.3479926,
   "name": "The Food Bank Market"
  },
+ "7650 mo-163, columbia, mo 65203 columbia, mo 65203": null,
  "805 fairview ave, columbia, mo": {
   "lat": 38.961517,
   "lng": -92.327104,
@@ -423,6 +424,7 @@
  "all mu housing residence halls and apartments, columbia, mo": null,
  "and n214 memorial union, columbia, mo": null,
  "and n214 memorial union, university of missouri, columbia, mo": null,
+ "anheuser-busch auditorium, columbia, mo": null,
  "arts amp science building room 113  university of missouri columbia missouri united states, columbia, mo": null,
  "arts and science, columbia, mo": {
   "lat": 38.9435496,
@@ -669,6 +671,12 @@
   "lat": 38.9436597,
   "lng": -92.3243424,
   "name": null
+ },
+ "university of concert series, columbia, mo": null,
+ "university of missouri, columbia, mo": {
+  "lat": 38.9364147,
+  "lng": -92.329703,
+  "name": "University of Missouri"
  },
  "varies, in person or online, columbia, mo": null,
  "various locations university of missouri columbia missouri united states, columbia, mo": null,
