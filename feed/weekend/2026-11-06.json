@@ -376,7 +376,6 @@
    "description": "@ Get a taste of some Munch with a Punch! Serving a variety of food including sandwiches, tacos and more. The Munch Box keeps their menu and their food nice and fresh! Come see what all the munch is about!",
    "end": "2026-11-06T20:00:00-06:00",
    "id": "056fc3450f77ed7d",
-   "imageUrl": "https://comoevent.com/img/gen/3ee2923aeae4bd.webp",
    "source": "cooperslanding",
    "start": "2026-11-06T16:30:00-06:00",
    "title": "CANCELLED DUE TO WEATHER: The Munchbox",
@@ -435,7 +434,6 @@
    "description": "BookDrive pops up at Serendipity Salon & Gallery during the First Friday market, offering a small, curated selection of books chosen with intention. Visitors can browse the collection, explore the gallery, and take in the work of local artists and creators throughout the space.",
    "end": "2026-11-06T21:00:00-06:00",
    "id": "3c2ec0a2b4c7ce98",
-   "imageUrl": "https://comoevent.com/img/gen/5df7aa0c467705.webp",
    "source": "baselocal",
    "start": "2026-11-06T18:00:00-06:00",
    "title": "BookDrive Pop Up",
@@ -490,7 +488,6 @@
    "description": "Explore a new gallery exhibit featuring “Birds in CoMo,” vibrant, light-hearted paintings by Jeff Kapfer that draw on his graphic design background and lifelong interest in birds. The patio will feature returning and new special guests, roasted chestnuts, and allergen-free baked goods. Browse newly…",
    "end": "2026-11-06T21:00:00-06:00",
    "id": "6743536babd10dda",
-   "imageUrl": "https://comoevent.com/img/gen/36f3d23f72aada.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-06T18:00:00-06:00",
@@ -544,7 +541,6 @@
    "description": "Play Magic: The Gathering in Commander pods suited to a range of experience levels. The event also features Pick 2 Draft pick-ups, monthly rotating Commander variants, and door prizes. Participants can use the MTG community Discord to coordinate with a group or see who else is attending.",
    "end": "2026-11-06T21:00:00-06:00",
    "id": "e708b8fcc47850af",
-   "imageUrl": "https://comoevent.com/img/gen/b946da70740467.webp",
    "source": "baselocal",
    "start": "2026-11-06T18:00:00-06:00",
    "title": "MAGIC: Friday Night Commander",
@@ -623,9 +619,6 @@
   },
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-a-saint-louis-comedia-c8db62",
-   "alsoOn": [
-    "https://thearcadedistrict.org/"
-   ],
    "categories": [
     "arts"
    ],
@@ -656,6 +649,22 @@
    "end": "2026-11-06T21:00:00-06:00",
    "id": "3c0b59735fcc15c4",
    "imageUrl": "https://comoevent.com/img/gen/febdb89275685d.webp",
+   "source": "engage",
+   "start": "2026-11-06T19:00:00-06:00",
+   "title": "Mizzou Volleyball vs. Texas - 7 PM",
+   "venue": "Hearnes Center"
+  },
+  {
+   "_slug": "mizzou-volleyball-vs-texas-7-pm-92c173",
+   "categories": [
+    "sports",
+    "nightlife",
+    "campus"
+   ],
+   "category": "sports",
+   "description": "Join us for Happy Hour // Wear Black as the Tigers take on Texas at 7 PM! Giveaway: Black Crewnecks",
+   "end": "2026-11-06T21:00:00-06:00",
+   "id": "92c1739382f09299",
    "source": "engage",
    "start": "2026-11-06T19:00:00-06:00",
    "title": "Mizzou Volleyball vs. Texas - 7 PM",
@@ -781,7 +790,6 @@
    "description": "Spend a relaxed evening at Ladybird Cafe with craft supplies available and music that changes from week to week, from indie and disco to house and synthpop. Enjoy crafting, dancing, shopping, having a drink, or simply hanging out. Drop in for a short visit or stay longer. There is no cover, and all…",
    "end": "2026-11-06T23:00:00-06:00",
    "id": "2b3596efcad32e23",
-   "imageUrl": "https://comoevent.com/img/gen/2366f2f412bbaa.webp",
    "source": "baselocal",
    "start": "2026-11-06T20:00:00-06:00",
    "title": "Craft Club",
@@ -859,10 +867,20 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "columbia-farmers-market-winter-season-214d63",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
+   "_slug": "three-days-grace-alienation-tour-65c3f1",
+   "categories": [
+    "music"
    ],
+   "category": "music",
+   "id": "65c3f1a6638483d0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy80OWRmOTVhOGM3MzBmNDA2MWQ2NjY0YzViM2E5NGMzN2I0ZDJhMWY0OTljY2Q4YzA0MDBiYzA3MzgxNDY5NmU4LXJpbWctdzEyMDAtaDY3NS1kYzA4MTgwOC1nbWlyP3Y9MTc4ODA4MDg2Ng.avif",
+   "source": "allevents",
+   "start": "2026-11-07T00:00:00-06:00",
+   "title": "Three Days Grace: Alienation Tour",
+   "venue": "St.Louis Mo"
+  },
+  {
+   "_slug": "columbia-farmers-market-winter-season-214d63",
    "categories": [
     "food"
    ],
@@ -871,7 +889,6 @@
    "end": "2026-11-07T12:00:00-06:00",
    "id": "214d639665554a51",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
-   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-11-07T09:00:00-06:00",
    "title": "Columbia Farmers Market – Winter Season",
@@ -891,6 +908,20 @@
    "start": "2026-11-07T09:00:00-06:00",
    "title": "First Aid, CPR, and AED Certification Course",
    "venue": "Scouting Adventure Center"
+  },
+  {
+   "_slug": "american-legion-riders-toy-run-and-vendor-craft-show-7c7acf",
+   "categories": [
+    "sports",
+    "arts"
+   ],
+   "category": "sports",
+   "id": "7c7acf9c86d3a3c7",
+   "imageUrl": "https://comoevent.com/img/gen/4c160eda29dd11.webp",
+   "source": "allevents",
+   "start": "2026-11-07T10:00:00-06:00",
+   "title": "American Legion Riders Toy Run and vendor craft show",
+   "venue": "Head Indian Motorcycle (5708 Freedom Dr Columbia, MO 65202)"
   },
   {
    "_slug": "health-insurance-marketplace-medicaid-open-enrollment-assist-4348ba",
@@ -990,8 +1021,8 @@
   {
    "_slug": "mizzou-football-vs-texas-c426be",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927",
-    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas"
+    "https://calendar.missouri.edu/athletics/event/19635-football-missouri-vs-texas",
+    "https://allevents.in/columbia/2026-mizzou-football-v-texas/210001674900927"
    ],
    "categories": [
     "sports"
@@ -1064,13 +1095,13 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "drop-in-and-draw-173c36",
+   "_slug": "drop-in-and-draw-8bb554",
    "categories": [
     "family"
    ],
    "category": "family",
    "description": "Anytime noon to 2 p.m. Sketch in our galleries. Materials provided.",
-   "id": "173c36b0f5bcb3c1",
+   "id": "8bb5545a98ed5592",
    "imageUrl": "https://comoevent.com/img/gen/1016b7d775b44c.webp",
    "source": "mizzou",
    "start": "2026-11-07T12:00:00-06:00",
@@ -1134,6 +1165,18 @@
    "source": "allevents",
    "start": "2026-11-07T13:00:00-06:00",
    "title": "MAGIC: Star Trek Encore 1v1 Prerelease"
+  },
+  {
+   "_slug": "winter-market-kickoff-e9650d",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "e9650d9fa2184b68",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy80MzU1OGM3NTNmMmY5ODcyMDMwN2U2ZTQ3YjZlNWQ4NDRkNTY0ODI4OWEzNTkzNjM4ZGU2OTQwNTQxNDllMGQyLXJpbWctdzEyMDAtaDYyOC1kY2E4ZDhkOC1nbWlyP3Y9MTc5MDg3NzkxOQ.avif",
+   "source": "allevents",
+   "start": "2026-11-07T13:45:00-06:00",
+   "title": "Winter Market Kickoff"
   },
   {
    "_slug": "bhagwad-gita-class-a027e4",
@@ -1321,18 +1364,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "winter-market-kickoff-e9650d",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "id": "e9650d9fa2184b68",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy80MzU1OGM3NTNmMmY5ODcyMDMwN2U2ZTQ3YjZlNWQ4NDRkNTY0ODI4OWEzNTkzNjM4ZGU2OTQwNTQxNDllMGQyLXJpbWctdzEyMDAtaDYyOC1kY2E4ZDhkOC1nbWlyP3Y9MTc5MDg3NzkxOQ.avif",
-   "source": "allevents",
-   "start": "2026-11-07T18:00:00-06:00",
-   "title": "Winter Market Kickoff"
-  },
-  {
    "_slug": "season-of-wellness-health-resource-fair-c5c0e5",
    "categories": [
     "community"
@@ -1345,14 +1376,30 @@
    "title": "Season of Wellness Health Resource Fair"
   },
   {
-   "_slug": "rewind-the-curtain-broadway-now-then-0d9300",
+   "_slug": "emo-royale-vii-67a74f",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Club 90s Presents · with Scout Speer",
+   "id": "67a74f662ff10463",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Southall-TBN-Web.jpg",
+   "source": "bluenote",
+   "start": "2026-11-07T19:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/emo-royale-columbia-missouri-11-07-2026/event/06006521CAF1E0A7",
+   "timeTBD": true,
+   "title": "Emo Royale VII",
+   "venue": "The Blue Note"
+  },
+  {
+   "_slug": "rewind-the-curtain-broadway-now-then-76e8c8",
    "categories": [
     "campus",
     "arts"
    ],
    "category": "campus",
    "description": "Experience 80 years of Broadway songs as Mizzou's Show Me Opera takes a musical journey Nov. 6-7 at the Missouri Theatre. All students attend free!",
-   "id": "0d9300461db9e7c2",
+   "id": "76e8c84fcfb893a0",
    "imageUrl": "https://comoevent.com/img/gen/65d897ed51bd49.webp",
    "price": "Admission is free for MU affiliates and K-12 students. Community member tickets are $6.",
    "source": "mizzou",
@@ -1391,9 +1438,6 @@
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-054a6f",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
-   ],
    "categories": [
     "arts"
    ],
@@ -1401,12 +1445,10 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-07T21:00:00-06:00",
    "id": "054a6f8f38b946ec",
-   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
-   "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
+   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
    "source": "visitcolumbia",
    "start": "2026-11-07T19:30:00-06:00",
-   "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
-   "venue": "Columbia Entertainment Company"
+   "title": "Evil Dead: The Musical – Columbia Entertainment Co."
   },
   {
    "_slug": "little-women-the-musical-99df5b",
@@ -1474,20 +1516,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "american-legion-riders-toy-run-and-vendor-craft-show-7c7acf",
-   "categories": [
-    "sports",
-    "arts"
-   ],
-   "category": "sports",
-   "id": "7c7acf9c86d3a3c7",
-   "imageUrl": "https://comoevent.com/img/gen/4c160eda29dd11.webp",
-   "source": "allevents",
-   "start": "2026-11-07T20:00:00-06:00",
-   "title": "American Legion Riders Toy Run and vendor craft show",
-   "venue": "Head Indian Motorcycle (5708 Freedom Dr Columbia, MO 65202)"
-  },
-  {
    "_slug": "certainly-so-rose-music-hall-f64117",
    "categories": [
     "music"
@@ -1548,19 +1576,6 @@
    "venue": "MyHouse"
   },
   {
-   "_slug": "three-days-grace-alienation-tour-65c3f1",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "id": "65c3f1a6638483d0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy80OWRmOTVhOGM3MzBmNDA2MWQ2NjY0YzViM2E5NGMzN2I0ZDJhMWY0OTljY2Q4YzA0MDBiYzA3MzgxNDY5NmU4LXJpbWctdzEyMDAtaDY3NS1kYzA4MTgwOC1nbWlyP3Y9MTc4ODA4MDg2Ng.avif",
-   "source": "allevents",
-   "start": "2026-11-07T23:59:00-06:00",
-   "title": "Three Days Grace: Alienation Tour",
-   "venue": "St.Louis Mo"
-  },
-  {
    "_slug": "yoga-with-cats-at-bertha-s-beans-cat-cafe-578cf1",
    "categories": [
     "community"
@@ -1597,10 +1612,20 @@
    "title": "MIZZOUMADE Holiday Market"
   },
   {
-   "_slug": "merry-maplewood-a-festive-holiday-celebration-at-historic-ma-a9d48a",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/families/merry-maplewood-a-festive-holiday-celebration-at-historic-maplewood-house/event_b10662fc-e62d-4ddd-81eb-6422d2ab4ca5.html"
+   "_slug": "super-smash-bros-tournament-e47027",
+   "categories": [
+    "community"
    ],
+   "category": "community",
+   "id": "e47027247d911c2e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
+   "source": "allevents",
+   "start": "2026-11-08T10:00:00-06:00",
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
+  },
+  {
+   "_slug": "merry-maplewood-a-festive-holiday-celebration-at-historic-ma-a9d48a",
    "categories": [
     "family"
    ],
@@ -1609,7 +1634,6 @@
    "end": "2026-11-08T14:00:00-06:00",
    "id": "a9d48a39d4efe2ea",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Merry-Maplewood-at-the-Historic-Maplewood-House.png",
-   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-11-08T11:00:00-06:00",
    "title": "Merry Maplewood: A Festive Holiday Celebration at Historic Maplewood House",
@@ -1810,14 +1834,14 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "art-music-concert-40984e",
+   "_slug": "art-music-concert-182347",
    "categories": [
     "music",
     "arts"
    ],
    "category": "music",
    "description": "Mizzou's School of Music and the Museum of Art & Archaeology present the Art & Music concert showcasing performances by the Ars Nova Repertory Chorus; Jade Leung, conductor .",
-   "id": "40984ee0402fb6e9",
+   "id": "1823479ec51e957c",
    "imageUrl": "https://comoevent.com/img/gen/6c42baa21f132c.webp",
    "source": "mizzou",
    "start": "2026-11-08T14:00:00-06:00",
@@ -1838,9 +1862,6 @@
   },
   {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-75f56b",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
-   ],
    "categories": [
     "arts"
    ],
@@ -1848,24 +1869,23 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-08T16:00:00-06:00",
    "id": "75f56b19cdfe4841",
-   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
-   "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
+   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
    "source": "visitcolumbia",
    "start": "2026-11-08T14:00:00-06:00",
-   "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
-   "venue": "Columbia Entertainment Company"
+   "title": "Evil Dead: The Musical – Columbia Entertainment Co."
   },
   {
-   "_slug": "little-women-the-musical-ad7c32",
+   "_slug": "little-women-the-musical-b3be0b",
    "alsoOn": [
-    "https://calendar.missouri.edu/theatre/event/18335-little-women"
+    "https://calendar.missouri.edu/theatre/event/18335-little-women",
+    "https://calendar.missouri.edu/live/events/18335-little-women"
    ],
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Based on Louisa May Alcott’s beloved novel, see the story of the March sisters come to life on stage. Take a break from screens and travel bac…",
-   "id": "ad7c324a75664b03",
+   "id": "b3be0b5948c6c152",
    "imageUrl": "https://comoevent.com/img/gen/34c4d5bc738769.webp",
    "price": "$23; $18 groups of eight or more; $15 undergraduate…",
    "source": "vox",
@@ -1876,9 +1896,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
+    "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
     "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
-    "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm"
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
    ],
    "categories": [
     "sports",
@@ -1989,13 +2009,13 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "university-of-missouri-trombone-ensemble-fall-concert-67638b",
+   "_slug": "university-of-missouri-trombone-ensemble-fall-concert-052925",
    "categories": [
     "music"
    ],
    "category": "music",
    "description": "Come enjoy a concert by the University of Missouri Trombone Ensemble at Whitmore Recital Hall.",
-   "id": "67638b780ee85f0c",
+   "id": "052925a3e70aaaca",
    "imageUrl": "https://comoevent.com/img/gen/bcf7cd854a3c4a.webp",
    "price": "Free",
    "source": "mizzou",
@@ -2073,13 +2093,13 @@
    "venue": "The Kitchen Grill and Games"
   },
   {
-   "_slug": "mu-tuba-and-euphonium-ensemble-recital-0f1579",
+   "_slug": "mu-tuba-and-euphonium-ensemble-recital-9f006c",
    "categories": [
     "campus"
    ],
    "category": "campus",
    "description": "A special recital by MU Tuba and Euphonium students",
-   "id": "0f1579c4bee9c9ad",
+   "id": "9f006c96ea358eb7",
    "imageUrl": "https://comoevent.com/img/gen/f6351b2732bf58.webp",
    "price": "Free",
    "source": "mizzou",
@@ -2088,10 +2108,10 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "nurse-blake-but-did-you-die-comedy-tour-64a5e2",
+   "_slug": "nurse-blake-but-did-you-die-comedy-tour-b31c5f",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die",
-    "https://calendar.missouri.edu/missouri-theatre/event/16271-nurse-blake-but-did-you-die-tour"
+    "https://calendar.missouri.edu/live/events/16271-nurse-blake-but-did-you-die-tour",
+    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die"
    ],
    "categories": [
     "music",
@@ -2100,7 +2120,7 @@
    "category": "music",
    "description": "Nurse Blake is back with his hilarious comedy tour with all new content, diving into the wildest things patients and their families say and do. From self-diagnosing Stage 8 Cancer with WebMD to hitting the call light like they are on a game show, nothing is off-limits!",
    "end": "2026-11-08T21:00:00-06:00",
-   "id": "64a5e21351dd7342",
+   "id": "b31c5f234136ed07",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/09/Nurse-Blake-But-Did-You-Die-Comedy-Tour-at-The-Missouri-Theatre.jpg",
    "price": "Tickets start at $29.50",
    "source": "visitcolumbia",
@@ -2137,19 +2157,6 @@
    "venue": "Hearnes Center"
   },
   {
-   "_slug": "super-smash-bros-tournament-e47027",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "e47027247d911c2e",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
-   "source": "allevents",
-   "start": "2026-11-08T19:30:00-06:00",
-   "title": "Super Smash Bros Tournament",
-   "venue": "The Kitchen Grill & Games"
-  },
-  {
    "_slug": "wicker-c6e4d2",
    "categories": [
     "arts"
@@ -2166,7 +2173,7 @@
   }
  ],
  "friday": "2026-11-06",
- "modified": "2026-11-06",
+ "modified": "2026-11-07",
  "picks": [
   "c8db621e22518e28",
   "236bb060f8b95037",
