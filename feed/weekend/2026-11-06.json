@@ -927,9 +927,6 @@
   },
   {
    "_slug": "health-insurance-marketplace-medicaid-open-enrollment-assist-4348ba",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17410800"
-   ],
    "categories": [
     "community"
    ],
@@ -937,7 +934,6 @@
    "description": "A licensed navigator from Missouri Connections for Health can help adults explore their options, compare plans, and enroll in 2027 Health Insurance Marketplace plans or Medicaid (MO HealthNet). Appointments are required. To request one, call Kevin Wehner and leave a voicemail; your call will be ret…",
    "end": "2026-11-07T14:00:00-06:00",
    "id": "4348ba7b76fa674f",
-   "price": "Free",
    "source": "baselocal",
    "start": "2026-11-07T10:00:00-06:00",
    "title": "Health Insurance Marketplace & Medicaid: Open Enrollment Assistance",
@@ -1423,20 +1419,20 @@
    "title": "Season of Wellness Health Resource Fair"
   },
   {
-   "_slug": "emo-royale-vii-67a74f",
+   "_slug": "certainly-so-93e247",
    "categories": [
     "music"
    ],
    "category": "music",
-   "description": "Club 90s Presents · with Scout Speer",
-   "id": "67a74f662ff10463",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/09/EmoRoyale-TBN-Web.jpg",
+   "description": "with moonsault",
+   "id": "93e247164ef2a911",
+   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/troubadour-18-e1789137127371.jpeg",
    "source": "bluenote",
    "start": "2026-11-07T19:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/emo-royale-columbia-missouri-11-07-2026/event/06006521CAF1E0A7",
+   "ticketUrl": "https://www.ticketmaster.com/certainly-so-columbia-missouri-11-07-2026/event/0600652ACD83D829",
    "timeTBD": true,
-   "title": "Emo Royale VII",
-   "venue": "The Blue Note"
+   "title": "Certainly So",
+   "venue": "Rose Music Hall (Inside)"
   },
   {
    "_slug": "rewind-the-curtain-broadway-now-then-76e8c8",
@@ -1465,6 +1461,27 @@
    "source": "allevents",
    "start": "2026-11-07T19:00:00-06:00",
    "title": "Tin Emboss Ornaments"
+  },
+  {
+   "_slug": "emo-royale-vii-67a74f",
+   "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/its-a-2000s-party-halloween-edition-the-blue-note-3/",
+    "https://thebluenote.com/event/emo-royale/"
+   ],
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Break out the skinny jeans for Emo Royale VII, a tribute show featuring local acts covering hits by Paramore, The All-American Rejects, Undero…",
+   "end": "2026-11-07T23:00:00-06:00",
+   "id": "67a74f662ff10463",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/09/Emo-Royale-7-like-at-The-Blue-Note.jpg",
+   "price": "$13.40",
+   "source": "vox",
+   "start": "2026-11-07T19:30:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/emo-royale-columbia-missouri-11-07-2026/event/06006521CAF1E0A7",
+   "title": "Emo Royale VII",
+   "venue": "The Blue Note"
   },
   {
    "_slug": "emo-royale-vii-c9c494",
@@ -1506,9 +1523,6 @@
   },
   {
    "_slug": "little-women-the-musical-99df5b",
-   "alsoOn": [
-    "https://calendar.missouri.edu/theatre/event/20641-little-women"
-   ],
    "categories": [
     "arts"
    ],
@@ -1523,9 +1537,6 @@
   },
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-n-j-s-scott-kiggins-fc0704",
-   "alsoOn": [
-    "https://thearcadedistrict.org/"
-   ],
    "categories": [
     "arts"
    ],
@@ -1685,9 +1696,6 @@
   },
   {
    "_slug": "merry-maplewood-a-festive-holiday-celebration-at-historic-ma-a9d48a",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/families/merry-maplewood-a-festive-holiday-celebration-at-historic-maplewood-house/event_b10662fc-e62d-4ddd-81eb-6422d2ab4ca5.html"
-   ],
    "categories": [
     "family"
    ],
@@ -1696,7 +1704,6 @@
    "end": "2026-11-08T14:00:00-06:00",
    "id": "a9d48a39d4efe2ea",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Merry-Maplewood-at-the-Historic-Maplewood-House.png",
-   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-11-08T11:00:00-06:00",
    "title": "Merry Maplewood: A Festive Holiday Celebration at Historic Maplewood House",
@@ -1887,22 +1894,7 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "auditions-proof-by-david-auburn-a70e1b",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "a70e1b3f90dd8c68",
-   "imageUrl": "https://comoevent.com/img/gen/ef4de11d982321.webp",
-   "source": "allevents",
-   "start": "2026-11-08T14:00:00-06:00",
-   "title": "Auditions -- Proof by David Auburn"
-  },
-  {
    "_slug": "evil-dead-the-musical-columbia-entertainment-co-75f56b",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/evil-dead-the-musical/event_730461b2-964c-472e-b2ee-cec5de35aac9.html"
-   ],
    "categories": [
     "arts"
    ],
@@ -1910,12 +1902,10 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-08T16:00:00-06:00",
    "id": "75f56b19cdfe4841",
-   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
-   "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
+   "imageUrl": "https://comoevent.com/img/gen/6fdc7580b1d72e.webp",
    "source": "visitcolumbia",
    "start": "2026-11-08T14:00:00-06:00",
-   "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
-   "venue": "Columbia Entertainment Company"
+   "title": "Evil Dead: The Musical – Columbia Entertainment Co."
   },
   {
    "_slug": "little-women-the-musical-b3be0b",
@@ -1938,9 +1928,9 @@
   {
    "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-961f4c",
    "alsoOn": [
+    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003",
     "https://calendar.missouri.edu/athletics/event/19993-volleyball-missouri-vs-texas-aampm",
-    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/",
-    "https://engage.missouri.edu/MizzouAthletics/rsvp?id=452003"
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
    ],
    "categories": [
     "sports",
@@ -2081,19 +2071,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "welcoming-winter-through-psyche-soma-soul-a-mini-retreat-76adc2",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "76adc232f145eaf7",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xOTI1YjRhMTcxMTE0Y2MwNTJmZTFmZTYxNzQ0MzQ1ODA3MDdmMWFiNGVlMzQ0ZDhiOGIzYTUyMmI2NWM0MmI5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhlOC1nbWlyLmpwZz92PTE3OTMwOTk3NjY.avif",
-   "source": "allevents",
-   "start": "2026-11-08T16:00:00-06:00",
-   "title": "Welcoming Winter through Psyche, Soma & Soul: A Mini-Retreat",
-   "venue": "Heart, Body, & Soul"
-  },
-  {
    "_slug": "yoga-with-cats-at-bertha-s-beans-cat-cafe-578cf1",
    "categories": [
     "community"
@@ -2132,6 +2109,19 @@
    "start": "2026-11-08T17:50:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "welcoming-winter-through-psyche-soma-soul-a-mini-retreat-76adc2",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "76adc232f145eaf7",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xOTI1YjRhMTcxMTE0Y2MwNTJmZTFmZTYxNzQ0MzQ1ODA3MDdmMWFiNGVlMzQ0ZDhiOGIzYTUyMmI2NWM0MmI5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhlOC1nbWlyLmpwZz92PTE3OTMwOTk3NjY.avif",
+   "source": "allevents",
+   "start": "2026-11-08T18:00:00-06:00",
+   "title": "Welcoming Winter through Psyche, Soma & Soul: A Mini-Retreat",
+   "venue": "Heart, Body, & Soul"
   },
   {
    "_slug": "nurse-blake-at-missouri-theater-columbia-e7bf72",
@@ -2253,7 +2243,7 @@
   }
  ],
  "friday": "2026-11-06",
- "modified": "2026-11-07",
+ "modified": "2026-11-08",
  "picks": [
   "c8db621e22518e28",
   "236bb060f8b95037",
