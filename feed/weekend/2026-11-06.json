@@ -1654,6 +1654,19 @@
    "venue": "The Kitchen Grill and Games"
   },
   {
+   "_slug": "the-soul-the-scientific-method-free-event-50e8b6",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "50e8b6c06a153938",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wYjIxZjdjNzg1NDlmMWI1ZGNmZGExNzczMjc1NzFiNTE4MDY4ODdhM2Q4NTViMTIwOTE5YTUwZmY4ZmYwOWZjLXJpbWctdzEyMDAtaDYwMC1kY2U4ZDhhOC1nbWlyLmpwZz92PTE3OTE4Mjk4NzA.avif",
+   "source": "allevents",
+   "start": "2026-11-08T09:00:00-06:00",
+   "title": "The Soul & The Scientific Method (Free Event)",
+   "venue": "Natural Nail Care Salon"
+  },
+  {
    "_slug": "arts-autumnal-third-annual-west-ash-neighborhood-art-festiva-f2a6de",
    "categories": [
     "arts"
@@ -1708,6 +1721,18 @@
    "start": "2026-11-08T11:30:00-06:00",
    "title": "Kids Yoga at Bricks and Mini Figs with Sarah's Yoga Studio",
    "venue": "Bricks & Minifigs Columbia"
+  },
+  {
+   "_slug": "walk-up-book-sale-everything-1-7bb6b1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "7bb6b16e9014a9a2",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9jNzZkOWJmZDBkZjFkZmRhYWI3NzdhOTk4NTVmYmNlOTE3ZDM2YTdmMGY1ZTk1OWZhMzI2ZjNhYzdiZTI5OTY5LXJpbWctdzEyMDAtaDkwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mzk4NTcxNg.avif",
+   "source": "allevents",
+   "start": "2026-11-08T11:30:00-06:00",
+   "title": "Walk Up Book Sale - Everything $1"
   },
   {
    "_slug": "billy-hinsons-old-school-bbq-f66e5a",
@@ -1794,7 +1819,6 @@
    "description": "Get started with the Flesh and Blood trading card game at a weekly play event featuring Standard format play. Expect fast-paced, interactive games and a growing community. Entry is $5.",
    "end": "2026-11-08T16:00:00-06:00",
    "id": "12badd2f8dc83e0a",
-   "imageUrl": "https://comoevent.com/img/gen/099bc5a022d492.webp",
    "source": "baselocal",
    "start": "2026-11-08T13:00:00-06:00",
    "title": "Flesh and Blood Weekly Play",
@@ -1810,23 +1834,10 @@
    "description": "Nature Sessions are a bi-weekly event series aimed at getting folks outside and connected with nature all while learning more about various sustainability, ecology, and gardening-related topics. This will be a great way to connect with nature and with your fellow student environmentalists.",
    "end": "2026-11-08T15:00:00-06:00",
    "id": "acaf41b21c00f972",
-   "imageUrl": "https://comoevent.com/img/gen/464c53560e98c2.webp",
    "source": "engage",
    "start": "2026-11-08T13:00:00-06:00",
    "title": "Nature Session: Garden Cleanup and Compost",
    "venue": "Kirklin Garden"
-  },
-  {
-   "_slug": "walk-up-book-sale-everything-1-7bb6b1",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "7bb6b16e9014a9a2",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9jNzZkOWJmZDBkZjFkZmRhYWI3NzdhOTk4NTVmYmNlOTE3ZDM2YTdmMGY1ZTk1OWZhMzI2ZjNhYzdiZTI5OTY5LXJpbWctdzEyMDAtaDkwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mzk4NTcxNg.avif",
-   "source": "allevents",
-   "start": "2026-11-08T13:00:00-06:00",
-   "title": "Walk Up Book Sale - Everything $1"
   },
   {
    "_slug": "beginning-sewing-with-como-craftcycle-four-week-class-boxy-t-9e0d8c",
@@ -1840,7 +1851,6 @@
    "description": "In this four-class series for adults, beginners who can sew a straight seam will learn to draft a pattern from their own measurements and sew a uniquely fitted boxy shirt. The class draws on the “Sew a Boxy Tee” resource on Creativebug, which is available free with a library card. Most supplies are…",
    "end": "2026-11-08T15:30:00-06:00",
    "id": "9e0d8cef32aa8867",
-   "imageUrl": "https://comoevent.com/img/gen/b7b5944c6759b1.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-08T13:30:00-06:00",
@@ -1890,12 +1900,25 @@
    "description": "You don’t need to be a fan of Evil Dead to love this show. You don’t need to be a fan of horror to love this show. You don’t even need to be a fan of musicals to love this show. As long as you like having fun… this show is for you. Is it scary? No! Is it gory? No. This is a pure comedy start to fini",
    "end": "2026-11-08T16:00:00-06:00",
    "id": "75f56b19cdfe4841",
-   "imageUrl": "https://comoevent.com/img/gen/1891bbd7a4e34d.webp",
    "price": "$20; $15 students and seniors; $25 seating in the Splatter…",
    "source": "visitcolumbia",
    "start": "2026-11-08T14:00:00-06:00",
    "title": "Evil Dead: The Musical – Columbia Entertainment Co.",
    "venue": "Columbia Entertainment Company"
+  },
+  {
+   "_slug": "little-women-the-musical-90dbea",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Based on Louisa May Alcott’s beloved novel, see the story of the March sisters come to life on stage. Take a break from screens and travel bac…",
+   "id": "90dbea002c64e503",
+   "price": "$23; $18 groups of eight or more; $15 undergraduate…",
+   "source": "vox",
+   "start": "2026-11-08T14:00:00-06:00",
+   "title": "Little Women: The Musical",
+   "venue": "Rhynsburger Theatre"
   },
   {
    "_slug": "little-women-the-musical-b3be0b",
@@ -1936,6 +1959,25 @@
    "venue": "Hearnes Center"
   },
   {
+   "_slug": "mizzou-volleyball-vs-texas-a-m-2-pm-fa1e54",
+   "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/mizzou-volleyball-vs-texas-am/"
+   ],
+   "categories": [
+    "sports",
+    "campus"
+   ],
+   "category": "sports",
+   "description": "Join us for Alumni Day as the Tigers take on Texas A&M at 2 PM! Giveaway: Truman Building Block Set",
+   "end": "2026-11-08T16:00:00-06:00",
+   "id": "fa1e548da0847661",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/08/Mizzou-Volleyball-playing-a-home-game-in-front-of-a-packed-crowd.jpg",
+   "source": "engage",
+   "start": "2026-11-08T14:00:00-06:00",
+   "title": "Mizzou Volleyball vs. Texas A&M - 2 PM",
+   "venue": "Hearnes Center"
+  },
+  {
    "_slug": "pat-kay-536cbb",
    "categories": [
     "music"
@@ -1962,7 +2004,6 @@
    "description": "Enjoy a musical performance by guitarist Rocket Kirchner at the Columbia Public Library. Local musicians provide a musical backdrop as part of a monthly program for adults, teens, and school-age children.",
    "end": "2026-11-08T15:00:00-06:00",
    "id": "66f3b2bb1db2e9f4",
-   "imageUrl": "https://comoevent.com/img/gen/888a78c6a18525.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-08T14:00:00-06:00",
@@ -1978,7 +2019,6 @@
    "description": "Join volunteer-led CoMo Preservation for a walking tour exploring where women made history in Columbia. This approximately two-hour, one-half-…",
    "end": "2026-11-08T16:00:00-06:00",
    "id": "3ebfc41cd67261f8",
-   "imageUrl": "https://comoevent.com/img/gen/22ef936487225f.webp",
    "price": "$10",
    "source": "vox",
    "start": "2026-11-08T14:00:00-06:00",
@@ -2000,18 +2040,6 @@
    "venue": "Fine Arts Building"
   },
   {
-   "_slug": "tending-the-roots-5-tending-the-unseen-39e685",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "39e685f3e4883877",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xN2Y3MzM3ZTk5MWI0N2NjNDkyYjI2ZjNhNTYyYjZmODIwNDk4NWM4ZGM1YjZkN2FlODIzMmE5YmY2NDY0MzBiLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5Mzk0MjE5NA.avif",
-   "source": "allevents",
-   "start": "2026-11-08T14:30:00-06:00",
-   "title": "Tending the Roots 5: Tending the Unseen"
-  },
-  {
    "_slug": "junior-chefs-n-chaperones-cooking-class-1aebfb",
    "categories": [
     "community"
@@ -2025,19 +2053,6 @@
    "start": "2026-11-08T15:00:00-06:00",
    "title": "Junior Chefs N' Chaperones Cooking Class",
    "venue": "CoMo Cooks Shared Kitchen"
-  },
-  {
-   "_slug": "the-soul-the-scientific-method-free-event-50e8b6",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "50e8b6c06a153938",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wYjIxZjdjNzg1NDlmMWI1ZGNmZGExNzczMjc1NzFiNTE4MDY4ODdhM2Q4NTViMTIwOTE5YTUwZmY4ZmYwOWZjLXJpbWctdzEyMDAtaDYwMC1kY2U4ZDhhOC1nbWlyLmpwZz92PTE3OTE4Mjk4NzA.avif",
-   "source": "allevents",
-   "start": "2026-11-08T15:00:00-06:00",
-   "title": "The Soul & The Scientific Method (Free Event)",
-   "venue": "Natural Nail Care Salon"
   },
   {
    "_slug": "wild-horse-nine-204c43",
@@ -2125,17 +2140,16 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "nurse-blake-at-missouri-theater-columbia-e7bf72",
+   "_slug": "tending-the-roots-5-tending-the-unseen-39e685",
    "categories": [
-    "arts"
+    "community"
    ],
-   "category": "arts",
-   "id": "e7bf72c7024f6d1b",
-   "imageUrl": "https://comoevent.com/img/gen/c38893ccc450f8.webp",
+   "category": "community",
+   "id": "39e685f3e4883877",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xN2Y3MzM3ZTk5MWI0N2NjNDkyYjI2ZjNhNTYyYjZmODIwNDk4NWM4ZGM1YjZkN2FlODIzMmE5YmY2NDY0MzBiLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5Mzk0MjE5NA.avif",
    "source": "allevents",
-   "start": "2026-11-08T18:30:00-06:00",
-   "title": "Nurse Blake at Missouri Theater - Columbia",
-   "venue": "Stephens Lake Park, Columbia, Missouri"
+   "start": "2026-11-08T18:00:00-06:00",
+   "title": "Tending the Roots 5: Tending the Unseen"
   },
   {
    "_slug": "gather-for-good-columbia-dinner-benefit-for-faith-through-fi-0f118e",
@@ -2169,8 +2183,8 @@
   {
    "_slug": "nurse-blake-but-did-you-die-comedy-tour-b31c5f",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die",
-    "https://calendar.missouri.edu/live/events/16271-nurse-blake-but-did-you-die-tour"
+    "https://calendar.missouri.edu/live/events/16271-nurse-blake-but-did-you-die-tour",
+    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die"
    ],
    "categories": [
     "music",
@@ -2188,6 +2202,19 @@
    "venue": "Missouri Theatre"
   },
   {
+   "_slug": "welcoming-winter-through-psyche-soma-soul-a-mini-retreat-76adc2",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "76adc232f145eaf7",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xOTI1YjRhMTcxMTE0Y2MwNTJmZTFmZTYxNzQ0MzQ1ODA3MDdmMWFiNGVlMzQ0ZDhiOGIzYTUyMmI2NWM0MmI5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhlOC1nbWlyLmpwZz92PTE3OTMwOTk3NjY.avif",
+   "source": "allevents",
+   "start": "2026-11-08T19:00:00-06:00",
+   "title": "Welcoming Winter through Psyche, Soma & Soul: A Mini-Retreat",
+   "venue": "Heart, Body, & Soul"
+  },
+  {
    "_slug": "you-can-see-everything-12de80",
    "categories": [
     "arts"
@@ -2203,19 +2230,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "welcoming-winter-through-psyche-soma-soul-a-mini-retreat-76adc2",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "76adc232f145eaf7",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xOTI1YjRhMTcxMTE0Y2MwNTJmZTFmZTYxNzQ0MzQ1ODA3MDdmMWFiNGVlMzQ0ZDhiOGIzYTUyMmI2NWM0MmI5LXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhlOC1nbWlyLmpwZz92PTE3OTMwOTk3NjY.avif",
-   "source": "allevents",
-   "start": "2026-11-08T19:30:00-06:00",
-   "title": "Welcoming Winter through Psyche, Soma & Soul: A Mini-Retreat",
-   "venue": "Heart, Body, & Soul"
-  },
-  {
    "_slug": "super-smash-bros-tournament-e47027",
    "categories": [
     "community"
@@ -2224,7 +2238,7 @@
    "id": "e47027247d911c2e",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
    "source": "allevents",
-   "start": "2026-11-08T20:00:00-06:00",
+   "start": "2026-11-08T19:30:00-06:00",
    "title": "Super Smash Bros Tournament",
    "venue": "The Kitchen Grill & Games"
   },
