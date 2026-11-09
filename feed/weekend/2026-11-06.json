@@ -2048,7 +2048,6 @@
    "description": "A hands-on cooking class for one adult and one child ages 7–15. Participants will prepare baked chicken bites, baked mac and cheese, and apple pie cookies, with guidance and recipes provided. Each pair will also receive an apron to use and keep. The class is limited to four adult-and-child pairs an…",
    "end": "2026-11-08T17:00:00-06:00",
    "id": "1aebfbfaa92ba9a3",
-   "imageUrl": "https://comoevent.com/img/gen/cb6e9980ff8886.webp",
    "source": "baselocal",
    "start": "2026-11-08T15:00:00-06:00",
    "title": "Junior Chefs N' Chaperones Cooking Class",
@@ -2133,7 +2132,6 @@
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-11-08T19:47:00-06:00",
    "id": "472faa257891fdac",
-   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
    "source": "ragtag",
    "start": "2026-11-08T17:50:00-06:00",
    "title": "Wild Horse Nine",
@@ -2179,6 +2177,25 @@
    "start": "2026-11-08T19:00:00-06:00",
    "title": "MU Tuba and Euphonium Ensemble Recital",
    "venue": "Sinquefield Music Center"
+  },
+  {
+   "_slug": "nurse-blake-but-did-you-die-comedy-tour-08b802",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#nurse-blake-but-did-you-die"
+   ],
+   "categories": [
+    "music",
+    "arts"
+   ],
+   "category": "music",
+   "description": "Nurse Blake is back with his hilarious comedy tour with all new content, diving into the wildest things patients and their families say and do. From self-diagnosing Stage 8 Cancer with WebMD to hitting the call light like they are on a game show, nothing is off-limits!",
+   "end": "2026-11-08T21:00:00-06:00",
+   "id": "08b80201b391e8cb",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/09/Nurse-Blake-But-Did-You-Die-Comedy-Tour-at-The-Missouri-Theatre.jpg",
+   "source": "visitcolumbia",
+   "start": "2026-11-08T19:00:00-06:00",
+   "title": "Nurse Blake: But Did You Die? Comedy Tour",
+   "venue": "Missouri Theatre"
   },
   {
    "_slug": "nurse-blake-but-did-you-die-comedy-tour-b31c5f",
