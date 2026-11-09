@@ -234,15 +234,32 @@
   },
   {
    "_slug": "day-of-the-goddess-celebration-798e9d",
+   "alsoOn": [
+    "https://allevents.in/columbia/day-of-the-goddess-celebration/200030957622739"
+   ],
    "categories": [
     "community"
    ],
    "category": "community",
+   "description": "Celebrate Friday the 13th by exploring the Divine Feminine, goddess wisdom, personal empowerment, and sacred balance. Experiences include intuitive tarot and oracle readings, Ayurvedic consultations, henna, goddess discovery stations, intention-based creative activities, and ways to connect with in…",
+   "end": "2026-11-13T20:30:00-06:00",
    "id": "798e9d5d59666c95",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wMTgzZGM0NjMxZTM5NTczYjc5MDRlZWUxMWIxNGU2ZGM4NDJiNWNhNGZkZWI3NWEzZDdhZDM0Mzk4MmRlYTM0LXJpbWctdzEwMjQtaDE1MzYtZGNmOGY4ZjgtZ21pcj92PTE3OTM2NDIxMzg.avif",
-   "source": "allevents",
+   "source": "baselocal",
    "start": "2026-11-13T12:00:00-06:00",
    "title": "Day of the Goddess Celebration"
+  },
+  {
+   "_slug": "gilded-pearls-friday-the-13th-sale-6cbb13",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "6cbb137f5c2fe061",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy8yYTc4Mjg2NDc3MTYxZTkyZjdmZDEzM2YwODBiOTQ3OWM0NzQ5ZGQxOTNkMDk0M2IzZDIwYTYwZmEzNDA3ZTNjLXJpbWctdzEyMDAtaDE2MDAtZGMwODA4MDgtZ21pcj92PTE3OTM5NDIyMDQ.avif",
+   "source": "allevents",
+   "start": "2026-11-13T12:00:00-06:00",
+   "title": "Gilded Pearl’s Friday the 13th Sale"
   },
   {
    "_slug": "osage-artists-today-art-culture-and-connection-to-place-9cf6a5",
@@ -638,10 +655,9 @@
    "venue": "Jesse Auditorium"
   },
   {
-   "_slug": "party-with-the-stars-8686b2",
+   "_slug": "party-with-the-stars-32ddee",
    "alsoOn": [
-    "https://events.dbrl.org/event/17459294",
-    "https://allevents.in/columbia/party-with-the-stars/200030952163445"
+    "https://events.dbrl.org/event/17459294"
    ],
    "categories": [
     "family"
@@ -649,8 +665,8 @@
    "category": "family",
    "description": "Explore the night sky with a brief indoor slideshow, followed by telescope viewing of Saturn and Uranus outdoors if the skies are clear. Everyone will receive a free star chart. The program is hosted by Val Germann of the Central Missouri Astronomical Association and is for ages 10 through adult.",
    "end": "2026-11-13T21:00:00-06:00",
-   "id": "8686b2a10230dc7b",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wZTM0NDIxOTY0NTQyYzRlYzBkZjk2NjQxMWI1MTMwZmVkZTI1MTlkM2YxM2JlNjdlY2UxZmVhY2ViZjVkNzg0LXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5MzYwNjA4NA.avif",
+   "id": "32ddee4e9ff624eb",
+   "imageUrl": "https://comoevent.com/img/gen/61841a2075eb87.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-13T19:00:00-06:00",
@@ -707,18 +723,6 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "gilded-pearls-friday-the-13th-sale-6cbb13",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "6cbb137f5c2fe061",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy8yYTc4Mjg2NDc3MTYxZTkyZjdmZDEzM2YwODBiOTQ3OWM0NzQ5ZGQxOTNkMDk0M2IzZDIwYTYwZmEzNDA3ZTNjLXJpbWctdzEyMDAtaDE2MDAtZGMwODA4MDgtZ21pcj92PTE3OTM5NDIyMDQ.avif",
-   "source": "allevents",
-   "start": "2026-11-13T19:30:00-06:00",
-   "title": "Gilded Pearl’s Friday the 13th Sale"
-  },
-  {
    "_slug": "little-women-the-musical-071642",
    "alsoOn": [
     "https://calendar.missouri.edu/theatre/event/20643-little-women"
@@ -753,12 +757,16 @@
   },
   {
    "_slug": "tyondai-braxton-extended-play-0ae648",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/music/tyondai-braxton-extended-play/event_7b8f7759-3d7d-4272-aec8-e0af0fdd3fa1.html"
+   ],
    "categories": [
     "campus",
     "music"
    ],
    "category": "campus",
    "description": "Tyondai Braxton finishes his MU residency in concert, with an opening performance by MNMI's Creative Improvisation Collective .",
+   "end": "2026-11-13T22:00:00-06:00",
    "id": "0ae6484ce6e43062",
    "imageUrl": "https://comoevent.com/img/gen/6967c76033583d.webp",
    "price": "MU students, staff, and faculty are FREE .; Non-MU attendees can purchase tickets through EventBrite .",
@@ -787,7 +795,8 @@
   {
    "_slug": "nicole-atkins-rose-music-hall-277334",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#nicole-atkins"
+    "https://baselocal.com/mo/columbia/events/#nicole-atkins",
+    "https://rosemusichall.com/event/nicole-atkins/"
    ],
    "categories": [
     "music"
@@ -799,6 +808,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Nicole-Atkins-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-11-13T20:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/nicole-atkins-columbia-missouri-11-13-2026/event/060064D43A4DEF52",
    "title": "Nicole Atkins – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -816,22 +826,6 @@
    "start": "2026-11-13T21:00:00-06:00",
    "title": "Friday Night Comedy at The Tokyo Club",
    "venue": "The Arcade District"
-  },
-  {
-   "_slug": "mj-night-f588b2",
-   "categories": [
-    "music",
-    "party"
-   ],
-   "category": "music",
-   "description": "Club 90s Presents · with JWords",
-   "id": "f588b2da76cc5764",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Redferrin_RB_Swamp_2533-Crop-Square-e1788272556494.jpg",
-   "source": "bluenote",
-   "start": "2026-11-13T21:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/mj-night-ages-18-columbia-missouri-11-13-2026/event/06006537C7F70D66",
-   "title": "MJ Night",
-   "venue": "The Blue Note"
   },
   {
    "_slug": "annual-christmas-bazaar-d1f2fe",
@@ -885,6 +879,9 @@
   },
   {
    "_slug": "columbia-farmers-market-winter-season-cf0735",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
+   ],
    "categories": [
     "food"
    ],
@@ -893,6 +890,7 @@
    "end": "2026-11-14T12:00:00-06:00",
    "id": "cf0735f53dbf0587",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
+   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-11-14T09:00:00-06:00",
    "title": "Columbia Farmers Market – Winter Season",
@@ -914,6 +912,35 @@
    "ticketUrl": "https://www.eventbrite.com/e/imagine-from-calling-to-cover-tickets-2000313471440",
    "title": "Imagine: From Calling to Cover",
    "venue": "C2 Church"
+  },
+  {
+   "_slug": "rock-bridge-renew-8d11a1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Rock Bridge Renew is a twice-yearly volunteer event at Rock Bridge Memorial State Park, held in spring and fall to help care for the park’s natural surroundings. The fall activities include picking up litter along Highway 163 and removing invasive plants such as bush honeysuckle. Leadership, equipm…",
+   "end": "2026-11-14T12:00:00-06:00",
+   "id": "8d11a1029f1d46a5",
+   "imageUrl": "https://comoevent.com/img/gen/4f75e554cd7d62.webp",
+   "price": "Free",
+   "source": "baselocal",
+   "start": "2026-11-14T09:00:00-06:00",
+   "title": "Rock Bridge Renew"
+  },
+  {
+   "_slug": "sale-for-the-estate-of-john-d-burk-204424",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "A sale is being held for the estate of John D. Burk in Columbia, Missouri.",
+   "end": "2026-11-15T15:00:00-06:00",
+   "id": "2044247c949f8925",
+   "imageUrl": "https://comoevent.com/img/gen/d54ee10c71549f.webp",
+   "source": "baselocal",
+   "start": "2026-11-14T09:00:00-06:00",
+   "title": "Sale for the Estate of John D. Burk"
   },
   {
    "_slug": "unity-of-columbia-annual-art-craft-fair-day-1-e15892",
@@ -1059,18 +1086,6 @@
    "title": "Wrestling - Missouri vs. Tiger Style Invite"
   },
   {
-   "_slug": "4th-annual-pierpont-general-store-chili-cook-off-d8a4d4",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "id": "d8a4d43a74d3de62",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wMmJlNjlhNGY3MjRhNDMzOWE3MDcxMTk5MGYwMDBiZjgzOTlkMDM5MWZkYzM0YmY0ZWU1MTdmN2QxM2M3YTgwLXJpbWctdzEyMDAtaDYzNC1kYzA4MDgwOC1nbWlyP3Y9MTc5MjMwNDg2OQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T10:30:00-06:00",
-   "title": "4th Annual Pierpont General Store Chili Cook Off"
-  },
-  {
    "_slug": "the-tap-collective-workshop-with-chris-rutledge-b5a159",
    "alsoOn": [
     "https://engage.missouri.edu/TTC/rsvp?id=453715"
@@ -1139,17 +1154,19 @@
   {
    "_slug": "wild-kratts-activate-kid-power-0e761b",
    "alsoOn": [
+    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/",
     "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943"
    ],
    "categories": [
+    "family",
     "arts"
    ],
-   "category": "arts",
-   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "category": "family",
+   "description": "When the Wild Kratts’ Creature Power Suits burn out, they must count on the ingenuity of Wild Kratts Kids to help save the day. This story highlights how children can use their own skills to support local ecosystems. Presented by KMOS and PBS KIDS in partnership with Missouri River Relief, the free…",
    "end": "2026-11-14T11:48:00-06:00",
    "id": "0e761bae040e6871",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9kMGRjZDdjYmE3OTUzNjliZWE3MDJkM2M5Mzk1YTMxYTdjMDY4ODY0ZTI2MDRkN2Y2Y2JkMzNiNDE4ZDk5ZGNhLXJpbWctdzEyMDAtaDY3NS1kYzk4NjhiOC1nbWlyP3Y9MTc5Mzk0MjIwMg.avif",
-   "source": "ragtag",
+   "source": "baselocal",
    "start": "2026-11-14T11:00:00-06:00",
    "title": "Wild Kratts: Activate Kid Power",
    "venue": "Ragtag Cinema"
@@ -1169,19 +1186,6 @@
    "start": "2026-11-14T11:15:00-06:00",
    "title": "Urban Sketch Crawl",
    "venue": "Columbia Art League"
-  },
-  {
-   "_slug": "ladies-of-country-782eff",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "782eff5e8a30dd31",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9mZmEyNmI1YjM5MjQwMjBhZmUwNDIxYTZiZjJkNzkzYjQ4ZWFhODYxY2Q0YzFhMWE4YzIwMGJhNzAzYjQxODI4LXJpbWctdzEwMjQtaDE1MzYtZGMwODA4MDgtZ21pcj92PTE3OTM2MDc1NTg.avif",
-   "source": "allevents",
-   "start": "2026-11-14T11:30:00-06:00",
-   "title": "Ladies of Country",
-   "venue": "Scottish Rite, Valley of Columbia"
   },
   {
    "_slug": "dws-kitchen-catering-b3c212",
@@ -1268,10 +1272,15 @@
   },
   {
    "_slug": "game-sale-day-839067",
-   "categories": [
-    "community"
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#game-sale-day"
    ],
-   "category": "community",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "Get a head start on holiday shopping with discounted games, trading card games, and more. Browse a range of options for family gatherings while helping clear out back stock.",
+   "end": "2026-11-14T17:00:00-06:00",
    "id": "839067bc707b0435",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMDNiNTQzZTAyYzIxNTI2MjI4N2U2ZTU0YzNmZjMxNjU4MTI0NzdhZjI2MDc2OWZkMDQwZDEwNWUwMmQxM2UxLXJpbWctdzEyMDAtaDY3NS1kYzA4NDg0OC1nbWlyP3Y9MTc5NDA4MDc4NQ.avif",
    "source": "allevents",
@@ -1434,19 +1443,6 @@
    "venue": "Rose Music Hall"
   },
   {
-   "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "1a3a4065917ee253",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zYzkxNzczMDlkOGUyZDJlZGU2ODU0OWUwYmNjMzFiNzJmMmFlYjYyZjQzOTdmMjY3NTI0M2VhZWVjN2Y0Y2FlLXJpbWctdzEyMDAtaDE1MDAtZGMwODA4MDgtZ21pcj92PTE3OTA1ODE1ODQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T18:00:00-06:00",
-   "title": "Nclusion Plus Presents: Miss Gay Mid-Missouri America '27 Pageant",
-   "venue": "Columbia Entertainment Company"
-  },
-  {
    "_slug": "smilin-jack-307cc9",
    "categories": [
     "music"
@@ -1460,6 +1456,24 @@
    "start": "2026-11-14T18:00:00-06:00",
    "title": "Smilin’ Jack",
    "venue": "Cooper's Landing"
+  },
+  {
+   "_slug": "ladies-of-country-782eff",
+   "alsoOn": [
+    "https://allevents.in/columbia/ladies-of-country/200030952416218"
+   ],
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "Enjoy a night of country music and fun supporting the Taylor family. Logan, Kassidy, and their three-year-old daughter Bailey lost everything in a house fire, and the event benefits their efforts to rebuild their life together.",
+   "end": "2026-11-14T20:30:00-06:00",
+   "id": "782eff5e8a30dd31",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9mZmEyNmI1YjM5MjQwMjBhZmUwNDIxYTZiZjJkNzkzYjQ4ZWFhODYxY2Q0YzFhMWE4YzIwMGJhNzAzYjQxODI4LXJpbWctdzEwMjQtaDE1MzYtZGMwODA4MDgtZ21pcj92PTE3OTM2MDc1NTg.avif",
+   "source": "baselocal",
+   "start": "2026-11-14T18:30:00-06:00",
+   "title": "Ladies of Country",
+   "venue": "Scottish Rite, Valley of Columbia"
   },
   {
    "_slug": "2026-fall-into-art-f9d034",
@@ -1607,6 +1621,19 @@
    "venue": "The Blue Note"
   },
   {
+   "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "1a3a4065917ee253",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zYzkxNzczMDlkOGUyZDJlZGU2ODU0OWUwYmNjMzFiNzJmMmFlYjYyZjQzOTdmMjY3NTI0M2VhZWVjN2Y0Y2FlLXJpbWctdzEyMDAtaDE1MDAtZGMwODA4MDgtZ21pcj92PTE3OTA1ODE1ODQ.avif",
+   "source": "allevents",
+   "start": "2026-11-14T20:00:00-06:00",
+   "title": "Nclusion Plus Presents: Miss Gay Mid-Missouri America '27 Pageant",
+   "venue": "Columbia Entertainment Company"
+  },
+  {
    "_slug": "patriots-against-kings-paka-rally-9a8e7a",
    "categories": [
     "community"
@@ -1621,6 +1648,10 @@
   },
   {
    "_slug": "smells-like-nirvana-rose-music-hall-483aa1",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana-at-rose-music-hall",
+    "https://rosemusichall.com/event/smells-like-nirvana-3/"
+   ],
    "categories": [
     "music"
    ],
@@ -1631,8 +1662,21 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Smells-Like-Nirvana-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-11-14T20:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/smells-like-nirvanatribute-to-nirvana-columbia-missouri-11-14-2026/event/060064F6E068731B",
    "title": "Smells Like Nirvana – Rose Music Hall",
    "venue": "Rose Music Hall"
+  },
+  {
+   "_slug": "4th-annual-pierpont-general-store-chili-cook-off-d8a4d4",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "d8a4d43a74d3de62",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wMmJlNjlhNGY3MjRhNDMzOWE3MDcxMTk5MGYwMDBiZjgzOTlkMDM5MWZkYzM0YmY0ZWU1MTdmN2QxM2M3YTgwLXJpbWctdzEyMDAtaDYzNC1kYzA4MDgwOC1nbWlyP3Y9MTc5MjMwNDg2OQ.avif",
+   "source": "allevents",
+   "start": "2026-11-14T21:00:00-06:00",
+   "title": "4th Annual Pierpont General Store Chili Cook Off"
   },
   {
    "_slug": "saturday-night-comedy-at-the-tokyo-club-0ba21f",
@@ -1696,27 +1740,21 @@
   },
   {
    "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
-   "categories": [
-    "community"
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
    ],
-   "category": "community",
+   "categories": [
+    "music",
+    "nightlife"
+   ],
+   "category": "music",
+   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
+   "end": "2026-11-15T15:00:00-06:00",
    "id": "499cdb22318aea5f",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
    "source": "allevents",
    "start": "2026-11-15T11:00:00-06:00",
    "title": "2nd Annual Pierpont Sip & Shop"
-  },
-  {
-   "_slug": "chakra-restorative-sound-immersion-0a067b",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "0a067b8c158e0146",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9kNjkwNDZlODRlYzFhYWNiMjNlN2I3YTQ3NzA0OGViYmQzY2RlNTE0NDM5YTFhN2EyYTY3ODEwMTU4NDRjZDQwLXJpbWctdzEyMDAtaDE2MDAtZGMzODM4MzgtZ21pcj92PTE3OTM5NDIyMDE.avif",
-   "source": "allevents",
-   "start": "2026-11-15T11:00:00-06:00",
-   "title": "Chakra Restorative Sound Immersion"
   },
   {
    "_slug": "unity-of-columbia-annual-art-craft-fair-day-2-2a3f8d",
@@ -1865,6 +1903,25 @@
    "start": "2026-11-15T13:30:00-06:00",
    "title": "Beginning Sewing With Como Craftcycle",
    "venue": "Columbia Public Library"
+  },
+  {
+   "_slug": "front-porch-stories-an-evening-of-bluegrass-d2d475",
+   "alsoOn": [
+    "https://www.choralartsallianceofmissouri.org/caam-concerts/"
+   ],
+   "categories": [
+    "music",
+    "family"
+   ],
+   "category": "music",
+   "description": "Columbia Youth Choirs with guest artists Ironweed Bluegrass Band",
+   "end": "2026-11-15T19:00:00-06:00",
+   "id": "d2d475f294f52661",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80MTc3NDUxMTdjNjlmODNjZGZhNGQzNTJiNjFiOTI1MzRlMjNlZDZhNTc4YmFjM2QwZTBkNWY2NzliYTgxMzZjLXJpbWctdzEyMDAtaDE1MDAtZGMxODI4MjgtZ21pcj92PTE3OTM4MTkxMzE.avif",
+   "source": "allevents",
+   "start": "2026-11-15T13:45:00-06:00",
+   "title": "Front Porch Stories: An Evening of Bluegrass",
+   "venue": "The Atrium on Tenth"
   },
   {
    "_slug": "emma-spalding-senior-recital-d89d81",
@@ -2018,36 +2075,29 @@
    "venue": "MizzouRec"
   },
   {
-   "_slug": "reducing-dog-reactivity-6eefb7",
+   "_slug": "nov-2026-tcg-league-challenge-tournament-90736c",
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "6eefb78c20362414",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy83ZTc2YWJlNTE1MTBhOTFmOWY3MjRjNjMwZjAzNjgwMGYwZTI2ODAxODU2NjM1ZGJmZTQ1YmQ5Yjg2ODE2M2Y2LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5MzkzMTE0Nw.avif",
+   "id": "90736c12a0e6bf92",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy85YjlmYmJlNjdmMzcwODI5OTg2MzFmY2I2M2UyNWQ5NjY5ODgzMjY5ODg0NWM4OGVjMDI4OGFhZWI5ZTcyNGRlLXJpbWctdzcyMC1oMzQ3LWRjZTgxODI4LWdtaXI_dj0xNzk0MjMzMzM0.avif",
    "source": "allevents",
-   "start": "2026-11-15T19:00:00-06:00",
-   "title": "Reducing Dog Reactivity",
-   "venue": "Unchained Melodies Dog Rescue"
+   "start": "2026-11-15T19:30:00-06:00",
+   "title": "Nov 2026 TCG League Challenge Tournament"
   },
   {
-   "_slug": "front-porch-stories-an-evening-of-bluegrass-d2d475",
-   "alsoOn": [
-    "https://www.choralartsallianceofmissouri.org/caam-concerts/"
-   ],
+   "_slug": "super-smash-bros-tournament-e47027",
    "categories": [
-    "music",
-    "family"
+    "community"
    ],
-   "category": "music",
-   "description": "Columbia Youth Choirs with guest artists Ironweed Bluegrass Band",
-   "end": "2026-11-15T19:00:00-06:00",
-   "id": "d2d475f294f52661",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80MTc3NDUxMTdjNjlmODNjZGZhNGQzNTJiNjFiOTI1MzRlMjNlZDZhNTc4YmFjM2QwZTBkNWY2NzliYTgxMzZjLXJpbWctdzEyMDAtaDE1MDAtZGMxODI4MjgtZ21pcj92PTE3OTM4MTkxMzE.avif",
+   "category": "community",
+   "id": "e47027247d911c2e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
    "source": "allevents",
-   "start": "2026-11-15T20:00:00-06:00",
-   "title": "Front Porch Stories: An Evening of Bluegrass",
-   "venue": "The Atrium on Tenth"
+   "start": "2026-11-15T19:30:00-06:00",
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "nov-boone-regional-beekeepers-local-plants-beneficial-to-bee-d7c30c",
@@ -2066,16 +2116,16 @@
  "friday": "2026-11-13",
  "modified": "2026-11-09",
  "picks": [
-  "8686b2a10230dc7b",
+  "32ddee4e9ff624eb",
   "071642c6e660b3d4",
   "011e2839fec348ca",
   "2773342929747aeb",
   "2b3596efcad32e23",
-  "f588b2da76cc5764",
-  "0a8b8da2f39cdb13",
+  "cf0735f53dbf0587",
+  "f48b5e1f348eedc8",
   "3ca3d3dbf3a51d48",
-  "a134c47608feef97",
-  "d2d475f294f52661"
+  "0aeace99f97fbd98",
+  "a134c47608feef97"
  ],
  "published": "2026-11-09"
 }

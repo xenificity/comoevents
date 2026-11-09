@@ -9,6 +9,11 @@
   "lng": -92.3345119,
   "name": "Champions Drive"
  },
+ "10 hitt st, columbia, mo": {
+  "lat": 38.9507966,
+  "lng": -92.3252124,
+  "name": null
+ },
  "10 w nifong blvd ste 115, columbia, mo 65203 columbia, mo 65203": null,
  "10 w nifong blvd, columbia, mo": {
   "lat": 38.9080487,
@@ -107,6 +112,11 @@
   "name": null
  },
  "14020 w hwy bb rocheport, mo 65279": null,
+ "1450 spring mountain dr, columbia, mo": {
+  "lat": 38.932095,
+  "lng": -92.2665636,
+  "name": null
+ },
  "1600 west broadway columbia, mo columbia, mo 65203": {
   "lat": 38.952952,
   "lng": -92.362459,
@@ -121,6 +131,11 @@
   "lat": 38.9521799,
   "lng": -92.327852,
   "name": "The Blue Note"
+ },
+ "1701 w ash st, columbia, mo": {
+  "lat": 38.9574867,
+  "lng": -92.3628449,
+  "name": "Activity & Recreation Center (ARC)"
  },
  "1751 w ash st, columbia, mo": {
   "lat": 38.9569254,
@@ -191,9 +206,19 @@
   "lng": -92.3746347,
   "name": null
  },
+ "2600 forum blvd, columbia, mo": {
+  "lat": 38.9288904,
+  "lng": -92.3635554,
+  "name": null
+ },
  "2615 shepard blvd, columbia, mo": {
   "lat": 38.9377166,
   "lng": -92.297759,
+  "name": null
+ },
+ "2800 forum blvd, columbia, mo": {
+  "lat": 38.9228873,
+  "lng": -92.3653237,
   "name": null
  },
  "2804 forum blvd, #1, columbia, mo": null,
@@ -226,6 +251,16 @@
   "lat": 38.9664587,
   "lng": -92.3421756,
   "name": "Rusk Rehabilitation Hospital"
+ },
+ "33 n. masonic dr., columbia, mo": {
+  "lat": 39.0164279,
+  "lng": -92.3061427,
+  "name": null
+ },
+ "3300 s providence rd, columbia, mo": {
+  "lat": 38.91571,
+  "lng": -92.3345496,
+  "name": null
  },
  "3301 w broadway columbia, mo columbia, mo 65203": {
   "lat": 38.9551665,
@@ -289,6 +324,16 @@
   "name": "Park Restaurant & Bar"
  },
  "4747 e elk park dr, columbia, mo": null,
+ "501 n garth ave, columbia, mo columbia, mo 65203": {
+  "lat": 38.958125,
+  "lng": -92.338873,
+  "name": null
+ },
+ "506 hitt st, columbia, mo": {
+  "lat": 38.9457274,
+  "lng": -92.3251959,
+  "name": null
+ },
  "507 s 9th st, columbia, mo 65201, united states": {
   "lat": 38.9448697,
   "lng": -92.327436,
@@ -335,6 +380,7 @@
   "lng": -92.2514616,
   "name": "Lakeside Ashland"
  },
+ "5901 s highway 163, columbia, mo": null,
  "601 business loop 70 w, columbia, mo columbia, mo 65203": {
   "lat": 38.9668725,
   "lng": -92.3448706,
@@ -382,6 +428,8 @@
   "name": "The Food Bank Market"
  },
  "7650 mo-163, columbia, mo 65203 columbia, mo 65203": null,
+ "7650 s highway 163, columbia, mo": null,
+ "7650 s highway 163, columbia, mo columbia, mo 65203": null,
  "805 fairview ave, columbia, mo": {
   "lat": 38.961517,
   "lng": -92.327104,
@@ -585,6 +633,11 @@
  "novak leadership institute lee hills hall room 202 221 s 8th street columbia mo 65201, columbia, mo": null,
  "optimist youth sports athletic fields, columbia, mo": null,
  "osage artists today: art, culture and connection to place, columbia, mo": null,
+ "pierpont, columbia, mo": {
+  "lat": 38.8626355,
+  "lng": -92.3147178,
+  "name": "Pierpont General Store"
+ },
  "plaza 900 900 virginia ave columbia mo 65201 united states, columbia, mo": null,
  "prenger foods · 105 w. smith st., sturgeon, columbia, mo": null,
  "rji lambert room (200a), columbia, mo": null,
