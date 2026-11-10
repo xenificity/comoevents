@@ -630,6 +630,7 @@
       '<a class="plink" href="guidelines.html">' + ic("shield") + "Community guidelines</a>" +
       '<a class="plink" href="privacy.html">' + ic("lock") + "Privacy policy</a>" +
       '<a class="plink" href="' + INSTALL + '">' + ic("phoneDev") + "Get the iPhone app</a>" +
+      '<a class="plink" href="features/">' + ic("star") + "Everything CoMo Events can do</a>" +
       '<a class="plink" href="about/">' + ic("sparkles") + "About CoMo Events</a>");
     box.appendChild(help);
   }

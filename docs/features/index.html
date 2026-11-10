@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Features | CoMo Events, every public event in Columbia, MO</title>
+<meta name="description" content="Everything CoMo Events can do: a live map of every public event in Columbia, Missouri, smart search, filters by time and who it's for, reminders, Going counts, friends, posting your own event from a flyer, Siri, and a full web app.">
+<meta property="og:title" content="CoMo Events features">
+<meta property="og:description" content="A live map of every public event in Columbia, MO, with smart search, reminders, friends and free event posting. iPhone and web.">
+<meta property="og:image" content="https://comoevent.com/img/icon-512.png">
+<meta property="og:url" content="https://comoevent.com/features/">
+<link rel="canonical" href="https://comoevent.com/features/">
+<link rel="icon" href="../img/icon-512.png">
+<link rel="apple-touch-icon" href="../img/icon-512.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"CoMo Events","operatingSystem":"iOS 17 or later, any web browser","applicationCategory":"LifestyleApplication","url":"https://comoevent.com/","downloadUrl":"https://apps.apple.com/app/como-events/id6824363992","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Ajay Kumar"},
+"featureList":["Live map of every public event in Columbia, Missouri","Pins by category with event counts, heat glow and place names","Tap a place to see every event there, with directions","Time filters: Now, Today, Weekend, 7 days, All","Audience filters: Everyone, Singles, Couples, Groups, Family","Smart search that understands topics, typos and time words","For You picks from your interests","Save events with reminders one hour before","Tonight in CoMo daily digest","Add to Calendar and shareable event cards with a QR code","Going, I'm here and Went counts","Friends by code, see what friends saved and where they are going","Post your own event, filled in from a flyer photo, a QR code or a link","Posts go live on the map and in search right away","Sign in with Apple and iCloud sync","Siri and Shortcuts, Spotlight search","Dark mode and sounds","Full web app at comoevent.com","Event pages, city guides, weekend guide and venue widget"]}
+</script>
+<style>
+:root{--y:#FFD600;--y2:#F2B705;--ink:#121214;--bg:#0f0f12;--card:rgba(255,255,255,.06);--card2:rgba(255,255,255,.035);--line:rgba(255,255,255,.14);--text:#f4f4f6;--muted:#a9a9b3;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,system-ui,sans-serif;color:var(--text);background:var(--bg);overflow-x:hidden}
+body::before{content:"";position:fixed;inset:-20%;z-index:-1;background:
+ radial-gradient(60% 50% at 15% 10%,rgba(255,214,0,.24),transparent 60%),
+ radial-gradient(45% 40% at 85% 20%,rgba(255,64,140,.18),transparent 60%),
+ radial-gradient(50% 50% at 50% 100%,rgba(90,60,220,.22),transparent 60%)}
+a{color:var(--y)}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.01em;color:#fff;text-decoration:none}
+.brand img{width:36px;height:36px;border-radius:9px}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:.95rem}
+nav a:hover,nav a[aria-current]{color:#fff}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--y);color:var(--ink);font-weight:800;padding:12px 20px;border-radius:999px;text-decoration:none;box-shadow:0 10px 30px rgba(255,214,0,.25);transition:transform .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn.ghost{background:var(--card);color:#fff;border:1px solid var(--line);box-shadow:none;backdrop-filter:blur(14px)}
+.hero{padding:36px 0 10px;max-width:46rem}
+.hero h1{font-size:clamp(2.1rem,5vw,3.4rem);line-height:1.05;letter-spacing:-.03em;margin:14px 0}
+.hero h1 span{color:var(--y)}
+.lead{font-size:1.15rem;color:var(--muted)}
+.pill{display:inline-block;font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);background:var(--y);padding:4px 10px;border-radius:999px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:28px;color:var(--muted);font-size:.95rem}
+.stats b{display:block;color:#fff;font-size:1.5rem;letter-spacing:-.02em}
+.toc{position:sticky;top:0;z-index:5;margin:34px -20px 0;padding:10px 20px;background:rgba(15,15,18,.82);backdrop-filter:blur(16px);border-bottom:1px solid var(--line);display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.toc::-webkit-scrollbar{display:none}
+.toc a{flex:0 0 auto;color:#fff;text-decoration:none;font-size:.85rem;font-weight:700;padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line)}
+.toc a:hover{background:var(--y);color:var(--ink)}
+section{padding:56px 0 8px}
+h2{font-size:clamp(1.6rem,3vw,2.2rem);letter-spacing:-.02em;margin:0 0 8px;display:flex;align-items:center;gap:12px}
+h2 .ic{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;font-size:21px;background:linear-gradient(135deg,var(--c,#5a3ce0),rgba(255,255,255,.08));flex:0 0 auto}
+.sub{color:var(--muted);margin:0 0 24px;max-width:44rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;backdrop-filter:blur(18px)}
+.card h3{margin:0 0 4px;font-size:1.08rem;display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.card p{margin:0 0 8px;color:var(--muted);font-size:.97rem}
+.card ul{margin:8px 0 0;padding-left:18px;color:var(--muted);font-size:.95rem}
+.card li{margin:0 0 5px}
+.card li b{color:var(--text);font-weight:650}
+.tags{display:inline-flex;gap:4px;flex:0 0 auto}
+.tag{font-size:.68rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.tag.ios{color:#fff;background:rgba(255,255,255,.1)}
+.tag.web{color:var(--ink);background:var(--y)}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0}
+.legend span{display:inline-flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:.85rem;font-weight:700}
+.legend i{width:10px;height:10px;border-radius:50%;display:inline-block}
+.wide{grid-column:1/-1}
+.sources{columns:3;column-gap:28px;color:var(--muted);font-size:.95rem;margin:10px 0 0;padding-left:18px}
+.sources li{break-inside:avoid;margin:0 0 5px}
+.soon{background:var(--card2);border-style:dashed}
+.shots{display:flex;gap:16px;overflow-x:auto;padding:6px 4px 20px;scroll-snap-type:x mandatory;scrollbar-width:none}
+.shots::-webkit-scrollbar{display:none}
+.shots figure{flex:0 0 210px;margin:0;scroll-snap-align:start}
+.shots img{width:100%;border-radius:28px;border:1px solid var(--line);box-shadow:0 20px 50px rgba(0,0,0,.45)}
+.shots figcaption{text-align:center;color:var(--muted);font-size:.88rem;margin-top:8px}
+.end{margin:60px 0 0;padding:34px;border-radius:26px;background:linear-gradient(135deg,rgba(255,214,0,.16),rgba(90,60,220,.16));border:1px solid var(--line);text-align:center}
+.end h2{justify-content:center}
+.end .cta{justify-content:center}
+footer{padding:40px 0 60px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line);margin-top:50px}
+footer a{color:var(--muted)}
+@media (max-width:860px){nav{display:none}.sources{columns:2}.grid{grid-template-columns:1fr}}
+@media (max-width:520px){.card h3{flex-direction:column;align-items:flex-start;gap:6px}.sources{columns:1}.stats{gap:18px}.end{padding:24px 18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="../"><img src="../img/icon-512.png" alt="">CoMo Events</a>
+  <nav><a href="../">Live map</a><a href="./" aria-current="page">Features</a><a href="../about/">About</a><a href="../weekend-guide/">Weekend guide</a><a href="../get/?c=features">Get the app</a></nav>
+</header>
+
+<div class="hero">
+  <span class="pill">Free, no ads, no in-app purchases</span>
+  <h1>Everything <span>CoMo Events</span> can do</h1>
+  <p class="lead">CoMo Events puts every public event in Columbia, Missouri on one live map: Mizzou, downtown, concerts, bars, markets, churches and temples, the library, kids' days, races and more. This page lists every feature in the iPhone app and the web app, in detail.</p>
+  <div class="cta">
+    <a class="btn" href="../get/?c=features">Get it for iPhone</a>
+    <a class="btn ghost" href="../">Open the live map</a>
+  </div>
+  <div class="stats" id="stats">
+    <div><b id="nEvents">1,300+</b>events on the map</div>
+    <div><b id="nSources">30+</b>public sources merged</div>
+    <div><b>Every 2 hours</b>the feed refreshes</div>
+    <div><b>2</b>ways to use it: iPhone and web</div>
+  </div>
+</div>
+
+<nav class="toc" aria-label="Sections">
+  <a href="#map">The map</a><a href="#find">Finding events</a><a href="#event">Event details</a><a href="#save">Saving and reminders</a><a href="#going">Going and friends</a><a href="#post">Post an event</a><a href="#profile">Profile and sign-in</a><a href="#iphone">iPhone extras</a><a href="#web">Website</a><a href="#data">Where events come from</a><a href="#safety">Privacy and safety</a><a href="#soon">Coming next</a>
+</nav>
+
+<section id="map">
+  <h2><span class="ic" style="--c:#2f80ed">🗺️</span>The map</h2>
+  <p class="sub">The first screen. Open it and you see what's happening around you, grouped so a busy downtown night is still easy to read.</p>
+  <div class="grid">
+    <div class="card"><h3>Pins that say what it is <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li><b>Ten categories</b>, each with its own symbol and color: Party, Music, Nightlife, Food, Arts, Sports, Family, Campus, Faith and Community.</li>
+        <li><b>A number badge</b> shows how many events a pin holds, from 2 up to "99+".</li>
+        <li><b>Heat glow:</b> soft yellow-to-amber rings sit under busy areas, so you can spot where the night is.</li>
+        <li>Pins cluster when you zoom out and split apart as you zoom in.</li>
+      </ul></div>
+    <div class="card"><h3>Places with names <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Zoom in and pins group <b>by venue</b>, each with the place name underneath (the venue, or the street address when there is no venue name).</li>
+        <li>Zoomed out, only the busiest places (5 or more events) show a name, so labels never pile up.</li>
+        <li><b>Tap a place</b> to see every event happening there, with the address and a <b>Directions</b> button that opens Apple Maps.</li>
+        <li>Every venue we know is geotagged: over 100 Columbia venues are hand-checked, and the rest are found from their address.</li>
+      </ul></div>
+    <div class="card"><h3>Next up strip <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>A row of cards floats over the bottom of the map with what starts soonest, marked <b>LIVE</b> when it has already begun.</li>
+        <li>Tap a card and the map flies to that event and opens it.</li>
+        <li><b>All</b> opens the full list of everything the map is showing.</li>
+        <li>In the "Now" view the strip becomes <b>Happening now</b>.</li>
+      </ul></div>
+    <div class="card"><h3>Seasonal pins <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Big seasons get their own emoji pin. In October, Halloween events (costume parties, trunk-or-treats, haunted houses, pumpkin patches) show as glowing 🎃 pins.</li>
+        <li>Seasonal picks are boosted in the lists while their season lasts.</li>
+      </ul></div>
+    <div class="card"><h3>Your location <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>A blue dot shows where you are, and the location button re-centers the map on you.</li>
+        <li>A compass appears when you rotate the map. Tap it to point north again.</li>
+        <li>Your location is used only on your phone to draw the map. It is never sent anywhere.</li>
+      </ul></div>
+    <div class="card"><h3>Live counts <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>The bar under the filters shows how many events match, when the feed was last updated, and how many people in town use CoMo Events.</li>
+      </ul></div>
+  </div>
+  <div class="legend" aria-label="Category colors">
+    <span><i style="background:#ff4090"></i>Party</span><span><i style="background:#8c4dff"></i>Music</span><span><i style="background:#5a5ae6"></i>Nightlife</span><span><i style="background:#e5484d"></i>Food</span><span><i style="background:#00b3c0"></i>Arts</span><span><i style="background:#ff8c1a"></i>Sports</span><span><i style="background:#2ecc71"></i>Family</span><span><i style="background:#FFD600"></i>Campus</span><span><i style="background:#9b6b43"></i>Faith</span><span><i style="background:#2f80ed"></i>Community</span>
+  </div>
+</section>
+
+<section id="find">
+  <h2><span class="ic" style="--c:#FFD600">🔎</span>Finding events</h2>
+  <p class="sub">Three filters shape everything at once (map, lists and suggestions), and search understands what you mean, not just the exact words.</p>
+  <div class="grid">
+    <div class="card"><h3>When <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li><b>Now:</b> what's going on right this minute.</li>
+        <li><b>Today</b>, <b>Weekend</b> (Friday evening through Sunday), <b>7 days</b>, or <b>All</b> (the next two months).</li>
+      </ul></div>
+    <div class="card"><h3>Who it's for <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li><b>Everyone, Singles, Couples, Groups</b> or <b>Family</b>.</li>
+        <li>Pick Couples and you see date-night picks (wine tastings, concerts, dinners). Pick Family and you see story times, kids' days and family festivals.</li>
+        <li>Every event also lists who it's <b>good for</b>.</li>
+      </ul></div>
+    <div class="card"><h3>What <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Category chips (Party, Music, Nightlife, Food, Arts, Sports, Family, Campus, Faith, Community). Tap one or several to narrow the map.</li>
+      </ul></div>
+    <div class="card"><h3>Smart search <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li><b>Understands topics:</b> "hindu temple", "date night", "live jazz", "kids", "free food" or "trivia" find the right events even when the listing uses different words.</li>
+        <li><b>Forgives typos</b> ("karoke", "farmer market") without matching nonsense.</li>
+        <li><b>Time words:</b> "tonight", "this weekend", "tomorrow", "saturday" limit the results to that time.</li>
+        <li>Results come back as <b>Best matches</b>, ranked so exact hits beat loosely related ones, with repeats of the same event folded together.</li>
+        <li>Searches by event name, venue, organizer or description.</li>
+      </ul></div>
+    <div class="card"><h3>Upcoming list <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Every event as a picture card, day by day, with the best events of each day first.</li>
+        <li>Ranking weighs well-known venues, complete listings (time, place, picture, details) and what you like.</li>
+        <li>Every event has a picture: the event's own photo, sharpened to full size, or a cover drawn for it so the list never shows a blank box.</li>
+      </ul></div>
+    <div class="card"><h3>For You <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Choose your interests in Profile and Upcoming gets a <b>For you</b> row of matching events in the next week.</li>
+        <li>It also learns from what you save, mark Going or open. That taste profile stays on your device.</li>
+      </ul></div>
+  </div>
+</section>
+
+<section id="event">
+  <h2><span class="ic" style="--c:#00b3c0">🎟️</span>Event details</h2>
+  <p class="sub">Everything you need to decide and go, on one page.</p>
+  <div class="grid">
+    <div class="card"><h3>The essentials <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Picture, title, day and time (or "all day"), venue, address and a small map.</li>
+        <li>Price or "Free" when the listing says so, organizer and the full description.</li>
+        <li><b>Good for:</b> singles, couples, groups or families.</li>
+        <li><b>Source</b>, plus "Also listed on N other sites" when the same event was found in more than one place.</li>
+      </ul></div>
+    <div class="card"><h3>One-tap actions <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li><b>Tickets</b> and the event's website.</li>
+        <li><b>Directions</b> in Apple Maps.</li>
+        <li><b>Call</b> the venue (the number comes from the listing or our venue list).</li>
+        <li><b>Add to Calendar:</b> Apple's own event sheet, already filled in (on the web, a calendar file for any calendar app).</li>
+        <li><b>Share</b> (next section) and <b>Save</b> (the heart).</li>
+      </ul></div>
+    <div class="card"><h3>Share cards <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>On iPhone, sharing makes a square picture card of the event (picture, title, time, place) for Messages, Instagram stories or AirDrop.</li>
+        <li>Each card carries a small "Get the app" QR code, so every share is also an invite.</li>
+        <li>On the web, Share sends the event's own link (comoevent.com/e/…), which anyone can open without the app.</li>
+      </ul></div>
+  </div>
+</section>
+
+<section id="save">
+  <h2><span class="ic" style="--c:#ff4090">❤️</span>Saving and reminders</h2>
+  <p class="sub">Heart what you like and CoMo Events remembers it for you.</p>
+  <div class="grid">
+    <div class="card"><h3>Saved tab <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>All your hearted events in one list, soonest first.</li>
+        <li>Works without an account. Sign in and your saves sync between your iPhone and the website through your own iCloud.</li>
+      </ul></div>
+    <div class="card"><h3>Reminders <span class="tags"><span class="tag ios">iPhone</span></span></h3>
+      <ul>
+        <li><b>Remind me before saved events:</b> a notification one hour before anything you've hearted.</li>
+        <li><b>Tonight in CoMo:</b> an optional 4 PM heads-up with what's on that evening.</li>
+        <li>Both are local notifications made on your phone. Turn either one off in Profile.</li>
+      </ul></div>
+  </div>
+</section>
+
+<section id="going">
+  <h2><span class="ic" style="--c:#2ecc71">👋</span>Going and friends</h2>
+  <p class="sub">See what's popular, and go out with people you know.</p>
+  <div class="grid">
+    <div class="card"><h3>Going, I'm here, Went <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Mark yourself <b>Going</b> before an event, <b>I'm here</b> while you're there, and <b>Went</b> after.</li>
+        <li>Every event shows everyone's counts: "12 going", "4 here now", "30 went".</li>
+        <li>Tap your status again to clear it.</li>
+      </ul></div>
+    <div class="card"><h3>Friends by code <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Turn on Friends to get your own 6-letter code. Add a friend by typing their code.</li>
+        <li>See which saved events you have in common, and who is going where.</li>
+        <li>Sharing your own saved events with friends is a separate switch, off by default.</li>
+        <li>Event pages show which friends saved it, are going, or are there now, and small bubbles with their initials sit on the map pins where they are headed.</li>
+        <li>Remove, block or report a friend at any time.</li>
+      </ul></div>
+    <div class="card"><h3>Invite people <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li><b>Invite from Contacts:</b> pick people with Apple's contact picker (no access to your whole address book) and a text with the app link and your code opens, ready to send.</li>
+        <li>Or share the install link anywhere.</li>
+      </ul></div>
+  </div>
+</section>
+
+<section id="post">
+  <h2><span class="ic" style="--c:#ff8c1a">📣</span>Post an event</h2>
+  <p class="sub">Anyone can add an event for free: a show, a market, a club meeting, a church supper, a yard-sale-sized festival. It goes live on the map and in search right away.</p>
+  <div class="grid">
+    <div class="card"><h3>Quick fill <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li><b>Scan flyer:</b> take or pick a photo of a poster and the app reads it: title, date, start and end time, and venue are filled in, and the flyer becomes the event picture.</li>
+        <li><b>Scan QR code</b> <span class="tag ios">iPhone</span> or <b>Paste link:</b> point it at an event page (Eventbrite, a venue's website, a ticket page) and the form fills itself from that page.</li>
+        <li>Pick a known venue and its address, pin, phone and website are added for you.</li>
+      </ul></div>
+    <div class="card"><h3>The form <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li><b>What and when:</b> title, start, optional end time.</li>
+        <li><b>Where:</b> venue and address.</li>
+        <li><b>Details:</b> description, price, ticket or info link.</li>
+        <li><b>Photo:</b> add your own picture (optional).</li>
+        <li><b>Also show under:</b> extra categories so the right people find it.</li>
+        <li>Your name shows as "Posted by".</li>
+      </ul></div>
+    <div class="card"><h3>Live right away <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>No waiting for approval: your event appears on the map and in search for everyone within about a minute, and instantly for you.</li>
+        <li>Everyone's apps check for new posts every minute.</li>
+        <li>An automatic word filter holds back posts with slurs or explicit words.</li>
+        <li>See your posts and their status in Profile.</li>
+      </ul></div>
+  </div>
+</section>
+
+<section id="profile">
+  <h2><span class="ic" style="--c:#5a3ce0">👤</span>Profile and sign-in</h2>
+  <p class="sub">Everything works without an account. Signing in only adds sync, friends and posting.</p>
+  <div class="grid">
+    <div class="card"><h3>About you <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Your name (the app greets you by it) and a <b>profile picture</b>.</li>
+        <li><b>Interests:</b> pick what you're into for the For You row.</li>
+        <li><b>I'm usually out as…</b> singles, couples, groups or family, so the map starts on your view.</li>
+      </ul></div>
+    <div class="card"><h3>Sign in <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li><b>Sign in with Apple</b>: no password, and your profile and saves live in your own private iCloud.</li>
+        <li><b>Sync now</b> pulls your latest profile and saves onto this device.</li>
+        <li><b>Sign out</b> keeps your profile on the phone. <b>Delete my profile</b> erases your profile and saved events everywhere.</li>
+      </ul></div>
+    <div class="card"><h3>Look and sound <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li><b>Dark mode:</b> the moon button at the top switches the whole app and map to dark, and back. Light is the default.</li>
+        <li><b>Sounds:</b> a chime when the app opens, a pluck when you save, a soft tick on buttons and a sparkle when you sign in. They follow the silent switch, and you can turn them off.</li>
+      </ul></div>
+    <div class="card"><h3>Help <span class="tags"><span class="tag ios">iPhone</span><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Send feedback, email us, rate the app, and read the community guidelines and privacy policy, all from Profile.</li>
+      </ul></div>
+  </div>
+</section>
+
+<section id="iphone">
+  <h2><span class="ic" style="--c:#8c4dff">📱</span>iPhone extras</h2>
+  <p class="sub">Built with Apple's own tools so it feels at home on iPhone.</p>
+  <div class="grid">
+    <div class="card"><h3>Siri and Shortcuts <span class="tags"><span class="tag ios">iPhone</span></span></h3>
+      <ul>
+        <li>"Hey Siri, <b>what's happening in CoMo Events tonight</b>": Siri answers with how many things are on tonight and the top picks, even when the app isn't open.</li>
+        <li>"Hey Siri, <b>open the CoMo Events map</b>."</li>
+        <li>Both appear in the Shortcuts app for your own automations.</li>
+      </ul></div>
+    <div class="card"><h3>Spotlight <span class="tags"><span class="tag ios">iPhone</span></span></h3>
+      <ul>
+        <li>Upcoming events are added to iPhone search, so typing "blue note" or "farmers market" from the home screen finds them. Tap a result to open the event.</li>
+      </ul></div>
+    <div class="card"><h3>Links and offline <span class="tags"><span class="tag ios">iPhone</span></span></h3>
+      <ul>
+        <li>Links, notifications and Siri open the exact event or search in the app.</li>
+        <li>The app keeps the last feed it downloaded, so the map and lists still work with a weak signal.</li>
+        <li>Liquid Glass design on iOS 26, and it runs on iOS 17 and later.</li>
+      </ul></div>
+  </div>
+  <div class="shots">
+    <figure><img src="../img/01-map.jpg" alt="The map with category pins" loading="lazy"><figcaption>Map</figcaption></figure>
+    <figure><img src="../img/02-party.jpg" alt="The map filtered to parties" loading="lazy"><figcaption>Category filter</figcaption></figure>
+    <figure><img src="../img/03-upcoming.jpg" alt="Upcoming list of picture cards" loading="lazy"><figcaption>Upcoming</figcaption></figure>
+    <figure><img src="../img/04-detail.jpg" alt="An event page with actions" loading="lazy"><figcaption>Event details</figcaption></figure>
+    <figure><img src="../img/05-profile.jpg" alt="Profile screen" loading="lazy"><figcaption>Profile</figcaption></figure>
+  </div>
+</section>
+
+<section id="web">
+  <h2><span class="ic" style="--c:#e5484d">🌐</span>The website</h2>
+  <p class="sub">comoevent.com is the full app in any browser, on Android, Windows or Mac. Nothing to install.</p>
+  <div class="grid">
+    <div class="card"><h3>The web app <span class="tags"><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>The same five tabs as the iPhone app: Map, Upcoming, Saved, Friends and Profile.</li>
+        <li>Map, filters, smart search, place names, event pages, dark mode and sounds all work the same way.</li>
+        <li>Sign in with your Apple Account to sync saves, mark Going, add friends and post events, including flyer scanning.</li>
+      </ul></div>
+    <div class="card"><h3>A page for every event <span class="tags"><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Every event has its own page you can share, with the time, place, map and links.</li>
+        <li>The pages are built so Google and Bing show Columbia events in search results.</li>
+        <li><a href="../e/">Browse all events</a></li>
+      </ul></div>
+    <div class="card"><h3>City guides <span class="tags"><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Ready-made lists that update every two hours: <a href="../tonight/">Tonight</a>, <a href="../this-weekend/">This weekend</a>, <a href="../free/">Free</a>, <a href="../music/">Music</a>, <a href="../nightlife/">Nightlife</a>, <a href="../family/">Family</a>, <a href="../arts/">Arts</a>, <a href="../food/">Food</a>, <a href="../sports/">Sports</a>, <a href="../mizzou/">Mizzou</a> and <a href="../faith/">Faith</a>.</li>
+        <li>Holiday guides appear in season: Halloween, Thanksgiving, Christmas, New Year's Eve, Valentine's Day, St. Patrick's Day, the Fourth of July and graduation.</li>
+        <li><a href="../venues/">Venue pages</a> list what's coming up at each place.</li>
+      </ul></div>
+    <div class="card"><h3>Weekend guide <span class="tags"><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Every Friday afternoon the <a href="../weekend-guide/">weekend guide</a> picks the best of Friday to Sunday.</li>
+        <li>Past weekends stay online as an archive.</li>
+      </ul></div>
+    <div class="card"><h3>Venue widget <span class="tags"><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>Venues can paste a small widget into their own website that always shows their upcoming events from CoMo Events.</li>
+        <li>The code is on each venue's page.</li>
+      </ul></div>
+    <div class="card"><h3>Open numbers <span class="tags"><span class="tag web">Web</span></span></h3>
+      <ul>
+        <li>A public <a href="../stats/">stats page</a> shows how many events, venues and sources the feed has, and how many people use the app.</li>
+      </ul></div>
+  </div>
+</section>
+
+<section id="data">
+  <h2><span class="ic" style="--c:#ff4090">🔄</span>Where events come from</h2>
+  <p class="sub">CoMo Events reads public calendars all over town, cleans them up and merges them into one feed. Every event links back to its source.</p>
+  <div class="grid">
+    <div class="card"><h3>Always fresh</h3>
+      <ul>
+        <li>The feed rebuilds <b>every two hours</b>, day and night.</li>
+        <li>Shows the next <b>two months</b>. Past events leave the map two days after they end.</li>
+        <li><b>New sources are added every week.</b></li>
+      </ul></div>
+    <div class="card"><h3>Cleaned and merged</h3>
+      <ul>
+        <li>The same event listed on several sites shows up <b>once</b>, with the best picture, time and details from each.</li>
+        <li>Venues are matched to their real location, room numbers and campus buildings included.</li>
+        <li>Website clutter (code, tracking links, repeated text) is stripped from titles and descriptions.</li>
+        <li>Small or blurry photos are swapped for sharp ones, or for a cover drawn for that event.</li>
+      </ul></div>
+    <div class="card wide"><h3>Sources today</h3>
+      <ul class="sources" id="sourceList">
+        <li>Mizzou calendar</li><li>MU Engage (student organizations)</li><li>Mizzou Arts and University Concert Series</li><li>Columbia College</li><li>Stephens College Performing Arts</li><li>Visit Columbia</li><li>The District</li><li>Columbia Chamber of Commerce</li><li>Daniel Boone Regional Library</li><li>The Blue Note</li><li>Rose Music Hall</li><li>Ragtag Cinema</li><li>The Missouri Symphony</li><li>Columbia Civic Orchestra</li><li>We Always Swing Jazz Series</li><li>Columbia Entertainment Company</li><li>Talking Horse Productions</li><li>Arrow Rock Lyceum Theatre</li><li>Columbia Art League</li><li>North Village Arts District</li><li>Jabberwocky Studios</li><li>The Arcade District</li><li>Cooper's Landing</li><li>Columbia Farmers Market</li><li>Shanthi Mandir</li><li>Macaroni Kid</li><li>RunSignup races</li><li>COMO Tickets</li><li>MyHouse (Posh)</li><li>Eventbrite</li><li>AllEvents</li><li>Base Local</li><li>Vox Magazine calendar</li><li>Events posted by people in the app</li>
+      </ul>
+      <p style="margin-top:12px">Is your venue missing? <a href="mailto:xenificity@icloud.com?subject=CoMo%20Events%20source">Email us</a> or post your events in the app.</p></div>
+  </div>
+</section>
+
+<section id="safety">
+  <h2><span class="ic" style="--c:#2ecc71">🔒</span>Privacy and safety</h2>
+  <p class="sub">Made in Columbia as a free community project, not an ad business.</p>
+  <div class="grid">
+    <div class="card"><h3>Your data</h3>
+      <ul>
+        <li>No ads, and nothing is sold.</li>
+        <li>Your location never leaves your phone.</li>
+        <li>Your profile and saves live in your own iCloud.</li>
+        <li>Usage is counted anonymously (screens opened, buttons tapped) with no names, device IDs or location.</li>
+        <li>Delete your profile from the app at any time. Read the <a href="../privacy.html">privacy policy</a>.</li>
+      </ul></div>
+    <div class="card"><h3>A friendly community</h3>
+      <ul>
+        <li><b>Report</b> any post or name, and <b>block</b> a poster to hide all their posts.</li>
+        <li>A post reported by three people is hidden automatically, and reports are read the same day.</li>
+        <li>A word filter checks posts and names before they go live.</li>
+        <li>See the <a href="../guidelines.html">community guidelines</a>.</li>
+      </ul></div>
+  </div>
+</section>
+
+<section id="soon">
+  <h2><span class="ic" style="--c:#FFD600">✨</span>Coming next</h2>
+  <p class="sub">Already being built.</p>
+  <div class="grid">
+    <div class="card soon"><h3>Google and Facebook sign-in</h3><p>Sign in with Google or Facebook as well as Apple, and find friends who already use the app.</p></div>
+    <div class="card soon"><h3>More of Columbia</h3><p>More venues, churches, parks and clubs every week, plus seasonal pins for the winter holidays.</p></div>
+    <div class="card soon"><h3>Android app</h3><p>Until then, comoevent.com works fully in Chrome on Android.</p></div>
+  </div>
+</section>
+
+<div class="end">
+  <h2>Find something to do tonight</h2>
+  <p class="sub" style="margin:0 auto 6px">Free on iPhone, or open the map in your browser.</p>
+  <div class="cta">
+    <a class="btn" href="../get/?c=features">Get it for iPhone</a>
+    <a class="btn ghost" href="../">Open the live map</a>
+  </div>
+</div>
+
+<footer>
+  <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px">
+    <div>© 2026 Ajay Kumar, Columbia, Missouri<br><small>Event cover art: <a href="https://github.com/jdecked/twemoji">Twemoji</a>, CC-BY 4.0</small></div>
+    <div><a href="../">Live map</a> · <a href="../about/">About</a> · <a href="../privacy.html">Privacy policy</a> · <a href="../guidelines.html">Community guidelines</a> · <a href="../e/">All events</a> · <a href="../venues/">Venues</a> · <a href="../press.html">Press</a> · <a href="mailto:xenificity@icloud.com">Support</a></div>
+  </div>
+</footer>
+</div>
+<script>
+// Live numbers from the feed (the page reads fine without them).
+fetch("../events.json").then(function (r) { return r.json(); }).then(function (d) {
+  var ev = d.events || [];
+  if (ev.length) document.getElementById("nEvents").textContent = ev.length.toLocaleString();
+  var src = {}; ev.forEach(function (e) { if (e.sourceName) src[e.sourceName] = 1; });
+  var n = Object.keys(src).length; if (n) document.getElementById("nSources").textContent = n;
+}).catch(function () {});
+</script>
+<script src="/gc.js?v=1" defer></script>
+</body>
+</html>

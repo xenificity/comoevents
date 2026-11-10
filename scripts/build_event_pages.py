@@ -254,7 +254,7 @@ def set_nav(extra=()):
     global NAV, FOOT
     NAV = '<nav class="browse">' + " ".join(f'<a href="{u}">{html.escape(t)}</a>' for u, t in list(extra) + BROWSE) + "</nav>"
     FOOT = """<h2>Browse events in Columbia, MO</h2>""" + NAV + """
-<footer><a href="/">Live map</a> · <a href="/about/">About</a> · <a href="/get/?c=eventpage">Get the free iPhone app</a> · <a href="/stats/">Stats</a></footer>
+<footer><a href="/">Live map</a> · <a href="/about/">About</a> · <a href="/features/">Features</a> · <a href="/get/?c=eventpage">Get the free iPhone app</a> · <a href="/stats/">Stats</a></footer>
 </div></body></html>
 """
 
@@ -943,7 +943,7 @@ def main():
     with open(os.path.join(OUT, "event.css"), "w") as f:
         f.write(CSS.strip() + "\n")
 
-    urls = [f"{SITE}/", f"{SITE}/about/", f"{SITE}/e/"] + landing_urls + [f"{SITE}/e/{ev['_slug']}/" for ev in events]
+    urls = [f"{SITE}/", f"{SITE}/about/", f"{SITE}/features/", f"{SITE}/e/"] + landing_urls + [f"{SITE}/e/{ev['_slug']}/" for ev in events]
     with open(os.path.join(DOCS, "sitemap.xml"), "w") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
         f.writelines(f"  <url><loc>{u}</loc></url>\n" for u in urls)
