@@ -853,11 +853,18 @@
   "lng": -92.3366503,
   "name": "Mizzou Athletic Training Complex"
  },
+ "mizzourec 811 hitt street columbia mo 65211 united states, columbia, mo": null,
+ "mizzourec hitt street columbia mo, columbia, mo": null,
  "mizzourec studio a 3rd floor  1000 rollins st columbia miss 65211 united states, columbia, mo": null,
  "mizzourec studio a 3rd floor 1000 rollins st columbia miss 65211 united states, columbia, mo": null,
  "mizzourec studio a floor rollins st columbia miss, columbia, mo": null,
  "mizzourec studio b 3rd floor 1000 rollins st columbia miss 65211 united states, columbia, mo": null,
  "mizzourec studio c 3rd floor 1000 rollins st columbia miss 65211 united states, columbia, mo": null,
+ "mo 65201": {
+  "lat": 38.9388213,
+  "lng": -92.3033151,
+  "name": null
+ },
  "monsanto auditorium bond life sciences center university of missouri columbia missouri united states, columbia, mo": null,
  "murry’s restaurant, columbia, mo": {
   "lat": 38.9172589,
@@ -1012,6 +1019,7 @@
   "name": null
  },
  "university of concert series, columbia, mo": null,
+ "university of missouri columbia missouri united states, columbia, mo": null,
  "university of missouri, columbia, mo": {
   "lat": 38.9364147,
   "lng": -92.329703,

@@ -175,6 +175,9 @@
   },
   {
    "_slug": "stories-and-activities-for-adults-of-all-abilities-01d778",
+   "alsoOn": [
+    "https://events.dbrl.org/event/17488389"
+   ],
    "categories": [
     "community"
    ],
@@ -260,6 +263,9 @@
   },
   {
    "_slug": "day-of-the-goddess-celebration-798e9d",
+   "alsoOn": [
+    "https://allevents.in/columbia/day-of-the-goddess-celebration/200030957622739"
+   ],
    "categories": [
     "community"
    ],
@@ -287,21 +293,6 @@
    "start": "2026-11-13T12:00:00-06:00",
    "title": "Osage Artists Today: Art, Culture and Connection to Place",
    "venue": "Osage Artists Today: Art, Culture and Connection to Place"
-  },
-  {
-   "_slug": "luncheon-workshop-3-think-big-goal-setting-and-your-single-b-b3dbc0",
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "description": "What is the single biggest thing you can focus on that will make a significant impact in your life or the lives of others? Aiming for small improvements won’t lead to significant change. Just going for “good enough” won’t inspire you or those around you. To achieve something truly meaningful, you ha",
-   "end": "2026-11-13T13:30:00-06:00",
-   "id": "b3dbc0823eba1b87",
-   "imageUrl": "https://comoevent.com/img/gen/p-d4aed6608aa003.webp",
-   "source": "engage",
-   "start": "2026-11-13T12:30:00-06:00",
-   "title": "Luncheon Workshop # 3: Think Big: Goal-Setting and Your Single Biggest Thing (SBT)",
-   "venue": "Novak Leadership Institute"
   },
   {
    "_slug": "cuahsi-water-science-exchange-water-in-working-landscapes-po-e67f09",
@@ -348,6 +339,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "macalester-dose-the-rebels-live-at-myhouse-in-columbia-mo-73b507",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "73b507e188b58035",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8zM2FhYTEwOWMyNDE1YjcyMmFlZDVjYmVmMjhmNjAyZmI0NjQyMTMzYzM1YmIzNjAwMjgwZjZkNDdlOWFlZWY1LXJpbWctdzEyMDAtaDEwMjQtZGMwODA4MDgtZ21pcj92PTE3OTI5Njc0NzE.avif",
+   "source": "allevents",
+   "start": "2026-11-13T13:45:00-06:00",
+   "title": "Macalester Dose & The Rebels LIVE at MyHouse in Columbia, MO",
+   "venue": "My House Nightclub & Sports Bar"
+  },
+  {
    "_slug": "avenue-of-the-columns-tour-10d67a",
    "categories": [
     "music"
@@ -381,6 +385,9 @@
   },
   {
    "_slug": "graduates-on-faurot-field-a754fd",
+   "alsoOn": [
+    "https://engage.missouri.edu/SAS/rsvp?id=453696"
+   ],
    "categories": [
     "sports",
     "campus"
@@ -499,6 +506,9 @@
   },
   {
    "_slug": "film-friday-spider-man-brand-new-day-0aa4ff",
+   "alsoOn": [
+    "https://mizzouarts.missouri.edu/event/spider-man-brand-new-day/"
+   ],
    "categories": [
     "arts",
     "music"
@@ -574,6 +584,9 @@
   },
   {
    "_slug": "whodunnit-blood-on-the-clocktower-night-244fdc",
+   "alsoOn": [
+    "https://engage.missouri.edu/WSDC/rsvp?id=452205"
+   ],
    "categories": [
     "campus"
    ],
@@ -647,6 +660,24 @@
    "venue": "East Nifong Boulevard"
   },
   {
+   "_slug": "friday-night-commander-at-hexagon-alley-e708b8",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#magic-friday-night-commander"
+   ],
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "description": "You're invited to our MARQUEE NIGHT. DOOR PRIZES EVERY WEEK! This is the big one—more players, more prizes, more energy. Whether you're just getting into Magic or a seasoned spell-slinger, we'll point you toward a pod that fits. Looking to shake things up? We run PICK 2 DRAFT pick-ups and feature ro",
+   "end": "2026-11-13T21:00:00-06:00",
+   "id": "e708b8fcc47850af",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6960043844ec806eefaff16c/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-13T18:00:00-06:00",
+   "title": "Friday Night Commander at Hexagon Alley",
+   "venue": "Hexagon Alley"
+  },
+  {
    "_slug": "hatha-yoga-plus-sound-bath-at-rebecca-peters-wellness-1ba244",
    "categories": [
     "community"
@@ -702,24 +733,6 @@
    "start": "2026-11-13T18:00:00-06:00",
    "title": "Local Writer Showcase: Donal Quist & Jennifer Mauritza McCauley",
    "venue": "Nightjar Arts Collective"
-  },
-  {
-   "_slug": "magic-friday-night-commander-e708b8",
-   "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/504/1794614400000"
-   ],
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "description": "Play Friday Night Commander at Hexagon Alley, with pods for players of all skill levels, from newcomers to seasoned Magic players. Staff can help direct you to a pod that fits, and door prizes are available. Pick 2 Draft pick-ups and rotating Commander variants are also featured.",
-   "end": "2026-11-13T21:00:00-06:00",
-   "id": "e708b8fcc47850af",
-   "imageUrl": "https://comoevent.com/img/gen/b946da70740467.webp",
-   "source": "baselocal",
-   "start": "2026-11-13T18:00:00-06:00",
-   "title": "Magic: Friday Night Commander",
-   "venue": "Hexagon Alley"
   },
   {
    "_slug": "megan-boyer-band-331851",
@@ -854,6 +867,10 @@
   },
   {
    "_slug": "party-with-the-stars-8686b2",
+   "alsoOn": [
+    "https://allevents.in/columbia/party-with-the-stars/200030952163445",
+    "https://events.dbrl.org/event/17459294"
+   ],
    "categories": [
     "family"
    ],
@@ -870,6 +887,9 @@
   },
   {
    "_slug": "tyondai-braxton-at-crow-hall-d79c1f",
+   "alsoOn": [
+    "https://allevents.in/columbia/tyondai-braxton-at-crow-hall/100001989843582721"
+   ],
    "categories": [
     "community"
    ],
@@ -901,6 +921,9 @@
   },
   {
    "_slug": "little-women-the-musical-071642",
+   "alsoOn": [
+    "https://calendar.missouri.edu/theatre/event/20643-little-women"
+   ],
    "categories": [
     "arts"
    ],
@@ -917,6 +940,7 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-stl-s-vernon-longhorn-9ffb31",
    "alsoOn": [
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-stls-vernon-longhorn-davis/100002003092078328",
     "https://thearcadedistrict.org/"
    ],
    "categories": [
@@ -957,7 +981,6 @@
    ],
    "category": "campus",
    "description": "Tyondai Braxton finishes his MU residency in concert, with an opening performance by MNMI's Creative Improvisation Collective .",
-   "end": "2026-11-13T22:00:00-06:00",
    "id": "0ae6484ce6e43062",
    "imageUrl": "https://comoevent.com/img/gen/6967c76033583d.webp",
    "price": "MU students, staff, and faculty are FREE .; Non-MU attendees can purchase tickets through EventBrite .",
@@ -1015,6 +1038,10 @@
   },
   {
    "_slug": "nicole-atkins-rose-music-hall-277334",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#nicole-atkins",
+    "https://rosemusichall.com/event/nicole-atkins/"
+   ],
    "categories": [
     "music"
    ],
@@ -1113,6 +1140,7 @@
   {
    "_slug": "annual-christmas-bazaar-d1f2fe",
    "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#annual-christmas-bazaar",
     "https://tockify.com/the.district.cid/detail/1397/1794664800000"
    ],
    "categories": [
@@ -1173,7 +1201,6 @@
    "end": "2026-11-14T12:00:00-06:00",
    "id": "cf0735f53dbf0587",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
-   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-11-14T09:00:00-06:00",
    "title": "Columbia Farmers Market – Winter Season",
@@ -1199,18 +1226,18 @@
   {
    "_slug": "rock-bridge-renew-8d11a1",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6ad6a96dd93e86471e080b4f"
+    "https://baselocal.com/mo/columbia/events/#rock-bridge-renew"
    ],
    "categories": [
     "family"
    ],
    "category": "family",
-   "description": "Rock Bridge Renew is a twice-yearly volunteer event at Rock Bridge Memorial State Park, held in spring and fall to help care for the park’s natural surroundings. The fall activities include picking up litter along Highway 163 and removing invasive plants such as bush honeysuckle. Leadership, equipm…",
+   "description": "Rock Bridge Renew is Rock Bridge Memorial State Park's biannual volunteer event. Each spring and fall, volunteers are invited to enjoy a morning at…",
    "end": "2026-11-14T12:00:00-06:00",
    "id": "8d11a1029f1d46a5",
    "imageUrl": "https://comoevent.com/img/gen/4f75e554cd7d62.webp",
    "price": "Free",
-   "source": "baselocal",
+   "source": "macaronikid",
    "start": "2026-11-14T09:00:00-06:00",
    "title": "Rock Bridge Renew"
   },
@@ -1245,6 +1272,9 @@
   },
   {
    "_slug": "campus-cleanup-b5e4d3",
+   "alsoOn": [
+    "https://engage.missouri.edu/SustainMizzou/rsvp?id=452834"
+   ],
    "categories": [
     "campus"
    ],
@@ -1291,6 +1321,7 @@
   {
    "_slug": "free-family-event-gather-give-thanks-ea0c21",
    "alsoOn": [
+    "https://allevents.in/columbia/free-family-event-gather-and-give-thanks/200030547177901",
     "https://columbiamo.macaronikid.com/events/6a302ed046ffadd4b00a3928"
    ],
    "categories": [
@@ -1354,7 +1385,23 @@
    "venue": "The Tasting Room"
   },
   {
+   "_slug": "made-for-more-94ce33",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "94ce3333a5a937ed",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wYzA1YWEzZDg1ZjNiY2UzY2EwMTk5NjNkM2I5Yjg1YTY3MzYyNGNlOTE0NmE1NmJlNWIyYjVlOTk4MDAzYTA1LXJpbWctdzEyMDAtaDc3Ni1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
+   "source": "allevents",
+   "start": "2026-11-14T10:00:00-06:00",
+   "title": "Made for More",
+   "venue": "Cedar Creek Resort & RV Park"
+  },
+  {
    "_slug": "scrap-fabric-brooches-5325ae",
+   "alsoOn": [
+    "https://allevents.in/columbia/scrap-fabric-brooches-como-craftcycle/200030741232810"
+   ],
    "categories": [
     "community"
    ],
@@ -1396,6 +1443,9 @@
   },
   {
    "_slug": "the-tap-collective-workshop-with-chris-rutledge-b5a159",
+   "alsoOn": [
+    "https://engage.missouri.edu/TTC/rsvp?id=453715"
+   ],
    "categories": [
     "arts",
     "campus"
@@ -1454,6 +1504,9 @@
   },
   {
    "_slug": "tryps-theater-live-at-eleven-5694a5",
+   "alsoOn": [
+    "https://events.dbrl.org/event/17488457"
+   ],
    "categories": [
     "arts",
     "family",
@@ -1472,6 +1525,9 @@
   },
   {
    "_slug": "why-does-my-dog-do-that-kick-off-weekend-37d13d",
+   "alsoOn": [
+    "https://allevents.in/columbia/why-does-my-dog-do-that/200030981346840"
+   ],
    "categories": [
     "community"
    ],
@@ -1487,6 +1543,8 @@
   {
    "_slug": "wild-kratts-activate-kid-power-0e761b",
    "alsoOn": [
+    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943",
+    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/",
     "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad"
    ],
    "categories": [
@@ -1635,19 +1693,10 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "gallery-readings-w-clay-schiefelbein-22e550",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "22e550ce3783c7b0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9lOGRlZjUzNDZiYjJhYTEyNzljYjY1YTc4MzRmMmU2YTUwMWExODk3OWEwYWI1MmY2NTJjMzkwNmFhNDgwNjE0LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDUz.avif",
-   "source": "allevents",
-   "start": "2026-11-14T13:00:00-06:00",
-   "title": "Gallery Readings w/ Clay Schiefelbein"
-  },
-  {
    "_slug": "game-sale-day-839067",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#game-sale-day"
+   ],
    "categories": [
     "family"
    ],
@@ -1661,7 +1710,23 @@
    "title": "Game Sale Day"
   },
   {
+   "_slug": "mu-vs-georgia-tailgate-all-you-can-eat-buffet-raffle-drink-s-1e724b",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "1e724b3642023a10",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNTUzZDkyM2JlMDljMDA0YWI0NDQ2ZTRiNTQ5ZDQxZTNiYzhhODU1ZGJkMzU1NGRhNTU1ODUxYTM4OTJkNGI3ZC1yaW1nLXcxMjAwLWg2MDAtZGNmOGQ4NTgtZ21pci5qcGc_dj0xNzk0Mjc3ODY0.avif",
+   "source": "allevents",
+   "start": "2026-11-14T13:00:00-06:00",
+   "title": "MU vs Georgia Tailgate | All You Can Eat Buffet, Raffle, Drink Specials",
+   "venue": "The Kitchen Grill and Games"
+  },
+  {
    "_slug": "the-boones-lick-road-01367b",
+   "alsoOn": [
+    "https://events.dbrl.org/event/17538218"
+   ],
    "categories": [
     "community"
    ],
@@ -1891,6 +1956,9 @@
   },
   {
    "_slug": "ladies-of-country-782eff",
+   "alsoOn": [
+    "https://allevents.in/columbia/ladies-of-country/200030952416218"
+   ],
    "categories": [
     "family"
    ],
@@ -1973,6 +2041,9 @@
   },
   {
    "_slug": "shabazz-places-w-jwords-at-the-blue-note-f48b5e",
+   "alsoOn": [
+    "https://allevents.in/columbia/shabazz-places-w-jwords-at-the-blue-note/100001993212965636"
+   ],
    "categories": [
     "music",
     "arts"
@@ -2032,6 +2103,9 @@
   },
   {
    "_slug": "little-women-the-musical-29b4f5",
+   "alsoOn": [
+    "https://calendar.missouri.edu/theatre/event/20645-little-women"
+   ],
    "categories": [
     "arts"
    ],
@@ -2044,19 +2118,6 @@
    "start": "2026-11-14T19:30:00-06:00",
    "title": "Little Women: The Musical",
    "venue": "Rhynsburger Theatre"
-  },
-  {
-   "_slug": "made-for-more-94ce33",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "94ce3333a5a937ed",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wYzA1YWEzZDg1ZjNiY2UzY2EwMTk5NjNkM2I5Yjg1YTY3MzYyNGNlOTE0NmE1NmJlNWIyYjVlOTk4MDAzYTA1LXJpbWctdzEyMDAtaDc3Ni1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
-   "source": "allevents",
-   "start": "2026-11-14T19:30:00-06:00",
-   "title": "Made for More",
-   "venue": "Cedar Creek Resort & RV Park"
   },
   {
    "_slug": "saturday-night-comedy-at-the-tokyo-club-4bb477",
@@ -2116,6 +2177,9 @@
   },
   {
    "_slug": "shabazz-palaces-ad82a5",
+   "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/redferrin-the-blue-note-2/"
+   ],
    "categories": [
     "music"
    ],
@@ -2132,6 +2196,10 @@
   },
   {
    "_slug": "smells-like-nirvana-rose-music-hall-483aa1",
+   "alsoOn": [
+    "https://rosemusichall.com/event/smells-like-nirvana-3/",
+    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana-at-rose-music-hall"
+   ],
    "categories": [
     "music"
    ],
@@ -2161,6 +2229,7 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-wes-538a37",
    "alsoOn": [
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308",
     "https://thearcadedistrict.org/"
    ],
    "categories": [
@@ -2207,6 +2276,20 @@
    "start": "2026-11-14T21:00:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "chiefs-game-day-at-the-kitchen-16159b",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "16159b869ba05ae0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9pbWcuZXZidWMuY29tL2h0dHBzJTNBJTJGJTJGY2RuLmV2YnVjLmNvbSUyRmltYWdlcyUyRjExOTI3MTkwMzklMkYyMjc2MzY1ODYzNDgzJTJGMSUyRm9yaWdpbmFsLjIwMjYwOTA0LTIwNTQxND9hdXRvPWZvcm1hdCUyQ2NvbXByZXNzJnE9NzUmc2hhcnA9MTAmcz1kMjk1NDZmMzA3Njk1NDNiYTY2ZDZhNWZjZjc0NzRiMA.avif",
+   "source": "allevents",
+   "start": "2026-11-15T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Chiefs Game Day at The Kitchen",
+   "venue": "The Kitchen Grill and Games"
   },
   {
    "_slug": "yoga-at-partner-for-better-909a1f",
@@ -2282,6 +2365,25 @@
    "start": "2026-11-15T10:30:00-06:00",
    "title": "Yoga at Partner For Better",
    "venue": "Partner For Better"
+  },
+  {
+   "_slug": "front-porch-stories-an-evening-of-bluegrass-d2d475",
+   "alsoOn": [
+    "https://www.choralartsallianceofmissouri.org/caam-concerts/"
+   ],
+   "categories": [
+    "music",
+    "family"
+   ],
+   "category": "music",
+   "description": "Columbia Youth Choirs with guest artists Ironweed Bluegrass Band",
+   "end": "2026-11-15T19:00:00-06:00",
+   "id": "d2d475f294f52661",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80MTc3NDUxMTdjNjlmODNjZGZhNGQzNTJiNjFiOTI1MzRlMjNlZDZhNTc4YmFjM2QwZTBkNWY2NzliYTgxMzZjLXJpbWctdzEyMDAtaDE1MDAtZGMxODI4MjgtZ21pcj92PTE3OTM4MTkxMzE.avif",
+   "source": "allevents",
+   "start": "2026-11-15T11:00:00-06:00",
+   "title": "Front Porch Stories: An Evening of Bluegrass",
+   "venue": "The Atrium on Tenth"
   },
   {
    "_slug": "unity-of-columbia-annual-art-craft-fair-day-2-2a3f8d",
@@ -2361,6 +2463,9 @@
   },
   {
    "_slug": "samantha-decker-clarinet-recital-b9d682",
+   "alsoOn": [
+    "https://calendar.missouri.edu/event/20067-samantha-decker-clarinet-recital"
+   ],
    "categories": [
     "campus"
    ],
@@ -2390,6 +2495,9 @@
   },
   {
    "_slug": "columbia-coffee-club-foodies-new-friends-3ca3d3",
+   "alsoOn": [
+    "https://allevents.in/columbia/columbia-coffee-club-foodies-new-friends/100001992938389371"
+   ],
    "categories": [
     "food"
    ],
@@ -2406,6 +2514,9 @@
   },
   {
    "_slug": "family-day-at-the-museum-c71caa",
+   "alsoOn": [
+    "https://calendar.missouri.edu/live/events/15901-family-day-at-the-museum"
+   ],
    "categories": [
     "arts",
     "family"
@@ -2422,6 +2533,24 @@
    "venue": "Museum of Art and Archaeology"
   },
   {
+   "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
+   ],
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "The House of Mouse and Hexagon Alley collide at our Lorcana weekly play! Entry: $5 Format: Standard",
+   "end": "2026-11-15T16:00:00-06:00",
+   "id": "5a0a276bd4fd7a6e",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab5536347d5d2eab1fcb662/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-15T13:00:00-06:00",
+   "title": "Hexagon Alley Lorcana Weekly Play",
+   "venue": "Hexagon Alley"
+  },
+  {
    "_slug": "lola-and-billy-the-kid-9d861f",
    "categories": [
     "arts"
@@ -2435,24 +2564,6 @@
    "start": "2026-11-15T13:00:00-06:00",
    "title": "Lola and Billy the Kid",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "lorcana-weekly-play-5a0a27",
-   "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1328/1794769200000"
-   ],
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "description": "Take part in weekly Lorcana play in Standard format. Entry is $5.",
-   "end": "2026-11-15T16:00:00-06:00",
-   "id": "5a0a276bd4fd7a6e",
-   "imageUrl": "https://comoevent.com/img/gen/d2a3e1cbc7a7a4.webp",
-   "source": "baselocal",
-   "start": "2026-11-15T13:00:00-06:00",
-   "title": "Lorcana Weekly Play",
-   "venue": "Hexagon Alley"
   },
   {
    "_slug": "beginning-sewing-with-como-craftcycle-f38bcf",
@@ -2471,23 +2582,10 @@
    "venue": "Columbia Public Library"
   },
   {
-   "_slug": "front-porch-stories-an-evening-of-bluegrass-d2d475",
-   "categories": [
-    "music",
-    "family"
-   ],
-   "category": "music",
-   "description": "Columbia Youth Choirs with guest artists Ironweed Bluegrass Band",
-   "end": "2026-11-15T19:00:00-06:00",
-   "id": "d2d475f294f52661",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80MTc3NDUxMTdjNjlmODNjZGZhNGQzNTJiNjFiOTI1MzRlMjNlZDZhNTc4YmFjM2QwZTBkNWY2NzliYTgxMzZjLXJpbWctdzEyMDAtaDE1MDAtZGMxODI4MjgtZ21pcj92PTE3OTM4MTkxMzE.avif",
-   "source": "allevents",
-   "start": "2026-11-15T13:45:00-06:00",
-   "title": "Front Porch Stories: An Evening of Bluegrass",
-   "venue": "The Atrium on Tenth"
-  },
-  {
    "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
+   ],
    "categories": [
     "music",
     "nightlife"
@@ -2517,6 +2615,9 @@
   },
   {
    "_slug": "little-women-the-musical-862329",
+   "alsoOn": [
+    "https://calendar.missouri.edu/live/events/18339-little-women"
+   ],
    "categories": [
     "arts"
    ],
@@ -2659,6 +2760,9 @@
   },
   {
    "_slug": "jazz-combos-at-murrys-0aeace",
+   "alsoOn": [
+    "https://allevents.in/columbia/jazz-combos-at-murrys/200030990706233"
+   ],
    "categories": [
     "music"
    ],
@@ -2674,6 +2778,9 @@
   },
   {
    "_slug": "cardio-dance-free-gaga-grande-and-gratitude-with-tigerx-a134c4",
+   "alsoOn": [
+    "https://engage.missouri.edu/MizzouRec/rsvp?id=453698"
+   ],
    "categories": [
     "arts",
     "campus"
@@ -2729,19 +2836,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "nov-boone-regional-beekeepers-local-plants-beneficial-to-bee-d7c30c",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "d7c30c4c80fef2c2",
-   "imageUrl": "https://comoevent.com/img/gen/2e045d0df21221.webp",
-   "source": "allevents",
-   "start": "2026-11-15T20:00:00-06:00",
-   "title": "Nov: Boone Regional Beekeepers-local plants beneficial to bees & dessert!",
-   "venue": "Animal Science Research Center"
-  },
-  {
    "_slug": "wild-horse-nine-a97ecd",
    "categories": [
     "arts"
@@ -2758,18 +2852,18 @@
   }
  ],
  "friday": "2026-11-13",
- "modified": "2026-11-09",
+ "modified": "2026-11-10",
  "picks": [
   "eab61d06004af6ab",
-  "3318510d62b54414",
-  "9ffb31ee12106692",
   "071642c6e660b3d4",
-  "011e2839fec348ca",
+  "9ffb31ee12106692",
   "2773342929747aeb",
   "f588b2da76cc5764",
   "cf0735f53dbf0587",
-  "0a8b8da2f39cdb13",
-  "f7e41bac974bb2b9"
+  "f7e41bac974bb2b9",
+  "3ca3d3dbf3a51d48",
+  "0aeace99f97fbd98",
+  "a134c47608feef97"
  ],
  "published": "2026-11-09"
 }
