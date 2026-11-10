@@ -6,7 +6,7 @@
 <title>CoMo Events · Everything happening in Columbia, MO on one map</title>
 <meta name="description" content="CoMo Events is a free iPhone app that puts every public event in Columbia, Missouri on one live map: Mizzou, downtown, music, parties, markets, library and family events.">
 <meta property="og:title" content="CoMo Events">
-<meta property="og:description" content="Every public event in Columbia, Missouri on one live map. Free, no ads.">
+<meta property="og:description" content="Every public event in Columbia, Missouri on one live map. Free, no ads, on iPhone and the web.">
 <meta property="og:image" content="https://comoevent.com/img/icon-512.png">
 <link rel="canonical" href="https://comoevent.com/about/">
 <link rel="icon" href="../img/icon-512.png">
@@ -78,17 +78,17 @@ footer a{color:var(--muted)}
 
 <section class="hero">
   <div>
-    <span class="pill">Free · No ads · No tracking</span>
+    <span class="pill">Free · No ads · iPhone and web</span>
     <h1>Everything happening in <span>Columbia, MO</span>, on one map.</h1>
-    <p class="lead">Mizzou, downtown, concerts, parties, markets, the library, family days. CoMo Events gathers every public listing in town, refreshes it around the clock, and shows you what's near you right now.</p>
+    <p class="lead">Mizzou, downtown, concerts, parties, markets, churches and temples, the library, family days. CoMo Events gathers every public listing in town, refreshes it every two hours, and shows you what's near you right now. Anyone can add their own event, and it goes live right away.</p>
     <div class="cta">
       <a class="btn" id="store" href="../get/?c=site">Get it for iPhone</a>
       <a class="btn ghost" href="../">Open the live map</a>
     </div>
     <div class="stats" id="stats">
-      <div><b>1,000+</b>events in the next 90 days</div>
-      <div><b>12</b>public sources merged</div>
-      <div><b>9</b>categories with their own pin</div>
+      <div><b id="nEvents">1,300+</b>events in the next two months</div>
+      <div><b id="nSources">30+</b>public sources merged</div>
+      <div><b>10</b>categories with their own pin</div>
     </div>
   </div>
   <div class="phones" aria-hidden="true">
@@ -99,17 +99,17 @@ footer a{color:var(--muted)}
 
 <section id="features">
   <h2>Built for a Friday night in CoMo</h2>
-  <p class="sub">Simple on purpose. Open it, see what's close, go.</p>
+  <p class="sub">Simple on purpose. Open it, see what's close, go. <a href="../features/">See every feature in detail</a>.</p>
   <div class="grid">
-    <div class="card" style="--c:#ff4090"><div class="ic">🎉</div><h3>Pins that tell you what it is</h3><p>Parties, music, nightlife, food, arts, sports, family, campus and community each get their own symbol and colour. Busy spots glow.</p></div>
+    <div class="card" style="--c:#ff4090"><div class="ic">🎉</div><h3>Pins that tell you what it is</h3><p>Parties, music, nightlife, food, arts, sports, family, campus, faith and community each get their own symbol and colour. Busy spots glow, and zoomed in, every place shows its name. Tap a place to see all its events.</p></div>
     <div class="card" style="--c:#FFD600"><div class="ic">⏱️</div><h3>Now · Today · Weekend · 7 days</h3><p>One switch filters the whole map. A "Next up" strip floats over it with what's starting soon.</p></div>
-    <div class="card" style="--c:#5a3ce0"><div class="ic">👥</div><h3>Who's it for</h3><p>Everyone, Singles, Couples, Groups or Family. Pick one and the map, the list and the suggestions all follow.</p></div>
-    <div class="card" style="--c:#00b3c0"><div class="ic">❤️</div><h3>Save and go</h3><p>Heart an event to keep it. Tickets, directions and the venue's phone are one tap away.</p></div>
-    <div class="card" style="--c:#2ecc71"><div class="ic">☁️</div><h3>Optional profile</h3><p>Sign in with Apple to keep your interests and saved events in your own iCloud. No password, no email list, never required.</p></div>
-    <div class="card" style="--c:#ff7a00"><div class="ic">🔒</div><h3>Nothing collected</h3><p>No analytics, no ads, no server of ours. Your location stays on your phone.</p></div>
+    <div class="card" style="--c:#5a3ce0"><div class="ic">👥</div><h3>Who's it for</h3><p>Everyone, Singles, Couples, Groups or Family. Pick one and the map, the list and the suggestions all follow. Smart search understands "date night", "hindu temple" or "jazz tonight".</p></div>
+    <div class="card" style="--c:#00b3c0"><div class="ic">❤️</div><h3>Save, go, bring friends</h3><p>Heart an event and get a reminder an hour before. Mark Going, see who else is, and add friends by code. Tickets, directions and the venue's phone are one tap away.</p></div>
+    <div class="card" style="--c:#2ecc71"><div class="ic">📣</div><h3>Post your own event</h3><p>Snap a flyer and the app fills in the title, date, time and place. Your event is on the map and in search for everyone within a minute.</p></div>
+    <div class="card" style="--c:#ff7a00"><div class="ic">🔒</div><h3>Private by default</h3><p>No account needed. Sign in with Apple keeps your profile and saves in your own iCloud. No ads, only anonymous usage counts, and your location stays on your phone.</p></div>
   </div>
   <div class="legend">
-    <span><i style="background:#ff4090"></i>Party</span><span><i style="background:#8c4dff"></i>Music</span><span><i style="background:#5a5ae6"></i>Nightlife</span><span><i style="background:#e5484d"></i>Food</span><span><i style="background:#00b3c0"></i>Arts</span><span><i style="background:#ff8c1a"></i>Sports</span><span><i style="background:#2ecc71"></i>Family</span><span><i style="background:#FFD600"></i>Campus</span><span><i style="background:#2f80ed"></i>Community</span>
+    <span><i style="background:#ff4090"></i>Party</span><span><i style="background:#8c4dff"></i>Music</span><span><i style="background:#5a5ae6"></i>Nightlife</span><span><i style="background:#e5484d"></i>Food</span><span><i style="background:#00b3c0"></i>Arts</span><span><i style="background:#ff8c1a"></i>Sports</span><span><i style="background:#2ecc71"></i>Family</span><span><i style="background:#FFD600"></i>Campus</span><span><i style="background:#9b6b43"></i>Faith</span><span><i style="background:#2f80ed"></i>Community</span>
   </div>
 </section>
 
@@ -127,19 +127,19 @@ footer a{color:var(--muted)}
 
 <section id="sources">
   <h2>Where the events come from</h2>
-  <p class="sub">Public listings only, each linked back to its source for tickets and details. Missing a venue? <a href="mailto:xenificity@icloud.com?subject=CoMo%20Events%20source">Tell us</a>.</p>
+  <p class="sub">Public listings only, each linked back to its source for tickets and details. New sources are added every week (<a href="../features/#data">full list</a>). Missing a venue? <a href="mailto:xenificity@icloud.com?subject=CoMo%20Events%20source">Tell us</a>.</p>
   <ul class="sources">
-    <li>University of Missouri calendar</li><li>Visit Columbia</li><li>The Blue Note &amp; Rose Music Hall</li><li>Daniel Boone Regional Library</li><li>Cooper's Landing</li><li>Shanthi Mandir (Hindu Temple of Mid-Missouri)</li><li>MyHouse (via Posh)</li><li>Eventbrite</li><li>AllEvents</li><li>Base Local</li><li>Vox Magazine community calendar</li>
+    <li>University of Missouri calendar and MU Engage</li><li>Columbia College and Stephens College</li><li>Visit Columbia and The District</li><li>The Blue Note &amp; Rose Music Hall</li><li>Ragtag Cinema, the Missouri Symphony and local theatres</li><li>Columbia Art League and North Village Arts District</li><li>Daniel Boone Regional Library</li><li>Columbia Farmers Market and Cooper's Landing</li><li>Shanthi Mandir (Hindu Temple of Mid-Missouri)</li><li>Macaroni Kid, RunSignup and COMO Tickets</li><li>Columbia Chamber of Commerce</li><li>Eventbrite, AllEvents, Base Local and Vox Magazine</li><li>Events posted by people in the app</li>
   </ul>
 </section>
 
 <section id="faq" class="faq">
   <h2>Questions</h2>
   <details><summary>Is it really free?</summary><p>Yes. No price, no ads, no in-app purchases. It's a community project made in Columbia.</p></details>
-  <details><summary>Do I need an account?</summary><p>No. Everything works without one. Sign in with Apple only keeps your saved events and interests in your own iCloud so they follow you to a new phone.</p></details>
+  <details><summary>Do I need an account?</summary><p>No. Browsing, searching and saving work without one. Signing in with Apple keeps your saved events and interests in your own iCloud so they follow you to a new phone or the website, and lets you post events, mark Going and add friends.</p></details>
   <details><summary>An event is wrong or missing.</summary><p>Events come straight from the public sources above and refresh every couple of hours. If a venue is missing or a pin is in the wrong place, email <a href="mailto:xenificity@icloud.com">xenificity@icloud.com</a> or open an issue on <a href="https://github.com/xenificity/comoevents/issues">GitHub</a>.</p></details>
-  <details><summary>Android?</summary><p>iPhone first. The event feed is open, so an Android or web version is possible later.</p></details>
-  <details><summary>Can I add my own event?</summary><p>Not in the app yet. Post it on Eventbrite, AllEvents or Vox's community calendar and it will show up within a few hours.</p></details>
+  <details><summary>Android?</summary><p>Use the web app at <a href="../">comoevent.com</a>: it has the same map, search, saves, friends and posting, in any browser. An Android app may come later.</p></details>
+  <details><summary>Can I add my own event?</summary><p>Yes, for free. Tap Post an event in the app or on the website, or scan your flyer and let it fill in the details. Your event goes live on the map and in search right away. Please follow the <a href="../guidelines.html">community guidelines</a>.</p></details>
 </section>
 
 <footer>
@@ -156,6 +156,14 @@ var url="https://api.apple-cloudkit.com/database/1/iCloud.com.xenificity.comoeve
 var total=0;function page(marker){var body={query:{recordType:"Install",filterBy:[{fieldName:"installedAt",comparator:"GREATER_THAN",fieldValue:{value:0}}]},resultsLimit:400,desiredKeys:[]};if(marker)body.continuationMarker=marker;
 return fetch(url,{method:"POST",body:JSON.stringify(body)}).then(function(r){return r.json()}).then(function(j){total+=(j.records||[]).length;if(j.continuationMarker&&total<50000)return page(j.continuationMarker);});}
 page().then(function(){if(!total)return;var s=document.getElementById("stats");if(!s)return;var d=document.createElement("div");d.id="cloudkit-users";d.innerHTML="<b>"+total.toLocaleString()+"</b>"+(total===1?"person using it":"people using it");s.appendChild(d);}).catch(function(){});})();
+</script>
+<script>
+fetch("../events.json").then(function (r) { return r.json(); }).then(function (d) {
+  var ev = d.events || [], src = {};
+  if (ev.length) document.getElementById("nEvents").textContent = ev.length.toLocaleString();
+  ev.forEach(function (e) { if (e.sourceName) src[e.sourceName] = 1; });
+  var n = Object.keys(src).length; if (n) document.getElementById("nSources").textContent = n;
+}).catch(function () {});
 </script>
 <script src="/gc.js?v=1" defer></script>
 </body>
