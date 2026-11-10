@@ -250,18 +250,6 @@
    "title": "Day of the Goddess Celebration"
   },
   {
-   "_slug": "gilded-pearls-friday-the-13th-sale-6cbb13",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "6cbb137f5c2fe061",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy8yYTc4Mjg2NDc3MTYxZTkyZjdmZDEzM2YwODBiOTQ3OWM0NzQ5ZGQxOTNkMDk0M2IzZDIwYTYwZmEzNDA3ZTNjLXJpbWctdzEyMDAtaDE2MDAtZGMwODA4MDgtZ21pcj92PTE3OTM5NDIyMDQ.avif",
-   "source": "allevents",
-   "start": "2026-11-13T12:00:00-06:00",
-   "title": "Gilded Pearl’s Friday the 13th Sale"
-  },
-  {
    "_slug": "osage-artists-today-art-culture-and-connection-to-place-9cf6a5",
    "categories": [
     "arts"
@@ -308,6 +296,49 @@
    "start": "2026-11-13T13:00:00-06:00",
    "title": "CUAHSI Water Science Exchange: Water in Working Landscapes - Poster Session",
    "venue": "Bond Life Sciences Center"
+  },
+  {
+   "_slug": "wild-horse-nine-5fa136",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-13T14:57:00-06:00",
+   "id": "5fa13639967d68dd",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-13T13:00:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "you-can-see-everything-67d51e",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-13T16:24:00-06:00",
+   "id": "67d51ec37b0abff9",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-13T13:30:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "macalester-dose-the-rebels-live-at-myhouse-in-columbia-mo-73b507",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "73b507e188b58035",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8zM2FhYTEwOWMyNDE1YjcyMmFlZDVjYmVmMjhmNjAyZmI0NjQyMTMzYzM1YmIzNjAwMjgwZjZkNDdlOWFlZWY1LXJpbWctdzEyMDAtaDEwMjQtZGMwODA4MDgtZ21pcj92PTE3OTI5Njc0NzE.avif",
+   "source": "allevents",
+   "start": "2026-11-13T13:45:00-06:00",
+   "title": "Macalester Dose & The Rebels LIVE at MyHouse in Columbia, MO",
+   "venue": "My House Nightclub & Sports Bar"
   },
   {
    "_slug": "avenue-of-the-columns-tour-10d67a",
@@ -448,6 +479,21 @@
    "title": "Starting Gate New Play Festival 2026"
   },
   {
+   "_slug": "once-upon-a-time-in-harlem-da88d6",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-13T17:30:00-06:00",
+   "id": "da88d67e4413d14c",
+   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
+   "source": "ragtag",
+   "start": "2026-11-13T15:50:00-06:00",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "film-friday-spider-man-brand-new-day-0aa4ff",
    "alsoOn": [
     "https://mizzouarts.missouri.edu/event/spider-man-brand-new-day/"
@@ -527,6 +573,21 @@
    "venue": "Tate Hall 101"
   },
   {
+   "_slug": "once-upon-a-time-in-harlem-b293da",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-13T18:55:00-06:00",
+   "id": "b293da2b81e08bd2",
+   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
+   "source": "ragtag",
+   "start": "2026-11-13T17:15:00-06:00",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "48-hour-film-competition-b51b5d",
    "categories": [
     "arts"
@@ -537,6 +598,19 @@
    "source": "allevents",
    "start": "2026-11-13T18:00:00-06:00",
    "title": "48-Hour Film Competition"
+  },
+  {
+   "_slug": "hot-yoga-fundraiser-journey-through-the-decades-e1a3b8",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e1a3b83e0c4e750f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9hOThhNjQ4YTU3Zjg3YTM5NjRiOGVhMGNjZGFjM2QxNDVlNmU0MjIzNDExYzdmOTZkOGI2ZDRjMGIwMGVkZWI1LXJpbWctdzEyMDAtaDQ1NS1kYzA4MDgwOC1nbWlyP3Y9MTc5NDIzMzMzNg.avif",
+   "source": "allevents",
+   "start": "2026-11-13T18:00:00-06:00",
+   "title": "Hot Yoga Fundraiser: Journey Through the Decades!",
+   "venue": "Sumits Hot Yoga Columbia"
   },
   {
    "_slug": "international-christian-fellowship-3148ce",
@@ -599,6 +673,21 @@
    "venue": "Meet & Greet"
   },
   {
+   "_slug": "wild-horse-nine-53dfe6",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-13T20:17:00-06:00",
+   "id": "53dfe612c04af020",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-13T18:20:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "lakshmi-sahasranama-and-kumkuma-archana-f0965b",
    "categories": [
     "religious",
@@ -655,8 +744,38 @@
    "venue": "Jesse Auditorium"
   },
   {
-   "_slug": "party-with-the-stars-32ddee",
+   "_slug": "gilded-pearls-friday-the-13th-sale-6cbb13",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "6cbb137f5c2fe061",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy8yYTc4Mjg2NDc3MTYxZTkyZjdmZDEzM2YwODBiOTQ3OWM0NzQ5ZGQxOTNkMDk0M2IzZDIwYTYwZmEzNDA3ZTNjLXJpbWctdzEyMDAtaDE2MDAtZGMwODA4MDgtZ21pcj92PTE3OTM5NDIyMDQ.avif",
+   "source": "allevents",
+   "start": "2026-11-13T19:00:00-06:00",
+   "title": "Gilded Pearl’s Friday the 13th Sale"
+  },
+  {
+   "_slug": "mj-night-f588b2",
+   "categories": [
+    "music",
+    "party"
+   ],
+   "category": "music",
+   "description": "Club 90s Presents · with JWords",
+   "id": "f588b2da76cc5764",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Redferrin_RB_Swamp_2533-Crop-Square-e1788272556494.jpg",
+   "source": "bluenote",
+   "start": "2026-11-13T19:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/mj-night-ages-18-columbia-missouri-11-13-2026/event/06006537C7F70D66",
+   "timeTBD": true,
+   "title": "MJ Night",
+   "venue": "The Blue Note"
+  },
+  {
+   "_slug": "party-with-the-stars-8686b2",
    "alsoOn": [
+    "https://allevents.in/columbia/party-with-the-stars/200030952163445",
     "https://events.dbrl.org/event/17459294"
    ],
    "categories": [
@@ -665,8 +784,8 @@
    "category": "family",
    "description": "Explore the night sky with a brief indoor slideshow, followed by telescope viewing of Saturn and Uranus outdoors if the skies are clear. Everyone will receive a free star chart. The program is hosted by Val Germann of the Central Missouri Astronomical Association and is for ages 10 through adult.",
    "end": "2026-11-13T21:00:00-06:00",
-   "id": "32ddee4e9ff624eb",
-   "imageUrl": "https://comoevent.com/img/gen/61841a2075eb87.webp",
+   "id": "8686b2a10230dc7b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wZTM0NDIxOTY0NTQyYzRlYzBkZjk2NjQxMWI1MTMwZmVkZTI1MTlkM2YxM2JlNjdlY2UxZmVhY2ViZjVkNzg0LXJpbWctdzEyMDAtaDYyOC1kYzA4MDgwOC1nbWlyP3Y9MTc5MzYwNjA4NA.avif",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-13T19:00:00-06:00",
@@ -776,6 +895,21 @@
    "venue": "Sinquefield Music Center"
   },
   {
+   "_slug": "you-can-see-everything-47fd66",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-13T22:39:00-06:00",
+   "id": "47fd66e8fe443e93",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-13T19:45:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "craft-club-2b3596",
    "categories": [
     "party",
@@ -795,8 +929,7 @@
   {
    "_slug": "nicole-atkins-rose-music-hall-277334",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#nicole-atkins",
-    "https://rosemusichall.com/event/nicole-atkins/"
+    "https://baselocal.com/mo/columbia/events/#nicole-atkins"
    ],
    "categories": [
     "music"
@@ -808,7 +941,6 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Nicole-Atkins-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-11-13T20:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/nicole-atkins-columbia-missouri-11-13-2026/event/060064D43A4DEF52",
    "title": "Nicole Atkins – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -826,6 +958,21 @@
    "start": "2026-11-13T21:00:00-06:00",
    "title": "Friday Night Comedy at The Tokyo Club",
    "venue": "The Arcade District"
+  },
+  {
+   "_slug": "wild-horse-nine-cb0829",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-13T23:12:00-06:00",
+   "id": "cb082952f990c510",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-13T21:15:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "annual-christmas-bazaar-d1f2fe",
@@ -1152,10 +1299,27 @@
    "venue": "Columbia Public Library"
   },
   {
+   "_slug": "why-does-my-dog-do-that-kick-off-weekend-37d13d",
+   "alsoOn": [
+    "https://allevents.in/columbia/why-does-my-dog-do-that/200030981346840"
+   ],
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Chat with nationally certified trainers about dog training careers, watch live demos, and join enrichment activities, presentations and Q&A sessions. Bring your questions, especially if your dog reacts when out in public. Everything is free, so come curious and stay a while.",
+   "id": "37d13db7bda3d704",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wMTY5MDRiM2E4N2FlN2Q5OTkyZGZiNGFmMDVlMTgzOTJhNDI0MWZiOGQwNDA1MGY3NjAwN2YxYzdhZTFhNWE5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mzk0MjE5OQ.avif",
+   "source": "baselocal",
+   "start": "2026-11-14T11:00:00-06:00",
+   "title": "WHY DOES MY DOG DO THAT?! Kick Off Weekend",
+   "venue": "4107 White Tiger Lane"
+  },
+  {
    "_slug": "wild-kratts-activate-kid-power-0e761b",
    "alsoOn": [
-    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/",
-    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943"
+    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943",
+    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/"
    ],
    "categories": [
     "family",
@@ -1259,16 +1423,19 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "gallery-readings-w-clay-schiefelbein-22e550",
+   "_slug": "wild-horse-nine-e43270",
    "categories": [
     "arts"
    ],
    "category": "arts",
-   "id": "22e550ce3783c7b0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9lOGRlZjUzNDZiYjJhYTEyNzljYjY1YTc4MzRmMmU2YTUwMWExODk3OWEwYWI1MmY2NTJjMzkwNmFhNDgwNjE0LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDUz.avif",
-   "source": "allevents",
-   "start": "2026-11-14T13:00:00-06:00",
-   "title": "Gallery Readings w/ Clay Schiefelbein"
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-14T14:27:00-06:00",
+   "id": "e432704177f6b596",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-14T12:30:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "game-sale-day-839067",
@@ -1322,6 +1489,21 @@
    "start": "2026-11-14T13:00:00-06:00",
    "title": "The Saturday Afternoon cArtifact",
    "venue": "Museum of Anthropology"
+  },
+  {
+   "_slug": "you-can-see-everything-1398d2",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-14T15:54:00-06:00",
+   "id": "1398d2a0ae383d7f",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-14T13:00:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "fall-concert-with-the-jefferson-city-community-symphonic-ban-90ca8e",
@@ -1386,19 +1568,6 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "why-does-my-dog-do-that-37d13d",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "37d13db7bda3d704",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wMTY5MDRiM2E4N2FlN2Q5OTkyZGZiNGFmMDVlMTgzOTJhNDI0MWZiOGQwNDA1MGY3NjAwN2YxYzdhZTFhNWE5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mzk0MjE5OQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T14:00:00-06:00",
-   "title": "Why does my dog do THAT?!",
-   "venue": "Unchained Melodies Dog Rescue"
-  },
-  {
    "_slug": "rainbow-story-time-c82c2d",
    "categories": [
     "family"
@@ -1413,6 +1582,36 @@
    "start": "2026-11-14T15:00:00-06:00",
    "title": "Rainbow Story Time",
    "venue": "Columbia Public Library"
+  },
+  {
+   "_slug": "wild-horse-nine-a87cac",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-14T17:37:00-06:00",
+   "id": "a87cac781170d1cb",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-14T15:40:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "once-upon-a-time-in-harlem-13446c",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-14T18:30:00-06:00",
+   "id": "13446cefca8cc214",
+   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
+   "source": "ragtag",
+   "start": "2026-11-14T16:50:00-06:00",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "dear-lara-film-screening-with-lara-st-john-33e9b6",
@@ -1476,6 +1675,21 @@
    "venue": "Scottish Rite, Valley of Columbia"
   },
   {
+   "_slug": "once-upon-a-time-in-harlem-dffaf2",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-14T20:10:00-06:00",
+   "id": "dffaf2e22a2ad6b9",
+   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
+   "source": "ragtag",
+   "start": "2026-11-14T18:30:00-06:00",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "2026-fall-into-art-f9d034",
    "categories": [
     "arts"
@@ -1532,6 +1746,35 @@
    "ticketUrl": "https://www.eventbrite.com/e/shabazz-places-w-jwords-at-the-blue-note-tickets-1993212965636",
    "title": "Shabazz Places w/ JWords at The Blue Note",
    "venue": "The Blue Note"
+  },
+  {
+   "_slug": "welcome-home-premiere-102e9e",
+   "categories": [
+    "religious",
+    "community"
+   ],
+   "category": "community",
+   "id": "102e9e802843a8d0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy81ZTg5YjcyNDE4OWM2ZmMzNWIwODA5ZjE1ZjFkNzUyMzMwODJmNjRiZjE3NmE1MTc0YjI3MmM0MGIxNWJlMjE5LXJpbWctdzEyMDAtaDkwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ2Nw.avif",
+   "source": "allevents",
+   "start": "2026-11-14T19:00:00-06:00",
+   "title": "“Welcome Home” Premiere",
+   "venue": "Forum Christian Church"
+  },
+  {
+   "_slug": "you-can-see-everything-f54d33",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-14T22:14:00-06:00",
+   "id": "f54d3373fe3c35e5",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-14T19:20:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "john-clark-celebration-of-life-e85c88",
@@ -1593,34 +1836,6 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "welcome-home-premiere-102e9e",
-   "categories": [
-    "religious",
-    "community"
-   ],
-   "category": "community",
-   "id": "102e9e802843a8d0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy81ZTg5YjcyNDE4OWM2ZmMzNWIwODA5ZjE1ZjFkNzUyMzMwODJmNjRiZjE3NmE1MTc0YjI3MmM0MGIxNWJlMjE5LXJpbWctdzEyMDAtaDkwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5Mjk2NzQ2Nw.avif",
-   "source": "allevents",
-   "start": "2026-11-14T19:30:00-06:00",
-   "title": "“Welcome Home” Premiere",
-   "venue": "Forum Christian Church"
-  },
-  {
-   "_slug": "dismal-niche-shabazz-palaces-the-blue-note-ad82a5",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "end": "2026-11-14T23:00:00-06:00",
-   "id": "ad82a5a84dbec3d3",
-   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/09/Shabazz-Palaces-like-at-The-Blue-Note.png",
-   "source": "visitcolumbia",
-   "start": "2026-11-14T20:00:00-06:00",
-   "title": "Dismal Niche: Shabazz Palaces – The Blue Note",
-   "venue": "The Blue Note"
-  },
-  {
    "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
    "categories": [
     "community"
@@ -1647,10 +1862,28 @@
    "venue": "Crossroads Shopping Center"
   },
   {
+   "_slug": "shabazz-palaces-ad82a5",
+   "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/redferrin-the-blue-note-2/"
+   ],
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Dismal Niche Presents · with JWords",
+   "end": "2026-11-14T23:00:00-06:00",
+   "id": "ad82a5a84dbec3d3",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/09/MJNight_Faceless_Portrait-e1790197556212.jpg",
+   "source": "bluenote",
+   "start": "2026-11-14T20:00:00-06:00",
+   "ticketUrl": "https://www.eventbrite.com/e/shabazz-places-w-jwords-at-the-blue-note-tickets-1993212965636?aff=oddtdtcreator&#038;keep_tld=true",
+   "title": "Shabazz Palaces",
+   "venue": "The Blue Note"
+  },
+  {
    "_slug": "smells-like-nirvana-rose-music-hall-483aa1",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana-at-rose-music-hall",
-    "https://rosemusichall.com/event/smells-like-nirvana-3/"
+    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana-at-rose-music-hall"
    ],
    "categories": [
     "music"
@@ -1662,7 +1895,6 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Smells-Like-Nirvana-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-11-14T20:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/smells-like-nirvanatribute-to-nirvana-columbia-missouri-11-14-2026/event/060064F6E068731B",
    "title": "Smells Like Nirvana – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -1692,6 +1924,21 @@
    "start": "2026-11-14T21:00:00-06:00",
    "title": "Saturday Night Comedy at The Tokyo Club",
    "venue": "The Arcade District"
+  },
+  {
+   "_slug": "wild-horse-nine-543129",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-14T22:57:00-06:00",
+   "id": "5431297c036f49e7",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-14T21:00:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "fall-into-art-2026-day-2-d6b015",
@@ -1739,24 +1986,6 @@
    "venue": "The Bistro"
   },
   {
-   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
-   ],
-   "categories": [
-    "music",
-    "nightlife"
-   ],
-   "category": "music",
-   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
-   "end": "2026-11-15T15:00:00-06:00",
-   "id": "499cdb22318aea5f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-15T11:00:00-06:00",
-   "title": "2nd Annual Pierpont Sip & Shop"
-  },
-  {
    "_slug": "unity-of-columbia-annual-art-craft-fair-day-2-2a3f8d",
    "categories": [
     "arts"
@@ -1785,6 +2014,21 @@
    "start": "2026-11-15T11:15:00-06:00",
    "title": "Buffalo Wild Wings ASYMCA Fundraiser",
    "venue": "Buffalo Wild Wings"
+  },
+  {
+   "_slug": "once-upon-a-time-in-harlem-29d638",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-15T13:40:00-06:00",
+   "id": "29d638ba50b0f565",
+   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
+   "source": "ragtag",
+   "start": "2026-11-15T12:00:00-06:00",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "the-patty-wagon-6d15b4",
@@ -1924,6 +2168,24 @@
    "venue": "The Atrium on Tenth"
   },
   {
+   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
+   ],
+   "categories": [
+    "music",
+    "nightlife"
+   ],
+   "category": "music",
+   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
+   "end": "2026-11-15T15:00:00-06:00",
+   "id": "499cdb22318aea5f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
+   "source": "allevents",
+   "start": "2026-11-15T14:00:00-06:00",
+   "title": "2nd Annual Pierpont Sip & Shop"
+  },
+  {
    "_slug": "emma-spalding-senior-recital-d89d81",
    "categories": [
     "campus"
@@ -1998,6 +2260,21 @@
    "venue": "Sinquefield Music Center"
   },
   {
+   "_slug": "wild-horse-nine-36581d",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-15T16:27:00-06:00",
+   "id": "36581d1375162095",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-15T14:30:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "kamiah-kelly-flute-recital-17d7b9",
    "categories": [
     "campus"
@@ -2011,6 +2288,21 @@
    "start": "2026-11-15T15:30:00-06:00",
    "title": "Kamiah Kelly Flute Recital",
    "venue": "Sinquefield Music Center"
+  },
+  {
+   "_slug": "you-can-see-everything-9e5f71",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-15T18:39:00-06:00",
+   "id": "9e5f71b928a29c0c",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-15T15:45:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "2026-annual-art-craft-fair-bfdb08",
@@ -2036,6 +2328,21 @@
    "start": "2026-11-15T17:00:00-06:00",
    "title": "Inside Out Spirituality (Free Event)",
    "venue": "Natural Nail Care Salon"
+  },
+  {
+   "_slug": "once-upon-a-time-in-harlem-ade97d",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-15T19:00:00-06:00",
+   "id": "ade97d9e76bdf0d7",
+   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
+   "source": "ragtag",
+   "start": "2026-11-15T17:20:00-06:00",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "jazz-combos-at-murrys-0aeace",
@@ -2100,6 +2407,21 @@
    "venue": "The Kitchen Grill & Games"
   },
   {
+   "_slug": "you-can-see-everything-bce87c",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-15T22:24:00-06:00",
+   "id": "bce87ce60b23e10e",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-15T19:30:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "nov-boone-regional-beekeepers-local-plants-beneficial-to-bee-d7c30c",
    "categories": [
     "community"
@@ -2111,18 +2433,33 @@
    "start": "2026-11-15T20:00:00-06:00",
    "title": "Nov: Boone Regional Beekeepers-local plants beneficial to bees & dessert!",
    "venue": "Animal Science Research Center"
+  },
+  {
+   "_slug": "wild-horse-nine-a97ecd",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-15T21:57:00-06:00",
+   "id": "a97ecd25a3c455f7",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-15T20:00:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
   }
  ],
  "friday": "2026-11-13",
  "modified": "2026-11-09",
  "picks": [
-  "32ddee4e9ff624eb",
+  "8686b2a10230dc7b",
   "071642c6e660b3d4",
   "011e2839fec348ca",
   "2773342929747aeb",
   "2b3596efcad32e23",
   "cf0735f53dbf0587",
-  "f48b5e1f348eedc8",
+  "ad82a5a84dbec3d3",
   "3ca3d3dbf3a51d48",
   "0aeace99f97fbd98",
   "a134c47608feef97"
