@@ -24,6 +24,7 @@ struct MapScreen: View {
     @State private var hotspots: [Hotspot] = []
     @State private var heatRings: [HeatRing] = []
     @State private var nextUp: [Event] = []
+    @Namespace private var mapScope
 
     /// Cluster cell grows as the camera pulls back, so pins never pile up.
     private var cellDegrees: Double { max(0.0015, 0.0015 * cameraDistance / 1800) }
@@ -51,7 +52,7 @@ struct MapScreen: View {
     var body: some View {
         NavigationStack {
             ZStack(alignment: .top) {
-                Map(position: $position) {
+                Map(position: $position, scope: mapScope) {
                     UserAnnotation()
                     // Heat: soft, edgeless yellow-to-amber rings under busy spots; overlaps deepen the colour.
                     ForEach(heatRings) { r in
@@ -73,8 +74,17 @@ struct MapScreen: View {
                 .onMapCameraChange(frequency: .onEnd) { ctx in
                     withAnimation(.snappy(duration: 0.35)) { cameraDistance = ctx.camera.distance }
                 }
-                .mapControls { MapUserLocationButton(); MapCompass() }
+                // MapKit's own spot for these is the top-right corner, under the moon button: draw them ourselves instead.
+                .mapControls { }
                 .ignoresSafeArea(edges: .bottom)
+
+                VStack(spacing: 8) {
+                    MapCompass(scope: mapScope)
+                    MapUserLocationButton(scope: mapScope)
+                }
+                .buttonBorderShape(.circle)
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                .padding(.trailing, 16).padding(.bottom, 8)
 
                 // Floating top controls
                 VStack(spacing: 8) {
@@ -118,6 +128,7 @@ struct MapScreen: View {
                 .padding(.horizontal, 12)
                 .padding(.top, 4)
             }
+            .mapScope(mapScope)
             .safeAreaInset(edge: .bottom, spacing: 0) {
                 if !nextUp.isEmpty {
                     VStack(alignment: .leading, spacing: 6) {
