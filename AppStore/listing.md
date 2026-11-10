@@ -70,3 +70,20 @@ Also new: dark mode, a cleaner map that glows where it's busy, a profile picture
 | Usage Data > Product Interaction | No | Anonymous counts (also "Analytics") |
 
 Flyer text and location stay on the device, and Google contact emails are only compared in real time, so none of these count as collected.
+
+---
+
+# Version 1.2.2 (build 20, Nov 10, 2026)
+
+**What's New in This Version:**
+
+Tap any place on the map to see everything happening there, with the address and directions. Zoom in and pins show the venue's name.
+
+Posting an event is now instant: it goes live on the map and in search for everyone right away.
+
+More to find: new events from The District, Columbia College, Columbia Art League, Macaroni Kid, the Columbia Farmers Market, the Chamber of Commerce, RunSignup races, COMO Tickets and Jabberwocky Studios. The map buttons no longer cover the pins, and the location button moved to the bottom right.
+
+**App Review notes change:** community posts are no longer held for a moderator. Replace the moderation paragraph with:
+"Community posts go live automatically after a word filter (the same list as ContentFilter.swift runs on our Cloudflare Worker before it approves a post). Every post can be reported or its poster blocked from the event page; three reports hide a post automatically, and the developer reads reports the same day and can remove any post (removal always wins). Posting requires agreeing to the community guidelines (https://comoevent.com/guidelines.html)."
+
+**App Privacy:** no new data types in 1.2.2.
