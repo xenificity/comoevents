@@ -78,6 +78,15 @@ Read README.md first. Short version:
   Arrow Rock is outside RADIUS_KM, allowed via `FAR_OK_SOURCES`), `src_caam` (concerts page, one paragraph per
   concert), ICS `maplewoodbarn` + `arcadedistrict` with `ICS_SITE_SKIP`. `dedupe` keeps same-source showtimes at
   different times separate. Venues with no readable listing go in `docs/stats/outreach.json` (shown at /stats/outreach/).
+- Nov 2026 sources: `src_tockify` (`TOCKIFY_CALS`: The District CID `the.district.cid`, Columbia Art League; ngevent
+  API with startms/endms, image = cloudfront/<imageSets[0].ownerId>/<imageIdNg>/scaled_1152.jpg, "@Venue" title suffix
+  stripped, multi-day all-day exhibits skipped), `src_ccis` (Columbia College Pathify unauthenticated API, paged; Athletics
+  kept only when the location says "Columbia, MO"), `src_macaronikid` (`#mk-list-data` JSON in the events page; skips
+  Daniel Boone library orgs and events with no place; the site 503s at times, carry-forward covers it), `src_comotickets`
+  (JSON-LD, 2 pages), `src_chamber` (GrowthZone XML; Public and not MemberOnly, no committee/board meetings),
+  `src_runsignup` (REST races near 65201, no virtual races or portals), TRIBE `jabberwocky`, ICS `farmersmarket`
+  (LOCATION is a maps URL, ignored). Not added yet: Meetup (private gql2 GraphQL), Boone History, Orr Street Studios,
+  MDC/state parks (HTML only); como.gov is behind a Cloudflare challenge.
 - SEO: `scripts/build_event_pages.py` also writes landing pages (docs/tonight, this-weekend, free, music, family,
   nightlife, arts, food, sports, mizzou, venues/<slug>) with ItemList + BreadcrumbList JSON-LD; the feed workflow commits
   them and runs `scripts/indexnow.py` (Bing/IndexNow; key file docs/<key>.txt — don't delete it). Homepage has WebSite +

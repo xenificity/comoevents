@@ -72,6 +72,20 @@
    "venue": "Cornell Hall"
   },
   {
+   "_slug": "lend-learn-play-time-1dfc14",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "See more details at https://firstchanceforchildren.org/events/",
+   "end": "2026-11-13T13:00:00-06:00",
+   "id": "1dfc14a5ad35d676",
+   "imageUrl": "https://comoevent.com/img/gen/97198c3d2e07f3.webp",
+   "source": "macaronikid",
+   "start": "2026-11-13T09:00:00-06:00",
+   "title": "Lend & Learn Play Time"
+  },
+  {
    "_slug": "lakshmi-abhishekam-f3cd69",
    "categories": [
     "religious",
@@ -100,6 +114,21 @@
    "start": "2026-11-13T09:30:00-06:00",
    "title": "Passport Application Walk-in Hours",
    "venue": "Memorial Student Union"
+  },
+  {
+   "_slug": "columbia-college-women-s-volleyball-vs-central-baptist-colle-730135",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "description": "Columbia College Women's Volleyball vs Central Baptist College - Quarterfinals Streaming Video: https://columbiacougars.com/sports/2022/8/11/columbia-cougars-live-stream.aspx Tickets: https://columbiacougars.com/sports/2021/7/21/volleyball-tickets.aspx",
+   "end": "2026-11-13T12:00:00-06:00",
+   "id": "7301354ead136e16",
+   "imageUrl": "https://comoevent.com/img/gen/9c7c8fe3220e82.webp",
+   "source": "ccis",
+   "start": "2026-11-13T10:00:00-06:00",
+   "title": "Columbia College Women's Volleyball vs Central Baptist College - Quarterfinals",
+   "venue": "Southwell Complex"
   },
   {
    "_slug": "holiday-exhibition-sale-columbia-weavers-and-spinners-guild-1bb8af",
@@ -146,9 +175,6 @@
   },
   {
    "_slug": "stories-and-activities-for-adults-of-all-abilities-01d778",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17488389"
-   ],
    "categories": [
     "community"
    ],
@@ -234,9 +260,6 @@
   },
   {
    "_slug": "day-of-the-goddess-celebration-798e9d",
-   "alsoOn": [
-    "https://allevents.in/columbia/day-of-the-goddess-celebration/200030957622739"
-   ],
    "categories": [
     "community"
    ],
@@ -267,9 +290,6 @@
   },
   {
    "_slug": "luncheon-workshop-3-think-big-goal-setting-and-your-single-b-b3dbc0",
-   "alsoOn": [
-    "https://engage.missouri.edu/NLI/rsvp?id=452016"
-   ],
    "categories": [
     "campus"
    ],
@@ -361,9 +381,6 @@
   },
   {
    "_slug": "graduates-on-faurot-field-a754fd",
-   "alsoOn": [
-    "https://engage.missouri.edu/SAS/rsvp?id=453696"
-   ],
    "categories": [
     "sports",
     "campus"
@@ -482,9 +499,6 @@
   },
   {
    "_slug": "film-friday-spider-man-brand-new-day-0aa4ff",
-   "alsoOn": [
-    "https://mizzouarts.missouri.edu/event/spider-man-brand-new-day/"
-   ],
    "categories": [
     "arts",
     "music"
@@ -498,6 +512,36 @@
    "ticketUrl": "https://am.ticketmaster.com/muconcerts/buy/ism/NkNGMTExM0E=",
    "title": "Film Friday: Spider-Man: Brand New Day",
    "venue": "Missouri Theatre"
+  },
+  {
+   "_slug": "columbia-college-women-s-volleyball-vs-semifinals-b77119",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "description": "Columbia College Women's Volleyball vs Semifinals Streaming Video: https://columbiacougars.com/sports/2022/8/11/columbia-cougars-live-stream.aspx Tickets: https://columbiacougars.com/sports/2021/7/21/volleyball-tickets.aspx",
+   "end": "2026-11-13T18:30:00-06:00",
+   "id": "b7711952e629e38d",
+   "imageUrl": "https://comoevent.com/img/gen/0e2c4180fa9b86.webp",
+   "source": "ccis",
+   "start": "2026-11-13T16:30:00-06:00",
+   "title": "Columbia College Women's Volleyball vs Semifinals",
+   "venue": "Southwell Complex"
+  },
+  {
+   "_slug": "family-fun-night-f48573",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "NEW! 2nd Friday of the month! Join us for a LONGER play session and LATER hours! Pizza by the slice (Shakespeare's frozen) or whole pizza available…",
+   "end": "2026-11-13T19:30:00-06:00",
+   "id": "f48573639c87792f",
+   "imageUrl": "https://comoevent.com/img/gen/c09aad82e64aea.webp",
+   "source": "macaronikid",
+   "start": "2026-11-13T16:30:00-06:00",
+   "title": "Family FUN Night",
+   "venue": "East Nifong Boulevard"
   },
   {
    "_slug": "trail-boss-bbq-e28016",
@@ -530,9 +574,6 @@
   },
   {
    "_slug": "whodunnit-blood-on-the-clocktower-night-244fdc",
-   "alsoOn": [
-    "https://engage.missouri.edu/WSDC/rsvp?id=452205"
-   ],
    "categories": [
     "campus"
    ],
@@ -574,6 +615,52 @@
    "title": "48-Hour Film Competition"
   },
   {
+   "_slug": "craft-club-at-ladybird-cafe-eab61d",
+   "categories": [
+    "party",
+    "music",
+    "arts"
+   ],
+   "category": "party",
+   "description": "Fridays at Ladybird Cafe! Ease into the weekend. 6–7:30 PM — Craft Night Watch our page for upcoming projects! 8–11 PM — Friday Nights at Ladybird We’ll have a DJ and craft supplies out all night. Dance, make something, have a drink, shop, hang out, or do a little bit of everything. Every Friday has",
+   "end": "2026-11-13T23:00:00-06:00",
+   "id": "eab61d06004af6ab",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab54fa647d5d2eab1d88620/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-13T18:00:00-06:00",
+   "title": "Craft Club at Ladybird Cafe",
+   "venue": "Ladybird Cafe"
+  },
+  {
+   "_slug": "dinovember-91c844",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "Show Me Dinosaurs and Tiny Play Cafe are teaming up to bring you a ROARING good time. Friday, November 13, 6-7:30pm come enjoy baby dinosaurs, a d…",
+   "end": "2026-11-13T19:30:00-06:00",
+   "id": "91c84414085d5a25",
+   "imageUrl": "https://comoevent.com/img/gen/76fbb61cc3790b.webp",
+   "source": "macaronikid",
+   "start": "2026-11-13T18:00:00-06:00",
+   "title": "DINOvember",
+   "venue": "East Nifong Boulevard"
+  },
+  {
+   "_slug": "hatha-yoga-plus-sound-bath-at-rebecca-peters-wellness-1ba244",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Join us on the second Friday of each month for a mellow hatha yoga class balanced for all levels concluding with a 15-minute sound bath! Space is limited, so pre-register at https://rebeccapeters.as.me/candlehatha to save your spot!",
+   "end": "2026-11-13T19:15:00-06:00",
+   "id": "1ba244bcc5a666f2",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/68e3e1d8ed82c15d8d8817d6/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-13T18:00:00-06:00",
+   "title": "Hatha Yoga plus Sound bath at Rebecca Peters Wellness"
+  },
+  {
    "_slug": "hot-yoga-fundraiser-journey-through-the-decades-e1a3b8",
    "categories": [
     "community"
@@ -602,11 +689,29 @@
    "venue": "MU Student Center"
   },
   {
-   "_slug": "magic-friday-night-commander-e708b8",
+   "_slug": "local-writer-showcase-donal-quist-jennifer-mauritza-mccauley-a82985",
    "categories": [
     "community"
    ],
    "category": "community",
+   "description": "On Friday, November 13, Nightjar is showcasing local writers! Authors Donald Quist and Jennifer Mauritza McCauley will be our featured guests for our Nightjar Reading series.",
+   "end": "2026-11-13T20:00:00-06:00",
+   "id": "a8298541df47227e",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ae8fa17581a5a50258ca58c/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-13T18:00:00-06:00",
+   "title": "Local Writer Showcase: Donal Quist & Jennifer Mauritza McCauley",
+   "venue": "Nightjar Arts Collective"
+  },
+  {
+   "_slug": "magic-friday-night-commander-e708b8",
+   "alsoOn": [
+    "https://tockify.com/the.district.cid/detail/504/1794614400000"
+   ],
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
    "description": "Play Friday Night Commander at Hexagon Alley, with pods for players of all skill levels, from newcomers to seasoned Magic players. Staff can help direct you to a pod that fits, and door prizes are available. Pick 2 Draft pick-ups and rotating Commander variants are also featured.",
    "end": "2026-11-13T21:00:00-06:00",
    "id": "e708b8fcc47850af",
@@ -633,6 +738,9 @@
   },
   {
    "_slug": "mid-missouri-mahjong-classic-meet-greet-633e70",
+   "alsoOn": [
+    "https://tockify.com/the.district.cid/detail/1318/1794614400000"
+   ],
    "categories": [
     "community"
    ],
@@ -645,6 +753,21 @@
    "start": "2026-11-13T18:00:00-06:00",
    "title": "Mid Missouri Mahjong Classic – Meet & Greet",
    "venue": "Meet & Greet"
+  },
+  {
+   "_slug": "third-fridays-open-mic-night-at-fretboard-coffee-ef1a37",
+   "categories": [
+    "music",
+    "food"
+   ],
+   "category": "music",
+   "end": "2026-11-13T21:00:00-06:00",
+   "id": "ef1a37e7cfdecc96",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/69c172b2701bd67becd5e21e/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-13T18:00:00-06:00",
+   "title": "Third Fridays, Open Mic Night at Fretboard Coffee",
+   "venue": "Fretboard Coffee"
   },
   {
    "_slug": "wild-horse-nine-53dfe6",
@@ -731,10 +854,6 @@
   },
   {
    "_slug": "party-with-the-stars-8686b2",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17459294",
-    "https://allevents.in/columbia/party-with-the-stars/200030952163445"
-   ],
    "categories": [
     "family"
    ],
@@ -751,9 +870,6 @@
   },
   {
    "_slug": "tyondai-braxton-at-crow-hall-d79c1f",
-   "alsoOn": [
-    "https://allevents.in/columbia/tyondai-braxton-at-crow-hall/100001989843582721"
-   ],
    "categories": [
     "community"
    ],
@@ -785,9 +901,6 @@
   },
   {
    "_slug": "little-women-the-musical-071642",
-   "alsoOn": [
-    "https://calendar.missouri.edu/theatre/event/20643-little-women"
-   ],
    "categories": [
     "arts"
    ],
@@ -804,7 +917,6 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-stl-s-vernon-longhorn-9ffb31",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-stls-vernon-longhorn-davis/100002003092078328",
     "https://thearcadedistrict.org/"
    ],
    "categories": [
@@ -839,9 +951,6 @@
   },
   {
    "_slug": "tyondai-braxton-extended-play-0ae648",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/music/tyondai-braxton-extended-play/event_7b8f7759-3d7d-4272-aec8-e0af0fdd3fa1.html"
-   ],
    "categories": [
     "campus",
     "music"
@@ -890,11 +999,22 @@
    "venue": "Ladybird Cafe"
   },
   {
-   "_slug": "nicole-atkins-rose-music-hall-277334",
-   "alsoOn": [
-    "https://rosemusichall.com/event/nicole-atkins/",
-    "https://baselocal.com/mo/columbia/events/#nicole-atkins"
+   "_slug": "karaoke-at-eastside-tavern-9dd369",
+   "categories": [
+    "music"
    ],
+   "category": "music",
+   "description": "Join",
+   "end": "2026-11-15T22:00:00-06:00",
+   "id": "9dd369e6a4b30d36",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/689b5462e04ad459f997236b/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-13T20:00:00-06:00",
+   "title": "Karaoke at Eastside Tavern",
+   "venue": "Eastside Tavern"
+  },
+  {
+   "_slug": "nicole-atkins-rose-music-hall-277334",
    "categories": [
     "music"
    ],
@@ -926,12 +1046,17 @@
   },
   {
    "_slug": "mj-night-f588b2",
+   "alsoOn": [
+    "https://tockify.com/the.district.cid/detail/1344/1794625200000"
+   ],
    "categories": [
     "music",
-    "party"
+    "party",
+    "arts"
    ],
    "category": "music",
    "description": "Club 90s Presents · with JWords",
+   "end": "2026-11-13T21:00:00-06:00",
    "id": "f588b2da76cc5764",
    "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Redferrin_RB_Swamp_2533-Crop-Square-e1788272556494.jpg",
    "source": "bluenote",
@@ -956,9 +1081,39 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "speakeasy-regulation-74dfe5",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "Fridays at Regulation Ease into the weekend. Make something. Have a drink. Listen to good music. Stay for twenty minutes or stay until closing. 5…",
+   "end": "2026-11-14T01:00:00-06:00",
+   "id": "74dfe530b2d7c333",
+   "imageUrl": "https://comoevent.com/img/gen/7b17d407315635.webp",
+   "source": "macaronikid",
+   "start": "2026-11-13T22:00:00-06:00",
+   "title": "Speakeasy @ Regulation"
+  },
+  {
+   "_slug": "fall-into-art-applications-at-cal-ea5c46",
+   "allDay": true,
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "The application to be a participating artist at Fall Into Art 2026 opens this Friday, May 1. ⁠ We will be celebrating local and regional artists at this vibrant two-day festival on November 14 + 15! This dynamic event showcases an incredible variety of fine art, handmade crafts, and unique gifts, pe",
+   "end": "2026-11-16T00:00:00-06:00",
+   "id": "ea5c46a7917fb739",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/69f230f3969c0a0cafd66595/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-14T00:00:00-06:00",
+   "title": "Fall Into Art Applications at CAL",
+   "venue": "Columbia Art League"
+  },
+  {
    "_slug": "annual-christmas-bazaar-d1f2fe",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#annual-christmas-bazaar"
+    "https://tockify.com/the.district.cid/detail/1397/1794664800000"
    ],
    "categories": [
     "family",
@@ -1008,7 +1163,7 @@
   {
    "_slug": "columbia-farmers-market-winter-season-cf0735",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
+    "https://columbiafarmersmarket.org/"
    ],
    "categories": [
     "food"
@@ -1043,10 +1198,13 @@
   },
   {
    "_slug": "rock-bridge-renew-8d11a1",
-   "categories": [
-    "community"
+   "alsoOn": [
+    "https://columbiamo.macaronikid.com/events/6ad6a96dd93e86471e080b4f"
    ],
-   "category": "community",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
    "description": "Rock Bridge Renew is a twice-yearly volunteer event at Rock Bridge Memorial State Park, held in spring and fall to help care for the park’s natural surroundings. The fall activities include picking up litter along Highway 163 and removing invasive plants such as bush honeysuckle. Leadership, equipm…",
    "end": "2026-11-14T12:00:00-06:00",
    "id": "8d11a1029f1d46a5",
@@ -1087,9 +1245,6 @@
   },
   {
    "_slug": "campus-cleanup-b5e4d3",
-   "alsoOn": [
-    "https://engage.missouri.edu/SustainMizzou/rsvp?id=452834"
-   ],
    "categories": [
     "campus"
    ],
@@ -1136,7 +1291,7 @@
   {
    "_slug": "free-family-event-gather-give-thanks-ea0c21",
    "alsoOn": [
-    "https://allevents.in/columbia/free-family-event-gather-and-give-thanks/200030547177901"
+    "https://columbiamo.macaronikid.com/events/6a302ed046ffadd4b00a3928"
    ],
    "categories": [
     "arts",
@@ -1153,6 +1308,21 @@
    "start": "2026-11-14T10:00:00-06:00",
    "title": "Free Family Event - Gather & Give Thanks",
    "venue": "Boone County History & Culture Center"
+  },
+  {
+   "_slug": "gentle-yoga-with-rebecca-peters-wellness-ff8961",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Join us for a gentle yoga practice, welcoming to all! We practice yoga poses and breathing practices l.facebook.com/l.php?u=https%3A%2F%2Frebeccapeters.as.me%2Fgentlehatha%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExdmszMXFuZXl5Y1pVSjBnMHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7fhWuwkYBDP6w-iXZmsiV0qUR9SHX",
+   "end": "2026-11-14T11:00:00-06:00",
+   "id": "ff89616eaedd6ae0",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/69651bee3324f3379c8eece1/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-14T10:00:00-06:00",
+   "title": "Gentle Yoga with Rebecca Peters Wellness",
+   "venue": "Rebecca Peters Wellness"
   },
   {
    "_slug": "holiday-exhibition-sale-columbia-weavers-and-spinners-guild-b6661b",
@@ -1185,9 +1355,6 @@
   },
   {
    "_slug": "scrap-fabric-brooches-5325ae",
-   "alsoOn": [
-    "https://allevents.in/columbia/scrap-fabric-brooches-como-craftcycle/200030741232810"
-   ],
    "categories": [
     "community"
    ],
@@ -1214,10 +1381,21 @@
    "title": "Wrestling - Missouri vs. Tiger Style Invite"
   },
   {
-   "_slug": "the-tap-collective-workshop-with-chris-rutledge-b5a159",
-   "alsoOn": [
-    "https://engage.missouri.edu/TTC/rsvp?id=453715"
+   "_slug": "11-14-como-moms-family-play-date-90fc0b",
+   "categories": [
+    "family"
    ],
+   "category": "family",
+   "description": "Join us for a fun fall morning with CoMo Moms! We’ll meet at Fairview United Methodist Church Park on November 14th at 10:30 AM for a morning of…",
+   "end": "2026-11-14T12:00:00-06:00",
+   "id": "90fc0bcd51d0640e",
+   "imageUrl": "https://comoevent.com/img/gen/dd584967fb5d4d.webp",
+   "source": "macaronikid",
+   "start": "2026-11-14T10:30:00-06:00",
+   "title": "11/14 CoMo Moms Family Play Date"
+  },
+  {
+   "_slug": "the-tap-collective-workshop-with-chris-rutledge-b5a159",
    "categories": [
     "arts",
     "campus"
@@ -1233,6 +1411,20 @@
    "venue": "Dancearts of Columbia"
   },
   {
+   "_slug": "bottomless-mimosas-at-gunter-hans-2a4910",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "end": "2026-11-14T13:00:00-06:00",
+   "id": "2a49109350969231",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6894cffde04ad459f9937f56/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-14T11:00:00-06:00",
+   "title": "Bottomless Mimosas at Günter Hans",
+   "venue": "Günter Hans"
+  },
+  {
    "_slug": "dear-lara-with-lara-st-john-d15592",
    "categories": [
     "community"
@@ -1246,10 +1438,22 @@
    "venue": "Whitmore Recital Hall"
   },
   {
-   "_slug": "tryps-theater-live-at-eleven-5694a5",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17488457"
+   "_slug": "kids-club-saturdays-at-hexagon-alley-89f467",
+   "categories": [
+    "family"
    ],
+   "category": "family",
+   "description": "Our Saturday Kids Club is every Saturday from 11 am - 2 pm, at $45/day. Kids have the opportunity to learn new games from our counselors or play their favorites with their friends! We will be teaching Magic: The Gathering, Dungeons and Dragons, and Warhammer on a rotating schedule. No experience is ",
+   "end": "2026-11-14T14:00:00-06:00",
+   "id": "89f4670ac0e6710a",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6960060444ec806eefaff4b1/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-14T11:00:00-06:00",
+   "title": "Kids Club Saturdays at Hexagon Alley",
+   "venue": "Hexagon Alley"
+  },
+  {
+   "_slug": "tryps-theater-live-at-eleven-5694a5",
    "categories": [
     "arts",
     "family",
@@ -1268,9 +1472,6 @@
   },
   {
    "_slug": "why-does-my-dog-do-that-kick-off-weekend-37d13d",
-   "alsoOn": [
-    "https://allevents.in/columbia/why-does-my-dog-do-that/200030981346840"
-   ],
    "categories": [
     "community"
    ],
@@ -1286,8 +1487,7 @@
   {
    "_slug": "wild-kratts-activate-kid-power-0e761b",
    "alsoOn": [
-    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943",
-    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/"
+    "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad"
    ],
    "categories": [
     "family",
@@ -1318,6 +1518,21 @@
    "start": "2026-11-14T11:15:00-06:00",
    "title": "Urban Sketch Crawl",
    "venue": "Columbia Art League"
+  },
+  {
+   "_slug": "columbia-college-women-s-volleyball-vs-finals-c74611",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "description": "Columbia College Women's Volleyball vs Finals Streaming Video: https://columbiacougars.com/sports/2022/8/11/columbia-cougars-live-stream.aspx Tickets: https://columbiacougars.com/sports/2021/7/21/volleyball-tickets.aspx",
+   "end": "2026-11-14T14:00:00-06:00",
+   "id": "c746119051393dbd",
+   "imageUrl": "https://comoevent.com/img/gen/3bf380530e89b1.webp",
+   "source": "ccis",
+   "start": "2026-11-14T12:00:00-06:00",
+   "title": "Columbia College Women's Volleyball vs Finals",
+   "venue": "Southwell Complex"
   },
   {
    "_slug": "dws-kitchen-catering-b3c212",
@@ -1391,6 +1606,20 @@
    "venue": "Sinquefield Music Center"
   },
   {
+   "_slug": "weird-kids-weekend-club-eea4f7",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "Saturday afternoons are for weird kids. Weird Kids’ Weekend Club is a Saturday afternoon hangout for kids ages 8–12. Each week we’ll have a c…",
+   "end": "2026-11-14T14:30:00-06:00",
+   "id": "eea4f7dbf44e4489",
+   "imageUrl": "https://comoevent.com/img/gen/b57dc68fc14bc1.webp",
+   "source": "macaronikid",
+   "start": "2026-11-14T12:30:00-06:00",
+   "title": "Weird Kids' Weekend Club"
+  },
+  {
    "_slug": "wild-horse-nine-e43270",
    "categories": [
     "arts"
@@ -1419,9 +1648,6 @@
   },
   {
    "_slug": "game-sale-day-839067",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#game-sale-day"
-   ],
    "categories": [
     "family"
    ],
@@ -1436,9 +1662,6 @@
   },
   {
    "_slug": "the-boones-lick-road-01367b",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17538218"
-   ],
    "categories": [
     "community"
    ],
@@ -1469,6 +1692,21 @@
    "start": "2026-11-14T13:00:00-06:00",
    "title": "The Saturday Afternoon cArtifact",
    "venue": "Museum of Anthropology"
+  },
+  {
+   "_slug": "watercolor-basics-plant-life-with-lindsay-picht-6-week-70b9b2",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Saturdays, 1-3pm from October 17th-November 21st (6 weeks) This 6-week workshop covers the foundations of watercolor! Great for both beginner painters and advanced students, this class will focus on learning different exercises and techniques, including wet-on-wet, washes, calligraphic mark making, ",
+   "end": "2026-11-14T15:00:00-06:00",
+   "id": "70b9b2f6a1c247a2",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/61eb392695dba820dc18150d/6a347271afff871fa5b087ee/scaled_1152.jpg",
+   "source": "artleague",
+   "start": "2026-11-14T13:00:00-06:00",
+   "title": "Watercolor Basics: Plant Life with Lindsay Picht (6 week)",
+   "venue": "Columbia Art League"
   },
   {
    "_slug": "you-can-see-everything-1398d2",
@@ -1579,6 +1817,21 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "free-horse-drawn-carriage-rides-3cb275",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "description": "The horse-drawn carriages are back! Everyone LOVED Bill and Buster sooo much we’ve added another carriage! Welcome Dan & Buster and Bill & Mark! Rides will start at 3pm in the North Village Arts District in the Artist Alley. Come early to grab your FREE tickets before they run out! Rides are free an",
+   "end": "2026-11-14T18:45:00-06:00",
+   "id": "3cb275bb339d4896",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab5c07b47d5d2eab142f143/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-14T16:00:00-06:00",
+   "title": "FREE Horse Drawn Carriage Rides",
+   "venue": "The District"
+  },
+  {
    "_slug": "once-upon-a-time-in-harlem-13446c",
    "categories": [
     "arts"
@@ -1638,9 +1891,6 @@
   },
   {
    "_slug": "ladies-of-country-782eff",
-   "alsoOn": [
-    "https://allevents.in/columbia/ladies-of-country/200030952416218"
-   ],
    "categories": [
     "family"
    ],
@@ -1708,10 +1958,21 @@
    "venue": "Weichert Realtors - House of Brokers"
   },
   {
-   "_slug": "shabazz-places-w-jwords-at-the-blue-note-f48b5e",
-   "alsoOn": [
-    "https://allevents.in/columbia/shabazz-places-w-jwords-at-the-blue-note/100001993212965636"
+   "_slug": "smells-like-nirvana-tribute-live-in-concert-bf9a7e",
+   "categories": [
+    "music"
    ],
+   "category": "music",
+   "description": "SMELLS LIKE NIRVANA TRIBUTE LIVE IN CONCERT with special guests Dead Original SATURDAY, NOV. 14, 2026 | 7 P.M. DOORS | 8 P.M. CONCERT | ALL AGES ROSE MUSIC HALL | 1013 Park Ave, Columbia, MO 65201 General admission tickets start at $22.90. Purchase at ticketmaster.com. Event link: https://tinyurl.co",
+   "end": "2026-11-14T19:00:00-06:00",
+   "id": "bf9a7e943ee3c1ce",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6a8cb359e067417f29821ad6/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-14T19:00:00-06:00",
+   "title": "SMELLS LIKE NIRVANA TRIBUTE LIVE IN CONCERT"
+  },
+  {
+   "_slug": "shabazz-places-w-jwords-at-the-blue-note-f48b5e",
    "categories": [
     "music",
     "arts"
@@ -1771,9 +2032,6 @@
   },
   {
    "_slug": "little-women-the-musical-29b4f5",
-   "alsoOn": [
-    "https://calendar.missouri.edu/theatre/event/20645-little-women"
-   ],
    "categories": [
     "arts"
    ],
@@ -1816,6 +2074,21 @@
    "venue": "The Arcade District"
   },
   {
+   "_slug": "karaoke-at-eastside-tavern-f37fb6",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Join",
+   "end": "2026-11-16T22:00:00-06:00",
+   "id": "f37fb616bb62d93b",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/689b5462e04ad459f997236b/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-14T20:00:00-06:00",
+   "title": "Karaoke at Eastside Tavern",
+   "venue": "Eastside Tavern"
+  },
+  {
    "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
    "categories": [
     "community"
@@ -1843,9 +2116,6 @@
   },
   {
    "_slug": "shabazz-palaces-ad82a5",
-   "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/redferrin-the-blue-note-2/"
-   ],
    "categories": [
     "music"
    ],
@@ -1862,10 +2132,6 @@
   },
   {
    "_slug": "smells-like-nirvana-rose-music-hall-483aa1",
-   "alsoOn": [
-    "https://rosemusichall.com/event/smells-like-nirvana-3/",
-    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana-at-rose-music-hall"
-   ],
    "categories": [
     "music"
    ],
@@ -1895,7 +2161,6 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-wes-538a37",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308",
     "https://thearcadedistrict.org/"
    ],
    "categories": [
@@ -1913,6 +2178,22 @@
    "venue": "The Tokyo Club"
   },
   {
+   "_slug": "superette-f7e41b",
+   "categories": [
+    "party",
+    "nightlife",
+    "arts"
+   ],
+   "category": "party",
+   "description": "A retro indie dance party. Early-'90s through early-2010s indie, alternative, dance-punk, electro, bloghouse, French house, and everything in betwe…",
+   "end": "2026-11-15T01:00:00-06:00",
+   "id": "f7e41bac974bb2b9",
+   "imageUrl": "https://comoevent.com/img/gen/cd6ab85b4b9395.webp",
+   "source": "macaronikid",
+   "start": "2026-11-14T21:00:00-06:00",
+   "title": "Superette"
+  },
+  {
    "_slug": "wild-horse-nine-543129",
    "categories": [
     "arts"
@@ -1926,6 +2207,21 @@
    "start": "2026-11-14T21:00:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "yoga-at-partner-for-better-909a1f",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Sign Up Here",
+   "end": "2026-11-15T10:00:00-06:00",
+   "id": "909a1fab41204599",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6a1eeec09301fa25d864cb9a/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-15T09:00:00-06:00",
+   "title": "Yoga at Partner For Better",
+   "venue": "Partner For Better"
   },
   {
    "_slug": "fall-into-art-2026-day-2-d6b015",
@@ -1971,6 +2267,21 @@
    "start": "2026-11-15T10:00:00-06:00",
    "title": "Thanksgiving Brunch Buffet at The Bistro",
    "venue": "The Bistro"
+  },
+  {
+   "_slug": "yoga-at-partner-for-better-c3de5f",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Sign Up Here",
+   "end": "2026-11-15T11:30:00-06:00",
+   "id": "c3de5ff002c1259c",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6a1eeec09301fa25d864cb9a/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-15T10:30:00-06:00",
+   "title": "Yoga at Partner For Better",
+   "venue": "Partner For Better"
   },
   {
    "_slug": "unity-of-columbia-annual-art-craft-fair-day-2-2a3f8d",
@@ -2050,9 +2361,6 @@
   },
   {
    "_slug": "samantha-decker-clarinet-recital-b9d682",
-   "alsoOn": [
-    "https://calendar.missouri.edu/event/20067-samantha-decker-clarinet-recital"
-   ],
    "categories": [
     "campus"
    ],
@@ -2067,10 +2375,21 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "columbia-coffee-club-foodies-new-friends-3ca3d3",
-   "alsoOn": [
-    "https://allevents.in/columbia/columbia-coffee-club-foodies-new-friends/100001992938389371"
+   "_slug": "como-flavors-restaurant-crawl-781832",
+   "categories": [
+    "community"
    ],
+   "category": "community",
+   "description": "Join a restaurant crawl through downtown Columbia featuring participating locations. Attendees will receive a wristband and passport giving them access to samples, discounts, drink specials, and other offers at participating locations. Guests will collect stamps in their passports as they visit rest",
+   "end": "2026-11-15T17:00:00-06:00",
+   "id": "7818322f65acafa9",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ad8fe7562b7c5607c7c7ad5/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-15T13:00:00-06:00",
+   "title": "COMO Flavors Restaurant Crawl"
+  },
+  {
+   "_slug": "columbia-coffee-club-foodies-new-friends-3ca3d3",
    "categories": [
     "food"
    ],
@@ -2087,9 +2406,6 @@
   },
   {
    "_slug": "family-day-at-the-museum-c71caa",
-   "alsoOn": [
-    "https://calendar.missouri.edu/live/events/15901-family-day-at-the-museum"
-   ],
    "categories": [
     "arts",
     "family"
@@ -2122,6 +2438,9 @@
   },
   {
    "_slug": "lorcana-weekly-play-5a0a27",
+   "alsoOn": [
+    "https://tockify.com/the.district.cid/detail/1328/1794769200000"
+   ],
    "categories": [
     "community"
    ],
@@ -2153,9 +2472,6 @@
   },
   {
    "_slug": "front-porch-stories-an-evening-of-bluegrass-d2d475",
-   "alsoOn": [
-    "https://www.choralartsallianceofmissouri.org/caam-concerts/"
-   ],
    "categories": [
     "music",
     "family"
@@ -2172,9 +2488,6 @@
   },
   {
    "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
-   ],
    "categories": [
     "music",
     "nightlife"
@@ -2204,9 +2517,6 @@
   },
   {
    "_slug": "little-women-the-musical-862329",
-   "alsoOn": [
-    "https://calendar.missouri.edu/live/events/18339-little-women"
-   ],
    "categories": [
     "arts"
    ],
@@ -2349,9 +2659,6 @@
   },
   {
    "_slug": "jazz-combos-at-murrys-0aeace",
-   "alsoOn": [
-    "https://allevents.in/columbia/jazz-combos-at-murrys/200030990706233"
-   ],
    "categories": [
     "music"
    ],
@@ -2367,9 +2674,6 @@
   },
   {
    "_slug": "cardio-dance-free-gaga-grande-and-gratitude-with-tigerx-a134c4",
-   "alsoOn": [
-    "https://engage.missouri.edu/MizzouRec/rsvp?id=453698"
-   ],
    "categories": [
     "arts",
     "campus"
@@ -2456,16 +2760,16 @@
  "friday": "2026-11-13",
  "modified": "2026-11-09",
  "picks": [
-  "8686b2a10230dc7b",
-  "071642c6e660b3d4",
+  "eab61d06004af6ab",
+  "3318510d62b54414",
   "9ffb31ee12106692",
+  "071642c6e660b3d4",
+  "011e2839fec348ca",
   "2773342929747aeb",
-  "2b3596efcad32e23",
+  "f588b2da76cc5764",
   "cf0735f53dbf0587",
-  "ad82a5a84dbec3d3",
-  "3ca3d3dbf3a51d48",
-  "0aeace99f97fbd98",
-  "a134c47608feef97"
+  "0a8b8da2f39cdb13",
+  "f7e41bac974bb2b9"
  ],
  "published": "2026-11-09"
 }

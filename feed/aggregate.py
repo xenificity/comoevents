@@ -714,6 +714,7 @@ def src_posh(days):
 TRIBE_SITES = {
     # The Events Calendar (WordPress) REST sites: slug -> (display name, default venue, address)
     "cooperslanding": ("Cooper's Landing", "https://cooperslandingmo.com", "Cooper's Landing", "11505 Smith Hatchery Rd, Columbia, MO 65203"),
+    "jabberwocky": ("Jabberwocky Studios", "https://jabberwockystudios.org", "Jabberwocky Studios", "1308 Grand Ave, Columbia, MO 65203"),
 }
 def src_tribe(days):
     out = []
@@ -858,6 +859,10 @@ ICS_SITES = {
     "arcadedistrict": ("The Arcade District", "https://calendar.google.com/calendar/ical/jv0v6af2rpdhnicccjkgfa644k%40group.calendar.google.com/public/basic.ics",
                        "The Arcade District", "602 Fay St, Columbia, MO 65201", 38.95781, -92.32236,
                        "https://thearcadedistrict.org/", "nightlife"),
+    # Columbia Farmers Market (Events Manager plugin feed; LOCATION is a Google Maps link, so the venue is fixed here)
+    "farmersmarket": ("Columbia Farmers Market", "https://columbiafarmersmarket.org/events.ics",
+                      "Columbia Farmers Market", "1769 W Ash St, Columbia, MO 65203", 38.9546, -92.3625,
+                      "https://columbiafarmersmarket.org/", "food"),
 }
 ICS_SITE_SKIP = {
     "maplewoodbarn": re.compile(r"\b(board meeting|director application|application|board|work day|strike|load[- ]?in|rehearsal)\b", re.I),
@@ -1048,6 +1053,8 @@ def src_ics(days):
             uid = props.get("UID", [({}, summary)])[0][1].strip()
             desc = _ics_unescape(props.get("DESCRIPTION", [({}, "")])[0][1]) or ICS_BLURB.get(key)
             loc = _ics_unescape(props.get("LOCATION", [({}, "")])[0][1])
+            if loc.startswith("http"):
+                loc = ""   # a map link, not an address
             for occ in occurrences:
                 if occ.date() in exdates:
                     continue
@@ -1382,9 +1389,236 @@ def src_caam(days):
                                   description=" · ".join(sub) or None, organizer="Choral Arts Alliance of Missouri"))
     return out
 
+# ----------------------------------------------------------------- 2026-11 sources
+TOCKIFY_CALS = {
+    # key -> (calname, display name, default venue, default address, default category)
+    # The District (downtown CID) community calendar: bars, shops, galleries, trivia, live music downtown.
+    "district": ("the.district.cid", "The District", None, None, "community"),
+    "artleague": ("columbiaartleague", "Columbia Art League", "Columbia Art League", "207 S 9th St, Columbia, MO 65201", "arts"),
+}
+def src_tockify(days):
+    out = []
+    now = int(time.time() * 1000)
+    for key, (cal, name, venue_default, address_default, cat) in TOCKIFY_CALS.items():
+        try:
+            js = get("https://tockify.com/api/ngevent", params={"calname": cal, "max": 500, "startms": now - 3 * 3600 * 1000,
+                                                                "endms": now + days * 86400 * 1000}).json()
+        except Exception as e:
+            log("  tockify", key, "failed:", e); continue
+        for e in js.get("events", []):
+            c = e.get("content") or {}
+            if (e.get("status") or {}).get("name") == "cancelled":
+                continue
+            title = (c.get("summary") or {}).get("text") or ""
+            desc = (c.get("description") or {}).get("text") or ""
+            if CHAMBER_SKIP.search(title):
+                continue   # board and committee meetings
+            w = e.get("when") or {}
+            start = _ms((w.get("start") or {}).get("millis"))
+            end = _ms((w.get("end") or {}).get("millis"))
+            all_day = bool(w.get("allDay"))
+            if all_day and end and (end - start).days > 4:
+                continue   # month-long exhibits and contests: not something to pin on a day
+            loc = c.get("location") or {}
+            venue = (c.get("place") or "").strip() or venue_default
+            address = (c.get("address") or "").strip() or (loc.get("c_street") and f"{loc['c_street']}, Columbia, MO") or address_default
+            if address and loc.get("name") and address.startswith(loc["name"] + ", ") and not re.match(r"\d+ ", loc["name"]):
+                address = address[len(loc["name"]) + 2:]   # "RC18, 605 Elm St": a room code in front of the street
+            lat, lng = loc.get("latitude"), loc.get("longitude")
+            if not lat or haversine_km((lat, lng), DOWNTOWN) > 40:
+                lat = lng = None
+            img = None
+            sets = c.get("imageSets") or []
+            if c.get("imageIdNg") and sets:
+                img = f"https://d3fd4e4oyqldw5.cloudfront.net/{sets[0].get('ownerId')}/{c['imageIdNg']}/scaled_1152.jpg"
+            eid = e.get("eid") or {}
+            title = re.sub(r"\s*@\s*[^@]{2,40}$", "", title).strip() or title   # "Trivia @Cafe Berlin": venue is its own field
+            out.append(make_event(key, name, f"{eid.get('uid')}:{eid.get('tid')}", title, start, end, all_day=all_day,
+                                  venue=venue, address=address, lat=lat, lng=lng,
+                                  url=f"https://tockify.com/{cal}/detail/{eid.get('uid')}/{eid.get('tid')}",
+                                  category=infer_category(title, desc, cat), image=img, description=desc, organizer=name))
+    return out
+
+def src_ccis(days):
+    """Columbia College portal (Pathify): public events plus home games on campus."""
+    out, url = [], "https://myportal.ccis.edu/api/v2/events/unauthenticated/?limit=50"
+    horizon = dt.datetime.now(TZ) + dt.timedelta(days=days)
+    for _ in range(8):
+        try:
+            js = get(url).json()
+        except Exception as e:
+            log("  ccis failed:", e); break
+        stop = False
+        for e in js.get("results", []):
+            start, end = parse_dt(e.get("start_date")), parse_dt(e.get("end_date"))
+            if not start:
+                continue
+            if start > horizon:
+                stop = True; continue
+            cal = (e.get("calendar") or {}).get("name", "")
+            loc = (e.get("location") or "").strip(" ,")
+            title = clean_title(e.get("title") or "")
+            if cal == "Athletics":
+                if "Columbia, MO" not in loc:
+                    continue   # away games
+                venue = "Southwell Complex" if "Southwell" in loc else "Columbia College"
+                cat = "sports"
+            else:
+                venue = loc.split(",")[0].split(" - ")[0].strip() or "Columbia College"
+                if venue in ("Columbia College", "Lee Room"):
+                    venue = "Columbia College" if venue == "Columbia College" else f"{venue}, Columbia College"
+                cat = infer_category(title, e.get("description") or "", "community")
+            lat, lng = e.get("latitude"), e.get("longitude")
+            lat = float(lat) if lat and float(lat) else None
+            lng = float(lng) if lat and lng else None
+            out.append(make_event("ccis", "Columbia College", e.get("id"), title, start, end, all_day=bool(e.get("all_day")),
+                                  venue=venue, address="1001 Rogers St, Columbia, MO 65216", lat=lat, lng=lng,
+                                  url=f"https://myportal.ccis.edu/events/{e.get('id')}", ticket_url=e.get("ticket_url") or None,
+                                  category=cat, image=e.get("effective_banner_picture_url"),
+                                  description=e.get("description"), organizer="Columbia College"))
+        url = js.get("next")
+        if stop or not url:
+            break
+    return out
+
+def src_macaronikid(days):
+    """Macaroni Kid Columbia: family events, from the JSON the events page embeds. The library's own
+    events come from src_dbrl, so they are skipped here; events with no place can't go on the map."""
+    try:
+        h = get("https://columbiamo.macaronikid.com/events").text
+        js = json.loads(re.search(r'<script type="application/json" id="mk-list-data">(.*?)</script>', h, re.S).group(1))
+    except Exception as e:
+        log("  macaronikid failed:", e); return []
+    out = []
+    horizon = dt.datetime.now(TZ) + dt.timedelta(days=days)
+    for e in js.get("events", []):
+        orgs = " ".join(e.get("orgs") or [e.get("org") or ""])
+        if "Daniel Boone" in orgs or not (e.get("place") or "").strip():
+            continue
+        try:
+            start = dt.datetime.strptime(e["utcFrom"], "%Y%m%dT%H%M%SZ").replace(tzinfo=dt.timezone.utc).astimezone(TZ)
+            end = dt.datetime.strptime(e["utcTo"], "%Y%m%dT%H%M%SZ").replace(tzinfo=dt.timezone.utc).astimezone(TZ) if e.get("utcTo") else None
+        except Exception:
+            continue
+        if start > horizon or (end and (end - start).days > 2):
+            continue   # "registration open" style ranges
+        place = e["place"].strip()
+        venue, address = (place, None) if not re.match(r"\d", place) else (None, place)
+        if "," in place and not re.match(r"\d", place):
+            venue, address = place.split(",", 1)[0].strip(), place.split(",", 1)[1].strip()
+        title = html.unescape(e.get("title") or "")
+        desc = html.unescape(e.get("desc") or "")
+        out.append(make_event("macaronikid", "Macaroni Kid", e.get("id"), title, start, end, all_day=bool(e.get("allDay")),
+                              venue=venue, address=address, url=f"https://columbiamo.macaronikid.com/events/{e.get('id')}",
+                              category=infer_category(title, desc, "family"), image=e.get("image"),
+                              description=desc, organizer=(e.get("orgs") or [None])[0]))
+    return out
+
+def src_comotickets(days):
+    out, seen = [], set()
+    horizon = dt.datetime.now(TZ) + dt.timedelta(days=days)
+    for page in ("https://www.comotickets.com/events", "https://www.comotickets.com/events?page=2"):
+        try:
+            evs = ld_events(get(page).text)
+        except Exception as e:
+            log("  comotickets", page, "failed:", e); continue
+        for x in evs:
+            start, end = parse_dt(x.get("startDate")), parse_dt(x.get("endDate"))
+            title = html.unescape(x.get("name") or "")
+            if not start or start > horizon or (title, start) in seen or "Online" in str(x.get("eventAttendanceMode")):
+                continue
+            seen.add((title, start))
+            loc = x.get("location") or {}
+            addr = loc.get("address") if isinstance(loc.get("address"), str) else (loc.get("address") or {}).get("streetAddress")
+            venue = loc.get("name")
+            if venue and addr and venue.split(",")[0] in addr:
+                venue = None   # the "name" is just the street address
+            offers = x.get("offers") or {}
+            if isinstance(offers, list):
+                offers = offers[0] if offers else {}
+            price = f"${offers['price']}" if offers.get("price") not in (None, "", "0", 0, "0.0") else None
+            org = x.get("organizer") or {}
+            img = x.get("image")
+            if isinstance(img, list):
+                img = img[0] if img else None
+            out.append(make_event("comotickets", "COMO Tickets", f"{x.get('url') or title}:{start:%Y%m%d%H%M}", title, start, end,
+                                  venue=venue, address=addr, url=x.get("url"), ticket_url=x.get("url"), price=price,
+                                  category=infer_category(title, x.get("description") or "", "community"), image=img,
+                                  description=x.get("description"), organizer=org.get("name") if isinstance(org, dict) else None))
+    return out
+
+CHAMBER_SKIP = re.compile(r"\b(committee|board|meeting|members? only|orientation|chamber 101)\b", re.I)
+def src_chamber(days):
+    """Columbia Chamber of Commerce (GrowthZone XML): only events marked Public, not member-only ones."""
+    import xml.etree.ElementTree as ET
+    try:
+        root = ET.fromstring(get("https://business.comochamber.com/api/events").content)
+    except Exception as e:
+        log("  chamber failed:", e); return []
+    out = []
+    now = dt.datetime.now(TZ)
+    for e in root:
+        flags = (e.findtext("VisibilityFlags") or "").split()
+        name = html.unescape(e.findtext("Name") or "")
+        if "Public" not in flags or "MemberOnly" in flags or (e.findtext("Status") or "") != "APPROVED" or CHAMBER_SKIP.search(name):
+            continue
+        start = parse_dt(e.findtext("StartDate"))
+        end = parse_dt(e.findtext("EndDate"))
+        if not start or not (now - dt.timedelta(hours=3) <= start <= now + dt.timedelta(days=days)):
+            continue
+        # LocationDesc is "Venue; street; city" as HTML lines
+        parts = [x.strip() for x in strip_html(html.unescape((e.findtext("LocationDesc") or "").replace("<br", ";<br")), 300).split(";")]
+        parts = [x for x in parts if x and not x.endswith(":")]
+        venue = parts[0] if parts and not re.match(r"\d", parts[0]) else None
+        if venue and ":" in venue:
+            venue = venue.rsplit(":", 1)[1].strip(" ;") or None   # "The project will take place at: The Food Bank"
+        street = e.findtext("MapAddr1") or next((x for x in parts if re.match(r"\d", x)), None)
+        addr = f"{street}, {e.findtext('MapCity') or 'Columbia'}, {e.findtext('MapState') or 'MO'}" if street and "," not in street else street
+        out.append(make_event("chamber", "Columbia Chamber of Commerce", e.findtext("EventID"), name, start, end,
+                              all_day=(e.findtext("IsAllDayEvent") == "true"), venue=venue, address=addr,
+                              url=f"https://business.comochamber.com/events/details/{e.findtext('Slug')}-{e.findtext('EventID')}",
+                              category=infer_category(name, "", "community"),
+                              description=html.unescape(e.findtext("Description") or ""), organizer="Columbia Chamber of Commerce"))
+    return out
+
+RUN_SKIP = re.compile(r"\b(virtual|partner portal|club challenge|training group|miles club)\b", re.I)
+def src_runsignup(days):
+    """Races in and around Columbia from RunSignup's public API (no virtual races or sign-up portals)."""
+    today = dt.datetime.now(TZ).date()
+    try:
+        js = get("https://runsignup.com/Rest/races", params={
+            "format": "json", "zipcode": "65201", "radius": "16", "events": "T", "results_per_page": "100",
+            "start_date": today.isoformat(), "end_date": (today + dt.timedelta(days=days)).isoformat()}).json()
+    except Exception as e:
+        log("  runsignup failed:", e); return []
+    out = []
+    now = dt.datetime.now(TZ)
+    for r in js.get("races", []):
+        r = r.get("race") or {}
+        a = r.get("address") or {}
+        if r.get("is_private_race") == "T" or RUN_SKIP.search(r.get("name") or "") or "virtual" in (a.get("street") or "").lower():
+            continue
+        evs = [ev for ev in r.get("events", []) if ev.get("event_type") != "virtual_race" and ev.get("start_time")]
+        starts = []
+        for ev in evs:
+            try:
+                starts.append(dt.datetime.strptime(ev["start_time"], "%m/%d/%Y %H:%M").replace(tzinfo=TZ))
+            except Exception:
+                pass
+        starts = sorted(x for x in starts if now - dt.timedelta(hours=3) <= x <= now + dt.timedelta(days=days))
+        if not starts:
+            continue
+        addr = ", ".join(x for x in (a.get("street"), a.get("city"), a.get("state")) if x)
+        desc = strip_html(html.unescape(r.get("description") or ""), 600)
+        out.append(make_event("runsignup", "RunSignup", r.get("race_id"), r.get("name"), starts[0], starts[0] + dt.timedelta(hours=2),
+                              venue=None, address=addr, url=r.get("url"), ticket_url=r.get("url"), category=infer_category(r.get("name") or "", desc, "sports"),
+                              image=r.get("logo_url"), description=desc, organizer=r.get("name")))
+    return out
+
 SOURCES = [src_mizzou, src_engage, src_visitcolumbia, src_eventbrite, src_allevents, src_baselocal, src_bluenote, src_dbrl,
            src_posh, src_tribe, src_vox, src_ics, src_extra,
-           src_squarespace, src_ragtag, src_stephens, src_talkinghorse, src_mizzouarts, src_wealwaysswing, src_lyceum, src_caam]
+           src_squarespace, src_ragtag, src_stephens, src_talkinghorse, src_mizzouarts, src_wealwaysswing, src_lyceum, src_caam,
+           src_tockify, src_ccis, src_macaronikid, src_comotickets, src_chamber, src_runsignup]
 
 # ----------------------------------------------------------------- merge
 DEDUPE_STOP = set("the a an of at in on and or for with to vs v am pm presents presented by featuring feat ft live event "

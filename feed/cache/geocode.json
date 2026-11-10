@@ -1,4 +1,9 @@
 {
+ "1 champions dr, columbia mo 65203, us": {
+  "lat": 38.9335079,
+  "lng": -92.3345119,
+  "name": "Champions Drive"
+ },
  "1 champions dr, columbia, mo": {
   "lat": 38.9324476,
   "lng": -92.3282164,
@@ -14,13 +19,33 @@
   "lng": -92.3252124,
   "name": null
  },
+ "10 hitt st, columbia, mo 65201": {
+  "lat": 38.9507966,
+  "lng": -92.3252124,
+  "name": null
+ },
  "10 w nifong blvd ste 115, columbia, mo 65203 columbia, mo 65203": null,
  "10 w nifong blvd, columbia, mo": {
   "lat": 38.9080487,
   "lng": -92.3395249,
   "name": "PaPPo's Pizzaria"
  },
+ "1000 rollins st, columbia, mo": {
+  "lat": 38.942098,
+  "lng": -92.3266748,
+  "name": null
+ },
+ "1001 rogers st, columbia, mo 65216": {
+  "lat": 38.9576042,
+  "lng": -92.3268129,
+  "name": null
+ },
  "1002 fay st, columbia, mo": {
+  "lat": 38.9606808,
+  "lng": -92.3225127,
+  "name": null
+ },
+ "1002 fay st, columbia, mo 65201": {
   "lat": 38.9606808,
   "lng": -92.3225127,
   "name": null
@@ -51,13 +76,30 @@
   "lng": -92.325182,
   "name": "Rose Park"
  },
+ "1016 artist alley, columbia, mo, united states, 65201": null,
  "102 stewart hall parker auditorium university of missouri columbia missouri united states, columbia, mo": null,
  "1020 e walnut st, columbia, mo": {
   "lat": 38.9524543,
   "lng": -92.3260373,
   "name": null
  },
+ "1020 e. walnut columbia mo 65201": {
+  "lat": 38.9524561,
+  "lng": -92.3261457,
+  "name": null
+ },
  "1020 e. walnut st columbia, mo 65201": {
+  "lat": 38.9524561,
+  "lng": -92.3261457,
+  "name": null
+ },
+ "1020 e. walnut st., ste. 100, columbia, mo, united states, 65201": null,
+ "1020 east walnut columbia mo 65201": {
+  "lat": 38.9524561,
+  "lng": -92.3261457,
+  "name": null
+ },
+ "1020 east walnut columbia, mo 65201": {
   "lat": 38.9524561,
   "lng": -92.3261457,
   "name": null
@@ -67,7 +109,13 @@
   "lng": -92.326015,
   "name": null
  },
+ "1023 e walnut st, columbia, mo 65201": {
+  "lat": 38.952618,
+  "lng": -92.326015,
+  "name": null
+ },
  "1023 e walnut st, columbia, mo 65201 columbia, mo 65201": null,
+ "1023 e. walnut street, suite 101, columbia, mo, united states, missouri 65201": null,
  "105 w. smith st., sturgeon, mo": null,
  "106 orr st columbia, mo 65201": {
   "lat": 38.9526974,
@@ -84,6 +132,11 @@
   "lng": -92.3712835,
   "name": null
  },
+ "1103 e walnut columbia mo 65201": {
+  "lat": 38.9526026,
+  "lng": -92.3247579,
+  "name": null
+ },
  "1103 e walnut st, columbia, mo": {
   "lat": 38.9526026,
   "lng": -92.3247579,
@@ -93,6 +146,22 @@
   "lat": 38.9517349,
   "lng": -92.3360254,
   "name": null
+ },
+ "111 e broadway, columbia, mo 65203": {
+  "lat": 38.9517349,
+  "lng": -92.3360254,
+  "name": null
+ },
+ "111 s. 9th st. columbia, mo 65201": {
+  "lat": 38.9502702,
+  "lng": -92.3277705,
+  "name": "The Mud Room"
+ },
+ "111 south 9th st. suite 160, 65201, columbia, mo": null,
+ "1112 e broadway, columbia, mo 65201": {
+  "lat": 38.950912,
+  "lng": -92.3240035,
+  "name": "First Baptist Church of Columbia"
  },
  "111f townsend grad hub university of missouri columbia missouri united states, columbia, mo": null,
  "111f townsend hall, columbia 65211, united states": null,
@@ -114,12 +183,19 @@
   "lng": -92.3625846,
   "name": "Country Club of Missouri"
  },
+ "1308 grand ave, columbia, mo": {
+  "lat": 38.965159,
+  "lng": -92.3362101,
+  "name": null
+ },
  "14 business loop 70 e, columbia, mo": {
   "lat": 38.9651671,
   "lng": -92.3381448,
   "name": null
  },
  "14020 w hwy bb rocheport, mo 65279": null,
+ "14020 w hwy bb, rocheport, mo": null,
+ "14020 w hwy bb, rocheport, mo 65279": null,
  "1450 spring mountain dr, columbia, mo": {
   "lat": 38.932095,
   "lng": -92.2665636,
@@ -141,6 +217,11 @@
   "name": "The Blue Note"
  },
  "1701 w ash st, columbia, mo": {
+  "lat": 38.9574867,
+  "lng": -92.3628449,
+  "name": "Activity & Recreation Center (ARC)"
+ },
+ "1701 w ash st, columbia, mo 65203": {
   "lat": 38.9574867,
   "lng": -92.3628449,
   "name": "Activity & Recreation Center (ARC)"
@@ -197,12 +278,37 @@
   "lng": -92.3278763,
   "name": "Missouri Theatre"
  },
+ "203 s 9th st, columbia, mo 65201": {
+  "lat": 38.9492429,
+  "lng": -92.3278763,
+  "name": "Missouri Theatre"
+ },
  "203 south 9th street columbia, mo 65201": {
   "lat": 38.9492429,
   "lng": -92.3278763,
   "name": "Missouri Theatre"
  },
  "205 central st. · rocheport, columbia, mo": null,
+ "207 s 9th st, columbia, mo 65201": {
+  "lat": 38.9493325,
+  "lng": -92.3276674,
+  "name": null
+ },
+ "207 south 9th street columbia, mo 65201 us": {
+  "lat": 38.9493325,
+  "lng": -92.3276674,
+  "name": null
+ },
+ "2101 vandiver drive, columbia, mo": {
+  "lat": 38.9723224,
+  "lng": -92.3066125,
+  "name": "The Food Bank for Central & Northeast Missouri"
+ },
+ "220 n 10th st, columbia, mo 65201": {
+  "lat": 38.9541028,
+  "lng": -92.3259628,
+  "name": "Cafe Berlin"
+ },
  "220 townsend hall, mo": null,
  "2200 interstate 70 dr sw columbia, mo 65203": {
   "lat": 38.967802,
@@ -225,6 +331,7 @@
   "lng": -92.297759,
   "name": null
  },
+ "2703 e broadway suite 226, columbia, mo 65201": null,
  "2800 forum blvd, columbia, mo": {
   "lat": 38.9228873,
   "lng": -92.3653237,
@@ -246,6 +353,13 @@
   "lng": -92.3635406,
   "name": null
  },
+ "300 n 10th st. ste 100, columbia, mo 65201": null,
+ "300 s providence rd., columbia, mo": {
+  "lat": 38.9488454,
+  "lng": -92.3341198,
+  "name": null
+ },
+ "308 s 9th st, columbia, mo, united states, 65201": null,
  "313 e ash st., columbia 65201, united states": {
   "lat": 38.9539346,
   "lng": -92.329374,
@@ -260,6 +374,11 @@
   "lat": 38.9664587,
   "lng": -92.3421756,
   "name": "Rusk Rehabilitation Hospital"
+ },
+ "3200 chapel hill rd, columbia, mo 65203": {
+  "lat": 38.9342,
+  "lng": -92.386203,
+  "name": null
  },
  "33 n. masonic dr., columbia, mo": {
   "lat": 39.0164279,
@@ -317,6 +436,11 @@
   "lng": -92.2934276,
   "name": null
  },
+ "3801 ponderosa st, columbia, mo 65201": {
+  "lat": 38.9078037,
+  "lng": -92.2934276,
+  "name": null
+ },
  "3801 ponderosa st., columbia, mo columbia, mo 65201": {
   "lat": 38.9078037,
   "lng": -92.2934276,
@@ -327,7 +451,27 @@
   "lng": -92.3523653,
   "name": "Forum Christian Church"
  },
+ "400 s 9th st, columbia, mo 65201": {
+  "lat": 38.947321,
+  "lng": -92.327446,
+  "name": null
+ },
+ "4005 frontgate dr, columbia, mo 65203": {
+  "lat": 38.9118726,
+  "lng": -92.396729,
+  "name": "Addison’s"
+ },
+ "405 e nifong blvd, columbia, mo 65201": {
+  "lat": 38.9122558,
+  "lng": -92.3329959,
+  "name": null
+ },
  "408 n. route b, hallsville, mo": null,
+ "409 conley ave, columbia, mo 65201": {
+  "lat": 38.9448735,
+  "lng": -92.3330298,
+  "name": null
+ },
  "4107 white tiger lane, columbia, mo": {
   "lat": 38.9899436,
   "lng": -92.3266026,
@@ -347,6 +491,16 @@
  "4840 rangeline st., mo": {
   "lat": 38.9678916,
   "lng": -92.3281738,
+  "name": null
+ },
+ "4th street & cherry street, columbia, mo": {
+  "lat": 38.9505238,
+  "lng": -92.330277,
+  "name": null
+ },
+ "500 vandiver dr, columbia, mo 65202": {
+  "lat": 38.97152,
+  "lng": -92.331159,
   "name": null
  },
  "501 n garth ave, columbia, mo columbia, mo 65203": {
@@ -399,6 +553,7 @@
   "lng": -92.2544224,
   "name": "Schnucks"
  },
+ "55 rosco rd, lake ozark mo 65049, us": null,
  "551 e southampton dr, columbia, mo": {
   "lat": 38.9020588,
   "lng": -92.3727329,
@@ -411,6 +566,7 @@
   "name": "Lakeside Ashland"
  },
  "5901 s highway 163, columbia, mo": null,
+ "5901 s highway 163, columbia, mo 65203": null,
  "601 business loop 70 w, columbia, mo columbia, mo 65203": {
   "lat": 38.9668725,
   "lng": -92.3448706,
@@ -462,6 +618,7 @@
   "lng": -92.3479926,
   "name": "The Food Bank Market"
  },
+ "7279 w rte k, columbia, mo": null,
  "7650 mo-163, columbia, mo 65203 columbia, mo 65203": null,
  "7650 s highway 163, columbia, mo": null,
  "7650 s highway 163, columbia, mo columbia, mo 65203": null,
@@ -471,6 +628,16 @@
   "name": null
  },
  "806 locust st, columbia, mo": {
+  "lat": 38.9494042,
+  "lng": -92.3284561,
+  "name": null
+ },
+ "806 locust st, columbia, mo 65201": {
+  "lat": 38.9494042,
+  "lng": -92.3284561,
+  "name": null
+ },
+ "806 locust st, columbia, mo 65201-4836, united states": {
   "lat": 38.9494042,
   "lng": -92.3284561,
   "name": null
@@ -485,6 +652,11 @@
   "lng": -92.3227967,
   "name": "Plaza 900"
  },
+ "901 e nifong blvd, columbia, mo 65201": {
+  "lat": 38.9074604,
+  "lng": -92.3102365,
+  "name": "East Nifong Boulevard"
+ },
  "901 e rollins st, columbia, mo": {
   "lat": 38.9420895,
   "lng": -92.3178789,
@@ -494,6 +666,16 @@
   "lat": 38.9574018,
   "lng": -92.3270927,
   "name": null
+ },
+ "920 e broadway, columbia, mo 65201-4881, united states": {
+  "lat": 38.9513693,
+  "lng": -92.3266606,
+  "name": "Poppy Made By Hand"
+ },
+ "acola coffee company, columbia, mo": {
+  "lat": 38.9546634,
+  "lng": -92.3262491,
+  "name": "Acola Coffee Company"
  },
  "agriculture building 264 university of missouri columbia missouri united states, columbia, mo": null,
  "agriculture building, columbia, mo": {
@@ -568,6 +750,7 @@
  "ellis library university of missouri columbia missouri united states, columbia, mo": null,
  "elyer  memorial union, columbia, mo": null,
  "equipment/linen deploy, columbia, mo": null,
+ "facebook live, columbia, mo": null,
  "fine arts building a207 north side 507 s 9th st columbia mo 65201 united states, columbia, mo": null,
  "fine arts building lobby university of missouri columbia missouri united states, columbia, mo": null,
  "fine arts building, columbia, mo": {
@@ -579,6 +762,11 @@
   "lat": 38.9672802,
   "lng": -92.3479926,
   "name": "The Food Bank Market"
+ },
+ "fretboard coffee, columbia, mo": {
+  "lat": 38.9528601,
+  "lng": -92.3258834,
+  "name": "Fretboard Coffee"
  },
  "gainesoldham black culture center university of missouri columbia missouri united states, columbia, mo": null,
  "gans creek recreation area 3350 e gans rd columbia mo 65201 united states, columbia, mo": null,
@@ -600,6 +788,7 @@
  "hulston hall room 109 university of missouri columbia missouri united states, columbia, mo": null,
  "hulston hall room 4 hulston hall columbia mo 65211 united states, columbia, mo": null,
  "hybrid, columbia, mo": null,
+ "itap, columbia, mo": null,
  "jefferson farm, columbia, mo": null,
  "jesse hall auditorium, columbia, mo": null,
  "jesse hall university of missouri columbia mo 65211 united states, columbia, mo": null,
@@ -617,6 +806,8 @@
   "lng": -92.3267199,
   "name": "Kuhlman Court"
  },
+ "ladybird cafe, columbia, mo": null,
+ "ladybird trading, columbia, mo": null,
  "leadership auditorium  university of missouri columbia missouri united states, columbia, mo": null,
  "leadership auditorium 518 hitt st columbia mo 65201 united states, columbia, mo": null,
  "leadership auditorium hitt st columbia mo, columbia, mo": null,
@@ -674,6 +865,7 @@
   "name": "Murry's"
  },
  "n201 and n214 memorial union university of missouri columbia missouri united states, columbia, mo": null,
+ "n201 and n214 memorial union, columbia, mo": null,
  "n201 memorial union university of missouri columbia missouri united states, columbia, mo": null,
  "n52 memorial union  university of missouri columbia missouri united states, columbia, mo": null,
  "n52 memorial union university of missouri columbia missouri united states, columbia, mo": null,
@@ -715,6 +907,7 @@
  "security bank parking lot · 101 e. walnut st., auxvasse, columbia, mo": null,
  "security bank parking lot · 101 e. walnut st., columbia, mo": null,
  "security bank parking lot, columbia, mo": null,
+ "serendipity polish pottery & gallery, columbia, mo": null,
  "sinclair school of nursing lobby university of missouri columbia missouri united states, columbia, mo": null,
  "sinclair school of nursing, columbia, mo": {
   "lat": 38.9395478,
@@ -779,14 +972,21 @@
  "teaching for learning center, columbia, mo": null,
  "the arcade district, columbia, mo": null,
  "the bistro, columbia, mo": null,
+ "the blufftop at rocheport, columbia, mo": null,
  "the bridge 220 townsend hall university of missouri columbia missouri united states, columbia, mo": null,
  "the bridge townsend hall, columbia, mo": null,
  "the bridge | 220 townsend hall, columbia, mo": null,
  "the bridge | 220 townsend hall, university of missouri, columbia, mo": null,
  "the bridge | townsend hall, columbia, mo": null,
+ "the bridge, columbia, mo": {
+  "lat": 38.9117003,
+  "lng": -92.3323848,
+  "name": "The UPS Store"
+ },
  "the college of engineering located outside of student services w1024 university of missouri columbia missouri united sta, columbia, mo": null,
  "the college of engineering, columbia, mo": null,
  "the eyler room (s110), university of missouri, columbia, missouri, united states": null,
+ "the landing at harpo's, columbia, mo": null,
  "the mark on 5th street  515 s 5th st columbia mo 65201 united states, columbia, mo": null,
  "the mark on 5th street 515 s 5th st columbia mo 65201 united states, columbia, mo": null,
  "the mark on street s st columbia mo, columbia, mo": null,
@@ -795,6 +995,11 @@
  "the shack university of missouri columbia missouri united states, columbia, mo": null,
  "the sheldon, columbia, mo": null,
  "the tasting room, columbia, mo": null,
+ "top ten wines, columbia, mo": {
+  "lat": 38.9501526,
+  "lng": -92.3277728,
+  "name": "Top Ten Wines"
+ },
  "tournament, columbia, mo": null,
  "townsend (grad hub), columbia, mo": null,
  "townsend hall 611 conley ave columbia mo 65211 united states, columbia, mo": null,

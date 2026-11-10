@@ -820,5 +820,13 @@
     "address": "Hospital Dr",
     "lat": 38.93955,
     "lng": -92.32779
+  },
+  "The Tasting Room at Rocheport": {
+    "aliases": [
+      "the tasting room"
+    ],
+    "address": "12847 W Hwy BB, Rocheport, MO 65279",
+    "lat": 38.96849,
+    "lng": -92.53293
   }
 }
