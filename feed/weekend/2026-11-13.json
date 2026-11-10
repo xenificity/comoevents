@@ -328,19 +328,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "macalester-dose-the-rebels-live-at-myhouse-in-columbia-mo-73b507",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "73b507e188b58035",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8zM2FhYTEwOWMyNDE1YjcyMmFlZDVjYmVmMjhmNjAyZmI0NjQyMTMzYzM1YmIzNjAwMjgwZjZkNDdlOWFlZWY1LXJpbWctdzEyMDAtaDEwMjQtZGMwODA4MDgtZ21pcj92PTE3OTI5Njc0NzE.avif",
-   "source": "allevents",
-   "start": "2026-11-13T13:45:00-06:00",
-   "title": "Macalester Dose & The Rebels LIVE at MyHouse in Columbia, MO",
-   "venue": "My House Nightclub & Sports Bar"
-  },
-  {
    "_slug": "avenue-of-the-columns-tour-10d67a",
    "categories": [
     "music"
@@ -511,19 +498,6 @@
    "ticketUrl": "https://am.ticketmaster.com/muconcerts/buy/ism/NkNGMTExM0E=",
    "title": "Film Friday: Spider-Man: Brand New Day",
    "venue": "Missouri Theatre"
-  },
-  {
-   "_slug": "live-stand-up-comedy-at-the-tokyo-club-stl-s-vernon-longhorn-2ae1c0",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "2ae1c0fc5676cf6f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy81ZGZlOGRkMzMwZmViMTU3ZTJmNDc4MDIxZDVlM2U3OWJhM2I5MDJiYjZiNmVhYmU5NmI2MmY0NGQxNGQ0N2U0LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTE0NDE5NjU.avif",
-   "source": "allevents",
-   "start": "2026-11-13T16:00:00-06:00",
-   "title": "Live Stand-Up COMEDY at The Tokyo Club - STL's Vernon \"LONGHORN\" Davis!!",
-   "venue": "The Tokyo Club"
   },
   {
    "_slug": "trail-boss-bbq-e28016",
@@ -756,27 +730,10 @@
    "title": "Gilded Pearl’s Friday the 13th Sale"
   },
   {
-   "_slug": "mj-night-f588b2",
-   "categories": [
-    "music",
-    "party"
-   ],
-   "category": "music",
-   "description": "Club 90s Presents · with JWords",
-   "id": "f588b2da76cc5764",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Redferrin_RB_Swamp_2533-Crop-Square-e1788272556494.jpg",
-   "source": "bluenote",
-   "start": "2026-11-13T19:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/mj-night-ages-18-columbia-missouri-11-13-2026/event/06006537C7F70D66",
-   "timeTBD": true,
-   "title": "MJ Night",
-   "venue": "The Blue Note"
-  },
-  {
    "_slug": "party-with-the-stars-8686b2",
    "alsoOn": [
-    "https://allevents.in/columbia/party-with-the-stars/200030952163445",
-    "https://events.dbrl.org/event/17459294"
+    "https://events.dbrl.org/event/17459294",
+    "https://allevents.in/columbia/party-with-the-stars/200030952163445"
    ],
    "categories": [
     "family"
@@ -827,21 +784,6 @@
    "venue": "Talking Horse Productions"
   },
   {
-   "_slug": "friday-night-comedy-at-the-tokyo-club-e47e11",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "description": "🎤 Comedy Night at The Tokyo Club! Doors Open at 5 PM Show is at 7 PM ⭐ Headliner: Vernon \"Longhorn\" Davis ⭐ Featuring: Andy Hamilton & Ryan Kanavich 🤣 Get ready for laughs, drinks, and games — all under one roof. Come find out why The Tokyo Club is Missouri’s go-to spot for comedy every weekend! 🙌 📍",
-   "end": "2026-11-13T21:00:00-06:00",
-   "id": "e47e11ee5467961d",
-   "imageUrl": "https://comoevent.com/img/gen/d658dc5634f4fa.webp",
-   "source": "arcadedistrict",
-   "start": "2026-11-13T19:30:00-06:00",
-   "title": "Friday Night Comedy at The Tokyo Club",
-   "venue": "The Arcade District"
-  },
-  {
    "_slug": "little-women-the-musical-071642",
    "alsoOn": [
     "https://calendar.missouri.edu/theatre/event/20643-little-women"
@@ -858,6 +800,27 @@
    "start": "2026-11-13T19:30:00-06:00",
    "title": "Little Women: The Musical",
    "venue": "Rhynsburger Theatre"
+  },
+  {
+   "_slug": "live-stand-up-comedy-at-the-tokyo-club-stl-s-vernon-longhorn-9ffb31",
+   "alsoOn": [
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-stls-vernon-longhorn-davis/100002003092078328",
+    "https://thearcadedistrict.org/"
+   ],
+   "categories": [
+    "arts",
+    "family"
+   ],
+   "category": "arts",
+   "description": "Texas-raised, 4th-gen Army vet Vernon “Longhorn” Davis turns family chaos & military life into pure Longhorn Comedy!",
+   "end": "2026-11-13T21:00:00-06:00",
+   "id": "9ffb31ee12106692",
+   "imageUrl": "https://comoevent.com/img/gen/p-d07276a17ae0f3.webp",
+   "source": "eventbrite",
+   "start": "2026-11-13T19:30:00-06:00",
+   "ticketUrl": "https://www.eventbrite.com/e/live-stand-up-comedy-at-the-tokyo-club-stls-vernon-longhorn-davis-tickets-2003092078328",
+   "title": "Live Stand-Up COMEDY at The Tokyo Club - STL's Vernon \"LONGHORN\" Davis!!",
+   "venue": "The Tokyo Club"
   },
   {
    "_slug": "steven-tharp-faculty-recital-4d9944",
@@ -929,6 +892,7 @@
   {
    "_slug": "nicole-atkins-rose-music-hall-277334",
    "alsoOn": [
+    "https://rosemusichall.com/event/nicole-atkins/",
     "https://baselocal.com/mo/columbia/events/#nicole-atkins"
    ],
    "categories": [
@@ -941,6 +905,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Nicole-Atkins-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-11-13T20:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/nicole-atkins-columbia-missouri-11-13-2026/event/060064D43A4DEF52",
    "title": "Nicole Atkins – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -958,6 +923,22 @@
    "start": "2026-11-13T21:00:00-06:00",
    "title": "Friday Night Comedy at The Tokyo Club",
    "venue": "The Arcade District"
+  },
+  {
+   "_slug": "mj-night-f588b2",
+   "categories": [
+    "music",
+    "party"
+   ],
+   "category": "music",
+   "description": "Club 90s Presents · with JWords",
+   "id": "f588b2da76cc5764",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/Redferrin_RB_Swamp_2533-Crop-Square-e1788272556494.jpg",
+   "source": "bluenote",
+   "start": "2026-11-13T21:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/mj-night-ages-18-columbia-missouri-11-13-2026/event/06006537C7F70D66",
+   "title": "MJ Night",
+   "venue": "The Blue Note"
   },
   {
    "_slug": "wild-horse-nine-cb0829",
@@ -1265,19 +1246,6 @@
    "venue": "Whitmore Recital Hall"
   },
   {
-   "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-wes-2ab51e",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "2ab51ec411c61955",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy84MGE5MzIzZWQyNWFjNGIwNGFkZDhmYTkyMmVhZWE4MjA5ZTVlMWYwZDhhYjYyNzJhYzk4ZDY3MWU3MzgwNWVjLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTMwOTk3Njg.avif",
-   "source": "allevents",
-   "start": "2026-11-14T11:00:00-06:00",
-   "title": "Live Stand-Up COMEDY at The Tokyo Club - The Return of DAN WEST!",
-   "venue": "The Tokyo Club"
-  },
-  {
    "_slug": "tryps-theater-live-at-eleven-5694a5",
    "alsoOn": [
     "https://events.dbrl.org/event/17488457"
@@ -1436,6 +1404,18 @@
    "start": "2026-11-14T12:30:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "gallery-readings-w-clay-schiefelbein-22e550",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "22e550ce3783c7b0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9lOGRlZjUzNDZiYjJhYTEyNzljYjY1YTc4MzRmMmU2YTUwMWExODk3OWEwYWI1MmY2NTJjMzkwNmFhNDgwNjE0LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDUz.avif",
+   "source": "allevents",
+   "start": "2026-11-14T13:00:00-06:00",
+   "title": "Gallery Readings w/ Clay Schiefelbein"
   },
   {
    "_slug": "game-sale-day-839067",
@@ -1883,6 +1863,7 @@
   {
    "_slug": "smells-like-nirvana-rose-music-hall-483aa1",
    "alsoOn": [
+    "https://rosemusichall.com/event/smells-like-nirvana-3/",
     "https://baselocal.com/mo/columbia/events/#smells-like-nirvana-at-rose-music-hall"
    ],
    "categories": [
@@ -1895,6 +1876,7 @@
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Smells-Like-Nirvana-at-Rose-Music-Hall.jpg",
    "source": "visitcolumbia",
    "start": "2026-11-14T20:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/smells-like-nirvanatribute-to-nirvana-columbia-missouri-11-14-2026/event/060064F6E068731B",
    "title": "Smells Like Nirvana – Rose Music Hall",
    "venue": "Rose Music Hall"
   },
@@ -1911,19 +1893,24 @@
    "title": "4th Annual Pierpont General Store Chili Cook Off"
   },
   {
-   "_slug": "saturday-night-comedy-at-the-tokyo-club-0ba21f",
+   "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-wes-538a37",
+   "alsoOn": [
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308",
+    "https://thearcadedistrict.org/"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
-   "description": "🎤 Comedy Night at The Tokyo Club! Doors Open at 5 PM Show is at 7 PM ⭐ Headliner: Dan West ⭐ Feature: Lady Moe Joe & Ryan Kanavich 🤣 Get ready for laughs, drinks, and games — all under one roof. Come find out why The Tokyo Club is Missouri’s go-to spot for comedy every weekend! 🙌 📍 709 Fay St Suite ",
+   "description": "Army vet Dan West—aka “Captain America with a drinking problem”—brings his sharp, cynical storytelling & nostalgic riffs to The Tokyo Club!!",
    "end": "2026-11-14T22:30:00-06:00",
-   "id": "0ba21f57ff9a5333",
-   "imageUrl": "https://comoevent.com/img/gen/c81ec9963d40a2.webp",
-   "source": "arcadedistrict",
+   "id": "538a37fca5f89a82",
+   "imageUrl": "https://comoevent.com/img/gen/p-a0179529547e5c.webp",
+   "source": "eventbrite",
    "start": "2026-11-14T21:00:00-06:00",
-   "title": "Saturday Night Comedy at The Tokyo Club",
-   "venue": "The Arcade District"
+   "ticketUrl": "https://www.eventbrite.com/e/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west-tickets-2003937176038",
+   "title": "Live Stand-Up COMEDY at The Tokyo Club - The Return of DAN WEST!",
+   "venue": "The Tokyo Club"
   },
   {
    "_slug": "wild-horse-nine-543129",
@@ -2044,6 +2031,22 @@
    "start": "2026-11-15T12:00:00-06:00",
    "title": "The Patty Wagon",
    "venue": "Cooper's Landing"
+  },
+  {
+   "_slug": "como-fall-crawl-86d0f8",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Get ready to sip and stroll through downtown Columbia with the best fall vibes at this fun and festive daytime crawl!",
+   "end": "2026-11-15T17:30:00-06:00",
+   "id": "86d0f82a191e4956",
+   "imageUrl": "https://cdn.evbuc.com/images/1197237210/3019279126623/1/original.20261104-064357",
+   "source": "eventbrite",
+   "start": "2026-11-15T12:30:00-06:00",
+   "ticketUrl": "https://www.eventbrite.com/e/como-fall-crawl-tickets-2004027405918",
+   "title": "Como Fall Crawl",
+   "venue": "Gunter Hans"
   },
   {
    "_slug": "samantha-decker-clarinet-recital-b9d682",
@@ -2455,7 +2458,7 @@
  "picks": [
   "8686b2a10230dc7b",
   "071642c6e660b3d4",
-  "011e2839fec348ca",
+  "9ffb31ee12106692",
   "2773342929747aeb",
   "2b3596efcad32e23",
   "cf0735f53dbf0587",

@@ -287,7 +287,7 @@ struct ProfileScreen: View {
                 Label("Post an event", systemImage: "plus.circle.fill").frame(maxWidth: .infinity)
             }
             .buttonStyle(.borderedProminent).tint(Theme.yellow).foregroundStyle(Theme.ink)
-            Text("Student orgs, venues, anyone: post a public event and it appears on the map after a quick check.").font(.caption).foregroundStyle(.secondary)
+            Text("Student orgs, venues, anyone: post a public event and it's on the map and in search right away.").font(.caption).foregroundStyle(.secondary)
             if community.isModerator {
                 NavigationLink { ModerationView() } label: { Label("Moderation queue", systemImage: "checkmark.seal") }
             }

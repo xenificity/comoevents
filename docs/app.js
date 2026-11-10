@@ -344,6 +344,7 @@
     map.on("style.load", addHeat);   // also after a light/dark style switch
     map.on("load", function () {
       map.on("zoomend", renderMarkers);
+      map.on("rotateend", hideCrowdedNames); map.on("pitchend", hideCrowdedNames);
       renderMarkers();
     });
   }
@@ -388,20 +389,35 @@
     var z = map ? map.getZoom() : 13.4;
     return Math.max(0.0015, 0.0015 * Math.pow(2, 15.3 - z));
   }
+  /** The venue, or the street address when a source gives no venue name (same as Hotspot.placeLabel). */
+  function placeLabel(e) { return e.venue || (e.address ? e.address.split(",")[0].trim() : "") || ""; }
+  function placeKey(e) { return placeLabel(e).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().slice(0, 40); }
+  function zoomedIn() { return map && map.getZoom() >= 14.6; }   // close enough for one named pin per venue
   function buildHotspots(list) {
-    var cell = cellDegrees(), buckets = {};
+    var cell = cellDegrees(), buckets = {}, byVenue = zoomedIn();
     list.forEach(function (e) {
       if (e.lat == null || e.lng == null) return;
-      var key = Math.round(e.lat / cell) + "_" + Math.round(e.lng / cell);
+      var key = Math.round(e.lat / cell) + "_" + Math.round(e.lng / cell) + (byVenue ? "_" + placeKey(e) : "");
       (buckets[key] = buckets[key] || []).push(e);
     });
     return Object.keys(buckets).map(function (key) {
-      var evs = buckets[key].sort(function (a, b) { return a._start - b._start; }), lat = 0, lng = 0, counts = {};
-      evs.forEach(function (e) { lat += e.lat; lng += e.lng; counts[kind(e)] = (counts[kind(e)] || 0) + 1; });
+      var evs = buckets[key].sort(function (a, b) { return a._start - b._start; }), lat = 0, lng = 0, counts = {}, keys = {};
+      evs.forEach(function (e) { lat += e.lat; lng += e.lng; counts[kind(e)] = (counts[kind(e)] || 0) + 1; keys[placeKey(e)] = 1; });
       var dom = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; })[0];
-      var title = evs[0].venue || evs[0].address || (evs.length + " events");
-      return { id: key + "|" + evs.length + "|" + dom, lat: lat / evs.length, lng: lng / evs.length, events: evs, dominant: dom, title: title };
+      var kk = Object.keys(keys), place = kk.length === 1 && kk[0] ? placeLabel(evs[0]) : null;
+      var title = place || (kk.length > 1 ? evs.length + " events nearby" : evs[0].venue || evs[0].address || (evs.length + " events"));
+      return { id: key + "|" + evs.length + "|" + dom, lat: lat / evs.length, lng: lng / evs.length, events: evs, dominant: dom, title: title, place: place };
     }).sort(function (a, b) { return b.events.length - a.events.length; });
+  }
+  /** Busiest places first (hotspots are sorted by size): hide a name that would sit on top of one already shown. */
+  function hideCrowdedNames() {
+    var kept = [];
+    document.querySelectorAll("#map .vname").forEach(function (t) {
+      t.style.visibility = "";
+      var r = t.getBoundingClientRect();
+      var hit = kept.some(function (k) { return r.left < k.right + 4 && r.right > k.left - 4 && r.top < k.bottom + 2 && r.bottom > k.top - 2; });
+      if (hit) t.style.visibility = "hidden"; else kept.push(r);
+    });
   }
   function renderMarkers() {
     if (!map) return;
@@ -421,6 +437,8 @@
                    (h.badge ? '<span class="emo">' + esc(h.badge) + "</span>" : ic(h.dominant)) + (n > 1 ? "<b>" + (n > 99 ? "99+" : n) + "</b>" : ""));
       if (h.badge) wrap.style.zIndex = 2;
       pin.title = h.title + (n > 1 ? " · " + n + " events" : "");
+      // The place's name under its pin: every venue when zoomed in, busy ones (5+) when zoomed out.
+      if (h.place && (zoomedIn() || n >= 5)) { var tag = el("div", "vname"); tag.textContent = h.place; wrap.appendChild(tag); }
       pin.onclick = function (ev) { ev.stopPropagation(); if (n === 1) openDetail(h.events[0]); else openSheet(h); };
       wrap.appendChild(pin);
       if (window.Cloud && Cloud.friends.list.length) {
@@ -436,6 +454,7 @@
       var m = new maplibregl.Marker({ element: wrap, anchor: "center" }).setLngLat([h.lng, h.lat]).addTo(map);
       markers.push(m);
     });
+    hideCrowdedNames();
   }
   function focusOn(e) {
     state.selected = e.id;
@@ -596,9 +615,9 @@
 
     var comm = el("div", "glass card pcard", "<h3>Community</h3>");
     var post = el("button", "ylink", ic("plus") + "Post an event"); post.type = "button"; post.onclick = openPost; comm.appendChild(post);
-    comm.appendChild(el("p", "", "Student orgs, venues, anyone: post a public event and it appears on the map after a quick check."));
+    comm.appendChild(el("p", "", "Student orgs, venues, anyone: post a public event and it's on the map and in search right away."));
     if (window.Cloud && Cloud.community.mine && Cloud.community.mine.length) {
-      comm.appendChild(el("p", "mine", "Your posts: " + Cloud.community.mine.map(function (e) { return "<b>" + esc(e.title) + "</b> · " + (e.decision === true ? "live" : e.decision === false ? "declined" : "waiting for a moderator"); }).join(" · ")));
+      comm.appendChild(el("p", "mine", "Your posts: " + Cloud.community.mine.map(function (e) { return "<b>" + esc(e.title) + "</b> · " + (e.decision === false ? "removed" : "live"); }).join(" · ")));
     }
     box.appendChild(comm);
 
@@ -715,7 +734,7 @@
       btn.disabled = false; btn.innerHTML = "Post";
       if (msg) { showPostError(msg); return; }
       closePost(); f.reset(); setPostPhoto(null); $("post-extra").querySelectorAll(".chip.on").forEach(function (b) { b.classList.remove("on"); });
-      toast("Posted. A moderator will check it, usually within a day.");
+      toast("Your event is live. It's on the map and in search now.");
       if (state.tab === "profile") renderProfile();
     });
   }
@@ -850,6 +869,13 @@
   function openSheet(h) {
     $("sheet-title").textContent = h.title;
     var rows = $("sheet-rows"); rows.innerHTML = "";
+    // What's happening at this place, where it is, and a way to get there.
+    var addr = (h.events.filter(function (e) { return e.address; })[0] || {}).address;
+    var head = el("div", "placehead", "<div><b>" + h.events.length + " event" + (h.events.length === 1 ? "" : "s") + " here</b>" + (addr ? "<small>" + esc(addr) + "</small>" : "") + "</div>");
+    var go = el("a", "ylink small", ic("car") + "Directions");
+    go.href = "https://maps.apple.com/?daddr=" + h.lat + "," + h.lng + "&q=" + encodeURIComponent(h.place || h.title);
+    go.target = "_blank"; go.rel = "noopener"; go.onclick = function () { track("click/directions"); };
+    head.appendChild(go); rows.appendChild(head);
     var now = new Date(), last = null;
     h.events.forEach(function (e) {
       var d = startOfDay(e._start).getTime();

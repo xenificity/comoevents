@@ -1,7 +1,7 @@
 import Foundation
 
 /// First line of defence for guideline 1.2: rejects posts and names containing slurs or explicit terms.
-/// Deliberately simple and conservative; a human moderator still approves every post.
+/// Deliberately simple and conservative. The worker runs the same list before auto-approving a post.
 enum ContentFilter {
     private static let blocked: [String] = [
         "fuck", "fucking", "motherfucker", "shit", "bullshit", "asshole", "bitch", "bitches", "cunt", "dick", "dicks", "cock", "pussy",

@@ -358,14 +358,16 @@
       recs.forEach(function (r) {
         var by = r.created && r.created.userRecordName;
         if (MODERATORS.indexOf(by) < 0 && by !== "__defaultOwner__") return;
-        decisions[val(r.fields.eventRecordName)] = val(r.fields.approved) === 1;
+        var n = val(r.fields.eventRecordName);   // a moderator's removal (0) always wins over the automatic approval
+        decisions[n] = (decisions[n] === undefined ? true : decisions[n]) && val(r.fields.approved) === 1;
       });
       return queryAll({ recordType: "Report" }, 500);
     }).then(function (recs) {
       recs.forEach(function (r) { var n = val(r.fields.eventRecordName); reports[n] = (reports[n] || 0) + 1; });
       return queryAll({ recordType: "SubmittedEvent", filterBy: [{ fieldName: "start", comparator: "GREATER_THAN_OR_EQUALS", fieldValue: { value: Date.now() - 6 * 3600e3 } }], sortBy: [{ fieldName: "start" }] });
     }).then(function (recs) {
-      Cloud.community.approved = recs.filter(function (r) { return decisions[r.recordName] === true && (reports[r.recordName] || 0) < 3 && Cloud.community.blocked.indexOf(val(r.fields.submitterID) || "") < 0; })
+      // Posts go live automatically; your own shows right away, before the approval lands.
+      Cloud.community.approved = recs.filter(function (r) { var d = decisions[r.recordName]; return (d === true || (d === undefined && Cloud.myId() && val(r.fields.submitterID) === Cloud.myId())) && (reports[r.recordName] || 0) < 3 && Cloud.community.blocked.indexOf(val(r.fields.submitterID) || "") < 0; })
         .map(mapEvent).filter(Boolean);
       Cloud.community.mine = recs.filter(function (r) { return Cloud.myId() && val(r.fields.submitterID) === Cloud.myId(); }).map(function (r) { var e = mapEvent(r); if (e) e.decision = decisions[r.recordName]; return e; }).filter(Boolean);
       Cloud.emit("community");
@@ -412,13 +414,24 @@
       if (imageUrl) fields.imageUrl = imageUrl;
       if (!Cloud.signedIn) {   // Google/Facebook account: the worker saves the post
         delete fields.submitterID; delete fields.status; delete fields.reports;
-        return Cloud.api("/me/post", fields).then(function () { Cloud.loadCommunity(); return null; });
+        return Cloud.api("/me/post", fields).then(function () { return Cloud.afterPost(); });
       }
       var rec = { recordType: "SubmittedEvent", fields: {} };
       Object.keys(fields).forEach(function (k) { rec.fields[k] = { value: fields[k] }; });
-      return db.saveRecords([rec]).then(function (r) { if (r.hasErrors) throw r.errors[0]; Cloud.loadCommunity(); return null; });
+      return db.saveRecords([rec]).then(function (r) { if (r.hasErrors) throw r.errors[0]; return Cloud.afterPost(); });
     }).catch(function (e) { return "Couldn't post: " + (e && e.message ? e.message : err(e)); });
   };
+  /** Ask the worker to approve now, then reload twice (CloudKit's query index lags a few seconds). */
+  Cloud.afterPost = function () {
+    var api = Cloud.social && Cloud.social.api;
+    var p = api ? fetch(api + "/approve", { method: "POST" }).catch(function () {}) : Promise.resolve();
+    return p.then(function () {
+      setTimeout(Cloud.loadCommunity, 3000); setTimeout(Cloud.loadCommunity, 10000);
+      return Cloud.loadCommunity();
+    }).then(function () { return null; });
+  };
+  // New community posts reach everyone within a minute.
+  setInterval(function () { if (Cloud.available && document.visibilityState === "visible") Cloud.loadCommunity(); }, 60000);
   Cloud.report = function (event, reason) {
     var name = event.recordName || (event.id.indexOf("community:") === 0 ? event.id.slice(10) : null);
     if (!name) return Promise.resolve("Only community posts can be reported here.");

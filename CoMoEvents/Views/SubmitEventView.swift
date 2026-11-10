@@ -100,7 +100,7 @@ struct SubmitEventView: View {
                     }.tint(Theme.gold)
                     Link("Read the guidelines", destination: URL(string: "https://comoevent.com/guidelines.html")!).font(.subheadline)
                 } footer: {
-                    Text("Public events only. No spam, no hate, no adult content, no private parties, nothing illegal. A moderator checks every post before it appears, usually within a day. Posts can be reported, hidden and removed, and repeat offenders are blocked. Questions: xenificity@icloud.com")
+                    Text("Public events only. No spam, no hate, no adult content, no private parties, nothing illegal. Your event goes live on the map and in search right away. Posts can be reported, hidden and removed, and repeat offenders are blocked. Questions: xenificity@icloud.com")
                 }
             }
             .navigationTitle("Post an event")
@@ -194,7 +194,7 @@ struct SubmitEventView: View {
         sending = true
         let err = await community.submit(draft)
         sending = false
-        if let err { message = err } else { done = true; message = "Your event is in. It shows up on the map once it's approved, usually within a day." }
+        if let err { message = err } else { done = true; message = "Your event is live. It's on the map and in search now." }
     }
 }
 
@@ -224,12 +224,12 @@ struct FlyerCamera: UIViewControllerRepresentable {
     }
 }
 
-/// Moderator-only: approve or reject pending posts.
+/// Moderator-only: posts go live automatically; remove any that break the guidelines.
 struct ModerationView: View {
     @EnvironmentObject var community: CommunityStore
     var body: some View {
         List {
-            if community.pending.isEmpty { ContentUnavailableView("Nothing pending", systemImage: "checkmark.seal") }
+            if community.pending.isEmpty { ContentUnavailableView("No upcoming posts", systemImage: "checkmark.seal") }
             ForEach(community.pending, id: \.recordID) { r in
                 let e = CommunityStore.event(from: r)
                 VStack(alignment: .leading, spacing: 6) {
@@ -242,8 +242,13 @@ struct ModerationView: View {
                     if let d = e?.description, !d.isEmpty { Text(d).font(.footnote).lineLimit(4) }
                     if let o = e?.organizer { Text(o).font(.caption2).foregroundStyle(.secondary) }
                     HStack {
-                        Button { Task { await community.setStatus(r, "approved") } } label: { Label("Approve", systemImage: "checkmark").frame(maxWidth: .infinity) }.buttonStyle(.borderedProminent).tint(.green)
-                        Button(role: .destructive) { Task { await community.setStatus(r, "rejected") } } label: { Label("Reject", systemImage: "xmark").frame(maxWidth: .infinity) }.buttonStyle(.bordered)
+                        let state = community.decision(for: r)
+                        Label(state == false ? "Removed" : state == true ? "Live" : "Going live…", systemImage: state == false ? "eye.slash" : "checkmark.circle")
+                            .font(.caption.weight(.semibold)).foregroundStyle(state == false ? Color.secondary : Color.green)
+                        Spacer()
+                        if state != false {
+                            Button(role: .destructive) { Task { await community.setStatus(r, "rejected"); await community.loadPending() } } label: { Label("Remove", systemImage: "trash") }.buttonStyle(.bordered)
+                        }
                     }
                 }
                 .padding(.vertical, 4)

@@ -17,6 +17,10 @@ FRIENDS_PUBLIC = ""
 
 # KV for short-lived sign-in state and results (10 minutes). Create with:
 #   npx wrangler kv namespace create SOCIAL_KV   and paste the id below.
+# Every minute: auto-approve new community posts (approveNew in src/index.js).
+[triggers]
+crons = ["* * * * *"]
+
 [[kv_namespaces]]
 binding = "KV"
 id = "de97fb3c9c31408894e427f0e822e232"

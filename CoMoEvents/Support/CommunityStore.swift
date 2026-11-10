@@ -4,10 +4,15 @@ import CoreLocation
 import SwiftUI
 
 /// Events people post from inside the app. Public CloudKit database, record type "SubmittedEvent".
-/// New posts are "pending" until a moderator approves them; the app only shows "approved".
+/// Posts are approved automatically within seconds (our worker writes the Approval as the moderator,
+/// after the same word filter); a moderator can still remove one, and three reports hide it.
 @MainActor
 final class CommunityStore: ObservableObject {
-    @Published private(set) var approved: [Event] = []
+    @Published private(set) var approved: [Event] = [] { didSet { onApprovedChanged?(approved) } }
+    /// The app mirrors approved posts into EventStore.communityEvents so they're on the map and in search.
+    var onApprovedChanged: (([Event]) -> Void)?
+    /// Ids this person posts under: iCloud user, or Google/Facebook account.
+    private var myIDs: Set<String> { Set([userRecordName, CoMoAPI.account?.id].compactMap { $0 }) }
     @Published private(set) var pending: [CKRecord] = []
     @Published private(set) var userRecordName: String?
     @Published private(set) var iCloudAvailable = false
@@ -53,7 +58,8 @@ final class CommunityStore: ObservableObject {
             for r in results.compactMap({ try? $0.1.get() }) {
                 guard let by = r.creatorUserRecordID?.recordName, Self.moderators.contains(by) || by == "__defaultOwner__",
                       let name = r["eventRecordName"] as? String else { continue }
-                d[name] = (r["approved"] as? Int64 ?? 0) == 1
+                // A moderator's removal (approved = 0) always wins over the automatic approval.
+                d[name] = (d[name] ?? true) && (r["approved"] as? Int64 ?? 0) == 1
             }
             decisions = d
         } catch { /* no schema yet or offline */ }
@@ -79,16 +85,40 @@ final class CommunityStore: ObservableObject {
     func loadApproved() async {
         await loadDecisions()
         let recs = await fetchUpcoming()
-        approved = recs.filter { decisions[$0.recordID.recordName] == true && reportCounts[$0.recordID.recordName, default: 0] < 3 }
+        let mine = myIDs
+        approved = recs.filter { r in
+            let name = r.recordID.recordName
+            // Your own post shows right away, even before the approval lands (unless it was removed).
+            let ok = decisions[name] == true || (decisions[name] == nil && mine.contains(r["submitterID"] as? String ?? "-"))
+            return ok && reportCounts[name, default: 0] < 3
+        }
             .compactMap(Self.event(from:))
             .map(VenueLookup.enrich)
             .filter { !blockedSubmitters.contains($0.submitterID ?? "") }
     }
 
+    /// Moderation list: every upcoming post (they go live automatically), newest decisions shown per post.
     func loadPending() async {
         await loadDecisions()
-        let recs = await fetchUpcoming()
-        pending = recs.filter { decisions[$0.recordID.recordName] == nil }
+        pending = await fetchUpcoming()
+    }
+    func decision(for rec: CKRecord) -> Bool? { decisions[rec.recordID.recordName] }
+
+    /// Asks the worker to approve new posts now instead of within the minute.
+    private func approveNow() async {
+        var req = URLRequest(url: URL(string: CoMoAPI.base + "/approve")!)
+        req.httpMethod = "POST"; req.timeoutInterval = 15
+        _ = try? await URLSession.shared.data(for: req)
+    }
+
+    /// Show a just-posted event at once, then pick up the approval (CloudKit's query index lags a few seconds).
+    private func showNow(_ rec: CKRecord) async {
+        if let e = Self.event(from: rec).map(VenueLookup.enrich) {
+            approved.removeAll { $0.id == e.id }
+            approved.append(e)
+        }
+        await approveNow()
+        Task { try? await Task.sleep(nanoseconds: 8_000_000_000); await loadApproved() }
     }
 
     // MARK: write
@@ -137,7 +167,18 @@ final class CommunityStore: ObservableObject {
             if d.hasEnd { body["end"] = d.end.timeIntervalSince1970 * 1000 }
             if let lat, let lng { body["lat"] = lat; body["lng"] = lng }
             if let imageUrl { body["imageUrl"] = imageUrl }
-            do { try await CoMoAPI.call("/me/post", json: body); return nil } catch { return "Couldn't post: \(error.localizedDescription)" }
+            do {
+                let data = try await CoMoAPI.call("/me/post", json: body)
+                if let name = (try? JSONSerialization.jsonObject(with: data) as? [String: Any])?["recordName"] as? String {
+                    let rec = CKRecord(recordType: "SubmittedEvent", recordID: CKRecord.ID(recordName: name))
+                    for (k, v) in body { if let cv = v as? CKRecordValue, !["start", "end"].contains(k) { rec[k] = cv } }
+                    rec["start"] = d.start as CKRecordValue
+                    if d.hasEnd { rec["end"] = d.end as CKRecordValue }
+                    rec["submitterID"] = (CoMoAPI.account?.id ?? "") as CKRecordValue
+                    await showNow(rec)
+                }
+                return nil
+            } catch { return "Couldn't post: \(error.localizedDescription)" }
         }
         let rec = CKRecord(recordType: "SubmittedEvent")
         rec["title"] = d.title.trimmingCharacters(in: .whitespaces) as CKRecordValue
@@ -156,7 +197,7 @@ final class CommunityStore: ObservableObject {
         rec["submitterID"] = (userRecordName ?? "") as CKRecordValue
         rec["status"] = "pending" as CKRecordValue
         rec["reports"] = 0 as CKRecordValue
-        do { _ = try await db.save(rec); return nil } catch { return "Couldn't post: \(error.localizedDescription)" }
+        do { let saved = try await db.save(rec); await showNow(saved); return nil } catch { return "Couldn't post: \(error.localizedDescription)" }
     }
 
     /// Moderator decision: writes an Approval record (the moderator is its creator, which is what the app checks).

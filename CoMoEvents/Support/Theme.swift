@@ -17,12 +17,21 @@ enum Theme {
 }
 
 /// Liquid Glass on iOS 26, frosted material on iOS 17/18.
+/// Controls floating over the map set this: see-through glass let pins show through and look like they
+/// overlap the buttons, so there the glass gets a near-solid backing.
+private struct SolidGlassKey: EnvironmentKey { static let defaultValue = false }
+extension EnvironmentValues {
+    var solidGlass: Bool { get { self[SolidGlassKey.self] } set { self[SolidGlassKey.self] = newValue } }
+}
+
 struct GlassModifier<S: Shape>: ViewModifier {
     let shape: S
     var tint: Color? = nil
     var interactive = false
+    @Environment(\.solidGlass) private var solid
 
     func body(content: Content) -> some View {
+        let content = content.background(solid ? Color(.systemBackground).opacity(0.94) : .clear, in: shape)
         if #available(iOS 26.0, *) {
             var glass: Glass = .regular
             if let tint { glass = glass.tint(tint) }

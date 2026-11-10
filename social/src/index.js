@@ -81,11 +81,16 @@ const PROVIDERS = {
 };
 
 export default {
+  // Every minute: approve new community posts (no manual review for now; Report/Block still work).
+  async scheduled(event, env, ctx) { ctx.waitUntil(approveNew(env).catch((e) => console.error("approve", String(e)))); },
+
   async fetch(req, env) {
     const url = new URL(req.url);
     const cors = corsHeaders(req, env);
     if (req.method === "OPTIONS") return new Response(null, { headers: cors });
     try {
+      // The apps call this right after posting, so a new post appears for everyone within seconds.
+      if (url.pathname === "/approve" && req.method === "POST") return json({ ok: true, approved: await approveNew(env) }, 200, cors);
       const lm = url.pathname.match(/^\/login\/(facebook|google)\/start$/);
       if (lm) return await loginStart(lm[1], url, env);
       if (url.pathname.startsWith("/img/") && req.method === "GET") return await getImage(url.pathname.slice(5), env);
@@ -376,6 +381,53 @@ async function rateOk(env, key, perDay) {
   if (n >= perDay) return false;
   await env.KV.put(k, String(n + 1), { expirationTtl: 2 * 86400 });
   return true;
+}
+
+// ---------------------------------------------------------------- automatic approval of community posts
+// Posts are published right away instead of waiting for a moderator: the worker writes an Approval record
+// with our CloudKit key, whose user is the moderator account, so every app version (including 1.2.0) shows
+// the post. Posts that fail the same word filter as the apps stay pending. A moderator "Remove"
+// (an Approval with approved = 0) always wins in the apps.
+const BLOCKED_WORDS = ["fuck", "fucking", "motherfucker", "shit", "bullshit", "asshole", "bitch", "bitches", "cunt", "dick", "dicks", "cock", "pussy",
+  "whore", "slut", "faggot", "fag", "dyke", "tranny", "retard", "retarded", "nigger", "nigga", "chink", "spic", "kike", "wetback",
+  "towelhead", "raghead", "porn", "porno", "xxx", "nude", "nudes", "escort", "escorts", "onlyfans", "hookup", "blowjob", "handjob",
+  "rape", "molest", "kill yourself", "kys", "heroin", "meth", "cocaine", "fentanyl"];
+const BLOCKED_RX = new RegExp("(?<![a-z0-9])(" + BLOCKED_WORDS.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") + ")(?![a-z0-9])", "i");
+function offensive(text) {
+  const t = String(text || "").toLowerCase().replace(/0/g, "o").replace(/1/g, "i").replace(/3/g, "e").replace(/4/g, "a").replace(/\$/g, "s").replace(/@/g, "a");
+  return BLOCKED_RX.test(t);
+}
+
+async function ckQueryFields(env, recordType, filterBy, desiredKeys, limit = 2000) {
+  const out = [];
+  let marker;
+  do {
+    const body = { query: { recordType, filterBy }, resultsLimit: 200, desiredKeys };
+    if (marker) body.continuationMarker = marker;
+    const r = await ckSigned(env, "records/query", body);
+    if (r.serverErrorCode) throw new Error("CloudKit query " + recordType + ": " + r.serverErrorCode + " " + (r.reason || ""));
+    out.push(...(r.records || []));
+    marker = r.continuationMarker;
+  } while (marker && out.length < limit);
+  return out;
+}
+
+async function approveNew(env) {
+  const posts = await ckQueryFields(env, "SubmittedEvent",
+    [{ fieldName: "start", comparator: "GREATER_THAN_OR_EQUALS", fieldValue: { value: Date.now() - 6 * 3600e3, type: "TIMESTAMP" } }],
+    ["title", "details", "venue", "submitterName", "link", "price", "address"]);
+  if (!posts.length) return 0;
+  const approvals = await ckQueryFields(env, "Approval", [], ["eventRecordName"], 5000);
+  const decided = new Set(approvals.map((r) => r.fields && r.fields.eventRecordName && r.fields.eventRecordName.value));
+  const v = (r, k) => (r.fields && r.fields[k] ? r.fields[k].value : "");
+  const ops = posts
+    .filter((p) => !decided.has(p.recordName))
+    .filter((p) => !offensive(["title", "details", "venue", "submitterName", "link", "price", "address"].map((k) => v(p, k)).join(" \n ")))
+    .map((p) => ({ operationType: "forceReplace", record: { recordType: "Approval", recordName: "auto-" + p.recordName,
+      fields: { eventRecordName: { value: p.recordName }, approved: { value: 1, type: "INT64" } } } }));
+  if (ops.length) await ckModify(env, ops);
+  if (ops.length) console.log("auto-approved", ops.length);
+  return ops.length;
 }
 
 // ---------------------------------------------------------------- photos (event photos, profile pictures)

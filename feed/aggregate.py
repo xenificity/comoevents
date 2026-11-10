@@ -1484,6 +1484,33 @@ def concept_rules():
 WORSHIP_PLACE = re.compile(r"(?<![a-z])(church|chapel|cathedral|parish|mandir|temple|mosque|masjid|islamic center|synagogue|congregation|gurd?u?wara|ministries|newman center)(?![a-z])", re.I)
 NOT_WORSHIP = re.compile(r"\b(market|bookmobile|quilt|sale|blood drive|wrestling|vs\.?|library)\b", re.I)
 
+def split_place(e):
+    """'New Heights Church parking lot · 408 N. Route B, Hallsville' → venue + address, so the geocoder
+    and venue table can read them (library bookmobile stops, MU Engage 'Room | Building')."""
+    v = e.get("venue") or ""
+    for sep in (" · ", " | "):
+        if sep in v:
+            a, b = (x.strip() for x in v.split(sep, 1))
+            if re.search(r"\d", b) and re.search(r"[A-Za-z]{3}", b) and not re.search(r"\d", a[:4]):
+                e["venue"] = a
+                if not e.get("address") or e["address"].startswith(v):
+                    e["address"] = b if re.search(r"(?i)\bMO\b|missouri|columbia", b) else b + ", MO"
+            elif re.search(r"(?i)hall|center|building|library|union", b):
+                e["venue"] = b + " (" + a + ")"   # "The Bridge | 220 Townsend Hall" → building first
+            break
+
+
+def building_name(v):
+    """Campus place names without room numbers or trailing boilerplate."""
+    if not v:
+        return v
+    b = re.sub(r"(?i)\b(room|rm\.?)\s*[\w-]+", "", v)
+    b = re.sub(r"(?i)\s*(university of missouri.*|columbia,? missouri.*|united states)$", "", b)
+    b = re.sub(r"\(.*?\)", "", b)
+    b = re.sub(r"^[A-Za-z]?\d+[A-Za-z]*\s+|\s+[A-Za-z]?\d+[A-Za-z]*(\s|$)", " ", b)
+    return re.sub(r"\s+", " ", b).strip(" -|,") or v
+
+
 def event_start(e):
     return dt.datetime.fromisoformat(e["start"])
 
@@ -1643,6 +1670,7 @@ def main():
             continue
         if e.get("venue") and re.match(r"^columbia(,| mo| misso?urr?i|$)", e["venue"].strip(), re.I):
             e["venue"] = None
+        split_place(e)
         known = venue_lookup(e.get("venue"))
         if known and "lat" in known and e["source"] in ("allevents", "visitcolumbia", "baselocal", "dbrl", "vox", "posh", "cooperslanding",
                                                  "mosy", "cec", "talkinghorse", "mizzouarts", "wealwaysswing", "caam"):
@@ -1652,6 +1680,8 @@ def main():
         geovenue = e.pop("_geovenue", None) or e.get("venue")   # MU Engage: map the building, not the room
         if e["lat"] is None and (e.get("venue") or e.get("address")):
             g = geocode(geovenue, e.get("address"))
+            if not g and building_name(geovenue) != geovenue:   # "Strickland Hall Room 105 …" → "Strickland Hall"
+                g = geocode(building_name(geovenue), None)
             if g:
                 e["lat"], e["lng"], v, a = g
                 e["venue"] = e.get("venue") or v

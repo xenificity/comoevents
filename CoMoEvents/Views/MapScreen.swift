@@ -27,6 +27,8 @@ struct MapScreen: View {
 
     /// Cluster cell grows as the camera pulls back, so pins never pile up.
     private var cellDegrees: Double { max(0.0015, 0.0015 * cameraDistance / 1800) }
+    /// Close enough to the ground that each venue gets its own named pin.
+    private var zoomedIn: Bool { cameraDistance <= 6000 }
     /// Everything the cached lists depend on, in one value so a single onChange covers it.
     private var inputs: String {
         "\(window.rawValue)|\(categories.map(\.rawValue).sorted().joined())|\(store.audience?.rawValue ?? "")|\(store.events.count)|\(store.generatedAt?.timeIntervalSince1970 ?? 0)|\(String(format: "%.5f", cellDegrees))"
@@ -35,7 +37,7 @@ struct MapScreen: View {
     private func recompute() {
         let list = store.events(in: window, categories: categories, audience: store.audience)
         visible = list
-        hotspots = Hotspot.buildWithStars(from: list, cellDegrees: cellDegrees)
+        hotspots = Hotspot.buildWithStars(from: list, cellDegrees: cellDegrees, byVenue: zoomedIn)
         heatRings = HeatRing.build(hotspots)
         let now = Date()
         func live(_ e: Event) -> Bool { e.startDate <= now && e.effectiveEnd >= now }
@@ -58,7 +60,7 @@ struct MapScreen: View {
                     }
                     ForEach(hotspots) { h in
                         Annotation(h.title, coordinate: h.coordinate, anchor: .center) {
-                            HotspotPin(hotspot: h, highlighted: selected == h,
+                            HotspotPin(hotspot: h, highlighted: selected == h, showName: h.placeName != nil && (zoomedIn || h.count >= 5),
                                        friendsAt: friends.friends.isEmpty ? ([], []) : friends.friends(atAny: Set(h.events.map(\.id))))
                                 .onTapGesture {
                                     SoundPlayer.tap(); withAnimation(.snappy) { selected = h }
@@ -152,6 +154,7 @@ struct MapScreen: View {
             .navigationTitle("CoMo Events")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar(.hidden, for: .navigationBar)
+            .environment(\.solidGlass, true)   // pins must not show through the floating controls
             .sheet(item: $selected) { h in
                 HotspotSheet(hotspot: h)
                     .presentationDetents([.fraction(0.42), .large])
@@ -218,6 +221,7 @@ struct HeatRing: Identifiable {
 struct HotspotPin: View {
     let hotspot: Hotspot
     let highlighted: Bool
+    var showName = false
     var friendsAt: (here: [FriendsStore.Friend], going: [FriendsStore.Friend]) = ([], [])
     @State private var appeared = false
     private var size: CGFloat { hotspot.badge != nil ? min(32 + CGFloat(hotspot.count) * 0.6, 40) : min(24 + CGFloat(hotspot.count) * 0.6, 32) }
@@ -245,6 +249,23 @@ struct HotspotPin: View {
                 }
             }
             .frame(width: size, height: size)
+            .overlay(alignment: .bottom) {
+                // The place's name under its pin, so people can find a venue at a glance.
+                if showName, let name = hotspot.placeName {
+                    Text(name)
+                        .font(.system(size: 10, weight: .semibold))
+                        .lineLimit(1)
+                        .frame(maxWidth: 120)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .padding(.horizontal, 6).padding(.vertical, 2)
+                        .background(Color(.systemBackground).opacity(0.92), in: Capsule())
+                        .overlay(Capsule().stroke(Color.primary.opacity(0.08), lineWidth: 0.5))
+                        .shadow(color: .black.opacity(0.15), radius: 2, y: 1)
+                        .fixedSize()
+                        .offset(y: (friendsAt.here.isEmpty && friendsAt.going.isEmpty) ? 17 : 30)
+                        .allowsHitTesting(false)
+                }
+            }
             // Friends at this spot: green = here now, yellow = going/saved
             let fr = friendsAt.here + friendsAt.going
             if !fr.isEmpty {
@@ -313,14 +334,50 @@ struct CategoryLegend: View {
 
 struct HotspotSheet: View {
     let hotspot: Hotspot
+    @Environment(\.openURL) private var openURL
+
+    /// Address of the place (the first event that has one).
+    private var address: String? { hotspot.events.compactMap { $0.address }.first { !$0.isEmpty } }
+
     var body: some View {
         NavigationStack {
             ZStack {
                 Theme.page
-                EventList(events: hotspot.events, emptyText: "")
+                VStack(spacing: 0) {
+                    placeHeader
+                    EventList(events: hotspot.events, emptyText: "")
+                }
             }
             .navigationTitle(hotspot.title)
             .navigationBarTitleDisplayMode(.inline)
         }
+    }
+
+    /// What's happening at this place, where it is, and a way to get there.
+    private var placeHeader: some View {
+        HStack(alignment: .center, spacing: 12) {
+            VStack(alignment: .leading, spacing: 3) {
+                Text("\(hotspot.count) event\(hotspot.count == 1 ? "" : "s") here")
+                    .font(.subheadline.weight(.semibold))
+                if let a = address {
+                    Text(a).font(.caption).foregroundStyle(.secondary).lineLimit(2)
+                }
+            }
+            Spacer(minLength: 8)
+            Button {
+                Analytics.tap("directions")
+                let c = hotspot.coordinate
+                let q = (hotspot.placeName ?? "").addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+                if let url = URL(string: "https://maps.apple.com/?daddr=\(c.latitude),\(c.longitude)&q=\(q)") { openURL(url) }
+            } label: {
+                Label("Directions", systemImage: "arrow.triangle.turn.up.right.diamond.fill")
+                    .font(.caption.weight(.bold))
+                    .padding(.horizontal, 12).padding(.vertical, 8)
+                    .foregroundStyle(Theme.ink)
+                    .background(Theme.yellow, in: Capsule())
+            }
+            .buttonStyle(.plain)
+        }
+        .padding(.horizontal, 16).padding(.vertical, 10)
     }
 }

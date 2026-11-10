@@ -57,8 +57,16 @@ struct CoMoEventsApp: App {
         await account.restore()
         store.mergeFavorites(account.profile.favorites)
         await community.prepare()
+        community.onApprovedChanged = { [weak store] posts in store?.communityEvents = posts }
         await community.loadApproved()
         store.communityEvents = community.approved
+        // New community posts reach everyone within a minute: refresh while the app runs.
+        Task { [weak community] in
+            while true {
+                try? await Task.sleep(nanoseconds: 60_000_000_000)
+                await community?.loadApproved()
+            }
+        }
         await friends.restore()
         attendance.onMineChanged = { [weak friends] m in friends?.update(attendance: m) }
         friends.update(attendance: attendance.mine)

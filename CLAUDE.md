@@ -52,7 +52,7 @@ Read README.md first. Short version:
   It reads `docs/events.json`; keep that copy in the feed workflow and `scripts/update-feed.sh`.
   Time-window and category rules mirror `TimeWindow.swift` and `Event.swift`; change both together.
 - Web app iCloud: `docs/cloud.js` is the CloudKit JS layer (same public record types and rules as the
-  Swift stores: att-<user>-<event>, friend-<user>, Approval by moderators, 3 reports hide a post). The
+  Swift stores: att-<user>-<event>, friend-<user>, Approval records by moderators (auto-approved by the worker, a removal wins), 3 reports hide a post). The
   API token lives in `docs/ck-config.js` (`window.CK_TOKEN`), created in CloudKit Console → Production
   → Tokens & Keys, restricted to xenificity.github.io. Empty token = iCloud features hidden.
 - Events from flyers go in `feed/extra.json` (title, start, venue are enough; the venue table fills the
@@ -145,3 +145,13 @@ Read README.md first. Short version:
   Tesseract.js 5.1.1 from jsDelivr, loaded on demand, one worker in sparse-text mode (PSM 11) on a grayscale,
   high-contrast copy; lines under 55% confidence are dropped. Both make the flyer the event photo.
 - Public switches: worker vars LOGIN_PUBLIC and FRIENDS_PUBLIC (wrangler.toml) decide which providers the apps show (/health; `?all=1` for testers: iOS Debug builds, web localStorage `como.tester`=1). Add a provider only once it works for everyone (Google consent screen in production / Meta app Live; friend-finding also needs contacts.readonly verification and user_friends App Review), then redeploy the worker. No app release needed. Release notes, review notes and privacy label for 1.2.1: AppStore/listing.md.
+- Community posts are auto-approved (Nov 2026): the worker's cron (every minute) and POST /approve (apps call it right after
+  posting) write `Approval` "auto-<post>" with approved=1 via the S2S key, whose CloudKit user is the moderator, so every app
+  version shows the post. Posts failing the word filter (same list as ContentFilter.swift) stay pending. In the apps a removal
+  (approved=0) always wins, the poster sees their own post at once, and posts refresh every 60 s. Moderation = remove-only list.
+- Map places: pins group by venue when zoomed in (iOS camera distance <= 6000 m, web zoom >= 14.6) and show the place name
+  (venue, else street address; `Hotspot.placeLabel` / `placeLabel` in app.js); zoomed out only places with 5+ events get a name.
+  The place sheet shows the count, address and a Directions link. Controls floating over the iOS map use `.environment(\.solidGlass, true)`
+  so pins don't show through the glass.
+- Geotagging: aggregate.py `split_place()` splits "Name · address" / "Room | Building" venue strings, and the geocoder retries with
+  `building_name()` (room numbers and university boilerplate removed). Add missing buildings to venues.json.

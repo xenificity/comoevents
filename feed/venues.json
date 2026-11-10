@@ -801,5 +801,32 @@
     "address": "Cherry Hill Dr",
     "lat": 38.9324,
     "lng": -92.3981
+  },
+  "Reynolds Journalism Institute": {
+    "aliases": [
+      "rji",
+      "rji palmer 100 (j-school)",
+      "rji lambert room (200a)",
+      "reynolds journalism institute"
+    ],
+    "address": "S 9th St",
+    "lat": 38.94715,
+    "lng": -92.32801
+  },
+  "Sinclair School of Nursing": {
+    "aliases": [
+      "sinclair school of nursing lobby"
+    ],
+    "address": "Hospital Dr",
+    "lat": 38.93955,
+    "lng": -92.32779
+  },
+  "The Tasting Room at Rocheport": {
+    "aliases": [
+      "the tasting room"
+    ],
+    "address": "12847 W Hwy BB, Rocheport, MO 65279",
+    "lat": 38.96849,
+    "lng": -92.53293
   }
 }
