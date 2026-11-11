@@ -567,18 +567,19 @@
    "venue": "East Nifong Boulevard"
   },
   {
-   "_slug": "how-to-scholarship-dc22c8",
+   "_slug": "trail-boss-bbq-e28016",
    "categories": [
-    "campus"
+    "food"
    ],
-   "category": "campus",
-   "end": "2026-11-13T18:30:00-06:00",
-   "id": "dc22c81f9d8375c4",
-   "imageUrl": "https://comoevent.com/img/gen/b0d45bd33f079b.webp",
-   "source": "mizzou",
-   "start": "2026-11-13T17:00:00-06:00",
-   "title": "How to Scholarship",
-   "venue": "MU Student Center"
+   "category": "food",
+   "description": "@ Follow our website link for more information on our delicious menu! https://trailbossbbq.com",
+   "end": "2026-11-13T20:00:00-06:00",
+   "id": "e2801679ec2bb3c3",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2024/11/Trail-Boss-BBQ.jpg",
+   "source": "cooperslanding",
+   "start": "2026-11-13T16:30:00-06:00",
+   "title": "Trail Boss BBQ",
+   "venue": "Cooper's Landing"
   },
   {
    "_slug": "whodunnit-blood-on-the-clocktower-night-244fdc",
@@ -719,6 +720,21 @@
    "start": "2026-11-13T18:00:00-06:00",
    "title": "Local Writer Showcase: Donal Quist & Jennifer Mauritza McCauley",
    "venue": "Nightjar Arts Collective"
+  },
+  {
+   "_slug": "megan-boyer-band-331851",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "@ Classic blues and R&B with a lotta moxie and soul out of Mid-Mo. https://www.facebook.com/meganboyerband",
+   "end": "2026-11-13T21:00:00-06:00",
+   "id": "3318510d62b54414",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/04/megan-boyer.jpg",
+   "source": "cooperslanding",
+   "start": "2026-11-13T18:00:00-06:00",
+   "title": "Megan Boyer Band",
+   "venue": "Cooper's Landing"
   },
   {
    "_slug": "mid-missouri-mahjong-classic-meet-greet-633e70",
@@ -1114,8 +1130,8 @@
   {
    "_slug": "annual-christmas-bazaar-d1f2fe",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1397/1794664800000",
-    "https://baselocal.com/mo/columbia/events/#annual-christmas-bazaar"
+    "https://baselocal.com/mo/columbia/events/#annual-christmas-bazaar",
+    "https://tockify.com/the.district.cid/detail/1397/1794664800000"
    ],
    "categories": [
     "family",
@@ -1165,8 +1181,8 @@
   {
    "_slug": "columbia-farmers-market-winter-season-cf0735",
    "alsoOn": [
-    "https://columbiafarmersmarket.org/",
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
+    "https://columbiafarmersmarket.org/"
    ],
    "categories": [
     "food"
@@ -1404,6 +1420,18 @@
    "venue": "MACCLab"
   },
   {
+   "_slug": "unity-of-columbia-2026-annual-art-and-craft-fair-2cdada",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "2cdadac79e6cf2aa",
+   "imageUrl": "https://comoevent.com/img/gen/65bf2dcaced58a.webp",
+   "source": "allevents",
+   "start": "2026-11-14T10:00:00-06:00",
+   "title": "Unity of Columbia 2026 Annual Art and Craft Fair"
+  },
+  {
    "_slug": "wrestling-missouri-vs-tiger-style-invite-29c997",
    "categories": [
     "sports"
@@ -1519,8 +1547,8 @@
   {
    "_slug": "wild-kratts-activate-kid-power-0e761b",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad",
     "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/",
+    "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad",
     "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943"
    ],
    "categories": [
@@ -1569,6 +1597,21 @@
    "venue": "Southwell Complex"
   },
   {
+   "_slug": "dws-kitchen-catering-b3c212",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "description": "@ Have you heard about DW’s? Word is getting around. It’s the truck where yummy Philly bowls and Gyros can be found. DW’s Kitchen & Catering arrived on the scene in 2025 and has been popular since its beginning. Follow them on Facebook under DW’s Kitchen & Catering for updates!",
+   "end": "2026-11-14T20:00:00-06:00",
+   "id": "b3c21247fec613e2",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/08/490954548_122111767430831206_8846843165191232652_n.jpg",
+   "source": "cooperslanding",
+   "start": "2026-11-14T12:00:00-06:00",
+   "title": "DW’s Kitchen & Catering",
+   "venue": "Cooper's Landing"
+  },
+  {
    "_slug": "friends-of-the-columbia-public-library-lobby-book-sale-149251",
    "categories": [
     "community"
@@ -1597,18 +1640,6 @@
    "start": "2026-11-14T12:00:00-06:00",
    "title": "Naturelles Concert",
    "venue": "MU Student Center"
-  },
-  {
-   "_slug": "unity-of-columbia-2026-annual-art-and-craft-fair-2cdada",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "2cdadac79e6cf2aa",
-   "imageUrl": "https://comoevent.com/img/gen/65bf2dcaced58a.webp",
-   "source": "allevents",
-   "start": "2026-11-14T12:00:00-06:00",
-   "title": "Unity of Columbia 2026 Annual Art and Craft Fair"
   },
   {
    "_slug": "jane-guillot-beinke-clarinet-recital-6fc551",
@@ -1652,6 +1683,23 @@
    "start": "2026-11-14T12:30:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "game-sale-day-839067",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#game-sale-day"
+   ],
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "Get a head start on holiday shopping with discounted games, trading card games, and more. Browse a range of options for family gatherings while helping clear out back stock.",
+   "end": "2026-11-14T17:00:00-06:00",
+   "id": "839067bc707b0435",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMDNiNTQzZTAyYzIxNTI2MjI4N2U2ZTU0YzNmZjMxNjU4MTI0NzdhZjI2MDc2OWZkMDQwZDEwNWUwMmQxM2UxLXJpbWctdzEyMDAtaDY3NS1kYzA4NDg0OC1nbWlyP3Y9MTc5NDA4MDc4NQ.avif",
+   "source": "allevents",
+   "start": "2026-11-14T13:00:00-06:00",
+   "title": "Game Sale Day"
   },
   {
    "_slug": "mu-vs-georgia-tailgate-all-you-can-eat-buffet-raffle-drink-s-1e724b",
@@ -1763,6 +1811,21 @@
    "start": "2026-11-14T14:00:00-06:00",
    "title": "Bhagwad Gita Class",
    "venue": "Shanthi Mandir"
+  },
+  {
+   "_slug": "meredith-shaw-and-the-borrowed-band-f29844",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "@ Raised on a Missouri farm, Meredith educated herself early on the powerful women in music, such as Tammy Wynette, Loretta, and Dolly. A fiery blend of traditional country and current production, Meredith’s music is passionate, empowering, and relatable. https://www.facebook.com/meredithshawmusic",
+   "end": "2026-11-14T17:00:00-06:00",
+   "id": "f298443245d6de07",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/03/meredith-shaw.jpg",
+   "source": "cooperslanding",
+   "start": "2026-11-14T14:00:00-06:00",
+   "title": "Meredith Shaw and the Borrowed Band",
+   "venue": "Cooper's Landing"
   },
   {
    "_slug": "rael-dye-recital-f54f09",
@@ -1882,6 +1945,21 @@
    "venue": "Expo Center, 2200 Interstate 70 Dr SW, Columbia, MO 65203, Columbia, MO, United States, Missouri 65203"
   },
   {
+   "_slug": "smilin-jack-307cc9",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "@ We know him as Smilin’ Jack! Come listen to Jack Semelsberger jam his original tunes by the river!",
+   "end": "2026-11-14T21:00:00-06:00",
+   "id": "307cc94cf2a76def",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2024/11/Jack-Semelsberger.jpg",
+   "source": "cooperslanding",
+   "start": "2026-11-14T18:00:00-06:00",
+   "title": "Smilin’ Jack",
+   "venue": "Cooper's Landing"
+  },
+  {
    "_slug": "ladies-of-country-782eff",
    "alsoOn": [
     "https://allevents.in/columbia/ladies-of-country/200030952416218"
@@ -1925,6 +2003,18 @@
    "source": "allevents",
    "start": "2026-11-14T19:00:00-06:00",
    "title": "Beth Bombara in The Listening Room at Compass Inc."
+  },
+  {
+   "_slug": "gallery-readings-w-clay-schiefelbein-22e550",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "22e550ce3783c7b0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9lOGRlZjUzNDZiYjJhYTEyNzljYjY1YTc4MzRmMmU2YTUwMWExODk3OWEwYWI1MmY2NTJjMzkwNmFhNDgwNjE0LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDUz.avif",
+   "source": "allevents",
+   "start": "2026-11-14T19:00:00-06:00",
+   "title": "Gallery Readings w/ Clay Schiefelbein"
   },
   {
    "_slug": "mission-homehownership-a-homebuyers-class-for-veterans-d7e079",
@@ -2027,23 +2117,6 @@
    "start": "2026-11-14T19:30:00-06:00",
    "title": "Dear Lara - with Lara St. John",
    "venue": "Whitmore Recital Hall"
-  },
-  {
-   "_slug": "game-sale-day-839067",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#game-sale-day"
-   ],
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "description": "Get a head start on holiday shopping with discounted games, trading card games, and more. Browse a range of options for family gatherings while helping clear out back stock.",
-   "end": "2026-11-14T17:00:00-06:00",
-   "id": "839067bc707b0435",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMDNiNTQzZTAyYzIxNTI2MjI4N2U2ZTU0YzNmZjMxNjU4MTI0NzdhZjI2MDc2OWZkMDQwZDEwNWUwMmQxM2UxLXJpbWctdzEyMDAtaDY3NS1kYzA4NDg0OC1nbWlyP3Y9MTc5NDA4MDc4NQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T19:30:00-06:00",
-   "title": "Game Sale Day"
   },
   {
    "_slug": "little-women-the-musical-29b4f5",
@@ -2209,20 +2282,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "chiefs-game-day-at-the-kitchen-16159b",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "16159b869ba05ae0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9pbWcuZXZidWMuY29tL2h0dHBzJTNBJTJGJTJGY2RuLmV2YnVjLmNvbSUyRmltYWdlcyUyRjExOTI3MTkwMzklMkYyMjc2MzY1ODYzNDgzJTJGMSUyRm9yaWdpbmFsLjIwMjYwOTA0LTIwNTQxND9hdXRvPWZvcm1hdCUyQ2NvbXByZXNzJnE9NzUmc2hhcnA9MTAmcz1kMjk1NDZmMzA3Njk1NDNiYTY2ZDZhNWZjZjc0NzRiMA.avif",
-   "source": "allevents",
-   "start": "2026-11-15T00:00:00-06:00",
-   "timeTBD": true,
-   "title": "Chiefs Game Day at The Kitchen",
-   "venue": "The Kitchen Grill and Games"
-  },
-  {
    "_slug": "yoga-at-partner-for-better-909a1f",
    "categories": [
     "community"
@@ -2343,6 +2402,21 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "the-patty-wagon-6d15b4",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "description": "@ The Patty Wagon is bringing the smashed burger to Columbia, MO and the surrounding areas, we will have the best burger at a good price, with the best smiles.",
+   "end": "2026-11-15T20:00:00-06:00",
+   "id": "6d15b42fbd475080",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/07/Patty-Wagon.jpg",
+   "source": "cooperslanding",
+   "start": "2026-11-15T12:00:00-06:00",
+   "title": "The Patty Wagon",
+   "venue": "Cooper's Landing"
+  },
+  {
    "_slug": "como-fall-crawl-86d0f8",
    "categories": [
     "community"
@@ -2392,9 +2466,6 @@
   },
   {
    "_slug": "columbia-coffee-club-foodies-new-friends-3ca3d3",
-   "alsoOn": [
-    "https://allevents.in/columbia/columbia-coffee-club-foodies-new-friends/100001992938389371"
-   ],
    "categories": [
     "food"
    ],
@@ -2538,6 +2609,21 @@
    "start": "2026-11-15T14:00:00-06:00",
    "title": "Super Smash Bros Tournament",
    "venue": "The Kitchen Grill & Games"
+  },
+  {
+   "_slug": "the-fried-crawdaddies-8fa48d",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "@ Experience their River Roots grooves, blending diverse genres into soulful narratives, shared emotions, and lots of laughter. https://www.facebook.com/thefriedcrawdaddies",
+   "end": "2026-11-15T17:00:00-06:00",
+   "id": "8fa48d6d8a597936",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/11/The-Fried-Crawdaddies.jpg",
+   "source": "cooperslanding",
+   "start": "2026-11-15T14:00:00-06:00",
+   "title": "The Fried Crawdaddies",
+   "venue": "Cooper's Landing"
   },
   {
    "_slug": "womens-basketball-missouri-vs-lindenwood-12d6ff",
@@ -2760,13 +2846,13 @@
  "modified": "2026-11-11",
  "picks": [
   "eab61d06004af6ab",
+  "8686b2a10230dc7b",
   "071642c6e660b3d4",
   "9ffb31ee12106692",
   "2773342929747aeb",
   "f588b2da76cc5764",
   "cf0735f53dbf0587",
   "f7e41bac974bb2b9",
-  "3ca3d3dbf3a51d48",
   "0aeace99f97fbd98",
   "a134c47608feef97"
  ],
