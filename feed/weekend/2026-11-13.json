@@ -328,7 +328,7 @@
    ],
    "category": "party",
    "id": "fb98c1cb166fb9c4",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvYTFlYmI0ZTAtZGQyYS0xMWYxLWE1M2ItZTczZTdmNWM0NmJjLXJpbWctdzExMjItaDE0MDItZGMwODA4MDgtZ21pci5wbmc_dj0xNzk0MzMxMDYw.avif",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9hOTI4ZDQ5MC1kZDdhLTExZjEtYjVmMC1hZmI4N2UyOWM5ZDItcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTQzNjU0MzI.avif",
    "source": "allevents",
    "start": "2026-11-13T13:00:00-06:00",
    "title": "FIRST DAY OWT (PROBATE AFTER PARTY)",
@@ -567,21 +567,6 @@
    "venue": "East Nifong Boulevard"
   },
   {
-   "_slug": "trail-boss-bbq-e28016",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "@ Follow our website link for more information on our delicious menu! https://trailbossbbq.com",
-   "end": "2026-11-13T20:00:00-06:00",
-   "id": "e2801679ec2bb3c3",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2024/11/Trail-Boss-BBQ.jpg",
-   "source": "cooperslanding",
-   "start": "2026-11-13T16:30:00-06:00",
-   "title": "Trail Boss BBQ",
-   "venue": "Cooper's Landing"
-  },
-  {
    "_slug": "how-to-scholarship-dc22c8",
    "categories": [
     "campus"
@@ -734,21 +719,6 @@
    "start": "2026-11-13T18:00:00-06:00",
    "title": "Local Writer Showcase: Donal Quist & Jennifer Mauritza McCauley",
    "venue": "Nightjar Arts Collective"
-  },
-  {
-   "_slug": "megan-boyer-band-331851",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "@ Classic blues and R&B with a lotta moxie and soul out of Mid-Mo. https://www.facebook.com/meganboyerband",
-   "end": "2026-11-13T21:00:00-06:00",
-   "id": "3318510d62b54414",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/04/megan-boyer.jpg",
-   "source": "cooperslanding",
-   "start": "2026-11-13T18:00:00-06:00",
-   "title": "Megan Boyer Band",
-   "venue": "Cooper's Landing"
   },
   {
    "_slug": "mid-missouri-mahjong-classic-meet-greet-633e70",
@@ -1043,8 +1013,8 @@
   {
    "_slug": "nicole-atkins-rose-music-hall-277334",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#nicole-atkins",
-    "https://rosemusichall.com/event/nicole-atkins/"
+    "https://rosemusichall.com/event/nicole-atkins/",
+    "https://baselocal.com/mo/columbia/events/#nicole-atkins"
    ],
    "categories": [
     "music"
@@ -1404,6 +1374,19 @@
    "venue": "Cedar Creek Resort & RV Park"
   },
   {
+   "_slug": "patriots-against-kings-paka-rally-9a8e7a",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "9a8e7ab56eb61bc3",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wOWJmOTZlNjAxYzBkZGNhYWM0NjRlZTM2ZjE4Yzc4MjhjN2UzMmUxMzk4NmUzMTNkZjBlZWFmNzUyMmMwNzNjLXJpbWctdzEyMDAtaDgwMC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5NDA4MDc4Ng.avif",
+   "source": "allevents",
+   "start": "2026-11-14T10:00:00-06:00",
+   "title": "Patriots Against Kings (PAKA) Rally",
+   "venue": "Crossroads Shopping Center"
+  },
+  {
    "_slug": "scrap-fabric-brooches-5325ae",
    "alsoOn": [
     "https://allevents.in/columbia/scrap-fabric-brooches-como-craftcycle/200030741232810"
@@ -1536,9 +1519,9 @@
   {
    "_slug": "wild-kratts-activate-kid-power-0e761b",
    "alsoOn": [
+    "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad",
     "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/",
-    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943",
-    "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad"
+    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943"
    ],
    "categories": [
     "family",
@@ -1584,21 +1567,6 @@
    "start": "2026-11-14T12:00:00-06:00",
    "title": "Columbia College Women's Volleyball vs Finals",
    "venue": "Southwell Complex"
-  },
-  {
-   "_slug": "dws-kitchen-catering-b3c212",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "@ Have you heard about DW’s? Word is getting around. It’s the truck where yummy Philly bowls and Gyros can be found. DW’s Kitchen & Catering arrived on the scene in 2025 and has been popular since its beginning. Follow them on Facebook under DW’s Kitchen & Catering for updates!",
-   "end": "2026-11-14T20:00:00-06:00",
-   "id": "b3c21247fec613e2",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/08/490954548_122111767430831206_8846843165191232652_n.jpg",
-   "source": "cooperslanding",
-   "start": "2026-11-14T12:00:00-06:00",
-   "title": "DW’s Kitchen & Catering",
-   "venue": "Cooper's Landing"
   },
   {
    "_slug": "friends-of-the-columbia-public-library-lobby-book-sale-149251",
@@ -1684,23 +1652,6 @@
    "start": "2026-11-14T12:30:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "game-sale-day-839067",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#game-sale-day"
-   ],
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "description": "Get a head start on holiday shopping with discounted games, trading card games, and more. Browse a range of options for family gatherings while helping clear out back stock.",
-   "end": "2026-11-14T17:00:00-06:00",
-   "id": "839067bc707b0435",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMDNiNTQzZTAyYzIxNTI2MjI4N2U2ZTU0YzNmZjMxNjU4MTI0NzdhZjI2MDc2OWZkMDQwZDEwNWUwMmQxM2UxLXJpbWctdzEyMDAtaDY3NS1kYzA4NDg0OC1nbWlyP3Y9MTc5NDA4MDc4NQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T13:00:00-06:00",
-   "title": "Game Sale Day"
   },
   {
    "_slug": "mu-vs-georgia-tailgate-all-you-can-eat-buffet-raffle-drink-s-1e724b",
@@ -1814,21 +1765,6 @@
    "venue": "Shanthi Mandir"
   },
   {
-   "_slug": "meredith-shaw-and-the-borrowed-band-f29844",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "@ Raised on a Missouri farm, Meredith educated herself early on the powerful women in music, such as Tammy Wynette, Loretta, and Dolly. A fiery blend of traditional country and current production, Meredith’s music is passionate, empowering, and relatable. https://www.facebook.com/meredithshawmusic",
-   "end": "2026-11-14T17:00:00-06:00",
-   "id": "f298443245d6de07",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/03/meredith-shaw.jpg",
-   "source": "cooperslanding",
-   "start": "2026-11-14T14:00:00-06:00",
-   "title": "Meredith Shaw and the Borrowed Band",
-   "venue": "Cooper's Landing"
-  },
-  {
    "_slug": "rael-dye-recital-f54f09",
    "categories": [
     "campus"
@@ -1906,9 +1842,6 @@
   },
   {
    "_slug": "dear-lara-film-screening-with-lara-st-john-33e9b6",
-   "alsoOn": [
-    "https://allevents.in/columbia/dear-lara-with-lara-st-john/200030911009511"
-   ],
    "categories": [
     "arts"
    ],
@@ -1936,19 +1869,17 @@
    "venue": "Rose Music Hall"
   },
   {
-   "_slug": "smilin-jack-307cc9",
+   "_slug": "2026-fall-into-art-f9d034",
    "categories": [
-    "music"
+    "arts"
    ],
-   "category": "music",
-   "description": "@ We know him as Smilin’ Jack! Come listen to Jack Semelsberger jam his original tunes by the river!",
-   "end": "2026-11-14T21:00:00-06:00",
-   "id": "307cc94cf2a76def",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2024/11/Jack-Semelsberger.jpg",
-   "source": "cooperslanding",
+   "category": "arts",
+   "id": "f9d034d906d8217f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9lNjAzMzI0MTJhZmEzMzBlNWI3NzY4N2IwZWQ5MTZiMzFmNjlkZWI4NGM2ZTk3MmY3Mjc0OWQ4ODgyMGEyZGRjLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4ODgwOTU3MQ.avif",
+   "source": "allevents",
    "start": "2026-11-14T18:00:00-06:00",
-   "title": "Smilin’ Jack",
-   "venue": "Cooper's Landing"
+   "title": "2026 Fall into Art",
+   "venue": "Expo Center, 2200 Interstate 70 Dr SW, Columbia, MO 65203, Columbia, MO, United States, Missouri 65203"
   },
   {
    "_slug": "ladies-of-country-782eff",
@@ -1982,19 +1913,6 @@
    "start": "2026-11-14T18:30:00-06:00",
    "title": "Once Upon a Time in Harlem",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "2026-fall-into-art-f9d034",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "f9d034d906d8217f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9lNjAzMzI0MTJhZmEzMzBlNWI3NzY4N2IwZWQ5MTZiMzFmNjlkZWI4NGM2ZTk3MmY3Mjc0OWQ4ODgyMGEyZGRjLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4ODgwOTU3MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T19:00:00-06:00",
-   "title": "2026 Fall into Art",
-   "venue": "Expo Center, 2200 Interstate 70 Dr SW, Columbia, MO 65203, Columbia, MO, United States, Missouri 65203"
   },
   {
    "_slug": "beth-bombara-in-the-listening-room-at-compass-inc-9bdb31",
@@ -2098,17 +2016,34 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "john-clark-celebration-of-life-e85c88",
+   "_slug": "dear-lara-with-lara-st-john-d15592",
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "e85c880e0c16a266",
-   "imageUrl": "https://comoevent.com/img/gen/39799553ef13c7.webp",
+   "id": "d15592a29337f558",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvODNhMjE1YTk4MDhhNzg1YmZmZDc4MTMzNmY5ODQ2MTc1ZTI3Y2U4NjMxYzhlZWU1Yjc4MjY1MzMxOWRiNTRjNy1yaW1nLXcxMTAwLWgxMDg4LWRjODhlOGQ4LWdtaXI_dj0xNzkyOTY3NDcw.avif",
    "source": "allevents",
    "start": "2026-11-14T19:30:00-06:00",
-   "title": "John Clark Celebration of Life",
-   "venue": "Parker-Millard Funeral Service & Crematory"
+   "title": "Dear Lara - with Lara St. John",
+   "venue": "Whitmore Recital Hall"
+  },
+  {
+   "_slug": "game-sale-day-839067",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#game-sale-day"
+   ],
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "Get a head start on holiday shopping with discounted games, trading card games, and more. Browse a range of options for family gatherings while helping clear out back stock.",
+   "end": "2026-11-14T17:00:00-06:00",
+   "id": "839067bc707b0435",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMDNiNTQzZTAyYzIxNTI2MjI4N2U2ZTU0YzNmZjMxNjU4MTI0NzdhZjI2MDc2OWZkMDQwZDEwNWUwMmQxM2UxLXJpbWctdzEyMDAtaDY3NS1kYzA4NDg0OC1nbWlyP3Y9MTc5NDA4MDc4NQ.avif",
+   "source": "allevents",
+   "start": "2026-11-14T19:30:00-06:00",
+   "title": "Game Sale Day"
   },
   {
    "_slug": "little-women-the-musical-29b4f5",
@@ -2172,19 +2107,6 @@
    "venue": "Columbia Entertainment Company"
   },
   {
-   "_slug": "patriots-against-kings-paka-rally-9a8e7a",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "9a8e7ab56eb61bc3",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wOWJmOTZlNjAxYzBkZGNhYWM0NjRlZTM2ZjE4Yzc4MjhjN2UzMmUxMzk4NmUzMTNkZjBlZWFmNzUyMmMwNzNjLXJpbWctdzEyMDAtaDgwMC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5NDA4MDc4Ng.avif",
-   "source": "allevents",
-   "start": "2026-11-14T20:00:00-06:00",
-   "title": "Patriots Against Kings (PAKA) Rally",
-   "venue": "Crossroads Shopping Center"
-  },
-  {
    "_slug": "shabazz-palaces-ad82a5",
    "alsoOn": [
     "https://www.visitcolumbiamo.com/event/redferrin-the-blue-note-2/"
@@ -2238,8 +2160,8 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-wes-538a37",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308"
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts"
@@ -2376,47 +2298,7 @@
    "venue": "Partner For Better"
   },
   {
-   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
-   ],
-   "categories": [
-    "music",
-    "nightlife"
-   ],
-   "category": "music",
-   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
-   "end": "2026-11-15T15:00:00-06:00",
-   "id": "499cdb22318aea5f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-15T11:00:00-06:00",
-   "title": "2nd Annual Pierpont Sip & Shop"
-  },
-  {
-   "_slug": "front-porch-stories-an-evening-of-bluegrass-d2d475",
-   "alsoOn": [
-    "https://www.choralartsallianceofmissouri.org/caam-concerts/"
-   ],
-   "categories": [
-    "music",
-    "family"
-   ],
-   "category": "music",
-   "description": "Columbia Youth Choirs with guest artists Ironweed Bluegrass Band",
-   "end": "2026-11-15T19:00:00-06:00",
-   "id": "d2d475f294f52661",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80MTc3NDUxMTdjNjlmODNjZGZhNGQzNTJiNjFiOTI1MzRlMjNlZDZhNTc4YmFjM2QwZTBkNWY2NzliYTgxMzZjLXJpbWctdzEyMDAtaDE1MDAtZGMxODI4MjgtZ21pcj92PTE3OTM4MTkxMzE.avif",
-   "source": "allevents",
-   "start": "2026-11-15T11:00:00-06:00",
-   "title": "Front Porch Stories: An Evening of Bluegrass",
-   "venue": "The Atrium on Tenth"
-  },
-  {
    "_slug": "unity-of-columbia-annual-art-craft-fair-day-2-2a3f8d",
-   "alsoOn": [
-    "https://allevents.in/columbia/2026-annual-art-and-craft-fair/100002004377462948"
-   ],
    "categories": [
     "arts"
    ],
@@ -2459,21 +2341,6 @@
    "start": "2026-11-15T12:00:00-06:00",
    "title": "Once Upon a Time in Harlem",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "the-patty-wagon-6d15b4",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "@ The Patty Wagon is bringing the smashed burger to Columbia, MO and the surrounding areas, we will have the best burger at a good price, with the best smiles.",
-   "end": "2026-11-15T20:00:00-06:00",
-   "id": "6d15b42fbd475080",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/07/Patty-Wagon.jpg",
-   "source": "cooperslanding",
-   "start": "2026-11-15T12:00:00-06:00",
-   "title": "The Patty Wagon",
-   "venue": "Cooper's Landing"
   },
   {
    "_slug": "como-fall-crawl-86d0f8",
@@ -2582,15 +2449,19 @@
   },
   {
    "_slug": "lola-and-billy-the-kid-9d861f",
+   "alsoOn": [
+    "https://ragtagcinema.org/film/lola-and-billy-the-kid/"
+   ],
    "categories": [
+    "family",
     "arts"
    ],
-   "category": "arts",
-   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
-   "end": "2026-11-15T14:33:00-06:00",
+   "category": "family",
+   "description": "17-year-old Murat (Baki Davrak), from Turkey but living in the Turkish district of Kreuzberg, Berlin, with his mother and older brother, is at a cr…",
+   "end": "2026-11-15T13:00:00-06:00",
    "id": "9d861fab3d9235a9",
    "imageUrl": "https://comoevent.com/img/gen/28a177f5445326.webp",
-   "source": "ragtag",
+   "source": "macaronikid",
    "start": "2026-11-15T13:00:00-06:00",
    "title": "Lola and Billy the Kid",
    "venue": "Ragtag Cinema"
@@ -2610,6 +2481,18 @@
    "start": "2026-11-15T13:30:00-06:00",
    "title": "Beginning Sewing With Como Craftcycle",
    "venue": "Columbia Public Library"
+  },
+  {
+   "_slug": "2026-annual-art-craft-fair-bfdb08",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "bfdb0853d1619984",
+   "imageUrl": "https://comoevent.com/img/gen/1ce7633f0d353b.webp",
+   "source": "allevents",
+   "start": "2026-11-15T14:00:00-06:00",
+   "title": "2026 Annual Art & Craft Fair"
   },
   {
    "_slug": "emma-spalding-senior-recital-d89d81",
@@ -2644,19 +2527,17 @@
    "venue": "Rhynsburger Theatre"
   },
   {
-   "_slug": "the-fried-crawdaddies-8fa48d",
+   "_slug": "super-smash-bros-tournament-e47027",
    "categories": [
-    "music"
+    "community"
    ],
-   "category": "music",
-   "description": "@ Experience their River Roots grooves, blending diverse genres into soulful narratives, shared emotions, and lots of laughter. https://www.facebook.com/thefriedcrawdaddies",
-   "end": "2026-11-15T17:00:00-06:00",
-   "id": "8fa48d6d8a597936",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/11/The-Fried-Crawdaddies.jpg",
-   "source": "cooperslanding",
+   "category": "community",
+   "id": "e47027247d911c2e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
+   "source": "allevents",
    "start": "2026-11-15T14:00:00-06:00",
-   "title": "The Fried Crawdaddies",
-   "venue": "Cooper's Landing"
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "womens-basketball-missouri-vs-lindenwood-12d6ff",
@@ -2729,6 +2610,25 @@
    "start": "2026-11-15T15:45:00-06:00",
    "title": "You Can See Everything",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "front-porch-stories-an-evening-of-bluegrass-d2d475",
+   "alsoOn": [
+    "https://www.choralartsallianceofmissouri.org/caam-concerts/"
+   ],
+   "categories": [
+    "music",
+    "family"
+   ],
+   "category": "music",
+   "description": "Columbia Youth Choirs with guest artists Ironweed Bluegrass Band",
+   "end": "2026-11-15T19:00:00-06:00",
+   "id": "d2d475f294f52661",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80MTc3NDUxMTdjNjlmODNjZGZhNGQzNTJiNjFiOTI1MzRlMjNlZDZhNTc4YmFjM2QwZTBkNWY2NzliYTgxMzZjLXJpbWctdzEyMDAtaDE1MDAtZGMxODI4MjgtZ21pcj92PTE3OTM4MTkxMzE.avif",
+   "source": "allevents",
+   "start": "2026-11-15T16:00:00-06:00",
+   "title": "Front Porch Stories: An Evening of Bluegrass",
+   "venue": "The Atrium on Tenth"
   },
   {
    "_slug": "inside-out-spirituality-free-event-b18fc8",
@@ -2808,19 +2708,6 @@
    "title": "Nov 2026 TCG League Challenge Tournament"
   },
   {
-   "_slug": "super-smash-bros-tournament-e47027",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "e47027247d911c2e",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
-   "source": "allevents",
-   "start": "2026-11-15T19:30:00-06:00",
-   "title": "Super Smash Bros Tournament",
-   "venue": "The Kitchen Grill & Games"
-  },
-  {
    "_slug": "you-can-see-everything-bce87c",
    "categories": [
     "arts"
@@ -2834,6 +2721,24 @@
    "start": "2026-11-15T19:30:00-06:00",
    "title": "You Can See Everything",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
+   ],
+   "categories": [
+    "music",
+    "nightlife"
+   ],
+   "category": "music",
+   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
+   "end": "2026-11-15T15:00:00-06:00",
+   "id": "499cdb22318aea5f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
+   "source": "allevents",
+   "start": "2026-11-15T20:00:00-06:00",
+   "title": "2nd Annual Pierpont Sip & Shop"
   },
   {
    "_slug": "wild-horse-nine-a97ecd",
@@ -2852,7 +2757,7 @@
   }
  ],
  "friday": "2026-11-13",
- "modified": "2026-11-10",
+ "modified": "2026-11-11",
  "picks": [
   "eab61d06004af6ab",
   "071642c6e660b3d4",
@@ -2860,10 +2765,10 @@
   "2773342929747aeb",
   "f588b2da76cc5764",
   "cf0735f53dbf0587",
-  "33e9b63d25aa893f",
   "f7e41bac974bb2b9",
   "3ca3d3dbf3a51d48",
-  "0aeace99f97fbd98"
+  "0aeace99f97fbd98",
+  "a134c47608feef97"
  ],
  "published": "2026-11-09"
 }
