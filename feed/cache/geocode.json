@@ -30,6 +30,11 @@
   "lng": -92.3395249,
   "name": "PaPPo's Pizzaria"
  },
+ "100 w broadway, columbia, mo 65203": {
+  "lat": 38.951499,
+  "lng": -92.339131,
+  "name": null
+ },
  "1000 rollins st, columbia, mo": {
   "lat": 38.942098,
   "lng": -92.3266748,
@@ -619,6 +624,11 @@
   "name": "The Food Bank Market"
  },
  "7279 w rte k, columbia, mo": null,
+ "7650 mo-163, columbia, mo 65203": {
+  "lat": 38.8626355,
+  "lng": -92.3147178,
+  "name": "Pierpont General Store"
+ },
  "7650 mo-163, columbia, mo 65203 columbia, mo 65203": null,
  "7650 s highway 163, columbia, mo": null,
  "7650 s highway 163, columbia, mo columbia, mo 65203": null,
