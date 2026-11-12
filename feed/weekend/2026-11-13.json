@@ -328,7 +328,7 @@
    ],
    "category": "party",
    "id": "fb98c1cb166fb9c4",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9hOTI4ZDQ5MC1kZDdhLTExZjEtYjVmMC1hZmI4N2UyOWM5ZDItcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTQzNjU0MzI.avif",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9kOTU4OTUyMC1kZTA1LTExZjEtYTdiZS0yOThiNWMwZWY1YjEtcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTQ0MjUyMTI.avif",
    "source": "allevents",
    "start": "2026-11-13T13:00:00-06:00",
    "title": "FIRST DAY OWT (PROBATE AFTER PARTY)",
@@ -363,6 +363,19 @@
    "start": "2026-11-13T13:30:00-06:00",
    "title": "You Can See Everything",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "macalester-dose-the-rebels-live-at-myhouse-in-columbia-mo-73b507",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "73b507e188b58035",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8zM2FhYTEwOWMyNDE1YjcyMmFlZDVjYmVmMjhmNjAyZmI0NjQyMTMzYzM1YmIzNjAwMjgwZjZkNDdlOWFlZWY1LXJpbWctdzEyMDAtaDEwMjQtZGMwODA4MDgtZ21pcj92PTE3OTI5Njc0NzE.avif",
+   "source": "allevents",
+   "start": "2026-11-13T13:45:00-06:00",
+   "title": "Macalester Dose & The Rebels LIVE at MyHouse in Columbia, MO",
+   "venue": "My House Nightclub & Sports Bar"
   },
   {
    "_slug": "avenue-of-the-columns-tour-10d67a",
@@ -414,6 +427,18 @@
    "start": "2026-11-13T14:00:00-06:00",
    "title": "Graduates on Faurot Field",
    "venue": "Faurot Field"
+  },
+  {
+   "_slug": "starting-gate-new-play-festival-2026-030aa5",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "030aa5e8b8348d28",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wZWE3YzQwOTliZDZmZDY1NzAwZTEwODRhMmJmNTRmMGFkMzgxNGYyYmNlOGMyYTdlNDBiZmZmNzIzM2E3ZWQ1LXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MjQ3NTc0MQ.avif",
+   "source": "allevents",
+   "start": "2026-11-13T14:00:00-06:00",
+   "title": "Starting Gate New Play Festival 2026"
   },
   {
    "_slug": "cuahsi-water-science-exchange-water-in-working-landscapes-cu-6bc998",
@@ -489,18 +514,6 @@
    "start": "2026-11-13T15:30:00-06:00",
    "title": "English Colloquium Series: Kasia Bartoszynska",
    "venue": "Tate Hall 215"
-  },
-  {
-   "_slug": "starting-gate-new-play-festival-2026-030aa5",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "030aa5e8b8348d28",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wZWE3YzQwOTliZDZmZDY1NzAwZTEwODRhMmJmNTRmMGFkMzgxNGYyYmNlOGMyYTdlNDBiZmZmNzIzM2E3ZWQ1LXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MjQ3NTc0MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-13T15:30:00-06:00",
-   "title": "Starting Gate New Play Festival 2026"
   },
   {
    "_slug": "once-upon-a-time-in-harlem-da88d6",
@@ -842,8 +855,8 @@
   {
    "_slug": "party-with-the-stars-8686b2",
    "alsoOn": [
-    "https://allevents.in/columbia/party-with-the-stars/200030952163445",
-    "https://events.dbrl.org/event/17459294"
+    "https://events.dbrl.org/event/17459294",
+    "https://allevents.in/columbia/party-with-the-stars/200030952163445"
    ],
    "categories": [
     "family"
@@ -926,8 +939,8 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-stl-s-vernon-longhorn-9ffb31",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-stls-vernon-longhorn-davis/100002003092078328",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-stls-vernon-longhorn-davis/100002003092078328"
    ],
    "categories": [
     "arts",
@@ -1029,8 +1042,8 @@
   {
    "_slug": "nicole-atkins-rose-music-hall-277334",
    "alsoOn": [
-    "https://rosemusichall.com/event/nicole-atkins/",
-    "https://baselocal.com/mo/columbia/events/#nicole-atkins"
+    "https://baselocal.com/mo/columbia/events/#nicole-atkins",
+    "https://rosemusichall.com/event/nicole-atkins/"
    ],
    "categories": [
     "music"
@@ -1130,8 +1143,8 @@
   {
    "_slug": "annual-christmas-bazaar-d1f2fe",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#annual-christmas-bazaar",
-    "https://tockify.com/the.district.cid/detail/1397/1794664800000"
+    "https://tockify.com/the.district.cid/detail/1397/1794664800000",
+    "https://baselocal.com/mo/columbia/events/#annual-christmas-bazaar"
    ],
    "categories": [
     "family",
@@ -1181,8 +1194,8 @@
   {
    "_slug": "columbia-farmers-market-winter-season-cf0735",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
-    "https://columbiafarmersmarket.org/"
+    "https://columbiafarmersmarket.org/",
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
    ],
    "categories": [
     "food"
@@ -1377,17 +1390,17 @@
    "venue": "The Tasting Room"
   },
   {
-   "_slug": "made-for-more-94ce33",
+   "_slug": "mission-homehownership-a-homebuyers-class-for-veterans-d7e079",
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "94ce3333a5a937ed",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wYzA1YWEzZDg1ZjNiY2UzY2EwMTk5NjNkM2I5Yjg1YTY3MzYyNGNlOTE0NmE1NmJlNWIyYjVlOTk4MDAzYTA1LXJpbWctdzEyMDAtaDc3Ni1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
+   "id": "d7e0791f84862afe",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy8yMmRlMjU1NzkwMjhjMjE2NzhiY2Q0OGY4MmQwODcyNGNiOTZlNTg4ODQ3MjI0ZDI1ODVhNjA1MGI2NTZhNTk5LXJpbWctdzEyMDAtaDYwMC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3OTE1NDE4NjQ.avif",
    "source": "allevents",
    "start": "2026-11-14T10:00:00-06:00",
-   "title": "Made for More",
-   "venue": "Cedar Creek Resort & RV Park"
+   "title": "MISSION HOMEHOWNERSHIP: A homebuyers class for Veterans",
+   "venue": "Weichert Realtors - House of Brokers"
   },
   {
    "_slug": "patriots-against-kings-paka-rally-9a8e7a",
@@ -1492,6 +1505,20 @@
    "venue": "Günter Hans"
   },
   {
+   "_slug": "game-sale-day-fe5095",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "Get a head start on holiday shopping with discounted games, trading card games, and more. Browse a range of options for family gatherings while helping clear out back stock.",
+   "end": "2026-11-14T17:00:00-06:00",
+   "id": "fe509557fba2bc63",
+   "imageUrl": "https://comoevent.com/img/gen/b43cba48238e1e.webp",
+   "source": "baselocal",
+   "start": "2026-11-14T11:00:00-06:00",
+   "title": "Game Sale Day"
+  },
+  {
    "_slug": "kids-club-saturdays-at-hexagon-alley-89f467",
    "categories": [
     "family"
@@ -1547,9 +1574,9 @@
   {
    "_slug": "wild-kratts-activate-kid-power-0e761b",
    "alsoOn": [
-    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/",
     "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad",
-    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943"
+    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943",
+    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/"
    ],
    "categories": [
     "family",
@@ -1683,23 +1710,6 @@
    "start": "2026-11-14T12:30:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "game-sale-day-839067",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#game-sale-day"
-   ],
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "description": "Get a head start on holiday shopping with discounted games, trading card games, and more. Browse a range of options for family gatherings while helping clear out back stock.",
-   "end": "2026-11-14T17:00:00-06:00",
-   "id": "839067bc707b0435",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yMDNiNTQzZTAyYzIxNTI2MjI4N2U2ZTU0YzNmZjMxNjU4MTI0NzdhZjI2MDc2OWZkMDQwZDEwNWUwMmQxM2UxLXJpbWctdzEyMDAtaDY3NS1kYzA4NDg0OC1nbWlyP3Y9MTc5NDA4MDc4NQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T13:00:00-06:00",
-   "title": "Game Sale Day"
   },
   {
    "_slug": "mu-vs-georgia-tailgate-all-you-can-eat-buffet-raffle-drink-s-1e724b",
@@ -1932,19 +1942,6 @@
    "venue": "Rose Music Hall"
   },
   {
-   "_slug": "2026-fall-into-art-f9d034",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "f9d034d906d8217f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9lNjAzMzI0MTJhZmEzMzBlNWI3NzY4N2IwZWQ5MTZiMzFmNjlkZWI4NGM2ZTk3MmY3Mjc0OWQ4ODgyMGEyZGRjLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4ODgwOTU3MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T18:00:00-06:00",
-   "title": "2026 Fall into Art",
-   "venue": "Expo Center, 2200 Interstate 70 Dr SW, Columbia, MO 65203, Columbia, MO, United States, Missouri 65203"
-  },
-  {
    "_slug": "smilin-jack-307cc9",
    "categories": [
     "music"
@@ -1993,6 +1990,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "2026-fall-into-art-f9d034",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "f9d034d906d8217f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9lNjAzMzI0MTJhZmEzMzBlNWI3NzY4N2IwZWQ5MTZiMzFmNjlkZWI4NGM2ZTk3MmY3Mjc0OWQ4ODgyMGEyZGRjLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc4ODgwOTU3MQ.avif",
+   "source": "allevents",
+   "start": "2026-11-14T19:00:00-06:00",
+   "title": "2026 Fall into Art",
+   "venue": "Expo Center, 2200 Interstate 70 Dr SW, Columbia, MO 65203, Columbia, MO, United States, Missouri 65203"
+  },
+  {
    "_slug": "beth-bombara-in-the-listening-room-at-compass-inc-9bdb31",
    "categories": [
     "community"
@@ -2003,31 +2013,6 @@
    "source": "allevents",
    "start": "2026-11-14T19:00:00-06:00",
    "title": "Beth Bombara in The Listening Room at Compass Inc."
-  },
-  {
-   "_slug": "gallery-readings-w-clay-schiefelbein-22e550",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "22e550ce3783c7b0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9lOGRlZjUzNDZiYjJhYTEyNzljYjY1YTc4MzRmMmU2YTUwMWExODk3OWEwYWI1MmY2NTJjMzkwNmFhNDgwNjE0LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDUz.avif",
-   "source": "allevents",
-   "start": "2026-11-14T19:00:00-06:00",
-   "title": "Gallery Readings w/ Clay Schiefelbein"
-  },
-  {
-   "_slug": "mission-homehownership-a-homebuyers-class-for-veterans-d7e079",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "d7e0791f84862afe",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy8yMmRlMjU1NzkwMjhjMjE2NzhiY2Q0OGY4MmQwODcyNGNiOTZlNTg4ODQ3MjI0ZDI1ODVhNjA1MGI2NTZhNTk5LXJpbWctdzEyMDAtaDYwMC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3OTE1NDE4NjQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T19:00:00-06:00",
-   "title": "MISSION HOMEHOWNERSHIP: A homebuyers class for Veterans",
-   "venue": "Weichert Realtors - House of Brokers"
   },
   {
    "_slug": "smells-like-nirvana-tribute-live-in-concert-bf9a7e",
@@ -2135,6 +2120,19 @@
    "start": "2026-11-14T19:30:00-06:00",
    "title": "Little Women: The Musical",
    "venue": "Rhynsburger Theatre"
+  },
+  {
+   "_slug": "made-for-more-94ce33",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "94ce3333a5a937ed",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wYzA1YWEzZDg1ZjNiY2UzY2EwMTk5NjNkM2I5Yjg1YTY3MzYyNGNlOTE0NmE1NmJlNWIyYjVlOTk4MDAzYTA1LXJpbWctdzEyMDAtaDc3Ni1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
+   "source": "allevents",
+   "start": "2026-11-14T19:30:00-06:00",
+   "title": "Made for More",
+   "venue": "Cedar Creek Resort & RV Park"
   },
   {
    "_slug": "saturday-night-comedy-at-the-tokyo-club-4bb477",
@@ -2355,6 +2353,24 @@
    "start": "2026-11-15T10:30:00-06:00",
    "title": "Yoga at Partner For Better",
    "venue": "Partner For Better"
+  },
+  {
+   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
+   ],
+   "categories": [
+    "music",
+    "nightlife"
+   ],
+   "category": "music",
+   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
+   "end": "2026-11-15T15:00:00-06:00",
+   "id": "499cdb22318aea5f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
+   "source": "allevents",
+   "start": "2026-11-15T11:00:00-06:00",
+   "title": "2nd Annual Pierpont Sip & Shop"
   },
   {
    "_slug": "unity-of-columbia-annual-art-craft-fair-day-2-2a3f8d",
@@ -2683,6 +2699,18 @@
    "venue": "Sinquefield Music Center"
   },
   {
+   "_slug": "nov-2026-tcg-league-challenge-tournament-90736c",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "90736c12a0e6bf92",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy85YjlmYmJlNjdmMzcwODI5OTg2MzFmY2I2M2UyNWQ5NjY5ODgzMjY5ODg0NWM4OGVjMDI4OGFhZWI5ZTcyNGRlLXJpbWctdzcyMC1oMzQ3LWRjZTgxODI4LWdtaXI_dj0xNzk0MjMzMzM0.avif",
+   "source": "allevents",
+   "start": "2026-11-15T15:30:00-06:00",
+   "title": "Nov 2026 TCG League Challenge Tournament"
+  },
+  {
    "_slug": "you-can-see-everything-9e5f71",
    "categories": [
     "arts"
@@ -2782,18 +2810,6 @@
    "venue": "MizzouRec"
   },
   {
-   "_slug": "nov-2026-tcg-league-challenge-tournament-90736c",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "90736c12a0e6bf92",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy85YjlmYmJlNjdmMzcwODI5OTg2MzFmY2I2M2UyNWQ5NjY5ODgzMjY5ODg0NWM4OGVjMDI4OGFhZWI5ZTcyNGRlLXJpbWctdzcyMC1oMzQ3LWRjZTgxODI4LWdtaXI_dj0xNzk0MjMzMzM0.avif",
-   "source": "allevents",
-   "start": "2026-11-15T19:30:00-06:00",
-   "title": "Nov 2026 TCG League Challenge Tournament"
-  },
-  {
    "_slug": "you-can-see-everything-bce87c",
    "categories": [
     "arts"
@@ -2807,24 +2823,6 @@
    "start": "2026-11-15T19:30:00-06:00",
    "title": "You Can See Everything",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
-   ],
-   "categories": [
-    "music",
-    "nightlife"
-   ],
-   "category": "music",
-   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
-   "end": "2026-11-15T15:00:00-06:00",
-   "id": "499cdb22318aea5f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-15T20:00:00-06:00",
-   "title": "2nd Annual Pierpont Sip & Shop"
   },
   {
    "_slug": "wild-horse-nine-a97ecd",
