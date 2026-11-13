@@ -127,6 +127,11 @@
   "lng": -92.3249265,
   "name": null
  },
+ "110 orr st, columbia, mo 65201": {
+  "lat": 38.952735,
+  "lng": -92.3249248,
+  "name": null
+ },
  "110 orr st, columbia, mo columbia, mo 65201": {
   "lat": 38.952735,
   "lng": -92.3249248,
@@ -851,6 +856,11 @@
  },
  "ladybird cafe, columbia, mo": null,
  "ladybird trading, columbia, mo": null,
+ "lakota coffee, columbia, mo": {
+  "lat": 38.9168374,
+  "lng": -92.3374051,
+  "name": "Lakota Coffee Company South"
+ },
  "leadership auditorium  university of missouri columbia missouri united states, columbia, mo": null,
  "leadership auditorium 518 hitt st columbia mo 65201 united states, columbia, mo": null,
  "leadership auditorium hitt st columbia mo, columbia, mo": null,
@@ -930,6 +940,11 @@
  "novak leadership institute lee hills hall room 202 221 s 8th street columbia mo 65201, columbia, mo": null,
  "optimist youth sports athletic fields, columbia, mo": null,
  "osage artists today: art, culture and connection to place, columbia, mo": null,
+ "pierpont general store, columbia, mo": {
+  "lat": 38.8626355,
+  "lng": -92.3147178,
+  "name": "Pierpont General Store"
+ },
  "pierpont, columbia, mo": {
   "lat": 38.8626355,
   "lng": -92.3147178,

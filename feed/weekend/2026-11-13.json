@@ -1,6 +1,52 @@
 {
  "events": [
   {
+   "_slug": "extended-play-fall-fest-cde7a1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "cde7a1544bcf09b6",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy82YTBmYmIxYTFhODU2YzJkYjExYTYzMmZlZGQyZDlhYzYxYTEyZGZjOWZiMjZmNzJjOTVlYTIxODUwMzA5MTg4LXJpbWctdzEyMDAtaDY3MS1kY2ZmZmZmZi1nbWlyLmpwZz92PTE3ODQ1NTE1NzY.avif",
+   "source": "allevents",
+   "start": "2026-11-13T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Extended Play Fall Fest",
+   "venue": "The Blue Note"
+  },
+  {
+   "_slug": "lakota-gives-back-to-mosy-ba470d",
+   "allDay": true,
+   "categories": [
+    "music",
+    "family",
+    "food"
+   ],
+   "category": "music",
+   "description": "Support the Missouri Symphony Conservatory kids with your coffee! On Monday, November 16, from 6am to pm, Lakota Coffee South will donate a portion…",
+   "end": "2026-11-13T23:59:59-06:00",
+   "id": "ba470d366bb44f90",
+   "imageUrl": "https://comoevent.com/img/gen/8ee4e1c7ee0672.webp",
+   "source": "macaronikid",
+   "start": "2026-11-13T00:00:00-06:00",
+   "title": "Lakota gives back to MOSY",
+   "venue": "Lakota Coffee"
+  },
+  {
+   "_slug": "live-stand-up-comedy-at-the-tokyo-club-stl-s-vernon-longhorn-2ae1c0",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "2ae1c0fc5676cf6f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy81ZGZlOGRkMzMwZmViMTU3ZTJmNDc4MDIxZDVlM2U3OWJhM2I5MDJiYjZiNmVhYmU5NmI2MmY0NGQxNGQ0N2U0LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTE0NDE5NjU.avif",
+   "source": "allevents",
+   "start": "2026-11-13T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Live Stand-Up COMEDY at The Tokyo Club - STL's Vernon \"LONGHORN\" Davis!!",
+   "venue": "The Tokyo Club"
+  },
+  {
    "_slug": "2026-american-physical-therapy-association-pediatric-annual-f3033c",
    "categories": [
     "campus"
@@ -310,7 +356,6 @@
    "description": "Learn more about a historic Missouri figure at a talk with Columbia author Greg Olson (above), whose newest book The Amazing Life of Jeffrey D…",
    "end": "2026-11-13T13:00:00-06:00",
    "id": "9cf6a57fa54e3ead",
-   "imageUrl": "https://comoevent.com/img/gen/5b98cf065416fb.webp",
    "price": "Free",
    "source": "vox",
    "start": "2026-11-13T12:00:00-06:00",
@@ -383,7 +428,6 @@
    "description": "Explore the fascinating relationship between town and gown on CoMo Preservation's Avenue of the Columns guided walking tour. Beginning at the …",
    "end": "2026-11-13T16:00:00-06:00",
    "id": "10d67af3e98c8bcd",
-   "imageUrl": "https://comoevent.com/img/gen/04c077e0f6f60a.webp",
    "price": "$10",
    "source": "vox",
    "start": "2026-11-13T14:00:00-06:00",
@@ -399,7 +443,6 @@
    "description": "Visit our computer lab to enhance your technology skills. Library trainers can help you with the basic functions of your Windows, Chrome, Android or Apple laptop or device. You can also use self-paced tutorials to work on keyboarding skills. Staff are unable to troubleshoot or repair malfunctioning ",
    "end": "2026-11-13T15:30:00-06:00",
    "id": "85c0f6b6ecd9f272",
-   "imageUrl": "https://comoevent.com/img/gen/5293fdbcd054d6.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-11-13T14:00:00-06:00",
@@ -416,7 +459,6 @@
    "description": "Celebrate your upcoming graduation with a free, professional photo on Faurot Field! Student Affairs and Mizzou Athletics invite all December graduates to Graduates on Faurot—an exclusive, free event honoring your achievement. Step onto the turf and let a professional photographer capture your Mizzou",
    "end": "2026-11-13T16:00:00-06:00",
    "id": "8dcc64aeaf7db551",
-   "imageUrl": "https://comoevent.com/img/gen/95a430738c0e3d.webp",
    "source": "engage",
    "start": "2026-11-13T14:00:00-06:00",
    "title": "Graduates on Faurot Field",
@@ -518,7 +560,6 @@
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-11-13T17:30:00-06:00",
    "id": "da88d67e4413d14c",
-   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
    "source": "ragtag",
    "start": "2026-11-13T15:50:00-06:00",
    "title": "Once Upon a Time in Harlem",
@@ -571,6 +612,21 @@
    "source": "ccis",
    "start": "2026-11-13T16:30:00-06:00",
    "title": "Columbia College Women's Volleyball vs Semifinals",
+   "venue": "Southwell Complex"
+  },
+  {
+   "_slug": "columbia-college-women-s-volleyball-vs-stephens-college-semi-155c70",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "description": "Columbia College Women's Volleyball vs Stephens College - Semifinals Streaming Video: https://columbiacougars.com/sports/2022/8/11/columbia-cougars-live-stream.aspx Tickets: https://columbiacougars.com/sports/2021/7/21/volleyball-tickets.aspx",
+   "end": "2026-11-13T18:30:00-06:00",
+   "id": "155c70543933a03d",
+   "imageUrl": "https://comoevent.com/img/gen/3574175572a449.webp",
+   "source": "ccis",
+   "start": "2026-11-13T16:30:00-06:00",
+   "title": "Columbia College Women's Volleyball vs Stephens College - Semifinals",
    "venue": "Southwell Complex"
   },
   {
@@ -796,20 +852,6 @@
    "venue": "Shanthi Mandir"
   },
   {
-   "_slug": "spider-man-brand-new-day-d53e9a",
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "id": "d53e9a6e67b34793",
-   "imageUrl": "https://comoevent.com/img/gen/720c2749e1fe8b.webp",
-   "price": "10-$14",
-   "source": "mizzou",
-   "start": "2026-11-13T18:30:00-06:00",
-   "title": "Spider-Man: Brand New Day",
-   "venue": "Missouri Theatre"
-  },
-  {
    "_slug": "campus-nights-elevation-rhythm-bb2a78",
    "categories": [
     "campus"
@@ -853,6 +895,25 @@
    "start": "2026-11-13T19:00:00-06:00",
    "title": "Party With the Stars",
    "venue": "Columbia Public Library"
+  },
+  {
+   "_slug": "spider-man-brand-new-day-d53e9a",
+   "alsoOn": [
+    "https://mizzouarts.missouri.edu/event/spider-man-brand-new-day/"
+   ],
+   "categories": [
+    "campus",
+    "music"
+   ],
+   "category": "campus",
+   "id": "d53e9a6e67b34793",
+   "imageUrl": "https://comoevent.com/img/gen/720c2749e1fe8b.webp",
+   "price": "10-$14",
+   "source": "mizzou",
+   "start": "2026-11-13T19:00:00-06:00",
+   "ticketUrl": "https://am.ticketmaster.com/muconcerts/buy/ism/NkNGMTExM0E=",
+   "title": "Spider-Man: Brand New Day",
+   "venue": "Missouri Theatre"
   },
   {
    "_slug": "tyondai-braxton-at-crow-hall-d79c1f",
@@ -1014,8 +1075,8 @@
   {
    "_slug": "nicole-atkins-rose-music-hall-277334",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#nicole-atkins",
-    "https://rosemusichall.com/event/nicole-atkins/"
+    "https://rosemusichall.com/event/nicole-atkins/",
+    "https://baselocal.com/mo/columbia/events/#nicole-atkins"
    ],
    "categories": [
     "music"
@@ -1101,8 +1162,8 @@
   {
    "_slug": "annual-christmas-bazaar-d1f2fe",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1397/1794664800000",
-    "https://baselocal.com/mo/columbia/events/#annual-christmas-bazaar"
+    "https://baselocal.com/mo/columbia/events/#annual-christmas-bazaar",
+    "https://tockify.com/the.district.cid/detail/1397/1794664800000"
    ],
    "categories": [
     "family",
@@ -1328,6 +1389,18 @@
    "start": "2026-11-14T10:00:00-06:00",
    "title": "Free Family Event - Gather & Give Thanks",
    "venue": "Boone County History & Culture Center"
+  },
+  {
+   "_slug": "gallery-readings-w-clay-schiefelbein-22e550",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "22e550ce3783c7b0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9lOGRlZjUzNDZiYjJhYTEyNzljYjY1YTc4MzRmMmU2YTUwMWExODk3OWEwYWI1MmY2NTJjMzkwNmFhNDgwNjE0LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDUz.avif",
+   "source": "allevents",
+   "start": "2026-11-14T10:00:00-06:00",
+   "title": "Gallery Readings w/ Clay Schiefelbein"
   },
   {
    "_slug": "gentle-yoga-with-rebecca-peters-wellness-ff8961",
@@ -1669,6 +1742,18 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "4th-annual-pierpont-general-store-chili-cook-off-d8a4d4",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "d8a4d43a74d3de62",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wMmJlNjlhNGY3MjRhNDMzOWE3MDcxMTk5MGYwMDBiZjgzOTlkMDM5MWZkYzM0YmY0ZWU1MTdmN2QxM2M3YTgwLXJpbWctdzEyMDAtaDYzNC1kYzA4MDgwOC1nbWlyP3Y9MTc5MjMwNDg2OQ.avif",
+   "source": "allevents",
+   "start": "2026-11-14T13:00:00-06:00",
+   "title": "4th Annual Pierpont General Store Chili Cook Off"
+  },
+  {
    "_slug": "mu-vs-georgia-tailgate-all-you-can-eat-buffet-raffle-drink-s-ff1742",
    "alsoOn": [
     "https://allevents.in/columbia/mu-vs-georgia-tailgate-all-you-can-eat-buffet-raffle-drink-specials/100002004601270362"
@@ -1905,6 +1990,19 @@
    "venue": "Fine Arts Building"
   },
   {
+   "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "1a3a4065917ee253",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zYzkxNzczMDlkOGUyZDJlZGU2ODU0OWUwYmNjMzFiNzJmMmFlYjYyZjQzOTdmMjY3NTI0M2VhZWVjN2Y0Y2FlLXJpbWctdzEyMDAtaDE1MDAtZGMwODA4MDgtZ21pcj92PTE3OTA1ODE1ODQ.avif",
+   "source": "allevents",
+   "start": "2026-11-14T17:30:00-06:00",
+   "title": "Nclusion Plus Presents: Miss Gay Mid-Missouri America '27 Pageant",
+   "venue": "Columbia Entertainment Company"
+  },
+  {
    "_slug": "smells-like-nirvana-tribute-to-nirvana-w-special-guests-dead-4a9676",
    "categories": [
     "music"
@@ -2002,31 +2100,6 @@
    "start": "2026-11-14T19:00:00-06:00",
    "title": "2026 Fall into Art",
    "venue": "Expo Center, 2200 Interstate 70 Dr SW, Columbia, MO 65203, Columbia, MO, United States, Missouri 65203"
-  },
-  {
-   "_slug": "gallery-readings-w-clay-schiefelbein-22e550",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "22e550ce3783c7b0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9lOGRlZjUzNDZiYjJhYTEyNzljYjY1YTc4MzRmMmU2YTUwMWExODk3OWEwYWI1MmY2NTJjMzkwNmFhNDgwNjE0LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDUz.avif",
-   "source": "allevents",
-   "start": "2026-11-14T19:00:00-06:00",
-   "title": "Gallery Readings w/ Clay Schiefelbein"
-  },
-  {
-   "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "1a3a4065917ee253",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zYzkxNzczMDlkOGUyZDJlZGU2ODU0OWUwYmNjMzFiNzJmMmFlYjYyZjQzOTdmMjY3NTI0M2VhZWVjN2Y0Y2FlLXJpbWctdzEyMDAtaDE1MDAtZGMwODA4MDgtZ21pcj92PTE3OTA1ODE1ODQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T19:00:00-06:00",
-   "title": "Nclusion Plus Presents: Miss Gay Mid-Missouri America '27 Pageant",
-   "venue": "Columbia Entertainment Company"
   },
   {
    "_slug": "smells-like-nirvana-tribute-live-in-concert-bf9a7e",
@@ -2138,8 +2211,8 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-wes-88a38d",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308"
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts"
@@ -2192,8 +2265,8 @@
   {
    "_slug": "smells-like-nirvana-rose-music-hall-483aa1",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana-at-rose-music-hall",
-    "https://rosemusichall.com/event/smells-like-nirvana-3/"
+    "https://rosemusichall.com/event/smells-like-nirvana-3/",
+    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana"
    ],
    "categories": [
     "music"
@@ -2208,18 +2281,6 @@
    "ticketUrl": "https://www.ticketmaster.com/smells-like-nirvanatribute-to-nirvana-columbia-missouri-11-14-2026/event/060064F6E068731B",
    "title": "Smells Like Nirvana – Rose Music Hall",
    "venue": "Rose Music Hall"
-  },
-  {
-   "_slug": "4th-annual-pierpont-general-store-chili-cook-off-d8a4d4",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "id": "d8a4d43a74d3de62",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wMmJlNjlhNGY3MjRhNDMzOWE3MDcxMTk5MGYwMDBiZjgzOTlkMDM5MWZkYzM0YmY0ZWU1MTdmN2QxM2M3YTgwLXJpbWctdzEyMDAtaDYzNC1kYzA4MDgwOC1nbWlyP3Y9MTc5MjMwNDg2OQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T21:00:00-06:00",
-   "title": "4th Annual Pierpont General Store Chili Cook Off"
   },
   {
    "_slug": "saturday-night-comedy-at-the-tokyo-club-0ba21f",
@@ -2369,6 +2430,25 @@
    "start": "2026-11-15T10:30:00-06:00",
    "title": "Yoga at Partner For Better",
    "venue": "Partner For Better"
+  },
+  {
+   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
+   "alsoOn": [
+    "https://allevents.in/columbia/2nd-annual-pierpont-sip-and-shop/200030850318222"
+   ],
+   "categories": [
+    "music",
+    "nightlife"
+   ],
+   "category": "music",
+   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
+   "end": "2026-11-15T15:00:00-06:00",
+   "id": "499cdb22318aea5f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
+   "source": "baselocal",
+   "start": "2026-11-15T11:00:00-06:00",
+   "title": "2nd Annual Pierpont Sip & Shop",
+   "venue": "Pierpont General Store"
   },
   {
    "_slug": "unity-of-columbia-annual-art-craft-fair-day-2-2a3f8d",
@@ -2824,24 +2904,6 @@
    "start": "2026-11-15T20:00:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
-   ],
-   "categories": [
-    "music",
-    "nightlife"
-   ],
-   "category": "music",
-   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
-   "end": "2026-11-15T15:00:00-06:00",
-   "id": "499cdb22318aea5f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-15T21:00:00-06:00",
-   "title": "2nd Annual Pierpont Sip & Shop"
   }
  ],
  "friday": "2026-11-13",
