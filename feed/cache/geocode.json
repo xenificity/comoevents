@@ -304,6 +304,7 @@
   "lng": -92.3276674,
   "name": null
  },
+ "209 e green meadows rd suite c, columbia, mo": null,
  "2101 vandiver drive, columbia, mo": {
   "lat": 38.9723224,
   "lng": -92.3066125,
@@ -362,6 +363,11 @@
   "lat": 38.9210123,
   "lng": -92.3635406,
   "name": null
+ },
+ "2900 paris rd, columbia, mo": {
+  "lat": 38.9804806,
+  "lng": -92.2934846,
+  "name": "Gerbes"
  },
  "300 n 10th st. ste 100, columbia, mo 65201": null,
  "300 s providence rd., columbia, mo": {
@@ -643,6 +649,11 @@
  "7650 mo-163, columbia, mo 65203 columbia, mo 65203": null,
  "7650 s highway 163, columbia, mo": null,
  "7650 s highway 163, columbia, mo columbia, mo 65203": null,
+ "800 hospital dr, columbia, mo": {
+  "lat": 38.936425,
+  "lng": -92.3288296,
+  "name": "Harry S. Truman Memorial Veterans’ Hospital"
+ },
  "805 fairview ave, columbia, mo": {
   "lat": 38.961517,
   "lng": -92.327104,
@@ -801,6 +812,7 @@
  "gqt forum, columbia, mo": null,
  "grad hub 111f townsend hall columbia 65211 united states, columbia, mo": null,
  "grad hub, columbia, mo": null,
+ "green meadows hair co. & spa, columbia, mo": null,
  "gwynn hall lounge room 117 university of missouri columbia missouri united states, columbia, mo": null,
  "hampton inn & suites columbia (at the university of missouri), columbia, mo": {
   "lat": 38.9340762,

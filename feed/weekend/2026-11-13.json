@@ -248,19 +248,6 @@
    "venue": "Memorial Student Union"
   },
   {
-   "_slug": "hot-yoga-fundraiser-journey-through-the-decades-e1a3b8",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "e1a3b83e0c4e750f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9hOThhNjQ4YTU3Zjg3YTM5NjRiOGVhMGNjZGFjM2QxNDVlNmU0MjIzNDExYzdmOTZkOGI2ZDRjMGIwMGVkZWI1LXJpbWctdzEyMDAtaDQ1NS1kYzA4MDgwOC1nbWlyP3Y9MTc5NDIzMzMzNg.avif",
-   "source": "allevents",
-   "start": "2026-11-13T11:30:00-06:00",
-   "title": "Hot Yoga Fundraiser: Journey Through the Decades!",
-   "venue": "Sumits Hot Yoga Columbia"
-  },
-  {
    "_slug": "trulaske-council-on-teaching-excellence-lunch-learn-ad3154",
    "categories": [
     "campus"
@@ -345,6 +332,19 @@
    "start": "2026-11-13T13:00:00-06:00",
    "title": "CUAHSI Water Science Exchange: Water in Working Landscapes - Poster Session",
    "venue": "Bond Life Sciences Center"
+  },
+  {
+   "_slug": "first-day-owt-probate-after-party-fb98c1",
+   "categories": [
+    "party"
+   ],
+   "category": "party",
+   "id": "fb98c1cb166fb9c4",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9hODYyYTY0MC1kZWFhLTExZjEtYTdiZS0yOThiNWMwZWY1YjEtcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTQ0OTU5OTc.avif",
+   "source": "allevents",
+   "start": "2026-11-13T13:00:00-06:00",
+   "title": "FIRST DAY OWT (PROBATE AFTER PARTY)",
+   "venue": "Elev8 NightClub"
   },
   {
    "_slug": "wild-horse-nine-5fa136",
@@ -547,6 +547,19 @@
    "ticketUrl": "https://am.ticketmaster.com/muconcerts/buy/ism/NkNGMTExM0E=",
    "title": "Film Friday: Spider-Man: Brand New Day",
    "venue": "Missouri Theatre"
+  },
+  {
+   "_slug": "live-stand-up-comedy-at-the-tokyo-club-stl-s-vernon-longhorn-2ae1c0",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "2ae1c0fc5676cf6f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy81ZGZlOGRkMzMwZmViMTU3ZTJmNDc4MDIxZDVlM2U3OWJhM2I5MDJiYjZiNmVhYmU5NmI2MmY0NGQxNGQ0N2U0LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTE0NDE5NjU.avif",
+   "source": "allevents",
+   "start": "2026-11-13T16:00:00-06:00",
+   "title": "Live Stand-Up COMEDY at The Tokyo Club - STL's Vernon \"LONGHORN\" Davis!!",
+   "venue": "The Tokyo Club"
   },
   {
    "_slug": "cancelled-due-to-the-cold-weather-trail-boss-bbq-e28016",
@@ -830,6 +843,32 @@
    "venue": "Jesse Auditorium"
   },
   {
+   "_slug": "hot-yoga-fundraiser-journey-through-the-decades-e1a3b8",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e1a3b83e0c4e750f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9hOThhNjQ4YTU3Zjg3YTM5NjRiOGVhMGNjZGFjM2QxNDVlNmU0MjIzNDExYzdmOTZkOGI2ZDRjMGIwMGVkZWI1LXJpbWctdzEyMDAtaDQ1NS1kYzA4MDgwOC1nbWlyP3Y9MTc5NDIzMzMzNg.avif",
+   "source": "allevents",
+   "start": "2026-11-13T19:00:00-06:00",
+   "title": "Hot Yoga Fundraiser: Journey Through the Decades!",
+   "venue": "Sumits Hot Yoga Columbia"
+  },
+  {
+   "_slug": "macalester-dose-the-rebels-live-at-myhouse-in-columbia-mo-73b507",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "73b507e188b58035",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8zM2FhYTEwOWMyNDE1YjcyMmFlZDVjYmVmMjhmNjAyZmI0NjQyMTMzYzM1YmIzNjAwMjgwZjZkNDdlOWFlZWY1LXJpbWctdzEyMDAtaDEwMjQtZGMwODA4MDgtZ21pcj92PTE3OTI5Njc0NzE.avif",
+   "source": "allevents",
+   "start": "2026-11-13T19:00:00-06:00",
+   "title": "Macalester Dose & The Rebels LIVE at MyHouse in Columbia, MO",
+   "venue": "My House Nightclub & Sports Bar"
+  },
+  {
    "_slug": "party-with-the-stars-32ddee",
    "alsoOn": [
     "https://events.dbrl.org/event/17459294"
@@ -895,6 +934,21 @@
    "title": "48-Hour Film Competition"
   },
   {
+   "_slug": "friday-night-comedy-at-the-tokyo-club-e47e11",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "🎤 Comedy Night at The Tokyo Club! Doors Open at 5 PM Show is at 7 PM ⭐ Headliner: Vernon \"Longhorn\" Davis ⭐ Featuring: Andy Hamilton & Ryan Kanavich 🤣 Get ready for laughs, drinks, and games — all under one roof. Come find out why The Tokyo Club is Missouri’s go-to spot for comedy every weekend! 🙌 📍",
+   "end": "2026-11-13T21:00:00-06:00",
+   "id": "e47e11ee5467961d",
+   "imageUrl": "https://comoevent.com/img/gen/d658dc5634f4fa.webp",
+   "source": "arcadedistrict",
+   "start": "2026-11-13T19:30:00-06:00",
+   "title": "Friday Night Comedy at The Tokyo Club",
+   "venue": "The Arcade District"
+  },
+  {
    "_slug": "little-women-the-musical-071642",
    "alsoOn": [
     "https://calendar.missouri.edu/theatre/event/20643-little-women"
@@ -913,27 +967,6 @@
    "venue": "Rhynsburger Theatre"
   },
   {
-   "_slug": "live-stand-up-comedy-at-the-tokyo-club-stl-s-vernon-longhorn-9ffb31",
-   "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-stls-vernon-longhorn-davis/100002003092078328"
-   ],
-   "categories": [
-    "arts",
-    "family"
-   ],
-   "category": "arts",
-   "description": "Texas-raised, 4th-gen Army vet Vernon “Longhorn” Davis turns family chaos & military life into pure Longhorn Comedy!",
-   "end": "2026-11-13T21:00:00-06:00",
-   "id": "9ffb31ee12106692",
-   "imageUrl": "https://comoevent.com/img/gen/p-d07276a17ae0f3.webp",
-   "source": "eventbrite",
-   "start": "2026-11-13T19:30:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/live-stand-up-comedy-at-the-tokyo-club-stls-vernon-longhorn-davis-tickets-2003092078328",
-   "title": "Live Stand-Up COMEDY at The Tokyo Club - STL's Vernon \"LONGHORN\" Davis!!",
-   "venue": "The Tokyo Club"
-  },
-  {
    "_slug": "steven-tharp-faculty-recital-4d9944",
    "categories": [
     "campus"
@@ -950,16 +983,12 @@
   },
   {
    "_slug": "tyondai-braxton-extended-play-0ae648",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/music/tyondai-braxton-extended-play/event_7b8f7759-3d7d-4272-aec8-e0af0fdd3fa1.html"
-   ],
    "categories": [
     "campus",
     "music"
    ],
    "category": "campus",
    "description": "Tyondai Braxton finishes his MU residency in concert, with an opening performance by MNMI's Creative Improvisation Collective .",
-   "end": "2026-11-13T22:00:00-06:00",
    "id": "0ae6484ce6e43062",
    "imageUrl": "https://comoevent.com/img/gen/6967c76033583d.webp",
    "price": "MU students, staff, and faculty are FREE .; Non-MU attendees can purchase tickets through EventBrite .",
@@ -1018,8 +1047,8 @@
   {
    "_slug": "nicole-atkins-rose-music-hall-277334",
    "alsoOn": [
-    "https://rosemusichall.com/event/nicole-atkins/",
-    "https://baselocal.com/mo/columbia/events/#nicole-atkins"
+    "https://baselocal.com/mo/columbia/events/#nicole-atkins",
+    "https://rosemusichall.com/event/nicole-atkins/"
    ],
    "categories": [
     "music"
@@ -1034,19 +1063,6 @@
    "ticketUrl": "https://www.ticketmaster.com/nicole-atkins-columbia-missouri-11-13-2026/event/060064D43A4DEF52",
    "title": "Nicole Atkins – Rose Music Hall",
    "venue": "Rose Music Hall"
-  },
-  {
-   "_slug": "first-day-owt-probate-after-party-fb98c1",
-   "categories": [
-    "party"
-   ],
-   "category": "party",
-   "id": "fb98c1cb166fb9c4",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9hODYyYTY0MC1kZWFhLTExZjEtYTdiZS0yOThiNWMwZWY1YjEtcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTQ0OTU5OTc.avif",
-   "source": "allevents",
-   "start": "2026-11-13T21:00:00-06:00",
-   "title": "FIRST DAY OWT (PROBATE AFTER PARTY)",
-   "venue": "Elev8 NightClub"
   },
   {
    "_slug": "friday-night-comedy-at-the-tokyo-club-38a3a6",
@@ -1167,10 +1183,21 @@
    "venue": "Tournament"
   },
   {
+   "_slug": "unity-of-columbia-2026-annual-art-and-craft-fair-2cdada",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "2cdadac79e6cf2aa",
+   "imageUrl": "https://comoevent.com/img/gen/65bf2dcaced58a.webp",
+   "source": "allevents",
+   "start": "2026-11-14T08:00:00-06:00",
+   "title": "Unity of Columbia 2026 Annual Art and Craft Fair"
+  },
+  {
    "_slug": "columbia-farmers-market-winter-season-cf0735",
    "alsoOn": [
-    "https://columbiafarmersmarket.org/",
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
+    "https://columbiafarmersmarket.org/"
    ],
    "categories": [
     "food"
@@ -1180,7 +1207,6 @@
    "end": "2026-11-14T12:00:00-06:00",
    "id": "cf0735f53dbf0587",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
-   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-11-14T09:00:00-06:00",
    "title": "Columbia Farmers Market – Winter Season",
@@ -1237,9 +1263,6 @@
   },
   {
    "_slug": "unity-of-columbia-annual-art-craft-fair-day-1-e15892",
-   "alsoOn": [
-    "https://allevents.in/columbia/unity-of-columbia-2026-annual-art-and-craft-fair/200030957843734"
-   ],
    "categories": [
     "arts"
    ],
@@ -1540,9 +1563,9 @@
   {
    "_slug": "wild-kratts-activate-kid-power-0e761b",
    "alsoOn": [
-    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/",
+    "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad",
     "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943",
-    "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad"
+    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/"
    ],
    "categories": [
     "family",
@@ -1678,15 +1701,21 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "mu-vs-georgia-tailgate-all-you-can-eat-buffet-raffle-drink-s-1e724b",
+   "_slug": "mu-vs-georgia-tailgate-all-you-can-eat-buffet-raffle-drink-s-ff1742",
+   "alsoOn": [
+    "https://allevents.in/columbia/mu-vs-georgia-tailgate-all-you-can-eat-buffet-raffle-drink-specials/100002004601270362"
+   ],
    "categories": [
     "sports"
    ],
    "category": "sports",
-   "id": "1e724b3642023a10",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNTUzZDkyM2JlMDljMDA0YWI0NDQ2ZTRiNTQ5ZDQxZTNiYzhhODU1ZGJkMzU1NGRhNTU1ODUxYTM4OTJkNGI3ZC1yaW1nLXcxMjAwLWg2MDAtZGNmOGQ4NTgtZ21pci5qcGc_dj0xNzk0Mjc3ODY0.avif",
-   "source": "allevents",
+   "description": "Join us for Mizzou's game against the Georgia Bulldogs. Catch the game on our massive 30ft outdoor screen, enjoy drink deals + more",
+   "end": "2026-11-14T18:00:00-06:00",
+   "id": "ff1742a2b1fd9bf9",
+   "imageUrl": "https://cdn.evbuc.com/images/1197611492/2276365863483/1/original.20261109-174810",
+   "source": "eventbrite",
    "start": "2026-11-14T13:00:00-06:00",
+   "ticketUrl": "https://www.eventbrite.com/e/mu-vs-georgia-tailgate-all-you-can-eat-buffet-raffle-drink-specials-tickets-2004601270362",
    "title": "MU vs Georgia Tailgate | All You Can Eat Buffet, Raffle, Drink Specials",
    "venue": "The Kitchen Grill and Games"
   },
@@ -1994,16 +2023,17 @@
    "venue": "Expo Center, 2200 Interstate 70 Dr SW, Columbia, MO 65203, Columbia, MO, United States, Missouri 65203"
   },
   {
-   "_slug": "gallery-readings-w-clay-schiefelbein-22e550",
+   "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
    "categories": [
-    "arts"
+    "community"
    ],
-   "category": "arts",
-   "id": "22e550ce3783c7b0",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9lOGRlZjUzNDZiYjJhYTEyNzljYjY1YTc4MzRmMmU2YTUwMWExODk3OWEwYWI1MmY2NTJjMzkwNmFhNDgwNjE0LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDUz.avif",
+   "category": "community",
+   "id": "1a3a4065917ee253",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zYzkxNzczMDlkOGUyZDJlZGU2ODU0OWUwYmNjMzFiNzJmMmFlYjYyZjQzOTdmMjY3NTI0M2VhZWVjN2Y0Y2FlLXJpbWctdzEyMDAtaDE1MDAtZGMwODA4MDgtZ21pcj92PTE3OTA1ODE1ODQ.avif",
    "source": "allevents",
    "start": "2026-11-14T19:00:00-06:00",
-   "title": "Gallery Readings w/ Clay Schiefelbein"
+   "title": "Nclusion Plus Presents: Miss Gay Mid-Missouri America '27 Pageant",
+   "venue": "Columbia Entertainment Company"
   },
   {
    "_slug": "smells-like-nirvana-tribute-live-in-concert-bf9a7e",
@@ -2113,19 +2143,24 @@
    "venue": "Rhynsburger Theatre"
   },
   {
-   "_slug": "saturday-night-comedy-at-the-tokyo-club-4bb477",
+   "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-wes-88a38d",
+   "alsoOn": [
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308",
+    "https://thearcadedistrict.org/"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
-   "description": "🎤 Comedy Night at The Tokyo Club! Doors Open at 5 PM Show is at 7 PM ⭐ Headliner: Dan West ⭐ Feature: Sandra Wally & Ryan Kanavich 🤣 Get ready for laughs, drinks, and games — all under one roof. Come find out why The Tokyo Club is Missouri’s go-to spot for comedy every weekend! 🙌 📍 709 Fay St Suite ",
+   "description": "Army vet Dan West—aka “Captain America with a drinking problem”—brings his sharp, cynical storytelling & nostalgic riffs to The Tokyo Club!!",
    "end": "2026-11-14T21:00:00-06:00",
-   "id": "4bb4771d50c7c717",
-   "imageUrl": "https://comoevent.com/img/gen/c81ec9963d40a2.webp",
-   "source": "arcadedistrict",
+   "id": "88a38df263fd74ed",
+   "imageUrl": "https://comoevent.com/img/gen/p-a0179529547e5c.webp",
+   "source": "eventbrite",
    "start": "2026-11-14T19:30:00-06:00",
-   "title": "Saturday Night Comedy at The Tokyo Club",
-   "venue": "The Arcade District"
+   "ticketUrl": "https://www.eventbrite.com/e/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west-tickets-2003936263308",
+   "title": "Live Stand-Up COMEDY at The Tokyo Club - The Return of DAN WEST!",
+   "venue": "The Tokyo Club"
   },
   {
    "_slug": "karaoke-at-eastside-tavern-f37fb6",
@@ -2207,24 +2242,19 @@
    "title": "4th Annual Pierpont General Store Chili Cook Off"
   },
   {
-   "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-wes-538a37",
-   "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308"
-   ],
+   "_slug": "saturday-night-comedy-at-the-tokyo-club-0ba21f",
    "categories": [
     "arts"
    ],
    "category": "arts",
-   "description": "Army vet Dan West—aka “Captain America with a drinking problem”—brings his sharp, cynical storytelling & nostalgic riffs to The Tokyo Club!!",
+   "description": "🎤 Comedy Night at The Tokyo Club! Doors Open at 5 PM Show is at 7 PM ⭐ Headliner: Dan West ⭐ Feature: Lady Moe Joe & Ryan Kanavich 🤣 Get ready for laughs, drinks, and games — all under one roof. Come find out why The Tokyo Club is Missouri’s go-to spot for comedy every weekend! 🙌 📍 709 Fay St Suite ",
    "end": "2026-11-14T22:30:00-06:00",
-   "id": "538a37fca5f89a82",
-   "imageUrl": "https://comoevent.com/img/gen/p-a0179529547e5c.webp",
-   "source": "eventbrite",
+   "id": "0ba21f57ff9a5333",
+   "imageUrl": "https://comoevent.com/img/gen/c81ec9963d40a2.webp",
+   "source": "arcadedistrict",
    "start": "2026-11-14T21:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west-tickets-2003937176038",
-   "title": "Live Stand-Up COMEDY at The Tokyo Club - The Return of DAN WEST!",
-   "venue": "The Tokyo Club"
+   "title": "Saturday Night Comedy at The Tokyo Club",
+   "venue": "The Arcade District"
   },
   {
    "_slug": "superette-f7e41b",
@@ -2256,6 +2286,20 @@
    "start": "2026-11-14T21:00:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "columbia-coffee-club-foodies-new-friends-99109e",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "99109e21a8ff0e60",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8xM2M5MjQ4MWFiZTkzNmUwMzM5MzBkNTgwYWEzMWFlZDJkOTBjYTY3ZGI0OTZmZWMzYjMyZDJmNjQwMjBhNjg5LXJpbWctdzEyMDAtaDkwMC1kYzE2MTUxOS1nbWlyLmpwZz92PTE3ODMzNTgyMzM.avif",
+   "source": "allevents",
+   "start": "2026-11-15T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Columbia Coffee Club | Foodies + New Friends",
+   "venue": "Cafe of the Month"
   },
   {
    "_slug": "super-smash-bros-tournament-e47027",
@@ -2455,25 +2499,6 @@
    "title": "COMO Flavors Restaurant Crawl"
   },
   {
-   "_slug": "columbia-coffee-club-foodies-new-friends-3ca3d3",
-   "alsoOn": [
-    "https://allevents.in/columbia/columbia-coffee-club-foodies-new-friends/100001992938389371"
-   ],
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "It starts with coffee or brunch, then join other group outings! You sign up, and we book the reservation! Support local businesses.",
-   "end": "2026-11-15T16:00:00-06:00",
-   "id": "3ca3d3dbf3a51d48",
-   "imageUrl": "https://cdn.evbuc.com/images/1178081088/2972884566231/1/original.20260221-023503",
-   "source": "eventbrite",
-   "start": "2026-11-15T13:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/columbia-coffee-club-foodies-new-friends-tickets-1992938691274",
-   "title": "Columbia Coffee Club | Foodies + New Friends",
-   "venue": "Cafe of the Month"
-  },
-  {
    "_slug": "family-day-at-the-museum-c71caa",
    "alsoOn": [
     "https://calendar.missouri.edu/live/events/15901-family-day-at-the-museum"
@@ -2589,6 +2614,22 @@
    "start": "2026-11-15T14:00:00-06:00",
    "title": "Little Women: The Musical",
    "venue": "Rhynsburger Theatre"
+  },
+  {
+   "_slug": "nov-boone-regional-beekeepers-local-plants-beneficial-to-bee-5dd3ec",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "presentation on Missouri Native Trees, Shrubs and Forbs Beneficial to Native and Honey Bees",
+   "end": "2026-11-15T16:00:00-06:00",
+   "id": "5dd3ec2f71309da9",
+   "imageUrl": "https://comoevent.com/img/gen/2e045d0df21221.webp",
+   "source": "eventbrite",
+   "start": "2026-11-15T14:00:00-06:00",
+   "ticketUrl": "https://www.eventbrite.com/e/nov-boone-regional-beekeepers-local-plants-beneficial-to-bees-dessert-tickets-2004256351701",
+   "title": "Nov: Boone Regional Beekeepers-local plants beneficial to bees & dessert!",
+   "venue": "Animal Science Research Center"
   },
   {
    "_slug": "the-fried-crawdaddies-8fa48d",
@@ -2743,36 +2784,6 @@
    "venue": "Murry’s Restaurant"
   },
   {
-   "_slug": "nov-2026-tcg-league-challenge-tournament-90736c",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "90736c12a0e6bf92",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy85YjlmYmJlNjdmMzcwODI5OTg2MzFmY2I2M2UyNWQ5NjY5ODgzMjY5ODg0NWM4OGVjMDI4OGFhZWI5ZTcyNGRlLXJpbWctdzcyMC1oMzQ3LWRjZTgxODI4LWdtaXI_dj0xNzk0MjMzMzM0.avif",
-   "source": "allevents",
-   "start": "2026-11-15T18:30:00-06:00",
-   "title": "Nov 2026 TCG League Challenge Tournament"
-  },
-  {
-   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
-   ],
-   "categories": [
-    "music",
-    "nightlife"
-   ],
-   "category": "music",
-   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
-   "end": "2026-11-15T15:00:00-06:00",
-   "id": "499cdb22318aea5f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-15T19:00:00-06:00",
-   "title": "2nd Annual Pierpont Sip & Shop"
-  },
-  {
    "_slug": "cardio-dance-free-gaga-grande-and-gratitude-with-tigerx-a134c4",
    "alsoOn": [
     "https://engage.missouri.edu/MizzouRec/rsvp?id=453698"
@@ -2820,21 +2831,39 @@
    "start": "2026-11-15T20:00:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
+   ],
+   "categories": [
+    "music",
+    "nightlife"
+   ],
+   "category": "music",
+   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
+   "end": "2026-11-15T15:00:00-06:00",
+   "id": "499cdb22318aea5f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
+   "source": "allevents",
+   "start": "2026-11-15T21:00:00-06:00",
+   "title": "2nd Annual Pierpont Sip & Shop"
   }
  ],
  "friday": "2026-11-13",
- "modified": "2026-11-12",
+ "modified": "2026-11-13",
  "picks": [
   "eab61d06004af6ab",
   "071642c6e660b3d4",
-  "9ffb31ee12106692",
   "2773342929747aeb",
   "f588b2da76cc5764",
-  "fb98c1cb166fb9c4",
   "cf0735f53dbf0587",
-  "e158927cdb7e9ca4",
+  "ff1742a2b1fd9bf9",
+  "88a38df263fd74ed",
   "f7e41bac974bb2b9",
-  "0aeace99f97fbd98"
+  "0aeace99f97fbd98",
+  "a134c47608feef97"
  ],
  "published": "2026-11-09"
 }
