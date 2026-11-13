@@ -347,19 +347,6 @@
    "venue": "Bond Life Sciences Center"
   },
   {
-   "_slug": "first-day-owt-probate-after-party-fb98c1",
-   "categories": [
-    "party"
-   ],
-   "category": "party",
-   "id": "fb98c1cb166fb9c4",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9kYmJhMzhmMC1kZTVmLTExZjEtYTdiZS0yOThiNWMwZWY1YjEtcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTQ0NjM4NzE.avif",
-   "source": "allevents",
-   "start": "2026-11-13T13:00:00-06:00",
-   "title": "FIRST DAY OWT (PROBATE AFTER PARTY)",
-   "venue": "Elev8 NightClub"
-  },
-  {
    "_slug": "wild-horse-nine-5fa136",
    "categories": [
     "arts"
@@ -672,14 +659,17 @@
    "venue": "Ladybird Cafe"
   },
   {
-   "_slug": "dinovember-91c844",
+   "_slug": "dinovember-20c043",
+   "alsoOn": [
+    "https://allevents.in/columbia/dinovember/200031032421102"
+   ],
    "categories": [
     "family"
    ],
    "category": "family",
    "description": "Show Me Dinosaurs and Tiny Play Cafe are teaming up to bring you a ROARING good time. Friday, November 13, 6-7:30pm come enjoy baby dinosaurs, a d…",
    "end": "2026-11-13T19:30:00-06:00",
-   "id": "91c84414085d5a25",
+   "id": "20c0431ced1b3d10",
    "imageUrl": "https://comoevent.com/img/gen/76fbb61cc3790b.webp",
    "source": "macaronikid",
    "start": "2026-11-13T18:00:00-06:00",
@@ -827,18 +817,6 @@
    "venue": "Missouri Theatre"
   },
   {
-   "_slug": "48-hour-film-competition-b51b5d",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "b51b5d7b8b994348",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy80ZTdjODczZTgxZDAwOWIzYmUxNzYwOGVhNjg2ODI1Nzk3NWNmZjkxNmE3NmViZjU0YWU0Mjc0ZDAwYTI1ZTZhLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MzE0NDc4Mw.avif",
-   "source": "allevents",
-   "start": "2026-11-13T19:00:00-06:00",
-   "title": "48-Hour Film Competition"
-  },
-  {
    "_slug": "campus-nights-elevation-rhythm-bb2a78",
    "categories": [
     "campus"
@@ -905,6 +883,18 @@
    "venue": "Talking Horse Productions"
   },
   {
+   "_slug": "48-hour-film-competition-b51b5d",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "b51b5d7b8b994348",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy80ZTdjODczZTgxZDAwOWIzYmUxNzYwOGVhNjg2ODI1Nzk3NWNmZjkxNmE3NmViZjU0YWU0Mjc0ZDAwYTI1ZTZhLXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc5MzE0NDc4Mw.avif",
+   "source": "allevents",
+   "start": "2026-11-13T19:30:00-06:00",
+   "title": "48-Hour Film Competition"
+  },
+  {
    "_slug": "little-women-the-musical-071642",
    "alsoOn": [
     "https://calendar.missouri.edu/theatre/event/20643-little-women"
@@ -925,7 +915,8 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-stl-s-vernon-longhorn-9ffb31",
    "alsoOn": [
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-stls-vernon-longhorn-davis/100002003092078328"
    ],
    "categories": [
     "arts",
@@ -1045,6 +1036,19 @@
    "venue": "Rose Music Hall"
   },
   {
+   "_slug": "first-day-owt-probate-after-party-fb98c1",
+   "categories": [
+    "party"
+   ],
+   "category": "party",
+   "id": "fb98c1cb166fb9c4",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9hODYyYTY0MC1kZWFhLTExZjEtYTdiZS0yOThiNWMwZWY1YjEtcmltZy13MTEyMi1oMTQwMi1kYzA4MDgwOC1nbWlyLnBuZz92PTE3OTQ0OTU5OTc.avif",
+   "source": "allevents",
+   "start": "2026-11-13T21:00:00-06:00",
+   "title": "FIRST DAY OWT (PROBATE AFTER PARTY)",
+   "venue": "Elev8 NightClub"
+  },
+  {
    "_slug": "friday-night-comedy-at-the-tokyo-club-38a3a6",
    "categories": [
     "arts"
@@ -1114,8 +1118,8 @@
   {
    "_slug": "annual-christmas-bazaar-d1f2fe",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#annual-christmas-bazaar",
-    "https://tockify.com/the.district.cid/detail/1397/1794664800000"
+    "https://tockify.com/the.district.cid/detail/1397/1794664800000",
+    "https://baselocal.com/mo/columbia/events/#annual-christmas-bazaar"
    ],
    "categories": [
     "family",
@@ -1165,8 +1169,8 @@
   {
    "_slug": "columbia-farmers-market-winter-season-cf0735",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
-    "https://columbiafarmersmarket.org/"
+    "https://columbiafarmersmarket.org/",
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
    ],
    "categories": [
     "food"
@@ -1233,6 +1237,9 @@
   },
   {
    "_slug": "unity-of-columbia-annual-art-craft-fair-day-1-e15892",
+   "alsoOn": [
+    "https://allevents.in/columbia/unity-of-columbia-2026-annual-art-and-craft-fair/200030957843734"
+   ],
    "categories": [
     "arts"
    ],
@@ -1278,6 +1285,22 @@
    "start": "2026-11-14T10:00:00-06:00",
    "title": "Fall Into Art 2026 – Day 1",
    "venue": "Day 1"
+  },
+  {
+   "_slug": "fall-markers-market-c6169b",
+   "categories": [
+    "nightlife",
+    "food"
+   ],
+   "category": "nightlife",
+   "description": "Join us for our Fall Markers Market at Regrowth Vintage! Enjoy an afternoon of beautiful things, lovely finds, creative souls, and all the little treasures that make this season so special. Artists & Makers Lineup: @sjbotanical: Dreamy floral arrangements & wreaths @moreismorejewlery: Vintage jewelr",
+   "end": "2026-11-14T16:00:00-06:00",
+   "id": "c6169b0fb125c72b",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6af6321233339b9bfdba9dc4/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-14T10:00:00-06:00",
+   "title": "Fall Markers Market",
+   "venue": "Regrowth Vintage"
   },
   {
    "_slug": "fall-season-celebratory-5k-0a8b8d",
@@ -1361,6 +1384,19 @@
    "venue": "The Tasting Room"
   },
   {
+   "_slug": "mission-homehownership-a-homebuyers-class-for-veterans-d7e079",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "d7e0791f84862afe",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy8yMmRlMjU1NzkwMjhjMjE2NzhiY2Q0OGY4MmQwODcyNGNiOTZlNTg4ODQ3MjI0ZDI1ODVhNjA1MGI2NTZhNTk5LXJpbWctdzEyMDAtaDYwMC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3OTE1NDE4NjQ.avif",
+   "source": "allevents",
+   "start": "2026-11-14T10:00:00-06:00",
+   "title": "MISSION HOMEHOWNERSHIP: A homebuyers class for Veterans",
+   "venue": "Weichert Realtors - House of Brokers"
+  },
+  {
    "_slug": "scrap-fabric-brooches-288cf8",
    "categories": [
     "community"
@@ -1373,18 +1409,6 @@
    "start": "2026-11-14T10:00:00-06:00",
    "title": "Scrap Fabric Brooches",
    "venue": "MACCLab"
-  },
-  {
-   "_slug": "unity-of-columbia-2026-annual-art-and-craft-fair-2cdada",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "2cdadac79e6cf2aa",
-   "imageUrl": "https://comoevent.com/img/gen/65bf2dcaced58a.webp",
-   "source": "allevents",
-   "start": "2026-11-14T10:00:00-06:00",
-   "title": "Unity of Columbia 2026 Annual Art and Craft Fair"
   },
   {
    "_slug": "wrestling-missouri-vs-tiger-style-invite-29c997",
@@ -1516,8 +1540,8 @@
   {
    "_slug": "wild-kratts-activate-kid-power-0e761b",
    "alsoOn": [
-    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943",
     "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/",
+    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943",
     "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad"
    ],
    "categories": [
@@ -1896,19 +1920,6 @@
    "title": "Beth Bombara in The Listening Room at Compass Inc."
   },
   {
-   "_slug": "mission-homehownership-a-homebuyers-class-for-veterans-d7e079",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "d7e0791f84862afe",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy8yMmRlMjU1NzkwMjhjMjE2NzhiY2Q0OGY4MmQwODcyNGNiOTZlNTg4ODQ3MjI0ZDI1ODVhNjA1MGI2NTZhNTk5LXJpbWctdzEyMDAtaDYwMC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3OTE1NDE4NjQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T18:00:00-06:00",
-   "title": "MISSION HOMEHOWNERSHIP: A homebuyers class for Veterans",
-   "venue": "Weichert Realtors - House of Brokers"
-  },
-  {
    "_slug": "made-for-more-94ce33",
    "categories": [
     "community"
@@ -1981,6 +1992,18 @@
    "start": "2026-11-14T19:00:00-06:00",
    "title": "2026 Fall into Art",
    "venue": "Expo Center, 2200 Interstate 70 Dr SW, Columbia, MO 65203, Columbia, MO, United States, Missouri 65203"
+  },
+  {
+   "_slug": "gallery-readings-w-clay-schiefelbein-22e550",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "22e550ce3783c7b0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9lOGRlZjUzNDZiYjJhYTEyNzljYjY1YTc4MzRmMmU2YTUwMWExODk3OWEwYWI1MmY2NTJjMzkwNmFhNDgwNjE0LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDUz.avif",
+   "source": "allevents",
+   "start": "2026-11-14T19:00:00-06:00",
+   "title": "Gallery Readings w/ Clay Schiefelbein"
   },
   {
    "_slug": "smells-like-nirvana-tribute-live-in-concert-bf9a7e",
@@ -2120,19 +2143,6 @@
    "venue": "Eastside Tavern"
   },
   {
-   "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "1a3a4065917ee253",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zYzkxNzczMDlkOGUyZDJlZGU2ODU0OWUwYmNjMzFiNzJmMmFlYjYyZjQzOTdmMjY3NTI0M2VhZWVjN2Y0Y2FlLXJpbWctdzEyMDAtaDE1MDAtZGMwODA4MDgtZ21pcj92PTE3OTA1ODE1ODQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T20:00:00-06:00",
-   "title": "Nclusion Plus Presents: Miss Gay Mid-Missouri America '27 Pageant",
-   "venue": "Columbia Entertainment Company"
-  },
-  {
    "_slug": "shabazz-palaces-ad82a5",
    "alsoOn": [
     "https://www.visitcolumbiamo.com/event/redferrin-the-blue-note-2/"
@@ -2154,8 +2164,8 @@
   {
    "_slug": "smells-like-nirvana-rose-music-hall-483aa1",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana-at-rose-music-hall",
-    "https://rosemusichall.com/event/smells-like-nirvana-3/"
+    "https://rosemusichall.com/event/smells-like-nirvana-3/",
+    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana-at-rose-music-hall"
    ],
    "categories": [
     "music"
@@ -2745,6 +2755,24 @@
    "title": "Nov 2026 TCG League Challenge Tournament"
   },
   {
+   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
+   ],
+   "categories": [
+    "music",
+    "nightlife"
+   ],
+   "category": "music",
+   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
+   "end": "2026-11-15T15:00:00-06:00",
+   "id": "499cdb22318aea5f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
+   "source": "allevents",
+   "start": "2026-11-15T19:00:00-06:00",
+   "title": "2nd Annual Pierpont Sip & Shop"
+  },
+  {
    "_slug": "cardio-dance-free-gaga-grande-and-gratitude-with-tigerx-a134c4",
    "alsoOn": [
     "https://engage.missouri.edu/MizzouRec/rsvp?id=453698"
@@ -2779,24 +2807,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#2nd-annual-pierpont-sip-and-shop"
-   ],
-   "categories": [
-    "music",
-    "nightlife"
-   ],
-   "category": "music",
-   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
-   "end": "2026-11-15T15:00:00-06:00",
-   "id": "499cdb22318aea5f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-15T20:00:00-06:00",
-   "title": "2nd Annual Pierpont Sip & Shop"
-  },
-  {
    "_slug": "wild-horse-nine-a97ecd",
    "categories": [
     "arts"
@@ -2820,11 +2830,11 @@
   "9ffb31ee12106692",
   "2773342929747aeb",
   "f588b2da76cc5764",
+  "fb98c1cb166fb9c4",
   "cf0735f53dbf0587",
+  "e158927cdb7e9ca4",
   "f7e41bac974bb2b9",
-  "3ca3d3dbf3a51d48",
-  "0aeace99f97fbd98",
-  "a134c47608feef97"
+  "0aeace99f97fbd98"
  ],
  "published": "2026-11-09"
 }
