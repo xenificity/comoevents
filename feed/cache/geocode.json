@@ -278,6 +278,7 @@
   "name": null
  },
  "201 townsend hall the reflector university of missouri columbia missouri united states, columbia, mo": null,
+ "201 townsend hall, university of missouri, columbia, missouri, united states": null,
  "203 s 9th st columbia, mo 65201": {
   "lat": 38.9492429,
   "lng": -92.3278763,
@@ -327,6 +328,11 @@
   "name": null
  },
  "2210 n country club dr, columbia, mo": null,
+ "2300 bernadette dr, columbia, mo 65203": {
+  "lat": 38.9638232,
+  "lng": -92.3756176,
+  "name": "Columbia Mall"
+ },
  "2525 n stadium blvd, columbia, mo columbia, mo 65202": {
   "lat": 38.9813192,
   "lng": -92.3746347,
@@ -1036,6 +1042,9 @@
  "the mark on street s st columbia mo, columbia, mo": null,
  "the missouri theater, columbia, mo": null,
  "the missouri theatre, columbia, mo": null,
+ "the reflector 201 townsend hall university of missouri columbia missouri united states, columbia, mo": null,
+ "the reflector townsend hall, columbia, mo": null,
+ "the reflector, columbia, mo": null,
  "the shack university of missouri columbia missouri united states, columbia, mo": null,
  "the sheldon, columbia, mo": null,
  "the tasting room, columbia, mo": null,

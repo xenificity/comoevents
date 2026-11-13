@@ -108,7 +108,6 @@
    "description": "At Shanthi Mandir, the Hindu Temple and Community Center of Mid-Missouri. Everyone is welcome; regular poojas are led by volunteers and can be sponsored. Details: shanthimandir.missouri.org",
    "end": "2026-11-13T10:30:00-06:00",
    "id": "f3cd69909f451429",
-   "imageUrl": "https://comoevent.com/img/gen/73166460077eb9.webp",
    "source": "shanthimandir",
    "start": "2026-11-13T09:30:00-06:00",
    "title": "Lakshmi Abhishekam",
@@ -198,7 +197,6 @@
    "description": "Enjoy books, songs, and activities designed for adults with disabilities. Adults attend with a caregiver.",
    "end": "2026-11-13T10:45:00-06:00",
    "id": "01d778b8d03260c7",
-   "imageUrl": "https://comoevent.com/img/gen/e73a5f23599e55.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-13T10:00:00-06:00",
@@ -409,10 +407,7 @@
    "venue": "Columbia Public Library"
   },
   {
-   "_slug": "graduates-on-faurot-field-a754fd",
-   "alsoOn": [
-    "https://engage.missouri.edu/SAS/rsvp?id=453696"
-   ],
+   "_slug": "graduates-on-faurot-field-8dcc64",
    "categories": [
     "sports",
     "campus"
@@ -420,7 +415,7 @@
    "category": "sports",
    "description": "Celebrate your upcoming graduation with a free, professional photo on Faurot Field! Student Affairs and Mizzou Athletics invite all December graduates to Graduates on Faurot—an exclusive, free event honoring your achievement. Step onto the turf and let a professional photographer capture your Mizzou",
    "end": "2026-11-13T16:00:00-06:00",
-   "id": "a754fdec30700aee",
+   "id": "8dcc64aeaf7db551",
    "imageUrl": "https://comoevent.com/img/gen/95a430738c0e3d.webp",
    "source": "engage",
    "start": "2026-11-13T14:00:00-06:00",
@@ -549,19 +544,6 @@
    "venue": "Missouri Theatre"
   },
   {
-   "_slug": "live-stand-up-comedy-at-the-tokyo-club-stl-s-vernon-longhorn-2ae1c0",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "2ae1c0fc5676cf6f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy81ZGZlOGRkMzMwZmViMTU3ZTJmNDc4MDIxZDVlM2U3OWJhM2I5MDJiYjZiNmVhYmU5NmI2MmY0NGQxNGQ0N2U0LXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTE0NDE5NjU.avif",
-   "source": "allevents",
-   "start": "2026-11-13T16:00:00-06:00",
-   "title": "Live Stand-Up COMEDY at The Tokyo Club - STL's Vernon \"LONGHORN\" Davis!!",
-   "venue": "The Tokyo Club"
-  },
-  {
    "_slug": "cancelled-due-to-the-cold-weather-trail-boss-bbq-e28016",
    "categories": [
     "food"
@@ -607,18 +589,16 @@
    "venue": "East Nifong Boulevard"
   },
   {
-   "_slug": "whodunnit-blood-on-the-clocktower-night-244fdc",
-   "alsoOn": [
-    "https://engage.missouri.edu/WSDC/rsvp?id=452205"
-   ],
+   "_slug": "whodunnit-blood-on-the-clocktower-night-9883fa",
    "categories": [
+    "community",
     "campus"
    ],
-   "category": "campus",
+   "category": "community",
    "description": "Come play Blood on the Clocktower with us, a game where death isn't the end and every role matters!",
    "end": "2026-11-13T19:00:00-06:00",
-   "id": "244fdce90d64af9f",
-   "imageUrl": "https://engage.missouri.edu/upload/missouri/2026/image_upload_2500800_BOTC_20262027webp_7080975c-36ba-4512-865f-ccc07b8d34cd_99121359.jpeg",
+   "id": "9883fae8d21a847e",
+   "imageUrl": "https://comoevent.com/img/gen/b52a027b7dcd51.webp",
    "source": "engage",
    "start": "2026-11-13T17:00:00-06:00",
    "title": "WHODUNNIT? Blood on the Clocktower Night",
@@ -854,19 +834,6 @@
    "start": "2026-11-13T19:00:00-06:00",
    "title": "Hot Yoga Fundraiser: Journey Through the Decades!",
    "venue": "Sumits Hot Yoga Columbia"
-  },
-  {
-   "_slug": "macalester-dose-the-rebels-live-at-myhouse-in-columbia-mo-73b507",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "73b507e188b58035",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8zM2FhYTEwOWMyNDE1YjcyMmFlZDVjYmVmMjhmNjAyZmI0NjQyMTMzYzM1YmIzNjAwMjgwZjZkNDdlOWFlZWY1LXJpbWctdzEyMDAtaDEwMjQtZGMwODA4MDgtZ21pcj92PTE3OTI5Njc0NzE.avif",
-   "source": "allevents",
-   "start": "2026-11-13T19:00:00-06:00",
-   "title": "Macalester Dose & The Rebels LIVE at MyHouse in Columbia, MO",
-   "venue": "My House Nightclub & Sports Bar"
   },
   {
    "_slug": "party-with-the-stars-32ddee",
@@ -1343,8 +1310,8 @@
   {
    "_slug": "free-family-event-gather-give-thanks-ea0c21",
    "alsoOn": [
-    "https://allevents.in/columbia/free-family-event-gather-and-give-thanks/200030547177901",
-    "https://columbiamo.macaronikid.com/events/6a302ed046ffadd4b00a3928"
+    "https://columbiamo.macaronikid.com/events/6a302ed046ffadd4b00a3928",
+    "https://allevents.in/columbia/free-family-event-gather-and-give-thanks/200030547177901"
    ],
    "categories": [
     "arts",
@@ -1452,13 +1419,14 @@
     "family"
    ],
    "category": "family",
-   "description": "Join us for a fun fall morning with CoMo Moms! We’ll meet at Fairview United Methodist Church Park on November 14th at 10:30 AM for a morning of…",
+   "description": "Join us for a fun fall morning with CoMo Moms! We’ll meet at Columbia Mall on November 14th at 10:30 AM for a morning of walking, playing, commun…",
    "end": "2026-11-14T12:00:00-06:00",
    "id": "90fc0bcd51d0640e",
-   "imageUrl": "https://comoevent.com/img/gen/dd584967fb5d4d.webp",
+   "imageUrl": "https://comoevent.com/img/gen/70984d0f9e5b8d.webp",
    "source": "macaronikid",
    "start": "2026-11-14T10:30:00-06:00",
-   "title": "11/14 CoMo Moms Family Play Date"
+   "title": "11/14 CoMo Moms Family Play Date",
+   "venue": "Columbia Mall"
   },
   {
    "_slug": "the-tap-collective-workshop-with-chris-rutledge-b5a159",
@@ -1564,8 +1532,8 @@
    "_slug": "wild-kratts-activate-kid-power-0e761b",
    "alsoOn": [
     "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad",
-    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943",
-    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/"
+    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/",
+    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943"
    ],
    "categories": [
     "family",
@@ -1937,6 +1905,19 @@
    "venue": "Fine Arts Building"
   },
   {
+   "_slug": "smells-like-nirvana-tribute-to-nirvana-w-special-guests-dead-4a9676",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "id": "4a9676fd142efa15",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wY2E3YzYzM2FhN2UzODA2NjhkNDE2MGE5NmQzYTEyOTY1ODgxYTkyYWFmNzAzOGFiYjVkMGVkY2NhZWZmNGM1LXJpbWctdzEwMjQtaDU3Ni1kYzU4NTg1OC1nbWlyLmpwZz92PTE3ODU2NjczMzE.avif",
+   "source": "allevents",
+   "start": "2026-11-14T17:30:00-06:00",
+   "title": "Smells Like Nirvana-Tribute To Nirvana w/ special guests Dead Original",
+   "venue": "Rose Music Hall"
+  },
+  {
    "_slug": "beth-bombara-in-the-listening-room-at-compass-inc-9bdb31",
    "categories": [
     "community"
@@ -2021,6 +2002,18 @@
    "start": "2026-11-14T19:00:00-06:00",
    "title": "2026 Fall into Art",
    "venue": "Expo Center, 2200 Interstate 70 Dr SW, Columbia, MO 65203, Columbia, MO, United States, Missouri 65203"
+  },
+  {
+   "_slug": "gallery-readings-w-clay-schiefelbein-22e550",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "22e550ce3783c7b0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9lOGRlZjUzNDZiYjJhYTEyNzljYjY1YTc4MzRmMmU2YTUwMWExODk3OWEwYWI1MmY2NTJjMzkwNmFhNDgwNjE0LXJpbWctdzgyMC1oMzEyLWRjZjhmOGY4LWdtaXI_dj0xNzkyOTY3NDUz.avif",
+   "source": "allevents",
+   "start": "2026-11-14T19:00:00-06:00",
+   "title": "Gallery Readings w/ Clay Schiefelbein"
   },
   {
    "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
@@ -2145,8 +2138,8 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-wes-88a38d",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308"
    ],
    "categories": [
     "arts"
@@ -2199,8 +2192,8 @@
   {
    "_slug": "smells-like-nirvana-rose-music-hall-483aa1",
    "alsoOn": [
-    "https://rosemusichall.com/event/smells-like-nirvana-3/",
-    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana-at-rose-music-hall"
+    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana-at-rose-music-hall",
+    "https://rosemusichall.com/event/smells-like-nirvana-3/"
    ],
    "categories": [
     "music"
@@ -2214,19 +2207,6 @@
    "start": "2026-11-14T20:00:00-06:00",
    "ticketUrl": "https://www.ticketmaster.com/smells-like-nirvanatribute-to-nirvana-columbia-missouri-11-14-2026/event/060064F6E068731B",
    "title": "Smells Like Nirvana – Rose Music Hall",
-   "venue": "Rose Music Hall"
-  },
-  {
-   "_slug": "smells-like-nirvana-tribute-to-nirvana-w-special-guests-dead-4a9676",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "id": "4a9676fd142efa15",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wY2E3YzYzM2FhN2UzODA2NjhkNDE2MGE5NmQzYTEyOTY1ODgxYTkyYWFmNzAzOGFiYjVkMGVkY2NhZWZmNGM1LXJpbWctdzEwMjQtaDU3Ni1kYzU4NTg1OC1nbWlyLmpwZz92PTE3ODU2NjczMzE.avif",
-   "source": "allevents",
-   "start": "2026-11-14T20:00:00-06:00",
-   "title": "Smells Like Nirvana-Tribute To Nirvana w/ special guests Dead Original",
    "venue": "Rose Music Hall"
   },
   {
@@ -2719,25 +2699,6 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "front-porch-stories-an-evening-of-bluegrass-d2d475",
-   "alsoOn": [
-    "https://www.choralartsallianceofmissouri.org/caam-concerts/"
-   ],
-   "categories": [
-    "music",
-    "family"
-   ],
-   "category": "music",
-   "description": "Columbia Youth Choirs with guest artists Ironweed Bluegrass Band",
-   "end": "2026-11-15T19:00:00-06:00",
-   "id": "d2d475f294f52661",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80MTc3NDUxMTdjNjlmODNjZGZhNGQzNTJiNjFiOTI1MzRlMjNlZDZhNTc4YmFjM2QwZTBkNWY2NzliYTgxMzZjLXJpbWctdzEyMDAtaDE1MDAtZGMxODI4MjgtZ21pcj92PTE3OTM4MTkxMzE.avif",
-   "source": "allevents",
-   "start": "2026-11-15T16:00:00-06:00",
-   "title": "Front Porch Stories: An Evening of Bluegrass",
-   "venue": "The Atrium on Tenth"
-  },
-  {
    "_slug": "inside-out-spirituality-free-event-b18fc8",
    "categories": [
     "community"
@@ -2764,6 +2725,25 @@
    "start": "2026-11-15T17:20:00-06:00",
    "title": "Once Upon a Time in Harlem",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "front-porch-stories-an-evening-of-bluegrass-d2d475",
+   "alsoOn": [
+    "https://www.choralartsallianceofmissouri.org/caam-concerts/"
+   ],
+   "categories": [
+    "music",
+    "family"
+   ],
+   "category": "music",
+   "description": "Columbia Youth Choirs with guest artists Ironweed Bluegrass Band",
+   "end": "2026-11-15T19:00:00-06:00",
+   "id": "d2d475f294f52661",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80MTc3NDUxMTdjNjlmODNjZGZhNGQzNTJiNjFiOTI1MzRlMjNlZDZhNTc4YmFjM2QwZTBkNWY2NzliYTgxMzZjLXJpbWctdzEyMDAtaDE1MDAtZGMxODI4MjgtZ21pcj92PTE3OTM4MTkxMzE.avif",
+   "source": "allevents",
+   "start": "2026-11-15T17:30:00-06:00",
+   "title": "Front Porch Stories: An Evening of Bluegrass",
+   "venue": "The Atrium on Tenth"
   },
   {
    "_slug": "jazz-combos-at-murrys-0aeace",
@@ -2801,6 +2781,19 @@
    "start": "2026-11-15T19:00:00-06:00",
    "title": "Cardio Dance (Free) : Gaga, Grande, and Gratitude with TigerX!",
    "venue": "MizzouRec"
+  },
+  {
+   "_slug": "chiefs-game-day-at-the-kitchen-16159b",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "16159b869ba05ae0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9pbWcuZXZidWMuY29tL2h0dHBzJTNBJTJGJTJGY2RuLmV2YnVjLmNvbSUyRmltYWdlcyUyRjExOTI3MTkwMzklMkYyMjc2MzY1ODYzNDgzJTJGMSUyRm9yaWdpbmFsLjIwMjYwOTA0LTIwNTQxND9hdXRvPWZvcm1hdCUyQ2NvbXByZXNzJnE9NzUmc2hhcnA9MTAmcz1kMjk1NDZmMzA3Njk1NDNiYTY2ZDZhNWZjZjc0NzRiMA.avif",
+   "source": "allevents",
+   "start": "2026-11-15T19:00:00-06:00",
+   "title": "Chiefs Game Day at The Kitchen",
+   "venue": "The Kitchen Grill and Games"
   },
   {
    "_slug": "you-can-see-everything-bce87c",
@@ -2862,7 +2855,7 @@
   "ff1742a2b1fd9bf9",
   "88a38df263fd74ed",
   "f7e41bac974bb2b9",
-  "0aeace99f97fbd98",
+  "d2d475f294f52661",
   "a134c47608feef97"
  ],
  "published": "2026-11-09"
