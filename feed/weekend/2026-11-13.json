@@ -233,9 +233,6 @@
   },
   {
    "_slug": "stories-and-activities-for-adults-of-all-abilities-01d778",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17488389"
-   ],
    "categories": [
     "community"
    ],
@@ -243,7 +240,6 @@
    "description": "Enjoy books, songs, and activities designed for adults with disabilities. Adults attend with a caregiver.",
    "end": "2026-11-13T10:45:00-06:00",
    "id": "01d778b8d03260c7",
-   "price": "Free",
    "source": "baselocal",
    "start": "2026-11-13T10:00:00-06:00",
    "title": "Stories and Activities for Adults of All Abilities",
@@ -317,6 +313,19 @@
    "start": "2026-11-13T12:00:00-06:00",
    "title": "CUAHSI Water Science Exchange: Water in Working Landscapes - Buffet",
    "venue": "Bond Life Sciences Center"
+  },
+  {
+   "_slug": "day-of-the-goddess-celebration-078e1f",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Celebrate Friday the 13th by exploring the Divine Feminine, goddess wisdom, personal empowerment, and sacred balance. Experiences include intuitive tarot and oracle readings, Ayurvedic consultations, henna, goddess discovery stations, intention-based creative activities, and ways to connect with in…",
+   "end": "2026-11-13T20:30:00-06:00",
+   "id": "078e1fa2ba2516ff",
+   "source": "baselocal",
+   "start": "2026-11-13T12:00:00-06:00",
+   "title": "Day of the Goddess Celebration"
   },
   {
    "_slug": "day-of-the-goddess-celebration-798e9d",
@@ -654,7 +663,6 @@
    "description": "Come play Blood on the Clocktower with us, a game where death isn't the end and every role matters!",
    "end": "2026-11-13T19:00:00-06:00",
    "id": "9883fae8d21a847e",
-   "imageUrl": "https://comoevent.com/img/gen/b52a027b7dcd51.webp",
    "source": "engage",
    "start": "2026-11-13T17:00:00-06:00",
    "title": "WHODUNNIT? Blood on the Clocktower Night",
@@ -726,24 +734,6 @@
    "venue": "East Nifong Boulevard"
   },
   {
-   "_slug": "friday-night-commander-at-hexagon-alley-e708b8",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#magic-friday-night-commander"
-   ],
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "description": "You're invited to our MARQUEE NIGHT. DOOR PRIZES EVERY WEEK! This is the big one—more players, more prizes, more energy. Whether you're just getting into Magic or a seasoned spell-slinger, we'll point you toward a pod that fits. Looking to shake things up? We run PICK 2 DRAFT pick-ups and feature ro",
-   "end": "2026-11-13T21:00:00-06:00",
-   "id": "e708b8fcc47850af",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6960043844ec806eefaff16c/scaled_1152.jpg",
-   "source": "district",
-   "start": "2026-11-13T18:00:00-06:00",
-   "title": "Friday Night Commander at Hexagon Alley",
-   "venue": "Hexagon Alley"
-  },
-  {
    "_slug": "hatha-yoga-plus-sound-bath-at-rebecca-peters-wellness-1ba244",
    "categories": [
     "community"
@@ -786,6 +776,20 @@
    "start": "2026-11-13T18:00:00-06:00",
    "title": "Local Writer Showcase: Donal Quist & Jennifer Mauritza McCauley",
    "venue": "Nightjar Arts Collective"
+  },
+  {
+   "_slug": "magic-friday-night-commander-e708b8",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Play Friday Night Commander at Hexagon Alley, with pods for players of all skill levels, from newcomers to seasoned Magic players. Staff can help direct you to a pod that fits, and door prizes are available. Pick 2 Draft pick-ups and rotating Commander variants are also featured.",
+   "end": "2026-11-13T21:00:00-06:00",
+   "id": "e708b8fcc47850af",
+   "source": "baselocal",
+   "start": "2026-11-13T18:00:00-06:00",
+   "title": "Magic: Friday Night Commander",
+   "venue": "Hexagon Alley"
   },
   {
    "_slug": "mid-missouri-mahjong-classic-meet-greet-633e70",
@@ -879,18 +883,13 @@
   },
   {
    "_slug": "party-with-the-stars-32ddee",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17459294"
-   ],
    "categories": [
-    "family"
+    "community"
    ],
-   "category": "family",
+   "category": "community",
    "description": "Explore the night sky with a brief indoor slideshow, followed by telescope viewing of Saturn and Uranus outdoors if the skies are clear. Everyone will receive a free star chart. The program is hosted by Val Germann of the Central Missouri Astronomical Association and is for ages 10 through adult.",
    "end": "2026-11-13T21:00:00-06:00",
    "id": "32ddee4e9ff624eb",
-   "imageUrl": "https://comoevent.com/img/gen/61841a2075eb87.webp",
-   "price": "Free",
    "source": "baselocal",
    "start": "2026-11-13T19:00:00-06:00",
    "title": "Party With the Stars",
@@ -917,9 +916,6 @@
   },
   {
    "_slug": "tyondai-braxton-at-crow-hall-d79c1f",
-   "alsoOn": [
-    "https://allevents.in/columbia/tyondai-braxton-at-crow-hall/100001989843582721"
-   ],
    "categories": [
     "community"
    ],
@@ -1051,7 +1047,6 @@
    "description": "Ease into the weekend with an evening of crafts, music, and time to relax at Ladybird Cafe. Craft supplies are available, and each Friday features a different musical style, with a DJ. Visitors can make something, dance, enjoy a drink, shop, or simply hang out. The event is all ages and has no cove…",
    "end": "2026-11-13T23:00:00-06:00",
    "id": "2b3596efcad32e23",
-   "imageUrl": "https://comoevent.com/img/gen/2366f2f412bbaa.webp",
    "source": "baselocal",
    "start": "2026-11-13T20:00:00-06:00",
    "title": "Craft Club",
@@ -1071,6 +1066,24 @@
    "start": "2026-11-13T20:00:00-06:00",
    "title": "Karaoke at Eastside Tavern",
    "venue": "Eastside Tavern"
+  },
+  {
+   "_slug": "nicole-atkins-528044",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#nicole-atkins"
+   ],
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with John Gallagher Jr. and Annabelle Eve",
+   "id": "5280443472e0959f",
+   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/06/NicoleAtkins-RMH-WEB.jpg",
+   "source": "bluenote",
+   "start": "2026-11-13T20:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/nicole-atkins-columbia-missouri-11-13-2026/event/060064D43A4DEF52",
+   "title": "Nicole Atkins",
+   "venue": "Rose Music Hall (Inside)"
   },
   {
    "_slug": "nicole-atkins-rose-music-hall-277334",
@@ -1109,17 +1122,12 @@
   },
   {
    "_slug": "mj-night-f588b2",
-   "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1344/1794625200000"
-   ],
    "categories": [
     "music",
-    "party",
-    "arts"
+    "party"
    ],
    "category": "music",
    "description": "Club 90s Presents · with JWords",
-   "end": "2026-11-13T21:00:00-06:00",
    "id": "f588b2da76cc5764",
    "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/09/MJNight_Faceless_Portrait-e1790197556212.jpg",
    "source": "bluenote",
@@ -1225,6 +1233,7 @@
   {
    "_slug": "columbia-farmers-market-winter-season-cf0735",
    "alsoOn": [
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
     "https://columbiafarmersmarket.org/"
    ],
    "categories": [
@@ -1235,6 +1244,7 @@
    "end": "2026-11-14T12:00:00-06:00",
    "id": "cf0735f53dbf0587",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
+   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-11-14T09:00:00-06:00",
    "title": "Columbia Farmers Market – Winter Season",
@@ -1460,14 +1470,17 @@
    "venue": "Weichert Realtors - House of Brokers"
   },
   {
-   "_slug": "scrap-fabric-brooches-288cf8",
+   "_slug": "scrap-fabric-brooches-5325ae",
+   "alsoOn": [
+    "https://allevents.in/columbia/scrap-fabric-brooches-como-craftcycle/200030741232810"
+   ],
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "Turn favorite fabric remnants and weaving offcuts into distinctive brooches in a workshop centered on creative reuse. Kansas City artist Aimee Hagedorn will guide techniques for assembling and finishing, including bold embroidery that makes details pop. All necessary materials are provided, and par…",
-   "id": "288cf806bf71254e",
-   "imageUrl": "https://comoevent.com/img/gen/e56aef7981c9b3.webp",
+   "id": "5325ae2d664bfa51",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy8wNDU5NDUyN2NkM2E2ZmI2MjhhZDZmOTUyNzZmMTU2N2JmOWY3OGIzMDBiNmNjNWE4MTY2NWE4YjI5NmE5MTc3LXJpbWctdzc0MS1oOTAwLWRjNDgzODI4LWdtaXI_dj0xNzkwNDMxMzkw.avif",
    "source": "baselocal",
    "start": "2026-11-14T10:00:00-06:00",
    "title": "Scrap Fabric Brooches",
@@ -1564,6 +1577,32 @@
    "venue": "Hexagon Alley"
   },
   {
+   "_slug": "made-for-more-94ce33",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "94ce3333a5a937ed",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wYzA1YWEzZDg1ZjNiY2UzY2EwMTk5NjNkM2I5Yjg1YTY3MzYyNGNlOTE0NmE1NmJlNWIyYjVlOTk4MDAzYTA1LXJpbWctdzEyMDAtaDc3Ni1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
+   "source": "allevents",
+   "start": "2026-11-14T11:00:00-06:00",
+   "title": "Made for More",
+   "venue": "Cedar Creek Resort & RV Park"
+  },
+  {
+   "_slug": "patriots-against-kings-paka-rally-9a8e7a",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "9a8e7ab56eb61bc3",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wOWJmOTZlNjAxYzBkZGNhYWM0NjRlZTM2ZjE4Yzc4MjhjN2UzMmUxMzk4NmUzMTNkZjBlZWFmNzUyMmMwNzNjLXJpbWctdzEyMDAtaDgwMC1kY2Y4ZjhmOC1nbWlyP3Y9MTc5NDA4MDc4Ng.avif",
+   "source": "allevents",
+   "start": "2026-11-14T11:00:00-06:00",
+   "title": "Patriots Against Kings (PAKA) Rally",
+   "venue": "Crossroads Shopping Center"
+  },
+  {
    "_slug": "tryps-theater-live-at-eleven-5694a5",
    "alsoOn": [
     "https://events.dbrl.org/event/17488457"
@@ -1605,8 +1644,8 @@
    "_slug": "wild-kratts-activate-kid-power-0e761b",
    "alsoOn": [
     "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad",
-    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/",
-    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943"
+    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943",
+    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/"
    ],
    "categories": [
     "family",
@@ -1639,18 +1678,18 @@
    "venue": "Columbia Art League"
   },
   {
-   "_slug": "columbia-college-women-s-volleyball-vs-finals-c74611",
+   "_slug": "columbia-college-women-s-volleyball-vs-williams-baptist-univ-ef8d2b",
    "categories": [
     "sports"
    ],
    "category": "sports",
-   "description": "Columbia College Women's Volleyball vs Finals Streaming Video: https://columbiacougars.com/sports/2022/8/11/columbia-cougars-live-stream.aspx Tickets: https://columbiacougars.com/sports/2021/7/21/volleyball-tickets.aspx",
+   "description": "Columbia College Women's Volleyball vs Williams Baptist University - Finals Streaming Video: https://columbiacougars.com/sports/2022/8/11/columbia-cougars-live-stream.aspx Tickets: https://columbiacougars.com/sports/2021/7/21/volleyball-tickets.aspx",
    "end": "2026-11-14T14:00:00-06:00",
-   "id": "c746119051393dbd",
-   "imageUrl": "https://comoevent.com/img/gen/3bf380530e89b1.webp",
+   "id": "ef8d2bcb048d8b36",
+   "imageUrl": "https://comoevent.com/img/gen/019c6e3fad5e0b.webp",
    "source": "ccis",
    "start": "2026-11-14T12:00:00-06:00",
-   "title": "Columbia College Women's Volleyball vs Finals",
+   "title": "Columbia College Women's Volleyball vs Williams Baptist University - Finals",
    "venue": "Southwell Complex"
   },
   {
@@ -1990,19 +2029,6 @@
    "venue": "Fine Arts Building"
   },
   {
-   "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "1a3a4065917ee253",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zYzkxNzczMDlkOGUyZDJlZGU2ODU0OWUwYmNjMzFiNzJmMmFlYjYyZjQzOTdmMjY3NTI0M2VhZWVjN2Y0Y2FlLXJpbWctdzEyMDAtaDE1MDAtZGMwODA4MDgtZ21pcj92PTE3OTA1ODE1ODQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T17:30:00-06:00",
-   "title": "Nclusion Plus Presents: Miss Gay Mid-Missouri America '27 Pageant",
-   "venue": "Columbia Entertainment Company"
-  },
-  {
    "_slug": "smells-like-nirvana-tribute-to-nirvana-w-special-guests-dead-4a9676",
    "categories": [
     "music"
@@ -2026,19 +2052,6 @@
    "source": "allevents",
    "start": "2026-11-14T18:00:00-06:00",
    "title": "Beth Bombara in The Listening Room at Compass Inc."
-  },
-  {
-   "_slug": "made-for-more-94ce33",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "94ce3333a5a937ed",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wYzA1YWEzZDg1ZjNiY2UzY2EwMTk5NjNkM2I5Yjg1YTY3MzYyNGNlOTE0NmE1NmJlNWIyYjVlOTk4MDAzYTA1LXJpbWctdzEyMDAtaDc3Ni1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
-   "source": "allevents",
-   "start": "2026-11-14T18:00:00-06:00",
-   "title": "Made for More",
-   "venue": "Cedar Creek Resort & RV Park"
   },
   {
    "_slug": "smilin-jack-307cc9",
@@ -2100,6 +2113,19 @@
    "start": "2026-11-14T19:00:00-06:00",
    "title": "2026 Fall into Art",
    "venue": "Expo Center, 2200 Interstate 70 Dr SW, Columbia, MO 65203, Columbia, MO, United States, Missouri 65203"
+  },
+  {
+   "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "1a3a4065917ee253",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zYzkxNzczMDlkOGUyZDJlZGU2ODU0OWUwYmNjMzFiNzJmMmFlYjYyZjQzOTdmMjY3NTI0M2VhZWVjN2Y0Y2FlLXJpbWctdzEyMDAtaDE1MDAtZGMwODA4MDgtZ21pcj92PTE3OTA1ODE1ODQ.avif",
+   "source": "allevents",
+   "start": "2026-11-14T19:00:00-06:00",
+   "title": "Nclusion Plus Presents: Miss Gay Mid-Missouri America '27 Pageant",
+   "venue": "Columbia Entertainment Company"
   },
   {
    "_slug": "smells-like-nirvana-tribute-live-in-concert-bf9a7e",
@@ -2211,8 +2237,8 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-wes-88a38d",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-west/100002003936263308"
    ],
    "categories": [
     "arts"
@@ -2787,7 +2813,7 @@
    "id": "b18fc864141b0285",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy85NGJlN2FlMDJjZjE0MDJkZDU5NmRhNTY2YWI4YTBkYmIxMGEyYzViMjhhMDRmNWFhNWE4NzljOTE3OTUzNjQxLXJpbWctdzEyMDAtaDYwMC1kY2Y4ZjhiOC1nbWlyLmpwZz92PTE3OTI1MDg0ODQ.avif",
    "source": "allevents",
-   "start": "2026-11-15T17:00:00-06:00",
+   "start": "2026-11-15T16:00:00-06:00",
    "title": "Inside Out Spirituality (Free Event)",
    "venue": "Natural Nail Care Salon"
   },
@@ -2826,10 +2852,20 @@
    "venue": "The Atrium on Tenth"
   },
   {
-   "_slug": "jazz-combos-at-murrys-0aeace",
-   "alsoOn": [
-    "https://allevents.in/columbia/jazz-combos-at-murrys/200030990706233"
+   "_slug": "jazz-combos-at-murrys-234ff3",
+   "categories": [
+    "music"
    ],
+   "category": "music",
+   "id": "234ff38a8608a225",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9jMjU1OTcwNGZlNmY4OGFjZWQyZjBmMDBkZDRkNjAxYTc0NmU5MmFkNDRiYWI0YThmY2ViNjVmYWU5MjJhOWYzLXJpbWctdzEyMDAtaDY3NS1kYzI4MjgyOC1nbWlyP3Y9MTc5NDAxMjQ1Mw.avif",
+   "source": "allevents",
+   "start": "2026-11-15T17:30:00-06:00",
+   "title": "Jazz Combos at Murrys",
+   "venue": "Murry's"
+  },
+  {
+   "_slug": "jazz-combos-at-murrys-0aeace",
    "categories": [
     "music"
    ],
@@ -2907,7 +2943,7 @@
   }
  ],
  "friday": "2026-11-13",
- "modified": "2026-11-13",
+ "modified": "2026-11-14",
  "picks": [
   "eab61d06004af6ab",
   "071642c6e660b3d4",
