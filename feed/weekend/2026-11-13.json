@@ -1165,7 +1165,6 @@
   {
    "_slug": "annual-christmas-bazaar-d1f2fe",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1397/1794664800000",
     "https://baselocal.com/mo/columbia/events/#annual-christmas-bazaar"
    ],
    "categories": [
@@ -1192,7 +1191,6 @@
    "description": "MU Health Care is offering low-dose CT scans to check eligible patients for early signs of lung cancer, when it may be more treatable. Screening may be available to people ages 50 to 77 who currently smoke or quit within the past 15 years, have a smoking history of one pack a day for 20 years or tw…",
    "end": "2026-11-14T12:00:00-06:00",
    "id": "d32e4e2f0565289b",
-   "imageUrl": "https://comoevent.com/img/gen/46050166c21aed.webp",
    "source": "baselocal",
    "start": "2026-11-14T08:00:00-06:00",
    "title": "Lung Cancer Screening Event",
@@ -1227,7 +1225,6 @@
   {
    "_slug": "columbia-farmers-market-winter-season-cf0735",
    "alsoOn": [
-    "https://columbiafarmersmarket.org/",
     "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
    ],
    "categories": [
@@ -1262,20 +1259,29 @@
    "venue": "C2 Church"
   },
   {
-   "_slug": "rock-bridge-renew-8d11a1",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#rock-bridge-renew"
-   ],
+   "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
    "categories": [
-    "family"
+    "community"
    ],
-   "category": "family",
-   "description": "Rock Bridge Renew is Rock Bridge Memorial State Park's biannual volunteer event. Each spring and fall, volunteers are invited to enjoy a morning at…",
+   "category": "community",
+   "id": "1a3a4065917ee253",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zYzkxNzczMDlkOGUyZDJlZGU2ODU0OWUwYmNjMzFiNzJmMmFlYjYyZjQzOTdmMjY3NTI0M2VhZWVjN2Y0Y2FlLXJpbWctdzEyMDAtaDE1MDAtZGMwODA4MDgtZ21pcj92PTE3OTA1ODE1ODQ.avif",
+   "source": "allevents",
+   "start": "2026-11-14T09:00:00-06:00",
+   "title": "Nclusion Plus Presents: Miss Gay Mid-Missouri America '27 Pageant",
+   "venue": "Columbia Entertainment Company"
+  },
+  {
+   "_slug": "rock-bridge-renew-8d11a1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Rock Bridge Renew is a twice-yearly volunteer event at Rock Bridge Memorial State Park, held in spring and fall to help care for the park’s natural surroundings. The fall activities include picking up litter along Highway 163 and removing invasive plants such as bush honeysuckle. Leadership, equipm…",
    "end": "2026-11-14T12:00:00-06:00",
    "id": "8d11a1029f1d46a5",
-   "imageUrl": "https://comoevent.com/img/gen/4f75e554cd7d62.webp",
    "price": "Free",
-   "source": "macaronikid",
+   "source": "baselocal",
    "start": "2026-11-14T09:00:00-06:00",
    "title": "Rock Bridge Renew"
   },
@@ -1318,7 +1324,6 @@
    "description": "Our Stream Team will be hosting a clean up across campus on November 14 from 10am - 12. This service event will focus on areas on campus that tend to be litter-heavy, particularly after Halloween festivities. Volunteers will sort the trash from recycling and count the bags to track impact. Come enjo",
    "end": "2026-11-14T12:00:00-06:00",
    "id": "940c4a8f35c85a17",
-   "imageUrl": "https://comoevent.com/img/gen/e6da2a67e28eaa.webp",
    "source": "engage",
    "start": "2026-11-14T10:00:00-06:00",
    "title": "Campus Cleanup",
@@ -1363,7 +1368,6 @@
    "category": "sports",
    "description": "Hit the pavement with Girls on the Run Heart of Missouri for its annual fall 5K run. Participants can arrive an hour early for pre-race warm-u…",
    "id": "0a8b8da2f39cdb13",
-   "imageUrl": "https://comoevent.com/img/gen/5fc34b59479f2c.webp",
    "price": "$35 online, $40 day of, ages 13 and older; $15 online, $20…",
    "source": "vox",
    "start": "2026-11-14T10:00:00-06:00",
@@ -1373,7 +1377,6 @@
   {
    "_slug": "free-family-event-gather-give-thanks-ea0c21",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6a302ed046ffadd4b00a3928",
     "https://allevents.in/columbia/free-family-event-gather-and-give-thanks/200030547177901"
    ],
    "categories": [
@@ -1529,7 +1532,6 @@
    "description": "Come dance with us and take a masterclass from internationally renowned tap dancer and choreographer Chris Rutledge! Open to all levels of tap, and anyone ages 12 and older. The masterclass will be from 10:45 AM -12:00 PM at Dancearts of Columbia (313 E Ash St.)! Read more about Chris and his backgr",
    "end": "2026-11-14T12:00:00-06:00",
    "id": "06814fc708314524",
-   "imageUrl": "https://comoevent.com/img/gen/b0f914c07a1a33.webp",
    "source": "engage",
    "start": "2026-11-14T10:30:00-06:00",
    "title": "The Tap Collective Workshop with Chris Rutledge",
@@ -1579,6 +1581,19 @@
    "venue": "Hexagon Alley"
   },
   {
+   "_slug": "made-for-more-94ce33",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "94ce3333a5a937ed",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wYzA1YWEzZDg1ZjNiY2UzY2EwMTk5NjNkM2I5Yjg1YTY3MzYyNGNlOTE0NmE1NmJlNWIyYjVlOTk4MDAzYTA1LXJpbWctdzEyMDAtaDc3Ni1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
+   "source": "allevents",
+   "start": "2026-11-14T11:00:00-06:00",
+   "title": "Made for More",
+   "venue": "Cedar Creek Resort & RV Park"
+  },
+  {
    "_slug": "tryps-theater-live-at-eleven-5694a5",
    "alsoOn": [
     "https://events.dbrl.org/event/17488457"
@@ -1592,7 +1607,6 @@
    "description": "Children ages 3–8 can play games, sing, dance, and act out books in this workshop presented by TRYPS Children’s Theater, a professional theater group for young audiences in Columbia.",
    "end": "2026-11-14T11:30:00-06:00",
    "id": "5694a56da889824f",
-   "imageUrl": "https://comoevent.com/img/gen/eefedd531861b5.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-14T11:00:00-06:00",
@@ -1619,17 +1633,15 @@
   {
    "_slug": "wild-kratts-activate-kid-power-0e761b",
    "alsoOn": [
-    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943",
     "https://columbiamo.macaronikid.com/events/6ae7f8f9674c761941c358ad",
-    "https://ragtagcinema.org/film/wild-kratts-activate-kid-power/"
+    "https://allevents.in/columbia/wild-kratts-activate-kid-power/200030981347943"
    ],
    "categories": [
-    "family",
-    "arts"
+    "family"
    ],
    "category": "family",
    "description": "When the Wild Kratts’ Creature Power Suits burn out, they must count on the ingenuity of Wild Kratts Kids to help save the day. This story highlights how children can use their own skills to support local ecosystems. Presented by KMOS and PBS KIDS in partnership with Missouri River Relief, the free…",
-   "end": "2026-11-14T11:48:00-06:00",
+   "end": "2026-11-14T11:00:00-06:00",
    "id": "0e761bae040e6871",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9kMGRjZDdjYmE3OTUzNjliZWE3MDJkM2M5Mzk1YTMxYTdjMDY4ODY0ZTI2MDRkN2Y2Y2JkMzNiNDE4ZDk5ZGNhLXJpbWctdzEyMDAtaDY3NS1kYzk4NjhiOC1nbWlyP3Y9MTc5Mzk0MjIwMg.avif",
    "source": "baselocal",
@@ -1646,7 +1658,6 @@
    "description": "Join CoMo Preservation for a free, RSVP-required Urban Sketch Crawl, where attendees will sketch at one location with the opportunity to captu…",
    "end": "2026-11-14T13:15:00-06:00",
    "id": "d245824d21aeb5f0",
-   "imageUrl": "https://comoevent.com/img/gen/4d5518d238d3b8.webp",
    "price": "Free",
    "source": "vox",
    "start": "2026-11-14T11:15:00-06:00",
@@ -1886,19 +1897,6 @@
    "venue": "Shanthi Mandir"
   },
   {
-   "_slug": "made-for-more-94ce33",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "94ce3333a5a937ed",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8wYzA1YWEzZDg1ZjNiY2UzY2EwMTk5NjNkM2I5Yjg1YTY3MzYyNGNlOTE0NmE1NmJlNWIyYjVlOTk4MDAzYTA1LXJpbWctdzEyMDAtaDc3Ni1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjk2NzQ0NA.avif",
-   "source": "allevents",
-   "start": "2026-11-14T14:00:00-06:00",
-   "title": "Made for More",
-   "venue": "Cedar Creek Resort & RV Park"
-  },
-  {
    "_slug": "meredith-shaw-and-the-borrowed-band-f29844",
    "categories": [
     "music"
@@ -2030,7 +2028,7 @@
    "title": "Beth Bombara in The Listening Room at Compass Inc."
   },
   {
-   "_slug": "smilin-jack-307cc9",
+   "_slug": "cancelled-due-to-cold-temps-smilin-jack-307cc9",
    "categories": [
     "music"
    ],
@@ -2041,7 +2039,7 @@
    "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2024/11/Jack-Semelsberger.jpg",
    "source": "cooperslanding",
    "start": "2026-11-14T18:00:00-06:00",
-   "title": "Smilin’ Jack",
+   "title": "CANCELLED DUE TO COLD TEMPS: Smilin’ Jack",
    "venue": "Cooper's Landing"
   },
   {
@@ -2091,19 +2089,6 @@
    "venue": "Expo Center, 2200 Interstate 70 Dr SW, Columbia, MO 65203, Columbia, MO, United States, Missouri 65203"
   },
   {
-   "_slug": "nclusion-plus-presents-miss-gay-mid-missouri-america-27-page-1a3a40",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "1a3a4065917ee253",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy8zYzkxNzczMDlkOGUyZDJlZGU2ODU0OWUwYmNjMzFiNzJmMmFlYjYyZjQzOTdmMjY3NTI0M2VhZWVjN2Y0Y2FlLXJpbWctdzEyMDAtaDE1MDAtZGMwODA4MDgtZ21pcj92PTE3OTA1ODE1ODQ.avif",
-   "source": "allevents",
-   "start": "2026-11-14T19:00:00-06:00",
-   "title": "Nclusion Plus Presents: Miss Gay Mid-Missouri America '27 Pageant",
-   "venue": "Columbia Entertainment Company"
-  },
-  {
    "_slug": "smells-like-nirvana-tribute-live-in-concert-bf9a7e",
    "categories": [
     "music"
@@ -2138,6 +2123,18 @@
    "venue": "The Blue Note"
   },
   {
+   "_slug": "valhalla-s-gate-26th-anniversary-f7a0d1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "f7a0d15c93a4d7b1",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy9lOWY3ZTM3NzZiNWNiODhjYTNhZWUyYmJlYTk2NjBlNDY0MzAwMmUxN2Q3ZmRiNjYyYzc0NzQ3NWIzZWVmOTVhLXJpbWctdzEyMDAtaDkwNC1kYzA4MDgwOC1nbWlyP3Y9MTc5NDYxODkyNg.avif",
+   "source": "allevents",
+   "start": "2026-11-14T19:00:00-06:00",
+   "title": "Valhalla's Gate 26th Anniversary"
+  },
+  {
    "_slug": "welcome-home-premiere-102e9e",
    "categories": [
     "religious",
@@ -2150,6 +2147,19 @@
    "start": "2026-11-14T19:00:00-06:00",
    "title": "“Welcome Home” Premiere",
    "venue": "Forum Christian Church"
+  },
+  {
+   "_slug": "lavender-holiday-shopping-starts-now-visit-us-saturday-at-th-7afdf4",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "7afdf45c51e8648a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9lYTNlODYyNWY1Y2I5ODViY2IyMjk3MzdjNTIyYWQxYzExZTdkNzYxYTYwMGNkNDQ3NzQyMDZlMDk1NmZkM2MzLXJpbWctdzEwODAtaDEwODAtZGNmOGY4ZjgtZ21pcj92PTE3OTQzMTU3NTk.avif",
+   "source": "allevents",
+   "start": "2026-11-14T19:00:00-06:00",
+   "title": "💜 Lavender holiday shopping starts now! Visit us Saturday at the Columbia Farmers Market 💜",
+   "venue": "Columbia Farmers Market"
   },
   {
    "_slug": "you-can-see-everything-f54d33",
@@ -2254,8 +2264,8 @@
   {
    "_slug": "smells-like-nirvana-rose-music-hall-483aa1",
    "alsoOn": [
-    "https://rosemusichall.com/event/smells-like-nirvana-3/",
-    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana"
+    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana",
+    "https://rosemusichall.com/event/smells-like-nirvana-3/"
    ],
    "categories": [
     "music"
@@ -2753,21 +2763,6 @@
    "venue": "Natural Nail Care Salon"
   },
   {
-   "_slug": "once-upon-a-time-in-harlem-ade97d",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
-   "end": "2026-11-15T19:00:00-06:00",
-   "id": "ade97d9e76bdf0d7",
-   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
-   "source": "ragtag",
-   "start": "2026-11-15T17:20:00-06:00",
-   "title": "Once Upon a Time in Harlem",
-   "venue": "Ragtag Cinema"
-  },
-  {
    "_slug": "front-porch-stories-an-evening-of-bluegrass-d2d475",
    "alsoOn": [
     "https://www.choralartsallianceofmissouri.org/caam-concerts/"
@@ -2782,9 +2777,24 @@
    "id": "d2d475f294f52661",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy80MTc3NDUxMTdjNjlmODNjZGZhNGQzNTJiNjFiOTI1MzRlMjNlZDZhNTc4YmFjM2QwZTBkNWY2NzliYTgxMzZjLXJpbWctdzEyMDAtaDE1MDAtZGMxODI4MjgtZ21pcj92PTE3OTM4MTkxMzE.avif",
    "source": "allevents",
-   "start": "2026-11-15T17:30:00-06:00",
+   "start": "2026-11-15T17:00:00-06:00",
    "title": "Front Porch Stories: An Evening of Bluegrass",
    "venue": "The Atrium on Tenth"
+  },
+  {
+   "_slug": "once-upon-a-time-in-harlem-ade97d",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-15T19:00:00-06:00",
+   "id": "ade97d9e76bdf0d7",
+   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
+   "source": "ragtag",
+   "start": "2026-11-15T17:20:00-06:00",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "jazz-combos-at-murrys-234ff3",
@@ -2847,6 +2857,18 @@
    "start": "2026-11-15T19:30:00-06:00",
    "title": "You Can See Everything",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "collage-without-a-cause-cc69cf",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "cc69cf0ff84a79c0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMjNjZWI3NDJjYTI1YTdhNWZjN2VjYTI0ZWU4OTQ3OWVkN2QyMGExZmVjNGU5MmFmMDA5NGY4MGJhZTQwOTlmZC1yaW1nLXcxMjAwLWg2NzYtZGNmOGE4MTgtZ21pcj92PTE3OTQ2NzcxNTA.avif",
+   "source": "allevents",
+   "start": "2026-11-15T20:00:00-06:00",
+   "title": "Collage Without a Cause"
   },
   {
    "_slug": "wild-horse-nine-a97ecd",
