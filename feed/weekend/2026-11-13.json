@@ -2351,21 +2351,16 @@
   },
   {
    "_slug": "smells-like-nirvana-22ab77",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana"
-   ],
    "categories": [
     "music"
    ],
    "category": "music",
-   "description": "with Long Gone Gabe",
+   "description": "Smells Like Nirvana pays tribute to Nirvana, with Dead Original also performing at Rose Music Hall.",
    "id": "22ab777204d30fff",
-   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/07/SmellsLikeNirvana-Rose-WEB.jpg",
-   "source": "bluenote",
+   "source": "baselocal",
    "start": "2026-11-14T20:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/smells-like-nirvanatribute-to-nirvana-columbia-missouri-11-14-2026/event/060064F6E068731B",
    "title": "Smells Like Nirvana",
-   "venue": "Rose Music Hall (Inside)"
+   "venue": "Rose Music Hall"
   },
   {
    "_slug": "smells-like-nirvana-rose-music-hall-483aa1",
@@ -2432,6 +2427,20 @@
    "start": "2026-11-14T21:00:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "super-smash-bros-tournament-e47027",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e47027247d911c2e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
+   "source": "allevents",
+   "start": "2026-11-15T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "yoga-at-partner-for-better-909a1f",
@@ -2519,6 +2528,25 @@
    "end": "2026-11-15T15:00:00-06:00",
    "id": "0170272a57e82872",
    "imageUrl": "https://comoevent.com/img/gen/951ee317a9568b.webp",
+   "source": "baselocal",
+   "start": "2026-11-15T11:00:00-06:00",
+   "title": "2nd Annual Pierpont Sip & Shop",
+   "venue": "Pierpont General Store"
+  },
+  {
+   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
+   "alsoOn": [
+    "https://allevents.in/columbia/2nd-annual-pierpont-sip-and-shop/200030850318222"
+   ],
+   "categories": [
+    "music",
+    "nightlife"
+   ],
+   "category": "music",
+   "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
+   "end": "2026-11-15T15:00:00-06:00",
+   "id": "499cdb22318aea5f",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
    "source": "baselocal",
    "start": "2026-11-15T11:00:00-06:00",
    "title": "2nd Annual Pierpont Sip & Shop",
@@ -2716,6 +2744,19 @@
    "source": "allevents",
    "start": "2026-11-15T14:00:00-06:00",
    "title": "2026 Annual Art & Craft Fair"
+  },
+  {
+   "_slug": "columbia-coffee-club-foodies-new-friends-99109e",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "99109e21a8ff0e60",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8xM2M5MjQ4MWFiZTkzNmUwMzM5MzBkNTgwYWEzMWFlZDJkOTBjYTY3ZGI0OTZmZWMzYjMyZDJmNjQwMjBhNjg5LXJpbWctdzEyMDAtaDkwMC1kYzE2MTUxOS1nbWlyLmpwZz92PTE3ODMzNTgyMzM.avif",
+   "source": "allevents",
+   "start": "2026-11-15T14:00:00-06:00",
+   "title": "Columbia Coffee Club | Foodies + New Friends",
+   "venue": "Cafe of the Month"
   },
   {
    "_slug": "emma-spalding-senior-recital-d89d81",
@@ -2945,6 +2986,19 @@
    "start": "2026-11-15T19:00:00-06:00",
    "title": "Cardio Dance (Free) : Gaga, Grande, and Gratitude with TigerX!",
    "venue": "MizzouRec"
+  },
+  {
+   "_slug": "chiefs-game-day-at-the-kitchen-16159b",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "16159b869ba05ae0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9pbWcuZXZidWMuY29tL2h0dHBzJTNBJTJGJTJGY2RuLmV2YnVjLmNvbSUyRmltYWdlcyUyRjExOTI3MTkwMzklMkYyMjc2MzY1ODYzNDgzJTJGMSUyRm9yaWdpbmFsLjIwMjYwOTA0LTIwNTQxND9hdXRvPWZvcm1hdCUyQ2NvbXByZXNzJnE9NzUmc2hhcnA9MTAmcz1kMjk1NDZmMzA3Njk1NDNiYTY2ZDZhNWZjZjc0NzRiMA.avif",
+   "source": "allevents",
+   "start": "2026-11-15T19:00:00-06:00",
+   "title": "Chiefs Game Day at The Kitchen",
+   "venue": "The Kitchen Grill and Games"
   },
   {
    "_slug": "you-can-see-everything-bce87c",
