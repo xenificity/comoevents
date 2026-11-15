@@ -127,6 +127,11 @@
   "lng": -92.3249265,
   "name": null
  },
+ "106 orr st, columbia, mo": {
+  "lat": 38.9526974,
+  "lng": -92.3249265,
+  "name": null
+ },
  "110 orr st, columbia, mo 65201": {
   "lat": 38.952735,
   "lng": -92.3249248,
@@ -401,6 +406,11 @@
   "lat": 38.9664587,
   "lng": -92.3421756,
   "name": "Rusk Rehabilitation Hospital"
+ },
+ "3150 paris rd, columbia, mo": {
+  "lat": 38.9819907,
+  "lng": -92.2884308,
+  "name": "Chapman Heating Cooling & Plumbing"
  },
  "3200 chapel hill rd, columbia, mo 65203": {
   "lat": 38.9342,

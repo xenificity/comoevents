@@ -1163,6 +1163,20 @@
    "venue": "Columbia Art League"
   },
   {
+   "_slug": "annual-christmas-bazaar-c69869",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Shop for handcrafted gifts, art, crafts, and holiday items at this Christmas Bazaar. Christmas cookies and candy will not be available this year.",
+   "end": "2026-11-14T14:00:00-06:00",
+   "id": "c6986929ec81419e",
+   "source": "baselocal",
+   "start": "2026-11-14T08:00:00-06:00",
+   "title": "Annual Christmas Bazaar",
+   "venue": "First Christian Church"
+  },
+  {
    "_slug": "annual-christmas-bazaar-d1f2fe",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#annual-christmas-bazaar"
@@ -1623,19 +1637,14 @@
   },
   {
    "_slug": "tryps-theater-live-at-eleven-5694a5",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17488457"
-   ],
    "categories": [
     "arts",
-    "family",
-    "campus"
+    "family"
    ],
    "category": "arts",
    "description": "Children ages 3–8 can play games, sing, dance, and act out books in this workshop presented by TRYPS Children’s Theater, a professional theater group for young audiences in Columbia.",
    "end": "2026-11-14T11:30:00-06:00",
    "id": "5694a56da889824f",
-   "price": "Free",
    "source": "baselocal",
    "start": "2026-11-14T11:00:00-06:00",
    "title": "TRYPS Theater: Live at Eleven",
@@ -1850,9 +1859,6 @@
   },
   {
    "_slug": "the-boones-lick-road-01367b",
-   "alsoOn": [
-    "https://events.dbrl.org/event/17538218"
-   ],
    "categories": [
     "community"
    ],
@@ -1860,7 +1866,6 @@
    "description": "Explore the history of Boone’s Lick Road, from its early use as a trail to the salt lick in Howard County to its role in westward migration and travel toward the Santa Fe Trail. Dorris Keeven-Franke will discuss the importance of salt to early settlers, the towns and communities along the route, an…",
    "end": "2026-11-14T15:00:00-06:00",
    "id": "01367b4b8c324518",
-   "price": "Free",
    "source": "baselocal",
    "start": "2026-11-14T13:00:00-06:00",
    "title": "The Boone’s Lick Road",
@@ -2098,7 +2103,6 @@
    "description": "Enjoy a night of country music and fun supporting the Taylor family. Logan, Kassidy, and their three-year-old daughter Bailey lost everything in a house fire, and the event benefits their efforts to rebuild their life together.",
    "end": "2026-11-14T20:30:00-06:00",
    "id": "663464ec6c565314",
-   "imageUrl": "https://comoevent.com/img/gen/57b81d47e73503.webp",
    "source": "baselocal",
    "start": "2026-11-14T18:30:00-06:00",
    "title": "Ladies of Country",
@@ -2282,9 +2286,6 @@
   },
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-the-return-of-dan-wes-88a38d",
-   "alsoOn": [
-    "https://thearcadedistrict.org/"
-   ],
    "categories": [
     "arts"
    ],
@@ -2315,6 +2316,21 @@
    "venue": "Eastside Tavern"
   },
   {
+   "_slug": "shabazz-palaces-681bf8",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Dismal Niche Presents · with JWords",
+   "id": "681bf8869de6ecbb",
+   "imageUrl": "https://comoevent.com/img/gen/p-3d411f0d93c5fc.webp",
+   "source": "bluenote",
+   "start": "2026-11-14T20:00:00-06:00",
+   "ticketUrl": "https://www.eventbrite.com/e/shabazz-places-w-jwords-at-the-blue-note-tickets-1993212965636?aff=oddtdtcreator&#038;keep_tld=true",
+   "title": "Shabazz Palaces",
+   "venue": "The Blue Note"
+  },
+  {
    "_slug": "shabazz-palaces-ad82a5",
    "alsoOn": [
     "https://www.visitcolumbiamo.com/event/redferrin-the-blue-note-2/"
@@ -2332,6 +2348,24 @@
    "ticketUrl": "https://www.eventbrite.com/e/shabazz-places-w-jwords-at-the-blue-note-tickets-1993212965636?aff=oddtdtcreator&#038;keep_tld=true",
    "title": "Shabazz Palaces",
    "venue": "The Blue Note"
+  },
+  {
+   "_slug": "smells-like-nirvana-22ab77",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#smells-like-nirvana"
+   ],
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with Long Gone Gabe",
+   "id": "22ab777204d30fff",
+   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/07/SmellsLikeNirvana-Rose-WEB.jpg",
+   "source": "bluenote",
+   "start": "2026-11-14T20:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/smells-like-nirvanatribute-to-nirvana-columbia-missouri-11-14-2026/event/060064F6E068731B",
+   "title": "Smells Like Nirvana",
+   "venue": "Rose Music Hall (Inside)"
   },
   {
    "_slug": "smells-like-nirvana-rose-music-hall-483aa1",
@@ -2475,10 +2509,7 @@
    "venue": "Partner For Better"
   },
   {
-   "_slug": "2nd-annual-pierpont-sip-shop-499cdb",
-   "alsoOn": [
-    "https://allevents.in/columbia/2nd-annual-pierpont-sip-and-shop/200030850318222"
-   ],
+   "_slug": "2nd-annual-pierpont-sip-shop-017027",
    "categories": [
     "music",
     "nightlife"
@@ -2486,8 +2517,8 @@
    "category": "music",
    "description": "Explore handmade goods and other unique creations from local authors, artists, and crafters while supporting local talent. Both kitchens will be open, and a full bar will offer drinks as you browse. Live music and entertainment from Jordan Heckemeyer will round out the afternoon.",
    "end": "2026-11-15T15:00:00-06:00",
-   "id": "499cdb22318aea5f",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZDA2NGNkNDBmZTkxNzcyNmViYzA5ZWQwN2YxMWNiZTNlOTk0MDUxMjhiNDZjMzExNmVjZjIyYzcwNGY4MjA5LXJpbWctdzEyMDAtaDYzNC1kY2Y4ZDhiOC1nbWlyP3Y9MTc5MjMwMDU4MQ.avif",
+   "id": "0170272a57e82872",
+   "imageUrl": "https://comoevent.com/img/gen/951ee317a9568b.webp",
    "source": "baselocal",
    "start": "2026-11-15T11:00:00-06:00",
    "title": "2nd Annual Pierpont Sip & Shop",
@@ -2959,7 +2990,7 @@
   }
  ],
  "friday": "2026-11-13",
- "modified": "2026-11-14",
+ "modified": "2026-11-15",
  "picks": [
   "eab61d06004af6ab",
   "071642c6e660b3d4",
