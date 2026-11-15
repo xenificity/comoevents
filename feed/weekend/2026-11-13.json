@@ -55,7 +55,6 @@
    "description": "Organization members will attend presentations and talking with leading professionals in the field of pediatric physical therapy. Members will be learning about newest research and technology available to physical therapists. When members return from conference, they will speak to rest of the organi",
    "end": "2026-11-15T15:00:00-06:00",
    "id": "f3033c0532bb029b",
-   "imageUrl": "https://comoevent.com/img/gen/8cb16c3a1f2d2f.webp",
    "source": "engage",
    "start": "2026-11-13T05:00:00-06:00",
    "title": "2026 American Physical Therapy Association Pediatric Annual Conference",
@@ -1308,7 +1307,6 @@
    "description": "A sale is being held for the estate of John D. Burk in Columbia, Missouri.",
    "end": "2026-11-15T15:00:00-06:00",
    "id": "2044247c949f8925",
-   "imageUrl": "https://comoevent.com/img/gen/d54ee10c71549f.webp",
    "source": "baselocal",
    "start": "2026-11-14T09:00:00-06:00",
    "title": "Sale for the Estate of John D. Burk"
@@ -2561,7 +2559,6 @@
    "description": "Ceramics, weaving, woodworking, skin care, art prints, jewelry, clothing, and more!",
    "end": "2026-11-15T15:00:00-06:00",
    "id": "2a3f8df671dbc526",
-   "imageUrl": "https://comoevent.com/img/gen/338e00b8258571.webp",
    "source": "visitcolumbia",
    "start": "2026-11-15T11:00:00-06:00",
    "title": "Unity of Columbia Annual Art & Craft Fair – Day 2",
@@ -2681,22 +2678,17 @@
    "venue": "Museum of Art and Archaeology"
   },
   {
-   "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
-   ],
+   "_slug": "lola-and-billy-the-kid-1b231c",
    "categories": [
-    "community"
+    "family"
    ],
-   "category": "community",
-   "description": "The House of Mouse and Hexagon Alley collide at our Lorcana weekly play! Entry: $5 Format: Standard",
-   "end": "2026-11-15T16:00:00-06:00",
-   "id": "5a0a276bd4fd7a6e",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab5536347d5d2eab1fcb662/scaled_1152.jpg",
-   "source": "district",
+   "category": "family",
+   "description": "17-year-old Murat (Baki Davrak), from Turkey but living in the Turkish district of Kreuzberg, Berlin, with his mother and older brother, is at a cr…",
+   "end": "2026-11-15T13:00:00-06:00",
+   "id": "1b231c07678a0547",
+   "source": "macaronikid",
    "start": "2026-11-15T13:00:00-06:00",
-   "title": "Hexagon Alley Lorcana Weekly Play",
-   "venue": "Hexagon Alley"
+   "title": "Lola and Billy the Kid"
   },
   {
    "_slug": "lola-and-billy-the-kid-9d861f",
@@ -2718,6 +2710,20 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "lorcana-weekly-play-5a0a27",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Take part in weekly Lorcana play in Standard format. Entry is $5.",
+   "end": "2026-11-15T16:00:00-06:00",
+   "id": "5a0a276bd4fd7a6e",
+   "source": "baselocal",
+   "start": "2026-11-15T13:00:00-06:00",
+   "title": "Lorcana Weekly Play",
+   "venue": "Hexagon Alley"
+  },
+  {
    "_slug": "beginning-sewing-with-como-craftcycle-f38bcf",
    "categories": [
     "campus"
@@ -2726,7 +2732,6 @@
    "description": "At these classes, make an easy shirt using your own measurements for a perfect fit. Learn to draft a pattern, highlight a favorite fabric and sew a finished, unique shirt. This class is for beginners who know how to sew a straight seam on a sewing machine. Most supplies provided; bring a sewing mach",
    "end": "2026-11-15T15:30:00-06:00",
    "id": "f38bcfce8e41bcf2",
-   "imageUrl": "https://comoevent.com/img/gen/2d70089f46105d.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-11-15T13:30:00-06:00",
@@ -2740,7 +2745,6 @@
    ],
    "category": "arts",
    "id": "bfdb0853d1619984",
-   "imageUrl": "https://comoevent.com/img/gen/1ce7633f0d353b.webp",
    "source": "allevents",
    "start": "2026-11-15T14:00:00-06:00",
    "title": "2026 Annual Art & Craft Fair"
@@ -2791,6 +2795,20 @@
    "venue": "Rhynsburger Theatre"
   },
   {
+   "_slug": "little-women-the-musical-e19e83",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Based on Louisa May Alcott’s beloved novel, see the story of the March sisters come to life on stage. Take a break from screens and travel bac…",
+   "id": "e19e83b3afa197aa",
+   "price": "$23; $18 groups of eight or more; $15 undergraduate…",
+   "source": "vox",
+   "start": "2026-11-15T14:00:00-06:00",
+   "title": "Little Women: The Musical",
+   "venue": "Rhynsburger Theatre"
+  },
+  {
    "_slug": "nov-boone-regional-beekeepers-local-plants-beneficial-to-bee-5dd3ec",
    "categories": [
     "community"
@@ -2799,7 +2817,6 @@
    "description": "presentation on Missouri Native Trees, Shrubs and Forbs Beneficial to Native and Honey Bees",
    "end": "2026-11-15T16:00:00-06:00",
    "id": "5dd3ec2f71309da9",
-   "imageUrl": "https://comoevent.com/img/gen/2e045d0df21221.webp",
    "source": "eventbrite",
    "start": "2026-11-15T14:00:00-06:00",
    "ticketUrl": "https://www.eventbrite.com/e/nov-boone-regional-beekeepers-local-plants-beneficial-to-bees-dessert-tickets-2004256351701",
