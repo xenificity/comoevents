@@ -222,6 +222,7 @@
   "name": null
  },
  "110 orr st #101, columbia, mo 65201": null,
+ "110 orr st unit 102, columbia, mo": null,
  "110 orr st, columbia, mo 65201": {
   "lat": 38.952735,
   "lng": -92.3249248,
@@ -606,6 +607,11 @@
  },
  "201 townsend hall the reflector university of missouri columbia missouri united states, columbia, mo": null,
  "201 townsend hall, university of missouri, columbia, missouri, united states": null,
+ "2011 corona rd, columbia, mo": {
+  "lat": 38.9329341,
+  "lng": -92.3987969,
+  "name": null
+ },
  "2011 old 63 s, columbia, mo 65201": {
   "lat": 38.9259154,
   "lng": -92.3111329,
@@ -1558,6 +1564,7 @@
  "columbia 65203 united states, columbia, mo": null,
  "columbia art league gallery, columbia, mo": null,
  "columbia art league, columbia, mo": null,
+ "columbia ballet academy, columbia, mo": null,
  "columbia civic orchestra, columbia, mo": null,
  "columbia community band, columbia, mo": null,
  "columbia country club, columbia, mo": {

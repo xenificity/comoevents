@@ -1,6 +1,20 @@
 {
  "events": [
   {
+   "_slug": "columbia-social-club-monthly-foodies-new-friends-d696f5",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "d696f58812db8b83",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy82YjViM2YxZDdiOWNmMDVkOWM5YTU4ZGYxZTE4ODNiNzQyNzI0NjRmZDU5MTQxYThmNzI2MWYwNGU0NDA4NGRhLXJpbWctdzEyMDAtaDkwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODU3NDUwMzQ.avif",
+   "source": "allevents",
+   "start": "2026-11-20T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Columbia Social Club Monthly | Foodies + New Friends",
+   "venue": "Restaurant of the Month"
+  },
+  {
    "_slug": "early-registration-ends-spring-2027-f99a02",
    "categories": [
     "campus"
@@ -441,9 +455,9 @@
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
     "https://tockify.com/the.district.cid/detail/1256/1795215600000",
-    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
+    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
     "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
-    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040"
+    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus"
    ],
    "categories": [
     "family"
@@ -731,22 +745,18 @@
    "venue": "Serendipity Polish Pottery & Gallery"
   },
   {
-   "_slug": "fallout-launch-party-40f3eb",
-   "alsoOn": [
-    "https://allevents.in/columbia/fallout-launch-party/200031028060839"
-   ],
+   "_slug": "fallout-launch-party-39beff",
    "categories": [
     "party"
    ],
    "category": "party",
    "description": "https://www.facebook.com/events/1029108683574685/ You have 2 minutes to escape the vault. This is going to be a little bit of a different style of launch party. It will be for fun only, no WPPRs, no pressure...well maybe a little bit of pressure. Each player will get 2 minutes. You launch your ball ",
    "end": "2026-11-20T21:00:00-06:00",
-   "id": "40f3eb628a6adde1",
+   "id": "39beffc6c04d12c6",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb4dc049b9323bd2558088/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-20T19:00:00-06:00",
-   "title": "Fallout Launch Party",
-   "venue": "Hexagon Alley"
+   "title": "Fallout Launch Party"
   },
   {
    "_slug": "hanyu-zhang-piano-recital-885033",
@@ -860,18 +870,15 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "jack-grelle-5d1df1",
-   "alsoOn": [
-    "https://allevents.in/columbia/jack-grelle-w-cole-bridges-birdies-deli/200031002103557"
-   ],
+   "_slug": "jack-grelle-430d57",
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "Songwriter Jack Grelle draws on years of travel and encounters across the country, blending traditional country, folk, and rock ’n’ roll. His music ranges from honky-tonk to more rock-oriented sounds, with songs that reflect on contemporary life, personal change, and the people around him. Cole Bri…",
    "end": "2026-11-20T23:00:00-06:00",
-   "id": "5d1df1dd4d319f9b",
-   "imageUrl": "https://dyn-image.allevents.in/generate-image?v=4&title=Jack+Grelle+w%2F+Cole+Bridges+%40+Birdie%27s+Deli+&date=Fri+Nov+20+2026+at+07%3A30+pm&bg=3",
+   "id": "430d57ac859eafe4",
+   "imageUrl": "https://comoevent.com/img/gen/c2c678eb795f78.webp",
    "source": "baselocal",
    "start": "2026-11-20T19:30:00-06:00",
    "title": "Jack Grelle",
@@ -1049,8 +1056,8 @@
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-5d1c5e",
    "alsoOn": [
-    "https://allevents.in/columbia/work-it-columbia-18/200030863023200",
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000",
+    "https://allevents.in/columbia/work-it-columbia-18/200030863023200"
    ],
    "categories": [
     "music",
@@ -1166,8 +1173,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
    ],
    "categories": [
     "nightlife",
@@ -1186,8 +1193,8 @@
   {
    "_slug": "saturday-market-winter-b317c0",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/",
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
+    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/"
    ],
    "categories": [
     "food"
@@ -1293,9 +1300,9 @@
    "venue": "Columbia Public Library"
   },
   {
-   "_slug": "is-your-child-on-track-1939d7",
+   "_slug": "is-your-child-on-track-a7887c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#is-your-child-on-track-2"
+    "https://baselocal.com/mo/columbia/events/#is-your-child-on-track"
    ],
    "categories": [
     "sports",
@@ -1304,7 +1311,7 @@
    "category": "sports",
    "description": "The Boone County Early Childhood Coalition offers a quick, free screening to assess your child's well-being and social-emotional health. For Boone County families with ages 2 mos. to 5 yrs.",
    "end": "2026-11-21T12:00:00-06:00",
-   "id": "1939d7be944d64e8",
+   "id": "a7887cdb7b8097fb",
    "imageUrl": "https://comoevent.com/img/gen/5b71bcc2ba92e1.webp",
    "price": "Free",
    "source": "dbrl",
@@ -1407,8 +1414,8 @@
   {
    "_slug": "grown-up-book-fair-749350",
    "alsoOn": [
-    "https://allevents.in/columbia/wilder-pop-up-grown-up-book-fair/200031042667547",
-    "https://www.visitcolumbiamo.com/event/wilder-coffeehouse-grown-up-book-fair/"
+    "https://www.visitcolumbiamo.com/event/wilder-coffeehouse-grown-up-book-fair/",
+    "https://allevents.in/columbia/wilder-pop-up-grown-up-book-fair/200031042667547"
    ],
    "categories": [
     "community"
@@ -1622,8 +1629,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
    ],
    "categories": [
     "family"
@@ -1657,8 +1664,8 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr",
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437"
+    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
+    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
    ],
    "categories": [
     "arts",
@@ -1810,6 +1817,20 @@
    "venue": "Columbia College"
   },
   {
+   "_slug": "compass-songwriters-club-showcase-97afd3",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Enjoy a Songwriters in the Round performance featuring members of the Compass Songwriters Club, a group for songwriters ages 11 and up who meet regularly to share songs, receive feedback, and develop their craft. Performers include Keira Bradley, Sam Snively-Schick, Staci Linthacum, Susannah Hooker…",
+   "id": "97afd3f2dfc8c13d",
+   "imageUrl": "https://comoevent.com/img/gen/59d8cffaa74217.webp",
+   "source": "baselocal",
+   "start": "2026-11-21T18:00:00-06:00",
+   "title": "Compass Songwriters Club Showcase",
+   "venue": "The Listening Room at Compass"
+  },
+  {
    "_slug": "wild-horse-nine-a92503",
    "categories": [
     "arts"
@@ -1827,8 +1848,8 @@
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/",
-    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213"
+    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213",
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/"
    ],
    "categories": [
     "sports"
@@ -1893,18 +1914,22 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "ambient-sleeping-bag-party-6d4e83",
+   "_slug": "ambient-sleeping-bag-party-e5215b",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#ambient-sleeping-bag-party"
+   ],
    "categories": [
     "party"
    ],
    "category": "party",
    "description": "Bring your sleeping bag. We’re turning the studio into one big cozy floor party, turning the lights down low, and spending the night listening to ambient music together. Lie down. Sit up. Bring pillows. Bring blankets. Stretch. Zone out. Talk quietly. Don’t talk at all. Fall asleep if you want. Ther",
    "end": "2026-11-21T23:00:00-06:00",
-   "id": "6d4e83232177d5a0",
+   "id": "e5215bdda79b22bc",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb5e6949b9323bd20845b7/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-21T20:00:00-06:00",
-   "title": "Ambient Sleeping Bag Party"
+   "title": "Ambient Sleeping Bag Party",
+   "venue": "Regulation CoMo"
   },
   {
    "_slug": "dead-rose-radio-de5fce",
@@ -1958,11 +1983,13 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
+    "https://allevents.in/columbia/the-host/200031023437330",
     "https://tockify.com/the.district.cid/detail/1453/1795314600000",
-    "https://allevents.in/columbia/the-host/200031023437330"
+    "https://baselocal.com/mo/columbia/events/#the-host"
    ],
    "categories": [
     "arts",
+    "family",
     "food"
    ],
    "category": "arts",
@@ -1978,8 +2005,8 @@
   {
    "_slug": "live-hardcore-comedy-at-the-tokyo-club-columbia-s-own-lady-m-616a99",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
+    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts"
@@ -2087,6 +2114,39 @@
    "venue": "Partner For Better"
   },
   {
+   "_slug": "thanksgiving-community-dinner-4630d9",
+   "categories": [
+    "food",
+    "religious"
+   ],
+   "category": "food",
+   "description": "Everyone is welcome to share a free Thanksgiving meal with the community. Dine in, arrange pickup, or choose delivery within Columbia. Please RSVP so organizers can plan for everyone, and feel free to invite someone who could use a meal or would enjoy sharing one and connecting with others.",
+   "end": "2026-11-22T14:30:00-06:00",
+   "id": "4630d9d2863230dd",
+   "imageUrl": "https://comoevent.com/img/gen/3ae634e2ae6240.webp",
+   "price": "Free",
+   "source": "baselocal",
+   "start": "2026-11-22T11:30:00-06:00",
+   "title": "Thanksgiving Community Dinner",
+   "venue": "Fairview Church of Christ"
+  },
+  {
+   "_slug": "chili-cookoff-e49549",
+   "categories": [
+    "party",
+    "sports",
+    "food"
+   ],
+   "category": "party",
+   "description": "Enjoy a football watch party and chili cook-off featuring homemade recipes in traditional, non-traditional, and spiciest categories. Prizes will be awarded, with winners announced at halftime. Fixings will be provided, and those competing should bring their chili.",
+   "id": "e49549cb8517e973",
+   "imageUrl": "https://comoevent.com/img/gen/4eab8529b2baf2.webp",
+   "source": "baselocal",
+   "start": "2026-11-22T12:00:00-06:00",
+   "title": "Chili Cookoff",
+   "venue": "CrossWay Church"
+  },
+  {
    "_slug": "nov-2026-vgc-go-league-challenge-tournaments-735e20",
    "categories": [
     "community"
@@ -2159,8 +2219,9 @@
    "venue": "Hexagon Alley"
   },
   {
-   "_slug": "hexagon-alley-lorcana-weekly-play-75628a",
+   "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
     "https://hexagonalley.com/events/"
    ],
    "categories": [
@@ -2169,7 +2230,7 @@
    "category": "community",
    "description": "The House of Mouse and Hexagon Alley collide at our Lorcana weekly play! Entry: $5 Format: Standard",
    "end": "2026-11-22T16:00:00-06:00",
-   "id": "75628a8f72ec8240",
+   "id": "5a0a276bd4fd7a6e",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab5536347d5d2eab1fcb662/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-22T13:00:00-06:00",
@@ -2245,7 +2306,8 @@
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
     "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
     "family",
@@ -2255,10 +2317,11 @@
    "description": "Celebrate the magic of the season with an afternoon of tea, treats, and Nutcracker fun! Join Columbia Ballet Academy and Mary Lee Johnson Community Learning Center for a festive family afternoon featuring a special dance performance, photos with beloved Nutcracker characters, ornament decorating for",
    "end": "2026-11-22T16:00:00-06:00",
    "id": "7a4b9981e9fb1741",
-   "imageUrl": "https://comoevent.com/img/gen/8e6b9f9fd4f2ec.webp",
+   "imageUrl": "https://comoevent.com/img/gen/f2fdabc8acc991.webp",
    "source": "allevents",
    "start": "2026-11-22T14:00:00-06:00",
-   "title": "Nutcracker Tea Party"
+   "title": "Nutcracker Tea Party",
+   "venue": "Columbia Ballet Academy"
   },
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-3-7adc4c",
@@ -2352,6 +2415,22 @@
    "title": "Collage Without a Cause"
   },
   {
+   "_slug": "the-gift-of-gathering-ab8591",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Explore how gathering with sincerity, fellowship, and open hearts can help build genuine friendships, strengthen community ties, and support emotional and spiritual well-being. This welcoming conversation will consider spiritual perspectives from the Bahá’í Teachings and invite every perspective as…",
+   "end": "2026-11-22T17:00:00-06:00",
+   "id": "ab8591b5bf47202c",
+   "imageUrl": "https://comoevent.com/img/gen/59d5702bce8e63.webp",
+   "price": "Free",
+   "source": "baselocal",
+   "start": "2026-11-22T15:00:00-06:00",
+   "title": "The Gift of Gathering",
+   "venue": "Natural Nail Care Salon"
+  },
+  {
    "_slug": "once-upon-a-time-in-harlem-e5caff",
    "categories": [
     "arts"
@@ -2413,8 +2492,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
    ],
    "categories": [
     "music"
@@ -2465,14 +2544,14 @@
  "modified": "2026-11-17",
  "picks": [
   "d6be9bf5e704db23",
-  "40f3eb628a6adde1",
+  "39beffc6c04d12c6",
   "77c7e7558b8be955",
   "47545a4c2d1feb4f",
   "1ba87c3ee65d3041",
   "5d1c5e5952f1ebfa",
   "ae0e51517423d4b1",
-  "902d8f662fe79982",
   "75585f338b675add",
+  "e5215bdda79b22bc",
   "616a99c75ecef11a"
  ],
  "published": "2026-11-16"
