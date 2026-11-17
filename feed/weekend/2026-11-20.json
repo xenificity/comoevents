@@ -1,6 +1,20 @@
 {
  "events": [
   {
+   "_slug": "creativemornings-columbia-devotion-w-kristin-gadsden-a2be09",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "description": "Event Details: Date: Friday, November 20, 2026 Time: Doors, coffee, and donuts at 8:00 AM | Talk begins at 8:30 AM Location: Orr Street Studios, 106 Orr Street, Columbia, MO Cost: 100% Free (Registration advised so we have enough for everyone) CreativeMornings Columbia: Devotion w/Kristin Gadsden @O",
+   "end": "2026-11-20T10:00:00-06:00",
+   "id": "a2be0944bf3fa6c8",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb67f549b9323bd2694f1d/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-20T08:00:00-06:00",
+   "title": "CreativeMornings Columbia: Devotion w/Kristin Gadsden"
+  },
+  {
    "_slug": "global-entrepreneurship-week-central-missouri-friday-activit-401c98",
    "categories": [
     "community"
@@ -135,6 +149,19 @@
    "venue": "Memorial Student Union"
   },
   {
+   "_slug": "macalester-dose-the-rebels-live-at-myhouse-in-columbia-mo-73b507",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "73b507e188b58035",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8zM2FhYTEwOWMyNDE1YjcyMmFlZDVjYmVmMjhmNjAyZmI0NjQyMTMzYzM1YmIzNjAwMjgwZjZkNDdlOWFlZWY1LXJpbWctdzEyMDAtaDEwMjQtZGMwODA4MDgtZ21pcj92PTE3OTI5Njc0NzE.avif",
+   "source": "allevents",
+   "start": "2026-11-20T10:00:00-06:00",
+   "title": "Macalester Dose & The Rebels LIVE at MyHouse in Columbia, MO",
+   "venue": "My House Nightclub & Sports Bar"
+  },
+  {
    "_slug": "study-abroad-walk-in-advising-97eac5",
    "categories": [
     "campus"
@@ -162,6 +189,22 @@
    "start": "2026-11-20T11:00:00-06:00",
    "title": "Ana’s Tacos",
    "venue": "Gerbes Super Market (Columbia, MO)"
+  },
+  {
+   "_slug": "one-year-ribbon-cutting-celebration-163121",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Celebrate a year in business at the Columbia location with store deals, raffle giveaways, and free pictures at the picture booth. Fresh cotton candy is free with a purchase.",
+   "end": "2026-11-20T20:00:00-06:00",
+   "id": "16312110dd5b9fe2",
+   "imageUrl": "https://comoevent.com/img/gen/14c727c5c2773f.webp",
+   "price": "Free",
+   "source": "baselocal",
+   "start": "2026-11-20T11:00:00-06:00",
+   "title": "One Year Ribbon Cutting Celebration",
+   "venue": "Taste Buds Snacks"
   },
   {
    "_slug": "study-abroad-walk-in-advising-0950d4",
@@ -222,6 +265,21 @@
    "venue": "Harry S. Truman Memorial Veterans' Hospital"
   },
   {
+   "_slug": "being-heumann-536c23",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-20T15:07:00-06:00",
+   "id": "536c23c9b8d007a2",
+   "imageUrl": "https://comoevent.com/img/gen/de2e207e9df085.webp",
+   "source": "ragtag",
+   "start": "2026-11-20T13:00:00-06:00",
+   "title": "Being Heumann",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "bookmobile-stop-at-battle-crossing-49ace6",
    "categories": [
     "family"
@@ -236,6 +294,21 @@
    "start": "2026-11-20T13:30:00-06:00",
    "title": "Bookmobile Stop at Battle Crossing",
    "venue": "Schnucks parking lot"
+  },
+  {
+   "_slug": "you-can-see-everything-612774",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-20T16:24:00-06:00",
+   "id": "612774baea8d4772",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-20T13:30:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "candlelight-tribute-to-fleetwood-mac-2fd3c9",
@@ -274,8 +347,8 @@
   {
    "_slug": "memorial-student-union-tower-centennial-celebration-85493d",
    "alsoOn": [
-    "https://engage.missouri.edu/rsvp?id=453342",
-    "https://engage.missouri.edu/SURE/rsvp?id=453342"
+    "https://engage.missouri.edu/SURE/rsvp?id=453342",
+    "https://engage.missouri.edu/rsvp?id=453342"
    ],
    "categories": [
     "campus",
@@ -307,19 +380,6 @@
    "venue": "Schlundt Hall"
   },
   {
-   "_slug": "fallout-launch-party-40f3eb",
-   "categories": [
-    "party"
-   ],
-   "category": "party",
-   "id": "40f3eb628a6adde1",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9iYzNmZGM2NjZlMGIyNjQ4NDM2MjljYjM4NDA1OGVlOGRhZDYzNjcxNDc3NjY1NjY1YWRlMzAwODRlNjYyN2YzLXJpbWctdzgwMC1oMTE0Ni1kYzA4MDgwOC1nbWlyP3Y9MTc5NDQ1NDk1OQ.avif",
-   "source": "allevents",
-   "start": "2026-11-20T15:00:00-06:00",
-   "title": "Fallout Launch Party",
-   "venue": "Hexagon Alley"
-  },
-  {
    "_slug": "ribbon-cutting-toy-drive-5c592b",
    "categories": [
     "community"
@@ -332,6 +392,21 @@
    "start": "2026-11-20T15:30:00-06:00",
    "title": "Ribbon Cutting & Toy Drive",
    "venue": "Sawdust Studios"
+  },
+  {
+   "_slug": "once-upon-a-time-in-harlem-147772",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-20T17:40:00-06:00",
+   "id": "1477722ac088190d",
+   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
+   "source": "ragtag",
+   "start": "2026-11-20T16:00:00-06:00",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "ribbon-cutting-junior-achievement-in-central-missouri-de0a1e",
@@ -349,9 +424,10 @@
   {
    "_slug": "5th-annual-merry-moments-with-santa-mrs-claus-0b3265",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
+    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
+    "https://tockify.com/the.district.cid/detail/1448/1795215600000",
     "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
-    "https://tockify.com/the.district.cid/detail/1256/1795215600000"
+    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus"
    ],
    "categories": [
     "family"
@@ -398,6 +474,21 @@
    "start": "2026-11-20T17:00:00-06:00",
    "title": "Zumba/Remi",
    "venue": "Jabberwocky Studios"
+  },
+  {
+   "_slug": "being-heumann-26205c",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-20T19:22:00-06:00",
+   "id": "26205ccfb14b6450",
+   "imageUrl": "https://comoevent.com/img/gen/de2e207e9df085.webp",
+   "source": "ragtag",
+   "start": "2026-11-20T17:15:00-06:00",
+   "title": "Being Heumann",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "craft-club-at-ladybird-cafe-d6be9b",
@@ -449,31 +540,6 @@
    "venue": "Hexagon Alley"
   },
   {
-   "_slug": "macalester-dose-the-rebels-live-at-myhouse-in-columbia-mo-73b507",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "73b507e188b58035",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8zM2FhYTEwOWMyNDE1YjcyMmFlZDVjYmVmMjhmNjAyZmI0NjQyMTMzYzM1YmIzNjAwMjgwZjZkNDdlOWFlZWY1LXJpbWctdzEyMDAtaDEwMjQtZGMwODA4MDgtZ21pcj92PTE3OTI5Njc0NzE.avif",
-   "source": "allevents",
-   "start": "2026-11-20T18:00:00-06:00",
-   "title": "Macalester Dose & The Rebels LIVE at MyHouse in Columbia, MO",
-   "venue": "My House Nightclub & Sports Bar"
-  },
-  {
-   "_slug": "meredith-shaw-at-old-plank-tavern-626f93",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "626f9347b8c1a07a",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMjg2YjUwYmZiMjFhMjNkMzk5ZTQ2ZjA3M2IwNzVkMTBhYjllNmZiMjc5NzZiNGI5NjdkYmNkZjg3MGQ5OTNiNS1yaW1nLXcxMDgwLWgxOTIwLWRjMDgwODA4LWdtaXI_dj0xNzkyMzAwNzM3.avif",
-   "source": "allevents",
-   "start": "2026-11-20T18:00:00-06:00",
-   "title": "Meredith Shaw at Old Plank Tavern"
-  },
-  {
    "_slug": "lakshmi-sahasranama-and-kumkuma-archana-39511a",
    "categories": [
     "religious",
@@ -488,6 +554,21 @@
    "start": "2026-11-20T18:30:00-06:00",
    "title": "Lakshmi Sahasranama and Kumkuma Archana",
    "venue": "Shanthi Mandir"
+  },
+  {
+   "_slug": "wild-horse-nine-e3fe75",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-20T20:27:00-06:00",
+   "id": "e3fe75203609b669",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-20T18:30:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "after-hours-open-mic-night-57a71f",
@@ -525,6 +606,24 @@
    "venue": "Serendipity Polish Pottery & Gallery"
   },
   {
+   "_slug": "fallout-launch-party-40f3eb",
+   "alsoOn": [
+    "https://allevents.in/columbia/fallout-launch-party/200031028060839"
+   ],
+   "categories": [
+    "party"
+   ],
+   "category": "party",
+   "description": "https://www.facebook.com/events/1029108683574685/ You have 2 minutes to escape the vault. This is going to be a little bit of a different style of launch party. It will be for fun only, no WPPRs, no pressure...well maybe a little bit of pressure. Each player will get 2 minutes. You launch your ball ",
+   "end": "2026-11-20T21:00:00-06:00",
+   "id": "40f3eb628a6adde1",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb4dc049b9323bd2558088/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-20T19:00:00-06:00",
+   "title": "Fallout Launch Party",
+   "venue": "Hexagon Alley"
+  },
+  {
    "_slug": "hanyu-zhang-piano-recital-885033",
    "categories": [
     "campus"
@@ -558,15 +657,18 @@
   },
   {
    "_slug": "mmtd-contra-dance-77c7e7",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#mmtd-contra-dance"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
-   "description": "Enjoy an evening of contra dancing with live tunes from the Aldeah All-Stars and dances called by Paula McFarling. Beginners are welcome, with a lesson or refresher before the dancing begins. Admission is $10, $5 for listeners and people ages 18 to 25, and free for those 17 and under. Payment by cr…",
+   "description": "Doors and beginners lesson at 7, Dance at 7:30 pm https://www.facebook.com/share/19R756wjbM/ Location: The First Christian Church of Columbia 101 N. 10th Street, Columbia, MO. Enter through the back basement gym door entrance. A reminder: ALL dances this year will be at the First Christian Church in",
    "end": "2026-11-20T22:00:00-06:00",
    "id": "77c7e7558b8be955",
-   "imageUrl": "https://comoevent.com/img/gen/13820881797b23.webp",
-   "source": "baselocal",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb4f2649b9323bd2633506/scaled_1152.jpg",
+   "source": "district",
    "start": "2026-11-20T19:00:00-06:00",
    "title": "MMTD Contra Dance",
    "venue": "First Christian Church-Disciples of Christ"
@@ -706,6 +808,18 @@
    "venue": "The Tokyo Club"
   },
   {
+   "_slug": "meredith-shaw-at-old-plank-tavern-626f93",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "626f9347b8c1a07a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMjg2YjUwYmZiMjFhMjNkMzk5ZTQ2ZjA3M2IwNzVkMTBhYjllNmZiMjc5NzZiNGI5NjdkYmNkZjg3MGQ5OTNiNS1yaW1nLXcxMDgwLWgxOTIwLWRjMDgwODA4LWdtaXI_dj0xNzkyMzAwNzM3.avif",
+   "source": "allevents",
+   "start": "2026-11-20T20:00:00-06:00",
+   "title": "Meredith Shaw at Old Plank Tavern"
+  },
+  {
    "_slug": "the-spooklights-47545a",
    "categories": [
     "music"
@@ -722,6 +836,9 @@
   },
   {
    "_slug": "the-spooklights-rose-music-hall-1ba87c",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#the-spooklights-ft-long-gone-gabe-at-rose-music-hall-columbia-mo"
+   ],
    "categories": [
     "music"
    ],
@@ -746,6 +863,21 @@
    "source": "allevents",
    "start": "2026-11-20T20:00:00-06:00",
    "title": "WORK IT! - COLUMBIA (18+)"
+  },
+  {
+   "_slug": "you-can-see-everything-685aeb",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-20T23:09:00-06:00",
+   "id": "685aeb8555ae9fd7",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-20T20:15:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "kaitlin-oliver-vocal-recital-67f2c2",
@@ -782,12 +914,16 @@
   },
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-a9230b",
+   "alsoOn": [
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
+   ],
    "categories": [
     "music",
     "arts"
    ],
    "category": "music",
    "description": "What The Dance Presents · featuring The Widow Von'Du, Lorilie, Veronika Versace, + Artemis Grey",
+   "end": "2026-11-20T23:30:00-06:00",
    "id": "a9230b9bf867b12c",
    "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/06/TheWootenBrothers-TBN-WEB.jpg",
    "source": "bluenote",
@@ -795,6 +931,21 @@
    "ticketUrl": "https://www.ticketmaster.com/work-it-a-90s-2000s-rb-columbia-missouri-11-20-2026/event/06006547CEAEDAE4",
    "title": "WORK IT! A 90s & 2000s R&B and Hip Hop Party",
    "venue": "The Blue Note"
+  },
+  {
+   "_slug": "wild-horse-nine-030c63",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-20T23:12:00-06:00",
+   "id": "030c6359105a5b50",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-20T21:15:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "speakeasy-regulation-c93d1b",
@@ -924,6 +1075,20 @@
    "start": "2026-11-21T09:00:00-06:00",
    "title": "Vintage Holiday Pop-Up",
    "venue": "Toasty Goat Coffee Co."
+  },
+  {
+   "_slug": "applique-totes-89ac65",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Your next favorite tote? You’re about to make it. Appliqué is the art of layering fabric shapes onto a base and stitching them down. Think patchwork meets collage. We’ll walk you through choosing your shapes, arranging your design, and stitching it all into place. By the end of the night, you’ll wal",
+   "end": "2026-11-21T12:00:00-06:00",
+   "id": "89ac6531c98c5522",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb5fe749b9323bd216a8c8/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-21T10:00:00-06:00",
+   "title": "Appliqué Totes"
   },
   {
    "_slug": "brian-beckstead-altra-co-founder-in-store-guest-53c502",
@@ -1116,19 +1281,19 @@
    "venue": "St Paul AME Church"
   },
   {
-   "_slug": "zydecos-cajun-kitchen-afc357",
+   "_slug": "being-heumann-acd38e",
    "categories": [
-    "food"
+    "arts"
    ],
-   "category": "food",
-   "description": "@ If you’re craving Cajun, head to Cooper’s Landing for Zydeco Cajun Kitchen and treat yourself to mouthwatering flavors right on the riverfront. https://www.facebook.com/zydecosco",
-   "end": "2026-11-21T20:00:00-06:00",
-   "id": "afc357e32e170200",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2024/11/Zydeco-Cajun-Kitchen-food-truck-shrimp-po-boy.jpg",
-   "source": "cooperslanding",
-   "start": "2026-11-21T12:00:00-06:00",
-   "title": "Zydeco’s Cajun Kitchen",
-   "venue": "Cooper's Landing"
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-21T14:37:00-06:00",
+   "id": "acd38ee6c839dec2",
+   "imageUrl": "https://comoevent.com/img/gen/de2e207e9df085.webp",
+   "source": "ragtag",
+   "start": "2026-11-21T12:30:00-06:00",
+   "title": "Being Heumann",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "weird-kids-weekend-club-7a696f",
@@ -1160,6 +1325,20 @@
    "venue": "Southwell Complex"
   },
   {
+   "_slug": "kinusaiga-ac9e52",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Part fabric collage, part mosaic, and one of those crafts that looks way more complicated than it actually is. Kinusaiga is a Japanese textile art that uses small pieces of fabric tucked into grooves to create colorful, patchwork-style designs - no sewing required! Think of it like painting with fab",
+   "end": "2026-11-21T15:30:00-06:00",
+   "id": "ac9e52c87a1a07ba",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb5ef049b9323bd20e316b/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-21T13:00:00-06:00",
+   "title": "Kinusaiga"
+  },
+  {
    "_slug": "kinusaiga-fabric-mosaic-d2d31e",
    "categories": [
     "community"
@@ -1185,6 +1364,21 @@
    "start": "2026-11-21T13:00:00-06:00",
    "title": "Watercolor Basics: Plant Life with Lindsay Picht (6 week)",
    "venue": "Columbia Art League"
+  },
+  {
+   "_slug": "you-can-see-everything-edd68d",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-21T15:54:00-06:00",
+   "id": "edd68d2fcfd08258",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-21T13:00:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "bhagwad-gita-class-9bbe13",
@@ -1223,21 +1417,6 @@
    "venue": "Columbia Public Library"
   },
   {
-   "_slug": "the-daves-16b9ea",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "@ Delta Blues influenced and inspired by John Hurt, Fred McDowell, Furry Lewis, Robert Johnson, Leroy",
-   "end": "2026-11-21T17:00:00-06:00",
-   "id": "16b9ea9f82b6a52b",
-   "imageUrl": "https://comoevent.com/img/gen/c51c4771250c4c.webp",
-   "source": "cooperslanding",
-   "start": "2026-11-21T14:00:00-06:00",
-   "title": "The Daves",
-   "venue": "Cooper's Landing"
-  },
-  {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
@@ -1257,6 +1436,64 @@
    "venue": "TRYPS Children’s Theater (Show 1)"
   },
   {
+   "_slug": "crafternoon-saturdays-1ecaee",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Come spend the afternoon making stuff at Ladybird! Crafternoon is our weekly open crafting hangout. Bring whatever you’re working on, grab something from our cabinet of free craft supplies, or choose from the paid projects we’ll have available that week. We’ll set up Collage Without a Cause every we",
+   "end": "2026-11-21T18:00:00-06:00",
+   "id": "1ecaee48b147d1b9",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb5d2649b9323bd2fa4b22/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-21T15:00:00-06:00",
+   "title": "Crafternoon Saturdays"
+  },
+  {
+   "_slug": "once-upon-a-time-in-harlem-7428c4",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-21T17:10:00-06:00",
+   "id": "7428c4257a7d3052",
+   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
+   "source": "ragtag",
+   "start": "2026-11-21T15:30:00-06:00",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "organ-concert-paul-byssainthe-jr-free-admission-afa2fa",
+   "alsoOn": [
+    "https://allevents.in/columbia/organ-concert-paul-byssainthe-jr/200030902615149"
+   ],
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "https://www.facebook.com/share/1VdtALZxXy/",
+   "end": "2026-11-21T17:30:00-06:00",
+   "id": "afa2fafb017454cd",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb5be149b9323bd2ea5ea5/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-21T15:30:00-06:00",
+   "title": "Organ Concert: Paul Byssainthe, Jr. [free admission!]"
+  },
+  {
+   "_slug": "crafternoon-ladybird-craft-cafe-fccb3e",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "fccb3e15dc52d3a2",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy82YzM5ZDNjMzEwYzU1NTE4YjYzNjdmY2QxNWIyMGIxM2E1ZjYzNzY5YTc1NjhmMjVjNzA1ZTU0YTdjMTBiNzQ3LXJpbWctdzEyMDAtaDY3Ni1kY2Y4ZDg1OC1nbWlyP3Y9MTc5NDczNzE2MQ.avif",
+   "source": "allevents",
+   "start": "2026-11-21T16:00:00-06:00",
+   "title": "Crafternoon @ Ladybird Craft Cafe!"
+  },
+  {
    "_slug": "free-horse-drawn-carriage-rides-95dc2f",
    "categories": [
     "sports"
@@ -1272,16 +1509,19 @@
    "venue": "The District"
   },
   {
-   "_slug": "organ-concert-paul-byssainthe-jr-afa2fa",
+   "_slug": "you-can-see-everything-c0de2f",
    "categories": [
-    "music"
+    "arts"
    ],
-   "category": "music",
-   "id": "afa2fafb017454cd",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy81NTUyODVhMjgwMDkyNzE3Y2Q0MjRjMGRjYWY2YTZiODc1ZWIzM2RmYTVlYjE2NTJkYzc0YWRmZDg3MjJhMjUyLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc5Mjg0NDM4OQ.avif",
-   "source": "allevents",
-   "start": "2026-11-21T16:00:00-06:00",
-   "title": "Organ Concert: Paul Byssainthe, Jr."
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-21T19:39:00-06:00",
+   "id": "c0de2faa2d300359",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-21T16:45:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "mizzou-football-vs-kentucky-e629a2",
@@ -1344,30 +1584,19 @@
    "venue": "Columbia College"
   },
   {
-   "_slug": "compass-songwriters-club-showcase-97afd3",
+   "_slug": "wild-horse-nine-a92503",
    "categories": [
     "arts"
    ],
    "category": "arts",
-   "description": "Enjoy a Songwriters in the Round performance featuring members of the Compass Songwriters Club, a group for songwriters ages 11 and up who meet regularly to share songs, receive feedback, and develop their craft. Performers include Keira Bradley, Sam Snively-Schick, Staci Linthacum, Susannah Hooker…",
-   "id": "97afd3f2dfc8c13d",
-   "imageUrl": "https://comoevent.com/img/gen/59d8cffaa74217.webp",
-   "source": "baselocal",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-21T19:57:00-06:00",
+   "id": "a925034ba7c5a6ee",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
    "start": "2026-11-21T18:00:00-06:00",
-   "title": "Compass Songwriters Club Showcase",
-   "venue": "The Listening Room at Compass"
-  },
-  {
-   "_slug": "crafternoon-ladybird-craft-cafe-fccb3e",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "fccb3e15dc52d3a2",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy82YzM5ZDNjMzEwYzU1NTE4YjYzNjdmY2QxNWIyMGIxM2E1ZjYzNzY5YTc1NjhmMjVjNzA1ZTU0YTdjMTBiNzQ3LXJpbWctdzEyMDAtaDY3Ni1kY2Y4ZDg1OC1nbWlyP3Y9MTc5NDczNzE2MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-21T18:00:00-06:00",
-   "title": "Crafternoon @ Ladybird Craft Cafe!"
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
@@ -1381,6 +1610,20 @@
    "source": "mizzou",
    "start": "2026-11-21T18:30:00-06:00",
    "title": "Football - Missouri vs. Kentucky"
+  },
+  {
+   "_slug": "hayden-coffman-w-bryce-mauldin-bd9c86",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Singer/Songwriter Hayden Coffman is a rising star in the world of country music. With his soulful voice he has captured the hearts of audiences and critics alike with authentic lyrics, smooth vocals, and undeniable charisma. Hailing from Knoxville, TN, Hayden’s journey is deeply rooted in the tradit",
+   "end": "2026-11-21T23:30:00-06:00",
+   "id": "bd9c86e6ab2c4e7c",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb5a6449b9323bd2db1e48/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-21T19:00:00-06:00",
+   "title": "Hayden Coffman w/ Bryce Mauldin"
   },
   {
    "_slug": "ponies-improv-stripped-75585f",
@@ -1448,19 +1691,18 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "ambient-sleeping-bag-party-e5215b",
+   "_slug": "ambient-sleeping-bag-party-6d4e83",
    "categories": [
-    "community"
+    "party"
    ],
-   "category": "community",
-   "description": "Bring a sleeping bag, blanket, pillow, yoga mat, camping pad, or anything else that helps you make a comfortable nest on the floor. Settle in for an evening of ambient music in a cozy, dimly lit studio. Lie down, sit up, stretch, relax, talk quietly, or enjoy the music in silence. There is no agend…",
+   "category": "party",
+   "description": "Bring your sleeping bag. We’re turning the studio into one big cozy floor party, turning the lights down low, and spending the night listening to ambient music together. Lie down. Sit up. Bring pillows. Bring blankets. Stretch. Zone out. Talk quietly. Don’t talk at all. Fall asleep if you want. Ther",
    "end": "2026-11-21T23:00:00-06:00",
-   "id": "e5215bdda79b22bc",
-   "imageUrl": "https://comoevent.com/img/gen/c168c5213cd5a3.webp",
-   "source": "baselocal",
+   "id": "6d4e83232177d5a0",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb5e6949b9323bd20845b7/scaled_1152.jpg",
+   "source": "district",
    "start": "2026-11-21T20:00:00-06:00",
-   "title": "Ambient Sleeping Bag Party",
-   "venue": "Regulation CoMo"
+   "title": "Ambient Sleeping Bag Party"
   },
   {
    "_slug": "hayden-coffman-rose-music-hall-dcdb72",
@@ -1500,6 +1742,7 @@
    "_slug": "the-host-ff1098",
    "alsoOn": [
     "https://allevents.in/columbia/the-host/200031023437330",
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
     "https://columbiamo.macaronikid.com/events/6af5057233a6a0ab42dc8a68"
    ],
    "categories": [
@@ -1519,8 +1762,8 @@
   {
    "_slug": "live-hardcore-comedy-at-the-tokyo-club-columbia-s-own-lady-m-616a99",
    "alsoOn": [
-    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
    ],
    "categories": [
     "arts"
@@ -1550,6 +1793,21 @@
    "ticketUrl": "https://www.ticketmaster.com/nclusion-plus-presents-the-celebrity-drag-columbia-missouri-11-21-2026/event/06006546CBDDFC50",
    "title": "The Celebrity Drag Show",
    "venue": "The Blue Note"
+  },
+  {
+   "_slug": "wild-horse-nine-730dc9",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-21T22:57:00-06:00",
+   "id": "730dc9c58c470b44",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-21T21:00:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "nov-2026-vgc-go-league-challenge-tournaments-735e20",
@@ -1593,6 +1851,20 @@
    "venue": "Partner For Better"
   },
   {
+   "_slug": "annual-friends-family-sale-01af76",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "It’s the most wonderful time of the year at Poppy! Join us for our Annual Friends & Family Sale on Sunday, November 22rd, from 10a-4p! Nearly everything in the shop is discounted 20%, making it the perfect time to get started (or finish up) your holiday shopping. Grab your pals & meet us at the shop",
+   "end": "2026-11-22T16:00:00-06:00",
+   "id": "01af767a4e12ce0f",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb630049b9323bd237e6b1/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-22T10:00:00-06:00",
+   "title": "Annual Friends & Family Sale"
+  },
+  {
    "_slug": "yoga-at-partner-for-better-4c2697",
    "categories": [
     "community"
@@ -1608,52 +1880,19 @@
    "venue": "Partner For Better"
   },
   {
-   "_slug": "thanksgiving-community-dinner-4630d9",
+   "_slug": "being-heumann-0d6004",
    "categories": [
-    "food",
-    "religious"
+    "arts"
    ],
-   "category": "food",
-   "description": "Everyone is welcome to share a free Thanksgiving meal with the community. Dine in, arrange pickup, or choose delivery within Columbia. Please RSVP so organizers can plan for everyone, and feel free to invite someone who could use a meal or would enjoy sharing one and connecting with others.",
-   "end": "2026-11-22T14:30:00-06:00",
-   "id": "4630d9d2863230dd",
-   "imageUrl": "https://comoevent.com/img/gen/3ae634e2ae6240.webp",
-   "price": "Free",
-   "source": "baselocal",
-   "start": "2026-11-22T11:30:00-06:00",
-   "title": "Thanksgiving Community Dinner",
-   "venue": "Fairview Church of Christ"
-  },
-  {
-   "_slug": "chili-cookoff-e49549",
-   "categories": [
-    "party",
-    "sports",
-    "food"
-   ],
-   "category": "party",
-   "description": "Enjoy a football watch party and chili cook-off featuring homemade recipes in traditional, non-traditional, and spiciest categories. Prizes will be awarded, with winners announced at halftime. Fixings will be provided, and those competing should bring their chili.",
-   "id": "e49549cb8517e973",
-   "imageUrl": "https://comoevent.com/img/gen/4eab8529b2baf2.webp",
-   "source": "baselocal",
-   "start": "2026-11-22T12:00:00-06:00",
-   "title": "Chili Cookoff",
-   "venue": "CrossWay Church"
-  },
-  {
-   "_slug": "the-munchbox-f406a0",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "@ Get a taste of some Munch with a Punch! Serving a variety of food including sandwiches, tacos and more. The Munch Box keeps their menu and their food nice and fresh! Come see what all the munch is about!",
-   "end": "2026-11-22T20:00:00-06:00",
-   "id": "f406a09e405e9760",
-   "imageUrl": "https://comoevent.com/img/gen/9f71f037561dce.webp",
-   "source": "cooperslanding",
-   "start": "2026-11-22T12:00:00-06:00",
-   "title": "The Munchbox",
-   "venue": "Cooper's Landing"
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-22T14:37:00-06:00",
+   "id": "0d60040e5af4cd1b",
+   "imageUrl": "https://comoevent.com/img/gen/de2e207e9df085.webp",
+   "source": "ragtag",
+   "start": "2026-11-22T12:30:00-06:00",
+   "title": "Being Heumann",
+   "venue": "Ragtag Cinema"
   },
   {
    "_slug": "columbia-college-women-s-basketball-vs-haskell-indian-nation-313155",
@@ -1686,6 +1925,21 @@
    "venue": "Hexagon Alley"
   },
   {
+   "_slug": "you-can-see-everything-efb575",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-22T15:54:00-06:00",
+   "id": "efb575a67ab95539",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-22T13:00:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "beginning-sewing-with-como-craftcycle-89e0ab",
    "categories": [
     "campus"
@@ -1702,8 +1956,23 @@
    "venue": "Columbia Public Library"
   },
   {
+   "_slug": "pop-up-prenatal-class-a72e1e",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Join Katie for a pop-up prenatal class that is designed to make you feel as comfortable as possible, while you're doing the ~oh so amazing~ work of growing a human. The class is for all-trimesters with meditation, pranayama, and gentle and mindful movements that will support your pregnancy. No exper",
+   "end": "2026-11-22T14:30:00-06:00",
+   "id": "a72e1e5d01b47b82",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb64b249b9323bd249d044/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-22T13:30:00-06:00",
+   "title": "Pop-up Prenatal Class"
+  },
+  {
    "_slug": "color-me-merry-66bb5a",
    "alsoOn": [
+    "https://tockify.com/the.district.cid/detail/1461/1795377600000",
     "https://allevents.in/columbia/color-me-merry/100002004101275865"
    ],
    "categories": [
@@ -1756,21 +2025,6 @@
    "venue": "TRYPS Children’s Theater (Show 3)"
   },
   {
-   "_slug": "the-stoplight-flyers-ca31ad",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "@ Get ready for an afternoon of twangy, folk-infused Americana as The Stoplight Flyers take the stage at Cooper’s Landing!",
-   "end": "2026-11-22T17:00:00-06:00",
-   "id": "ca31ad6f86e9eedb",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/02/The-Stoplight-Flyers.jpg",
-   "source": "cooperslanding",
-   "start": "2026-11-22T14:00:00-06:00",
-   "title": "The Stoplight Flyers",
-   "venue": "Cooper's Landing"
-  },
-  {
    "_slug": "sai-iota-lambda-chapter-meeting-time-19b93c",
    "categories": [
     "campus"
@@ -1785,18 +2039,62 @@
    "venue": "Sinquefield Music Center"
   },
   {
-   "_slug": "salvation-army-s-como-christmas-parade-0a5f23",
+   "_slug": "cancelled-salvation-army-s-como-christmas-parade-0a5f23",
    "categories": [
     "community"
    ],
    "category": "community",
+   "description": "This event has been cancelled by the organizers.",
    "end": "2026-11-22T16:00:00-06:00",
    "id": "0a5f2363485b8bbe",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6acd5232341549b5ae4df3d0/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-22T15:00:00-06:00",
-   "title": "Salvation Army's Como Christmas Parade",
+   "title": "CANCELLED: Salvation Army's Como Christmas Parade",
    "venue": "Downtown Columbia"
+  },
+  {
+   "_slug": "collage-without-a-cause-107f9e",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Collage Without a Cause happens every Sunday! Cut up magazines, glue things to other things, and see what happens. We’ll have all the supplies you need, but feel free to bring magazines, photos, paper, stickers, or other stuff you want to use. Sundays 3–6pm $8 • All supplies included Ladybird Tradin",
+   "end": "2026-11-22T18:00:00-06:00",
+   "id": "107f9e1b2ed0b156",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb624549b9323bd2300df5/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-22T15:00:00-06:00",
+   "title": "Collage Without a Cause"
+  },
+  {
+   "_slug": "once-upon-a-time-in-harlem-e5caff",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-22T17:10:00-06:00",
+   "id": "e5caffdaea5b0026",
+   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
+   "source": "ragtag",
+   "start": "2026-11-22T15:30:00-06:00",
+   "title": "Once Upon a Time in Harlem",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "partner-yoga-5c5164",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Deepen your connection with your partner or a friend, tune in to their body and learn where they are tense or needing support! This session will guide you through some breath work, fun partner poses all while helping you gain more flexibility and mental clarity. All levels are welcome! $25 per pair",
+   "end": "2026-11-22T17:00:00-06:00",
+   "id": "5c51641fab8441c1",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb641d49b9323bd2445a67/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-22T16:00:00-06:00",
+   "title": "Partner Yoga"
   },
   {
    "_slug": "dining-in-the-alley-with-artemis-grey-418d2a",
@@ -1814,8 +2112,24 @@
    "venue": "Hexagon Alley"
   },
   {
+   "_slug": "wild-horse-nine-3e0d37",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-22T18:42:00-06:00",
+   "id": "3e0d37451a4a3704",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-22T16:45:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
+  },
+  {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
     "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
    ],
    "categories": [
@@ -1823,6 +2137,7 @@
    ],
    "category": "music",
    "description": "Compass Inc. Presents",
+   "end": "2026-11-22T20:00:00-06:00",
    "id": "d1ea38509dcf299f",
    "imageUrl": "https://comoevent.com/img/gen/p-a8108b618e92e0.webp",
    "source": "bluenote",
@@ -1830,6 +2145,48 @@
    "ticketUrl": "https://www.ticketmaster.com/intergenerational-rock-band-choir-columbia-missouri-11-22-2026/event/06006530CF05F0D4",
    "title": "Intergenerational Rock Band Choir",
    "venue": "The Blue Note"
+  },
+  {
+   "_slug": "wild-horse-nine-781770",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-22T19:57:00-06:00",
+   "id": "781770dd7987f6cc",
+   "imageUrl": "https://comoevent.com/img/gen/dc686b87170283.webp",
+   "source": "ragtag",
+   "start": "2026-11-22T18:00:00-06:00",
+   "title": "Wild Horse Nine",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "you-can-see-everything-977c69",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
+   "end": "2026-11-22T22:24:00-06:00",
+   "id": "977c6962dd968ab4",
+   "imageUrl": "https://comoevent.com/img/gen/3b4a9dd229a4bd.webp",
+   "source": "ragtag",
+   "start": "2026-11-22T19:30:00-06:00",
+   "title": "You Can See Everything",
+   "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "annual-friends-family-holiday-sale-at-poppy-ab0996",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "id": "ab0996057dfc246e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9kMTE5ZDVhZTUzYjlkMWUyMDUwODc3OGMwYmRiMTI3ZDI1YjU1NDFmOTNlMjg5M2NhMjIyOGY1MjczNmUxODllLXJpbWctdzEyMDAtaDkwMS1kY2Q4YzhhOC1nbWlyP3Y9MTc5NDg2MjEzMA.avif",
+   "source": "allevents",
+   "start": "2026-11-22T20:00:00-06:00",
+   "title": "Annual Friends & Family Holiday Sale at Poppy! ✨"
   }
  ],
  "friday": "2026-11-20",
@@ -1837,14 +2194,14 @@
  "picks": [
   "0b326556f0f4f2d6",
   "d6be9bf5e704db23",
+  "40f3eb628a6adde1",
   "e5f8d31b644e56cf",
   "47545a4c2d1feb4f",
-  "b317c05abbba97c4",
+  "a9230b9bf867b12c",
   "75585f338b675add",
   "d8c2ac86fc0f2f30",
   "dcdb7208f11d2ea8",
-  "616a99c75ecef11a",
-  "d1ea38509dcf299f"
+  "616a99c75ecef11a"
  ],
  "published": "2026-11-16"
 }
