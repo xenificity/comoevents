@@ -22,7 +22,7 @@
 <link rel="apple-touch-icon" href="img/icon-512.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.css" integrity="sha512-DBNed2oEjOrfIRj8Czuzs7padWawLWbA64OoDekn8gs2a3J6WOaR5xXfnFgaxKGpxIuSn/rAo/PsgOgO6PZ/vA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <script>try{document.documentElement.dataset.theme=localStorage.getItem("theme")==="dark"?"dark":"light"}catch(e){}</script>
-<link rel="stylesheet" href="app.css?v=20">
+<link rel="stylesheet" href="app.css?v=22">
 </head>
 <body>
 <noscript><p style="padding:16px;font-family:sans-serif">The live map needs JavaScript. <a href="/e/">Browse all upcoming events in Columbia, MO</a>.</p></noscript>
@@ -34,6 +34,7 @@
       <div class="glass capsule seg" id="audiences"></div>
       <div class="glass capsule seg" id="windows"></div>
       <div class="glass capsule count" id="count"><i class="ic" data-ic="pin"></i><b id="count-n">…</b><span id="count-upd"></span></div>
+      <div class="gameday-slot map" id="gameday-map"></div>
       <div class="legend" id="categories"></div>
     </div>
     <div class="map-bottom">
@@ -58,6 +59,7 @@
       <div class="glass capsule search"><i class="ic" data-ic="search"></i><input id="search" type="search" placeholder="Search anything: tech, temple, jazz, free…" autocomplete="off"></div>
       <div class="glass capsule seg wide" id="audiences2"></div>
       <div class="chips" id="categories2"></div>
+      <div class="gameday-slot" id="gameday-up"></div>
       <div id="foryou"></div>
       <div class="cards" id="upcoming-list"></div>
       <nav class="seo-browse" aria-label="Browse events in Columbia, MO"><h3>Browse events in Columbia, MO</h3><!--season--><a href="/thanksgiving/">Thanksgiving 2026</a><a href="/christmas/">Christmas 2026</a><!--/season--><a href="/tonight/">Today &amp; tonight</a><a href="/this-weekend/">This weekend</a><a href="/free/">Free events</a><a href="/music/">Live music</a><a href="/family/">Family &amp; kids</a><a href="/nightlife/">Nightlife</a><a href="/arts/">Arts, theater &amp; film</a><a href="/food/">Food &amp; drink</a><a href="/sports/">Sports</a><a href="/faith/">Church &amp; faith</a><a href="/mizzou/">Mizzou events</a><a href="/weekend-guide/">Weekend guide</a><a href="/venues/">Venues</a><a href="/e/">Full calendar</a></nav>
@@ -65,16 +67,27 @@
     </div>
   </section>
 
+  <!-- Places: everyday spots (bowling, escape rooms, parks and trails, museums, coffee, bars, shopping) -->
+  <section class="screen page" id="screen-places" hidden>
+    <div class="page-inner">
+      <header class="page-head"><h1>Places</h1></header>
+      <div class="glass capsule search"><i class="ic" data-ic="search"></i><input id="place-search" type="search" placeholder="Bowling, trails, coffee, escape room…" autocomplete="off"></div>
+      <div class="chips" id="place-cats"></div>
+      <div class="chips" id="place-tags"></div>
+      <div class="cards places" id="places-list"></div>
+      <p class="feed-note">Places come from Visit Columbia's directory and our own list. Check hours before you go.</p>
+    </div>
+  </section>
   <section class="screen page" id="screen-saved" hidden>
     <div class="page-inner">
-      <header class="page-head"><h1>Saved</h1></header>
+      <header class="page-head"><h1>Saved</h1><div class="head-actions"><button class="glass capsule label" id="friends-btn" type="button"><i class="ic" data-ic="people"></i><span>Friends</span></button></div></header>
       <div class="cards" id="saved-list"></div>
     </div>
   </section>
 
   <section class="screen page" id="screen-friends" hidden>
     <div class="page-inner">
-      <header class="page-head"><h1>Friends</h1></header>
+      <header class="page-head"><h1>Friends</h1><div class="head-actions"><button class="glass capsule label" id="friends-back" type="button"><i class="ic" data-ic="heart"></i><span>Saved</span></button></div></header>
       <div id="friends"></div>
     </div>
   </section>
@@ -90,8 +103,8 @@
   <nav class="tabbar glass" id="tabbar">
     <button data-tab="map" class="on" type="button"><i class="ic" data-ic="map"></i><span>Map</span></button>
     <button data-tab="upcoming" type="button"><i class="ic" data-ic="sparkles"></i><span>Upcoming</span></button>
+    <button data-tab="places" type="button"><i class="ic" data-ic="explore"></i><span>Places</span></button>
     <button data-tab="saved" type="button"><i class="ic" data-ic="heart"></i><span>Saved</span><b class="badge" id="saved-badge" hidden></b></button>
-    <button data-tab="friends" type="button"><i class="ic" data-ic="people"></i><span>Friends</span></button>
     <button data-tab="profile" type="button"><i class="ic" data-ic="person"></i><span>Profile</span></button>
   </nav>
 
@@ -149,6 +162,7 @@
 <script src="cloud.js?v=18"></script>
 <script src="/gc.js?v=1" defer></script>
 <script src="search.js?v=1"></script>
-<script src="app.js?v=26"></script>
+<script src="app.js?v=27"></script>
+<script src="extras.js?v=4"></script>
 </body>
 </html>

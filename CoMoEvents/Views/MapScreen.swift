@@ -32,7 +32,7 @@ struct MapScreen: View {
     private var zoomedIn: Bool { cameraDistance <= 6000 }
     /// Everything the cached lists depend on, in one value so a single onChange covers it.
     private var inputs: String {
-        "\(window.rawValue)|\(categories.map(\.rawValue).sorted().joined())|\(store.audience?.rawValue ?? "")|\(store.events.count)|\(store.generatedAt?.timeIntervalSince1970 ?? 0)|\(String(format: "%.5f", cellDegrees))"
+        "\(window.rawValue)|\(categories.map(\.rawValue).sorted().joined())|\(store.audience?.rawValue ?? "")|\(store.freeFoodOnly)|\(store.events.count)|\(store.generatedAt?.timeIntervalSince1970 ?? 0)|\(String(format: "%.5f", cellDegrees))"
     }
 
     private func recompute() {
@@ -121,6 +121,8 @@ struct MapScreen: View {
                     .font(.caption)
                     .padding(.horizontal, 12).padding(.vertical, 6)
                     .glass(Capsule())
+
+                    GameDayBanner()
 
                     CategoryLegend(selected: $categories)
                         .padding(.horizontal, -12)
@@ -311,12 +313,39 @@ struct HotspotPin: View {
     }
 }
 
+/// "Free food" toggle: events that mention free pizza, snacks or a meal.
+struct FreeFoodChip: View {
+    @EnvironmentObject var store: EventStore
+    var compact = false
+    var body: some View {
+        let on = store.freeFoodOnly
+        Button {
+            SoundPlayer.tap()
+            withAnimation(.snappy(duration: 0.25)) { store.freeFoodOnly.toggle() }
+            if store.freeFoodOnly { Analytics.tap("free-food") }
+        } label: {
+            HStack(spacing: 5) {
+                Image(systemName: "fork.knife").font(.system(size: compact ? 11 : 12, weight: .bold)).foregroundStyle(.white)
+                    .frame(width: 22, height: 22).background(Category.food.color, in: Circle())
+                Text("Free food").font(compact ? .caption2.weight(.bold) : .caption.weight(.bold))
+            }
+            .padding(.leading, 4).padding(.trailing, 10).padding(.vertical, compact ? 4 : 6)
+            .foregroundStyle(on ? Theme.ink : .primary)
+            .glass(Capsule(), tint: on ? Theme.yellow : nil, interactive: true)
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel("Free food only")
+        .accessibilityAddTraits(on ? .isSelected : [])
+    }
+}
+
 /// Small legend so the symbols explain themselves.
 struct CategoryLegend: View {
     @Binding var selected: Set<Category>
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 6) {
+                FreeFoodChip(compact: true)
                 ForEach(Category.allCases) { c in
                     let on = selected.contains(c)
                     Button {

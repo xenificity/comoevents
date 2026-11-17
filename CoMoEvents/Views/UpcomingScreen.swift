@@ -15,7 +15,7 @@ struct UpcomingScreen: View {
     @State private var personalPicks = false
 
     private var inputs: String {
-        "\(search)|\(categories.map(\.rawValue).sorted().joined())|\(store.audience?.rawValue ?? "")|\(store.events.count)|\(store.generatedAt?.timeIntervalSince1970 ?? 0)|\(account.profile.interests.sorted().joined())|\(store.favorites.count)|\(attendance.mine.count)"
+        "\(search)|\(categories.map(\.rawValue).sorted().joined())|\(store.audience?.rawValue ?? "")|\(store.freeFoodOnly)|\(store.events.count)|\(store.generatedAt?.timeIntervalSince1970 ?? 0)|\(account.profile.interests.sorted().joined())|\(store.favorites.count)|\(attendance.mine.count)"
     }
     private func recompute() {
         let smart = SmartSearch.shared
@@ -50,7 +50,7 @@ struct UpcomingScreen: View {
                 Theme.page
                 EventCardList(events: list,
                               emptyText: rankedTitle == nil ? "Nothing matches. Try another filter." : "Nothing found. Try a simpler word, like music, church or tech.",
-                              header: AnyView(VStack(spacing: 8) { AudienceBar(); chips; forYou }),
+                              header: AnyView(VStack(spacing: 8) { AudienceBar(); chips; GameDayBanner(); forYou }),
                               rankedTitle: rankedTitle)
                     .refreshable { await store.refresh() }
             }
@@ -111,6 +111,7 @@ struct UpcomingScreen: View {
     private var chips: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
+                FreeFoodChip()
                 ForEach(Category.allCases) { c in
                     let on = categories.contains(c)
                     Button {

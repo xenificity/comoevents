@@ -164,3 +164,22 @@ Read README.md first. Short version:
   so pins don't show through the glass.
 - Geotagging: aggregate.py `split_place()` splits "Name · address" / "Room | Building" venue strings, and the geocoder retries with
   `building_name()` (room numbers and university boilerplate removed). Add missing buildings to venues.json.
+- Tonight's pick (Nov 2026, 1.2.3): `NotificationService` queues one local notification per evening at 7 PM for the next
+  21 days (iOS caps pending requests at 64: 21 picks + max 40 saved-event reminders). On by default with provisional
+  authorization (no prompt; delivered quietly to Notification Center); Profile has the off switch and "Show them on my
+  Lock Screen" (the real prompt). Pick = best `baseRank` event starting 6:30 PM-midnight that day (+photo, +badge,
+  +music/nightlife/party/arts/food, -religious), no repeat title within the queue; first 3 nights get a JPEG attachment
+  (WebP re-encoded, cached in Caches/notif). BGAppRefresh `com.xenificity.comoevents.refresh` (Info.plist
+  BGTaskSchedulerPermittedIdentifiers + UIBackgroundModes fetch) re-fetches the feed in the afternoon via
+  `EventStore.fetchLive()`. Taps count as `click/notif-pick`. Test in a Debug build:
+  `SIMCTL_CHILD_PICK_TEST=1 xcrun simctl launch booted com.xenificity.comoevents` fires the pick 10 s later.
+- Version 1.3 (Nov 2026), app and web:
+  - Places tab: `scripts/build_places.py` builds `docs/places.json` (+ app snapshot `CoMoEvents/Resources/places.json`) from Visit Columbia's directory API plus `feed/places-extra.json` (hand rows win). Friends moved under Saved (toolbar button / `router.showFriends`; web `#friends-btn`).
+  - Free food: `freefood` concept in feed/search.json tags events; `store.freeFoodOnly` (iOS) / `state.freeFood` (web) filter map + Upcoming.
+  - Worker (no sign-in): `POST /report` + `GET /fixes` (KV `rep:<event>:<kind>:<value>:<reporter>`; a fix needs 3 distinct reporters; aggregate.py `apply_user_fixes` applies time/place/cancelled each run). `POST /invite`, `GET /invite/<id>`, `POST /invite/<id>/rsvp` (KV `inv:<id>`, deleted a week after the event); invite page `docs/in/index.html`.
+  - Game day: `GameDay.swift` / `docs/extras.js` homeGame + plan (preview: Debug env `GAMEDAY=2026-11-21`, web `?gameday=2026-11-21`). Links: comoevents://places, freefood, gameday, weekend.
+  - Weekend digest: NotificationService `weekendRequests` (Thu 6 PM, Fri 3 PM, 3 weekends; picks 14 days so pending stays under 64). Test: `SIMCTL_CHILD_WEEKEND_TEST=1`.
+  - Story picture: `StoryCard` (iOS, 1080x1920, share sheet → Instagram Stories) and `storyShare` in docs/extras.js (canvas).
+  - Siri: `Intents/MoreIntents.swift` (Weekend, FreeFood, GameDay, OpenPlaces).
+  - Debug-only test overrides: `SIMCTL_CHILD_FEED_URL=http://localhost:8765/events.json`, `SIMCTL_CHILD_WORKER_URL=http://localhost:8799` (wrangler dev --local --var DEV:1); web: localStorage `como.api`.
+  - New feed sources: valhallasgate + hexagonalley (ICS_SITES), src_divebar, src_cps (school arts), src_weekly (`feed/weekly.json`), src_pierpont. Daily check: `scripts/check_feed.py`.

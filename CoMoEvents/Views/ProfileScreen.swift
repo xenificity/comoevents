@@ -252,12 +252,25 @@ struct ProfileScreen: View {
             }.tint(Theme.gold)
             Toggle(isOn: Binding(get: { notifications.digestOn }, set: { on in Task { await setNotif(reminders: nil, digest: on) } })) {
                 VStack(alignment: .leading) {
-                    Text("Tonight in CoMo").font(.subheadline.weight(.semibold))
-                    Text("A 4 PM heads-up with what's on this evening.").font(.caption).foregroundStyle(.secondary)
+                    Text("Tonight's pick").font(.subheadline.weight(.semibold))
+                    Text("One event worth going to, every evening at 7 PM.").font(.caption).foregroundStyle(.secondary)
                 }
             }.tint(Theme.gold)
-            if (notifications.remindersOn || notifications.digestOn) && !notifications.authorized {
+            Toggle(isOn: Binding(get: { notifications.weekendOn }, set: { on in Task { await setNotif(reminders: nil, digest: nil, weekend: on) } })) {
+                VStack(alignment: .leading) {
+                    Text("Weekend picks").font(.subheadline.weight(.semibold))
+                    Text("Three picks for the weekend from what you save, Thursday at 6 PM and Friday at 3 PM.").font(.caption).foregroundStyle(.secondary)
+                }
+            }.tint(Theme.gold)
+            if (notifications.remindersOn || notifications.digestOn || notifications.weekendOn) && !notifications.authorized && notifications.status != .notDetermined {
                 Text("Notifications are off for CoMo Events in Settings.").font(.caption).foregroundStyle(.red)
+            } else if (notifications.digestOn || notifications.weekendOn) && notifications.isQuiet {
+                Button {
+                    Task { _ = await notifications.requestAuthorization(); await notifications.reschedule(favorites: store.favoriteEvents, all: store.events) }
+                } label: {
+                    Label("Show them on my Lock Screen", systemImage: "bell.badge").font(.caption.weight(.bold))
+                }
+                Text("They arrive quietly in Notification Center for now.").font(.caption).foregroundStyle(.secondary)
             }
             Toggle(isOn: $soundsOn) {
                 VStack(alignment: .leading) {
@@ -271,12 +284,13 @@ struct ProfileScreen: View {
         .glass(RoundedRectangle(cornerRadius: 24, style: .continuous))
     }
 
-    private func setNotif(reminders: Bool?, digest: Bool?) async {
-        if (reminders ?? false) || (digest ?? false) {
-            if !notifications.authorized { _ = await notifications.requestAuthorization() }
+    private func setNotif(reminders: Bool?, digest: Bool?, weekend: Bool? = nil) async {
+        if (reminders ?? false) || (digest ?? false) || (weekend ?? false) {
+            if notifications.status != .authorized { _ = await notifications.requestAuthorization() }
         }
         if let reminders { notifications.remindersOn = reminders }
         if let digest { notifications.digestOn = digest }
+        if let weekend { notifications.weekendOn = weekend }
         await notifications.reschedule(favorites: store.favoriteEvents, all: store.events)
     }
 

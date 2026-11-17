@@ -6,6 +6,7 @@ struct EventDetailView: View {
     @EnvironmentObject var friends: FriendsStore
     @EnvironmentObject var community: CommunityStore
     @EnvironmentObject var attendance: AttendanceStore
+    @EnvironmentObject var account: AccountManager
     @Environment(\.openURL) private var openURL
     let event: Event
     @State private var shareItems: [Any]?
@@ -14,6 +15,10 @@ struct EventDetailView: View {
     @State private var reportSheet = false
     @State private var reportMessage: String?
     @State private var confirmBlock = false
+    @State private var showProblem = false
+    @State private var askInviteName = false
+    @State private var inviteName = ""
+    @State private var working = false
     @Environment(\.dismiss) private var dismissView
 
     var body: some View {
@@ -25,6 +30,8 @@ struct EventDetailView: View {
                     VStack(alignment: .leading, spacing: 18) {
                         facts
                         attendanceCard
+                        WhosInCard(event: event) { startInvite() }
+                        whosInRow
                         if let c = event.coordinate {
                             Map(initialPosition: .region(MKCoordinateRegion(center: c, latitudinalMeters: 900, longitudinalMeters: 900)),
                                 interactionModes: []) {
@@ -84,6 +91,13 @@ struct EventDetailView: View {
                 Menu {
                     Button { share() } label: { Label("Share", systemImage: "square.and.arrow.up") }
                     Button { Task { await addToCalendar() } } label: { Label("Add to Calendar", systemImage: "calendar.badge.plus") }
+                    Button { Task { await shareStory() } } label: { Label("Share to Instagram Story", systemImage: "camera.circle") }
+                    if event.effectiveEnd >= Date() {
+                        Button { startInvite() } label: { Label("Who's in? Invite friends", systemImage: "person.2.badge.plus") }
+                    }
+                    if !event.isCommunity {
+                        Button(role: .destructive) { showProblem = true } label: { Label("Report a problem", systemImage: "exclamationmark.bubble") }
+                    }
                     if event.isCommunity {
                         Button(role: .destructive) { reportSheet = true } label: { Label("Report this post", systemImage: "flag") }
                         if event.submitterID != nil {
@@ -99,6 +113,13 @@ struct EventDetailView: View {
             if let items = shareItems { ActivitySheet(items: items).presentationDetents([.medium, .large]) }
         }
         .sheet(isPresented: $showCalendar) { CalendarEditSheet(event: event).ignoresSafeArea() }
+        .sheet(isPresented: $showProblem) { ReportProblemView(event: event) { reportMessage = $0 } }
+        .alert("Who's in?", isPresented: $askInviteName) {
+            TextField("Your first name", text: $inviteName).textInputAutocapitalization(.words)
+            Button("Make invite link") { Task { await sendInvite(host: inviteName) } }
+            Button("Cancel", role: .cancel) {}
+        } message: { Text("Friends open the link in any browser and tap “I'm in”. No app needed. Your first name shows on the invite.") }
+        .overlay { if working { ProgressView().padding(20).glass(RoundedRectangle(cornerRadius: 16)) } }
         .alert("Calendar access is off", isPresented: $calendarDenied) {
             Button("Open Settings") { if let u = URL(string: UIApplication.openSettingsURLString) { openURL(u) } }
             Button("Cancel", role: .cancel) {}
@@ -108,7 +129,7 @@ struct EventDetailView: View {
                 Button(reason) { Task { reportMessage = (await community.report(event, reason: reason)) ?? "Thanks. A moderator will take a look." } }
             }
         }
-        .alert("Report", isPresented: Binding(get: { reportMessage != nil }, set: { if !$0 { reportMessage = nil } })) { Button("OK") {} } message: { Text(reportMessage ?? "") }
+        .alert("CoMo Events", isPresented: Binding(get: { reportMessage != nil }, set: { if !$0 { reportMessage = nil } })) { Button("OK") {} } message: { Text(reportMessage ?? "") }
         .confirmationDialog("Block this poster?", isPresented: $confirmBlock, titleVisibility: .visible) {
             Button("Block and hide their posts", role: .destructive) {
                 community.block(submitterOf: event)
@@ -129,12 +150,56 @@ struct EventDetailView: View {
         shareItems = items
     }
 
+    /// "Who's in?": use the profile name, or ask once.
+    private func startInvite() {
+        let name = account.profile.displayName.isEmpty ? (UserDefaults.standard.string(forKey: "como.inviteName") ?? "") : account.profile.displayName
+        if name.isEmpty { inviteName = ""; askInviteName = true } else { Task { await sendInvite(host: name) } }
+    }
+
+    private func sendInvite(host: String) async {
+        let host = host.trimmingCharacters(in: .whitespaces)
+        guard !host.isEmpty else { return }
+        UserDefaults.standard.set(host, forKey: "como.inviteName")
+        working = true
+        defer { working = false }
+        do { shareItems = try await WhosIn.shareText(for: event, host: host); await InviteStore.shared.refresh(event) }
+        catch { reportMessage = error.localizedDescription }
+    }
+
+    /// A 1080 x 1920 picture for Instagram Stories. The share sheet's Instagram button offers "Stories".
+    private func shareStory() async {
+        Analytics.tap("story-share")
+        working = true
+        defer { working = false }
+        if let img = await StoryShare.image(for: event) { shareItems = [img] }
+    }
+
     private func addToCalendar() async {
         Analytics.tap("calendar")
         if await CalendarAccess.requestWriteAccess() { showCalendar = true } else { calendarDenied = true }
     }
 
     // MARK: pieces
+
+    /// "Who's in?" until an invite exists (then WhosInCard shows the answers).
+    @ViewBuilder private var whosInRow: some View {
+        if event.effectiveEnd >= Date() && InviteStore.shared.byEvent[event.id] == nil {
+            Button { startInvite() } label: {
+                HStack(spacing: 10) {
+                    Image(systemName: "person.2.badge.plus").font(.title3).foregroundStyle(Theme.gold)
+                    VStack(alignment: .leading, spacing: 1) {
+                        Text("Who's in?").font(.subheadline.weight(.bold))
+                        Text("Send friends a link. They tap “I'm in”, no app needed.").font(.caption).foregroundStyle(.secondary)
+                    }
+                    Spacer()
+                    Image(systemName: "chevron.right").font(.caption.weight(.bold)).foregroundStyle(.secondary)
+                }
+                .padding(14)
+                .glass(RoundedRectangle(cornerRadius: 18, style: .continuous), interactive: true)
+            }
+            .buttonStyle(.plain)
+        }
+    }
 
     private var hero: some View {
         Color.clear
@@ -241,14 +306,17 @@ struct EventDetailView: View {
         HStack(spacing: 10) {
             if let link = event.primaryLink {
                 Button { Analytics.tap(event.ticketUrl != nil ? "tickets" : "more-info"); openURL(link) } label: {
-                    Label(event.ticketUrl != nil ? "Tickets / Register" : "More info", systemImage: "arrow.up.right")
+                    // One line, whatever the width: with Call and Directions the bar has six buttons
+                    Label(event.ticketUrl != nil ? "Tickets" : "More info", systemImage: "arrow.up.right")
                         .font(.subheadline.weight(.bold))
+                        .lineLimit(1).minimumScaleFactor(0.75)
                         .foregroundStyle(Theme.ink)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 14)
                         .background(Theme.yellow, in: Capsule())
                 }
                 .buttonStyle(CardPressStyle())
+                .layoutPriority(1)
             }
             roundButton("square.and.arrow.up") { share() }
             roundButton("calendar.badge.plus") { Task { await addToCalendar() } }

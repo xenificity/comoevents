@@ -18,6 +18,8 @@ final class EventStore: ObservableObject {
     @Published private(set) var lastError: String?
     /// Who-is-it-for filter, shared by the Map and Upcoming tabs.
     @Published var audience: Audience? = nil
+    /// "Free food" filter, shared by the map and Upcoming.
+    @Published var freeFoodOnly = false
     @Published private(set) var favorites: Set<String> {
         didSet {
             UserDefaults.standard.set(Array(favorites), forKey: "favorites")
@@ -34,7 +36,13 @@ final class EventStore: ObservableObject {
     func replaceFavorites(_ ids: [String]) { favorites = Set(ids) }
 
     /// Where the self-updating feed lives once the repo is on GitHub (Actions rebuilds it on a schedule).
-    static let remoteURL = URL(string: "https://raw.githubusercontent.com/xenificity/comoevents/main/feed/events.json")!
+    nonisolated static let remoteURL: URL = {
+        #if DEBUG
+        // Testing against a local feed: SIMCTL_CHILD_FEED_URL=http://localhost:8765/events.json
+        if let s = ProcessInfo.processInfo.environment["FEED_URL"], let u = URL(string: s) { return u }
+        #endif
+        return URL(string: "https://raw.githubusercontent.com/xenificity/comoevents/main/feed/events.json")!
+    }()
 
     private var loaded = false
 
@@ -78,6 +86,18 @@ final class EventStore: ObservableObject {
         }
     }
 
+    /// The live feed without touching the store (background refresh, where no view is running). Saves it to the cache.
+    nonisolated static func fetchLive() async -> [Event]? {
+        var req = URLRequest(url: remoteURL)
+        req.cachePolicy = .reloadIgnoringLocalCacheData
+        req.timeoutInterval = 20
+        guard let (data, resp) = try? await URLSession.shared.data(for: req),
+              (resp as? HTTPURLResponse)?.statusCode == 200,
+              let feed = await decode(data) else { return nil }
+        FeedCache.save(data)
+        return feed.events
+    }
+
     /// JSON decoding of ~1,000 events takes a noticeable slice of a second; keep it off the main thread.
     nonisolated private static func decode(_ data: Data) async -> Feed? {
         await Task.detached(priority: .userInitiated) { try? JSONDecoder().decode(Feed.self, from: data) }.value
@@ -115,6 +135,7 @@ final class EventStore: ObservableObject {
             window.contains(e, now: now)
             && e.suits(audience)
             && e.belongs(to: categories)
+            && (!freeFoodOnly || e.isFreeFood)
             && (q.isEmpty || e.title.lowercased().contains(q) || (e.venue ?? "").lowercased().contains(q))
         }
     }

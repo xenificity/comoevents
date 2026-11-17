@@ -127,6 +127,8 @@ struct Event: Codable, Identifiable, Hashable {
     }
 
     var isCommunity: Bool { source == "community" }
+    /// Mentions free food (feed tag "freefood", from feed/search.json; "~" = only the description says so).
+    var isFreeFood: Bool { tags.contains("freefood") || tags.contains("freefood~") }
     /// Stable link for sharing and Spotlight: opens the app on this event.
     var deepLink: URL { URL(string: "comoevents://event/\(id)")! }
     var shareText: String {

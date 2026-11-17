@@ -358,3 +358,45 @@ a{color:inherit}
 .placehead b{display:block;font-size:14px}
 .placehead small{display:block;color:var(--muted);font-size:12px;margin-top:2px}
 .ylink.small{height:auto;margin:0;padding:7px 12px;font-size:13px;white-space:nowrap}
+
+/* ---------- 1.3: Places, Who's in?, reports, game day ---------- */
+.chip.freefood .dot{background:var(--food)}
+.chips .chip.small{padding:6px 12px}
+.xsheet{position:fixed;inset:0;z-index:60;display:flex;align-items:flex-end;justify-content:center;background:rgba(0,0,0,.28)}
+.xsheet-card{width:100%;max-width:640px;max-height:86vh;overflow-y:auto;border-radius:28px 28px 0 0;padding:14px 18px calc(22px + env(safe-area-inset-bottom));background:var(--page,rgba(255,255,255,.94));animation:up .25s ease-out}
+.xsheet-card header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.xsheet-card header h2{margin:0;font-size:22px}
+.xsheet-card header .circle{transform:rotate(-90deg)}
+.xsheet-body .hint{color:var(--muted);font-size:13.5px;margin:0 0 12px}
+.report-form label.opt{flex-direction:row;align-items:center;gap:10px;font-size:15px;color:var(--text);padding:6px 2px}
+.report-form label.opt input{width:20px;height:20px;accent-color:var(--gold)}
+.report-form label.sub{margin:-2px 0 6px 30px}
+.whosin{display:flex;align-items:center;gap:12px;margin-top:12px}
+.whosin>.ic{font-size:22px;color:var(--gold)}
+.whosin>div{flex:1;display:flex;flex-direction:column;gap:2px}
+.whosin small{color:var(--muted)}
+.gameday-slot{padding:4px 0}
+.gameday-slot.map{padding:0;display:flex;justify-content:center}
+.gameday-slot.map:empty{display:none}
+.gameday{display:flex;align-items:center;gap:10px;padding:8px 14px 8px 8px;border-radius:999px;font:inherit;color:var(--text);cursor:pointer;max-width:92vw;background:linear-gradient(90deg,rgba(255,214,10,.92),rgba(255,159,10,.85))!important;border:0}
+.gameday .gd-ic{width:34px;height:34px;border-radius:50%;background:#14121f;color:#ffd60a;display:grid;place-items:center;font-size:18px;flex:none}
+.gameday .gd-t{display:flex;flex-direction:column;align-items:flex-start;min-width:0;text-align:left}
+.gameday .gd-t b{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:#14121f}
+.gameday .gd-t span{font-size:13.5px;font-weight:700;color:#14121f;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62vw}
+.gameday .gd-go{font-weight:800;font-size:13px;color:#14121f;white-space:nowrap}
+.gd-section h3{display:flex;align-items:center;gap:6px;font-size:17px;margin:14px 0 8px}
+.gd-section h3 .ic{color:var(--gold)}
+.gd-section .strip{margin:0 -18px;padding:4px 18px 10px}
+.cards.places .place h3{margin:0;font-size:17px}
+.place-head{display:flex;gap:12px;align-items:center}
+.place-head small{color:var(--muted);font-size:12px}
+.pdot{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;color:#fff;font-size:20px;flex:none;background:var(--community)}
+.pdot.fun{background:var(--party)}.pdot.outdoors{background:var(--family)}.pdot.culture{background:var(--arts)}
+.pdot.coffee{background:var(--religious)}.pdot.nightlife{background:var(--nightlife)}.pdot.shopping{background:var(--sports)}
+.place p{margin:10px 0 6px;font-size:14px;line-height:1.4}
+.place .addr{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--muted)}
+.place-btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.place-btns a{text-decoration:none;color:var(--text)}
+.place-events{margin-top:12px}
+.place-events b{display:flex;align-items:center;gap:6px;font-size:13px}
+.place-events .strip{margin:6px -16px 0;padding:4px 16px 4px}

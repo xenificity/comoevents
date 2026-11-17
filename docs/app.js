@@ -61,6 +61,15 @@
     lock: "M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z",
     phoneDev: "M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z",
     sound: "M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 7.97v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z",
+    explore: "M12 10.9c-.61 0-1.1.49-1.1 1.1s.49 1.1 1.1 1.1c.61 0 1.1-.49 1.1-1.1s-.49-1.1-1.1-1.1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm2.19 12.19L6 18l3.81-8.19L18 6l-3.81 8.19z",
+    game: "M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z",
+    tree: "M17 12h2L12 2 5.05 12H7l-3.9 6h6.92v4h3.96v-4H21z",
+    cup: "M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.11 0 2-.9 2-2V5c0-1.11-.89-2-2-2zm0 5h-2V5h2v3zM2 21h18v-2H2v2z",
+    museum: "M4 10v7h3v-7H4zm6 0v7h3v-7h-3zM2 22h19v-3H2v3zm14-12v7h3v-7h-3zm-4.5-9L2 6v2h19V6l-9.5-5z",
+    glass: "M21 5V3H3v2l8 9v5H6v2h12v-2h-5v-5l8-9zM7.43 7L5.66 5h12.69l-1.78 2H7.43z",
+    bag: "M18 6h-2c0-2.21-1.79-4-4-4S8 3.79 8 6H6c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-6-2c1.1 0 2 .9 2 2h-4c0-1.1.9-2 2-2zm6 16H6V8h2v2c0 .55.45 1 1 1s1-.45 1-1V8h4v2c0 .55.45 1 1 1s1-.45 1-1V8h2v12z",
+    trophy: "M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94A5.01 5.01 0 0 0 11 15.9V19H7v2h10v-2h-4v-3.1a5.01 5.01 0 0 0 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z",
+    camera: "M12 15.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4zM9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z",
     people: "M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
   };
   function ic(name) { return '<i class="ic"><svg viewBox="0 0 24 24"><path d="' + ICONS[name] + '"/></svg></i>'; }
@@ -87,7 +96,7 @@
   };
   var state = {
     events: [], generatedAt: null, error: null,
-    tab: "map", window: "today", categories: new Set(), audience: "", search: "",
+    tab: "map", window: "today", categories: new Set(), audience: "", search: "", freeFood: false,
     favorites: new Set(store.load("favorites", [])),
     profile: store.load("profile", { name: "", audience: "", interests: [] }),
     sounds: store.load("sounds", true),
@@ -164,8 +173,11 @@
     if (aud && (e.audience || []).indexOf(aud) < 0) return false;
     var cats = opts.categories || state.categories;
     if (cats.size && !kinds(e).some(function (k) { return cats.has(k); })) return false;
+    if (("freeFood" in opts ? opts.freeFood : state.freeFood) && !isFreeFood(e)) return false;
     return true;
   }
+  /** Events that mention free food (feed tag "freefood", from feed/search.json). */
+  function isFreeFood(e) { return (e.tags || []).some(function (t) { return t === "freefood" || t === "freefood~"; }); }
   function goingCount(e) { return window.Cloud && Cloud.count ? Cloud.count(e.id).going : 0; }
   /** Filtered events. With a search: ranked best first (search.js), else by start time. */
   function query(opts) {
@@ -318,6 +330,10 @@
   }
   function chipRow(container, legend) {
     container.innerHTML = "";
+    var ff = el("button", "chip glass freefood" + (state.freeFood ? " on" : ""), '<span class="dot">' + ic("food") + "</span>Free food");
+    ff.type = "button"; ff.style.setProperty("--c", "var(--food)"); ff.title = "Events that mention free food";
+    ff.onclick = function () { state.freeFood = !state.freeFood; if (state.freeFood) track("click/free-food"); renderControls(); recompute(); };
+    container.appendChild(ff);
     Object.keys(CATS).forEach(function (k) {
       var on = state.categories.has(k);
       var b = el("button", "chip glass" + (on ? " on" : "") + (state.categories.size && !on ? " dim" : ""), '<span class="dot">' + ic(k) + "</span>" + CATS[k].label);
@@ -485,6 +501,7 @@
     var strip = $("nextup"); strip.innerHTML = "";
     next.forEach(function (e) { strip.appendChild(miniCard(e, now)); });
     $("nextup-label").parentElement.parentElement.style.display = next.length ? "" : "none";
+    if (window.CoMoExtras) CoMoExtras.gameDayBanner($("gameday-map"));
   }
 
   // ---------- pages ----------
@@ -514,6 +531,7 @@
       }
     }
     var note = $("feed-note"); note.hidden = !state.error; note.textContent = state.error || "";
+    if (window.CoMoExtras) CoMoExtras.gameDayBanner($("gameday-up"));
   }
   function renderSaved() {
     var favs = favoriteEvents().sort(function (a, b) { return a._start - b._start; });
@@ -939,6 +957,7 @@
         } catch (err) {}
       }, 80); });
     }
+    if (window.CoMoExtras) { var inv = el("div", "invite-slot"); body.appendChild(inv); CoMoExtras.renderInviteCard(inv, e); }
     if (e.description) body.appendChild(el("div", "glass card desc", esc(e.description)));
     if (e.audience && e.audience.length) {
       body.appendChild(el("div", "good", "Good for " + e.audience.map(function (a) { var A = AUDIENCES.find(function (x) { return x[0] === a; }); return '<span class="pill soft glass">' + (A ? ic(A[2]) : "") + cap(a) + "</span>"; }).join("")));
@@ -951,6 +970,7 @@
     var link = e.ticketUrl || e.url;
     if (link) { var a = el("a", "primary", ic("arrow") + (e.ticketUrl ? "Tickets / Register" : "More info")); a.href = link; a.target = "_blank"; a.rel = "noopener"; a.addEventListener("click", function () { track(e.ticketUrl ? "click/tickets" : "click/more-info"); }); bar.appendChild(a); }
     bar.appendChild(roundBtn("share", "Share", function () { shareEvent(e); }));
+    if (window.CoMoExtras && effectiveEnd(e) >= now) bar.appendChild(roundBtn("people", "Who's in? Invite friends", function () { CoMoExtras.invite(e); }));
     bar.appendChild(roundBtn("calendar", "Add to calendar", function () { downloadICS(e); }));
     if (e.phone) { var ph = roundBtn("phone", "Call", function () { location.href = "tel:" + e.phone.replace(/[^\d+]/g, ""); }); bar.appendChild(ph); }
     if (e.lat != null || e.address) bar.appendChild(roundBtn("car", "Directions", function () { track("click/directions"); window.open(directionsURL(e), "_blank", "noopener"); }));
@@ -991,6 +1011,10 @@
     var m = el("div", "menu glass");
     var s = el("button", "", ic("share") + "Share"); s.onclick = function () { m.remove(); shareEvent(e); }; m.appendChild(s);
     var c = el("button", "", ic("calendar") + "Add to Calendar"); c.onclick = function () { m.remove(); downloadICS(e); }; m.appendChild(c);
+    if (window.CoMoExtras) {
+      var st = el("button", "", ic("camera") + "Share to Instagram Story"); st.onclick = function () { m.remove(); CoMoExtras.storyShare(e); }; m.appendChild(st);
+      var iv = el("button", "", ic("people") + "Who's in? Invite friends"); iv.onclick = function () { m.remove(); CoMoExtras.invite(e); }; m.appendChild(iv);
+    }
     if (e.source === "community" && window.Cloud && Cloud.available) {
       var rp = el("button", "danger", ic("flag") + "Report this post"); rp.onclick = function () {
         m.remove();
@@ -999,7 +1023,7 @@
       }; m.appendChild(rp);
       if (e.submitterID) { var bl = el("button", "danger", ic("flag") + "Block this poster"); bl.onclick = function () { m.remove(); if (confirm("Block and hide their posts? A report is also sent to the moderator.")) { Cloud.block(e.submitterID); Cloud.report(e, "Blocked by a user"); closeDetail(); mergeEvents(); } }; m.appendChild(bl); }
     } else {
-      var r = el("a", "danger", ic("flag") + "Report a problem"); r.href = "mailto:xenificity@icloud.com?subject=" + encodeURIComponent("CoMo Events: problem with \"" + e.title + "\"") + "&body=" + encodeURIComponent("Event id: " + e.id + "\nWhat is wrong:\n"); m.appendChild(r);
+      var r = el("button", "danger", ic("flag") + "Report a problem"); r.onclick = function () { m.remove(); if (window.CoMoExtras) CoMoExtras.report(e); }; m.appendChild(r);
     }
     hero.appendChild(m);
     setTimeout(function () { document.addEventListener("click", function h() { m.remove(); document.removeEventListener("click", h); }); }, 0);
@@ -1060,13 +1084,15 @@
   // ---------- tabs ----------
   function showTab(tab) {
     state.tab = tab;
-    ["map", "upcoming", "saved", "friends", "profile"].forEach(function (t) { $("screen-" + t).hidden = t !== tab; });
-    document.querySelectorAll("#tabbar button").forEach(function (b) { b.classList.toggle("on", b.dataset.tab === tab); });
+    ["map", "upcoming", "places", "saved", "friends", "profile"].forEach(function (t) { $("screen-" + t).hidden = t !== tab; });
+    // Friends lives under Saved now (Places took its spot in the tab bar)
+    document.querySelectorAll("#tabbar button").forEach(function (b) { b.classList.toggle("on", b.dataset.tab === (tab === "friends" ? "saved" : tab)); });
     if (tab === "map" && map) setTimeout(function () { map.resize(); }, 50);
     if (tab === "upcoming") renderUpcoming();
     if (tab === "saved") renderSaved();
     if (tab === "profile") renderProfile();
     if (tab === "friends") renderFriends();
+    if (tab === "places" && window.CoMoExtras) CoMoExtras.renderPlaces();
     if ($("detail").hidden) history.replaceState(null, "", location.pathname + (tab !== "map" ? "?tab=" + tab : ""));
   }
 
@@ -1089,6 +1115,13 @@
     if (window.SmartSearch) SmartSearch.setVocab(state.events);
     if (rerender !== false) { recompute(); renderSaved(); }
   }
+
+  // Hooks for extras.js (Places, Who's in?, problem reports, story cards, game day)
+  window.CoMo = { state: state, query: query, openDetail: openDetail, closeDetail: closeDetail, toast: toast, showTab: showTab,
+    esc: esc, el: el, ic: ic, whenText: whenText, timeText: timeText, kind: kind, kinds: kinds, CATS: CATS, isLive: isLive,
+    effectiveEnd: effectiveEnd, startOfDay: startOfDay, inWindow: inWindow, siteRoot: siteRoot, track: track,
+    directionsURL: directionsURL, bigCard: bigCard, miniCard: miniCard, recompute: recompute, fmtTime: fmtTime, fmtDay: fmtDay,
+    isFreeFood: isFreeFood, store: store, renderControls: renderControls };
 
   // ---------- load ----------
   if (window.SmartSearch) {

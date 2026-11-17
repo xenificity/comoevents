@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Who's in? · CoMo Events</title>
+<meta name="description" content="A friend invited you to an event in Columbia, MO. Tap to say you're in. No app or account needed.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Who's in? · CoMo Events">
+<meta property="og:description" content="A friend invited you to an event in Columbia, MO. Tap to say you're in.">
+<meta property="og:image" content="https://comoevent.com/img/icon-512.png">
+<meta name="theme-color" content="#fff8d6">
+<link rel="icon" href="/img/icon-512.png">
+<style>
+  :root{--y:#FFD600;--gold:#EDAD00;--ink:#121214;--text:#111114;--muted:#6b6b74;--page:#fffbe8;--card:rgba(255,255,255,.86);--edge:rgba(0,0,0,.06);--green:#34c759;--live:#ff3b30}
+  @media (prefers-color-scheme:dark){:root{--text:#f2f2f5;--muted:#a1a1ab;--page:#121214;--card:rgba(40,40,46,.9);--edge:rgba(255,255,255,.1)}}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;font:16px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,system-ui,sans-serif;color:var(--text);background:radial-gradient(120% 60% at 50% 0%,rgba(255,214,0,.35),transparent 70%),var(--page);-webkit-font-smoothing:antialiased}
+  main{max-width:520px;margin:0 auto;padding:24px 16px calc(32px + env(safe-area-inset-bottom))}
+  .brand{display:flex;align-items:center;gap:8px;font-weight:800;color:var(--text);text-decoration:none}
+  .brand img{width:30px;height:30px;border-radius:8px}
+  .card{background:var(--card);border:1px solid var(--edge);border-radius:24px;padding:18px;margin-top:16px;box-shadow:0 10px 30px rgba(20,20,40,.08)}
+  h1{font-size:28px;line-height:1.15;margin:6px 0 10px;letter-spacing:-.01em}
+  .host{font-weight:700;color:var(--muted);font-size:14px;text-transform:uppercase;letter-spacing:.05em}
+  .fact{display:flex;gap:8px;align-items:flex-start;margin:4px 0;font-weight:600}
+  .who{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+  .who span{background:rgba(52,199,89,.16);color:var(--text);border-radius:999px;padding:5px 12px;font-weight:700;font-size:14px}
+  .who span.maybe{background:rgba(255,214,0,.25)}
+  label{display:block;font-weight:700;font-size:13px;color:var(--muted);margin-bottom:6px}
+  input{width:100%;font:inherit;font-size:17px;border:1px solid var(--edge);border-radius:14px;padding:12px 14px;background:rgba(255,255,255,.7);color:var(--text)}
+  @media (prefers-color-scheme:dark){input{background:rgba(255,255,255,.08)}}
+  .btns{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:8px;margin-top:12px}
+  button{font:inherit;font-weight:800;border:0;border-radius:999px;height:48px;cursor:pointer;color:var(--ink);background:rgba(0,0,0,.06)}
+  @media (prefers-color-scheme:dark){button{background:rgba(255,255,255,.12);color:var(--text)}}
+  button.in{background:var(--y);color:var(--ink)}
+  button.on{outline:3px solid var(--gold)}
+  .msg{margin:10px 0 0;font-weight:700}
+  .err{color:var(--live)}
+  .links{display:flex;flex-direction:column;gap:10px;margin-top:16px}
+  .links a{display:flex;align-items:center;justify-content:center;height:46px;border-radius:999px;text-decoration:none;font-weight:800;color:var(--ink);background:var(--y)}
+  .links a.alt{background:transparent;color:var(--text);border:1px solid var(--edge)}
+  .small{color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<main>
+  <a class="brand" href="/"><img src="/img/icon-512.png" alt="">CoMo Events</a>
+  <section class="card" id="card"><p class="small">Loading the invite…</p></section>
+  <section class="card" id="answer" hidden>
+    <label for="name">Your first name</label>
+    <input id="name" maxlength="40" autocomplete="given-name" placeholder="So your friend knows who's coming">
+    <div class="btns">
+      <button type="button" class="in" data-s="in">I'm in</button>
+      <button type="button" data-s="maybe">Maybe</button>
+      <button type="button" data-s="out">Can't</button>
+    </div>
+    <p class="msg" id="msg" hidden></p>
+    <p class="small">Only the people with this link see the names. They are deleted a week after the event.</p>
+  </section>
+  <div class="links" id="links" hidden>
+    <a id="see" href="/">See it on the map</a>
+    <a class="alt" href="/get/?c=invite">Get CoMo Events for iPhone (free)</a>
+  </div>
+</main>
+<script>
+(function () {
+  var API = (function () { try { return localStorage.getItem("como.api") || "https://comoevents-social.comoevent.workers.dev"; } catch (e) { return "https://comoevents-social.comoevent.workers.dev"; } })();
+  var id = new URLSearchParams(location.search).get("i") || "";
+  var $ = function (x) { return document.getElementById(x); };
+  var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
+  function load(k, d) { try { var v = localStorage.getItem(k); return v == null ? d : v; } catch (e) { return d; } }
+  function save(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  var guest = load("como.guest", "");
+  if (!guest) { var a = new Uint8Array(10); crypto.getRandomValues(a); guest = "g-" + Array.prototype.map.call(a, function (x) { return ("0" + x.toString(16)).slice(-2); }).join(""); save("como.guest", guest); }
+  $("name").value = load("como.inviteName", "");
+  var fmt = new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric", hour: "numeric", minute: "2-digit" });
+  function render(inv) {
+    var when = inv.start ? fmt.format(new Date(inv.start)) : "";
+    var ins = inv.guests.filter(function (g) { return g.status === "in"; }), maybe = inv.guests.filter(function (g) { return g.status === "maybe"; });
+    $("card").innerHTML = '<div class="host">' + esc(inv.host) + " invited you</div><h1>" + esc(inv.title) + "</h1>" +
+      '<div class="fact">🕒 <span>' + esc(when) + "</span></div>" + (inv.venue ? '<div class="fact">📍 <span>' + esc(inv.venue) + "</span></div>" : "") +
+      '<p class="small" style="margin:12px 0 0"><b>' + inv.counts.in + " in</b>" + (inv.counts.maybe ? " · " + inv.counts.maybe + " maybe" : "") + "</p>" +
+      '<div class="who">' + ins.map(function (g) { return "<span>" + esc(g.name) + "</span>"; }).join("") + maybe.map(function (g) { return '<span class="maybe">' + esc(g.name) + " (maybe)</span>"; }).join("") + "</div>";
+    document.title = inv.title + " · Who's in?";
+    $("see").href = "/?e=" + encodeURIComponent(inv.event);
+    $("answer").hidden = false; $("links").hidden = false;
+  }
+  function show(msg, bad) { var m = $("msg"); m.textContent = msg; m.className = "msg" + (bad ? " err" : ""); m.hidden = false; }
+  if (!/^[a-z0-9]{8,16}$/.test(id)) { $("card").innerHTML = "<h1>This invite link is incomplete.</h1><p class=\"small\">Ask your friend to send it again.</p>"; $("links").hidden = false; return; }
+  fetch(API + "/invite/" + id).then(function (r) { return r.json().then(function (j) { if (!r.ok) throw new Error(j.error || "Not found"); return j; }); })
+    .then(render)
+    .catch(function (e) { $("card").innerHTML = "<h1>" + esc(e.message || "This invite has expired.") + "</h1>"; $("links").hidden = false; });
+  document.querySelectorAll("#answer button").forEach(function (b) {
+    b.onclick = function () {
+      var name = $("name").value.trim();
+      if (!name) { show("Add your first name first.", true); $("name").focus(); return; }
+      save("como.inviteName", name);
+      document.querySelectorAll("#answer button").forEach(function (x) { x.classList.toggle("on", x === b); x.disabled = true; });
+      fetch(API + "/invite/" + id + "/rsvp", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name: name, status: b.dataset.s, guest: guest }) })
+        .then(function (r) { return r.json().then(function (j) { if (!r.ok) throw new Error(j.error || "Try again"); return j; }); })
+        .then(function (inv) { render(inv); show(b.dataset.s === "in" ? "You're in! " + inv.host + " can see it." : b.dataset.s === "maybe" ? "Got it: maybe." : "Got it. Maybe next time."); })
+        .catch(function (e) { show(e.message, true); })
+        .finally(function () { document.querySelectorAll("#answer button").forEach(function (x) { x.disabled = false; }); });
+    };
+  });
+})();
+</script>
+</body>
+</html>

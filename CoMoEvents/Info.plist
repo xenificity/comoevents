@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.xenificity.comoevents.refresh</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -48,8 +52,14 @@
 	<string>CoMo Events shows your contacts so you can pick who to invite. Nothing is uploaded.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>CoMo Events shows events near you on the map. Your location never leaves your phone.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>CoMo Events saves the Story picture you made to your photos.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>CoMo Events lets you pick a photo for an event you post, a flyer to scan, or your profile picture.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+	</array>
 	<key>UILaunchScreen</key>
 	<dict/>
 	<key>UISupportedInterfaceOrientations</key>

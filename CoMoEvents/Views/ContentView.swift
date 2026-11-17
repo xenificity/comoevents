@@ -10,9 +10,9 @@ struct ContentView: View {
         TabView(selection: $router.tab) {
             MapScreen().tabItem { Label("Map", systemImage: "map.fill") }.tag(AppTab.map)
             UpcomingScreen().tabItem { Label("Upcoming", systemImage: "sparkles.rectangle.stack.fill") }.tag(AppTab.upcoming)
+            PlacesScreen().tabItem { Label("Places", systemImage: "safari.fill") }.tag(AppTab.places)
             SavedScreen().tabItem { Label("Saved", systemImage: "heart.fill") }
                 .badge(store.favoriteEvents.filter { $0.effectiveEnd >= Date() }.count).tag(AppTab.saved)
-            FriendsScreen().tabItem { Label("Friends", systemImage: "person.2.fill") }.tag(AppTab.friends)
             ProfileScreen().tabItem { Label("Profile", systemImage: "person.crop.circle.fill") }.tag(AppTab.profile)
         }
         .tint(Theme.gold)
@@ -20,6 +20,12 @@ struct ContentView: View {
         .onChange(of: router.tab) { _, _ in SoundPlayer.tap() }
         .onChange(of: store.favorites.count) { old, new in askForRatingIfDue(old: old, new: new) }
         .sheet(isPresented: $router.showSubmit) { SubmitEventView() }
+        .sheet(isPresented: $router.showFriends) { FriendsScreen() }
+        .sheet(isPresented: $router.showGameDay) {
+            if let g = GameDay.homeGame(on: GameDay.today, in: store.events) { GameDayView(game: g, day: GameDay.today) }
+            else { ContentUnavailableView("No home game today", systemImage: "trophy", description: Text("Game day mode turns on when Mizzou plays at home.")) }
+        }
+        .onChange(of: router.pendingFreeFood) { _, on in if on { store.freeFoodOnly = true; router.pendingFreeFood = false } }
         .sheet(item: Binding(get: { router.pendingEventID.flatMap { id in store.events.first { $0.id == id } } },
                              set: { if $0 == nil { router.pendingEventID = nil } })) { e in
             NavigationStack { EventDetailView(event: e) }

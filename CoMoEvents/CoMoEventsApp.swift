@@ -6,7 +6,7 @@ struct CoMoEventsApp: App {
     @StateObject private var store = EventStore()
     @StateObject private var location = LocationManager()
     @StateObject private var account = AccountManager()
-    @StateObject private var notifications = NotificationService()
+    @StateObject private var notifications = NotificationService.shared
     @StateObject private var community = CommunityStore()
     @StateObject private var friends = FriendsStore()
     @StateObject private var attendance = AttendanceStore()
@@ -38,10 +38,20 @@ struct CoMoEventsApp: App {
                 }
                 .onReceive(NotificationCenter.default.publisher(for: UIApplication.didBecomeActiveNotification)) { _ in
                     Analytics.appOpened()
-                    if UserDefaults.standard.string(forKey: "pendingTab") == "map" {
-                        UserDefaults.standard.removeObject(forKey: "pendingTab"); router.tab = .map
+                    // Siri / Shortcuts that open the app on a tab (CoMoIntents.swift)
+                    switch UserDefaults.standard.string(forKey: "pendingTab") {
+                    case "map": router.tab = .map
+                    case "places": router.tab = .places
+                    case "weekend": router.tab = .upcoming; router.pendingSearch = "this weekend"
+                    case "freefood": router.tab = .upcoming; store.freeFoodOnly = true
+                    default: break
                     }
+                    UserDefaults.standard.removeObject(forKey: "pendingTab")
                 }
+        }
+        // iOS wakes the app now and then (usually in the afternoon) to refresh tonight's pick.
+        .backgroundTask(.appRefresh(NotificationService.refreshTaskID)) {
+            await NotificationService.backgroundRefresh()
         }
     }
 
@@ -52,6 +62,7 @@ struct CoMoEventsApp: App {
             if let store, let notifications { Task { await notifications.reschedule(favorites: store.favoriteEvents, all: store.events) } }
         }
         notifications.onOpenEvent = { [weak router] id in router?.open(eventID: id) }
+        notifications.onOpenWeekend = { [weak router] in router?.tab = .upcoming; router?.pendingSearch = "this weekend" }
         if let a = account.profile.audiencePick { store.audience = a }
         await store.loadIfNeeded()
         await account.restore()
@@ -72,8 +83,14 @@ struct CoMoEventsApp: App {
         friends.update(attendance: attendance.mine)
         await attendance.prepare()
         await attendance.refreshCounts()
-        await notifications.refreshAuthorization()
+        // Tonight's pick is on by default with quiet (provisional) permission: no prompt.
+        await notifications.ensureQuietPermission()
+        NotificationService.scheduleBackgroundRefresh()
         await notifications.reschedule(favorites: store.favoriteEvents, all: store.events)
+        #if DEBUG
+        await notifications.debugFirePickSoon(all: store.events)
+        await notifications.debugFireWeekendSoon(all: store.events)
+        #endif
         let snapshot = store.events
         Task.detached(priority: .background) { SpotlightIndexer.index(snapshot) }
         await usage.register()

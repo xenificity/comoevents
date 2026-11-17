@@ -42,6 +42,30 @@ struct CoMoShortcuts: AppShortcutsProvider {
                               "Anything fun in \(.applicationName) tonight"],
                     shortTitle: "Tonight in CoMo",
                     systemImageName: "sparkles")
+        AppShortcut(intent: WeekendIntent(),
+                    phrases: ["What's happening this weekend in \(.applicationName)",
+                              "Weekend plans in \(.applicationName)",
+                              "What should I do this weekend in \(.applicationName)"],
+                    shortTitle: "This weekend",
+                    systemImageName: "calendar")
+        AppShortcut(intent: FreeFoodIntent(),
+                    phrases: ["Where's free food in \(.applicationName)",
+                              "Find free food with \(.applicationName)",
+                              "Free food today in \(.applicationName)"],
+                    shortTitle: "Free food",
+                    systemImageName: "fork.knife")
+        AppShortcut(intent: GameDayIntent(),
+                    phrases: ["Is it game day in \(.applicationName)",
+                              "When is the Mizzou game in \(.applicationName)",
+                              "Game day plan in \(.applicationName)"],
+                    shortTitle: "Game day",
+                    systemImageName: "trophy.fill")
+        AppShortcut(intent: OpenPlacesIntent(),
+                    phrases: ["Show places to go in \(.applicationName)",
+                              "Find something to do in \(.applicationName)",
+                              "Open places in \(.applicationName)"],
+                    shortTitle: "Places to go",
+                    systemImageName: "safari.fill")
         AppShortcut(intent: OpenMapIntent(),
                     phrases: ["Open the \(.applicationName) map", "Show the map in \(.applicationName)"],
                     shortTitle: "Events map",
@@ -69,7 +93,7 @@ struct TonightSnippet: View {
         .padding()
     }
 }
-struct EmptySnippet: View { var body: some View { Text("Nothing tonight").padding() } }
+struct EmptySnippet: View { var text = "Nothing tonight"; var body: some View { Text(text).padding() } }
 
 /// The last feed the app saw, on disk, so intents can answer without the app running.
 enum FeedCache {

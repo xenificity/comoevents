@@ -33,6 +33,11 @@ enum Analytics {
         send(path: "click/\(name)", title: name, event: true)
     }
 
+    /// A tracked action that is not a button press (no tick), e.g. opening the app from "Tonight's pick".
+    static func count(_ name: String) {
+        send(path: "click/\(name)", title: name, event: true)
+    }
+
     private static let session: URLSession = {
         let c = URLSessionConfiguration.ephemeral
         c.httpCookieAcceptPolicy = .never

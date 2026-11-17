@@ -87,3 +87,27 @@ More to find: new events from The District, Columbia College, Columbia Art Leagu
 "Community posts go live automatically after a word filter (the same list as ContentFilter.swift runs on our Cloudflare Worker before it approves a post). Every post can be reported or its poster blocked from the event page; three reports hide a post automatically, and the developer reads reports the same day and can remove any post (removal always wins). Posting requires agreeing to the community guidelines (https://comoevent.com/guidelines.html)."
 
 **App Privacy:** no new data types in 1.2.2.
+
+---
+
+# Version 1.3.0 (build 21, Nov 17, 2026)
+
+**What's New in This Version:**
+
+The biggest update yet.
+
+• Places: a new tab with 170+ spots to go any day: bowling, escape rooms, Rock Bridge, trails, museums, coffee, bars and Columbia Mall, with directions and what's on there.
+• Free food: one tap shows every event that mentions free pizza, snacks or a meal.
+• Who's in?: send friends a link to any event. They tap "I'm in" in any browser, no app needed, and you see who's coming.
+• Game day: on Mizzou home game days, one screen with the game, tailgates and watch parties, and what's on after.
+• Weekend picks: three picks for your weekend, Thursday at 6 PM and Friday at 3 PM, plus tonight's pick every evening. Turn them off in Profile.
+• Share any event as an Instagram Story picture.
+• Report a problem: if a time or place is wrong, tell us. Once 3 people report the same thing, the listing fixes itself.
+• Ask Siri: "What's happening this weekend in CoMo Events", "Where's free food in CoMo Events", "Is it game day in CoMo Events".
+• More events: game nights at Valhalla's Gate and Hexagon Alley, Dive Bar shows, high school plays and concerts, Pierpont, and weekly trivia, comedy and open mics.
+• Friends moved under Saved.
+
+**App Review notes change (add):**
+"Version 1.3 adds no sign-in requirement. New features talk to our Cloudflare Worker without an account: 'Report a problem' sends the event id, the kind of problem, the correction typed and a random per-install id (scrambled before storage, deleted after 45 days); a listing only changes after 3 different reports agree. 'Who's in?' stores the event, the host's first name and the first names guests type on the invite web page (comoevent.com/in/), deleted a week after the event. Notifications are local (provisional authorization, no prompt): tonight's pick at 7 PM and weekend picks Thursday 6 PM and Friday 3 PM, all switchable off in Profile. To try game day mode in review, any Mizzou home game day shows the banner on the Map; Places is the third tab."
+
+**App Privacy:** add nothing new to the label if "Other User Content" (names typed on invites, report text) and "User ID" are already declared, which they are since 1.2.1. Data is not used for tracking.
