@@ -63,7 +63,9 @@ def previous_feed():
 
 def fixes():
     try:
-        with urllib.request.urlopen(WORKER + "/fixes", timeout=15) as r:
+        # Cloudflare refuses Python's default user agent with 403
+        req = urllib.request.Request(WORKER + "/fixes", headers={"User-Agent": "CoMoEvents-check/1.0 (+https://comoevent.com)"})
+        with urllib.request.urlopen(req, timeout=15) as r:
             return json.load(r).get("fixes", [])
     except Exception:
         return None
