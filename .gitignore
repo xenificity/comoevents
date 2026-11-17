@@ -13,3 +13,4 @@ feed/cache/pages.json
 feed/cache/*.tmp
 # venue_gap.py caches (OSM, websites, reverse geocode)
 scripts/.venue_gap_cache/
+social/.wrangler/

@@ -987,6 +987,53 @@
     "pub crawl"
    ]
   },
+  "games": {
+   "label": "Games",
+   "query": [
+    "games",
+    "game night",
+    "board games",
+    "boardgames",
+    "card games",
+    "tabletop",
+    "magic the gathering",
+    "mtg",
+    "d&d",
+    "dnd",
+    "dungeons and dragons",
+    "pokemon",
+    "warhammer",
+    "lorcana",
+    "yugioh",
+    "rpg"
+   ],
+   "match": [
+    "board games?",
+    "game night",
+    "card games?",
+    "tabletop",
+    "magic: the gathering",
+    "mtg",
+    "d&d",
+    "dungeons (&|and) dragons",
+    "pokemon",
+    "pok[eé]mon",
+    "warhammer",
+    "lorcana",
+    "yu-?gi-?oh",
+    "ygo",
+    "rpg",
+    "commander night",
+    "one-?piece tcg",
+    "riftbound",
+    "flesh and blood",
+    "star wars unlimited",
+    "pathfinder",
+    "daggerheart",
+    "blood on the clocktower",
+    "miniatures"
+   ]
+  },
   "trivia": {
    "label": "Trivia & games",
    "query": [
@@ -1347,6 +1394,28 @@
     "boo(?!-)",
     "monster mash",
     "night bloom"
+   ]
+  },
+  "freefood": {
+   "label": "Free food",
+   "query": [
+    "free food",
+    "free pizza",
+    "free lunch",
+    "free dinner",
+    "free breakfast",
+    "free snacks",
+    "free meal",
+    "food provided",
+    "free eats"
+   ],
+   "match": [
+    "free (food|pizza|lunch|dinner|breakfast|brunch|snacks?|refreshments|tacos|donuts|doughnuts|cookies|ice cream|meals?|bbq|barbecue|hot dogs|burgers|popcorn|cupcakes|treats|coffee and donuts)",
+    "(food|pizza|lunch|dinner|breakfast|brunch|snacks|refreshments|light refreshments|treats|a meal|meals) (will be |is |are )?(provided|served|included)(?! for purchase)",
+    "pizza (party|night) (is )?free",
+    "free community (dinner|meal|thanksgiving dinner|lunch)",
+    "ice cream social",
+    "free thanksgiving (dinner|meal|lunch)"
    ]
   },
   "free": {

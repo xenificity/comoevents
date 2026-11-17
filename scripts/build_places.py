@@ -135,7 +135,9 @@ def main():
                 places.append({
                     "id": slugify(name), "name": name, "category": c, "address": addr,
                     "lat": round(g[0], 6), "lng": round(g[1], 6), "website": site, "phone": phone,
-                    "blurb": blurb, "imageUrl": img, "tags": [t for t, rx in TAGS if re.search(rx, hay)],
+                    "blurb": blurb, "imageUrl": img, "tags": [t for t, rx in TAGS if re.search(rx, hay)] + (
+                        ["free"] if c == "outdoors" and re.search(r"(?i)\b(park|trail|nature|conservation|garden|sanctuary|recreation area)\b", name)
+                        and not re.search(r"(?i)\b(golf|aquatic|pool|farm|lavender|camp|marina)\b", name) and not re.search(r"(?i)free", " ".join(t for t, rx in TAGS if re.search(rx, hay))) else []),
                     "source": "visitcolumbia", "link": r["link"],
                 })
             if len(rows) < 100:

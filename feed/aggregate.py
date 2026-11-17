@@ -1900,10 +1900,17 @@ def sig_words(title):
 
 
 def same_event_words(a, b):
-    """Same start time, mostly the same key words, and not far apart: one event under two titles."""
-    if a["start"] != b["start"]:
-        return False
+    """Same start time, mostly the same key words, and not far apart: one event under two titles.
+    A game ("Mizzou Football vs. Kentucky" on Visit Columbia at 5 PM, "Football - Missouri vs. Kentucky" on
+    Mizzou's own calendar at 6:30 PM) is one event even at different times on the same day, as long as one
+    listing comes from an aggregator; the merge then keeps the team's own time."""
     wa, wb = sig_words(a["title"]), sig_words(b["title"])
+    if a["start"] != b["start"]:
+        game = re.search(r"(?i)\bvs\.?\b", a["title"]) and re.search(r"(?i)\bvs\.?\b", b["title"])
+        agg = (a["source"] in AGGREGATOR_SOURCES) != (b["source"] in AGGREGATOR_SOURCES)
+        if not (game and agg and a["start"][:10] == b["start"][:10] and min(len(wa), len(wb)) >= 3 and wa == wb):
+            return False
+        return True
     if min(len(wa), len(wb)) < 2 or len(wa & wb) / min(len(wa), len(wb)) < 0.6:
         return False
     if a.get("lat") is not None and b.get("lat") is not None and haversine_km((a["lat"], a["lng"]), (b["lat"], b["lng"])) > 0.8:
