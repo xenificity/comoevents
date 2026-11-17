@@ -13,6 +13,7 @@ Sources (all public, no login):
   baselocal     baselocal.com          (listing JSON-LD)
   bluenote      thebluenote.com / rosemusichall.com (calendar cards + event pages)
   dbrl          events.dbrl.org        (Communico JSON)
+  pierpont      pierpontstore.com      (events list in the site's pierpont-data.js)
 
 Usage:  python3 aggregate.py [--out events.json] [--max-geocode 80] [--days 90]
 """
@@ -33,6 +34,10 @@ KEEP_ENDED_DAYS = 2          # an event leaves the feed (and its page and cover 
 # ("badge") and a popularity boost so they rank near the top. Add rows for other holidays.
 FEATURED = [dict(tag="halloween", emoji="🎃", start=(10, 1), end=(11, 2), boost=25)]
 FAR_OK_SOURCES = {"lyceum"}   # regional venues the user asked to include despite the distance
+# Towns outside the map area. An event whose venue or address names one is dropped even when the geocoder
+# placed it in Columbia by mistake.
+FAR_TOWN = re.compile(r"\b(Jefferson City|Lincoln University|Fulton|Boonville|Moberly|Mexico,? MO|Fayette|Holts Summit|"
+                      r"Kansas City|St\.? Louis|Springfield|Sedalia|Kirksville|Warrensburg)\b", re.I)
 
 S = requests.Session()
 S.headers["User-Agent"] = BROWSER_UA
@@ -521,15 +526,26 @@ def src_allevents(days):
             addr = loc.get("address") if isinstance(loc.get("address"), dict) else {}
             if (addr.get("addressLocality") or "").lower() not in ("columbia", ""):
                 continue
-            # time from the card text: "Sat, 24 Oct, 2026 - 09:00 AM"
-            i = h.find(url)
-            seg = strip_html(h[max(0, i-1500):i+2500], 100000) if i >= 0 else ""
-            mt = re.search(r"\b\d{1,2}\s+[A-Z][a-z]{2},?\s+\d{4}\s*-\s*(\d{1,2}:\d{2}\s*[AP]M)", seg)
+            # time from the card text: "Sat, 24 Oct, 2026 - 09:00 AM". The window around the link also holds the
+            # neighbouring cards, so only take a time whose date is this event's own date (own card first).
             sd = (e.get("startDate") or "")[:10]
             if not sd:
                 continue
+            i = h.find(url)
+            mt = None
+            if i >= 0:
+                for seg in (strip_html(h[i:i+2500], 100000), strip_html(h[max(0, i-1500):i+2500], 100000)):
+                    for m in re.finditer(r"\b(\d{1,2}\s+[A-Z][a-z]{2}),?\s+(\d{4})\s*-\s*(\d{1,2}:\d{2}\s*[AP]M)", seg):
+                        try:
+                            if dt.datetime.strptime(f"{m.group(1)} {m.group(2)}", "%d %b %Y").date().isoformat() == sd:
+                                mt = m
+                                break
+                        except ValueError:
+                            continue
+                    if mt:
+                        break
             if mt:
-                t = dt.datetime.strptime(mt.group(1).replace(" ", ""), "%I:%M%p").time()
+                t = dt.datetime.strptime(mt.group(3).replace(" ", ""), "%I:%M%p").time()
                 start = dt.datetime.combine(dt.date.fromisoformat(sd), t, TZ)
                 tbd = False
             else:
@@ -601,6 +617,11 @@ def src_bluenote(days):
             seen.add(url)
             i = m.end()
             card = h[i:i+6000]
+            # stop at the next show's link: a card without "presented by" or supporting acts would otherwise
+            # borrow the next card's (the Kay Brothers Christmas showed Latin Night's line)
+            nxt = re.search(r'href="%s/event/(?!%s")' % (re.escape(site), re.escape(url.split("/event/", 1)[1])), card)
+            if nxt:
+                card = card[:nxt.start()]
             def field(cls):
                 mm = re.search(r'class="event-%s"[^>]*>\s*(.*?)\s*</div>' % cls, card, re.S)
                 return strip_html(mm.group(1), 300) if mm else None
@@ -826,6 +847,18 @@ def src_vox(days):
                         dates.append((d, st, et)); d += dt.timedelta(days=step)
                 else:
                     dates.append((first, st, et))
+            # One listed date, but the text says more: "December 3, 4 & 5 | 6–8:30 PM" (O Holy Lights)
+            if len(dates) == 1 and lead:
+                ml = re.match(r"\s*([A-Z][a-z]+)\s+(\d{1,2}(?:\s*,\s*\d{1,2})*\s*(?:,?\s*(?:&|and)\s*\d{1,2}))\b", lead)
+                d0, st0, et0 = dates[0]
+                if ml and ml.group(1).lower() == d0.strftime("%B").lower():
+                    for n in sorted({int(x) for x in re.findall(r"\d{1,2}", ml.group(2))}):
+                        try:
+                            dn = d0.replace(day=n)
+                        except ValueError:
+                            continue
+                        if dn > d0 and (dn - d0).days <= 14:
+                            dates.append((dn, st0, et0))
             for d, st, et in dates:
                 if d < today or d > horizon:
                     continue
@@ -1055,11 +1088,23 @@ def src_ics(days):
             loc = _ics_unescape(props.get("LOCATION", [({}, "")])[0][1])
             if loc.startswith("http"):
                 loc = ""   # a map link, not an address
+            # An all-day entry whose text gives the time ("Show Starts At 7 PM", "Doors Open At 5 PM"):
+            # use that time, so a New Year's Eve show is not listed at midnight.
+            occ_all_day, occ_duration, at = all_day, duration, None
+            if all_day and desc:
+                mt = re.search(r"(?i)\b(?:show(?:\s+starts)?|starts|begins)\s*(?:at|@|:)?\s*(\d{1,2})(?::(\d{2}))?\s*([ap])\.?m\b", desc) or \
+                     re.search(r"(?i)\bdoors?(?:\s+open)?\s*(?:at|@|:)?\s*(\d{1,2})(?::(\d{2}))?\s*([ap])\.?m\b", desc)
+                if mt:
+                    hh = int(mt.group(1)) % 12 + (12 if mt.group(3).lower() == "p" else 0)
+                    at = dt.time(hh, int(mt.group(2) or 0))
+                    occ_all_day, occ_duration = False, dt.timedelta(hours=3)
             for occ in occurrences:
                 if occ.date() in exdates:
                     continue
                 sid = f"{uid}:{occ:%Y%m%d%H%M}"
-                ev = make_event(key, name, sid, summary, occ, occ + duration, all_day=all_day,
+                if at:
+                    occ = dt.datetime.combine(occ.date(), at, TZ)
+                ev = make_event(key, name, sid, summary, occ, occ + occ_duration, all_day=occ_all_day,
                                 venue=venue, address=loc or address, lat=lat, lng=lng, url=info,
                                 category=infer_category(summary, desc or "", default_cat),
                                 description=desc, organizer=name)
@@ -1508,7 +1553,12 @@ def src_macaronikid(days):
             venue, address = place.split(",", 1)[0].strip(), place.split(",", 1)[1].strip()
         title = html.unescape(e.get("title") or "")
         desc = html.unescape(e.get("desc") or "")
-        out.append(make_event("macaronikid", "Macaroni Kid", e.get("id"), title, start, end, all_day=bool(e.get("allDay")),
+        # No end and a start at midnight or late at night: a placeholder time, not a real one
+        # ("Christmas Party with Santa!", a LEGO family party, was entered as 11:00 pm)
+        tbd = not e.get("allDay") and (end is None or end == start) and (start.hour == 0 and start.minute == 0 or start.hour >= 22)
+        if tbd:
+            end = None
+        out.append(make_event("macaronikid", "Macaroni Kid", e.get("id"), title, start, end, all_day=bool(e.get("allDay")), time_tbd=tbd,
                               venue=venue, address=address, url=f"https://columbiamo.macaronikid.com/events/{e.get('id')}",
                               category=infer_category(title, desc, "family"), image=e.get("image"),
                               description=desc, organizer=(e.get("orgs") or [None])[0]))
@@ -1615,10 +1665,59 @@ def src_runsignup(days):
                               image=r.get("logo_url"), description=desc, organizer=r.get("name")))
     return out
 
+PIERPONT = ("Pierpont General Store", "7650 MO-163, Columbia, MO 65203", 38.8626355, -92.3147178)
+PIERPONT_CATS = {"Live music": "music", "Food + drink": "food", "Community": "community"}
+
+def src_pierpont(days):
+    """Pierpont General Store (pierpontstore.com): its site keeps every event in one script file,
+    `pierpont-data.js` (`window.PIERPONT_DATA.events`, a JS object literal with ISO start and end times).
+    The file name carries a version (?v=…), so read the current one from the home page each run."""
+    base = "https://www.pierpontstore.com/"
+    try:
+        home = get(base).text
+        m = re.search(r'<script[^>]+src="(pierpont-data\.js[^"]*)"', home)
+        js = get(base + (m.group(1) if m else "pierpont-data.js")).text
+    except Exception as e:
+        log("  pierpont failed:", e); return []
+    i = js.find("events:")
+    s = js.find("[", i) if i >= 0 else -1
+    if s < 0:
+        log("  pierpont: no events list"); return []
+    depth = 0
+    for k in range(s, len(js)):
+        depth += js[k] == "["
+        depth -= js[k] == "]"
+        if depth == 0:
+            break
+    arr = re.sub(r'([{,]\s*)([A-Za-z_]\w*)\s*:', r'\1"\2":', js[s:k + 1])   # quote the keys
+    arr = re.sub(r",(\s*[}\]])", r"\1", arr)                                  # drop trailing commas
+    try:
+        items = json.loads(arr)
+    except ValueError as e:
+        log("  pierpont: could not read events:", e); return []
+    now = dt.datetime.now(TZ)
+    horizon = now + dt.timedelta(days=days)
+    venue, address, lat, lng = PIERPONT
+    out = []
+    for it in items:
+        start, end = parse_dt(it.get("date")), parse_dt(it.get("end"))
+        if not start or start > horizon or (end or start) < now - dt.timedelta(hours=3):
+            continue
+        place = it.get("place") or ""
+        img = it.get("image")
+        out.append(make_event("pierpont", venue, f"{it.get('title')}|{it.get('date')}", it.get("title"), start, end,
+                              venue=venue + (f" ({place})" if place and place != "Pierpont" else ""),
+                              address=address, lat=lat, lng=lng, url=base + "#events", phone="(573) 442-2701",
+                              category=PIERPONT_CATS.get(it.get("category"), infer_category(it.get("title"), it.get("description") or "")),
+                              image=(base + img) if img and not img.startswith("http") else img,
+                              description=it.get("description"), organizer=venue))
+    return out
+
+
 SOURCES = [src_mizzou, src_engage, src_visitcolumbia, src_eventbrite, src_allevents, src_baselocal, src_bluenote, src_dbrl,
            src_posh, src_tribe, src_vox, src_ics, src_extra,
            src_squarespace, src_ragtag, src_stephens, src_talkinghorse, src_mizzouarts, src_wealwaysswing, src_lyceum, src_caam,
-           src_tockify, src_ccis, src_macaronikid, src_comotickets, src_chamber, src_runsignup]
+           src_tockify, src_ccis, src_macaronikid, src_comotickets, src_chamber, src_runsignup, src_pierpont]
 
 # ----------------------------------------------------------------- merge
 DEDUPE_STOP = set("the a an of at in on and or for with to vs v am pm presents presented by featuring feat ft live event "
@@ -1644,6 +1743,10 @@ def same_event_words(a, b):
     if a.get("lat") is not None and b.get("lat") is not None and haversine_km((a["lat"], a["lng"]), (b["lat"], b["lng"])) > 0.8:
         return False
     return True
+
+
+# Sites that copy other people's listings. On a merge their record loses to the organizer's own calendar.
+AGGREGATOR_SOURCES = {"allevents", "baselocal", "macaronikid", "vox", "visitcolumbia"}
 
 
 def dedupe(events):
@@ -1673,9 +1776,12 @@ def dedupe(events):
             e["alsoOn"] = []
             continue
         a = by_key[key]
-        # prefer the record with coordinates, then an exact time, then richer text
+        # Prefer the organizer's own calendar over a copy on an aggregator: the venue or host updates its own
+        # listing first, so on every run its time, place and text win (the Wassail Stroll was 2-5 PM on The
+        # District's calendar but 8 PM on AllEvents). Then coordinates, an exact time, richer text.
         def score(x):
-            return (x["lat"] is not None, not x["timeTBD"], bool(x.get("description")), bool(x.get("imageUrl")))
+            return (x["source"] not in AGGREGATOR_SOURCES, not x["timeTBD"], x["lat"] is not None,
+                    bool(x.get("description")), bool(x.get("imageUrl")))
         keep, drop = (a, e) if score(a) >= score(e) else (e, a)
         for k in ("lat", "lng", "venue", "address", "phone", "price", "imageUrl", "description", "ticketUrl", "end"):
             if keep.get(k) in (None, "") and drop.get(k):
@@ -1921,6 +2027,10 @@ def main():
                 e["venue"] = e.get("venue") or v
                 e["address"] = e.get("address") or a
         if e["lat"] is not None and haversine_km((e["lat"], e["lng"]), DOWNTOWN) > RADIUS_KM and e["source"] not in FAR_OK_SOURCES:
+            continue
+        # A place in another town that the geocoder matched to something in Columbia ("The Quad at Lincoln
+        # University" landed on Mizzou's Francis Quadrangle): the venue or address names the other town.
+        if e["source"] not in FAR_OK_SOURCES and FAR_TOWN.search(f"{e.get('venue') or ''} | {e.get('address') or ''}"):
             continue
         kept.append(e)
     save_json(GEOCACHE_PATH, GEOCACHE)
