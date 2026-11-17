@@ -47,7 +47,7 @@ OVERPASS = ["https://overpass-api.de/api/interpreter",
             "https://overpass.private.coffee/api/interpreter"]
 BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/130 Safari/537.36")
-BOT_UA = "CoMoEvents venue-gap/0.1 (community events app; ajay.kumar@missouri.edu)"
+BOT_UA = "CoMoEvents venue-gap/0.1 (+https://comoevent.com)"
 
 PARK_NAMES = re.compile(r"stephens lake|cosmo|flat branch|peace park|douglass park|albert.?oakland|"
                         r"twin lakes|nifong|rock bridge|gans creek|agricult|optimist|shelter gardens|"
