@@ -1,6 +1,19 @@
 {
  "events": [
   {
+   "_slug": "early-registration-ends-spring-2027-f99a02",
+   "categories": [
+    "campus"
+   ],
+   "category": "campus",
+   "description": "Early Registration for Spring 2027 by appointment for current students",
+   "id": "f99a023bae14a760",
+   "imageUrl": "https://comoevent.com/img/gen/7ec94d49908492.webp",
+   "source": "mizzou",
+   "start": "2026-11-20T00:00:00-06:00",
+   "title": "Early registration ends, Spring 2027"
+  },
+  {
    "_slug": "creativemornings-columbia-devotion-w-kristin-gadsden-a2be09",
    "categories": [
     "food"
@@ -59,23 +72,6 @@
    "venue": "Memorial Student Union"
   },
   {
-   "_slug": "dive-more-stay-longer-ssi-enriched-air-nitrox-course-b14197",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#dive-more-and-stay-longer-ssi-enriched-air-nitrox-course"
-   ],
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "description": "This course teaches certified divers how to safely use enriched air mixtures containing up to 40% oxygen. Learn to analyze cylinders, calibrate oxygen analyzers, plan Nitrox dives, understand gas mixtures, and follow safety protocols. The course covers ways Nitrox can support longer no-decompressio…",
-   "end": "2026-11-20T20:30:00-06:00",
-   "id": "b14197724651f7cd",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9lMzMwZDk3MzExNWI5MDQyZmU1ZjU5NzkyYzBmNDllZjNhYTI2ZGQ0OTEyYWYwM2Q3MmRmMTBjMGRkMDBiYmNkLXJpbWctdzgwMC1oNTA5LWRjMDgzODc4LWdtaXI_dj0xNzkyMTE2NDQy.avif",
-   "source": "allevents",
-   "start": "2026-11-20T09:00:00-06:00",
-   "title": "Dive More & Stay Longer: SSI Enriched Air Nitrox Course"
-  },
-  {
    "_slug": "green-friday-d45086",
    "categories": [
     "community"
@@ -105,13 +101,13 @@
    "title": "Lend & Learn Play Time"
   },
   {
-   "_slug": "international-student-workshop-optional-practical-training-f5ccd9",
+   "_slug": "international-student-workshop-optional-practical-training-f2439e",
    "categories": [
     "campus"
    ],
    "category": "campus",
    "end": "2026-11-20T10:30:00-06:00",
-   "id": "f5ccd9200781b454",
+   "id": "f2439eb261692f66",
    "imageUrl": "https://comoevent.com/img/gen/3bf6eaaa3c1907.webp",
    "source": "mizzou",
    "start": "2026-11-20T09:30:00-06:00",
@@ -162,6 +158,18 @@
    "venue": "My House Nightclub & Sports Bar"
   },
   {
+   "_slug": "meredith-shaw-at-old-plank-tavern-626f93",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "626f9347b8c1a07a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMjg2YjUwYmZiMjFhMjNkMzk5ZTQ2ZjA3M2IwNzVkMTBhYjllNmZiMjc5NzZiNGI5NjdkYmNkZjg3MGQ5OTNiNS1yaW1nLXcxMDgwLWgxOTIwLWRjMDgwODA4LWdtaXI_dj0xNzkyMzAwNzM3.avif",
+   "source": "allevents",
+   "start": "2026-11-20T10:00:00-06:00",
+   "title": "Meredith Shaw at Old Plank Tavern"
+  },
+  {
    "_slug": "study-abroad-walk-in-advising-97eac5",
    "categories": [
     "campus"
@@ -189,6 +197,19 @@
    "start": "2026-11-20T11:00:00-06:00",
    "title": "Ana’s Tacos",
    "venue": "Gerbes Super Market (Columbia, MO)"
+  },
+  {
+   "_slug": "columbia-social-club-monthly-foodies-new-friends-d696f5",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "d696f58812db8b83",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy82YjViM2YxZDdiOWNmMDVkOWM5YTU4ZGYxZTE4ODNiNzQyNzI0NjRmZDU5MTQxYThmNzI2MWYwNGU0NDA4NGRhLXJpbWctdzEyMDAtaDkwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODU3NDUwMzQ.avif",
+   "source": "allevents",
+   "start": "2026-11-20T11:00:00-06:00",
+   "title": "Columbia Social Club Monthly | Foodies + New Friends",
+   "venue": "Restaurant of the Month"
   },
   {
    "_slug": "one-year-ribbon-cutting-celebration-163121",
@@ -236,18 +257,6 @@
    "start": "2026-11-20T11:30:00-06:00",
    "title": "Candlelight: Tribute to ABBA & More",
    "venue": "Tiger Hotel"
-  },
-  {
-   "_slug": "jack-grelle-w-cole-bridges-birdie-s-deli-5d1df1",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "5d1df1dd4d319f9b",
-   "imageUrl": "https://dyn-image.allevents.in/generate-image?v=4&title=Jack+Grelle+w%2F+Cole+Bridges+%40+Birdie%27s+Deli+&date=Fri+Nov+20+2026+at+07%3A30+pm&bg=3",
-   "source": "allevents",
-   "start": "2026-11-20T11:45:00-06:00",
-   "title": "Jack Grelle w/ Cole Bridges @ Birdie's Deli"
   },
   {
    "_slug": "friendsgiving-event-for-women-veterans-9bed4a",
@@ -347,8 +356,8 @@
   {
    "_slug": "memorial-student-union-tower-centennial-celebration-85493d",
    "alsoOn": [
-    "https://engage.missouri.edu/SURE/rsvp?id=453342",
-    "https://engage.missouri.edu/rsvp?id=453342"
+    "https://engage.missouri.edu/rsvp?id=453342",
+    "https://engage.missouri.edu/SURE/rsvp?id=453342"
    ],
    "categories": [
     "campus",
@@ -422,11 +431,26 @@
    "title": "Ribbon Cutting Junior Achievement in Central Missouri"
   },
   {
+   "_slug": "trail-boss-bbq-00e2ad",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "description": "@ Follow our website link for more information on our delicious menu! https://trailbossbbq.com",
+   "end": "2026-11-20T20:00:00-06:00",
+   "id": "00e2adb7fba224d8",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2024/11/Trail-Boss-BBQ.jpg",
+   "source": "cooperslanding",
+   "start": "2026-11-20T16:30:00-06:00",
+   "title": "Trail Boss BBQ",
+   "venue": "Cooper's Landing"
+  },
+  {
    "_slug": "5th-annual-merry-moments-with-santa-mrs-claus-0b3265",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
     "https://tockify.com/the.district.cid/detail/1448/1795215600000",
     "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
+    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
     "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus"
    ],
    "categories": [
@@ -442,6 +466,18 @@
    "start": "2026-11-20T17:00:00-06:00",
    "title": "5th Annual Merry Moments with Santa & Mrs. Claus",
    "venue": "Orr Street Studios"
+  },
+  {
+   "_slug": "jack-grelle-w-cole-bridges-birdie-s-deli-5d1df1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "5d1df1dd4d319f9b",
+   "imageUrl": "https://dyn-image.allevents.in/generate-image?v=4&title=Jack+Grelle+w%2F+Cole+Bridges+%40+Birdie%27s+Deli+&date=Fri+Nov+20+2026+at+07%3A30+pm&bg=3",
+   "source": "allevents",
+   "start": "2026-11-20T17:00:00-06:00",
+   "title": "Jack Grelle w/ Cole Bridges @ Birdie's Deli"
   },
   {
    "_slug": "whodunnit-weekly-game-night-f308ab",
@@ -522,6 +558,20 @@
    "title": "Craft Night every Friday"
   },
   {
+   "_slug": "dive-more-stay-longer-ssi-enriched-air-nitrox-course-9c5345",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "This course teaches certified divers how to safely use enriched air mixtures containing up to 40% oxygen. Learn to analyze cylinders, calibrate oxygen analyzers, plan Nitrox dives, understand gas mixtures, and follow safety protocols. The course covers ways Nitrox can support longer no-decompressio…",
+   "end": "2026-11-20T20:30:00-06:00",
+   "id": "9c534552ec4bcf28",
+   "imageUrl": "https://comoevent.com/img/gen/65c6b0304dab3d.webp",
+   "source": "baselocal",
+   "start": "2026-11-20T18:00:00-06:00",
+   "title": "Dive More & Stay Longer: SSI Enriched Air Nitrox Course"
+  },
+  {
    "_slug": "friday-night-commander-at-hexagon-alley-e708b8",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#magic-friday-night-commander"
@@ -538,6 +588,21 @@
    "start": "2026-11-20T18:00:00-06:00",
    "title": "Friday Night Commander at Hexagon Alley",
    "venue": "Hexagon Alley"
+  },
+  {
+   "_slug": "justin-hickerson-87fa18",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "@ Our sound engineer, Justin, steps on stage with his guitar and some croonin’, so come on out to get swept away by the guy with all the personality!",
+   "end": "2026-11-20T21:00:00-06:00",
+   "id": "87fa18cb57815cc2",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2026/11/FB_IMG_1782430113758.jpeg",
+   "source": "cooperslanding",
+   "start": "2026-11-20T18:00:00-06:00",
+   "title": "Justin Hickerson",
+   "venue": "Cooper's Landing"
   },
   {
    "_slug": "lakshmi-sahasranama-and-kumkuma-archana-39511a",
@@ -808,19 +873,10 @@
    "venue": "The Tokyo Club"
   },
   {
-   "_slug": "meredith-shaw-at-old-plank-tavern-626f93",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "626f9347b8c1a07a",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMjg2YjUwYmZiMjFhMjNkMzk5ZTQ2ZjA3M2IwNzVkMTBhYjllNmZiMjc5NzZiNGI5NjdkYmNkZjg3MGQ5OTNiNS1yaW1nLXcxMDgwLWgxOTIwLWRjMDgwODA4LWdtaXI_dj0xNzkyMzAwNzM3.avif",
-   "source": "allevents",
-   "start": "2026-11-20T20:00:00-06:00",
-   "title": "Meredith Shaw at Old Plank Tavern"
-  },
-  {
    "_slug": "the-spooklights-47545a",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/the-spooklights/event_77c386e6-88b2-40b3-a2a4-36e4c130517c.html"
+   ],
    "categories": [
     "music"
    ],
@@ -828,6 +884,7 @@
    "description": "North Village Recording Studios and Requiem Ent. Present · with Long Gone Gabe",
    "id": "47545a4c2d1feb4f",
    "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/TSL-RMH-Web.jpg",
+   "price": "$10 in advance; $12 day of",
    "source": "bluenote",
    "start": "2026-11-20T20:00:00-06:00",
    "ticketUrl": "https://www.ticketmaster.com/the-spooklights-ben-miller-pat-kay-columbia-missouri-11-20-2026/event/0600652F33A5B1FC",
@@ -979,6 +1036,18 @@
    "venue": "Faurot Field"
   },
   {
+   "_slug": "thanksgiving-recess-begins-close-of-day-fall-2026-c37479",
+   "categories": [
+    "campus"
+   ],
+   "category": "campus",
+   "id": "c37479c1096c7dfa",
+   "imageUrl": "https://comoevent.com/img/gen/9059ec53b913a6.webp",
+   "source": "mizzou",
+   "start": "2026-11-21T00:00:00-06:00",
+   "title": "Thanksgiving recess begins close of day, Fall 2026"
+  },
+  {
    "_slug": "andras-szieberth-clinic-mmrc-2bed71",
    "categories": [
     "sports"
@@ -1009,6 +1078,7 @@
   {
    "_slug": "columbia-farmers-market-winter-season-b317c0",
    "alsoOn": [
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
     "https://columbiafarmersmarket.org/"
    ],
    "categories": [
@@ -1019,6 +1089,7 @@
    "end": "2026-11-21T12:00:00-06:00",
    "id": "b317c05abbba97c4",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
+   "price": "Free",
    "source": "visitcolumbia",
    "start": "2026-11-21T09:00:00-06:00",
    "title": "Columbia Farmers Market – Winter Season",
@@ -1243,24 +1314,6 @@
    "venue": "Columbia Public Library"
   },
   {
-   "_slug": "grown-up-book-fair-749350",
-   "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/wilder-coffeehouse-grown-up-book-fair/"
-   ],
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "description": "Wilder Coffeehouse (next to the Tiger Hotel) is hosting a book fair pop-up! Stop in any time from 12pm-3pm to find books and bouquets! Feature Vendors: Skylark Book Shop & flowers by Sydney Johnson. Details: https://www.facebook.com/events/1755978099870131",
-   "end": "2026-11-21T15:00:00-06:00",
-   "id": "7493503c2eaf2e93",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6af60d5b33339b9bfd469f29/scaled_1152.jpg",
-   "source": "district",
-   "start": "2026-11-21T12:00:00-06:00",
-   "title": "Grown Up Book Fair",
-   "venue": "Wilder Coffeehouse"
-  },
-  {
    "_slug": "harvest-of-gratitude-community-dinner-ae0e51",
    "alsoOn": [
     "https://allevents.in/columbia/harvest-of-gratitude-community-dinner/100002003927879231"
@@ -1279,6 +1332,40 @@
    "ticketUrl": "https://www.eventbrite.com/e/harvest-of-gratitude-community-dinner-tickets-2003927879231",
    "title": "Harvest of Gratitude Community Dinner",
    "venue": "St Paul AME Church"
+  },
+  {
+   "_slug": "wilder-pop-up-grown-up-book-fair-749350",
+   "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/wilder-coffeehouse-grown-up-book-fair/",
+    "https://tockify.com/the.district.cid/detail/1430/1795284000000"
+   ],
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "We’re hosting a book fair pop-up! Stop in any time from 12pm-3pm to find books and bouquets! Feature Vendors: Skylark Book Shop, flowers by Sydney Johnson.",
+   "end": "2026-11-21T15:00:00-06:00",
+   "id": "7493503c2eaf2e93",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy81M2QyZWJlZTY2NTgyMDEzZTJiNTg1YTI4ZGY4ZWNiZWY5MTgwNjhkZDIwMmI2NjgxYmQ2NmJhODM5ZGM0NDIwLXJpbWctdzEyMDAtaDQ0NC1kY2Y4ZjhlOC1nbWlyP3Y9MTc5NDYxODk0Nw.avif",
+   "source": "allevents",
+   "start": "2026-11-21T12:00:00-06:00",
+   "title": "Wilder Pop-Up Grown-Up Book Fair",
+   "venue": "Wilder Coffeehouse"
+  },
+  {
+   "_slug": "zydecos-cajun-kitchen-afc357",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "description": "@ If you’re craving Cajun, head to Cooper’s Landing for Zydeco Cajun Kitchen and treat yourself to mouthwatering flavors right on the riverfront. https://www.facebook.com/zydecosco",
+   "end": "2026-11-21T20:00:00-06:00",
+   "id": "afc357e32e170200",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2024/11/Zydeco-Cajun-Kitchen-food-truck-shrimp-po-boy.jpg",
+   "source": "cooperslanding",
+   "start": "2026-11-21T12:00:00-06:00",
+   "title": "Zydeco’s Cajun Kitchen",
+   "venue": "Cooper's Landing"
   },
   {
    "_slug": "being-heumann-acd38e",
@@ -1415,6 +1502,21 @@
    "start": "2026-11-21T14:00:00-06:00",
    "title": "Songs, Steps & Stories: A Native American Cultural Experience",
    "venue": "Columbia Public Library"
+  },
+  {
+   "_slug": "the-daves-16b9ea",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "@ Delta Blues influenced and inspired by John Hurt, Fred McDowell, Furry Lewis, Robert Johnson, Leroy",
+   "end": "2026-11-21T17:00:00-06:00",
+   "id": "16b9ea9f82b6a52b",
+   "imageUrl": "https://comoevent.com/img/gen/c51c4771250c4c.webp",
+   "source": "cooperslanding",
+   "start": "2026-11-21T14:00:00-06:00",
+   "title": "The Daves",
+   "venue": "Cooper's Landing"
   },
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
@@ -1556,19 +1658,6 @@
    "venue": "Faurot Field"
   },
   {
-   "_slug": "coffee-with-an-author-f0e49e",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "id": "f0e49e1e76790a3e",
-   "imageUrl": "https://dyn-image.allevents.in/generate-image?v=4&title=Coffee+With+an+Author&date=Sat+Nov+21+2026+at+09%3A00+am&bg=2",
-   "source": "allevents",
-   "start": "2026-11-21T17:45:00-06:00",
-   "title": "Coffee With an Author",
-   "venue": "Love Coffee \"where love works\""
-  },
-  {
    "_slug": "columbia-college-women-s-soccer-vs-winner-of-okwu-huston-til-f8d1c9",
    "categories": [
     "sports"
@@ -1664,18 +1753,6 @@
    "venue": "TRYPS Children’s Theater (Show 2)"
   },
   {
-   "_slug": "wilder-pop-up-grown-up-book-fair-f50102",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "f501020fe3e190a5",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy81M2QyZWJlZTY2NTgyMDEzZTJiNTg1YTI4ZGY4ZWNiZWY5MTgwNjhkZDIwMmI2NjgxYmQ2NmJhODM5ZGM0NDIwLXJpbWctdzEyMDAtaDQ0NC1kY2Y4ZjhlOC1nbWlyP3Y9MTc5NDYxODk0Nw.avif",
-   "source": "allevents",
-   "start": "2026-11-21T19:00:00-06:00",
-   "title": "Wilder Pop-Up Grown-Up Book Fair"
-  },
-  {
    "_slug": "saturday-night-comedy-at-the-tokyo-club-9c2ecf",
    "categories": [
     "arts"
@@ -1742,8 +1819,7 @@
    "_slug": "the-host-ff1098",
    "alsoOn": [
     "https://allevents.in/columbia/the-host/200031023437330",
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
-    "https://columbiamo.macaronikid.com/events/6af5057233a6a0ab42dc8a68"
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000"
    ],
    "categories": [
     "arts",
@@ -1762,8 +1838,8 @@
   {
    "_slug": "live-hardcore-comedy-at-the-tokyo-club-columbia-s-own-lady-m-616a99",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
+    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts"
@@ -1851,14 +1927,17 @@
    "venue": "Partner For Better"
   },
   {
-   "_slug": "annual-friends-family-sale-01af76",
+   "_slug": "annual-friends-family-sale-ab0996",
+   "alsoOn": [
+    "https://allevents.in/columbia/annual-friends-and-family-holiday-sale-at-poppy/200031059301051"
+   ],
    "categories": [
     "family"
    ],
    "category": "family",
    "description": "It’s the most wonderful time of the year at Poppy! Join us for our Annual Friends & Family Sale on Sunday, November 22rd, from 10a-4p! Nearly everything in the shop is discounted 20%, making it the perfect time to get started (or finish up) your holiday shopping. Grab your pals & meet us at the shop",
    "end": "2026-11-22T16:00:00-06:00",
-   "id": "01af767a4e12ce0f",
+   "id": "ab0996057dfc246e",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb630049b9323bd237e6b1/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-22T10:00:00-06:00",
@@ -1878,6 +1957,21 @@
    "start": "2026-11-22T10:30:00-06:00",
    "title": "Yoga at Partner For Better",
    "venue": "Partner For Better"
+  },
+  {
+   "_slug": "the-munchbox-f406a0",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "description": "@ Get a taste of some Munch with a Punch! Serving a variety of food including sandwiches, tacos and more. The Munch Box keeps their menu and their food nice and fresh! Come see what all the munch is about!",
+   "end": "2026-11-22T20:00:00-06:00",
+   "id": "f406a09e405e9760",
+   "imageUrl": "https://comoevent.com/img/gen/9f71f037561dce.webp",
+   "source": "cooperslanding",
+   "start": "2026-11-22T12:00:00-06:00",
+   "title": "The Munchbox",
+   "venue": "Cooper's Landing"
   },
   {
    "_slug": "being-heumann-0d6004",
@@ -1992,8 +2086,8 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
    ],
    "categories": [
     "family",
@@ -2023,6 +2117,21 @@
    "start": "2026-11-22T14:00:00-06:00",
    "title": "The Little Mermaid Jr. – TRYPS Children’s Theater (Show 3)",
    "venue": "TRYPS Children’s Theater (Show 3)"
+  },
+  {
+   "_slug": "the-stoplight-flyers-ca31ad",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "@ Get ready for an afternoon of twangy, folk-infused Americana as The Stoplight Flyers take the stage at Cooper’s Landing!",
+   "end": "2026-11-22T17:00:00-06:00",
+   "id": "ca31ad6f86e9eedb",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/02/The-Stoplight-Flyers.jpg",
+   "source": "cooperslanding",
+   "start": "2026-11-22T14:00:00-06:00",
+   "title": "The Stoplight Flyers",
+   "venue": "Cooper's Landing"
   },
   {
    "_slug": "sai-iota-lambda-chapter-meeting-time-19b93c",
@@ -2129,8 +2238,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
    ],
    "categories": [
     "music"
@@ -2175,22 +2284,10 @@
    "start": "2026-11-22T19:30:00-06:00",
    "title": "You Can See Everything",
    "venue": "Ragtag Cinema"
-  },
-  {
-   "_slug": "annual-friends-family-holiday-sale-at-poppy-ab0996",
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "id": "ab0996057dfc246e",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9kMTE5ZDVhZTUzYjlkMWUyMDUwODc3OGMwYmRiMTI3ZDI1YjU1NDFmOTNlMjg5M2NhMjIyOGY1MjczNmUxODllLXJpbWctdzEyMDAtaDkwMS1kY2Q4YzhhOC1nbWlyP3Y9MTc5NDg2MjEzMA.avif",
-   "source": "allevents",
-   "start": "2026-11-22T20:00:00-06:00",
-   "title": "Annual Friends & Family Holiday Sale at Poppy! ✨"
   }
  ],
  "friday": "2026-11-20",
- "modified": "2026-11-16",
+ "modified": "2026-11-17",
  "picks": [
   "0b326556f0f4f2d6",
   "d6be9bf5e704db23",
