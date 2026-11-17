@@ -1,20 +1,6 @@
 {
  "events": [
   {
-   "_slug": "columbia-social-club-monthly-foodies-new-friends-d696f5",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "d696f58812db8b83",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy82YjViM2YxZDdiOWNmMDVkOWM5YTU4ZGYxZTE4ODNiNzQyNzI0NjRmZDU5MTQxYThmNzI2MWYwNGU0NDA4NGRhLXJpbWctdzEyMDAtaDkwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODU3NDUwMzQ.avif",
-   "source": "allevents",
-   "start": "2026-11-20T00:00:00-06:00",
-   "timeTBD": true,
-   "title": "Columbia Social Club Monthly | Foodies + New Friends",
-   "venue": "Restaurant of the Month"
-  },
-  {
    "_slug": "early-registration-ends-spring-2027-f99a02",
    "categories": [
     "campus"
@@ -71,8 +57,8 @@
   {
    "_slug": "black-and-gold-friday-a20afb",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
    ],
    "categories": [
     "campus"
@@ -347,8 +333,8 @@
   {
    "_slug": "memorial-student-union-tower-centennial-celebration-85493d",
    "alsoOn": [
-    "https://engage.missouri.edu/rsvp?id=453342",
-    "https://engage.missouri.edu/SURE/rsvp?id=453342"
+    "https://engage.missouri.edu/SURE/rsvp?id=453342",
+    "https://engage.missouri.edu/rsvp?id=453342"
    ],
    "categories": [
     "campus",
@@ -455,9 +441,9 @@
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
     "https://tockify.com/the.district.cid/detail/1256/1795215600000",
-    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
     "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
-    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/"
+    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
+    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040"
    ],
    "categories": [
     "family"
@@ -472,6 +458,20 @@
    "start": "2026-11-20T17:00:00-06:00",
    "title": "5th Annual Merry Moments w/Santa & Mrs. Clause",
    "venue": "Orr Street Studios"
+  },
+  {
+   "_slug": "robert-watson-88e241",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "end": "2026-11-20T20:00:00-06:00",
+   "id": "88e241f462a1ad23",
+   "imageUrl": "https://comoevent.com/img/gen/ecf2646f58b479.webp",
+   "source": "divebar",
+   "start": "2026-11-20T17:00:00-06:00",
+   "title": "Robert Watson",
+   "venue": "Dive Bar"
   },
   {
    "_slug": "whodunnit-weekly-game-night-f308ab",
@@ -600,6 +600,69 @@
    "start": "2026-11-20T18:00:00-06:00",
    "title": "Justin Hickerson",
    "venue": "Cooper's Landing"
+  },
+  {
+   "_slug": "mtg-friday-night-draft-800dec",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Join us for MTG Friday Night Magic (FNM)! FNM is usually a draft event, but players are also welcome to play Commander. Connect with other players on our discord.\\NEntry fee is based on price of booster being drafted.\\NLearn to play or find rules/regulations at: MTG Booster Draft",
+   "end": "2026-11-20T22:00:00-06:00",
+   "id": "800dec52adcfd7c8",
+   "imageUrl": "https://comoevent.com/img/gen/fdda7af0f80b0b.webp",
+   "source": "valhallasgate",
+   "start": "2026-11-20T18:00:00-06:00",
+   "title": "MTG Friday Night Draft",
+   "venue": "Valhalla's Gate"
+  },
+  {
+   "_slug": "mtg-commander-76d425",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Entry: $5 Players play in 3-6 person pods throughout the night. Everyone gets a promo for playing while supplies last and raffles are held for gift cards and foil promo packs.",
+   "end": "2026-11-20T23:30:00-06:00",
+   "id": "76d425eb94591eef",
+   "imageUrl": "https://comoevent.com/img/gen/b1c03da486ed7a.webp",
+   "source": "hexagonalley",
+   "start": "2026-11-20T18:00:00-06:00",
+   "title": "MTG: Commander",
+   "venue": "Hexagon Alley"
+  },
+  {
+   "_slug": "open-mic-night-at-fretboard-coffee-23b241",
+   "categories": [
+    "music",
+    "arts",
+    "community"
+   ],
+   "category": "music",
+   "description": "Monthly open mic on the third Friday: any instrument, music or spoken word. Sign-ups start at 5:30 at the bar.",
+   "end": "2026-11-20T21:00:00-06:00",
+   "id": "23b241de4514ca69",
+   "imageUrl": "https://comoevent.com/img/gen/d30fc84da88f37.webp",
+   "price": "Free",
+   "source": "weekly",
+   "start": "2026-11-20T18:00:00-06:00",
+   "title": "Open Mic Night at Fretboard Coffee",
+   "venue": "Fretboard Coffee"
+  },
+  {
+   "_slug": "traveller-rpg-open-play-7f5a7d",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "description": "Welcome to Valhalla’s Gate’s new Season of Roleplaying Open Play!New to the VG roleplaying lineup is a Friday Traveller campaign. Your Referee will be Jess.Campaign: Into the Borderlands - Adventures in the Trojan ReachPlayers will need: The Traveller RPG, a character, and a journal to track your ad",
+   "end": "2026-11-20T22:00:00-06:00",
+   "id": "7f5a7d40365b671c",
+   "imageUrl": "https://comoevent.com/img/gen/7665bf11fe1a91.webp",
+   "source": "valhallasgate",
+   "start": "2026-11-20T18:00:00-06:00",
+   "title": "Traveller RPG Open Play",
+   "venue": "Valhalla's Gate"
   },
   {
    "_slug": "lakshmi-sahasranama-and-kumkuma-archana-39511a",
@@ -813,6 +876,20 @@
    "start": "2026-11-20T19:30:00-06:00",
    "title": "Jack Grelle",
    "venue": "Birdie's Deli"
+  },
+  {
+   "_slug": "blake-gardner-the-farmers-f0d2fb",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "end": "2026-11-20T23:00:00-06:00",
+   "id": "f0d2fb37052a3d9c",
+   "imageUrl": "https://comoevent.com/img/gen/2ae8f12f8085b1.webp",
+   "source": "divebar",
+   "start": "2026-11-20T20:00:00-06:00",
+   "title": "Blake Gardner & The Farmers",
+   "venue": "Dive Bar"
   },
   {
    "_slug": "craft-club-2b3596",
@@ -1109,8 +1186,8 @@
   {
    "_slug": "saturday-market-winter-b317c0",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
-    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/"
+    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/",
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
    ],
    "categories": [
     "food"
@@ -1297,6 +1374,21 @@
    "venue": "Clovers Natural Market on Chapel Hill"
   },
   {
+   "_slug": "blood-on-the-clocktower-98218f",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Join us for our monthly Blood on the Clocktower event. What you'll need is an inquisitive mind and a penchant for solving mysteries as you take on the roll of a randomly chosen villager or demon. Midnight strikes the clocktower and a murder is discovered! Can you solve it with your teammates before ",
+   "end": "2026-11-21T16:00:00-06:00",
+   "id": "98218f8c84f41501",
+   "imageUrl": "https://comoevent.com/img/gen/5ade3578bec290.webp",
+   "source": "valhallasgate",
+   "start": "2026-11-21T12:00:00-06:00",
+   "title": "Blood on the Clocktower",
+   "venue": "Valhalla's Gate"
+  },
+  {
    "_slug": "friends-of-the-columbia-public-library-lobby-book-sale-28fd9b",
    "categories": [
     "community"
@@ -1382,6 +1474,21 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "star-wars-unlimited-weekly-play-premiere-format-47c969",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Best of 3, $5 entry!",
+   "end": "2026-11-21T15:30:00-06:00",
+   "id": "47c9697d7eec4993",
+   "imageUrl": "https://comoevent.com/img/gen/f2f58bf34929a3.webp",
+   "source": "hexagonalley",
+   "start": "2026-11-21T12:30:00-06:00",
+   "title": "Star Wars Unlimited: Weekly Play: Premiere Format",
+   "venue": "Hexagon Alley"
+  },
+  {
    "_slug": "weird-kids-weekend-club-7a696f",
    "categories": [
     "family"
@@ -1437,6 +1544,21 @@
    "title": "Kinusaiga (Fabric Mosaic)"
   },
   {
+   "_slug": "skirmish-saturday-for-tabletop-minis-406b1e",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Come play 40K Kill Team or other small skirmish games. This group gathers every other Saturday.",
+   "end": "2026-11-21T18:00:00-06:00",
+   "id": "406b1e402bd0e086",
+   "imageUrl": "https://comoevent.com/img/gen/865d1b7ce04e6a.webp",
+   "source": "valhallasgate",
+   "start": "2026-11-21T13:00:00-06:00",
+   "title": "Skirmish Saturday for Tabletop Minis",
+   "venue": "Valhalla's Gate"
+  },
+  {
    "_slug": "watercolor-basics-plant-life-with-lindsay-picht-6-week-96af97",
    "categories": [
     "arts"
@@ -1465,6 +1587,21 @@
    "start": "2026-11-21T13:00:00-06:00",
    "title": "You Can See Everything",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "daggerheart-rpg-open-play-ae68f9",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "description": "Welcome to Valhalla’s Gate’s new Season of Roleplaying Open Play!\\NThis season the Saturday group will be playing Daggerheart RPG. Your Dungeon Master (DM) will be Izzy. Our DM philosophy is that if everyone at the table is having fun, then you are doing it right. Players will need: The Daggerheart ",
+   "end": "2026-11-21T16:30:00-06:00",
+   "id": "ae68f953ec2b8124",
+   "imageUrl": "https://comoevent.com/img/gen/64326b5b54c51d.webp",
+   "source": "valhallasgate",
+   "start": "2026-11-21T13:30:00-06:00",
+   "title": "Daggerheart RPG Open Play",
+   "venue": "Valhalla's Gate"
   },
   {
    "_slug": "bhagwad-gita-class-9bbe13",
@@ -1626,7 +1763,21 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "mizzou-football-vs-kentucky-e629a2",
+   "_slug": "howard-levinson-b08d50",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "end": "2026-11-21T20:00:00-06:00",
+   "id": "b08d50bb53cc78f7",
+   "imageUrl": "https://comoevent.com/img/gen/8b260d49bb8eef.webp",
+   "source": "divebar",
+   "start": "2026-11-21T17:00:00-06:00",
+   "title": "Howard Levinson",
+   "venue": "Dive Bar"
+  },
+  {
+   "_slug": "scout-day-902d8f",
    "alsoOn": [
     "https://allevents.in/columbia/scout-day-at-mizzou-football-vs-kentucky/200030905797529"
    ],
@@ -1634,24 +1785,10 @@
     "sports"
    ],
    "category": "sports",
-   "end": "2026-11-21T23:00:00-06:00",
-   "id": "e629a21398467702",
-   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/07/Mizzou-Football-2026.png",
-   "source": "visitcolumbia",
-   "start": "2026-11-21T17:00:00-06:00",
-   "title": "Mizzou Football vs. Kentucky",
-   "venue": "Champions Drive"
-  },
-  {
-   "_slug": "scout-day-bd499f",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
    "description": "Scouts from across Missouri can celebrate together at Faurot Field as the Mizzou Tigers take on Kentucky. Tickets start at $50 and include a special Mizzou-themed Scout patch. Further event details will be announced closer to game day.",
    "end": "2026-11-21T20:30:00-06:00",
-   "id": "bd499ffdedd0bd2d",
-   "imageUrl": "https://comoevent.com/img/gen/c43e7c4fa4a5e8.webp",
+   "id": "902d8f662fe79982",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8xNDI5OTk2NDU1M2ZhYjE0MmVjOWExZWM2YWRiM2IxZjdhMTEwNjhkYzRlMTdmNTVlNDFmYWMzMjljN2U4NWI4LXJpbWctdzEyMDAtaDY4MC1kYzM4MzgzOC1nbWlyP3Y9MTc5Mjg5NzE2OA.avif",
    "source": "baselocal",
    "start": "2026-11-21T17:00:00-06:00",
    "title": "Scout Day",
@@ -1690,6 +1827,7 @@
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/",
     "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213"
    ],
    "categories": [
@@ -1698,11 +1836,11 @@
    "category": "sports",
    "end": "2026-11-21T20:30:00-06:00",
    "id": "6348cb430c3188f9",
-   "imageUrl": "https://comoevent.com/img/gen/1c4001fd032b28.webp",
+   "imageUrl": "https://comoevent.com/img/gen/98948d2b6368a4.webp",
    "source": "mizzou",
    "start": "2026-11-21T18:30:00-06:00",
    "title": "Football - Missouri vs. Kentucky",
-   "venue": "Faurot Field at Memorial Stadium"
+   "venue": "Champions Drive"
   },
   {
    "_slug": "ponies-improv-stripped-75585f",
@@ -1769,10 +1907,24 @@
    "title": "Ambient Sleeping Bag Party"
   },
   {
+   "_slug": "dead-rose-radio-de5fce",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "end": "2026-11-21T23:00:00-06:00",
+   "id": "de5fce89f873bc6b",
+   "imageUrl": "https://comoevent.com/img/gen/c047f14ae92db6.webp",
+   "source": "divebar",
+   "start": "2026-11-21T20:00:00-06:00",
+   "title": "Dead Rose Radio",
+   "venue": "Dive Bar"
+  },
+  {
    "_slug": "hayden-coffman-dcdb72",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/",
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000"
+    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
+    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
    ],
    "categories": [
     "music"
@@ -1806,8 +1958,8 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://allevents.in/columbia/the-host/200031023437330",
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000"
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
+    "https://allevents.in/columbia/the-host/200031023437330"
    ],
    "categories": [
     "arts",
@@ -1826,8 +1978,8 @@
   {
    "_slug": "live-hardcore-comedy-at-the-tokyo-club-columbia-s-own-lady-m-616a99",
    "alsoOn": [
-    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
    ],
    "categories": [
     "arts"
@@ -1992,14 +2144,32 @@
    "venue": "Columbia College"
   },
   {
-   "_slug": "hexagon-alley-lorcana-weekly-play-2b5c1d",
+   "_slug": "flesh-and-blood-armory-night-b48732",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Flesh and Blood revolves around playing as a powerful Hero, equipped with unique weapons, armours, with a wide arsenal of skills and abilities at your disposal. Players compete in various 1v1 or multiplayer formats, where only the most hardened of heroes will emerge victorious! This is a beginner fr",
+   "end": "2026-11-22T15:00:00-06:00",
+   "id": "b4873271ab194412",
+   "imageUrl": "https://comoevent.com/img/gen/4518aece36a390.webp",
+   "source": "hexagonalley",
+   "start": "2026-11-22T13:00:00-06:00",
+   "title": "Flesh And Blood: Armory Night",
+   "venue": "Hexagon Alley"
+  },
+  {
+   "_slug": "hexagon-alley-lorcana-weekly-play-75628a",
+   "alsoOn": [
+    "https://hexagonalley.com/events/"
+   ],
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "The House of Mouse and Hexagon Alley collide at our Lorcana weekly play! Entry: $5 Format: Standard",
    "end": "2026-11-22T16:00:00-06:00",
-   "id": "2b5c1de4a5b527e8",
+   "id": "75628a8f72ec8240",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab5536347d5d2eab1fcb662/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-22T13:00:00-06:00",
@@ -2134,6 +2304,20 @@
    "start": "2026-11-22T14:30:00-06:00",
    "title": "SAI Iota Lambda Chapter Meeting Time",
    "venue": "Sinquefield Music Center"
+  },
+  {
+   "_slug": "sunday-bingo-c90709",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "end": "2026-11-22T17:30:00-06:00",
+   "id": "c90709fd9edcec40",
+   "imageUrl": "https://comoevent.com/img/gen/83e99f93bafc84.webp",
+   "source": "divebar",
+   "start": "2026-11-22T14:30:00-06:00",
+   "title": "Sunday Bingo",
+   "venue": "Dive Bar"
   },
   {
    "_slug": "cancelled-salvation-army-s-como-christmas-parade-0a5f23",
@@ -2287,7 +2471,7 @@
   "1ba87c3ee65d3041",
   "5d1c5e5952f1ebfa",
   "ae0e51517423d4b1",
-  "e629a21398467702",
+  "902d8f662fe79982",
   "75585f338b675add",
   "616a99c75ecef11a"
  ],
