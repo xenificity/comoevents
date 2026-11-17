@@ -547,7 +547,8 @@ def src_allevents(days):
             if mt:
                 t = dt.datetime.strptime(mt.group(3).replace(" ", ""), "%I:%M%p").time()
                 start = dt.datetime.combine(dt.date.fromisoformat(sd), t, TZ)
-                tbd = False
+                # 1 to 6 AM on AllEvents is almost always a data-entry slip ("Cookies with Santa" at 5:10 AM)
+                tbd = 1 <= t.hour < 6
             else:
                 start = parse_dt(e.get("startDate")) if "T" in (e.get("startDate") or "") else dt.datetime.combine(dt.date.fromisoformat(sd), dt.time(0, 0), TZ)
                 tbd = "T" not in (e.get("startDate") or "")
@@ -896,8 +897,18 @@ ICS_SITES = {
     "farmersmarket": ("Columbia Farmers Market", "https://columbiafarmersmarket.org/events.ics",
                       "Columbia Farmers Market", "1769 W Ash St, Columbia, MO 65203", 38.9546, -92.3625,
                       "https://columbiafarmersmarket.org/", "food"),
+    # Game stores: Magic, D&D, board games, paint nights (Nov 2026). Joomla DPCalendar "root" = all 16 calendars.
+    "valhallasgate": ("Valhalla's Gate", "https://www.valhallasgate.com/index.php?option=com_dpcalendar&task=ical.download&id=root",
+                      "Valhalla's Gate", "2525 Bernadette Dr, Columbia, MO 65203", 38.9669274, -92.3764089,
+                      "https://www.valhallasgate.com/", "community"),
+    # Board-game cafe and bar downtown; Google Calendar embedded on hexagonalley.com/events/.
+    "hexagonalley": ("Hexagon Alley", "https://calendar.google.com/calendar/ical/9597bab5e76f2a5b6f8db116ff76296fb357aa3eb1eca8271c9d7e4361797877%40group.calendar.google.com/public/basic.ics",
+                     "Hexagon Alley", "111 S 9th St, Columbia, MO 65201", 38.9504, -92.328,
+                     "https://hexagonalley.com/events/", "community"),
 }
 ICS_SITE_SKIP = {
+    "hexagonalley": re.compile(r"\b(late open|open late|opens? at|closed|private)\b", re.I),
+    "valhallasgate": re.compile(r"\b(closed|store hours|private)\b", re.I),
     "maplewoodbarn": re.compile(r"\b(board meeting|director application|application|board|work day|strike|load[- ]?in|rehearsal)\b", re.I),
     "arcadedistrict": re.compile(r"\b(closed|private event|private party)\b", re.I),
 }
@@ -1665,6 +1676,161 @@ def src_runsignup(days):
                               image=r.get("logo_url"), description=desc, organizer=r.get("name")))
     return out
 
+# Columbia Public Schools (Finalsite calendars): only the public arts nights, plays, concerts, show choir.
+# calendar id -> (school, venue shown, address, lat, lng). Battle and Douglass post no arts dates (Nov 2026).
+CPS_CALS = {
+    49: ("Rock Bridge High School", "Rock Bridge High School Performing Arts Center", "4303 S Providence Rd, Columbia, MO 65203", 38.9017279, -92.337026),
+    32: ("Hickman High School", "Hickman High School", "1104 N Providence Rd, Columbia, MO 65203", 38.9627681, -92.3316779),
+}
+CPS_ARTS = re.compile(r"\b(concert|play|musical|choir|band|orchestra|theat(er|re)|showcase|talent show|recital|percussion|"
+                      r"tribute|sweet night of music|show choir)\b", re.I)
+CPS_SKIP = re.compile(r"\b(camp|tournament|debate|assembly|meeting|no school|rehearsal|large ensemble festival)\b", re.I)
+
+def src_cps(days):
+    """Columbia Public Schools high-school arts calendars (cpsk12.org Finalsite .ics, one per school)."""
+    out = []
+    now = dt.datetime.now(TZ)
+    horizon = now + dt.timedelta(days=days)
+    for cid, (school, venue, address, lat, lng) in CPS_CALS.items():
+        try:
+            text = get("https://www.cpsk12.org/fs/calendar-manager/events.ics", params={"calendar_ids[]": cid}).text
+        except Exception as e:
+            log("  cps", cid, "failed:", e); continue
+        text = re.sub(r"\n[ \t]", "", text.replace("\r\n", "\n"))
+        for block in text.split("BEGIN:VEVENT")[1:]:
+            props = {}
+            for line in block.split("END:VEVENT")[0].split("\n"):
+                if ":" in line:
+                    head, val = line.split(":", 1)
+                    parts = head.split(";")
+                    props.setdefault(parts[0], []).append((dict(p.split("=", 1) for p in parts[1:] if "=" in p), val))
+            summary = _ics_unescape(props.get("SUMMARY", [({}, "")])[0][1])
+            if not summary or not CPS_ARTS.search(summary) or CPS_SKIP.search(summary) or "DTSTART" not in props:
+                continue
+            try:
+                start, all_day = _ics_datetime(*props["DTSTART"][0])
+            except Exception:
+                continue
+            if start.tzinfo:
+                start = start.astimezone(TZ)
+            if start < now - dt.timedelta(hours=3) or start > horizon:
+                continue
+            title = re.sub(r"(?i)^(play|musical):\s*", "", summary).strip()
+            if not re.search(r"(?i)rock bridge|hickman|rbhs|cps", title):
+                title = f"{title} ({school})"
+            uid = props.get("UID", [({}, summary)])[0][1].strip()
+            ev = make_event("cps", "Columbia Public Schools", f"{uid}:{start:%Y%m%d%H%M}", title, start,
+                            start + dt.timedelta(hours=2) if not all_day else None, time_tbd=all_day,
+                            venue=venue, address=address, lat=lat, lng=lng, url="https://www.cpsk12.org/calendar",
+                            category="arts" if re.search(r"(?i)play|musical|theat|talent", summary) else "music",
+                            description=f"{school} student performance. Open to the public.", organizer=school)
+            if ev:
+                ev["audience"] = sorted(set(ev["audience"]) | {"family"})
+                out.append(ev)
+    return out
+
+
+def src_weekly(days):
+    """feed/weekly.json: repeating nights at places with no calendar online (trivia, open mics, comedy),
+    listed for the next 6 weeks. Each row: weekday (0 = Monday), optional nth week of the month, time, hours."""
+    path = os.path.join(HERE, "weekly.json")
+    try:
+        rows = json.load(open(path)).get("nights", [])
+    except Exception as e:
+        log("  weekly.json unreadable:", e); return []
+    today = dt.datetime.now(TZ).date()
+    last = today + dt.timedelta(days=min(days, 42))
+    out = []
+    for r in rows:
+        try:
+            hh, mm = (int(x) for x in r["time"].split(":"))
+            wd = int(r["weekday"])
+        except Exception:
+            log("  weekly.json: bad row", r.get("id")); continue
+        d = today + dt.timedelta(days=(wd - today.weekday()) % 7)
+        while d <= last:
+            nth_ok = not r.get("nth") or (d.day - 1) // 7 + 1 == int(r["nth"])
+            if nth_ok and d.isoformat() not in (r.get("skip") or []):
+                start = dt.datetime.combine(d, dt.time(hh, mm), TZ)
+                ev = make_event("weekly", r.get("venue") or "Weekly night", f"{r['id']}|{d}", r["title"], start,
+                                start + dt.timedelta(hours=float(r.get("hours") or 2)),
+                                venue=r.get("venue"), address=r.get("address"), lat=r.get("lat"), lng=r.get("lng"),
+                                url=r.get("link"), price=r.get("price"), category=r.get("category") or "community",
+                                description=r.get("description"), organizer=r.get("venue"))
+                if ev:
+                    if r.get("categories"):
+                        ev["categories"] = r["categories"][:4]
+                    out.append(ev)
+            d += dt.timedelta(days=7)
+    return out
+
+
+DIVEBAR = ("Dive Bar", "1116 Business Loop 70 E, Columbia, MO 65201", 38.9638, -92.3234, "https://divebarcomo.com/live-music/")
+_DIVE_TIME = re.compile(r"(\d{1,2})(?::(\d{2}))?\s*(?:-\s*\d{1,2}(?::\d{2})?\s*)?([ap])\.?m\b", re.I)
+
+def _dive_time(s):
+    m = _DIVE_TIME.search(s)
+    if not m:
+        return None
+    return dt.time(int(m.group(1)) % 12 + (12 if m.group(3).lower() == "p" else 0), int(m.group(2) or 0))
+
+def src_divebar(days):
+    """Dive Bar (divebarcomo.com/live-music/): a hand-typed list, one line per day:
+    "11.20 Robert Watson 5pm + Blake Gardner & The Farmers 8pm". Each act becomes its own event; a line with
+    no time ("Dive Bar Whiskey Club (Tickets Required)") is listed with time TBD. The page also states the
+    weekly karaoke (Thursday 7pm) and bingo (Sunday 2:30pm) nights, which are added for the coming weeks."""
+    venue, address, lat, lng, url = DIVEBAR
+    try:
+        h = get(url).text
+    except Exception as e:
+        log("  divebar failed:", e); return []
+    text = html.unescape(re.sub(r"<(?:br|/div|/p)[^>]*>", "\n", h))
+    text = re.sub(r"<[^>]+>", "", text)
+    today = dt.datetime.now(TZ).date()
+    horizon = today + dt.timedelta(days=days)
+    out = []
+
+    def add(day, title, t, sid, cat=None):
+        title = one_line(title.strip(" -–:+*"), 140)
+        if not title or day < today or day > horizon:
+            return
+        start = dt.datetime.combine(day, t or dt.time(0, 0), TZ)
+        ev = make_event("divebar", venue, sid, title, start, start + dt.timedelta(hours=3) if t else None, time_tbd=t is None,
+                        venue=venue, address=address, lat=lat, lng=lng, url=url, phone="(573) 474-9312",
+                        category=cat or infer_category(title, "", "music"), organizer=venue)
+        if ev:
+            out.append(ev)
+
+    for line in text.splitlines():
+        m = re.match(r"\s*(\d{1,2})\.(\d{1,2})\s+(.+)$", line)
+        if not m:
+            continue
+        mo, dd, rest = int(m.group(1)), int(m.group(2)), m.group(3).strip()
+        year = today.year + (1 if mo < today.month - 2 else 0)   # "1.9" in a December list is next January
+        try:
+            day = dt.date(year, mo, dd)
+        except ValueError:
+            continue
+        parts = [p.strip() for p in re.split(r"\s+\+\s+", rest) if p.strip()]
+        timed = [p for p in parts if _dive_time(p)]
+        if len(parts) > 1 and len(timed) == len(parts):
+            for p in parts:   # "Tyler Raney 5pm" / "5-6:30pm Dennis Hodo"
+                add(day, _DIVE_TIME.sub("", p).replace("  ", " "), _dive_time(p), f"{day}|{p}")
+        else:
+            add(day, _DIVE_TIME.sub("", rest).replace("  ", " "), _dive_time(rest), f"{day}|{rest}")
+    # Weekly nights stated at the top of the page
+    weekly = [("Karaoke Night", 3, dt.time(19, 0), "nightlife"), ("Sunday Bingo", 6, dt.time(14, 30), "community")]
+    if re.search(r"(?i)karaoke every thursday", text) or re.search(r"(?i)bingo sundays", text):
+        for title, wd, t, cat in weekly:
+            if (title.startswith("Karaoke") and not re.search(r"(?i)karaoke", text)) or (title.startswith("Sunday") and not re.search(r"(?i)bingo", text)):
+                continue
+            d = today + dt.timedelta(days=(wd - today.weekday()) % 7)
+            while d <= min(horizon, today + dt.timedelta(days=42)):
+                add(d, title, t, f"weekly|{title}|{d}", cat)
+                d += dt.timedelta(days=7)
+    return out
+
+
 PIERPONT = ("Pierpont General Store", "7650 MO-163, Columbia, MO 65203", 38.8626355, -92.3147178)
 PIERPONT_CATS = {"Live music": "music", "Food + drink": "food", "Community": "community"}
 
@@ -1717,7 +1883,7 @@ def src_pierpont(days):
 SOURCES = [src_mizzou, src_engage, src_visitcolumbia, src_eventbrite, src_allevents, src_baselocal, src_bluenote, src_dbrl,
            src_posh, src_tribe, src_vox, src_ics, src_extra,
            src_squarespace, src_ragtag, src_stephens, src_talkinghorse, src_mizzouarts, src_wealwaysswing, src_lyceum, src_caam,
-           src_tockify, src_ccis, src_macaronikid, src_comotickets, src_chamber, src_runsignup, src_pierpont]
+           src_tockify, src_ccis, src_macaronikid, src_comotickets, src_chamber, src_runsignup, src_pierpont, src_divebar, src_cps, src_weekly]
 
 # ----------------------------------------------------------------- merge
 DEDUPE_STOP = set("the a an of at in on and or for with to vs v am pm presents presented by featuring feat ft live event "
@@ -1743,6 +1909,48 @@ def same_event_words(a, b):
     if a.get("lat") is not None and b.get("lat") is not None and haversine_km((a["lat"], a["lng"]), (b["lat"], b["lng"])) > 0.8:
         return False
     return True
+
+
+# Problem reports from the apps (worker /fixes): only changes that 3 different people agreed on arrive here.
+FIXES_URL = os.environ.get("COMO_FIXES_URL", "https://comoevents-social.comoevent.workers.dev/fixes")
+
+def apply_user_fixes(events):
+    """cancelled: drop the event. time: move the start to the reported time (same day, same length).
+    place: use the reported place and look up its pin. 'other' only goes into the daily check report."""
+    try:
+        fixes = S.get(FIXES_URL, timeout=15).json().get("fixes", [])
+    except Exception as e:
+        log("  fixes unavailable:", e); return events
+    by_id = {}
+    for f in fixes:
+        by_id.setdefault(f.get("id"), []).append(f)
+    out = []
+    for e in events:
+        fs = by_id.get(e["id"], [])
+        if any(f["kind"] == "cancelled" for f in fs):
+            log(f"  fix: dropped cancelled '{e['title']}' ({len(fs)} report groups)")
+            continue
+        for f in fs:
+            if f["kind"] == "time" and re.match(r"^\d{2}:\d{2}$", f.get("value") or ""):
+                st = dt.datetime.fromisoformat(e["start"])
+                hh, mm = map(int, f["value"].split(":"))
+                new = st.replace(hour=hh, minute=mm)
+                if e.get("end"):
+                    e["end"] = (dt.datetime.fromisoformat(e["end"]) + (new - st)).isoformat()
+                e["start"], e["timeTBD"], e["allDay"] = new.isoformat(), False, False
+                e["corrected"] = sorted(set(e.get("corrected") or []) | {"time"})
+                log(f"  fix: '{e['title']}' now starts {f['value']}")
+            elif f["kind"] == "place" and (f.get("value") or "").strip():
+                place = one_line(f["value"], 120)
+                known = venue_lookup(place) or {}
+                g = (known.get("lat"), known.get("lng"), known.get("name") or place, known.get("address")) if known.get("lat") else geocode(place, None)
+                if g:
+                    e["lat"], e["lng"] = g[0], g[1]
+                    e["venue"], e["address"] = place, g[3] or e.get("address")
+                    e["corrected"] = sorted(set(e.get("corrected") or []) | {"place"})
+                    log(f"  fix: '{e['title']}' now at {place}")
+        out.append(e)
+    return out
 
 
 # Sites that copy other people's listings. On a merge their record loses to the organizer's own calendar.
@@ -2041,6 +2249,7 @@ def main():
     save_json(PAGECACHE_PATH, PAGECACHE)
 
     merged = dedupe(kept)
+    merged = apply_user_fixes(merged)
     # Only the next two months: events further out are often placeholders and aren't taken seriously.
     horizon = now + dt.timedelta(days=HORIZON_DAYS)
     merged = [e for e in merged if event_start(e) <= horizon]

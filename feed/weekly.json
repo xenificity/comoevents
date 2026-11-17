@@ -1,0 +1,60 @@
+{
+  "_readme": "Repeating nights at places that post only on Facebook or nowhere (trivia, open mics, comedy). src_weekly in aggregate.py lists each one for the next 6 weeks. weekday: 0 = Monday ... 6 = Sunday. nth (optional): only that week of the month (1 = first, 3 = third). verified: the day someone last confirmed it; the daily data check flags rows not re-verified in 60 days. source: where it was confirmed. skip: dates (YYYY-MM-DD) when it is not on.",
+  "nights": [
+    {
+      "id": "cafe-berlin-trivia",
+      "title": "Geeks Who Drink Trivia at Café Berlin",
+      "venue": "Café Berlin",
+      "address": "220 N 10th St, Columbia, MO 65201",
+      "lat": 38.9541, "lng": -92.32596,
+      "weekday": 2, "time": "19:00", "hours": 2,
+      "category": "nightlife", "categories": ["nightlife", "community"],
+      "price": "Free",
+      "description": "Weekly pub quiz run by Geeks Who Drink: two hours of trivia, teams of up to 6, free to play. Doors at 6. Bring a charged phone to submit answers.",
+      "link": "https://geekswhodrink.com/venues/2560940499",
+      "verified": "2026-11-17",
+      "source": "geekswhodrink.com venue page; COMO Magazine trivia guide"
+    },
+    {
+      "id": "eastside-comedy-open-mic",
+      "title": "As Yet Unnamed Comedy Show (free open mic)",
+      "venue": "Eastside Tavern",
+      "address": "1016 E Broadway, Columbia, MO 65201",
+      "lat": 38.9513, "lng": -92.3258,
+      "weekday": 1, "time": "21:00", "hours": 2,
+      "category": "nightlife", "categories": ["nightlife", "arts"],
+      "price": "Free",
+      "description": "Columbia's long-running free comedy open mic, every Tuesday since 2007. Doors at 8, show at 9. Comics can sign up at the door. 21+.",
+      "link": "https://directory.discoverthedistrict.com/business/eastside-tavern/",
+      "verified": "2026-11-17",
+      "source": "The District event listings; COMO Magazine comedy guide"
+    },
+    {
+      "id": "fretboard-open-mic",
+      "title": "Open Mic Night at Fretboard Coffee",
+      "venue": "Fretboard Coffee",
+      "address": "1016 Artist Alley, Columbia, MO 65201",
+      "lat": 38.95286, "lng": -92.32588,
+      "weekday": 4, "nth": 3, "time": "18:00", "hours": 3,
+      "category": "music", "categories": ["music", "arts", "community"],
+      "price": "Free",
+      "description": "Monthly open mic on the third Friday: any instrument, music or spoken word. Sign-ups start at 5:30 at the bar.",
+      "link": "https://www.discoverthedistrict.com/events/open-mic-nights-at-fretboard-coffee",
+      "verified": "2026-11-17",
+      "source": "The District event listings"
+    },
+    {
+      "id": "itap-themed-trivia",
+      "title": "Themed Trivia Night at International Tap House",
+      "venue": "International Tap House",
+      "address": "308 S 9th St, Columbia, MO 65201",
+      "lat": 38.9478131, "lng": -92.3274525,
+      "weekday": 2, "nth": 1, "time": "19:00", "hours": 2,
+      "category": "nightlife", "categories": ["nightlife", "community"],
+      "description": "Themed trivia on the first Wednesday of every month. 21+.",
+      "link": "https://www.discoverthedistrict.com/events/itap-first-wednesday-of-the-month-trivia-nights",
+      "verified": "2026-11-17",
+      "source": "The District event listings; COMO Magazine trivia guide"
+    }
+  ]
+}

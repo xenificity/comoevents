@@ -112,6 +112,14 @@ export default {
         const n = await deleteLinks(env, { ckUser: user, provider });
         return json({ ok: true, removed: n }, 200, cors);
       }
+      // Problem reports on feed events (no sign-in): a change happens only when 3 different people agree.
+      if (url.pathname === "/report" && req.method === "POST") return await reportProblem(req, env, cors);
+      if (url.pathname === "/fixes" && req.method === "GET") return json({ fixes: await listFixes(env) }, 200, { ...cors, "Cache-Control": "max-age=120" });
+      // "Who's in?" invites: a link friends open in any browser to say they're in, no app needed.
+      if (url.pathname === "/invite" && req.method === "POST") return await createInvite(req, env, cors);
+      const im = url.pathname.match(/^\/invite\/([a-z0-9]{8,16})(\/rsvp)?$/);
+      if (im && !im[2] && req.method === "GET") return await getInvite(im[1], env, cors);
+      if (im && im[2] && req.method === "POST") return await rsvpInvite(im[1], req, env, cors);
       if (url.pathname === "/facebook/deletion" && req.method === "POST") return await fbDeletion(req, env);
       if (url.pathname === "/deletion-status") return html(`<p>Your CoMo Events Facebook link has been deleted. Confirmation: ${esc(url.searchParams.get("code") || "")}</p>`);
       if (url.pathname === "/health") {
@@ -544,9 +552,126 @@ async function hmacRaw(secret, msg) {
 }
 async function hmacHex(secret, msg) { return [...(await hmacRaw(secret, msg))].map((b) => b.toString(16).padStart(2, "0")).join(""); }
 async function hmacB64url(secret, msg) { return b64(await hmacRaw(secret, msg)).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, ""); }
+// ---------------------------------------------------------------- problem reports (3 people must agree)
+// Each report is one KV key rep:<event>:<kind>:<value>:<reporter hash> (expires in 45 days), with the
+// suggested value in its metadata, so /fixes can count reporters with a single list() and no reads.
+// A reporter is a random id the app or browser keeps; per network we accept at most 30 reports a day.
+const REPORT_KINDS = new Set(["time", "place", "cancelled", "other"]);
+const FIX_THRESHOLD = 3;
+
+function clientIP(req) { return req.headers.get("CF-Connecting-IP") || "local"; }
+async function underLimit(env, bucket, req, max) {
+  const key = `rl:${bucket}:${(await hmacHex(env.SECRET || "dev", clientIP(req))).slice(0, 16)}:${new Date().toISOString().slice(0, 10)}`;
+  const n = Number((await env.KV.get(key)) || 0);
+  if (n >= max) return false;
+  await env.KV.put(key, String(n + 1), { expirationTtl: 90000 });
+  return true;
+}
+function valueKey(kind, v) {
+  if (kind === "time") return (String(v || "").match(/^\d{2}:\d{2}$/) || ["?"])[0].replace(":", "");
+  if (kind === "place") return String(v || "").toLowerCase().replace(/[^a-z0-9]+/g, "").slice(0, 40) || "?";
+  return "-";
+}
+
+async function reportProblem(req, env, cors) {
+  const b = await req.json().catch(() => ({}));
+  const event = String(b.event || "");
+  const kind = String(b.kind || "");
+  const reporter = String(b.reporter || "");
+  if (!/^[a-z0-9_-]{6,64}$/i.test(event) || !REPORT_KINDS.has(kind) || reporter.length < 8 || reporter.length > 80)
+    return json({ error: "Bad report." }, 400, cors);
+  let value = String(b.value || "").trim().slice(0, 120);
+  if (kind === "time" && !/^\d{2}:\d{2}$/.test(value)) return json({ error: "Pick the right start time." }, 400, cors);
+  if (kind === "place" && value.length < 3) return json({ error: "Type the right place." }, 400, cors);
+  if (offensive(value)) return json({ error: "Please keep it clean." }, 400, cors);
+  if (!(await underLimit(env, "rep", req, 30))) return json({ error: "Too many reports today. Thank you!" }, 429, cors);
+  const who = (await hmacHex(env.SECRET || "dev", "reporter:" + reporter)).slice(0, 20);
+  const key = `rep:${event}:${kind}:${valueKey(kind, value)}:${who}`;
+  await env.KV.put(key, "1", { expirationTtl: 45 * 86400, metadata: { v: value, t: Date.now() } });
+  const same = await env.KV.list({ prefix: `rep:${event}:${kind}:${valueKey(kind, value)}:` });
+  return json({ ok: true, count: same.keys.length, needed: FIX_THRESHOLD }, 200, cors);
+}
+
+async function listFixes(env) {
+  const groups = new Map();
+  let cursor;
+  do {
+    const page = await env.KV.list({ prefix: "rep:", cursor });
+    for (const k of page.keys) {
+      const [, event, kind, vk, who] = k.name.split(":");
+      const g = groups.get(`${event}:${kind}:${vk}`) || { id: event, kind, value: (k.metadata && k.metadata.v) || "", who: new Set(), last: 0 };
+      g.who.add(who);
+      g.last = Math.max(g.last, (k.metadata && k.metadata.t) || 0);
+      groups.set(`${event}:${kind}:${vk}`, g);
+    }
+    cursor = page.list_complete ? undefined : page.cursor;
+  } while (cursor);
+  return [...groups.values()].filter((g) => g.who.size >= FIX_THRESHOLD)
+    .map((g) => ({ id: g.id, kind: g.kind, value: g.kind === "time" || g.kind === "place" ? g.value : "", count: g.who.size, last: g.last }));
+}
+
+// ---------------------------------------------------------------- "Who's in?" invites
+// inv:<id> = { event, title, start, venue, host, guests: [{ g: guest id, name, status, at }] }, kept until a week
+// after the event. Anyone with the link can read it and answer; names are first names typed by the guests.
+function newId(n = 10) {
+  const a = "abcdefghijkmnpqrstuvwxyz23456789";
+  const r = crypto.getRandomValues(new Uint8Array(n));
+  return [...r].map((x) => a[x % a.length]).join("");
+}
+const cleanName = (s) => String(s || "").replace(/[<>]/g, "").replace(/\s+/g, " ").trim().slice(0, 40);
+
+async function createInvite(req, env, cors) {
+  const b = await req.json().catch(() => ({}));
+  const start = Date.parse(b.start || "");
+  if (!/^[a-z0-9_-]{6,64}$/i.test(String(b.event || "")) || !b.title || !start) return json({ error: "Bad invite." }, 400, cors);
+  const host = cleanName(b.host) || "A friend";
+  if (offensive(host + " " + (b.title || ""))) return json({ error: "Please keep it clean." }, 400, cors);
+  if (!(await underLimit(env, "inv", req, 40))) return json({ error: "Too many invites today." }, 429, cors);
+  const id = newId();
+  const inv = { event: String(b.event), title: String(b.title).slice(0, 160), start: new Date(start).toISOString(),
+                venue: String(b.venue || "").slice(0, 120), host, hostGuest: String(b.guest || "").slice(0, 40),
+                created: Date.now(), guests: [] };
+  if (inv.hostGuest) inv.guests.push({ g: inv.hostGuest, name: host, status: "in", at: Date.now() });
+  const ttl = Math.max(86400, Math.round((start - Date.now()) / 1000) + 7 * 86400);
+  await env.KV.put("inv:" + id, JSON.stringify(inv), { expirationTtl: ttl });
+  return json({ ok: true, id, url: `${env.SITE}/in/?i=${id}` }, 200, cors);
+}
+
+function publicInvite(inv) {
+  const { hostGuest, ...rest } = inv;
+  return { ...rest, guests: inv.guests.map(({ g, ...x }) => x),
+           counts: { in: inv.guests.filter((x) => x.status === "in").length, maybe: inv.guests.filter((x) => x.status === "maybe").length } };
+}
+
+async function getInvite(id, env, cors) {
+  const raw = await env.KV.get("inv:" + id);
+  if (!raw) return json({ error: "This invite has expired." }, 404, cors);
+  return json(publicInvite(JSON.parse(raw)), 200, cors);
+}
+
+async function rsvpInvite(id, req, env, cors) {
+  const raw = await env.KV.get("inv:" + id);
+  if (!raw) return json({ error: "This invite has expired." }, 404, cors);
+  const b = await req.json().catch(() => ({}));
+  const name = cleanName(b.name);
+  const guest = String(b.guest || "").slice(0, 40);
+  const status = ["in", "maybe", "out"].includes(b.status) ? b.status : null;
+  if (!name || guest.length < 8 || !status) return json({ error: "Add your name and pick an answer." }, 400, cors);
+  if (offensive(name)) return json({ error: "Please keep it clean." }, 400, cors);
+  if (!(await underLimit(env, "rsvp", req, 60))) return json({ error: "Too many answers today." }, 429, cors);
+  const inv = JSON.parse(raw);
+  const mine = inv.guests.find((x) => x.g === guest);
+  if (mine) Object.assign(mine, { name, status, at: Date.now() });
+  else if (inv.guests.length < 60) inv.guests.push({ g: guest, name, status, at: Date.now() });
+  const ttl = Math.max(86400, Math.round((Date.parse(inv.start) - Date.now()) / 1000) + 7 * 86400);
+  await env.KV.put("inv:" + id, JSON.stringify(inv), { expirationTtl: ttl });
+  return json(publicInvite(inv), 200, cors);
+}
+
 function corsHeaders(req, env) {
   const o = req.headers.get("Origin") || "";
-  return o === env.SITE || o === "https://www.comoevent.com" ? { "Access-Control-Allow-Origin": o, "Access-Control-Allow-Methods": "GET,POST,PUT,OPTIONS", "Access-Control-Allow-Headers": "Content-Type, Authorization", Vary: "Origin" } : {};
+  const dev = env.DEV === "1" && /^http:\/\/(localhost|127\.0\.0\.1):\d+$/.test(o);   // wrangler dev --var DEV:1
+  return o === env.SITE || o === "https://www.comoevent.com" || dev ? { "Access-Control-Allow-Origin": o, "Access-Control-Allow-Methods": "GET,POST,PUT,OPTIONS", "Access-Control-Allow-Headers": "Content-Type, Authorization", Vary: "Origin" } : {};
 }
 function json(obj, status = 200, headers = {}) { return new Response(JSON.stringify(obj), { status, headers: { "Content-Type": "application/json", ...headers } }); }
 function html(body, status = 200) { return new Response(`<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1"><body style="font-family:-apple-system,sans-serif;padding:24px">${body}</body>`, { status, headers: { "Content-Type": "text/html; charset=utf-8" } }); }

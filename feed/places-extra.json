@@ -1,0 +1,126 @@
+{
+ "_readme": "Places for the Places tab that Visit Columbia's directory leaves out, or describes badly. A row here replaces a directory row with the same name. category: fun, outdoors, culture, coffee, nightlife, shopping. lat/lng are looked up from the address when left out.",
+ "places": [
+  {
+   "name": "Rock Bridge Memorial State Park",
+   "category": "outdoors",
+   "address": "5901 S Highway 163, Columbia, MO 65203",
+   "lat": 38.8807,
+   "lng": -92.3196,
+   "website": "https://mostateparks.com/park/rock-bridge-memorial-state-park",
+   "blurb": "A natural rock bridge, the Devil's Icebox cave boardwalk and eight trails, 15 minutes south of downtown. Free.",
+   "tags": [
+    "outdoor",
+    "free",
+    "kids",
+    "dogs"
+   ]
+  },
+  {
+   "name": "MKT Nature and Fitness Trail (Flat Branch trailhead)",
+   "category": "outdoors",
+   "address": "101 S 4th St, Columbia, MO 65201",
+   "website": "https://www.como.gov/parks/",
+   "blurb": "The 8.9-mile rail trail starts at Flat Branch Park downtown and runs through the woods to the Katy Trail. Flat, shaded and free.",
+   "tags": [
+    "outdoor",
+    "free",
+    "dogs",
+    "kids"
+   ],
+   "lat": 38.9499,
+   "lng": -92.3349
+  },
+  {
+   "name": "Katy Trail, McBaine Trailhead",
+   "category": "outdoors",
+   "address": "McBaine, MO 65203",
+   "lat": 38.887,
+   "lng": -92.446,
+   "website": "https://mostateparks.com/park/katy-trail-state-park",
+   "blurb": "Where the MKT meets the Katy Trail: river bluffs, the huge Burr Oak tree nearby, and 240 miles of trail in both directions.",
+   "tags": [
+    "outdoor",
+    "free",
+    "dogs"
+   ]
+  },
+  {
+   "name": "Laws Observatory",
+   "category": "culture",
+   "address": "Physics Building, 701 S College Ave, Columbia, MO 65201",
+   "lat": 38.9426,
+   "lng": -92.3256,
+   "website": "https://physics.missouri.edu/laws-observatory",
+   "blurb": "Mizzou's rooftop telescopes are open to everyone on Wednesday nights, 8 to 10 PM, when the sky is clear. Free.",
+   "tags": [
+    "free",
+    "kids"
+   ]
+  },
+  {
+   "name": "Valhalla's Gate",
+   "category": "fun",
+   "address": "2525 Bernadette Dr, Columbia, MO 65203",
+   "lat": 38.9669274,
+   "lng": -92.3764089,
+   "website": "https://www.valhallasgate.com/",
+   "blurb": "Game store with tables for Magic, D&D, Warhammer and board games, and open game nights most evenings.",
+   "tags": [
+    "indoor"
+   ]
+  },
+  {
+   "name": "Hexagon Alley",
+   "category": "fun",
+   "address": "111 S 9th St, Columbia, MO 65201",
+   "lat": 38.9504,
+   "lng": -92.328,
+   "website": "https://hexagonalley.com/",
+   "blurb": "Board game cafe and bar downtown with a library of hundreds of games, trivia on Tuesdays and card game nights.",
+   "tags": [
+    "indoor",
+    "kids"
+   ]
+  },
+  {
+   "name": "Pierpont General Store",
+   "category": "nightlife",
+   "address": "7650 MO-163, Columbia, MO 65203",
+   "lat": 38.8626355,
+   "lng": -92.3147178,
+   "website": "https://www.pierpontstore.com/",
+   "blurb": "Historic 1889 general store near Rock Bridge with two kitchens, a backroad bar and live music under the trees.",
+   "tags": [
+    "outdoor",
+    "kids"
+   ]
+  },
+  {
+   "name": "Francis Quadrangle",
+   "category": "outdoors",
+   "address": "Francis Quadrangle, University of Missouri, Columbia, MO 65201",
+   "lat": 38.9458,
+   "lng": -92.3293,
+   "website": "https://missouri.edu/",
+   "blurb": "Mizzou's historic quad, the six Columns and Jesse Hall. The classic Columbia photo spot, lit up at night.",
+   "tags": [
+    "outdoor",
+    "free"
+   ]
+  },
+  {
+   "name": "Peace Park",
+   "category": "outdoors",
+   "address": "Elm St and S 8th St, Columbia, MO 65201",
+   "lat": 38.9481,
+   "lng": -92.3282,
+   "website": "https://www.como.gov/parks/",
+   "blurb": "Shady little park between downtown and campus, with a creek and lawns for a break between classes.",
+   "tags": [
+    "outdoor",
+    "free"
+   ]
+  }
+ ]
+}
