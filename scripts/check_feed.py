@@ -113,7 +113,12 @@ def check(events, prev=None):
     if prev:
         now_n = collections.Counter(e["source"] for e in events)
         old_n = collections.Counter(e["source"] for e in prev)
+        # Aggregators (AllEvents, Visit Columbia, ...) lose merges to the venue's own calendar, so their own
+        # count can fall while no event is missing; only flag them when they vanish.
+        aggregators = {"allevents", "baselocal", "macaronikid", "vox", "visitcolumbia"}
         for s, n in old_n.items():
+            if s in aggregators and now_n.get(s, 0) > 0:
+                continue
             if n >= 8 and now_n.get(s, 0) < n * 0.5:
                 out["source_drop"].append(f"{s}: {n} → {now_n.get(s, 0)} events")
 

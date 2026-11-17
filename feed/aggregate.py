@@ -23,7 +23,7 @@ import requests
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TZ = ZoneInfo("America/Chicago")
-UA = "CoMoEvents/0.1 (community events app prototype; ajay.kumar@missouri.edu)"
+UA = "CoMoEvents/1.0 (+https://comoevent.com)"   # identifies us to OpenStreetMap; no personal address in public code
 BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/130 Safari/537.36")
 DOWNTOWN = (38.9517, -92.3341)   # 9th & Broadway
