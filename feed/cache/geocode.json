@@ -245,6 +245,11 @@
   "name": null
  },
  "1101 grindstone pkwy suite 107, columbia, mo": null,
+ "1101 university ave, columbia, mo 65211": {
+  "lat": 38.9468613,
+  "lng": -92.3252317,
+  "name": null
+ },
  "1101 woodland springs court, columbia, mo, 65201": {
   "lat": 38.9632682,
   "lng": -92.2850416,
@@ -630,6 +635,11 @@
   "name": "Missouri Theatre"
  },
  "203 s 9th st, columbia, mo 65201": {
+  "lat": 38.9492429,
+  "lng": -92.3278763,
+  "name": "Missouri Theatre"
+ },
+ "203 s 9th st, columbia, mo 65211": {
   "lat": 38.9492429,
   "lng": -92.3278763,
   "name": "Missouri Theatre"
@@ -1866,6 +1876,7 @@
  "security bank parking lot, columbia, mo": null,
  "serendipity polish pottery & gallery, columbia, mo": null,
  "serendipity salon & gallery, columbia, mo": null,
+ "serendipity, columbia, mo": null,
  "shirahaze gallery, columbia, mo": null,
  "sinclair school of nursing lobby university of missouri columbia missouri united states, columbia, mo": null,
  "sinclair school of nursing, columbia, mo": {
@@ -1890,6 +1901,8 @@
  "stotler lounge in memorial union hitt street columbia mo, columbia, mo": null,
  "stotler lounge memorial student union university of missouri columbia missouri united states, columbia, mo": null,
  "stotler lounge memorial student union, columbia, mo": null,
+ "stotler lounge student success center columbia mo 65211 united states, columbia, mo": null,
+ "stotler lounge student success center columbia mo, columbia, mo": null,
  "stotler lounge, columbia, mo": {
   "lat": 38.9452641,
   "lng": -92.3253958,
