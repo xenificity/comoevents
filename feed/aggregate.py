@@ -2204,6 +2204,13 @@ def main():
             stats[name] = {"carriedForward": len(evs)}
         else:
             stats[name] = len(evs)
+            # One reader feeds several sources (tribe: cooperslanding + jabberwocky): if one site failed while
+            # the others worked, keep that site's previous events instead of dropping it (seen 2026-11-17).
+            got = {e.get("source") for e in evs}
+            lost = [e for e in prev_by_via.get(name, []) if e.get("source") not in got]
+            if evs and lost:
+                log(f"[{name}] sources missing this run: {sorted({e.get('source') for e in lost})}; carrying {len(lost)} events forward")
+                evs = evs + lost
         log(f"[{name}] {len(evs)} events in {time.time()-t0:.1f}s")
         all_events += evs
     if args.only:
