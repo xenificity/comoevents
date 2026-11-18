@@ -82,10 +82,12 @@ const PROVIDERS = {
 
 export default {
   // Every minute: approve new community posts (no manual review for now; Report/Block still work).
-  // Every 2 hours ("17 */2 * * *"): start the GitHub feed rebuild. GitHub's own schedule skips many runs
-  // (it ran every 6-12 hours in Nov 2026); Cloudflare's cron is reliable.
+  // Every minute: approve new posts. At :17 of every even UTC hour also start the GitHub feed rebuild. GitHub's
+  // own schedule skips many runs (it ran every 6-12 hours in Nov 2026). This rides on the minute cron because a
+  // second cron expression ("17 */2 * * *") never fired the dispatch on Nov 18 2026.
   async scheduled(event, env, ctx) {
-    if (event.cron === FEED_CRON) { ctx.waitUntil(dispatchFeed(env).catch((e) => console.error("feed dispatch", String(e)))); return; }
+    const t = new Date(event.scheduledTime || Date.now());
+    if (t.getUTCMinutes() === 17 && t.getUTCHours() % 2 === 0) ctx.waitUntil(dispatchFeed(env));
     ctx.waitUntil(approveNew(env).catch((e) => console.error("approve", String(e))));
   },
 
@@ -135,7 +137,8 @@ export default {
         const on = (list, p) => keys[p] && (all || (list || "").split(",").map((x) => x.trim()).includes(p));
         return json({ ok: true, facebook: on(env.FRIENDS_PUBLIC, "facebook"), google: on(env.FRIENDS_PUBLIC, "google"),
           cloudkit: !!(env.CK_KEY_ID && env.CK_PRIVATE_KEY && env.SECRET), images: true,
-          login: ["google", "facebook"].filter((p) => on(env.LOGIN_PUBLIC, p)) }, 200, cors);
+          login: ["google", "facebook"].filter((p) => on(env.LOGIN_PUBLIC, p)),
+          feedDispatch: await env.KV.get("feed:dispatch", "json") }, 200, cors);
       }
       return json({ error: "not found" }, 404, cors);
     } catch (e) {
@@ -560,18 +563,27 @@ async function hmacB64url(secret, msg) { return b64(await hmacRaw(secret, msg)).
 // ---------------------------------------------------------------- feed rebuild trigger
 // GH_DISPATCH_TOKEN: a fine-grained GitHub token limited to xenificity/comoevents with "Actions: Read and write"
 // (set with `npx wrangler secret put GH_DISPATCH_TOKEN`). Without it this does nothing.
-const FEED_CRON = "17 */2 * * *";
+// The last result is kept in KV "feed:dispatch" and shown in /health (time and GitHub's status code only).
 async function dispatchFeed(env) {
-  if (!env.GH_DISPATCH_TOKEN) { console.log("feed dispatch skipped: no GH_DISPATCH_TOKEN"); return false; }
+  const note = (o) => env.KV.put("feed:dispatch", JSON.stringify({ at: new Date().toISOString(), ...o })).catch(() => {});
+  if (!env.GH_DISPATCH_TOKEN) { console.log("feed dispatch skipped: no GH_DISPATCH_TOKEN"); await note({ ok: false, error: "no token" }); return false; }
+  try {
   const r = await fetch("https://api.github.com/repos/xenificity/comoevents/actions/workflows/feed.yml/dispatches", {
     method: "POST",
     headers: { Authorization: "Bearer " + env.GH_DISPATCH_TOKEN, Accept: "application/vnd.github+json",
                "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "comoevents-social" },
     body: JSON.stringify({ ref: "main" }),
   });
-  if (r.status !== 204) throw new Error("GitHub " + r.status + " " + (await r.text()).slice(0, 200));
+  if (r.status !== 204) {
+    const msg = (await r.text()).slice(0, 200);
+    console.error("feed dispatch", r.status, msg);
+    await note({ ok: false, status: r.status, error: msg });
+    return false;
+  }
   console.log("feed dispatch ok");
+  await note({ ok: true, status: 204 });
   return true;
+  } catch (e) { console.error("feed dispatch", String(e)); await note({ ok: false, error: String(e).slice(0, 200) }); return false; }
 }
 
 // ---------------------------------------------------------------- problem reports (3 people must agree)

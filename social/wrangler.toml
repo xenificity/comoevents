@@ -19,7 +19,7 @@ FRIENDS_PUBLIC = ""
 #   npx wrangler kv namespace create SOCIAL_KV   and paste the id below.
 # Every minute: auto-approve new community posts (approveNew in src/index.js).
 [triggers]
-crons = ["* * * * *", "17 */2 * * *"]   # every 2 hours: start the feed rebuild on GitHub (dispatchFeed)
+crons = ["* * * * *"]   # every minute: approve posts; at :17 of even UTC hours also start the feed rebuild (dispatchFeed)
 
 [[kv_namespaces]]
 binding = "KV"
