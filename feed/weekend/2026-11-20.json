@@ -174,6 +174,18 @@
    "venue": "Memorial Student Union"
   },
   {
+   "_slug": "bingo-and-senior-box-distribution-62d9e2",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "62d9e2fbf4d52c88",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy84Mzg2MDEyODZlZjE0NDViYmI2Yjc1YjA2ZDViYTk4NjM5MjYyM2MyNDAxN2VhM2FmMzMwZWQ1YjdlOGIzMGNhLXJpbWctdzEyMDAtaDY3NS1kYzY4Njg3OC1nbWlyP3Y9MTc5NDk0NDQxMw.avif",
+   "source": "allevents",
+   "start": "2026-11-20T10:00:00-06:00",
+   "title": "Bingo and Senior Box Distribution"
+  },
+  {
    "_slug": "study-abroad-walk-in-advising-97eac5",
    "categories": [
     "campus"
@@ -347,8 +359,8 @@
   {
    "_slug": "memorial-student-union-tower-centennial-celebration-85493d",
    "alsoOn": [
-    "https://engage.missouri.edu/SURE/rsvp?id=453342",
-    "https://engage.missouri.edu/rsvp?id=453342"
+    "https://engage.missouri.edu/rsvp?id=453342",
+    "https://engage.missouri.edu/SURE/rsvp?id=453342"
    ],
    "categories": [
     "campus",
@@ -437,26 +449,11 @@
    "venue": "Pierpont General Store (Outdoor stage)"
   },
   {
-   "_slug": "trail-boss-bbq-00e2ad",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "@ Follow our website link for more information on our delicious menu! https://trailbossbbq.com",
-   "end": "2026-11-20T20:00:00-06:00",
-   "id": "00e2adb7fba224d8",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2024/11/Trail-Boss-BBQ.jpg",
-   "source": "cooperslanding",
-   "start": "2026-11-20T16:30:00-06:00",
-   "title": "Trail Boss BBQ",
-   "venue": "Cooper's Landing"
-  },
-  {
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
-    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
     "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
+    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
+    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
     "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus"
    ],
    "categories": [
@@ -599,21 +596,6 @@
    "start": "2026-11-20T18:00:00-06:00",
    "title": "Friday Night Commander at Hexagon Alley",
    "venue": "Hexagon Alley"
-  },
-  {
-   "_slug": "justin-hickerson-87fa18",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "@ Our sound engineer, Justin, steps on stage with his guitar and some croonin’, so come on out to get swept away by the guy with all the personality!",
-   "end": "2026-11-20T21:00:00-06:00",
-   "id": "87fa18cb57815cc2",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2026/11/FB_IMG_1782430113758.jpeg",
-   "source": "cooperslanding",
-   "start": "2026-11-20T18:00:00-06:00",
-   "title": "Justin Hickerson",
-   "venue": "Cooper's Landing"
   },
   {
    "_slug": "mtg-friday-night-draft-800dec",
@@ -957,9 +939,6 @@
   },
   {
    "_slug": "the-spooklights-47545a",
-   "alsoOn": [
-    "https://www.voxmagazine.com/calendar/the-spooklights/event_77c386e6-88b2-40b3-a2a4-36e4c130517c.html"
-   ],
    "categories": [
     "music"
    ],
@@ -967,7 +946,6 @@
    "description": "with Long Gone Gabe",
    "id": "47545a4c2d1feb4f",
    "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/TSL-RMH-Web.jpg",
-   "price": "$10 in advance; $12 day of",
    "source": "bluenote",
    "start": "2026-11-20T20:00:00-06:00",
    "ticketUrl": "https://www.ticketmaster.com/the-spooklights-ben-miller-pat-kay-columbia-missouri-11-20-2026/event/0600652F33A5B1FC",
@@ -1056,8 +1034,8 @@
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-5d1c5e",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000",
-    "https://allevents.in/columbia/work-it-columbia-18/200030863023200"
+    "https://allevents.in/columbia/work-it-columbia-18/200030863023200",
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
    ],
    "categories": [
     "music",
@@ -1173,8 +1151,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
    ],
    "categories": [
     "nightlife",
@@ -1193,7 +1171,6 @@
   {
    "_slug": "saturday-market-winter-b317c0",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
     "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/"
    ],
    "categories": [
@@ -1204,7 +1181,6 @@
    "end": "2026-11-21T12:00:00-06:00",
    "id": "b317c05abbba97c4",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
-   "price": "Free",
    "source": "farmersmarket",
    "start": "2026-11-21T09:00:00-06:00",
    "title": "Saturday Market (Winter)",
@@ -1241,18 +1217,6 @@
    "start": "2026-11-21T09:00:00-06:00",
    "title": "Vintage Holiday Pop-Up",
    "venue": "Toasty Goat Coffee Co."
-  },
-  {
-   "_slug": "a-time-to-give-thanks-thanksgiving-66a9b0",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "66a9b0174ad11129",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wMTVlYTY4MjYyYWUxNmIyNzJlODM2YzM2Nzk2ZmU4NzRiZTAxOTU3YjE5YWJjMjY5ZGE1MGQ5NTM2MTA2YmYyLXJpbWctdzExMDMtaDE0MjYtZGNmOGU4YzgtZ21pcj92PTE3OTI1NjcwODA.avif",
-   "source": "allevents",
-   "start": "2026-11-21T10:00:00-06:00",
-   "title": "A Time to Give Thanks ~ Thanksgiving"
   },
   {
    "_slug": "applique-totes-89ac65",
@@ -1414,8 +1378,8 @@
   {
    "_slug": "grown-up-book-fair-749350",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/wilder-coffeehouse-grown-up-book-fair/",
-    "https://allevents.in/columbia/wilder-pop-up-grown-up-book-fair/200031042667547"
+    "https://allevents.in/columbia/wilder-pop-up-grown-up-book-fair/200031042667547",
+    "https://www.visitcolumbiamo.com/event/wilder-coffeehouse-grown-up-book-fair/"
    ],
    "categories": [
     "community"
@@ -1449,21 +1413,6 @@
    "ticketUrl": "https://www.eventbrite.com/e/harvest-of-gratitude-community-dinner-tickets-2003927879231",
    "title": "Harvest of Gratitude Community Dinner",
    "venue": "St Paul AME Church"
-  },
-  {
-   "_slug": "zydecos-cajun-kitchen-afc357",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "@ If you’re craving Cajun, head to Cooper’s Landing for Zydeco Cajun Kitchen and treat yourself to mouthwatering flavors right on the riverfront. https://www.facebook.com/zydecosco",
-   "end": "2026-11-21T20:00:00-06:00",
-   "id": "afc357e32e170200",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2024/11/Zydeco-Cajun-Kitchen-food-truck-shrimp-po-boy.jpg",
-   "source": "cooperslanding",
-   "start": "2026-11-21T12:00:00-06:00",
-   "title": "Zydeco’s Cajun Kitchen",
-   "venue": "Cooper's Landing"
   },
   {
    "_slug": "being-heumann-acd38e",
@@ -1629,8 +1578,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
    ],
    "categories": [
     "family"
@@ -1647,25 +1596,10 @@
    "venue": "Columbia Public Library"
   },
   {
-   "_slug": "the-daves-16b9ea",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "@ Delta Blues influenced and inspired by John Hurt, Fred McDowell, Furry Lewis, Robert Johnson, Leroy",
-   "end": "2026-11-21T17:00:00-06:00",
-   "id": "16b9ea9f82b6a52b",
-   "imageUrl": "https://comoevent.com/img/gen/c51c4771250c4c.webp",
-   "source": "cooperslanding",
-   "start": "2026-11-21T14:00:00-06:00",
-   "title": "The Daves",
-   "venue": "Cooper's Landing"
-  },
-  {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
-    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
+    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr",
+    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437"
    ],
    "categories": [
     "arts",
@@ -1753,6 +1687,19 @@
    "start": "2026-11-21T16:00:00-06:00",
    "title": "FREE Horse Drawn Carriage Rides",
    "venue": "The District"
+  },
+  {
+   "_slug": "mu-vs-kentucky-tailgate-all-you-can-eat-buffet-drink-special-77bbbe",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "77bbbe5e68a8e9c8",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy85NDZjNDBkYWY3ODkyMmMwMmM5NzU4YjJkMTMwNGUxMzU0ZmI2M2NjMzY0ZDNiYThjZmNhMzQ3MTg3YzkxNjM5LXJpbWctdzEyMDAtaDYwMC1kY2Y4ZDg1OC1nbWlyLmpwZz92PTE3OTQ5NzcxNzU.avif",
+   "source": "allevents",
+   "start": "2026-11-21T16:30:00-06:00",
+   "title": "MU vs Kentucky Tailgate | All You Can Eat Buffet, Drink Specials",
+   "venue": "The Kitchen Grill and Games"
   },
   {
    "_slug": "you-can-see-everything-c0de2f",
@@ -1848,8 +1795,8 @@
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/",
+    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213"
    ],
    "categories": [
     "sports"
@@ -1983,9 +1930,9 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://allevents.in/columbia/the-host/200031023437330",
     "https://tockify.com/the.district.cid/detail/1453/1795314600000",
-    "https://baselocal.com/mo/columbia/events/#the-host"
+    "https://baselocal.com/mo/columbia/events/#the-host",
+    "https://allevents.in/columbia/the-host/200031023437330"
    ],
    "categories": [
     "arts",
@@ -2005,8 +1952,8 @@
   {
    "_slug": "live-hardcore-comedy-at-the-tokyo-club-columbia-s-own-lady-m-616a99",
    "alsoOn": [
-    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
    ],
    "categories": [
     "arts"
@@ -2147,33 +2094,6 @@
    "venue": "CrossWay Church"
   },
   {
-   "_slug": "nov-2026-vgc-go-league-challenge-tournaments-735e20",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "735e20c45b064d4c",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy85ZWYxMWNlMGJiNTI5NTZlNmYzNzhhMDY2N2VmZWIyOTNlOTNjYjliZjM5OGU5ZDljMGMzYjE3NTkzMDk0M2MyLXJpbWctdzcyMC1oMzQ3LWRjZTgxODI4LWdtaXI_dj0xNzk0MjMzMzMz.avif",
-   "source": "allevents",
-   "start": "2026-11-22T12:00:00-06:00",
-   "title": "Nov 2026 VGC & GO League Challenge Tournaments"
-  },
-  {
-   "_slug": "the-munchbox-f406a0",
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "@ Get a taste of some Munch with a Punch! Serving a variety of food including sandwiches, tacos and more. The Munch Box keeps their menu and their food nice and fresh! Come see what all the munch is about!",
-   "end": "2026-11-22T20:00:00-06:00",
-   "id": "f406a09e405e9760",
-   "imageUrl": "https://comoevent.com/img/gen/9f71f037561dce.webp",
-   "source": "cooperslanding",
-   "start": "2026-11-22T12:00:00-06:00",
-   "title": "The Munchbox",
-   "venue": "Cooper's Landing"
-  },
-  {
    "_slug": "being-heumann-0d6004",
    "categories": [
     "arts"
@@ -2221,8 +2141,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -2305,8 +2225,8 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
     "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
@@ -2338,21 +2258,6 @@
    "start": "2026-11-22T14:00:00-06:00",
    "title": "The Little Mermaid Jr. – TRYPS Children’s Theater (Show 3)",
    "venue": "TRYPS Children’s Theater (Show 3)"
-  },
-  {
-   "_slug": "the-stoplight-flyers-ca31ad",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "@ Get ready for an afternoon of twangy, folk-infused Americana as The Stoplight Flyers take the stage at Cooper’s Landing!",
-   "end": "2026-11-22T17:00:00-06:00",
-   "id": "ca31ad6f86e9eedb",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2025/02/The-Stoplight-Flyers.jpg",
-   "source": "cooperslanding",
-   "start": "2026-11-22T14:00:00-06:00",
-   "title": "The Stoplight Flyers",
-   "venue": "Cooper's Landing"
   },
   {
    "_slug": "sai-iota-lambda-chapter-meeting-time-19b93c",
@@ -2541,16 +2446,16 @@
   }
  ],
  "friday": "2026-11-20",
- "modified": "2026-11-17",
+ "modified": "2026-11-18",
  "picks": [
   "d6be9bf5e704db23",
   "39beffc6c04d12c6",
   "77c7e7558b8be955",
-  "47545a4c2d1feb4f",
   "1ba87c3ee65d3041",
   "5d1c5e5952f1ebfa",
   "ae0e51517423d4b1",
   "75585f338b675add",
+  "dcdb7208f11d2ea8",
   "e5215bdda79b22bc",
   "616a99c75ecef11a"
  ],

@@ -859,6 +859,7 @@
   "name": null
  },
  "30 n 2nd st, hartsburg, mo 65039": null,
+ "30 w pershing rd, kansas city mo 64108, us": null,
  "300 n 10th st suite 100, columbia mo, 65201": {
   "lat": 38.9546634,
   "lng": -92.3262491,
@@ -1904,6 +1905,11 @@
  "strickland hall room 105 805 e rollins st columbia mo 65201 united states, columbia, mo": null,
  "strickland hall room 105 805 rollins st columbia mo 65201 united states, columbia, mo": null,
  "strickland hall room 105 united states, columbia, mo": null,
+ "student success center, columbia, mo 65211, united states": {
+  "lat": 38.9452704,
+  "lng": -92.3267355,
+  "name": null
+ },
  "switzler hall university of missouri columbia missouri united states, columbia, mo": null,
  "switzler hall, columbia, mo": {
   "lat": 38.9467698,
