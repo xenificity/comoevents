@@ -82,7 +82,12 @@ const PROVIDERS = {
 
 export default {
   // Every minute: approve new community posts (no manual review for now; Report/Block still work).
-  async scheduled(event, env, ctx) { ctx.waitUntil(approveNew(env).catch((e) => console.error("approve", String(e)))); },
+  // Every 2 hours ("17 */2 * * *"): start the GitHub feed rebuild. GitHub's own schedule skips many runs
+  // (it ran every 6-12 hours in Nov 2026); Cloudflare's cron is reliable.
+  async scheduled(event, env, ctx) {
+    if (event.cron === FEED_CRON) { ctx.waitUntil(dispatchFeed(env).catch((e) => console.error("feed dispatch", String(e)))); return; }
+    ctx.waitUntil(approveNew(env).catch((e) => console.error("approve", String(e))));
+  },
 
   async fetch(req, env) {
     const url = new URL(req.url);
@@ -552,6 +557,23 @@ async function hmacRaw(secret, msg) {
 }
 async function hmacHex(secret, msg) { return [...(await hmacRaw(secret, msg))].map((b) => b.toString(16).padStart(2, "0")).join(""); }
 async function hmacB64url(secret, msg) { return b64(await hmacRaw(secret, msg)).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, ""); }
+// ---------------------------------------------------------------- feed rebuild trigger
+// GH_DISPATCH_TOKEN: a fine-grained GitHub token limited to xenificity/comoevents with "Actions: Read and write"
+// (set with `npx wrangler secret put GH_DISPATCH_TOKEN`). Without it this does nothing.
+const FEED_CRON = "17 */2 * * *";
+async function dispatchFeed(env) {
+  if (!env.GH_DISPATCH_TOKEN) { console.log("feed dispatch skipped: no GH_DISPATCH_TOKEN"); return false; }
+  const r = await fetch("https://api.github.com/repos/xenificity/comoevents/actions/workflows/feed.yml/dispatches", {
+    method: "POST",
+    headers: { Authorization: "Bearer " + env.GH_DISPATCH_TOKEN, Accept: "application/vnd.github+json",
+               "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "comoevents-social" },
+    body: JSON.stringify({ ref: "main" }),
+  });
+  if (r.status !== 204) throw new Error("GitHub " + r.status + " " + (await r.text()).slice(0, 200));
+  console.log("feed dispatch ok");
+  return true;
+}
+
 // ---------------------------------------------------------------- problem reports (3 people must agree)
 // Each report is one KV key rep:<event>:<kind>:<value>:<reporter hash> (expires in 45 days), with the
 // suggested value in its metadata, so /fixes can count reporters with a single list() and no reads.

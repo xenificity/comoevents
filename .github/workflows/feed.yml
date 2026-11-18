@@ -2,7 +2,11 @@ name: Rebuild event feed
 on:
   schedule:
     - cron: "17 */2 * * *"   # every 2 hours
-  workflow_dispatch:
+  workflow_dispatch:   # also started every 2 hours by the Cloudflare Worker (social/, dispatchFeed)
+# GitHub's schedule and the Worker can fire close together: run one at a time, never two side by side
+concurrency:
+  group: feed
+  cancel-in-progress: false
 jobs:
   feed:
     runs-on: ubuntu-latest
