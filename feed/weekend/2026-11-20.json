@@ -57,8 +57,8 @@
   {
    "_slug": "black-and-gold-friday-a20afb",
    "alsoOn": [
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
    ],
    "categories": [
     "campus"
@@ -450,12 +450,11 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
+   "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-3a6eed",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
     "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
     "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
-    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/"
+    "https://tockify.com/the.district.cid/detail/1256/1795215600000"
    ],
    "categories": [
     "family"
@@ -463,7 +462,7 @@
    "category": "family",
    "description": "You’re invited to the 5th Annual Merry Moments with Santa & Mrs. Claus! Join Junior Achievement in Central Missouri for a FREE evening of festive family fun on Friday, November 20, from 5:00–8:00 p.m. at Orr Street Studios in Columbia! Families can enjoy: Photos with Santa and Mrs. Claus Free cookie",
    "end": "2026-11-20T20:00:00-06:00",
-   "id": "0b326556f0f4f2d6",
+   "id": "3a6eed028ae5bf3c",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb504049b9323bd26fa216/scaled_1152.jpg",
    "price": "Free",
    "source": "district",
@@ -578,7 +577,8 @@
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9lMzMwZDk3MzExNWI5MDQyZmU1ZjU5NzkyYzBmNDllZjNhYTI2ZGQ0OTEyYWYwM2Q3MmRmMTBjMGRkMDBiYmNkLXJpbWctdzgwMC1oNTA5LWRjMDgzODc4LWdtaXI_dj0xNzkyMTE2NDQy.avif",
    "source": "allevents",
    "start": "2026-11-20T18:00:00-06:00",
-   "title": "Dive More & Stay Longer: SSI Enriched Air Nitrox Course"
+   "title": "Dive More & Stay Longer: SSI Enriched Air Nitrox Course",
+   "venue": "Diventures in Columbia"
   },
   {
    "_slug": "friday-night-commander-at-hexagon-alley-e708b8",
@@ -612,6 +612,18 @@
    "start": "2026-11-20T18:00:00-06:00",
    "title": "Justin Hickerson",
    "venue": "Cooper's Landing"
+  },
+  {
+   "_slug": "movie-night-78e3ac",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "78e3ac68d77b5990",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9kMzFiYzE4NDFiYmFlOTAwOGRjZGEwODUzZjMxOTQzODZhODhmYmQyYzA2N2NlZDY5NDM3OWIxMzM4MDUyMzk5LXJpbWctdzEyMDAtaDY2OS1kY2Q4OThjOC1nbWlyP3Y9MTc5NTAyMjU3Mw.avif",
+   "source": "allevents",
+   "start": "2026-11-20T18:00:00-06:00",
+   "title": "MOVIE NIGHT"
   },
   {
    "_slug": "mtg-friday-night-draft-800dec",
@@ -743,18 +755,22 @@
    "venue": "Serendipity Polish Pottery & Gallery"
   },
   {
-   "_slug": "fallout-launch-party-39beff",
+   "_slug": "fallout-launch-party-40f3eb",
+   "alsoOn": [
+    "https://allevents.in/columbia/fallout-launch-party/200031028060839"
+   ],
    "categories": [
     "party"
    ],
    "category": "party",
    "description": "https://www.facebook.com/events/1029108683574685/ You have 2 minutes to escape the vault. This is going to be a little bit of a different style of launch party. It will be for fun only, no WPPRs, no pressure...well maybe a little bit of pressure. Each player will get 2 minutes. You launch your ball ",
    "end": "2026-11-20T21:00:00-06:00",
-   "id": "39beffc6c04d12c6",
+   "id": "40f3eb628a6adde1",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb4dc049b9323bd2558088/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-20T19:00:00-06:00",
-   "title": "Fallout Launch Party"
+   "title": "Fallout Launch Party",
+   "venue": "Hexagon Alley"
   },
   {
    "_slug": "hanyu-zhang-piano-recital-885033",
@@ -808,21 +824,16 @@
   },
   {
    "_slug": "mens-basketball-missouri-vs-le-moyne-e5f8d3",
-   "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-cleveland-state-3-2/"
-   ],
    "categories": [
     "sports"
    ],
    "category": "sports",
-   "description": "Catch the Missouri Tigers in home action!",
    "end": "2026-11-20T21:00:00-06:00",
    "id": "e5f8d31b644e56cf",
-   "imageUrl": "https://comoevent.com/img/gen/5d5f7d976344e2.webp",
+   "imageUrl": "https://comoevent.com/img/gen/65ab37a7e7e58c.webp",
    "source": "mizzou",
    "start": "2026-11-20T19:00:00-06:00",
-   "title": "Men’s Basketball - Missouri vs. Le Moyne",
-   "venue": "Champions Drive"
+   "title": "Men’s Basketball - Missouri vs. Le Moyne"
   },
   {
    "_slug": "pop-reimagined-0e2dd7",
@@ -868,15 +879,18 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "jack-grelle-430d57",
+   "_slug": "jack-grelle-5d1df1",
+   "alsoOn": [
+    "https://allevents.in/columbia/jack-grelle-w-cole-bridges-birdies-deli/200031002103557"
+   ],
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "Songwriter Jack Grelle draws on years of travel and encounters across the country, blending traditional country, folk, and rock ’n’ roll. His music ranges from honky-tonk to more rock-oriented sounds, with songs that reflect on contemporary life, personal change, and the people around him. Cole Bri…",
    "end": "2026-11-20T23:00:00-06:00",
-   "id": "430d57ac859eafe4",
-   "imageUrl": "https://comoevent.com/img/gen/c2c678eb795f78.webp",
+   "id": "5d1df1dd4d319f9b",
+   "imageUrl": "https://dyn-image.allevents.in/generate-image?v=4&title=Jack+Grelle+w%2F+Cole+Bridges+%40+Birdie%27s+Deli+&date=Fri+Nov+20+2026+at+07%3A30+pm&bg=3",
    "source": "baselocal",
    "start": "2026-11-20T19:30:00-06:00",
    "title": "Jack Grelle",
@@ -929,19 +943,6 @@
    "venue": "Eastside Tavern"
   },
   {
-   "_slug": "macalester-dose-the-rebels-live-at-myhouse-in-columbia-mo-73b507",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "73b507e188b58035",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy8zM2FhYTEwOWMyNDE1YjcyMmFlZDVjYmVmMjhmNjAyZmI0NjQyMTMzYzM1YmIzNjAwMjgwZjZkNDdlOWFlZWY1LXJpbWctdzEyMDAtaDEwMjQtZGMwODA4MDgtZ21pcj92PTE3OTI5Njc0NzE.avif",
-   "source": "allevents",
-   "start": "2026-11-20T20:00:00-06:00",
-   "title": "Macalester Dose & The Rebels LIVE at MyHouse in Columbia, MO",
-   "venue": "My House Nightclub & Sports Bar"
-  },
-  {
    "_slug": "meredith-shaw-at-old-plank-tavern-626f93",
    "categories": [
     "community"
@@ -954,8 +955,9 @@
    "title": "Meredith Shaw at Old Plank Tavern"
   },
   {
-   "_slug": "the-spooklights-47545a",
+   "_slug": "the-spooklights-dd974c",
    "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#the-spooklights",
     "https://www.voxmagazine.com/calendar/the-spooklights/event_77c386e6-88b2-40b3-a2a4-36e4c130517c.html"
    ],
    "categories": [
@@ -963,7 +965,7 @@
    ],
    "category": "music",
    "description": "with Long Gone Gabe",
-   "id": "47545a4c2d1feb4f",
+   "id": "dd974cc397ae9f26",
    "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/TSL-RMH-Web.jpg",
    "price": "$10 in advance; $12 day of",
    "source": "bluenote",
@@ -987,9 +989,6 @@
   },
   {
    "_slug": "the-spooklights-rose-music-hall-1ba87c",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-spooklights-ft-long-gone-gabe-at-rose-music-hall-columbia-mo"
-   ],
    "categories": [
     "music"
    ],
@@ -1054,8 +1053,8 @@
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-5d1c5e",
    "alsoOn": [
-    "https://allevents.in/columbia/work-it-columbia-18/200030863023200",
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000",
+    "https://allevents.in/columbia/work-it-columbia-18/200030863023200"
    ],
    "categories": [
     "music",
@@ -1189,19 +1188,18 @@
    "venue": "Tiny Play Café"
   },
   {
-   "_slug": "saturday-market-winter-b317c0",
+   "_slug": "saturday-market-winter-35c4ed",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/",
     "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
    ],
    "categories": [
     "food"
    ],
    "category": "food",
-   "description": "Experience the taste of mid-Missouri year-round at Columbia Farmers Market! Visit us during the Winter Season: every Saturday from 9 a.m.- noon (November-March) in the heated MU Health Care Pavilion at Columbia’s Agriculture Park. You will find fresh produce, meat, farm fresh eggs, cheese, honey, ar",
+   "description": "Experience the taste of mid-Missouri year-round at Columbia Farmers Market. Visit the market from 9 a.m. to noon every Saturday from November …",
    "end": "2026-11-21T12:00:00-06:00",
-   "id": "b317c05abbba97c4",
-   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
+   "id": "35c4ed70bce74200",
+   "imageUrl": "https://comoevent.com/img/gen/75a6dc922c2183.webp",
    "price": "Free",
    "source": "farmersmarket",
    "start": "2026-11-21T09:00:00-06:00",
@@ -1222,6 +1220,18 @@
    "start": "2026-11-21T09:00:00-06:00",
    "title": "Vintage Holiday Pop-Up",
    "venue": "Toasty Goat Coffee Co."
+  },
+  {
+   "_slug": "a-time-to-give-thanks-thanksgiving-66a9b0",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "66a9b0174ad11129",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8wMTVlYTY4MjYyYWUxNmIyNzJlODM2YzM2Nzk2ZmU4NzRiZTAxOTU3YjE5YWJjMjY5ZGE1MGQ5NTM2MTA2YmYyLXJpbWctdzExMDMtaDE0MjYtZGNmOGU4YzgtZ21pcj92PTE3OTI1NjcwODA.avif",
+   "source": "allevents",
+   "start": "2026-11-21T10:00:00-06:00",
+   "title": "A Time to Give Thanks ~ Thanksgiving"
   },
   {
    "_slug": "applique-totes-89ac65",
@@ -1381,18 +1391,14 @@
    "venue": "Columbia Public Library"
   },
   {
-   "_slug": "grown-up-book-fair-749350",
-   "alsoOn": [
-    "https://allevents.in/columbia/wilder-pop-up-grown-up-book-fair/200031042667547",
-    "https://www.visitcolumbiamo.com/event/wilder-coffeehouse-grown-up-book-fair/"
-   ],
+   "_slug": "grown-up-book-fair-908a38",
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "Wilder Coffeehouse (next to the Tiger Hotel) is hosting a book fair pop-up! Stop in any time from 12pm-3pm to find books and bouquets! Feature Vendors: Skylark Book Shop & flowers by Sydney Johnson. Details: https://www.facebook.com/events/1755978099870131",
    "end": "2026-11-21T15:00:00-06:00",
-   "id": "7493503c2eaf2e93",
+   "id": "908a380259ea5263",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6af60d5b33339b9bfd469f29/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-21T12:00:00-06:00",
@@ -1627,8 +1633,8 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
-    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
+    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr",
+    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437"
    ],
    "categories": [
     "arts",
@@ -1837,8 +1843,7 @@
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/"
+    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213"
    ],
    "categories": [
     "sports"
@@ -1846,11 +1851,11 @@
    "category": "sports",
    "end": "2026-11-21T20:30:00-06:00",
    "id": "6348cb430c3188f9",
-   "imageUrl": "https://comoevent.com/img/gen/98948d2b6368a4.webp",
+   "imageUrl": "https://comoevent.com/img/gen/1c4001fd032b28.webp",
    "source": "mizzou",
    "start": "2026-11-21T18:30:00-06:00",
    "title": "Football - Missouri vs. Kentucky",
-   "venue": "Champions Drive"
+   "venue": "Faurot Field at Memorial Stadium"
   },
   {
    "_slug": "ponies-improv-stripped-75585f",
@@ -1935,9 +1940,8 @@
    "venue": "Dive Bar"
   },
   {
-   "_slug": "hayden-coffman-dcdb72",
+   "_slug": "hayden-coffman-90d933",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/",
     "https://tockify.com/the.district.cid/detail/1451/1795309200000"
    ],
    "categories": [
@@ -1945,8 +1949,8 @@
    ],
    "category": "music",
    "description": "with Bryce Mauldin",
-   "end": "2026-11-21T23:00:00-06:00",
-   "id": "dcdb7208f11d2ea8",
+   "end": "2026-11-21T23:30:00-06:00",
+   "id": "90d9333f3c214eac",
    "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/TSL-RMH-Web.jpg",
    "source": "bluenote",
    "start": "2026-11-21T20:00:00-06:00",
@@ -1972,8 +1976,8 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
     "https://allevents.in/columbia/the-host/200031023437330",
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
     "https://baselocal.com/mo/columbia/events/#the-host"
    ],
    "categories": [
@@ -2040,6 +2044,20 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "super-smash-bros-tournament-e47027",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e47027247d911c2e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
+   "source": "allevents",
+   "start": "2026-11-22T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
+  },
+  {
    "_slug": "yoga-at-partner-for-better-b09b73",
    "categories": [
     "community"
@@ -2104,22 +2122,6 @@
    "venue": "Fairview Church of Christ"
   },
   {
-   "_slug": "chiefs-game-day-at-the-kitchen-8a0ac6",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "description": "Catch every Chiefs game at The Kitchen with game-day specials, themed drinks, giveaways, and more! RSVP to let us know you're coming.",
-   "end": "2026-11-22T15:00:00-06:00",
-   "id": "8a0ac6ee6a9dbbdb",
-   "imageUrl": "https://cdn.evbuc.com/images/1192719039/2276365863483/1/original.20260904-205414",
-   "source": "eventbrite",
-   "start": "2026-11-22T12:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/chiefs-game-day-at-the-kitchen-tickets-1999805571297",
-   "title": "Chiefs Game Day at The Kitchen",
-   "venue": "The Kitchen Grill and Games"
-  },
-  {
    "_slug": "chili-cookoff-e49549",
    "categories": [
     "party",
@@ -2134,6 +2136,18 @@
    "start": "2026-11-22T12:00:00-06:00",
    "title": "Chili Cookoff",
    "venue": "CrossWay Church"
+  },
+  {
+   "_slug": "nov-2026-vgc-go-league-challenge-tournaments-735e20",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "735e20c45b064d4c",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy85ZWYxMWNlMGJiNTI5NTZlNmYzNzhhMDY2N2VmZWIyOTNlOTNjYjliZjM5OGU5ZDljMGMzYjE3NTkzMDk0M2MyLXJpbWctdzcyMC1oMzQ3LWRjZTgxODI4LWdtaXI_dj0xNzk0MjMzMzMz.avif",
+   "source": "allevents",
+   "start": "2026-11-22T12:00:00-06:00",
+   "title": "Nov 2026 VGC & GO League Challenge Tournaments"
   },
   {
    "_slug": "the-munchbox-f406a0",
@@ -2166,14 +2180,14 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "columbia-college-women-s-basketball-vs-haskell-indian-nation-313155",
+   "_slug": "columbia-college-women-s-basketball-vs-haskell-indian-nation-44a939",
    "categories": [
     "sports"
    ],
    "category": "sports",
-   "description": "Columbia College Women's Basketball vs Haskell Indian Nations University",
+   "description": "Columbia College Women's Basketball vs Haskell Indian Nations University Streaming Video: https://stephensstars.com/sports/2022/5/19/blueframe-live-stream.aspx Tickets: https://events.hometownticketing.com/boxoffice/stephenscollege/L2VtYmVkL2V2ZW50LzE3Mz9zaW5nbGU9MQ==",
    "end": "2026-11-22T15:00:00-06:00",
-   "id": "313155361e6dd5c6",
+   "id": "44a939c055d76199",
    "imageUrl": "https://comoevent.com/img/gen/6d148f8d9c6636.webp",
    "source": "ccis",
    "start": "2026-11-22T13:00:00-06:00",
@@ -2198,8 +2212,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -2260,43 +2274,41 @@
    "title": "Pop-up Prenatal Class"
   },
   {
-   "_slug": "color-me-merry-66bb5a",
+   "_slug": "color-me-merry-7dea38",
    "alsoOn": [
-    "https://allevents.in/columbia/color-me-merry/100002004101275865",
-    "https://tockify.com/the.district.cid/detail/1461/1795377600000"
+    "https://allevents.in/columbia/color-me-merry/100002004101275865"
    ],
    "categories": [
     "community"
    ],
    "category": "community",
-   "description": "Collaboration with Wishflour Bakery and Sill Waters CoMo. Make your own mocktail & galette to enjoy while you color your own 2027 calendar!",
+   "description": "Organized by: Wishflour Bakery — https://www.eventbrite.com/o/121398105582 Collaboration with Wishflour Bakery and Sill Waters CoMo. Make your own mocktail & galette to enjoy while you color your own 2027 calendar! These two business owners have been friends for over 25 years, and now they're inviti",
    "end": "2026-11-22T16:00:00-06:00",
-   "id": "66bb5abc290de085",
-   "imageUrl": "https://cdn.evbuc.com/images/1196902591/3003358721464/1/original.20261030-014838",
-   "source": "eventbrite",
+   "id": "7dea382df168e37b",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb637649b9323bd23c20e9/scaled_1152.jpg",
+   "source": "district",
    "start": "2026-11-22T14:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/color-me-merry-tickets-2004101275865",
-   "title": "Color Me Merry!",
+   "title": "Color Me Merry",
    "venue": "Wishflour Bakery"
   },
   {
-   "_slug": "columbia-ballet-nutcracker-tea-party-7a4b99",
+   "_slug": "nutcracker-tea-party-b514d0",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
     "arts",
     "family"
    ],
    "category": "arts",
-   "description": "Nutcracker Tea Party Celebrate the magic of the season with an afternoon of tea, treats, and Nutcracker fun! Join Columbia Ballet Academy and Mar…",
+   "description": "Celebrate the season with an afternoon of tea, treats, and Nutcracker-themed activities. The family gathering includes a dance performance, photo opportunities with Nutcracker characters, ornament decorating, a raffle, and additional holiday surprises. Proceeds support Columbia Ballet Academy and M…",
    "end": "2026-11-22T16:00:00-06:00",
-   "id": "7a4b9981e9fb1741",
-   "imageUrl": "https://comoevent.com/img/gen/2c0d8d7fa58d0e.webp",
-   "source": "macaronikid",
+   "id": "b514d08f62c2ee46",
+   "imageUrl": "https://comoevent.com/img/gen/f2fdabc8acc991.webp",
+   "source": "allevents",
    "start": "2026-11-22T14:00:00-06:00",
-   "title": "Columbia Ballet Nutcracker Tea Party",
+   "title": "Nutcracker Tea Party",
    "venue": "Columbia Ballet Academy"
   },
   {
@@ -2422,6 +2434,21 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "dining-in-the-alley-with-nclusion-plus-32d87d",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "description": "Hexagon Alley hosts an evening of dining and drag entertainment led by Artemis Grey. Advance admission is $12, or $15 at the door, and it includes access to multiple rounds of performances featuring Artemis Grey with special guests. Food and drinks are available for purchase from the Hexagon Alley…",
+   "end": "2026-11-22T19:00:00-06:00",
+   "id": "32d87d55a294b4e5",
+   "imageUrl": "https://comoevent.com/img/gen/c1bddd2d4589ba.webp",
+   "source": "baselocal",
+   "start": "2026-11-22T16:00:00-06:00",
+   "title": "Dining in the Alley with Nclusion Plus",
+   "venue": "Hexagon Alley"
+  },
+  {
    "_slug": "partner-yoga-5c5164",
    "categories": [
     "community"
@@ -2434,25 +2461,6 @@
    "source": "district",
    "start": "2026-11-22T16:00:00-06:00",
    "title": "Partner Yoga"
-  },
-  {
-   "_slug": "super-smash-bros-tournament-83b3b8",
-   "alsoOn": [
-    "https://allevents.in/columbia/super-smash-bros-tournament/100001424508426049"
-   ],
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "description": "FREE Smash Bros Ultimate Tournament hosted at The Kitchen Grill & Games. Prizes to the top 4 winners. Sundays at 4:00pm",
-   "end": "2026-11-22T18:00:00-06:00",
-   "id": "83b3b813e36671f1",
-   "imageUrl": "https://cdn.evbuc.com/images/1006203893/2276365863483/1/original.20250410-200503",
-   "source": "eventbrite",
-   "start": "2026-11-22T16:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/super-smash-bros-tournament-tickets-1999028927334",
-   "title": "Super Smash Bros Tournament",
-   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "dining-in-the-alley-with-artemis-grey-418d2a",
@@ -2487,8 +2495,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
    ],
    "categories": [
     "music"
@@ -2539,10 +2547,10 @@
  "modified": "2026-11-18",
  "picks": [
   "d6be9bf5e704db23",
-  "39beffc6c04d12c6",
+  "40f3eb628a6adde1",
+  "57a71f09c56fb1c5",
   "77c7e7558b8be955",
-  "47545a4c2d1feb4f",
-  "1ba87c3ee65d3041",
+  "dd974cc397ae9f26",
   "5d1c5e5952f1ebfa",
   "45291c50e4c72ad0",
   "902d8f662fe79982",

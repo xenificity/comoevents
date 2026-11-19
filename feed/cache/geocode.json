@@ -1135,6 +1135,11 @@
   "lng": -92.3266026,
   "name": null
  },
+ "4300 thornbrook ter, columbia, mo": {
+  "lat": 38.8892917,
+  "lng": -92.4014608,
+  "name": null
+ },
  "4380 nocona pkwy columbia, mo 65201": {
   "lat": 38.9011508,
   "lng": -92.286677,
@@ -1612,6 +1617,7 @@
   "lng": -92.3398673,
   "name": "Daniel Boone Regional Library"
  },
+ "diventures in columbia, columbia, mo": null,
  "e. deer park rd. columbia, missouri 65205": null,
  "e. peabody rd. columbia, missouri 65202": {
   "lat": 39.0210565,
