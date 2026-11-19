@@ -1,6 +1,20 @@
 {
  "events": [
   {
+   "_slug": "columbia-social-club-monthly-foodies-new-friends-d696f5",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "d696f58812db8b83",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy82YjViM2YxZDdiOWNmMDVkOWM5YTU4ZGYxZTE4ODNiNzQyNzI0NjRmZDU5MTQxYThmNzI2MWYwNGU0NDA4NGRhLXJpbWctdzEyMDAtaDkwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODU3NDUwMzQ.avif",
+   "source": "allevents",
+   "start": "2026-11-20T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Columbia Social Club Monthly | Foodies + New Friends",
+   "venue": "Restaurant of the Month"
+  },
+  {
    "_slug": "early-registration-ends-spring-2027-f99a02",
    "categories": [
     "campus"
@@ -466,10 +480,10 @@
   {
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
-    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
+    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
     "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
-    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus"
+    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
+    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/"
    ],
    "categories": [
     "family"
@@ -547,7 +561,10 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "craft-club-at-ladybird-cafe-d6be9b",
+   "_slug": "craft-club-at-ladybird-cafe-ad1db7",
+   "alsoOn": [
+    "https://allevents.in/columbia/craft-night-ladybird-craft-cafe/200031081154600"
+   ],
    "categories": [
     "party",
     "music",
@@ -556,7 +573,7 @@
    "category": "party",
    "description": "Fridays at Ladybird Cafe! Ease into the weekend. 6–7:30 PM — Craft Night Watch our page for upcoming projects! 8–11 PM — Friday Nights at Ladybird We’ll have a DJ and craft supplies out all night. Dance, make something, have a drink, shop, hang out, or do a little bit of everything. Every Friday has",
    "end": "2026-11-20T23:00:00-06:00",
-   "id": "d6be9bf5e704db23",
+   "id": "ad1db7d77a3bfdba",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab54fa647d5d2eab1d88620/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-20T18:00:00-06:00",
@@ -704,6 +721,19 @@
    "venue": "Valhalla's Gate"
   },
   {
+   "_slug": "planet-jazz-at-jazz-a-louisiana-kitchen-e79137",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "id": "e79137802213d8ed",
+   "imageUrl": "https://comoevent.com/img/gen/c0f0abf9599286.webp",
+   "source": "allevents",
+   "start": "2026-11-20T18:15:00-06:00",
+   "title": "PLANET JAZZ at Jazz A Louisiana Kitchen",
+   "venue": "Jazz - A Louisiana Kitchen"
+  },
+  {
    "_slug": "lakshmi-sahasranama-and-kumkuma-archana-39511a",
    "categories": [
     "religious",
@@ -770,22 +800,18 @@
    "venue": "Serendipity Polish Pottery & Gallery"
   },
   {
-   "_slug": "fallout-launch-party-40f3eb",
-   "alsoOn": [
-    "https://allevents.in/columbia/fallout-launch-party/200031028060839"
-   ],
+   "_slug": "fallout-launch-party-39beff",
    "categories": [
     "party"
    ],
    "category": "party",
    "description": "https://www.facebook.com/events/1029108683574685/ You have 2 minutes to escape the vault. This is going to be a little bit of a different style of launch party. It will be for fun only, no WPPRs, no pressure...well maybe a little bit of pressure. Each player will get 2 minutes. You launch your ball ",
    "end": "2026-11-20T21:00:00-06:00",
-   "id": "40f3eb628a6adde1",
+   "id": "39beffc6c04d12c6",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb4dc049b9323bd2558088/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-20T19:00:00-06:00",
-   "title": "Fallout Launch Party",
-   "venue": "Hexagon Alley"
+   "title": "Fallout Launch Party"
   },
   {
    "_slug": "hanyu-zhang-piano-recital-885033",
@@ -899,18 +925,15 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "jack-grelle-5d1df1",
-   "alsoOn": [
-    "https://allevents.in/columbia/jack-grelle-w-cole-bridges-birdies-deli/200031002103557"
-   ],
+   "_slug": "jack-grelle-430d57",
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "Songwriter Jack Grelle draws on years of travel and encounters across the country, blending traditional country, folk, and rock ’n’ roll. His music ranges from honky-tonk to more rock-oriented sounds, with songs that reflect on contemporary life, personal change, and the people around him. Cole Bri…",
    "end": "2026-11-20T23:00:00-06:00",
-   "id": "5d1df1dd4d319f9b",
-   "imageUrl": "https://dyn-image.allevents.in/generate-image?v=4&title=Jack+Grelle+w%2F+Cole+Bridges+%40+Birdie%27s+Deli+&date=Fri+Nov+20+2026+at+07%3A30+pm&bg=3",
+   "id": "430d57ac859eafe4",
+   "imageUrl": "https://comoevent.com/img/gen/c2c678eb795f78.webp",
    "source": "baselocal",
    "start": "2026-11-20T19:30:00-06:00",
    "title": "Jack Grelle",
@@ -1071,8 +1094,8 @@
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-5d1c5e",
    "alsoOn": [
-    "https://allevents.in/columbia/work-it-columbia-18/200030863023200",
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000",
+    "https://allevents.in/columbia/work-it-columbia-18/200030863023200"
    ],
    "categories": [
     "music",
@@ -1082,7 +1105,7 @@
    "description": "What The Dance Presents",
    "end": "2026-11-20T23:30:00-06:00",
    "id": "5d1c5e5952f1ebfa",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/06/TheWootenBrothers-TBN-WEB.jpg",
+   "imageUrl": "https://comoevent.com/img/gen/p-54db49c75bd536.webp",
    "source": "bluenote",
    "start": "2026-11-20T21:00:00-06:00",
    "ticketUrl": "https://www.ticketmaster.com/work-it-a-90s-2000s-rb-columbia-missouri-11-20-2026/event/06006547CEAEDAE4",
@@ -1188,8 +1211,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
    ],
    "categories": [
     "nightlife",
@@ -1641,8 +1664,8 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr",
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437"
+    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
+    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
    ],
    "categories": [
     "arts",
@@ -1778,6 +1801,19 @@
    "start": "2026-11-21T17:00:00-06:00",
    "title": "Scout Day",
    "venue": "Faurot Field"
+  },
+  {
+   "_slug": "single-awareness-dinner-columbia-foodies-new-friends-1301d3",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "1301d322972f1054",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jMWQ3NzM2OTU5ZjdhZWIxZTExMjgzYzI1MDJlNmViMTgwNzAxZmE4YzBjZjFjMTcwYjJjNzc1MTFmNWFkNzkyLXJpbWctdzk3MS1oODU1LWRjMTQxYTJkLWdtaXIuanBnP3Y9MTc4Mjc3MzcwNA.avif",
+   "source": "allevents",
+   "start": "2026-11-21T17:00:00-06:00",
+   "title": "Single Awareness Dinner: Columbia | Foodies + New Friends",
+   "venue": "Restaurant of the Week"
   },
   {
    "_slug": "columbia-college-women-s-soccer-vs-winner-of-okwu-huston-til-f8d1c9",
@@ -1939,8 +1975,8 @@
   {
    "_slug": "hayden-coffman-dcdb72",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
+    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/",
+    "https://tockify.com/the.district.cid/detail/1451/1795309200000"
    ],
    "categories": [
     "music"
@@ -1974,8 +2010,8 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-host",
     "https://tockify.com/the.district.cid/detail/1453/1795314600000",
+    "https://baselocal.com/mo/columbia/events/#the-host",
     "https://allevents.in/columbia/the-host/200031023437330"
    ],
    "categories": [
@@ -2136,18 +2172,6 @@
    "venue": "CrossWay Church"
   },
   {
-   "_slug": "nov-2026-vgc-go-league-challenge-tournaments-735e20",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "735e20c45b064d4c",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy85ZWYxMWNlMGJiNTI5NTZlNmYzNzhhMDY2N2VmZWIyOTNlOTNjYjliZjM5OGU5ZDljMGMzYjE3NTkzMDk0M2MyLXJpbWctdzcyMC1oMzQ3LWRjZTgxODI4LWdtaXI_dj0xNzk0MjMzMzMz.avif",
-   "source": "allevents",
-   "start": "2026-11-22T12:00:00-06:00",
-   "title": "Nov 2026 VGC & GO League Challenge Tournaments"
-  },
-  {
    "_slug": "the-munchbox-f406a0",
    "categories": [
     "food"
@@ -2292,8 +2316,8 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
     "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
    ],
    "categories": [
@@ -2494,8 +2518,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
    ],
    "categories": [
     "music"
@@ -2545,9 +2569,9 @@
  "friday": "2026-11-20",
  "modified": "2026-11-19",
  "picks": [
-  "d6be9bf5e704db23",
-  "40f3eb628a6adde1",
+  "ad1db7d77a3bfdba",
   "57a71f09c56fb1c5",
+  "39beffc6c04d12c6",
   "77c7e7558b8be955",
   "dd974cc397ae9f26",
   "5d1c5e5952f1ebfa",
