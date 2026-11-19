@@ -71,8 +71,8 @@
   {
    "_slug": "black-and-gold-friday-a20afb",
    "alsoOn": [
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
    ],
    "categories": [
     "campus"
@@ -172,6 +172,18 @@
    "start": "2026-11-20T09:30:00-06:00",
    "title": "Passport Application Walk-in Hours",
    "venue": "Memorial Student Union"
+  },
+  {
+   "_slug": "bingo-and-senior-box-distribution-62d9e2",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "62d9e2fbf4d52c88",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy84Mzg2MDEyODZlZjE0NDViYmI2Yjc1YjA2ZDViYTk4NjM5MjYyM2MyNDAxN2VhM2FmMzMwZWQ1YjdlOGIzMGNhLXJpbWctdzEyMDAtaDY3NS1kYzY4Njg3OC1nbWlyP3Y9MTc5NDk0NDQxMw.avif",
+   "source": "allevents",
+   "start": "2026-11-20T10:00:00-06:00",
+   "title": "Bingo and Senior Box Distribution"
   },
   {
    "_slug": "study-abroad-walk-in-advising-97eac5",
@@ -469,8 +481,8 @@
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
     "https://tockify.com/the.district.cid/detail/1256/1795215600000",
-    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
     "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
+    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
     "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040"
    ],
    "categories": [
@@ -1199,8 +1211,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
    ],
    "categories": [
     "nightlife",
@@ -1617,8 +1629,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
    ],
    "categories": [
     "family"
@@ -1652,8 +1664,8 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
-    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
+    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr",
+    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437"
    ],
    "categories": [
     "arts",
@@ -1668,18 +1680,6 @@
    "start": "2026-11-21T14:00:00-06:00",
    "title": "The Little Mermaid Jr. – TRYPS Children’s Theater (Show 1)",
    "venue": "TRYPS Children’s Theater (Show 1)"
-  },
-  {
-   "_slug": "crafternoon-ladybird-craft-cafe-fccb3e",
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "id": "fccb3e15dc52d3a2",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy82YzM5ZDNjMzEwYzU1NTE4YjYzNjdmY2QxNWIyMGIxM2E1ZjYzNzY5YTc1NjhmMjVjNzA1ZTU0YTdjMTBiNzQ3LXJpbWctdzEyMDAtaDY3Ni1kY2Y4ZDg1OC1nbWlyP3Y9MTc5NDczNzE2MQ.avif",
-   "source": "allevents",
-   "start": "2026-11-21T15:00:00-06:00",
-   "title": "Crafternoon @ Ladybird Craft Cafe!"
   },
   {
    "_slug": "crafternoon-saturdays-1ecaee",
@@ -1875,8 +1875,8 @@
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/",
-    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213"
+    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213",
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/"
    ],
    "categories": [
     "sports"
@@ -2246,8 +2246,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -2328,9 +2328,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
     "family",
