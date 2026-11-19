@@ -71,8 +71,8 @@
   {
    "_slug": "black-and-gold-friday-a20afb",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
    ],
    "categories": [
     "campus"
@@ -172,18 +172,6 @@
    "start": "2026-11-20T09:30:00-06:00",
    "title": "Passport Application Walk-in Hours",
    "venue": "Memorial Student Union"
-  },
-  {
-   "_slug": "bingo-and-senior-box-distribution-62d9e2",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "62d9e2fbf4d52c88",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy84Mzg2MDEyODZlZjE0NDViYmI2Yjc1YjA2ZDViYTk4NjM5MjYyM2MyNDAxN2VhM2FmMzMwZWQ1YjdlOGIzMGNhLXJpbWctdzEyMDAtaDY3NS1kYzY4Njg3OC1nbWlyP3Y9MTc5NDk0NDQxMw.avif",
-   "source": "allevents",
-   "start": "2026-11-20T10:00:00-06:00",
-   "title": "Bingo and Senior Box Distribution"
   },
   {
    "_slug": "study-abroad-walk-in-advising-97eac5",
@@ -359,8 +347,8 @@
   {
    "_slug": "memorial-student-union-tower-centennial-celebration-85493d",
    "alsoOn": [
-    "https://engage.missouri.edu/SURE/rsvp?id=453342",
-    "https://engage.missouri.edu/rsvp?id=453342"
+    "https://engage.missouri.edu/rsvp?id=453342",
+    "https://engage.missouri.edu/SURE/rsvp?id=453342"
    ],
    "categories": [
     "campus",
@@ -480,10 +468,10 @@
   {
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
-    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
     "https://tockify.com/the.district.cid/detail/1256/1795215600000",
-    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/"
+    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
+    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
+    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040"
    ],
    "categories": [
     "family"
@@ -1211,8 +1199,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
    ],
    "categories": [
     "nightlife",
@@ -1682,6 +1670,18 @@
    "venue": "TRYPS Children’s Theater (Show 1)"
   },
   {
+   "_slug": "crafternoon-ladybird-craft-cafe-fccb3e",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "fccb3e15dc52d3a2",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy82YzM5ZDNjMzEwYzU1NTE4YjYzNjdmY2QxNWIyMGIxM2E1ZjYzNzY5YTc1NjhmMjVjNzA1ZTU0YTdjMTBiNzQ3LXJpbWctdzEyMDAtaDY3Ni1kY2Y4ZDg1OC1nbWlyP3Y9MTc5NDczNzE2MQ.avif",
+   "source": "allevents",
+   "start": "2026-11-21T15:00:00-06:00",
+   "title": "Crafternoon @ Ladybird Craft Cafe!"
+  },
+  {
    "_slug": "crafternoon-saturdays-1ecaee",
    "categories": [
     "arts"
@@ -1875,8 +1875,8 @@
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/",
+    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213"
    ],
    "categories": [
     "sports"
@@ -2010,9 +2010,9 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
     "https://baselocal.com/mo/columbia/events/#the-host",
-    "https://allevents.in/columbia/the-host/200031023437330"
+    "https://allevents.in/columbia/the-host/200031023437330",
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000"
    ],
    "categories": [
     "arts",
@@ -2076,6 +2076,18 @@
    "start": "2026-11-21T21:00:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "friendsgiving-c68566",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "c68566ee856c565a",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9lMjhjNjhhYWJmZDUwMDYxYjdmOTMyZTBjYjBmNDIzYjRiMmNmMmVlZTEyMWJiN2YzYjQ0YjVjNjFhY2Y4M2JiLXJpbWctdzEyMDAtaDgwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5NTEwMzk0Ng.avif",
+   "source": "allevents",
+   "start": "2026-11-22T00:00:00-06:00",
+   "title": "Friendsgiving"
   },
   {
    "_slug": "super-smash-bros-tournament-e47027",

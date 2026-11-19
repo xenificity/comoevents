@@ -190,6 +190,11 @@
  },
  "1023 e walnut st, columbia, mo 65201 columbia, mo 65201": null,
  "1023 e. walnut street, suite 101, columbia, mo, united states, missouri 65201": null,
+ "1025 e broadway, columbia, mo": {
+  "lat": 38.9517523,
+  "lng": -92.3256691,
+  "name": null
+ },
  "1025 e walnut st, columbia, mo 65201": {
   "lat": 38.9526354,
   "lng": -92.3254752,
@@ -629,6 +634,11 @@
  },
  "202 central st, rocheport, mo 65279": null,
  "203 central street, rocheport, mo": null,
+ "203 n providence rd, columbia, mo": {
+  "lat": 38.9540397,
+  "lng": -92.3347398,
+  "name": "CycleX"
+ },
  "203 s 9th st columbia, mo 65201": {
   "lat": 38.9492429,
   "lng": -92.3278763,
@@ -689,6 +699,11 @@
   "lat": 38.9522746,
   "lng": -92.3266379,
   "name": "We Always Swing Inc."
+ },
+ "21 s 4th st, columbia, mo": {
+  "lat": 38.951355,
+  "lng": -92.3330833,
+  "name": null
  },
  "2100 chapel plaza ct, columbia, mo": {
   "lat": 38.9289808,
@@ -1064,6 +1079,11 @@
   "lng": -92.2938112,
   "name": "Walters-Boone County Historic Museum"
  },
+ "3805 s providence rd, columbia, mo": {
+  "lat": 38.9094524,
+  "lng": -92.3349129,
+  "name": null
+ },
  "3805 s providence rd, columbia, mo 65203": {
   "lat": 38.9094524,
   "lng": -92.3349129,
@@ -1079,6 +1099,7 @@
   "lng": -92.3523653,
   "name": "Forum Christian Church"
  },
+ "3908 peach tree dr, columbia, mo": null,
  "3908 peachtree dr, columbia, mo 65203": {
   "lat": 38.9083187,
   "lng": -92.3386135,
@@ -1898,6 +1919,11 @@
  "sinquefield music center lobby university of missouri columbia missouri united states, columbia, mo": null,
  "sinquefield music center, columbia, mo": null,
  "south farm - equine teaching facility, columbia, mo": null,
+ "southside pizza & pub, columbia, mo": {
+  "lat": 38.9072615,
+  "lng": -92.3377139,
+  "name": "Southside Pizza & Pub"
+ },
  "st louis union station hotel 1820 market st  st louis mo 63103 united states, columbia, mo": null,
  "st. louis union station hotel, columbia, mo": null,
  "starbucks – broadway bluffs, columbia, mo": null,
