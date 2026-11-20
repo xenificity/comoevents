@@ -71,8 +71,8 @@
   {
    "_slug": "black-and-gold-friday-a20afb",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
    ],
    "categories": [
     "campus"
@@ -359,8 +359,8 @@
   {
    "_slug": "memorial-student-union-tower-centennial-celebration-85493d",
    "alsoOn": [
-    "https://engage.missouri.edu/rsvp?id=453342",
-    "https://engage.missouri.edu/SURE/rsvp?id=453342"
+    "https://engage.missouri.edu/SURE/rsvp?id=453342",
+    "https://engage.missouri.edu/rsvp?id=453342"
    ],
    "categories": [
     "campus",
@@ -480,10 +480,10 @@
   {
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
-    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
     "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
-    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040"
+    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
+    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
+    "https://tockify.com/the.district.cid/detail/1256/1795215600000"
    ],
    "categories": [
     "family"
@@ -700,6 +700,19 @@
    "start": "2026-11-20T18:00:00-06:00",
    "title": "MTG: Commander",
    "venue": "Hexagon Alley"
+  },
+  {
+   "_slug": "on-the-patio-at-shiloh-13f192",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "13f19284ea85eee5",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9jNDg5MzkyYTZkOTU1YWQzODQxNzQwYjY3Mjk1ZjcxOTAwMWUwZDdkZDcxMjc3ZDYxMTBmOTJiNjA2ZTViMGY4LXJpbWctdzczNC1oNTQyLWRjZjhmOGY4LWdtaXI_dj0xNzk1MTU5MzQ2.avif",
+   "source": "allevents",
+   "start": "2026-11-20T18:00:00-06:00",
+   "title": "On The Patio At Shiloh",
+   "venue": "Shiloh Bar & Grill"
   },
   {
    "_slug": "open-mic-night-at-fretboard-coffee-23b241",
@@ -1014,6 +1027,7 @@
   {
    "_slug": "the-spooklights-dd974c",
    "alsoOn": [
+    "https://www.voxmagazine.com/calendar/the-spooklights/event_77c386e6-88b2-40b3-a2a4-36e4c130517c.html",
     "https://baselocal.com/mo/columbia/events/#the-spooklights"
    ],
    "categories": [
@@ -1023,6 +1037,7 @@
    "description": "with Long Gone Gabe",
    "id": "dd974cc397ae9f26",
    "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/TSL-RMH-Web.jpg",
+   "price": "$10 in advance; $12 day of",
    "source": "bluenote",
    "start": "2026-11-20T20:00:00-06:00",
    "ticketUrl": "https://www.ticketmaster.com/the-spooklights-ben-miller-pat-kay-columbia-missouri-11-20-2026/event/0600652F33A5B1FC",
@@ -1108,8 +1123,8 @@
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-5d1c5e",
    "alsoOn": [
-    "https://allevents.in/columbia/work-it-columbia-18/200030863023200",
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000",
+    "https://allevents.in/columbia/work-it-columbia-18/200030863023200"
    ],
    "categories": [
     "music",
@@ -1245,7 +1260,8 @@
   {
    "_slug": "saturday-market-winter-b317c0",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/"
+    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/",
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
    ],
    "categories": [
     "food"
@@ -1255,6 +1271,7 @@
    "end": "2026-11-21T12:00:00-06:00",
    "id": "b317c05abbba97c4",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
+   "price": "Free",
    "source": "farmersmarket",
    "start": "2026-11-21T09:00:00-06:00",
    "title": "Saturday Market (Winter)",
@@ -1539,6 +1556,18 @@
    "venue": "Southwell Complex"
   },
   {
+   "_slug": "kentucky-vs-mizzou-tailgate-d20c56",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "d20c56e507556629",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8wZjgzYjk2YTc5MjM3NmU4NGNlMmNhNjNiZmQ2ZDg3YjY3MjM1MDQ5YTA2YmQzODUxY2M3YjAyYWU0ZTkyOGM2LXJpbWctdzk2MC1oNzIwLWRjMTgxODE4LWdtaXI_dj0xNzk1MTU5MzQ2.avif",
+   "source": "allevents",
+   "start": "2026-11-21T13:00:00-06:00",
+   "title": "Kentucky vs Mizzou Tailgate"
+  },
+  {
    "_slug": "kinusaiga-ac9e52",
    "categories": [
     "arts"
@@ -1678,8 +1707,8 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
-    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
+    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr",
+    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437"
    ],
    "categories": [
     "arts",
@@ -1989,8 +2018,8 @@
   {
    "_slug": "hayden-coffman-dcdb72",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/",
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000"
+    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
+    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
    ],
    "categories": [
     "music"
@@ -2024,9 +2053,9 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-host",
     "https://tockify.com/the.district.cid/detail/1453/1795314600000",
-    "https://allevents.in/columbia/the-host/200031023437330"
+    "https://allevents.in/columbia/the-host/200031023437330",
+    "https://baselocal.com/mo/columbia/events/#the-host"
    ],
    "categories": [
     "arts",
@@ -2198,18 +2227,6 @@
    "venue": "CrossWay Church"
   },
   {
-   "_slug": "nov-2026-vgc-go-league-challenge-tournaments-735e20",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "735e20c45b064d4c",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy85ZWYxMWNlMGJiNTI5NTZlNmYzNzhhMDY2N2VmZWIyOTNlOTNjYjliZjM5OGU5ZDljMGMzYjE3NTkzMDk0M2MyLXJpbWctdzcyMC1oMzQ3LWRjZTgxODI4LWdtaXI_dj0xNzk0MjMzMzMz.avif",
-   "source": "allevents",
-   "start": "2026-11-22T12:00:00-06:00",
-   "title": "Nov 2026 VGC & GO League Challenge Tournaments"
-  },
-  {
    "_slug": "the-munchbox-f406a0",
    "categories": [
     "food"
@@ -2355,8 +2372,8 @@
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
     "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
     "family",
