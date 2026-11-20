@@ -71,8 +71,8 @@
   {
    "_slug": "black-and-gold-friday-a20afb",
    "alsoOn": [
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
    ],
    "categories": [
     "campus"
@@ -172,6 +172,18 @@
    "start": "2026-11-20T09:30:00-06:00",
    "title": "Passport Application Walk-in Hours",
    "venue": "Memorial Student Union"
+  },
+  {
+   "_slug": "bingo-and-senior-box-distribution-62d9e2",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "62d9e2fbf4d52c88",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy84Mzg2MDEyODZlZjE0NDViYmI2Yjc1YjA2ZDViYTk4NjM5MjYyM2MyNDAxN2VhM2FmMzMwZWQ1YjdlOGIzMGNhLXJpbWctdzEyMDAtaDY3NS1kYzY4Njg3OC1nbWlyP3Y9MTc5NDk0NDQxMw.avif",
+   "source": "allevents",
+   "start": "2026-11-20T10:00:00-06:00",
+   "title": "Bingo and Senior Box Distribution"
   },
   {
    "_slug": "study-abroad-walk-in-advising-97eac5",
@@ -468,9 +480,9 @@
   {
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
-    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
     "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
+    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
+    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
     "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040"
    ],
    "categories": [
@@ -1096,8 +1108,8 @@
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-5d1c5e",
    "alsoOn": [
-    "https://allevents.in/columbia/work-it-columbia-18/200030863023200",
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000",
+    "https://allevents.in/columbia/work-it-columbia-18/200030863023200"
    ],
    "categories": [
     "music",
@@ -2013,8 +2025,8 @@
    "_slug": "the-host-ff1098",
    "alsoOn": [
     "https://allevents.in/columbia/the-host/200031023437330",
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
-    "https://baselocal.com/mo/columbia/events/#the-host"
+    "https://baselocal.com/mo/columbia/events/#the-host",
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000"
    ],
    "categories": [
     "arts",
@@ -2186,6 +2198,18 @@
    "venue": "CrossWay Church"
   },
   {
+   "_slug": "nov-2026-vgc-go-league-challenge-tournaments-735e20",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "735e20c45b064d4c",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy85ZWYxMWNlMGJiNTI5NTZlNmYzNzhhMDY2N2VmZWIyOTNlOTNjYjliZjM5OGU5ZDljMGMzYjE3NTkzMDk0M2MyLXJpbWctdzcyMC1oMzQ3LWRjZTgxODI4LWdtaXI_dj0xNzk0MjMzMzMz.avif",
+   "source": "allevents",
+   "start": "2026-11-22T12:00:00-06:00",
+   "title": "Nov 2026 VGC & GO League Challenge Tournaments"
+  },
+  {
    "_slug": "the-munchbox-f406a0",
    "categories": [
     "food"
@@ -2248,8 +2272,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
@@ -2330,9 +2354,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
     "family",
@@ -2532,8 +2556,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
    ],
    "categories": [
     "music"
