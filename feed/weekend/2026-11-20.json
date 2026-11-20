@@ -71,8 +71,8 @@
   {
    "_slug": "black-and-gold-friday-a20afb",
    "alsoOn": [
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
    ],
    "categories": [
     "campus"
@@ -359,8 +359,8 @@
   {
    "_slug": "memorial-student-union-tower-centennial-celebration-85493d",
    "alsoOn": [
-    "https://engage.missouri.edu/SURE/rsvp?id=453342",
-    "https://engage.missouri.edu/rsvp?id=453342"
+    "https://engage.missouri.edu/rsvp?id=453342",
+    "https://engage.missouri.edu/SURE/rsvp?id=453342"
    ],
    "categories": [
     "campus",
@@ -481,9 +481,9 @@
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
-    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
+    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
     "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
-    "https://tockify.com/the.district.cid/detail/1256/1795215600000"
+    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040"
    ],
    "categories": [
     "family"
@@ -1014,8 +1014,7 @@
   {
    "_slug": "the-spooklights-dd974c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-spooklights",
-    "https://www.voxmagazine.com/calendar/the-spooklights/event_77c386e6-88b2-40b3-a2a4-36e4c130517c.html"
+    "https://baselocal.com/mo/columbia/events/#the-spooklights"
    ],
    "categories": [
     "music"
@@ -1024,7 +1023,6 @@
    "description": "with Long Gone Gabe",
    "id": "dd974cc397ae9f26",
    "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/TSL-RMH-Web.jpg",
-   "price": "$10 in advance; $12 day of",
    "source": "bluenote",
    "start": "2026-11-20T20:00:00-06:00",
    "ticketUrl": "https://www.ticketmaster.com/the-spooklights-ben-miller-pat-kay-columbia-missouri-11-20-2026/event/0600652F33A5B1FC",
@@ -1247,7 +1245,6 @@
   {
    "_slug": "saturday-market-winter-b317c0",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
     "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/"
    ],
    "categories": [
@@ -1258,7 +1255,6 @@
    "end": "2026-11-21T12:00:00-06:00",
    "id": "b317c05abbba97c4",
    "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
-   "price": "Free",
    "source": "farmersmarket",
    "start": "2026-11-21T09:00:00-06:00",
    "title": "Saturday Market (Winter)",
@@ -1647,8 +1643,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
    ],
    "categories": [
     "family"
@@ -1893,8 +1889,8 @@
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/",
+    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213"
    ],
    "categories": [
     "sports"
@@ -2028,8 +2024,8 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
     "https://baselocal.com/mo/columbia/events/#the-host",
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
     "https://allevents.in/columbia/the-host/200031023437330"
    ],
    "categories": [
@@ -2276,8 +2272,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -2358,9 +2354,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
     "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
    ],
    "categories": [
     "family",
@@ -2609,7 +2605,7 @@
   }
  ],
  "friday": "2026-11-20",
- "modified": "2026-11-19",
+ "modified": "2026-11-20",
  "picks": [
   "ad1db7d77a3bfdba",
   "57a71f09c56fb1c5",
