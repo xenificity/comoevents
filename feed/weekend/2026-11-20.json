@@ -71,8 +71,8 @@
   {
    "_slug": "black-and-gold-friday-a20afb",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
    ],
    "categories": [
     "campus"
@@ -359,8 +359,8 @@
   {
    "_slug": "memorial-student-union-tower-centennial-celebration-85493d",
    "alsoOn": [
-    "https://engage.missouri.edu/rsvp?id=453342",
-    "https://engage.missouri.edu/SURE/rsvp?id=453342"
+    "https://engage.missouri.edu/SURE/rsvp?id=453342",
+    "https://engage.missouri.edu/rsvp?id=453342"
    ],
    "categories": [
     "campus",
@@ -480,10 +480,10 @@
   {
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
+    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
     "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
-    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
-    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus"
+    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
+    "https://tockify.com/the.district.cid/detail/1256/1795215600000"
    ],
    "categories": [
     "family"
@@ -1014,8 +1014,8 @@
   {
    "_slug": "the-spooklights-dd974c",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/the-spooklights/event_77c386e6-88b2-40b3-a2a4-36e4c130517c.html",
-    "https://baselocal.com/mo/columbia/events/#the-spooklights"
+    "https://baselocal.com/mo/columbia/events/#the-spooklights",
+    "https://www.voxmagazine.com/calendar/the-spooklights/event_77c386e6-88b2-40b3-a2a4-36e4c130517c.html"
    ],
    "categories": [
     "music"
@@ -1110,8 +1110,8 @@
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-5d1c5e",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000",
-    "https://allevents.in/columbia/work-it-columbia-18/200030863023200"
+    "https://allevents.in/columbia/work-it-columbia-18/200030863023200",
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
    ],
    "categories": [
     "music",
@@ -1227,8 +1227,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
    ],
    "categories": [
     "nightlife",
@@ -1647,8 +1647,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
    ],
    "categories": [
     "family"
@@ -1682,8 +1682,8 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr",
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437"
+    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
+    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
    ],
    "categories": [
     "arts",
@@ -1834,18 +1834,18 @@
    "venue": "Restaurant of the Week"
   },
   {
-   "_slug": "columbia-college-women-s-soccer-vs-winner-of-okwu-huston-til-f8d1c9",
+   "_slug": "columbia-college-women-s-soccer-vs-oklahoma-wesleyan-univers-8f2cce",
    "categories": [
     "sports"
    ],
    "category": "sports",
-   "description": "Columbia College Women's Soccer vs Winner of OKWU/Huston Tillotson - Second Round Streaming Video: https://columbiacougars.com/sports/2022/8/11/columbia-cougars-live-stream.aspx Tickets: https://columbiacougars.com/sports/2021/6/24/tickets",
+   "description": "Columbia College Women's Soccer vs Oklahoma Wesleyan University - Second Round Streaming Video: https://columbiacougars.com/sports/2022/8/11/columbia-cougars-live-stream.aspx Tickets: https://columbiacougars.com/sports/2021/6/24/tickets",
    "end": "2026-11-21T20:00:00-06:00",
-   "id": "f8d1c946c392c0bf",
-   "imageUrl": "https://comoevent.com/img/gen/23f2428ad57472.webp",
+   "id": "8f2cce4e7ae50007",
+   "imageUrl": "https://comoevent.com/img/gen/594412d4028e83.webp",
    "source": "ccis",
    "start": "2026-11-21T18:00:00-06:00",
-   "title": "Columbia College Women's Soccer vs Winner of OKWU/Huston Tillotson - Second Round",
+   "title": "Columbia College Women's Soccer vs Oklahoma Wesleyan University - Second Round",
    "venue": "Columbia College"
   },
   {
@@ -2358,8 +2358,8 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
@@ -2560,8 +2560,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
    ],
    "categories": [
     "music"
