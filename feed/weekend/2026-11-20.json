@@ -280,7 +280,6 @@
    "description": "Women Veterans are invited to a Friendsgiving gathering hosted by Truman VA’s Women’s Health Service. The event includes a light lunch, a Healthy Teaching Kitchen demonstration, a creative project, and a chance to meet the Women Veterans Program Manager and women’s health providers. Attendees are w…",
    "end": "2026-11-20T14:00:00-06:00",
    "id": "9bed4aa086cf0bcc",
-   "imageUrl": "https://comoevent.com/img/gen/0a89eca21739bd.webp",
    "source": "baselocal",
    "start": "2026-11-20T12:00:00-06:00",
    "title": "Friendsgiving Event for Women Veterans",
@@ -415,6 +414,21 @@
    "venue": "Sawdust Studios"
   },
   {
+   "_slug": "justin-hickerson-87fa18",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "@ Our sound engineer, Justin, steps on stage with his guitar and some croonin’, so come on out to get swept away by the guy with all the personality!",
+   "end": "2026-11-20T19:00:00-06:00",
+   "id": "87fa18cb57815cc2",
+   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2026/11/FB_IMG_1782430113758.jpeg",
+   "source": "cooperslanding",
+   "start": "2026-11-20T16:00:00-06:00",
+   "title": "Justin Hickerson",
+   "venue": "Cooper's Landing"
+  },
+  {
    "_slug": "mpt-general-body-meeting-ee0be1",
    "categories": [
     "arts"
@@ -489,10 +503,10 @@
   {
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
-    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
     "https://tockify.com/the.district.cid/detail/1256/1795215600000",
-    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus"
+    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
+    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
+    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040"
    ],
    "categories": [
     "family"
@@ -662,21 +676,6 @@
    "start": "2026-11-20T18:00:00-06:00",
    "title": "Friday Night Commander at Hexagon Alley",
    "venue": "Hexagon Alley"
-  },
-  {
-   "_slug": "justin-hickerson-87fa18",
-   "categories": [
-    "music"
-   ],
-   "category": "music",
-   "description": "@ Our sound engineer, Justin, steps on stage with his guitar and some croonin’, so come on out to get swept away by the guy with all the personality!",
-   "end": "2026-11-20T21:00:00-06:00",
-   "id": "87fa18cb57815cc2",
-   "imageUrl": "https://cooperslandingmo.com/wp-content/uploads/2026/11/FB_IMG_1782430113758.jpeg",
-   "source": "cooperslanding",
-   "start": "2026-11-20T18:00:00-06:00",
-   "title": "Justin Hickerson",
-   "venue": "Cooper's Landing"
   },
   {
    "_slug": "movie-night-78e3ac",
@@ -1163,8 +1162,8 @@
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-5d1c5e",
    "alsoOn": [
-    "https://allevents.in/columbia/work-it-columbia-18/200030863023200",
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000",
+    "https://allevents.in/columbia/work-it-columbia-18/200030863023200"
    ],
    "categories": [
     "music",
@@ -1269,8 +1268,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
    ],
    "categories": [
     "nightlife",
@@ -1289,8 +1288,8 @@
   {
    "_slug": "saturday-market-winter-b317c0",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
-    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/"
+    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/",
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
    ],
    "categories": [
     "food"
@@ -1623,6 +1622,21 @@
    "title": "Kinusaiga (Fabric Mosaic)"
   },
   {
+   "_slug": "rayce-kendrick-6ab560",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Saturday-afternoon live music from Rayce Kendrick.",
+   "end": "2026-11-21T15:00:00-06:00",
+   "id": "6ab56039ffdbc6b3",
+   "imageUrl": "https://comoevent.com/img/gen/0e302ba3b6579b.webp",
+   "source": "pierpont",
+   "start": "2026-11-21T13:00:00-06:00",
+   "title": "Rayce Kendrick",
+   "venue": "Pierpont General Store (Outdoor stage)"
+  },
+  {
    "_slug": "skirmish-saturday-for-tabletop-minis-406b1e",
    "categories": [
     "community"
@@ -1701,8 +1715,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
    ],
    "categories": [
     "family"
@@ -1736,8 +1750,8 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr",
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437"
+    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
+    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
    ],
    "categories": [
     "arts",
@@ -2085,9 +2099,9 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-host",
     "https://allevents.in/columbia/the-host/200031023437330",
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000"
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
+    "https://baselocal.com/mo/columbia/events/#the-host"
    ],
    "categories": [
     "arts",
@@ -2309,8 +2323,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -2373,8 +2387,8 @@
   {
    "_slug": "color-me-merry-66bb5a",
    "alsoOn": [
-    "https://allevents.in/columbia/color-me-merry/100002004101275865",
-    "https://tockify.com/the.district.cid/detail/1461/1795377600000"
+    "https://tockify.com/the.district.cid/detail/1461/1795377600000",
+    "https://allevents.in/columbia/color-me-merry/100002004101275865"
    ],
    "categories": [
     "community"
@@ -2393,8 +2407,8 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
@@ -2486,17 +2500,14 @@
    "venue": "Downtown Columbia"
   },
   {
-   "_slug": "collage-without-a-cause-cc69cf",
-   "alsoOn": [
-    "https://allevents.in/columbia/collage-without-a-cause/200031047892950"
-   ],
+   "_slug": "collage-without-a-cause-107f9e",
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "Collage Without a Cause happens every Sunday! Cut up magazines, glue things to other things, and see what happens. We’ll have all the supplies you need, but feel free to bring magazines, photos, paper, stickers, or other stuff you want to use. Sundays 3–6pm $8 • All supplies included Ladybird Tradin",
    "end": "2026-11-22T18:00:00-06:00",
-   "id": "cc69cf0ff84a79c0",
+   "id": "107f9e1b2ed0b156",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb624549b9323bd2300df5/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-22T15:00:00-06:00",
