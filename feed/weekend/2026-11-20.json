@@ -71,8 +71,8 @@
   {
    "_slug": "black-and-gold-friday-a20afb",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
    ],
    "categories": [
     "campus"
@@ -130,13 +130,13 @@
    "title": "Lend & Learn Play Time"
   },
   {
-   "_slug": "international-student-workshop-optional-practical-training-f2439e",
+   "_slug": "international-student-workshop-optional-practical-training-f5ccd9",
    "categories": [
     "campus"
    ],
    "category": "campus",
    "end": "2026-11-20T10:30:00-06:00",
-   "id": "f2439eb261692f66",
+   "id": "f5ccd9200781b454",
    "imageUrl": "https://comoevent.com/img/gen/3bf6eaaa3c1907.webp",
    "source": "mizzou",
    "start": "2026-11-20T09:30:00-06:00",
@@ -359,7 +359,6 @@
   {
    "_slug": "memorial-student-union-tower-centennial-celebration-85493d",
    "alsoOn": [
-    "https://engage.missouri.edu/SURE/rsvp?id=453342",
     "https://engage.missouri.edu/rsvp?id=453342"
    ],
    "categories": [
@@ -478,12 +477,11 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
+   "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-3a6eed",
    "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
     "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
-    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
-    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
-    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus"
+    "https://tockify.com/the.district.cid/detail/1256/1795215600000"
    ],
    "categories": [
     "family"
@@ -491,7 +489,7 @@
    "category": "family",
    "description": "You’re invited to the 5th Annual Merry Moments with Santa & Mrs. Claus! Join Junior Achievement in Central Missouri for a FREE evening of festive family fun on Friday, November 20, from 5:00–8:00 p.m. at Orr Street Studios in Columbia! Families can enjoy: Photos with Santa and Mrs. Claus Free cookie",
    "end": "2026-11-20T20:00:00-06:00",
-   "id": "0b326556f0f4f2d6",
+   "id": "3a6eed028ae5bf3c",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb504049b9323bd26fa216/scaled_1152.jpg",
    "price": "Free",
    "source": "district",
@@ -528,17 +526,15 @@
    "venue": "Dive Bar"
   },
   {
-   "_slug": "whodunnit-weekly-game-night-f308ab",
-   "alsoOn": [
-    "https://engage.missouri.edu/WSDC/rsvp?id=452203"
-   ],
+   "_slug": "whodunnit-weekly-game-night-d34643",
    "categories": [
+    "community",
     "campus"
    ],
-   "category": "campus",
+   "category": "community",
    "description": "Come play social deduction games with us, this time voted on by our members!",
    "end": "2026-11-20T19:00:00-06:00",
-   "id": "f308ab9042ba35c5",
+   "id": "d346437c95c5b29b",
    "imageUrl": "https://comoevent.com/img/gen/04dfc18d76b75b.webp",
    "source": "engage",
    "start": "2026-11-20T17:00:00-06:00",
@@ -827,25 +823,6 @@
    "venue": "Serendipity Polish Pottery & Gallery"
   },
   {
-   "_slug": "columbia-social-club-monthly-foodies-new-friends-793bbd",
-   "alsoOn": [
-    "https://allevents.in/columbia/columbia-social-club-monthly-foodies-new-friends/100001994069875677"
-   ],
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "Each month, a table of 10 or less connect over dinner. You sign up, and we book the restaurant! Support local businesses.",
-   "end": "2026-11-20T22:00:00-06:00",
-   "id": "793bbdb791d76d31",
-   "imageUrl": "https://comoevent.com/img/gen/p-ca51278620b38f.webp",
-   "source": "eventbrite",
-   "start": "2026-11-20T19:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/columbia-social-club-monthly-foodies-new-friends-tickets-1994069946890",
-   "title": "Columbia Social Club Monthly | Foodies + New Friends",
-   "venue": "Restaurant of the Month"
-  },
-  {
    "_slug": "fallout-launch-party-39beff",
    "categories": [
     "party"
@@ -911,21 +888,16 @@
   },
   {
    "_slug": "mens-basketball-missouri-vs-le-moyne-e5f8d3",
-   "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-cleveland-state-3-2/"
-   ],
    "categories": [
     "sports"
    ],
    "category": "sports",
-   "description": "Catch the Missouri Tigers in home action!",
    "end": "2026-11-20T21:00:00-06:00",
    "id": "e5f8d31b644e56cf",
-   "imageUrl": "https://comoevent.com/img/gen/5d5f7d976344e2.webp",
+   "imageUrl": "https://comoevent.com/img/gen/65ab37a7e7e58c.webp",
    "source": "mizzou",
    "start": "2026-11-20T19:00:00-06:00",
-   "title": "Men’s Basketball - Missouri vs. Le Moyne",
-   "venue": "Champions Drive"
+   "title": "Men’s Basketball - Missouri vs. Le Moyne"
   },
   {
    "_slug": "pop-reimagined-0e2dd7",
@@ -956,6 +928,21 @@
    "title": "The Spooklights w/ Long Gone Gabe"
   },
   {
+   "_slug": "friday-night-comedy-at-the-tokyo-club-8a8625",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "🎤 Comedy Night at The Tokyo Club! Doors Open at 5 PM Show is at 7 PM ⭐ Headliner: Joe Deuce ⭐ Featuring: Geoff Christy & Sandy Wally 🤣 Get ready for laughs, drinks, and games — all under one roof. Come find out why The Tokyo Club is Missouri’s go-to spot for comedy every weekend! 🙌 📍 709 Fay St Suit",
+   "end": "2026-11-20T21:00:00-06:00",
+   "id": "8a86251d149a67bf",
+   "imageUrl": "https://comoevent.com/img/gen/d658dc5634f4fa.webp",
+   "source": "arcadedistrict",
+   "start": "2026-11-20T19:30:00-06:00",
+   "title": "Friday Night Comedy at The Tokyo Club",
+   "venue": "The Arcade District"
+  },
+  {
    "_slug": "jack-grelle-430d57",
    "categories": [
     "community"
@@ -969,26 +956,6 @@
    "start": "2026-11-20T19:30:00-06:00",
    "title": "Jack Grelle",
    "venue": "Birdie's Deli"
-  },
-  {
-   "_slug": "live-stand-up-comedy-at-the-tokyo-club-int-l-touring-joe-deu-1b446d",
-   "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-intl-touring-joe-deuce/100002004039029685",
-    "https://thearcadedistrict.org/"
-   ],
-   "categories": [
-    "arts"
-   ],
-   "category": "arts",
-   "description": "Internationally touring comedy powerhouse Joe Deuce is bringing his hilarious high-energy show for ONE NIGHT ONLY!",
-   "end": "2026-11-20T21:00:00-06:00",
-   "id": "1b446de67dbea9fb",
-   "imageUrl": "https://comoevent.com/img/gen/p-88950c13d39df2.webp",
-   "source": "eventbrite",
-   "start": "2026-11-20T19:30:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/live-stand-up-comedy-at-the-tokyo-club-intl-touring-joe-deuce-tickets-2004038523170",
-   "title": "Live Stand-Up COMEDY at The Tokyo Club - Int'l Touring Joe Deuce!!!",
-   "venue": "The Tokyo Club"
   },
   {
    "_slug": "blake-gardner-the-farmers-f0d2fb",
@@ -1147,8 +1114,8 @@
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-5d1c5e",
    "alsoOn": [
-    "https://allevents.in/columbia/work-it-columbia-18/200030863023200",
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000",
+    "https://allevents.in/columbia/work-it-columbia-18/200030863023200"
    ],
    "categories": [
     "music",
@@ -1209,18 +1176,6 @@
    "venue": "Faurot Field"
   },
   {
-   "_slug": "thanksgiving-recess-begins-close-of-day-fall-2026-c37479",
-   "categories": [
-    "campus"
-   ],
-   "category": "campus",
-   "id": "c37479c1096c7dfa",
-   "imageUrl": "https://comoevent.com/img/gen/9059ec53b913a6.webp",
-   "source": "mizzou",
-   "start": "2026-11-21T00:00:00-06:00",
-   "title": "Thanksgiving recess begins close of day, Fall 2026"
-  },
-  {
    "_slug": "andras-szieberth-clinic-mmrc-2bed71",
    "categories": [
     "sports"
@@ -1264,8 +1219,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
    ],
    "categories": [
     "nightlife",
@@ -1282,19 +1237,18 @@
    "venue": "Tiny Play Café"
   },
   {
-   "_slug": "saturday-market-winter-b317c0",
+   "_slug": "saturday-market-winter-35c4ed",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/",
     "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
    ],
    "categories": [
     "food"
    ],
    "category": "food",
-   "description": "Experience the taste of mid-Missouri year-round at Columbia Farmers Market! Visit us during the Winter Season: every Saturday from 9 a.m.- noon (November-March) in the heated MU Health Care Pavilion at Columbia’s Agriculture Park. You will find fresh produce, meat, farm fresh eggs, cheese, honey, ar",
+   "description": "Experience the taste of mid-Missouri year-round at Columbia Farmers Market. Visit the market from 9 a.m. to noon every Saturday from November …",
    "end": "2026-11-21T12:00:00-06:00",
-   "id": "b317c05abbba97c4",
-   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
+   "id": "35c4ed70bce74200",
+   "imageUrl": "https://comoevent.com/img/gen/75a6dc922c2183.webp",
    "price": "Free",
    "source": "farmersmarket",
    "start": "2026-11-21T09:00:00-06:00",
@@ -1474,17 +1428,14 @@
    "venue": "Columbia Public Library"
   },
   {
-   "_slug": "grown-up-book-fair-749350",
-   "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/wilder-coffeehouse-grown-up-book-fair/"
-   ],
+   "_slug": "grown-up-book-fair-908a38",
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "Wilder Coffeehouse (next to the Tiger Hotel) is hosting a book fair pop-up! Stop in any time from 12pm-3pm to find books and bouquets! Feature Vendors: Skylark Book Shop & flowers by Sydney Johnson. Details: https://www.facebook.com/events/1755978099870131",
    "end": "2026-11-21T15:00:00-06:00",
-   "id": "7493503c2eaf2e93",
+   "id": "908a380259ea5263",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6af60d5b33339b9bfd469f29/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-21T12:00:00-06:00",
@@ -1870,6 +1821,19 @@
    "venue": "Faurot Field"
   },
   {
+   "_slug": "single-awareness-dinner-columbia-foodies-new-friends-1301d3",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "1301d322972f1054",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jMWQ3NzM2OTU5ZjdhZWIxZTExMjgzYzI1MDJlNmViMTgwNzAxZmE4YzBjZjFjMTcwYjJjNzc1MTFmNWFkNzkyLXJpbWctdzk3MS1oODU1LWRjMTQxYTJkLWdtaXIuanBnP3Y9MTc4Mjc3MzcwNA.avif",
+   "source": "allevents",
+   "start": "2026-11-21T17:00:00-06:00",
+   "title": "Single Awareness Dinner: Columbia | Foodies + New Friends",
+   "venue": "Restaurant of the Week"
+  },
+  {
    "_slug": "columbia-college-women-s-soccer-vs-oklahoma-wesleyan-univers-8f2cce",
    "categories": [
     "sports"
@@ -1929,8 +1893,7 @@
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/"
+    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213"
    ],
    "categories": [
     "sports"
@@ -1938,11 +1901,11 @@
    "category": "sports",
    "end": "2026-11-21T20:30:00-06:00",
    "id": "6348cb430c3188f9",
-   "imageUrl": "https://comoevent.com/img/gen/98948d2b6368a4.webp",
+   "imageUrl": "https://comoevent.com/img/gen/1c4001fd032b28.webp",
    "source": "mizzou",
    "start": "2026-11-21T18:30:00-06:00",
    "title": "Football - Missouri vs. Kentucky",
-   "venue": "Champions Drive"
+   "venue": "Faurot Field at Memorial Stadium"
   },
   {
    "_slug": "ponies-improv-stripped-75585f",
@@ -1962,25 +1925,6 @@
    "ticketUrl": "https://events.ticketleap.com/events/talkinghorse/ponies-improv-stripped",
    "title": "Ponies Improv - Stripped",
    "venue": "Talking Horse Productions"
-  },
-  {
-   "_slug": "single-awareness-dinner-columbia-foodies-new-friends-762736",
-   "alsoOn": [
-    "https://allevents.in/columbia/single-awareness-dinner-columbia-foodies-new-friends/100001990430837215"
-   ],
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "Celebrate your singleness and make new friends over dinner! Connect with other happily single locals and shake your fist at couples.",
-   "end": "2026-11-21T22:00:00-06:00",
-   "id": "7627360dc60a6e27",
-   "imageUrl": "https://cdn.evbuc.com/images/1177367142/2972884566231/1/original.20260212-121923",
-   "source": "eventbrite",
-   "start": "2026-11-21T19:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/single-awareness-dinner-columbia-foodies-new-friends-tickets-1990431447039",
-   "title": "Single Awareness Dinner: Columbia | Foodies + New Friends",
-   "venue": "Restaurant of the Week"
   },
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-2-d8c2ac",
@@ -2046,18 +1990,17 @@
    "venue": "Dive Bar"
   },
   {
-   "_slug": "hayden-coffman-dcdb72",
+   "_slug": "hayden-coffman-90d933",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
+    "https://tockify.com/the.district.cid/detail/1451/1795309200000"
    ],
    "categories": [
     "music"
    ],
    "category": "music",
    "description": "with Bryce Mauldin",
-   "end": "2026-11-21T23:00:00-06:00",
-   "id": "dcdb7208f11d2ea8",
+   "end": "2026-11-21T23:30:00-06:00",
+   "id": "90d9333f3c214eac",
    "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/TSL-RMH-Web.jpg",
    "source": "bluenote",
    "start": "2026-11-21T20:00:00-06:00",
@@ -2084,8 +2027,8 @@
    "_slug": "the-host-ff1098",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#the-host",
-    "https://allevents.in/columbia/the-host/200031023437330",
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000"
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
+    "https://allevents.in/columbia/the-host/200031023437330"
    ],
    "categories": [
     "arts",
@@ -2103,24 +2046,22 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "live-hardcore-comedy-at-the-tokyo-club-columbia-s-own-lady-m-616a99",
+   "_slug": "hardcore-comedy-at-the-tokyo-club-d8e238",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
     "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
    ],
    "categories": [
     "arts"
    ],
    "category": "arts",
-   "description": "Crowdwork at it's Finest! SIT. UP. FRONT. We dare you...don't miss Columbia's own LADY MOE JOE Featuring Zeb Balentine!!!",
+   "description": "🎤 Hardcore Comedy at The Tokyo Club! Doors Open at 8:30 PM Show is at 9 PM 🔥 Crowd Work Special with Lady Moe Joe 🔥 Featuring: Zeb Balentine & Geoff Christy 🤣 No scripts. No filters. Just pure crowd interaction! Comics will be working the room, roasting, riffing, and turning your stories into comedy",
    "end": "2026-11-21T22:30:00-06:00",
-   "id": "616a99c75ecef11a",
-   "imageUrl": "https://comoevent.com/img/gen/p-09bafd8f3a7458.webp",
-   "source": "eventbrite",
+   "id": "d8e2388103eaeebf",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9lODU5MTFkOGUwNzcwZTBkYTViNDU0M2YwZWQwZTA2MjRhNmUyYmZhN2VlNDg0MWZmNzZhNmIzNDBhMTJlNDIwLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTM3ODI4ODE.avif",
+   "source": "arcadedistrict",
    "start": "2026-11-21T21:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe-tickets-2004322658025",
-   "title": "LIVE HARDCORE COMEDY at The Tokyo Club!!! Columbia's Own LADY MOE JOE!",
-   "venue": "The Tokyo Club"
+   "title": "Hardcore Comedy at The Tokyo Club",
+   "venue": "The Arcade District"
   },
   {
    "_slug": "the-celebrity-drag-show-7d81ac",
@@ -2163,6 +2104,20 @@
    "source": "allevents",
    "start": "2026-11-22T00:00:00-06:00",
    "title": "Friendsgiving"
+  },
+  {
+   "_slug": "super-smash-bros-tournament-e47027",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e47027247d911c2e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
+   "source": "allevents",
+   "start": "2026-11-22T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "yoga-at-partner-for-better-b09b73",
@@ -2389,20 +2344,19 @@
    "venue": "Wishflour Bakery"
   },
   {
-   "_slug": "nutcracker-tea-party-7a4b99",
+   "_slug": "nutcracker-tea-party-b514d0",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
    ],
    "categories": [
-    "family",
-    "arts"
+    "arts",
+    "family"
    ],
-   "category": "family",
-   "description": "Celebrate the magic of the season with an afternoon of tea, treats, and Nutcracker fun! Join Columbia Ballet Academy and Mary Lee Johnson Community Learning Center for a festive family afternoon featuring a special dance performance, photos with beloved Nutcracker characters, ornament decorating for",
+   "category": "arts",
+   "description": "Celebrate the season with an afternoon of tea, treats, and Nutcracker-themed activities. The family gathering includes a dance performance, photo opportunities with Nutcracker characters, ornament decorating, a raffle, and additional holiday surprises. Proceeds support Columbia Ballet Academy and M…",
    "end": "2026-11-22T16:00:00-06:00",
-   "id": "7a4b9981e9fb1741",
+   "id": "b514d08f62c2ee46",
    "imageUrl": "https://comoevent.com/img/gen/f2fdabc8acc991.webp",
    "source": "allevents",
    "start": "2026-11-22T14:00:00-06:00",
@@ -2561,25 +2515,6 @@
    "title": "Partner Yoga"
   },
   {
-   "_slug": "super-smash-bros-tournament-83b3b8",
-   "alsoOn": [
-    "https://allevents.in/columbia/super-smash-bros-tournament/100001424508426049"
-   ],
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "description": "FREE Smash Bros Ultimate Tournament hosted at The Kitchen Grill & Games. Prizes to the top 4 winners. Sundays at 4:00pm",
-   "end": "2026-11-22T18:00:00-06:00",
-   "id": "83b3b813e36671f1",
-   "imageUrl": "https://cdn.evbuc.com/images/1006203893/2276365863483/1/original.20250410-200503",
-   "source": "eventbrite",
-   "start": "2026-11-22T16:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/super-smash-bros-tournament-tickets-1999028927334",
-   "title": "Super Smash Bros Tournament",
-   "venue": "The Kitchen Grill & Games"
-  },
-  {
    "_slug": "dining-in-the-alley-with-artemis-grey-418d2a",
    "categories": [
     "food"
@@ -2612,8 +2547,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
    ],
    "categories": [
     "music"
@@ -2665,12 +2600,12 @@
  "picks": [
   "ad1db7d77a3bfdba",
   "57a71f09c56fb1c5",
-  "793bbdb791d76d31",
   "39beffc6c04d12c6",
-  "1b446de67dbea9fb",
+  "77c7e7558b8be955",
   "dd974cc397ae9f26",
   "5d1c5e5952f1ebfa",
-  "7627360dc60a6e27",
+  "45291c50e4c72ad0",
+  "902d8f662fe79982",
   "75585f338b675add",
   "e5215bdda79b22bc"
  ],
