@@ -164,7 +164,6 @@
    "description": "At Shanthi Mandir, the Hindu Temple and Community Center of Mid-Missouri. Everyone is welcome; regular poojas are led by volunteers and can be sponsored. Details: shanthimandir.missouri.org",
    "end": "2026-11-20T10:30:00-06:00",
    "id": "a8465139373d383c",
-   "imageUrl": "https://comoevent.com/img/gen/73166460077eb9.webp",
    "source": "shanthimandir",
    "start": "2026-11-20T09:30:00-06:00",
    "title": "Lakshmi Abhishekam",
@@ -490,9 +489,9 @@
   {
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
     "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
     "https://tockify.com/the.district.cid/detail/1256/1795215600000",
-    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
     "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus"
    ],
    "categories": [
@@ -990,8 +989,8 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-int-l-touring-joe-deu-1b446d",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-intl-touring-joe-deuce/100002004039029685",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-intl-touring-joe-deuce/100002004039029685"
    ],
    "categories": [
     "arts"
@@ -1164,8 +1163,8 @@
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-5d1c5e",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000",
-    "https://allevents.in/columbia/work-it-columbia-18/200030863023200"
+    "https://allevents.in/columbia/work-it-columbia-18/200030863023200",
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
    ],
    "categories": [
     "music",
@@ -1248,10 +1247,11 @@
    "description": "Enjoy a breakfast of pancakes, sausage, scrambled eggs, biscuits and gravy, with orange juice, milk, coffee and water. The meal is $13. It’s also an opportunity to learn about the VFW’s work for Veterans and their families in the community.",
    "end": "2026-11-21T11:00:00-06:00",
    "id": "8d714f279a96d767",
-   "imageUrl": "https://comoevent.com/img/gen/749784f2e98ac6.webp",
+   "imageUrl": "https://comoevent.com/img/gen/7f9766f5925e32.webp",
    "source": "baselocal",
    "start": "2026-11-21T08:00:00-06:00",
-   "title": "Pancake Breakfast"
+   "title": "Pancake Breakfast",
+   "venue": "Boone County VFW Post 280"
   },
   {
    "_slug": "coffee-with-an-author-f0e49e",
@@ -1269,8 +1269,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
    ],
    "categories": [
     "nightlife",
@@ -1701,8 +1701,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
    ],
    "categories": [
     "family"
@@ -2050,8 +2050,8 @@
   {
    "_slug": "hayden-coffman-dcdb72",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/",
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000"
+    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
+    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
    ],
    "categories": [
     "music"
@@ -2085,9 +2085,9 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
+    "https://baselocal.com/mo/columbia/events/#the-host",
     "https://allevents.in/columbia/the-host/200031023437330",
-    "https://baselocal.com/mo/columbia/events/#the-host"
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000"
    ],
    "categories": [
     "arts",
@@ -2107,8 +2107,8 @@
   {
    "_slug": "live-hardcore-comedy-at-the-tokyo-club-columbia-s-own-lady-m-616a99",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
+    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts"
@@ -2393,9 +2393,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
     "family",

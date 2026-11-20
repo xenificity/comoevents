@@ -226,6 +226,7 @@
   "lng": -92.3249265,
   "name": null
  },
+ "10962 s hardwick ln, columbia, mo": null,
  "11 n 9th st, columbia, missouri, 65201": {
   "lat": 38.951983,
   "lng": -92.3277801,
@@ -340,6 +341,11 @@
   "lat": 38.8164035,
   "lng": -92.3836928,
   "name": "The Beach"
+ },
+ "1180 vandiver dr, columbia, mo 65202": {
+  "lat": 38.971127,
+  "lng": -92.321448,
+  "name": null
  },
  "119 s 7th street, columbia, mo": {
   "lat": 38.9499513,
@@ -803,6 +809,11 @@
   "lng": -92.3635554,
   "name": null
  },
+ "2601 e broadway, columbia, mo": {
+  "lat": 38.947105,
+  "lng": -92.301625,
+  "name": null
+ },
  "2615 s providence rd, columbia, mo 65203": {
   "lat": 38.9212858,
   "lng": -92.3356574,
@@ -1054,6 +1065,11 @@
   "lng": -92.2844374,
   "name": null
  },
+ "3717 discovery pkwy, columbia, mo": {
+  "lat": 38.8976414,
+  "lng": -92.281109,
+  "name": "Discovery Parkway"
+ },
  "38 n 8th st, columbia, mo": {
   "lat": 38.9524989,
   "lng": -92.3284608,
@@ -1139,6 +1155,11 @@
   "lat": 38.9118726,
   "lng": -92.396729,
   "name": "Addison’s"
+ },
+ "401 n 5th st, columbia, mo": {
+  "lat": 38.9555486,
+  "lng": -92.3319858,
+  "name": "Second Christian Church"
  },
  "4025 s brushwood lake rd, columbia, mo": {
   "lat": 38.9126328,
@@ -1586,6 +1607,8 @@
  "arts and sciences, columbia, mo": null,
  "battlefield lavender, columbia, mo": null,
  "bonnie view nature sanctuary, columbia, mo": null,
+ "boone county vfw post 280, columbia, mo": null,
+ "boone county vfw post, columbia, mo": null,
  "bubble cup tea zone – south, columbia, mo": null,
  "camp takimina, columbia, mo": null,
  "campus bar & grill, columbia, mo": {
