@@ -1639,6 +1639,7 @@
  },
  "como rocks indoor climbing gym, columbia, mo": null,
  "cornell hall 015 university of missouri columbia missouri united states, columbia, mo": null,
+ "coulmbia, mo., columbia, mo": null,
  "county club of missouri, columbia, mo": null,
  "curley eye, columbia, mo": null,
  "dancearts of columbia 313 e ash st columbia 65201 united states, columbia, mo": null,
@@ -1860,6 +1861,11 @@
  "osage artists today: art, culture and connection to place, columbia, mo": null,
  "p.o. box 1746 columbia, missouri 65205": null,
  "p.o. box 7119 columbia, missouri 65205": null,
+ "panera bread, columbia, mo": {
+  "lat": 38.9105938,
+  "lng": -92.3358108,
+  "name": "Panera Bread"
+ },
  "pierpont general store, columbia, mo": {
   "lat": 38.8626355,
   "lng": -92.3147178,
