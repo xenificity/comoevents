@@ -68,6 +68,18 @@
    "title": "Global Entrepreneurship Week Central Missouri - Friday Activities"
   },
   {
+   "_slug": "black-gold-friday-047ac0",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Show your Mizzou pride wherever you are on Black & Gold Fridays. Save 25% when you shop online or in-store.",
+   "id": "047ac073e65c880c",
+   "source": "baselocal",
+   "start": "2026-11-20T08:30:00-06:00",
+   "title": "Black & Gold Friday"
+  },
+  {
    "_slug": "black-and-gold-friday-a20afb",
    "alsoOn": [
     "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
@@ -478,10 +490,10 @@
   {
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
+    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
     "https://tockify.com/the.district.cid/detail/1256/1795215600000",
     "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
-    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040"
+    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus"
    ],
    "categories": [
     "family"
@@ -621,6 +633,18 @@
    "start": "2026-11-20T18:00:00-06:00",
    "title": "Dive More & Stay Longer: SSI Enriched Air Nitrox Course",
    "venue": "Diventures in Columbia"
+  },
+  {
+   "_slug": "flyover-country-happy-hour-cafe-b-48420a",
+   "categories": [
+    "nightlife"
+   ],
+   "category": "nightlife",
+   "id": "48420a4f0a18557b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9lMzE4ZjUzYmNjNjc5NDg2ODMxNzlkYzAwNGE1NjI1ZGI2MDY5MDAyMDM2MTBiMDc3ZWNkYWRjMWEzZDBmMDQ4LXJpbWctdzEyMDAtaDYyOC1kYzA4MTgyOC1nbWlyP3Y9MTc5NTE4MjU5OA.avif",
+   "source": "allevents",
+   "start": "2026-11-20T18:00:00-06:00",
+   "title": "Flyover Country Happy Hour @ Cafe B"
   },
   {
    "_slug": "friday-night-commander-at-hexagon-alley-e708b8",
@@ -1140,8 +1164,8 @@
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-5d1c5e",
    "alsoOn": [
-    "https://allevents.in/columbia/work-it-columbia-18/200030863023200",
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000",
+    "https://allevents.in/columbia/work-it-columbia-18/200030863023200"
    ],
    "categories": [
     "music",
@@ -1265,8 +1289,8 @@
   {
    "_slug": "saturday-market-winter-b317c0",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/",
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
+    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/"
    ],
    "categories": [
     "food"
@@ -1712,8 +1736,8 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
-    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
+    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr",
+    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437"
    ],
    "categories": [
     "arts",
@@ -2062,8 +2086,8 @@
    "_slug": "the-host-ff1098",
    "alsoOn": [
     "https://tockify.com/the.district.cid/detail/1453/1795314600000",
-    "https://baselocal.com/mo/columbia/events/#the-host",
-    "https://allevents.in/columbia/the-host/200031023437330"
+    "https://allevents.in/columbia/the-host/200031023437330",
+    "https://baselocal.com/mo/columbia/events/#the-host"
    ],
    "categories": [
     "arts",
@@ -2083,8 +2107,8 @@
   {
    "_slug": "live-hardcore-comedy-at-the-tokyo-club-columbia-s-own-lady-m-616a99",
    "alsoOn": [
-    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
    ],
    "categories": [
     "arts"
@@ -2285,8 +2309,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
@@ -2349,8 +2373,8 @@
   {
    "_slug": "color-me-merry-66bb5a",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1461/1795377600000",
-    "https://allevents.in/columbia/color-me-merry/100002004101275865"
+    "https://allevents.in/columbia/color-me-merry/100002004101275865",
+    "https://tockify.com/the.district.cid/detail/1461/1795377600000"
    ],
    "categories": [
     "community"
@@ -2370,8 +2394,8 @@
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
     "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
    ],
    "categories": [
     "family",
