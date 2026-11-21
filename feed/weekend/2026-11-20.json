@@ -120,7 +120,6 @@
    "description": "Green Friday brings exclusive in-salon deals to Green Meadows Hair Co. & Spa.",
    "end": "2026-11-20T18:00:00-06:00",
    "id": "d45086187353b933",
-   "imageUrl": "https://comoevent.com/img/gen/9177950414add9.webp",
    "source": "baselocal",
    "start": "2026-11-20T09:00:00-06:00",
    "title": "Green Friday",
@@ -218,7 +217,6 @@
    "description": "Enjoy tacos from Ana’s, with preorders available and options for pickup or local delivery for a $5 fee. Pickup times are flexible by request.",
    "end": "2026-11-20T17:00:00-06:00",
    "id": "01e198da9f6de7cd",
-   "imageUrl": "https://comoevent.com/img/gen/98e85a08093b97.webp",
    "source": "baselocal",
    "start": "2026-11-20T11:00:00-06:00",
    "title": "Ana’s Tacos",
@@ -309,7 +307,6 @@
    "description": "On board, you'll find books, music, DVDs and other services for all ages. You can browse several thousand titles or pick up items you've requested online or over the phone.",
    "end": "2026-11-20T18:00:00-06:00",
    "id": "49ace6994aa58b8b",
-   "imageUrl": "https://comoevent.com/img/gen/189e452e3ee87c.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-11-20T13:30:00-06:00",
@@ -330,6 +327,20 @@
    "start": "2026-11-20T13:30:00-06:00",
    "title": "You Can See Everything",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "candlelight-tribute-to-fleetwood-mac-020e2e",
+   "categories": [
+    "music",
+    "family"
+   ],
+   "category": "music",
+   "description": "A candlelit tribute to Fleetwood Mac fills The Historic Grand Ballroom - Tiger Hotel in Columbia with a live, multi-sensory concert that celebrates the band’s timeless sound in a warm glow. Performed by the Listeso String Quartet, the program features favorites including Everywhere, Gypsy, You Make…",
+   "id": "020e2ec14feedc62",
+   "source": "baselocal",
+   "start": "2026-11-20T13:45:00-06:00",
+   "title": "Candlelight: Tribute to Fleetwood Mac",
+   "venue": "Tiger Hotel"
   },
   {
    "_slug": "candlelight-tribute-to-fleetwood-mac-2fd3c9",
@@ -380,6 +391,22 @@
    "imageUrl": "https://comoevent.com/img/gen/88f737fcba3301.webp",
    "price": "Free",
    "source": "mizzou",
+   "start": "2026-11-20T14:00:00-06:00",
+   "title": "Memorial Student Union Tower Centennial Celebration",
+   "venue": "Memorial Student Union"
+  },
+  {
+   "_slug": "memorial-student-union-tower-centennial-celebration-f94a30",
+   "categories": [
+    "community",
+    "music",
+    "campus"
+   ],
+   "category": "community",
+   "description": "Join us as we celebrate the 100th anniversary of the Memorial Student Union Tower, a cherished campus landmark and enduring tribute to Mizzou students and alumni who gave their lives in service to our country. Experience a memorable afternoon of reflection, connection and celebration featuring speci",
+   "end": "2026-11-20T17:00:00-06:00",
+   "id": "f94a30e4e617e4c2",
+   "source": "engage",
    "start": "2026-11-20T14:00:00-06:00",
    "title": "Memorial Student Union Tower Centennial Celebration",
    "venue": "Memorial Student Union"
@@ -449,7 +476,6 @@
    "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
    "end": "2026-11-20T17:40:00-06:00",
    "id": "1477722ac088190d",
-   "imageUrl": "https://comoevent.com/img/gen/51ec87fee5119c.webp",
    "source": "ragtag",
    "start": "2026-11-20T16:00:00-06:00",
    "title": "Once Upon a Time in Harlem",
@@ -501,10 +527,9 @@
   {
    "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
    "alsoOn": [
-    "https://allevents.in/columbia/5th-annual-merry-moments-with-santa-and-mrs-claus/200030911003040",
     "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
-    "https://tockify.com/the.district.cid/detail/1256/1795215600000",
-    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/"
+    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
+    "https://tockify.com/the.district.cid/detail/1256/1795215600000"
    ],
    "categories": [
     "family"
@@ -614,6 +639,23 @@
    "venue": "Ladybird Cafe"
   },
   {
+   "_slug": "craft-club-at-ladybird-cafe-d6be9b",
+   "categories": [
+    "party",
+    "music",
+    "arts"
+   ],
+   "category": "party",
+   "description": "Fridays at Ladybird Cafe! Ease into the weekend. 6–7:30 PM — Craft Night Watch our page for upcoming projects! 8–11 PM — Friday Nights at Ladybird We’ll have a DJ and craft supplies out all night. Dance, make something, have a drink, shop, hang out, or do a little bit of everything. Every Friday has",
+   "end": "2026-11-20T23:00:00-06:00",
+   "id": "d6be9bf5e704db23",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab54fa647d5d2eab1d88620/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-20T18:00:00-06:00",
+   "title": "Craft Club at Ladybird Cafe",
+   "venue": "Ladybird Cafe"
+  },
+  {
    "_slug": "craft-night-every-friday-091259",
    "categories": [
     "arts"
@@ -626,6 +668,21 @@
    "source": "district",
    "start": "2026-11-20T18:00:00-06:00",
    "title": "Craft Night every Friday"
+  },
+  {
+   "_slug": "dive-more-stay-longer-ssi-enriched-air-nitrox-course-9c5345",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "This course teaches certified divers how to safely use enriched air mixtures containing up to 40% oxygen. Learn to analyze cylinders, calibrate oxygen analyzers, plan Nitrox dives, understand gas mixtures, and follow safety protocols. The course covers ways Nitrox can support longer no-decompressio…",
+   "end": "2026-11-20T20:30:00-06:00",
+   "id": "9c534552ec4bcf28",
+   "imageUrl": "https://comoevent.com/img/gen/a19645b2994bc4.webp",
+   "source": "baselocal",
+   "start": "2026-11-20T18:00:00-06:00",
+   "title": "Dive More & Stay Longer: SSI Enriched Air Nitrox Course",
+   "venue": "Diventures in Columbia"
   },
   {
    "_slug": "dive-more-stay-longer-ssi-enriched-air-nitrox-course-b14197",
@@ -986,8 +1043,8 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-int-l-touring-joe-deu-1b446d",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-intl-touring-joe-deuce/100002004039029685"
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-intl-touring-joe-deuce/100002004039029685",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts"
@@ -1050,18 +1107,6 @@
    "venue": "Eastside Tavern"
   },
   {
-   "_slug": "meredith-shaw-at-old-plank-tavern-626f93",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "626f9347b8c1a07a",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMjg2YjUwYmZiMjFhMjNkMzk5ZTQ2ZjA3M2IwNzVkMTBhYjllNmZiMjc5NzZiNGI5NjdkYmNkZjg3MGQ5OTNiNS1yaW1nLXcxMDgwLWgxOTIwLWRjMDgwODA4LWdtaXI_dj0xNzkyMzAwNzM3.avif",
-   "source": "allevents",
-   "start": "2026-11-20T20:00:00-06:00",
-   "title": "Meredith Shaw at Old Plank Tavern"
-  },
-  {
    "_slug": "the-spooklights-dd974c",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#the-spooklights",
@@ -1080,19 +1125,6 @@
    "ticketUrl": "https://www.ticketmaster.com/the-spooklights-ben-miller-pat-kay-columbia-missouri-11-20-2026/event/0600652F33A5B1FC",
    "title": "The Spooklights",
    "venue": "Rose Music Hall (Inside)"
-  },
-  {
-   "_slug": "the-spooklights-ben-miller-pat-kay-e15bb9",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "e15bb9f4f578913b",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8xZjlkY2I0OGYyZDI0MDc2MmYyNTQzYzcwMTQ2MDY5MGU3MWE3MGViYjc1N2ZjODg0YzcyYTE1ZDY0ZThhYTRlLXJpbWctdzEwMjQtaDU3Ni1kYzI4MjgyOC1nbWlyLmpwZz92PTE3ODk1ODU4NjU.avif",
-   "source": "allevents",
-   "start": "2026-11-20T20:00:00-06:00",
-   "title": "The Spooklights (Ben Miller + Pat Kay)",
-   "venue": "Rose Music Hall"
   },
   {
    "_slug": "the-spooklights-rose-music-hall-1ba87c",
@@ -1158,10 +1190,9 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-5d1c5e",
+   "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-a9230b",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000",
-    "https://allevents.in/columbia/work-it-columbia-18/200030863023200"
+    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
    ],
    "categories": [
     "music",
@@ -1170,7 +1201,7 @@
    "category": "music",
    "description": "What The Dance Presents",
    "end": "2026-11-20T23:30:00-06:00",
-   "id": "5d1c5e5952f1ebfa",
+   "id": "a9230b9bf867b12c",
    "imageUrl": "https://comoevent.com/img/gen/p-54db49c75bd536.webp",
    "source": "bluenote",
    "start": "2026-11-20T21:00:00-06:00",
@@ -1266,8 +1297,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
    ],
    "categories": [
     "nightlife",
@@ -1284,10 +1315,23 @@
    "venue": "Tiny Play Café"
   },
   {
+   "_slug": "esm-61-years-in-the-same-house-estate-sale-4dd845",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "4dd8451fa79a6b76",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8zOWIwNTA0ZjFlNmMwNDg3ZjVmOTIyNTNjYjliNzE5OGEyMGQ4Njg3OWRjNDllNmVhYjlkMzZmNTdiODgwM2YyLXJpbWctdzEyMDAtaDY3NS1kY2Y4ZjhmOC1nbWlyP3Y9MTc5NTEwNzg0OA.avif",
+   "source": "allevents",
+   "start": "2026-11-21T09:00:00-06:00",
+   "title": "ESM ~ 61 Years in the Same House Estate Sale!",
+   "venue": "Southridge Dr, Columbia, MO 65202, United States"
+  },
+  {
    "_slug": "saturday-market-winter-b317c0",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/",
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
+    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/"
    ],
    "categories": [
     "food"
@@ -1582,18 +1626,6 @@
    "venue": "Southwell Complex"
   },
   {
-   "_slug": "kentucky-vs-mizzou-tailgate-d20c56",
-   "categories": [
-    "sports"
-   ],
-   "category": "sports",
-   "id": "d20c56e507556629",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8wZjgzYjk2YTc5MjM3NmU4NGNlMmNhNjNiZmQ2ZDg3YjY3MjM1MDQ5YTA2YmQzODUxY2M3YjAyYWU0ZTkyOGM2LXJpbWctdzk2MC1oNzIwLWRjMTgxODE4LWdtaXI_dj0xNzk1MTU5MzQ2.avif",
-   "source": "allevents",
-   "start": "2026-11-21T13:00:00-06:00",
-   "title": "Kentucky vs Mizzou Tailgate"
-  },
-  {
    "_slug": "kinusaiga-ac9e52",
    "categories": [
     "arts"
@@ -1713,8 +1745,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
    ],
    "categories": [
     "family"
@@ -1946,8 +1978,8 @@
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/",
-    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213"
+    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213",
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/"
    ],
    "categories": [
     "sports"
@@ -2062,8 +2094,8 @@
   {
    "_slug": "hayden-coffman-dcdb72",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/",
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000"
+    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
+    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
    ],
    "categories": [
     "music"
@@ -2098,8 +2130,8 @@
    "_slug": "the-host-ff1098",
    "alsoOn": [
     "https://allevents.in/columbia/the-host/200031023437330",
-    "https://baselocal.com/mo/columbia/events/#the-host",
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000"
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
+    "https://baselocal.com/mo/columbia/events/#the-host"
    ],
    "categories": [
     "arts",
@@ -2259,6 +2291,18 @@
    "venue": "CrossWay Church"
   },
   {
+   "_slug": "nov-2026-vgc-go-league-challenge-tournaments-735e20",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "735e20c45b064d4c",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy85ZWYxMWNlMGJiNTI5NTZlNmYzNzhhMDY2N2VmZWIyOTNlOTNjYjliZjM5OGU5ZDljMGMzYjE3NTkzMDk0M2MyLXJpbWctdzcyMC1oMzQ3LWRjZTgxODI4LWdtaXI_dj0xNzk0MjMzMzMz.avif",
+   "source": "allevents",
+   "start": "2026-11-22T12:00:00-06:00",
+   "title": "Nov 2026 VGC & GO League Challenge Tournaments"
+  },
+  {
    "_slug": "the-munchbox-f406a0",
    "categories": [
     "food"
@@ -2321,8 +2365,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -2385,8 +2429,8 @@
   {
    "_slug": "color-me-merry-66bb5a",
    "alsoOn": [
-    "https://allevents.in/columbia/color-me-merry/100002004101275865",
-    "https://tockify.com/the.district.cid/detail/1461/1795377600000"
+    "https://tockify.com/the.district.cid/detail/1461/1795377600000",
+    "https://allevents.in/columbia/color-me-merry/100002004101275865"
    ],
    "categories": [
     "community"
@@ -2498,14 +2542,17 @@
    "venue": "Downtown Columbia"
   },
   {
-   "_slug": "collage-without-a-cause-107f9e",
+   "_slug": "collage-without-a-cause-cc69cf",
+   "alsoOn": [
+    "https://allevents.in/columbia/collage-without-a-cause/200031047892950"
+   ],
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "Collage Without a Cause happens every Sunday! Cut up magazines, glue things to other things, and see what happens. We’ll have all the supplies you need, but feel free to bring magazines, photos, paper, stickers, or other stuff you want to use. Sundays 3–6pm $8 • All supplies included Ladybird Tradin",
    "end": "2026-11-22T18:00:00-06:00",
-   "id": "107f9e1b2ed0b156",
+   "id": "cc69cf0ff84a79c0",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb624549b9323bd2300df5/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-22T15:00:00-06:00",
@@ -2620,8 +2667,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
    ],
    "categories": [
     "music"
