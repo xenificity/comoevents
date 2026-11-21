@@ -231,7 +231,6 @@
    "description": "Celebrate a year in business at the Columbia location with store deals, raffle giveaways, and free pictures at the picture booth. Fresh cotton candy is free with a purchase.",
    "end": "2026-11-20T20:00:00-06:00",
    "id": "16312110dd5b9fe2",
-   "imageUrl": "https://comoevent.com/img/gen/14c727c5c2773f.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-20T11:00:00-06:00",
@@ -264,6 +263,19 @@
    "description": "Experience a live musical performance featuring songs by ABBA and Queen in the Historic Grand Ballroom at the Tiger Hotel. The program includes favorites such as “Dancing Queen,” “Mamma Mia,” “Bohemian Rhapsody,” and “We Will Rock You,” performed by the Listeso string quartet. The concert takes pla…",
    "id": "b0b4309fd8e151f1",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9lMGM0OTA0MDQ3NjZiZDYxNzVkYzgzOTNlNjYxYmQ2NzBmOTA1YTcxOTBlYzI5MmU0NmVlMTc2YjJjOTYxOTEyLXJpbWctdzc2OC1oNzY4LWRjMTgwODA4LWdtaXI_dj0xNzg4MzYwNzM5.avif",
+   "source": "baselocal",
+   "start": "2026-11-20T11:30:00-06:00",
+   "title": "Candlelight: Tribute to ABBA & More",
+   "venue": "Tiger Hotel"
+  },
+  {
+   "_slug": "candlelight-tribute-to-abba-more-e83cd6",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Experience a live musical performance featuring songs by ABBA and Queen in the Historic Grand Ballroom at the Tiger Hotel. The program includes favorites such as “Dancing Queen,” “Mamma Mia,” “Bohemian Rhapsody,” and “We Will Rock You,” performed by the Listeso string quartet. The concert takes pla…",
+   "id": "e83cd66218ca1424",
    "source": "baselocal",
    "start": "2026-11-20T11:30:00-06:00",
    "title": "Candlelight: Tribute to ABBA & More",
@@ -503,7 +515,6 @@
    "description": "Friday-night live music from Jordan and Jim Heckemeyer.",
    "end": "2026-11-20T19:30:00-06:00",
    "id": "2d1d2c6c343f11f6",
-   "imageUrl": "https://comoevent.com/img/gen/9457c02c25fdf4.webp",
    "source": "pierpont",
    "start": "2026-11-20T16:30:00-06:00",
    "title": "Jordan and Jim Heckemeyer",
@@ -525,24 +536,22 @@
    "venue": "Cooper's Landing"
   },
   {
-   "_slug": "5th-annual-merry-moments-w-santa-mrs-clause-0b3265",
+   "_slug": "5th-annual-merry-moments-with-santa-mrs-claus-0b3265",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus",
-    "https://www.visitcolumbiamo.com/event/5th-annual-merry-moments-with-santa-mrs-claus/",
-    "https://tockify.com/the.district.cid/detail/1256/1795215600000"
+    "https://baselocal.com/mo/columbia/events/#5th-annual-merry-moments-with-santa-and-mrs-claus"
    ],
    "categories": [
     "family"
    ],
    "category": "family",
-   "description": "You’re invited to the 5th Annual Merry Moments with Santa & Mrs. Claus! Join Junior Achievement in Central Missouri for a FREE evening of festive family fun on Friday, November 20, from 5:00–8:00 p.m. at Orr Street Studios in Columbia! Families can enjoy: Photos with Santa and Mrs. Claus Free cookie",
+   "description": "Celebrate the holiday season with Junior Achievement in Central Missouri at the 5th Annual Merry Moments with Santa & Mrs. Claus! Families are invited to enjoy a free evening of holiday fun featuring photos with Santa and Mrs. Claus, cookies and cocoa, holiday crafts and games, letters to Santa, and",
    "end": "2026-11-20T20:00:00-06:00",
    "id": "0b326556f0f4f2d6",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb504049b9323bd26fa216/scaled_1152.jpg",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/08/5th-Annual-merry-moments-with-santa-and-mrs.-claus.png",
    "price": "Free",
-   "source": "district",
+   "source": "visitcolumbia",
    "start": "2026-11-20T17:00:00-06:00",
-   "title": "5th Annual Merry Moments w/Santa & Mrs. Clause",
+   "title": "5th Annual Merry Moments with Santa & Mrs. Claus",
    "venue": "Orr Street Studios"
   },
   {
@@ -554,7 +563,6 @@
    "description": "This Friday, Free for all to attend! 5pm- 8pm",
    "end": "2026-11-20T20:00:00-06:00",
    "id": "c617f0e076c7585e",
-   "imageUrl": "https://comoevent.com/img/gen/81dd280562dcd5.webp",
    "source": "macaronikid",
    "start": "2026-11-20T17:00:00-06:00",
    "title": "Photos with Santa"
@@ -567,7 +575,6 @@
    "category": "music",
    "end": "2026-11-20T20:00:00-06:00",
    "id": "88e241f462a1ad23",
-   "imageUrl": "https://comoevent.com/img/gen/ecf2646f58b479.webp",
    "source": "divebar",
    "start": "2026-11-20T17:00:00-06:00",
    "title": "Robert Watson",
@@ -583,7 +590,6 @@
    "description": "Come play social deduction games with us, this time voted on by our members!",
    "end": "2026-11-20T19:00:00-06:00",
    "id": "d346437c95c5b29b",
-   "imageUrl": "https://comoevent.com/img/gen/04dfc18d76b75b.webp",
    "source": "engage",
    "start": "2026-11-20T17:00:00-06:00",
    "title": "WHODUNNIT? Weekly Game Night",
@@ -597,7 +603,6 @@
    "category": "community",
    "end": "2026-11-20T19:00:00-06:00",
    "id": "35926f1c016c3a1d",
-   "imageUrl": "https://comoevent.com/img/gen/609f0c5a5500a4.webp",
    "source": "jabberwocky",
    "start": "2026-11-20T17:00:00-06:00",
    "title": "Zumba/Remi",
@@ -843,7 +848,6 @@
    "description": "At Shanthi Mandir, the Hindu Temple and Community Center of Mid-Missouri. Everyone is welcome; regular poojas are led by volunteers and can be sponsored. Details: shanthimandir.missouri.org",
    "end": "2026-11-20T19:30:00-06:00",
    "id": "39511af4516b5b88",
-   "imageUrl": "https://comoevent.com/img/gen/b3496d30abf892.webp",
    "source": "shanthimandir",
    "start": "2026-11-20T18:30:00-06:00",
    "title": "Lakshmi Sahasranama and Kumkuma Archana",
@@ -1005,7 +1009,6 @@
    "category": "community",
    "description": "Familiar pop hits take on new life through fresh arrangements, unexpected interpretations, and theatrical storytelling. The performances feature Samantha Boisclair, Adriana Diaz, Ryan Deshyla Jordan, Megan McNew, Yasha Mikolajczak, Brandon Moore, Haley Mullen, Clifton Satterfield, and Aron Williams…",
    "id": "0e2dd7dcdd10c75b",
-   "imageUrl": "https://comoevent.com/img/gen/b92179aeeaf37f.webp",
    "source": "baselocal",
    "start": "2026-11-20T19:00:00-06:00",
    "title": "Pop Reimagined",
@@ -1043,7 +1046,6 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-int-l-touring-joe-deu-1b446d",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-intl-touring-joe-deuce/100002004039029685",
     "https://thearcadedistrict.org/"
    ],
    "categories": [
@@ -1626,6 +1628,18 @@
    "venue": "Southwell Complex"
   },
   {
+   "_slug": "kentucky-vs-mizzou-tailgate-d20c56",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "d20c56e507556629",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8wZjgzYjk2YTc5MjM3NmU4NGNlMmNhNjNiZmQ2ZDg3YjY3MjM1MDQ5YTA2YmQzODUxY2M3YjAyYWU0ZTkyOGM2LXJpbWctdzk2MC1oNzIwLWRjMTgxODE4LWdtaXI_dj0xNzk1MTU5MzQ2.avif",
+   "source": "allevents",
+   "start": "2026-11-21T13:00:00-06:00",
+   "title": "Kentucky vs Mizzou Tailgate"
+  },
+  {
    "_slug": "kinusaiga-ac9e52",
    "categories": [
     "arts"
@@ -1745,8 +1759,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
    ],
    "categories": [
     "family"
@@ -1780,8 +1794,8 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr",
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437"
+    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
+    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
    ],
    "categories": [
     "arts",
@@ -1978,8 +1992,8 @@
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/",
+    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213"
    ],
    "categories": [
     "sports"
@@ -2094,8 +2108,8 @@
   {
    "_slug": "hayden-coffman-dcdb72",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
+    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/",
+    "https://tockify.com/the.district.cid/detail/1451/1795309200000"
    ],
    "categories": [
     "music"
@@ -2129,9 +2143,9 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://allevents.in/columbia/the-host/200031023437330",
     "https://tockify.com/the.district.cid/detail/1453/1795314600000",
-    "https://baselocal.com/mo/columbia/events/#the-host"
+    "https://baselocal.com/mo/columbia/events/#the-host",
+    "https://allevents.in/columbia/the-host/200031023437330"
    ],
    "categories": [
     "arts",
@@ -2365,8 +2379,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
@@ -2667,8 +2681,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
    ],
    "categories": [
     "music"

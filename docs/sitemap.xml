@@ -30,22 +30,22 @@
   <url><loc>https://comoevent.com/venues/cafe-berlin/</loc></url>
   <url><loc>https://comoevent.com/venues/the-blue-note/</loc></url>
   <url><loc>https://comoevent.com/venues/gunter-hans/</loc></url>
-  <url><loc>https://comoevent.com/venues/serendipity-polish-pottery-gallery/</loc></url>
   <url><loc>https://comoevent.com/venues/champions-drive/</loc></url>
-  <url><loc>https://comoevent.com/venues/arrow-rock-lyceum-theatre/</loc></url>
   <url><loc>https://comoevent.com/venues/missouri-theatre/</loc></url>
+  <url><loc>https://comoevent.com/venues/arrow-rock-lyceum-theatre/</loc></url>
+  <url><loc>https://comoevent.com/venues/serendipity-polish-pottery-gallery/</loc></url>
   <url><loc>https://comoevent.com/venues/southwell-complex/</loc></url>
   <url><loc>https://comoevent.com/venues/rose-music-hall-inside/</loc></url>
-  <url><loc>https://comoevent.com/venues/sinquefield-music-center/</loc></url>
+  <url><loc>https://comoevent.com/venues/on-the-rocks/</loc></url>
   <url><loc>https://comoevent.com/venues/rebecca-peters-wellness/</loc></url>
+  <url><loc>https://comoevent.com/venues/sinquefield-music-center/</loc></url>
   <url><loc>https://comoevent.com/venues/columbia-farmers-market/</loc></url>
   <url><loc>https://comoevent.com/venues/mu-student-center/</loc></url>
-  <url><loc>https://comoevent.com/venues/on-the-rocks/</loc></url>
   <url><loc>https://comoevent.com/venues/top-ten-wines/</loc></url>
   <url><loc>https://comoevent.com/venues/columbia-college/</loc></url>
-  <url><loc>https://comoevent.com/venues/fine-arts-building/</loc></url>
   <url><loc>https://comoevent.com/venues/rock-bridge-high-school-performing-arts-center/</loc></url>
   <url><loc>https://comoevent.com/venues/cafe-berlin-2/</loc></url>
+  <url><loc>https://comoevent.com/venues/fine-arts-building/</loc></url>
   <url><loc>https://comoevent.com/venues/ladybird-cafe/</loc></url>
   <url><loc>https://comoevent.com/venues/teaching-for-learning-center/</loc></url>
   <url><loc>https://comoevent.com/venues/the-district/</loc></url>
@@ -63,7 +63,7 @@
   <url><loc>https://comoevent.com/venues/mizzourec/</loc></url>
   <url><loc>https://comoevent.com/venues/new-heights-church-parking-lot/</loc></url>
   <url><loc>https://comoevent.com/venues/pierpont-general-store/</loc></url>
-  <url><loc>https://comoevent.com/venues/schnucks-parking-lot/</loc></url>
+  <url><loc>https://comoevent.com/venues/rose-music-hall/</loc></url>
   <url><loc>https://comoevent.com/venues/the-kitchen-grill-games/</loc></url>
   <url><loc>https://comoevent.com/venues/the-tokyo-club/</loc></url>
   <url><loc>https://comoevent.com/venues/broadway-christian-church/</loc></url>
@@ -71,21 +71,19 @@
   <url><loc>https://comoevent.com/venues/mu-health-care-pavilion-at-columbias-agriculture-park/</loc></url>
   <url><loc>https://comoevent.com/venues/north-moser-s-foods-parking-lot/</loc></url>
   <url><loc>https://comoevent.com/venues/prenger-foods/</loc></url>
-  <url><loc>https://comoevent.com/venues/rose-music-hall/</loc></url>
+  <url><loc>https://comoevent.com/venues/schnucks-parking-lot/</loc></url>
   <url><loc>https://comoevent.com/venues/scouting-adventure-center/</loc></url>
   <url><loc>https://comoevent.com/venues/security-bank-parking-lot/</loc></url>
   <url><loc>https://comoevent.com/venues/skylark-bookshop/</loc></url>
   <url><loc>https://comoevent.com/venues/strickland-hall-room-324/</loc></url>
-  <url><loc>https://comoevent.com/venues/tate-hall-101/</loc></url>
   <url><loc>https://comoevent.com/venues/the-kitchen-grill-and-games/</loc></url>
   <url><loc>https://comoevent.com/venues/acola-coffee-company/</loc></url>
   <url><loc>https://comoevent.com/venues/arts-and-science-building/</loc></url>
   <url><loc>https://comoevent.com/venues/birdie-s-deli/</loc></url>
   <url><loc>https://comoevent.com/venues/bond-life-sciences-center/</loc></url>
-  <url><loc>https://comoevent.com/venues/curley-eye/</loc></url>
+  <url><loc>https://comoevent.com/venues/city-hall/</loc></url>
   <url><loc>https://comoevent.com/venues/drury-inn-suites-meeting-room1000-knipp-street-columbia-mo-6/</loc></url>
   <url><loc>https://comoevent.com/venues/east-nifong-boulevard/</loc></url>
-  <url><loc>https://comoevent.com/venues/facebook-live/</loc></url>
   <url><loc>https://comoevent.com/venues/info-tables-3-and-4-mu-student-center/</loc></url>
   <url><loc>https://comoevent.com/venues/jesse-auditorium/</loc></url>
   <url><loc>https://comoevent.com/venues/ladybird-trading/</loc></url>
@@ -99,6 +97,7 @@
   <url><loc>https://comoevent.com/venues/restaurant-of-the-week/</loc></url>
   <url><loc>https://comoevent.com/venues/schlundt-hall/</loc></url>
   <url><loc>https://comoevent.com/venues/strickland-hall/</loc></url>
+  <url><loc>https://comoevent.com/venues/tate-hall-101/</loc></url>
   <url><loc>https://comoevent.com/venues/the-bridge/</loc></url>
   <url><loc>https://comoevent.com/venues/the-sidney-larson-gallery/</loc></url>
   <url><loc>https://comoevent.com/venues/wishflour-bakery/</loc></url>
@@ -118,16 +117,17 @@
   <url><loc>https://comoevent.com/venues/cafe-berlin-columbia-mo/</loc></url>
   <url><loc>https://comoevent.com/venues/cafe-of-the-month/</loc></url>
   <url><loc>https://comoevent.com/venues/cafe-of-the-week/</loc></url>
-  <url><loc>https://comoevent.com/venues/city-hall/</loc></url>
   <url><loc>https://comoevent.com/venues/clark-hall/</loc></url>
   <url><loc>https://comoevent.com/venues/clovers-natural-market-on-chapel-hill/</loc></url>
   <url><loc>https://comoevent.com/venues/columbia-ballet-academy/</loc></url>
   <url><loc>https://comoevent.com/venues/columbia-chamber-of-commerce-community-room/</loc></url>
   <url><loc>https://comoevent.com/venues/columbia-entertainment-company/</loc></url>
   <url><loc>https://comoevent.com/venues/columbia-mall/</loc></url>
+  <url><loc>https://comoevent.com/venues/columbia-mall-columbia-missouri/</loc></url>
   <url><loc>https://comoevent.com/venues/como-cooks/</loc></url>
   <url><loc>https://comoevent.com/venues/cornell-hall-015/</loc></url>
   <url><loc>https://comoevent.com/venues/crossway-church/</loc></url>
+  <url><loc>https://comoevent.com/venues/curley-eye/</loc></url>
   <url><loc>https://comoevent.com/venues/cyclex/</loc></url>
   <url><loc>https://comoevent.com/venues/david-h-hickman-high-school-home-of-the-kewpies/</loc></url>
   <url><loc>https://comoevent.com/venues/discovery-pkwy/</loc></url>
@@ -141,7 +141,6 @@
   <url><loc>https://comoevent.com/venues/first-presbyterian-church/</loc></url>
   <url><loc>https://comoevent.com/venues/francis-quadrangle-plaza/</loc></url>
   <url><loc>https://comoevent.com/venues/gqt-forum-8/</loc></url>
-  <url><loc>https://comoevent.com/venues/green-meadows-hair-co-spa/</loc></url>
   <url><loc>https://comoevent.com/venues/gustin-golf-course/</loc></url>
   <url><loc>https://comoevent.com/venues/harpo-s-bar-grill/</loc></url>
   <url><loc>https://comoevent.com/venues/heart-body-soul/</loc></url>
@@ -213,6 +212,7 @@
   <url><loc>https://comoevent.com/venues/university-of-missouri/</loc></url>
   <url><loc>https://comoevent.com/venues/warehouse-theatre/</loc></url>
   <url><loc>https://comoevent.com/venues/we-always-swing-jazz-series/</loc></url>
+  <url><loc>https://comoevent.com/venues/west-gillespie-bridge-road/</loc></url>
   <url><loc>https://comoevent.com/venues/wilder-coffeehouse/</loc></url>
   <url><loc>https://comoevent.com/venues/</loc></url>
   <url><loc>https://comoevent.com/thanksgiving/</loc></url>
@@ -224,16 +224,13 @@
   <url><loc>https://comoevent.com/weekend-guide/2026-11-13/</loc></url>
   <url><loc>https://comoevent.com/weekend-guide/2026-11-20/</loc></url>
   <url><loc>https://comoevent.com/e/steak-night-w-jackson-scheiter-841ac8/</loc></url>
-  <url><loc>https://comoevent.com/e/break-dance-beginner-18f36f/</loc></url>
-  <url><loc>https://comoevent.com/e/break-dance-intermediate-72abfe/</loc></url>
   <url><loc>https://comoevent.com/e/karaoke-night-c64817/</loc></url>
-  <url><loc>https://comoevent.com/e/break-dance-advanced-696ae0/</loc></url>
   <url><loc>https://comoevent.com/e/global-entrepreneurship-week-central-missouri-friday-activit-401c98/</loc></url>
   <url><loc>https://comoevent.com/e/black-gold-friday-047ac0/</loc></url>
   <url><loc>https://comoevent.com/e/green-friday-d45086/</loc></url>
   <url><loc>https://comoevent.com/e/anas-tacos-01e198/</loc></url>
   <url><loc>https://comoevent.com/e/one-year-ribbon-cutting-celebration-163121/</loc></url>
-  <url><loc>https://comoevent.com/e/candlelight-tribute-to-abba-more-b0b430/</loc></url>
+  <url><loc>https://comoevent.com/e/candlelight-tribute-to-abba-more-e83cd6/</loc></url>
   <url><loc>https://comoevent.com/e/friendsgiving-event-for-women-veterans-9bed4a/</loc></url>
   <url><loc>https://comoevent.com/e/bookmobile-stop-at-battle-crossing-49ace6/</loc></url>
   <url><loc>https://comoevent.com/e/candlelight-tribute-to-fleetwood-mac-020e2e/</loc></url>
@@ -241,17 +238,14 @@
   <url><loc>https://comoevent.com/e/memorial-student-union-tower-centennial-celebration-f94a30/</loc></url>
   <url><loc>https://comoevent.com/e/ribbon-cutting-toy-drive-5c592b/</loc></url>
   <url><loc>https://comoevent.com/e/justin-hickerson-87fa18/</loc></url>
-  <url><loc>https://comoevent.com/e/once-upon-a-time-in-harlem-147772/</loc></url>
   <url><loc>https://comoevent.com/e/jordan-and-jim-heckemeyer-2d1d2c/</loc></url>
   <url><loc>https://comoevent.com/e/trail-boss-bbq-00e2ad/</loc></url>
-  <url><loc>https://comoevent.com/e/5th-annual-merry-moments-w-santa-mrs-clause-0b3265/</loc></url>
+  <url><loc>https://comoevent.com/e/5th-annual-merry-moments-with-santa-mrs-claus-0b3265/</loc></url>
   <url><loc>https://comoevent.com/e/photos-with-santa-c617f0/</loc></url>
   <url><loc>https://comoevent.com/e/robert-watson-88e241/</loc></url>
   <url><loc>https://comoevent.com/e/whodunnit-weekly-game-night-d34643/</loc></url>
   <url><loc>https://comoevent.com/e/zumba-remi-35926f/</loc></url>
-  <url><loc>https://comoevent.com/e/being-heumann-26205c/</loc></url>
   <url><loc>https://comoevent.com/e/craft-club-at-ladybird-cafe-d6be9b/</loc></url>
-  <url><loc>https://comoevent.com/e/craft-night-every-friday-091259/</loc></url>
   <url><loc>https://comoevent.com/e/dive-more-stay-longer-ssi-enriched-air-nitrox-course-9c5345/</loc></url>
   <url><loc>https://comoevent.com/e/friday-night-commander-at-hexagon-alley-e708b8/</loc></url>
   <url><loc>https://comoevent.com/e/mtg-friday-night-draft-800dec/</loc></url>
@@ -261,11 +255,8 @@
   <url><loc>https://comoevent.com/e/lakshmi-sahasranama-and-kumkuma-archana-39511a/</loc></url>
   <url><loc>https://comoevent.com/e/wild-horse-nine-e3fe75/</loc></url>
   <url><loc>https://comoevent.com/e/after-hours-open-mic-night-57a71f/</loc></url>
-  <url><loc>https://comoevent.com/e/como-cabaret-72047c/</loc></url>
   <url><loc>https://comoevent.com/e/columbia-social-club-monthly-foodies-new-friends-793bbd/</loc></url>
   <url><loc>https://comoevent.com/e/fallout-launch-party-39beff/</loc></url>
-  <url><loc>https://comoevent.com/e/hanyu-zhang-piano-recital-885033/</loc></url>
-  <url><loc>https://comoevent.com/e/lex-henderson-junior-percussion-recital-b20739/</loc></url>
   <url><loc>https://comoevent.com/e/mmtd-contra-dance-77c7e7/</loc></url>
   <url><loc>https://comoevent.com/e/mens-basketball-missouri-vs-le-moyne-e5f8d3/</loc></url>
   <url><loc>https://comoevent.com/e/pop-reimagined-0e2dd7/</loc></url>
@@ -308,6 +299,7 @@
   <url><loc>https://comoevent.com/e/star-wars-unlimited-weekly-play-premiere-format-47c969/</loc></url>
   <url><loc>https://comoevent.com/e/weird-kids-weekend-club-7a696f/</loc></url>
   <url><loc>https://comoevent.com/e/columbia-college-women-s-basketball-vs-freed-hardeman-univer-222837/</loc></url>
+  <url><loc>https://comoevent.com/e/kentucky-vs-mizzou-tailgate-d20c56/</loc></url>
   <url><loc>https://comoevent.com/e/kinusaiga-ac9e52/</loc></url>
   <url><loc>https://comoevent.com/e/kinusaiga-fabric-mosaic-d2d31e/</loc></url>
   <url><loc>https://comoevent.com/e/rayce-kendrick-6ab560/</loc></url>
@@ -399,8 +391,8 @@
   <url><loc>https://comoevent.com/e/thanksgiving-centerpiece-workshop-7cc508/</loc></url>
   <url><loc>https://comoevent.com/e/the-host-93c67a/</loc></url>
   <url><loc>https://comoevent.com/e/gundam-organized-play-2b085d/</loc></url>
-  <url><loc>https://comoevent.com/e/league-nights-at-midway-golf-games-0393bd/</loc></url>
-  <url><loc>https://comoevent.com/e/one-piece-open-weekly-play-at-hexagon-alley-6dfde1/</loc></url>
+  <url><loc>https://comoevent.com/e/league-nights-at-midway-golf-games-acfd3d/</loc></url>
+  <url><loc>https://comoevent.com/e/one-piece-open-weekly-play-at-hexagon-alley-f2a3fe/</loc></url>
   <url><loc>https://comoevent.com/e/you-can-see-everything-a2987f/</loc></url>
   <url><loc>https://comoevent.com/e/wild-horse-nine-69391c/</loc></url>
   <url><loc>https://comoevent.com/e/american-red-cross-blood-drive-c36a2d/</loc></url>
@@ -426,7 +418,7 @@
   <url><loc>https://comoevent.com/e/silent-book-club-b0b5b3/</loc></url>
   <url><loc>https://comoevent.com/e/tap-beginner-ii-9b4aed/</loc></url>
   <url><loc>https://comoevent.com/e/trivia-night-with-lets-get-trivial-070d6c/</loc></url>
-  <url><loc>https://comoevent.com/e/trivia-with-tommy-2ab041/</loc></url>
+  <url><loc>https://comoevent.com/e/trivia-with-tommy-south-side-pizza-and-pub-2ab041/</loc></url>
   <url><loc>https://comoevent.com/e/bingo-night-000685/</loc></url>
   <url><loc>https://comoevent.com/e/hexagon-alley-presents-yu-gi-oh-weekly-play-3bac0c/</loc></url>
   <url><loc>https://comoevent.com/e/ygo-advanced-constructed-eb9fbe/</loc></url>
@@ -472,7 +464,7 @@
   <url><loc>https://comoevent.com/e/club-kid-936995/</loc></url>
   <url><loc>https://comoevent.com/e/dive-bar-annual-thanksgiving-lunch-dinner-7ab74a/</loc></url>
   <url><loc>https://comoevent.com/e/rho-engine-room-free-thanksgiving-5k-events-9e3f7b/</loc></url>
-  <url><loc>https://comoevent.com/e/thanksgiving-turkey-fry-2026-a3cca5/</loc></url>
+  <url><loc>https://comoevent.com/e/thanksgiving-turkey-fry-2026-cb922f/</loc></url>
   <url><loc>https://comoevent.com/e/fleet-feet-columbia-turkey-trax-5k-55576d/</loc></url>
   <url><loc>https://comoevent.com/e/thanksgiving-day-service-at-grace-4eddf9/</loc></url>
   <url><loc>https://comoevent.com/e/trulaske-innovation-in-teaching-collaboration-hour-e28c71/</loc></url>
@@ -488,7 +480,6 @@
   <url><loc>https://comoevent.com/e/club-kid-9bd612/</loc></url>
   <url><loc>https://comoevent.com/e/coffee-with-christians-columbia-mo-e0d9f6/</loc></url>
   <url><loc>https://comoevent.com/e/crisis-protocol-open-play-d95d31/</loc></url>
-  <url><loc>https://comoevent.com/e/riftbound-nexus-night-organized-play-178016/</loc></url>
   <url><loc>https://comoevent.com/e/trivia-night-thursdays-at-6-30pm-ce113a/</loc></url>
   <url><loc>https://comoevent.com/e/trivia-night-at-gunter-hans-cfe8b4/</loc></url>
   <url><loc>https://comoevent.com/e/break-dance-intermediate-074eee/</loc></url>
@@ -539,6 +530,7 @@
   <url><loc>https://comoevent.com/e/small-business-saturday-2026-c172bd/</loc></url>
   <url><loc>https://comoevent.com/e/commander-for-a-cause-ii-ca5437/</loc></url>
   <url><loc>https://comoevent.com/e/friends-of-the-columbia-public-library-lobby-book-sale-1d702d/</loc></url>
+  <url><loc>https://comoevent.com/e/one-thousandth-day-689d20/</loc></url>
   <url><loc>https://comoevent.com/e/star-wars-unlimited-weekly-play-premiere-format-ac0390/</loc></url>
   <url><loc>https://comoevent.com/e/weird-kids-weekend-club-f5b0f4/</loc></url>
   <url><loc>https://comoevent.com/e/mu-vs-oklahoma-tailgate-all-you-can-eat-buffet-drink-special-dbd6bd/</loc></url>
@@ -592,8 +584,7 @@
   <url><loc>https://comoevent.com/e/majh-mondays-open-play-32a15e/</loc></url>
   <url><loc>https://comoevent.com/e/paint-night-ecc450/</loc></url>
   <url><loc>https://comoevent.com/e/ride-with-the-devil-d21490/</loc></url>
-  <url><loc>https://comoevent.com/e/gundam-organized-play-04429c/</loc></url>
-  <url><loc>https://comoevent.com/e/one-piece-open-weekly-play-at-hexagon-alley-66b4b5/</loc></url>
+  <url><loc>https://comoevent.com/e/one-piece-open-weekly-play-at-hexagon-alley-3b1310/</loc></url>
   <url><loc>https://comoevent.com/e/chess-club-weekly-meeting-cf009f/</loc></url>
   <url><loc>https://comoevent.com/e/foodies-new-friends-columbia-giving-back-edition-92c825/</loc></url>
   <url><loc>https://comoevent.com/e/aces-aros-meeting-734e58/</loc></url>
@@ -625,6 +616,7 @@
   <url><loc>https://comoevent.com/e/riftbound-sealed-league-5b0a80/</loc></url>
   <url><loc>https://comoevent.com/e/tap-beginner-ii-7b353c/</loc></url>
   <url><loc>https://comoevent.com/e/trivia-night-with-lets-get-trivial-a189ea/</loc></url>
+  <url><loc>https://comoevent.com/e/trivia-with-tommy-south-side-pizza-and-pub-153dc0/</loc></url>
   <url><loc>https://comoevent.com/e/ygo-advanced-constructed-efdbf9/</loc></url>
   <url><loc>https://comoevent.com/e/chi-alpha-worship-service-c76d56/</loc></url>
   <url><loc>https://comoevent.com/e/on-the-rocks-industry-night-cbad42/</loc></url>
@@ -766,6 +758,7 @@
   <url><loc>https://comoevent.com/e/saturday-market-winter-834e2f/</loc></url>
   <url><loc>https://comoevent.com/e/the-nutcracker-tea-party-d7b78c/</loc></url>
   <url><loc>https://comoevent.com/e/wheelchair-basketball-tournament-game-3-mizzou-vs-edinboro-eb0d9a/</loc></url>
+  <url><loc>https://comoevent.com/e/4th-annual-holiday-market-8e9289/</loc></url>
   <url><loc>https://comoevent.com/e/because-chat-said-so-knowledge-freedom-and-citizenship-in-th-38e129/</loc></url>
   <url><loc>https://comoevent.com/e/gentle-yoga-with-rebecca-peters-wellness-34df48/</loc></url>
   <url><loc>https://comoevent.com/e/health-insurance-marketplace-medicaid-78007e/</loc></url>
@@ -802,6 +795,7 @@
   <url><loc>https://comoevent.com/e/saturday-night-comedy-at-the-tokyo-club-7412d0/</loc></url>
   <url><loc>https://comoevent.com/e/karaoke-at-eastside-tavern-b95db9/</loc></url>
   <url><loc>https://comoevent.com/e/pryor-junction-38ceb5/</loc></url>
+  <url><loc>https://comoevent.com/e/latin-night-como-40a607/</loc></url>
   <url><loc>https://comoevent.com/e/perreo-university-2fa53e/</loc></url>
   <url><loc>https://comoevent.com/e/saturday-night-comedy-at-the-tokyo-club-cc4fd3/</loc></url>
   <url><loc>https://comoevent.com/e/yoga-at-partner-for-better-59e132/</loc></url>
@@ -850,8 +844,7 @@
   <url><loc>https://comoevent.com/e/majh-mondays-open-play-b474eb/</loc></url>
   <url><loc>https://comoevent.com/e/paint-night-109bbf/</loc></url>
   <url><loc>https://comoevent.com/e/resources-for-health-and-medicine-e5ff03/</loc></url>
-  <url><loc>https://comoevent.com/e/gundam-organized-play-bb5102/</loc></url>
-  <url><loc>https://comoevent.com/e/one-piece-open-weekly-play-at-hexagon-alley-ebe223/</loc></url>
+  <url><loc>https://comoevent.com/e/one-piece-open-weekly-play-at-hexagon-alley-c81e60/</loc></url>
   <url><loc>https://comoevent.com/e/shiva-abhishekam-a53645/</loc></url>
   <url><loc>https://comoevent.com/e/mmco-recital-329dd1/</loc></url>
   <url><loc>https://comoevent.com/e/aces-aros-meeting-f2e561/</loc></url>
@@ -968,6 +961,7 @@
   <url><loc>https://comoevent.com/e/family-fun-night-edcab2/</loc></url>
   <url><loc>https://comoevent.com/e/jim-quisenberry-74aa91/</loc></url>
   <url><loc>https://comoevent.com/e/whodunnit-blood-on-the-clocktower-night-170c98/</loc></url>
+  <url><loc>https://comoevent.com/e/ben-wolf-lead-writer-for-the-dungeon-crawler-carl-rpg-bd90c3/</loc></url>
   <url><loc>https://comoevent.com/e/craft-club-at-ladybird-cafe-3011ba/</loc></url>
   <url><loc>https://comoevent.com/e/craft-night-every-friday-57cc96/</loc></url>
   <url><loc>https://comoevent.com/e/friday-night-commander-at-hexagon-alley-8fd13b/</loc></url>
@@ -993,6 +987,7 @@
   <url><loc>https://comoevent.com/e/submission-challenge-columbia-mo-0f82dc/</loc></url>
   <url><loc>https://comoevent.com/e/winter-wonderland-at-the-scouting-adventure-center-7e35a9/</loc></url>
   <url><loc>https://comoevent.com/e/health-insurance-marketplace-medicaid-b003c8/</loc></url>
+  <url><loc>https://comoevent.com/e/columbia-comic-toy-pokemon-show-free-event-columbia-mall-dec-5313d6/</loc></url>
   <url><loc>https://comoevent.com/e/free-family-event-holidays-through-time-6dda1b/</loc></url>
   <url><loc>https://comoevent.com/e/gentle-yoga-with-rebecca-peters-wellness-12766b/</loc></url>
   <url><loc>https://comoevent.com/e/health-insurance-marketplace-medicaid-42c652/</loc></url>
@@ -1075,8 +1070,7 @@
   <url><loc>https://comoevent.com/e/majh-mondays-open-play-9c409e/</loc></url>
   <url><loc>https://comoevent.com/e/monthly-art-club-6674a8/</loc></url>
   <url><loc>https://comoevent.com/e/paint-night-ef6c2b/</loc></url>
-  <url><loc>https://comoevent.com/e/gundam-organized-play-1812a1/</loc></url>
-  <url><loc>https://comoevent.com/e/one-piece-open-weekly-play-at-hexagon-alley-5ca2e7/</loc></url>
+  <url><loc>https://comoevent.com/e/one-piece-open-weekly-play-at-hexagon-alley-0a8afa/</loc></url>
   <url><loc>https://comoevent.com/e/winter-choir-concert-rock-bridge-high-school-5fd6a7/</loc></url>
   <url><loc>https://comoevent.com/e/aces-aros-meeting-fa5b23/</loc></url>
   <url><loc>https://comoevent.com/e/orchestra-concert-hickman-high-school-b26286/</loc></url>
@@ -1096,6 +1090,7 @@
   <url><loc>https://comoevent.com/e/silent-book-club-b13036/</loc></url>
   <url><loc>https://comoevent.com/e/tap-beginner-ii-f30a9e/</loc></url>
   <url><loc>https://comoevent.com/e/trivia-night-with-lets-get-trivial-870e45/</loc></url>
+  <url><loc>https://comoevent.com/e/trivia-with-tommy-south-side-pizza-and-pub-f5a9d8/</loc></url>
   <url><loc>https://comoevent.com/e/ygo-advanced-constructed-f77697/</loc></url>
   <url><loc>https://comoevent.com/e/born-of-osiris-miss-may-i-fcba19/</loc></url>
   <url><loc>https://comoevent.com/e/on-the-rocks-industry-night-4263d3/</loc></url>
@@ -1218,7 +1213,7 @@
   <url><loc>https://comoevent.com/e/hexagon-alley-lorcana-weekly-play-650858/</loc></url>
   <url><loc>https://comoevent.com/e/mizzou-wrestling-vs-little-rock-ben-askren-wig-giveaway-ee55b2/</loc></url>
   <url><loc>https://comoevent.com/e/a-christmas-carol-2026-fceebb/</loc></url>
-  <url><loc>https://comoevent.com/e/taylorville-7ca436/</loc></url>
+  <url><loc>https://comoevent.com/e/taylorville-c661c5/</loc></url>
   <url><loc>https://comoevent.com/e/sunday-bingo-d69e76/</loc></url>
   <url><loc>https://comoevent.com/e/collage-without-a-cause-6a9435/</loc></url>
   <url><loc>https://comoevent.com/e/womens-basketball-missouri-vs-austin-peay-28cfa5/</loc></url>
@@ -1231,8 +1226,7 @@
   <url><loc>https://comoevent.com/e/mtg-casual-commander-df00bd/</loc></url>
   <url><loc>https://comoevent.com/e/majh-mondays-open-play-8fb475/</loc></url>
   <url><loc>https://comoevent.com/e/paint-night-8b7ad9/</loc></url>
-  <url><loc>https://comoevent.com/e/gundam-organized-play-679be6/</loc></url>
-  <url><loc>https://comoevent.com/e/one-piece-open-weekly-play-at-hexagon-alley-23b6ba/</loc></url>
+  <url><loc>https://comoevent.com/e/one-piece-open-weekly-play-at-hexagon-alley-4eec9b/</loc></url>
   <url><loc>https://comoevent.com/e/family-game-day-07e7c6/</loc></url>
   <url><loc>https://comoevent.com/e/bookmobile-stop-at-hallsville-e3902d/</loc></url>
   <url><loc>https://comoevent.com/e/device-advice-and-tech-help-drop-in-4bfcf5/</loc></url>
@@ -1245,6 +1239,7 @@
   <url><loc>https://comoevent.com/e/riftbound-sealed-league-efeabe/</loc></url>
   <url><loc>https://comoevent.com/e/tap-beginner-ii-6d5405/</loc></url>
   <url><loc>https://comoevent.com/e/trivia-night-with-lets-get-trivial-c32ad2/</loc></url>
+  <url><loc>https://comoevent.com/e/trivia-with-tommy-south-side-pizza-and-pub-73043a/</loc></url>
   <url><loc>https://comoevent.com/e/ygo-advanced-constructed-3aa95d/</loc></url>
   <url><loc>https://comoevent.com/e/mens-basketball-missouri-vs-chicago-state-d93ebb/</loc></url>
   <url><loc>https://comoevent.com/e/on-the-rocks-industry-night-e204d5/</loc></url>
@@ -1301,7 +1296,7 @@
   <url><loc>https://comoevent.com/e/bhagwad-gita-class-eedc32/</loc></url>
   <url><loc>https://comoevent.com/e/crafternoon-saturdays-b5fda5/</loc></url>
   <url><loc>https://comoevent.com/e/sita-rama-pooja-bhajan-81e6ac/</loc></url>
-  <url><loc>https://comoevent.com/e/saturday-night-comedy-at-the-tokyo-club-017bd3/</loc></url>
+  <url><loc>https://comoevent.com/e/saturday-night-comedy-at-the-tokyo-club-77bfc7/</loc></url>
   <url><loc>https://comoevent.com/e/jack-s-bf0a7a/</loc></url>
   <url><loc>https://comoevent.com/e/karaoke-at-eastside-tavern-bea9fe/</loc></url>
   <url><loc>https://comoevent.com/e/hardcore-comedy-at-the-tokyo-club-c12c60/</loc></url>
@@ -1325,8 +1320,7 @@
   <url><loc>https://comoevent.com/e/majh-mondays-open-play-748292/</loc></url>
   <url><loc>https://comoevent.com/e/paint-night-245123/</loc></url>
   <url><loc>https://comoevent.com/e/columbia-college-women-s-basketball-at-university-of-missour-21197e/</loc></url>
-  <url><loc>https://comoevent.com/e/gundam-organized-play-4257c2/</loc></url>
-  <url><loc>https://comoevent.com/e/one-piece-open-weekly-play-at-hexagon-alley-688dba/</loc></url>
+  <url><loc>https://comoevent.com/e/one-piece-open-weekly-play-at-hexagon-alley-ce88c2/</loc></url>
   <url><loc>https://comoevent.com/e/weird-kids-school-s-out-club-c89038/</loc></url>
   <url><loc>https://comoevent.com/e/family-game-day-88828b/</loc></url>
   <url><loc>https://comoevent.com/e/device-advice-and-tech-help-drop-in-940822/</loc></url>
@@ -1420,7 +1414,7 @@
   <url><loc>https://comoevent.com/e/mtg-casual-commander-dd6652/</loc></url>
   <url><loc>https://comoevent.com/e/majh-mondays-open-play-6730a6/</loc></url>
   <url><loc>https://comoevent.com/e/paint-night-e971ea/</loc></url>
-  <url><loc>https://comoevent.com/e/gundam-organized-play-1e8ca3/</loc></url>
+  <url><loc>https://comoevent.com/e/one-piece-tcg-organized-play-5758f1/</loc></url>
   <url><loc>https://comoevent.com/e/shiva-abhishekam-09813a/</loc></url>
   <url><loc>https://comoevent.com/e/bookmobile-stop-at-sturgeon-664623/</loc></url>
   <url><loc>https://comoevent.com/e/smash-dash-fd26f6/</loc></url>
@@ -1431,6 +1425,7 @@
   <url><loc>https://comoevent.com/e/riftbound-sealed-league-51bd8f/</loc></url>
   <url><loc>https://comoevent.com/e/tap-beginner-ii-0b009c/</loc></url>
   <url><loc>https://comoevent.com/e/trivia-night-with-lets-get-trivial-f29496/</loc></url>
+  <url><loc>https://comoevent.com/e/trivia-with-tommy-south-side-pizza-and-pub-0aab5e/</loc></url>
   <url><loc>https://comoevent.com/e/ygo-advanced-constructed-976590/</loc></url>
   <url><loc>https://comoevent.com/e/on-the-rocks-industry-night-efcdba/</loc></url>
   <url><loc>https://comoevent.com/e/tap-beginner-i-8fd2cf/</loc></url>
@@ -1504,7 +1499,7 @@
   <url><loc>https://comoevent.com/e/mtg-casual-commander-b8cd1a/</loc></url>
   <url><loc>https://comoevent.com/e/majh-mondays-open-play-6b8ad3/</loc></url>
   <url><loc>https://comoevent.com/e/paint-night-b5af07/</loc></url>
-  <url><loc>https://comoevent.com/e/gundam-organized-play-878551/</loc></url>
+  <url><loc>https://comoevent.com/e/one-piece-tcg-organized-play-7e8168/</loc></url>
   <url><loc>https://comoevent.com/e/nourish-bc0a9e/</loc></url>
   <url><loc>https://comoevent.com/e/bookmobile-stop-at-hallsville-4c0fda/</loc></url>
   <url><loc>https://comoevent.com/e/smash-dash-201790/</loc></url>
@@ -1585,9 +1580,16 @@
   <url><loc>https://comoevent.com/e/mtg-casual-commander-a2b51e/</loc></url>
   <url><loc>https://comoevent.com/e/majh-mondays-open-play-fe8f6e/</loc></url>
   <url><loc>https://comoevent.com/e/paint-night-2f3a4d/</loc></url>
-  <url><loc>https://comoevent.com/e/gundam-organized-play-7500ba/</loc></url>
+  <url><loc>https://comoevent.com/e/one-piece-tcg-organized-play-3141e2/</loc></url>
   <url><loc>https://comoevent.com/e/smash-dash-6c1a00/</loc></url>
+  <url><loc>https://comoevent.com/e/mtg-commander-night-7a3353/</loc></url>
   <url><loc>https://comoevent.com/e/yoga-at-partner-for-better-345efc/</loc></url>
+  <url><loc>https://comoevent.com/e/board-game-night-50a225/</loc></url>
   <url><loc>https://comoevent.com/e/riftbound-sealed-league-59ccb3/</loc></url>
   <url><loc>https://comoevent.com/e/trivia-night-with-lets-get-trivial-1841df/</loc></url>
+  <url><loc>https://comoevent.com/e/trivia-with-tommy-south-side-pizza-and-pub-ee22a2/</loc></url>
+  <url><loc>https://comoevent.com/e/ygo-advanced-constructed-492b8e/</loc></url>
+  <url><loc>https://comoevent.com/e/on-the-rocks-industry-night-c47c3f/</loc></url>
+  <url><loc>https://comoevent.com/e/alarm-will-sound-concert-457c9c/</loc></url>
+  <url><loc>https://comoevent.com/e/the-as-yet-unnamed-comedy-show-at-eastside-tavern-348589/</loc></url>
 </urlset>
