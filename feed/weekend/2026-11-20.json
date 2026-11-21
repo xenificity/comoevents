@@ -1289,7 +1289,6 @@
    "description": "Enjoy a breakfast of pancakes, sausage, scrambled eggs, biscuits and gravy, with orange juice, milk, coffee and water. The meal is $13. It’s also an opportunity to learn about the VFW’s work for Veterans and their families in the community.",
    "end": "2026-11-21T11:00:00-06:00",
    "id": "8d714f279a96d767",
-   "imageUrl": "https://comoevent.com/img/gen/7f9766f5925e32.webp",
    "source": "baselocal",
    "start": "2026-11-21T08:00:00-06:00",
    "title": "Pancake Breakfast",
@@ -1309,9 +1308,27 @@
    "venue": "Love Coffee \"where love works\""
   },
   {
+   "_slug": "columbia-farmers-market-winter-season-b317c0",
+   "alsoOn": [
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
+   ],
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "description": "Experience the taste of mid-Missouri year-round at Columbia Farmers Market! Visit us during the Winter Season: every Saturday from 9 a.m.- noon (November-March) in the heated MU Health Care Pavilion at Columbia’s Agriculture Park. You will find fresh produce, meat, farm fresh eggs, cheese, honey, ar",
+   "end": "2026-11-21T12:00:00-06:00",
+   "id": "b317c05abbba97c4",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
+   "price": "Free",
+   "source": "visitcolumbia",
+   "start": "2026-11-21T09:00:00-06:00",
+   "title": "Columbia Farmers Market – Winter Season",
+   "venue": "Winter Season"
+  },
+  {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
     "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
    ],
    "categories": [
@@ -1320,7 +1337,6 @@
    ],
    "category": "nightlife",
    "description": "Enjoy a seasonal family experience with a Black Santa, featuring free play, a hot cocoa bar, sugar cookie decorating, a personal meet-and-greet with Santa, and a baking-themed photo opportunity with Santa and Mrs. Claus. The fee is $40 per family, and space is limited.",
-   "end": "2026-11-21T09:00:00-06:00",
    "id": "117006bbf7e7b44f",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvZjY2NWY4NjA3ZDc5MzQwZTRiNjliODViM2ExYTc3ODA0ZDM1ZjljMDNlZGY3ZGYxNTQyZjIyMTE5NTQyMGQ0OC1yaW1nLXcxMDgwLWgxMzUwLWRjZjhmOGY4LWdtaXI_dj0xNzkzNzIyMDA1.avif",
    "source": "baselocal",
@@ -1342,26 +1358,6 @@
    "venue": "Southridge Dr, Columbia, MO 65202, United States"
   },
   {
-   "_slug": "saturday-market-winter-b317c0",
-   "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/",
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
-   ],
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "Experience the taste of mid-Missouri year-round at Columbia Farmers Market! Visit us during the Winter Season: every Saturday from 9 a.m.- noon (November-March) in the heated MU Health Care Pavilion at Columbia’s Agriculture Park. You will find fresh produce, meat, farm fresh eggs, cheese, honey, ar",
-   "end": "2026-11-21T12:00:00-06:00",
-   "id": "b317c05abbba97c4",
-   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/05/FarmersMarket2.jpeg",
-   "price": "Free",
-   "source": "farmersmarket",
-   "start": "2026-11-21T09:00:00-06:00",
-   "title": "Saturday Market (Winter)",
-   "venue": "Columbia Farmers Market"
-  },
-  {
    "_slug": "vintage-holiday-pop-up-e76e6a",
    "categories": [
     "community"
@@ -1370,7 +1366,6 @@
    "description": "Browse vintage costume and fine jewelry, accessories, and holiday ornaments made from vintage charms and components. Custom charm necklaces and bracelets are also available to order ahead for pickup.",
    "end": "2026-11-21T12:00:00-06:00",
    "id": "e76e6a922fe8527b",
-   "imageUrl": "https://comoevent.com/img/gen/2e2398b9f5beef.webp",
    "source": "baselocal",
    "start": "2026-11-21T09:00:00-06:00",
    "title": "Vintage Holiday Pop-Up",
@@ -1434,7 +1429,6 @@
    "description": "The Boone County Early Childhood Coalition offers a quick, free screening to assess your child's well-being and social-emotional health. For Boone County families with ages 2 mos. to 5 yrs.",
    "end": "2026-11-21T12:00:00-06:00",
    "id": "a7887cdb7b8097fb",
-   "imageUrl": "https://comoevent.com/img/gen/5b71bcc2ba92e1.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-11-21T10:00:00-06:00",
@@ -1464,7 +1458,6 @@
    "description": "Enjoy a free, informal weekly gathering centered on a different discussion topic each week. Bring a coffee, tea, or smoothie and connect with neighbors and new friends in a relaxed, welcoming space. November’s topics include gratitude, transformation and shedding identities, holiday traditions, and…",
    "end": "2026-11-21T12:00:00-06:00",
    "id": "9836663405106e3c",
-   "imageUrl": "https://comoevent.com/img/gen/a1450924a8c96f.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-21T11:00:00-06:00",
@@ -1806,7 +1799,6 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
     "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
    ],
    "categories": [
@@ -2123,8 +2115,8 @@
   {
    "_slug": "hayden-coffman-dcdb72",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/",
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000"
+    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
+    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
    ],
    "categories": [
     "music"
@@ -2159,8 +2151,8 @@
    "_slug": "the-host-ff1098",
    "alsoOn": [
     "https://allevents.in/columbia/the-host/200031023437330",
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
-    "https://baselocal.com/mo/columbia/events/#the-host"
+    "https://baselocal.com/mo/columbia/events/#the-host",
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000"
    ],
    "categories": [
     "arts",
@@ -2408,8 +2400,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
@@ -2492,9 +2484,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
    ],
    "categories": [
     "family",
