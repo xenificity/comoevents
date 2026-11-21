@@ -555,6 +555,21 @@
    "venue": "Orr Street Studios"
   },
   {
+   "_slug": "5th-annual-merry-moments-with-santa-mrs-claus-4570bf",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "Enjoy a free evening of festive family activities with Junior Achievement in Central Missouri. Families can take photos with Santa and Mrs. Claus, enjoy cookies and cocoa, write or bring letters to Santa, and pick up educational resources. No registration is required.",
+   "end": "2026-11-20T20:00:00-06:00",
+   "id": "4570bf4cab183103",
+   "price": "Free",
+   "source": "baselocal",
+   "start": "2026-11-20T17:00:00-06:00",
+   "title": "5th Annual Merry Moments with Santa & Mrs. Claus",
+   "venue": "Orr Street Studios"
+  },
+  {
    "_slug": "photos-with-santa-c617f0",
    "categories": [
     "family"
@@ -864,19 +879,16 @@
   },
   {
    "_slug": "after-hours-open-mic-night-57a71f",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#after-hours-open-mic-night"
-   ],
    "categories": [
     "music",
     "arts"
    ],
    "category": "music",
-   "description": "Join us for an evening of artistic expression at this after-hours event, whether you have something to share or just prefer to listen. Refreshments provided. Doors open at 6:45 p.m. Please arrive by 7:15 p.m. All music-makers and poets welcome, high school age to adults. To perform, please register.",
+   "description": "An after-hours evening of artistic expression welcomes music-makers and poets from high school age through adulthood, as well as anyone who would like to listen. Performers can share music or poetry in an eight-minute slot, with microphones, a music stand, an amplifier for guitarists, and an AUX co…",
    "end": "2026-11-20T21:00:00-06:00",
    "id": "57a71f09c56fb1c5",
    "price": "Free",
-   "source": "dbrl",
+   "source": "baselocal",
    "start": "2026-11-20T19:00:00-06:00",
    "title": "After Hours Open Mic Night",
    "venue": "Columbia Public Library"
@@ -1041,7 +1053,6 @@
    "description": "Songwriter Jack Grelle draws on years of travel and encounters across the country, blending traditional country, folk, and rock ’n’ roll. His music ranges from honky-tonk to more rock-oriented sounds, with songs that reflect on contemporary life, personal change, and the people around him. Cole Bri…",
    "end": "2026-11-20T23:00:00-06:00",
    "id": "430d57ac859eafe4",
-   "imageUrl": "https://comoevent.com/img/gen/c2c678eb795f78.webp",
    "source": "baselocal",
    "start": "2026-11-20T19:30:00-06:00",
    "title": "Jack Grelle",
@@ -1049,9 +1060,6 @@
   },
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-int-l-touring-joe-deu-1b446d",
-   "alsoOn": [
-    "https://thearcadedistrict.org/"
-   ],
    "categories": [
     "arts"
    ],
@@ -1074,7 +1082,6 @@
    "category": "music",
    "end": "2026-11-20T23:00:00-06:00",
    "id": "f0d2fb37052a3d9c",
-   "imageUrl": "https://comoevent.com/img/gen/2ae8f12f8085b1.webp",
    "source": "divebar",
    "start": "2026-11-20T20:00:00-06:00",
    "title": "Blake Gardner & The Farmers",
@@ -1091,7 +1098,6 @@
    "description": "Ease into the weekend with an evening of crafts, music, and time to unwind. Craft supplies will be available, and a DJ will provide a changing soundtrack that may range from indie and disco to house and synthpop. Dance, make something, enjoy a drink, shop, or simply hang out. Stay for a short visit…",
    "end": "2026-11-20T23:00:00-06:00",
    "id": "2b3596efcad32e23",
-   "imageUrl": "https://comoevent.com/img/gen/2366f2f412bbaa.webp",
    "source": "baselocal",
    "start": "2026-11-20T20:00:00-06:00",
    "title": "Craft Club",
@@ -1115,7 +1121,6 @@
   {
    "_slug": "the-spooklights-dd974c",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/the-spooklights/event_77c386e6-88b2-40b3-a2a4-36e4c130517c.html",
     "https://baselocal.com/mo/columbia/events/#the-spooklights"
    ],
    "categories": [
@@ -1125,7 +1130,6 @@
    "description": "with Long Gone Gabe",
    "id": "dd974cc397ae9f26",
    "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/TSL-RMH-Web.jpg",
-   "price": "$10 in advance; $12 day of",
    "source": "bluenote",
    "start": "2026-11-20T20:00:00-06:00",
    "ticketUrl": "https://www.ticketmaster.com/the-spooklights-ben-miller-pat-kay-columbia-missouri-11-20-2026/event/0600652F33A5B1FC",
@@ -1211,16 +1215,12 @@
   },
   {
    "_slug": "work-it-a-90s-2000s-r-b-and-hip-hop-party-a9230b",
-   "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1449/1795228200000"
-   ],
    "categories": [
     "music",
     "arts"
    ],
    "category": "music",
    "description": "What The Dance Presents",
-   "end": "2026-11-20T23:30:00-06:00",
    "id": "a9230b9bf867b12c",
    "imageUrl": "https://comoevent.com/img/gen/p-54db49c75bd536.webp",
    "source": "bluenote",
@@ -1266,7 +1266,6 @@
    "category": "sports",
    "description": "The Missouri Tigers face the Kentucky Wildcats at Faurot Field. Cheer on Missouri as the teams compete.",
    "id": "4a8cf4d230bd2b91",
-   "imageUrl": "https://comoevent.com/img/gen/8682f49e06f408.webp",
    "source": "baselocal",
    "start": "2026-11-21T00:00:00-06:00",
    "title": "Missouri Tigers vs. Kentucky Wildcats at Faurot Field at Memorial Stadium",
@@ -1317,8 +1316,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
    ],
    "categories": [
     "nightlife",
@@ -1350,8 +1349,8 @@
   {
    "_slug": "saturday-market-winter-b317c0",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
-    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/"
+    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/",
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
    ],
    "categories": [
     "food"
@@ -2126,8 +2125,8 @@
   {
    "_slug": "hayden-coffman-dcdb72",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/",
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000"
+    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
+    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
    ],
    "categories": [
     "music"
@@ -2161,9 +2160,9 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://allevents.in/columbia/the-host/200031023437330",
     "https://tockify.com/the.district.cid/detail/1453/1795314600000",
-    "https://baselocal.com/mo/columbia/events/#the-host"
+    "https://baselocal.com/mo/columbia/events/#the-host",
+    "https://allevents.in/columbia/the-host/200031023437330"
    ],
    "categories": [
     "arts",
@@ -2461,8 +2460,8 @@
   {
    "_slug": "color-me-merry-66bb5a",
    "alsoOn": [
-    "https://allevents.in/columbia/color-me-merry/100002004101275865",
-    "https://tockify.com/the.district.cid/detail/1461/1795377600000"
+    "https://tockify.com/the.district.cid/detail/1461/1795377600000",
+    "https://allevents.in/columbia/color-me-merry/100002004101275865"
    ],
    "categories": [
     "community"
@@ -2699,8 +2698,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
    ],
    "categories": [
     "music"
@@ -2748,7 +2747,7 @@
   }
  ],
  "friday": "2026-11-20",
- "modified": "2026-11-20",
+ "modified": "2026-11-21",
  "picks": [
   "ad1db7d77a3bfdba",
   "57a71f09c56fb1c5",
