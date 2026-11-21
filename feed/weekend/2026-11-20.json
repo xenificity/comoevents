@@ -960,18 +960,14 @@
   },
   {
    "_slug": "mmtd-contra-dance-77c7e7",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#mmtd-contra-dance"
-   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
-   "description": "Doors and beginners lesson at 7, Dance at 7:30 pm https://www.facebook.com/share/19R756wjbM/ Location: The First Christian Church of Columbia 101 N. 10th Street, Columbia, MO. Enter through the back basement gym door entrance. A reminder: ALL dances this year will be at the First Christian Church in",
+   "description": "Enjoy an evening of contra dancing with live tunes from the Aldeah All-Stars and dances called by Paula McFarling. Beginners are welcome, with a lesson or refresher before the dancing begins. Admission is $10, $5 for listeners and people ages 18 to 25, and free for those 17 and under. Payment by cr…",
    "end": "2026-11-20T22:00:00-06:00",
    "id": "77c7e7558b8be955",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb4f2649b9323bd2633506/scaled_1152.jpg",
-   "source": "district",
+   "source": "baselocal",
    "start": "2026-11-20T19:00:00-06:00",
    "title": "MMTD Contra Dance",
    "venue": "First Christian Church-Disciples of Christ"
@@ -1119,8 +1115,8 @@
   {
    "_slug": "the-spooklights-dd974c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-spooklights",
-    "https://www.voxmagazine.com/calendar/the-spooklights/event_77c386e6-88b2-40b3-a2a4-36e4c130517c.html"
+    "https://www.voxmagazine.com/calendar/the-spooklights/event_77c386e6-88b2-40b3-a2a4-36e4c130517c.html",
+    "https://baselocal.com/mo/columbia/events/#the-spooklights"
    ],
    "categories": [
     "music"
@@ -1321,8 +1317,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
    ],
    "categories": [
     "nightlife",
@@ -2014,8 +2010,8 @@
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/",
-    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213"
+    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213",
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/"
    ],
    "categories": [
     "sports"
@@ -2130,8 +2126,8 @@
   {
    "_slug": "hayden-coffman-dcdb72",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
+    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/",
+    "https://tockify.com/the.district.cid/detail/1451/1795309200000"
    ],
    "categories": [
     "music"
@@ -2165,9 +2161,9 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
+    "https://allevents.in/columbia/the-host/200031023437330",
     "https://tockify.com/the.district.cid/detail/1453/1795314600000",
-    "https://baselocal.com/mo/columbia/events/#the-host",
-    "https://allevents.in/columbia/the-host/200031023437330"
+    "https://baselocal.com/mo/columbia/events/#the-host"
    ],
    "categories": [
     "arts",
