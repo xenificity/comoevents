@@ -1531,30 +1531,11 @@
    "description": "The Friends hold semiweekly sales in the library lobby. Shop every Wednesday and Saturday noon-3 p.m. Cash or checks only. All proceeds support library services.",
    "end": "2026-11-21T15:00:00-06:00",
    "id": "28fd9b2d875f58b4",
-   "imageUrl": "https://comoevent.com/img/gen/b8bee4f91807ca.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-11-21T12:00:00-06:00",
    "title": "Friends of the Columbia Public Library Lobby Book Sale",
    "venue": "Columbia Public Library"
-  },
-  {
-   "_slug": "grown-up-book-fair-749350",
-   "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/wilder-coffeehouse-grown-up-book-fair/"
-   ],
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "description": "Wilder Coffeehouse (next to the Tiger Hotel) is hosting a book fair pop-up! Stop in any time from 12pm-3pm to find books and bouquets! Feature Vendors: Skylark Book Shop & flowers by Sydney Johnson. Details: https://www.facebook.com/events/1755978099870131",
-   "end": "2026-11-21T15:00:00-06:00",
-   "id": "7493503c2eaf2e93",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6af60d5b33339b9bfd469f29/scaled_1152.jpg",
-   "source": "district",
-   "start": "2026-11-21T12:00:00-06:00",
-   "title": "Grown Up Book Fair",
-   "venue": "Wilder Coffeehouse"
   },
   {
    "_slug": "harvest-of-gratitude-community-dinner-2e61aa",
@@ -1569,6 +1550,20 @@
    "start": "2026-11-21T12:00:00-06:00",
    "title": "Harvest of Gratitude Community Dinner",
    "venue": "St Paul AME Church"
+  },
+  {
+   "_slug": "wilder-coffeehouse-grown-up-book-fair-749350",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "We’re hosting a book fair pop-up! Stop in any time from 12pm-3pm to find books and bouquets! Feature Vendors: Skylark Book Shop, flowers by Sydney Johnson.",
+   "end": "2026-11-21T15:00:00-06:00",
+   "id": "7493503c2eaf2e93",
+   "imageUrl": "https://comoevent.com/img/gen/p-49f425b4f16e3b.webp",
+   "source": "visitcolumbia",
+   "start": "2026-11-21T12:00:00-06:00",
+   "title": "Wilder Coffeehouse Grown-Up Book Fair"
   },
   {
    "_slug": "zydecos-cajun-kitchen-afc357",
@@ -1690,7 +1685,6 @@
    "description": "Saturday-afternoon live music from Rayce Kendrick.",
    "end": "2026-11-21T15:00:00-06:00",
    "id": "6ab56039ffdbc6b3",
-   "imageUrl": "https://comoevent.com/img/gen/0e302ba3b6579b.webp",
    "source": "pierpont",
    "start": "2026-11-21T13:00:00-06:00",
    "title": "Rayce Kendrick",
@@ -1766,7 +1760,6 @@
    "description": "At Shanthi Mandir, the Hindu Temple and Community Center of Mid-Missouri. Everyone is welcome; regular poojas are led by volunteers and can be sponsored. Details: shanthimandir.missouri.org",
    "end": "2026-11-21T15:30:00-06:00",
    "id": "9bbe13d574fa7b9d",
-   "imageUrl": "https://comoevent.com/img/gen/d93054b781bd4f.webp",
    "source": "shanthimandir",
    "start": "2026-11-21T14:00:00-06:00",
    "title": "Bhagwad Gita Class",
@@ -1775,8 +1768,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
    ],
    "categories": [
     "family"
@@ -2142,9 +2135,9 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-host",
+    "https://allevents.in/columbia/the-host/200031023437330",
     "https://tockify.com/the.district.cid/detail/1453/1795314600000",
-    "https://allevents.in/columbia/the-host/200031023437330"
+    "https://baselocal.com/mo/columbia/events/#the-host"
    ],
    "categories": [
     "arts",
@@ -2486,9 +2479,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
    ],
    "categories": [
     "family",
