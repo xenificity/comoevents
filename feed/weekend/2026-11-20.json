@@ -683,7 +683,6 @@
    "description": "This course teaches certified divers how to safely use enriched air mixtures containing up to 40% oxygen. Learn to analyze cylinders, calibrate oxygen analyzers, plan Nitrox dives, understand gas mixtures, and follow safety protocols. The course covers ways Nitrox can support longer no-decompressio…",
    "end": "2026-11-20T20:30:00-06:00",
    "id": "9c534552ec4bcf28",
-   "imageUrl": "https://comoevent.com/img/gen/a19645b2994bc4.webp",
    "source": "baselocal",
    "start": "2026-11-20T18:00:00-06:00",
    "title": "Dive More & Stay Longer: SSI Enriched Air Nitrox Course",
@@ -720,21 +719,17 @@
    "title": "Flyover Country Happy Hour @ Cafe B"
   },
   {
-   "_slug": "friday-night-commander-at-hexagon-alley-e708b8",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#magic-friday-night-commander"
-   ],
+   "_slug": "magic-friday-night-commander-e708b8",
    "categories": [
-    "sports"
+    "community"
    ],
-   "category": "sports",
-   "description": "You're invited to our MARQUEE NIGHT. DOOR PRIZES EVERY WEEK! This is the big one—more players, more prizes, more energy. Whether you're just getting into Magic or a seasoned spell-slinger, we'll point you toward a pod that fits. Looking to shake things up? We run PICK 2 DRAFT pick-ups and feature ro",
+   "category": "community",
+   "description": "Enjoy a night of Magic: The Gathering with Commander pods suited to players of all skill levels, from newcomers to seasoned players. Door prizes are available, along with Pick 2 Draft pick-ups and monthly rotating Commander variants. Players can use the event’s Discord community to coordinate with…",
    "end": "2026-11-20T21:00:00-06:00",
    "id": "e708b8fcc47850af",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6960043844ec806eefaff16c/scaled_1152.jpg",
-   "source": "district",
+   "source": "baselocal",
    "start": "2026-11-20T18:00:00-06:00",
-   "title": "Friday Night Commander at Hexagon Alley",
+   "title": "MAGIC: Friday Night Commander",
    "venue": "Hexagon Alley"
   },
   {
@@ -803,7 +798,6 @@
    "description": "Monthly open mic on the third Friday: any instrument, music or spoken word. Sign-ups start at 5:30 at the bar.",
    "end": "2026-11-20T21:00:00-06:00",
    "id": "23b241de4514ca69",
-   "imageUrl": "https://comoevent.com/img/gen/d30fc84da88f37.webp",
    "price": "Free",
    "source": "weekly",
    "start": "2026-11-20T18:00:00-06:00",
@@ -881,7 +875,6 @@
    "description": "Join us for an evening of artistic expression at this after-hours event, whether you have something to share or just prefer to listen. Refreshments provided. Doors open at 6:45 p.m. Please arrive by 7:15 p.m. All music-makers and poets welcome, high school age to adults. To perform, please register.",
    "end": "2026-11-20T21:00:00-06:00",
    "id": "57a71f09c56fb1c5",
-   "imageUrl": "https://comoevent.com/img/gen/28528f2a2f3ba1.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-11-20T19:00:00-06:00",
@@ -999,6 +992,21 @@
    "source": "mizzou",
    "start": "2026-11-20T19:00:00-06:00",
    "title": "Men’s Basketball - Missouri vs. Le Moyne",
+   "venue": "Champions Drive"
+  },
+  {
+   "_slug": "mizzou-mens-basketball-vs-le-moyne-f0c841",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "description": "Catch the Missouri Tigers in home action!",
+   "end": "2026-11-20T23:00:00-06:00",
+   "id": "f0c8413220c2a67c",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Mizzou-Basketball-2026-2027-promotional-photo.png",
+   "source": "visitcolumbia",
+   "start": "2026-11-20T19:00:00-06:00",
+   "title": "Mizzou Men’s Basketball vs. Le Moyne",
    "venue": "Champions Drive"
   },
   {
@@ -1159,6 +1167,20 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "kaitlin-oliver-capstone-recital-255cca",
+   "categories": [
+    "campus"
+   ],
+   "category": "campus",
+   "end": "2026-11-20T21:30:00-06:00",
+   "id": "255cca1f4e5d8aea",
+   "imageUrl": "https://comoevent.com/img/gen/ba1755a5db08f0.webp",
+   "source": "mizzou",
+   "start": "2026-11-20T20:30:00-06:00",
+   "title": "Kaitlin Oliver Capstone Recital",
+   "venue": "Sinquefield Music Center"
+  },
+  {
    "_slug": "kaitlin-oliver-vocal-recital-67f2c2",
    "alsoOn": [
     "https://calendar.missouri.edu/event/21236-kaitlin-oliver-capstone-recital"
@@ -1299,8 +1321,8 @@
   {
    "_slug": "cookies-cocoa-with-the-clauses-117006",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c",
-    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545"
+    "https://allevents.in/columbia/cookies-and-cocoa-with-the-clauses/200030963472545",
+    "https://columbiamo.macaronikid.com/events/6ae96689237d76d7bb0f8d1c"
    ],
    "categories": [
     "nightlife",
@@ -1759,8 +1781,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
    ],
    "categories": [
     "family"
@@ -2108,8 +2130,8 @@
   {
    "_slug": "hayden-coffman-dcdb72",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/",
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000"
+    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
+    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
    ],
    "categories": [
     "music"
@@ -2165,8 +2187,8 @@
   {
    "_slug": "live-hardcore-comedy-at-the-tokyo-club-columbia-s-own-lady-m-616a99",
    "alsoOn": [
-    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
    ],
    "categories": [
     "arts"
@@ -2379,8 +2401,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -2443,8 +2465,8 @@
   {
    "_slug": "color-me-merry-66bb5a",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1461/1795377600000",
-    "https://allevents.in/columbia/color-me-merry/100002004101275865"
+    "https://allevents.in/columbia/color-me-merry/100002004101275865",
+    "https://tockify.com/the.district.cid/detail/1461/1795377600000"
    ],
    "categories": [
     "community"
@@ -2463,9 +2485,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
     "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
    ],
    "categories": [
     "family",
@@ -2681,8 +2703,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
    ],
    "categories": [
     "music"
