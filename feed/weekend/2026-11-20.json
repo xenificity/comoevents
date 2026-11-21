@@ -1267,6 +1267,20 @@
    "venue": "Faurot Field"
   },
   {
+   "_slug": "single-awareness-dinner-columbia-foodies-new-friends-1301d3",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "id": "1301d322972f1054",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jMWQ3NzM2OTU5ZjdhZWIxZTExMjgzYzI1MDJlNmViMTgwNzAxZmE4YzBjZjFjMTcwYjJjNzc1MTFmNWFkNzkyLXJpbWctdzk3MS1oODU1LWRjMTQxYTJkLWdtaXIuanBnP3Y9MTc4Mjc3MzcwNA.avif",
+   "source": "allevents",
+   "start": "2026-11-21T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Single Awareness Dinner: Columbia | Foodies + New Friends",
+   "venue": "Restaurant of the Week"
+  },
+  {
    "_slug": "andras-szieberth-clinic-mmrc-2bed71",
    "categories": [
     "sports"
@@ -1610,7 +1624,6 @@
    "description": "Saturday afternoons are for weird kids. Weird Kids’ Weekend Club is a Saturday afternoon hangout for kids ages 8–12. Each week we’ll have a c…",
    "end": "2026-11-21T14:30:00-06:00",
    "id": "7a696f349297471e",
-   "imageUrl": "https://comoevent.com/img/gen/b57dc68fc14bc1.webp",
    "source": "macaronikid",
    "start": "2026-11-21T12:30:00-06:00",
    "title": "Weird Kids' Weekend Club"
@@ -1762,8 +1775,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
    ],
    "categories": [
     "family"
@@ -1797,7 +1810,6 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
     "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
    ],
    "categories": [
@@ -1995,8 +2007,8 @@
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/",
-    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213"
+    "https://allevents.in/columbia/2026-mizzou-football-v-kentucky/210003783873213",
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-kentucky/"
    ],
    "categories": [
     "sports"
@@ -2028,25 +2040,6 @@
    "ticketUrl": "https://events.ticketleap.com/events/talkinghorse/ponies-improv-stripped",
    "title": "Ponies Improv - Stripped",
    "venue": "Talking Horse Productions"
-  },
-  {
-   "_slug": "single-awareness-dinner-columbia-foodies-new-friends-762736",
-   "alsoOn": [
-    "https://allevents.in/columbia/single-awareness-dinner-columbia-foodies-new-friends/100001990430837215"
-   ],
-   "categories": [
-    "food"
-   ],
-   "category": "food",
-   "description": "Celebrate your singleness and make new friends over dinner! Connect with other happily single locals and shake your fist at couples.",
-   "end": "2026-11-21T22:00:00-06:00",
-   "id": "7627360dc60a6e27",
-   "imageUrl": "https://cdn.evbuc.com/images/1177367142/2972884566231/1/original.20260212-121923",
-   "source": "eventbrite",
-   "start": "2026-11-21T19:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/single-awareness-dinner-columbia-foodies-new-friends-tickets-1990431447039",
-   "title": "Single Awareness Dinner: Columbia | Foodies + New Friends",
-   "venue": "Restaurant of the Week"
   },
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-2-d8c2ac",
@@ -2150,8 +2143,8 @@
    "_slug": "the-host-ff1098",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#the-host",
-    "https://allevents.in/columbia/the-host/200031023437330",
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000"
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
+    "https://allevents.in/columbia/the-host/200031023437330"
    ],
    "categories": [
     "arts",
@@ -2169,24 +2162,22 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "live-hardcore-comedy-at-the-tokyo-club-columbia-s-own-lady-m-616a99",
+   "_slug": "hardcore-comedy-at-the-tokyo-club-d8e238",
    "alsoOn": [
-    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025",
-    "https://thearcadedistrict.org/"
+    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
    ],
    "categories": [
     "arts"
    ],
    "category": "arts",
-   "description": "Crowdwork at it's Finest! SIT. UP. FRONT. We dare you...don't miss Columbia's own LADY MOE JOE Featuring Zeb Balentine!!!",
+   "description": "🎤 Hardcore Comedy at The Tokyo Club! Doors Open at 8:30 PM Show is at 9 PM 🔥 Crowd Work Special with Lady Moe Joe 🔥 Featuring: Zeb Balentine & Geoff Christy 🤣 No scripts. No filters. Just pure crowd interaction! Comics will be working the room, roasting, riffing, and turning your stories into comedy",
    "end": "2026-11-21T22:30:00-06:00",
-   "id": "616a99c75ecef11a",
-   "imageUrl": "https://comoevent.com/img/gen/p-09bafd8f3a7458.webp",
-   "source": "eventbrite",
+   "id": "d8e2388103eaeebf",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9lODU5MTFkOGUwNzcwZTBkYTViNDU0M2YwZWQwZTA2MjRhNmUyYmZhN2VlNDg0MWZmNzZhNmIzNDBhMTJlNDIwLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTM3ODI4ODE.avif",
+   "source": "arcadedistrict",
    "start": "2026-11-21T21:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe-tickets-2004322658025",
-   "title": "LIVE HARDCORE COMEDY at The Tokyo Club!!! Columbia's Own LADY MOE JOE!",
-   "venue": "The Tokyo Club"
+   "title": "Hardcore Comedy at The Tokyo Club",
+   "venue": "The Arcade District"
   },
   {
    "_slug": "the-celebrity-drag-show-7d81ac",
@@ -2243,6 +2234,20 @@
    "source": "allevents",
    "start": "2026-11-22T00:00:00-06:00",
    "title": "Friendsgiving"
+  },
+  {
+   "_slug": "super-smash-bros-tournament-e47027",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e47027247d911c2e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
+   "source": "allevents",
+   "start": "2026-11-22T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "yoga-at-partner-for-better-b09b73",
@@ -2461,23 +2466,21 @@
    "title": "Pop-up Prenatal Class"
   },
   {
-   "_slug": "color-me-merry-66bb5a",
+   "_slug": "color-me-merry-7dea38",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1461/1795377600000",
     "https://allevents.in/columbia/color-me-merry/100002004101275865"
    ],
    "categories": [
     "community"
    ],
    "category": "community",
-   "description": "Collaboration with Wishflour Bakery and Sill Waters CoMo. Make your own mocktail & galette to enjoy while you color your own 2027 calendar!",
+   "description": "Organized by: Wishflour Bakery — https://www.eventbrite.com/o/121398105582 Collaboration with Wishflour Bakery and Sill Waters CoMo. Make your own mocktail & galette to enjoy while you color your own 2027 calendar! These two business owners have been friends for over 25 years, and now they're inviti",
    "end": "2026-11-22T16:00:00-06:00",
-   "id": "66bb5abc290de085",
-   "imageUrl": "https://cdn.evbuc.com/images/1196902591/3003358721464/1/original.20261030-014838",
-   "source": "eventbrite",
+   "id": "7dea382df168e37b",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb637649b9323bd23c20e9/scaled_1152.jpg",
+   "source": "district",
    "start": "2026-11-22T14:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/color-me-merry-tickets-2004101275865",
-   "title": "Color Me Merry!",
+   "title": "Color Me Merry",
    "venue": "Wishflour Bakery"
   },
   {
@@ -2653,25 +2656,6 @@
    "title": "Partner Yoga"
   },
   {
-   "_slug": "super-smash-bros-tournament-83b3b8",
-   "alsoOn": [
-    "https://allevents.in/columbia/super-smash-bros-tournament/100001424508426049"
-   ],
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "description": "FREE Smash Bros Ultimate Tournament hosted at The Kitchen Grill & Games. Prizes to the top 4 winners. Sundays at 4:00pm",
-   "end": "2026-11-22T18:00:00-06:00",
-   "id": "83b3b813e36671f1",
-   "imageUrl": "https://cdn.evbuc.com/images/1006203893/2276365863483/1/original.20250410-200503",
-   "source": "eventbrite",
-   "start": "2026-11-22T16:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/super-smash-bros-tournament-tickets-1999028927334",
-   "title": "Super Smash Bros Tournament",
-   "venue": "The Kitchen Grill & Games"
-  },
-  {
    "_slug": "dining-in-the-alley-with-artemis-grey-418d2a",
    "categories": [
     "food"
@@ -2704,8 +2688,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
    ],
    "categories": [
     "music"
