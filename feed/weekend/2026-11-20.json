@@ -1120,21 +1120,16 @@
   },
   {
    "_slug": "the-spooklights-dd974c",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-spooklights"
-   ],
    "categories": [
-    "music"
+    "community"
    ],
-   "category": "music",
-   "description": "with Long Gone Gabe",
+   "category": "community",
+   "description": "The Spooklights perform with Long Gone Gabe at Rose Music Hall.",
    "id": "dd974cc397ae9f26",
-   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/TSL-RMH-Web.jpg",
-   "source": "bluenote",
+   "source": "baselocal",
    "start": "2026-11-20T20:00:00-06:00",
-   "ticketUrl": "https://www.ticketmaster.com/the-spooklights-ben-miller-pat-kay-columbia-missouri-11-20-2026/event/0600652F33A5B1FC",
    "title": "The Spooklights",
-   "venue": "Rose Music Hall (Inside)"
+   "venue": "Rose Music Hall"
   },
   {
    "_slug": "the-spooklights-rose-music-hall-1ba87c",
@@ -1349,8 +1344,8 @@
   {
    "_slug": "saturday-market-winter-b317c0",
    "alsoOn": [
-    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html",
-    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/"
+    "https://www.visitcolumbiamo.com/event/columbia-farmers-market-winter-season-3/",
+    "https://www.voxmagazine.com/calendar/columbia-farmers-market---winter-season/event_7fa2dab5-72e0-423c-a8a3-e7805b997572.html"
    ],
    "categories": [
     "food"
@@ -1776,8 +1771,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
    ],
    "categories": [
     "family"
@@ -1811,8 +1806,8 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
-    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
-    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
+    "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr",
+    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437"
    ],
    "categories": [
     "arts",
@@ -2045,6 +2040,9 @@
   },
   {
    "_slug": "single-awareness-dinner-columbia-foodies-new-friends-762736",
+   "alsoOn": [
+    "https://allevents.in/columbia/single-awareness-dinner-columbia-foodies-new-friends/100001990430837215"
+   ],
    "categories": [
     "food"
    ],
@@ -2125,8 +2123,8 @@
   {
    "_slug": "hayden-coffman-dcdb72",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
-    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
+    "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/",
+    "https://tockify.com/the.district.cid/detail/1451/1795309200000"
    ],
    "categories": [
     "music"
@@ -2135,7 +2133,7 @@
    "description": "with Bryce Mauldin",
    "end": "2026-11-21T23:00:00-06:00",
    "id": "dcdb7208f11d2ea8",
-   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/09/TSL-RMH-Web.jpg",
+   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/08/HaydenCoffman-RMH-WEB.jpg",
    "source": "bluenote",
    "start": "2026-11-21T20:00:00-06:00",
    "ticketUrl": "https://www.ticketmaster.com/hayden-coffman-columbia-missouri-11-21-2026/event/0600651A8886389A",
@@ -2161,8 +2159,8 @@
    "_slug": "the-host-ff1098",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#the-host",
-    "https://allevents.in/columbia/the-host/200031023437330",
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000"
+    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
+    "https://allevents.in/columbia/the-host/200031023437330"
    ],
    "categories": [
     "arts",
@@ -2182,8 +2180,8 @@
   {
    "_slug": "live-hardcore-comedy-at-the-tokyo-club-columbia-s-own-lady-m-616a99",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
+    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts"
@@ -2207,7 +2205,7 @@
    "category": "music",
    "description": "Nclusion Plus Presents · featuring The Widow Von'Du, Lorilie, Veronika Versace, + Artemis Grey",
    "id": "7d81acd20ed6c9d0",
-   "imageUrl": "https://comoevent.com/img/gen/p-54db49c75bd536.webp",
+   "imageUrl": "https://comoevent.com/img/gen/p-a8108b618e92e0.webp",
    "source": "bluenote",
    "start": "2026-11-21T21:00:00-06:00",
    "ticketUrl": "https://www.ticketmaster.com/nclusion-plus-presents-the-celebrity-drag-columbia-missouri-11-21-2026/event/06006546CBDDFC50",
@@ -2228,6 +2226,20 @@
    "start": "2026-11-21T21:00:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "chiefs-game-day-at-the-kitchen-16159b",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "16159b869ba05ae0",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9pbWcuZXZidWMuY29tL2h0dHBzJTNBJTJGJTJGY2RuLmV2YnVjLmNvbSUyRmltYWdlcyUyRjExOTI3MTkwMzklMkYyMjc2MzY1ODYzNDgzJTJGMSUyRm9yaWdpbmFsLjIwMjYwOTA0LTIwNTQxND9hdXRvPWZvcm1hdCUyQ2NvbXByZXNzJnE9NzUmc2hhcnA9MTAmcz1kMjk1NDZmMzA3Njk1NDNiYTY2ZDZhNWZjZjc0NzRiMA.avif",
+   "source": "allevents",
+   "start": "2026-11-22T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Chiefs Game Day at The Kitchen",
+   "venue": "The Kitchen Grill and Games"
   },
   {
    "_slug": "friendsgiving-c68566",
@@ -2480,9 +2492,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
     "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
     "family",
@@ -2651,6 +2663,9 @@
   },
   {
    "_slug": "super-smash-bros-tournament-83b3b8",
+   "alsoOn": [
+    "https://allevents.in/columbia/super-smash-bros-tournament/100001424508426049"
+   ],
    "categories": [
     "community"
    ],
@@ -2698,8 +2713,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
    ],
    "categories": [
     "music"
