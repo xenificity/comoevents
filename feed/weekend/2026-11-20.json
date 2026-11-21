@@ -1409,7 +1409,6 @@
    "description": "A licensed navigator from Missouri Connections for Health will help you review eligibility, compare options and enroll in a 2027 Health Insurance Marketplace (HealthCare.gov) plan or Medicaid (MO HealthNet). Adults. Appointments are required. Call Kevin Wehner at 573-326-9104 and leave a voicemail. ",
    "end": "2026-11-21T14:00:00-06:00",
    "id": "1c7f428a0f8cbb57",
-   "imageUrl": "https://comoevent.com/img/gen/e4b5903d11a0b8.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-11-21T10:00:00-06:00",
@@ -1489,7 +1488,6 @@
    "description": "Meet Babylon Taste, an Iraqi food truck based in Columbia, and discover its menu during a pop-up at the Forum location.",
    "end": "2026-11-21T14:00:00-06:00",
    "id": "e6b64d7db0704487",
-   "imageUrl": "https://comoevent.com/img/gen/7318b104ec352d.webp",
    "source": "baselocal",
    "start": "2026-11-21T11:00:00-06:00",
    "title": "Pop Up with Babylon Taste",
@@ -1764,8 +1762,8 @@
   {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience",
-    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427"
+    "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
    ],
    "categories": [
     "family"
@@ -1799,6 +1797,7 @@
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
    "alsoOn": [
+    "https://allevents.in/columbia/tryps-presents-the-little-mermaid-jr/200030926325437",
     "https://baselocal.com/mo/columbia/events/#the-little-mermaid-jr"
    ],
    "categories": [
@@ -2150,8 +2149,8 @@
   {
    "_slug": "the-host-ff1098",
    "alsoOn": [
-    "https://allevents.in/columbia/the-host/200031023437330",
     "https://baselocal.com/mo/columbia/events/#the-host",
+    "https://allevents.in/columbia/the-host/200031023437330",
     "https://tockify.com/the.district.cid/detail/1453/1795314600000"
    ],
    "categories": [
@@ -2172,8 +2171,8 @@
   {
    "_slug": "live-hardcore-comedy-at-the-tokyo-club-columbia-s-own-lady-m-616a99",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
+    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts"
@@ -2400,8 +2399,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -2484,9 +2483,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
    ],
    "categories": [
     "family",
