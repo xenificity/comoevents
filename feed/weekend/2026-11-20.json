@@ -2375,7 +2375,6 @@
    "category": "party",
    "description": "Enjoy a football watch party and chili cook-off featuring homemade recipes in traditional, non-traditional, and spiciest categories. Prizes will be awarded, with winners announced at halftime. Fixings will be provided, and those competing should bring their chili.",
    "id": "e49549cb8517e973",
-   "imageUrl": "https://comoevent.com/img/gen/4eab8529b2baf2.webp",
    "source": "baselocal",
    "start": "2026-11-22T12:00:00-06:00",
    "title": "Chili Cookoff",
@@ -2456,8 +2455,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
@@ -2520,8 +2519,8 @@
   {
    "_slug": "color-me-merry-66bb5a",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1461/1795377600000",
-    "https://allevents.in/columbia/color-me-merry/100002004101275865"
+    "https://allevents.in/columbia/color-me-merry/100002004101275865",
+    "https://tockify.com/the.district.cid/detail/1461/1795377600000"
    ],
    "categories": [
     "community"
@@ -2761,8 +2760,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
    ],
    "categories": [
     "music"
