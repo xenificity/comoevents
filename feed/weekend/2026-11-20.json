@@ -2524,11 +2524,23 @@
    "venue": "Wishflour Bakery"
   },
   {
+   "_slug": "color-me-merry-7dea38",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "7dea382df168e37b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy84YmQ2NGI1NmU3NTQ3YTA4YmJkODdjZjMwMTEyMzZjODIwYmY3ZDUzMzJiZDUwZWUyYmY5YWIzZjg1NGFiNjkzLXJpbWctdzEyMDAtaDE1NjctZGNiOGI4YTgtZ21pci5qcGc_dj0xNzkzNDA4NDY2.avif",
+   "source": "allevents",
+   "start": "2026-11-22T14:00:00-06:00",
+   "title": "Color Me Merry!",
+   "venue": "Wishflour Bakery"
+  },
+  {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
     "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
     "family",
@@ -2596,7 +2608,6 @@
    "category": "community",
    "end": "2026-11-22T17:30:00-06:00",
    "id": "c90709fd9edcec40",
-   "imageUrl": "https://comoevent.com/img/gen/83e99f93bafc84.webp",
    "source": "divebar",
    "start": "2026-11-22T14:30:00-06:00",
    "title": "Sunday Bingo",
@@ -2643,7 +2654,6 @@
    "description": "Explore how gathering with sincerity, fellowship, and open hearts can help build genuine friendships, strengthen community ties, and support emotional and spiritual well-being. This welcoming conversation will consider spiritual perspectives from the Bahá’í Teachings and invite every perspective as…",
    "end": "2026-11-22T17:00:00-06:00",
    "id": "ab8591b5bf47202c",
-   "imageUrl": "https://comoevent.com/img/gen/59d5702bce8e63.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-22T15:00:00-06:00",
@@ -2721,7 +2731,6 @@
    "category": "food",
    "description": "Dinner and drag come together at Hexagon Alley for a high-energy evening hosted by Artemis Grey. This 18-and-up event features drag performanc…",
    "id": "418d2a31b0b7c152",
-   "imageUrl": "https://comoevent.com/img/gen/2cf3f37cccb8c4.webp",
    "price": "$12 in advance; $15 at the door",
    "source": "vox",
    "start": "2026-11-22T16:30:00-06:00",
