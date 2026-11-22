@@ -1993,7 +1993,6 @@
    "description": "Scouts from across Missouri can celebrate together at Faurot Field as the Mizzou Tigers take on Kentucky. Tickets start at $50 and include a special Mizzou-themed Scout patch. Further event details will be announced closer to game day.",
    "end": "2026-11-21T20:30:00-06:00",
    "id": "bd499ffdedd0bd2d",
-   "imageUrl": "https://comoevent.com/img/gen/c43e7c4fa4a5e8.webp",
    "source": "baselocal",
    "start": "2026-11-21T17:00:00-06:00",
    "title": "Scout Day",
@@ -2127,7 +2126,6 @@
    "description": "🎤 Comedy Night at The Tokyo Club! Doors Open at 5 PM Show is at 7 PM ⭐ Headliner: Zeb Balentine ⭐ Feature: Geoff Christy & Brett Ditty 🤣 Get ready for laughs, drinks, and games — all under one roof. Come find out why The Tokyo Club is Missouri’s go-to spot for comedy every weekend! 🙌 📍 709 Fay St Su",
    "end": "2026-11-21T21:00:00-06:00",
    "id": "9c2ecf55f16c94a0",
-   "imageUrl": "https://comoevent.com/img/gen/c81ec9963d40a2.webp",
    "source": "arcadedistrict",
    "start": "2026-11-21T19:30:00-06:00",
    "title": "Saturday Night Comedy at The Tokyo Club",
@@ -2168,7 +2166,6 @@
   {
    "_slug": "hayden-coffman-dcdb72",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1451/1795309200000",
     "https://www.visitcolumbiamo.com/event/hayden-coffman-rose-music-hall/"
    ],
    "categories": [
@@ -2203,8 +2200,8 @@
   {
    "_slug": "the-host-e04cde",
    "alsoOn": [
-    "https://ragtagcinema.org/film/the-host/",
-    "https://baselocal.com/mo/columbia/events/#the-host"
+    "https://baselocal.com/mo/columbia/events/#the-host",
+    "https://ragtagcinema.org/film/the-host/"
    ],
    "categories": [
     "food",
@@ -2279,18 +2276,6 @@
    "timeTBD": true,
    "title": "Chiefs Game Day at The Kitchen",
    "venue": "The Kitchen Grill and Games"
-  },
-  {
-   "_slug": "friendsgiving-c68566",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "c68566ee856c565a",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czQvYmFubmVycy9lMjhjNjhhYWJmZDUwMDYxYjdmOTMyZTBjYjBmNDIzYjRiMmNmMmVlZTEyMWJiN2YzYjQ0YjVjNjFhY2Y4M2JiLXJpbWctdzEyMDAtaDgwMC1kYzA4MDgwOC1nbWlyP3Y9MTc5NTEwMzk0Ng.avif",
-   "source": "allevents",
-   "start": "2026-11-22T00:00:00-06:00",
-   "title": "Friendsgiving"
   },
   {
    "_slug": "super-smash-bros-tournament-e47027",
@@ -2461,8 +2446,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -2544,8 +2529,8 @@
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
    ],
    "categories": [
     "family",
