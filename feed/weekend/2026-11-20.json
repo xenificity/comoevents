@@ -2349,7 +2349,10 @@
    "venue": "Partner For Better"
   },
   {
-   "_slug": "thanksgiving-community-dinner-4630d9",
+   "_slug": "thanksgiving-community-dinner-a1a16a",
+   "alsoOn": [
+    "https://allevents.in/columbia/thanksgiving-community-dinner/200030729478639"
+   ],
    "categories": [
     "food",
     "religious"
@@ -2357,8 +2360,8 @@
    "category": "food",
    "description": "Everyone is welcome to share a free Thanksgiving meal with the community. Dine in, arrange pickup, or choose delivery within Columbia. Please RSVP so organizers can plan for everyone, and feel free to invite someone who could use a meal or would enjoy sharing one and connecting with others.",
    "end": "2026-11-22T14:30:00-06:00",
-   "id": "4630d9d2863230dd",
-   "imageUrl": "https://comoevent.com/img/gen/3ae634e2ae6240.webp",
+   "id": "a1a16a168ad0a3a1",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9jNTU0ZTQxY2IyZjQ2YzI0NzIwMzk4OTFlNjIwNjY5OGNlNDY1ZDEwNDc4YjEwZDJlNTYxNjIzYzRlYWZhMjI2LXJpbWctdzEyMDAtaDE1NTItZGNmOGY4ZjgtZ21pcj92PTE3OTAxODE1MTk.avif",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-22T11:30:00-06:00",
@@ -2456,8 +2459,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -2518,38 +2521,39 @@
    "title": "Pop-up Prenatal Class"
   },
   {
-   "_slug": "color-me-merry-7dea38",
+   "_slug": "color-me-merry-66bb5a",
    "alsoOn": [
+    "https://tockify.com/the.district.cid/detail/1461/1795377600000",
     "https://allevents.in/columbia/color-me-merry/100002004101275865"
    ],
    "categories": [
     "community"
    ],
    "category": "community",
-   "description": "Organized by: Wishflour Bakery — https://www.eventbrite.com/o/121398105582 Collaboration with Wishflour Bakery and Sill Waters CoMo. Make your own mocktail & galette to enjoy while you color your own 2027 calendar! These two business owners have been friends for over 25 years, and now they're inviti",
+   "description": "Collaboration with Wishflour Bakery and Sill Waters CoMo. Make your own mocktail & galette to enjoy while you color your own 2027 calendar!",
    "end": "2026-11-22T16:00:00-06:00",
-   "id": "7dea382df168e37b",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb637649b9323bd23c20e9/scaled_1152.jpg",
-   "source": "district",
+   "id": "66bb5abc290de085",
+   "imageUrl": "https://cdn.evbuc.com/images/1196902591/3003358721464/1/original.20261030-014838",
+   "source": "eventbrite",
    "start": "2026-11-22T14:00:00-06:00",
-   "title": "Color Me Merry",
+   "ticketUrl": "https://www.eventbrite.com/e/color-me-merry-tickets-2004101275865",
+   "title": "Color Me Merry!",
    "venue": "Wishflour Bakery"
   },
   {
-   "_slug": "nutcracker-tea-party-7a4b99",
+   "_slug": "nutcracker-tea-party-b514d0",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
     "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
-    "family",
-    "arts"
+    "arts",
+    "family"
    ],
-   "category": "family",
-   "description": "Celebrate the magic of the season with an afternoon of tea, treats, and Nutcracker fun! Join Columbia Ballet Academy and Mary Lee Johnson Community Learning Center for a festive family afternoon featuring a special dance performance, photos with beloved Nutcracker characters, ornament decorating for",
+   "category": "arts",
+   "description": "Celebrate the season with an afternoon of tea, treats, and Nutcracker-themed activities. The family gathering includes a dance performance, photo opportunities with Nutcracker characters, ornament decorating, a raffle, and additional holiday surprises. Proceeds support Columbia Ballet Academy and M…",
    "end": "2026-11-22T16:00:00-06:00",
-   "id": "7a4b9981e9fb1741",
+   "id": "b514d08f62c2ee46",
    "imageUrl": "https://comoevent.com/img/gen/f2fdabc8acc991.webp",
    "source": "allevents",
    "start": "2026-11-22T14:00:00-06:00",
@@ -2706,6 +2710,25 @@
    "source": "district",
    "start": "2026-11-22T16:00:00-06:00",
    "title": "Partner Yoga"
+  },
+  {
+   "_slug": "super-smash-bros-tournament-83b3b8",
+   "alsoOn": [
+    "https://allevents.in/columbia/super-smash-bros-tournament/100001424508426049"
+   ],
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "FREE Smash Bros Ultimate Tournament hosted at The Kitchen Grill & Games. Prizes to the top 4 winners. Sundays at 4:00pm",
+   "end": "2026-11-22T18:00:00-06:00",
+   "id": "83b3b813e36671f1",
+   "imageUrl": "https://cdn.evbuc.com/images/1006203893/2276365863483/1/original.20250410-200503",
+   "source": "eventbrite",
+   "start": "2026-11-22T16:00:00-06:00",
+   "ticketUrl": "https://www.eventbrite.com/e/super-smash-bros-tournament-tickets-1999028927334",
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "dining-in-the-alley-with-artemis-grey-418d2a",
