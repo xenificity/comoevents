@@ -2349,10 +2349,7 @@
    "venue": "Partner For Better"
   },
   {
-   "_slug": "thanksgiving-community-dinner-a1a16a",
-   "alsoOn": [
-    "https://allevents.in/columbia/thanksgiving-community-dinner/200030729478639"
-   ],
+   "_slug": "thanksgiving-community-dinner-4630d9",
    "categories": [
     "food",
     "religious"
@@ -2360,8 +2357,8 @@
    "category": "food",
    "description": "Everyone is welcome to share a free Thanksgiving meal with the community. Dine in, arrange pickup, or choose delivery within Columbia. Please RSVP so organizers can plan for everyone, and feel free to invite someone who could use a meal or would enjoy sharing one and connecting with others.",
    "end": "2026-11-22T14:30:00-06:00",
-   "id": "a1a16a168ad0a3a1",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9jNTU0ZTQxY2IyZjQ2YzI0NzIwMzk4OTFlNjIwNjY5OGNlNDY1ZDEwNDc4YjEwZDJlNTYxNjIzYzRlYWZhMjI2LXJpbWctdzEyMDAtaDE1NTItZGNmOGY4ZjgtZ21pcj92PTE3OTAxODE1MTk.avif",
+   "id": "4630d9d2863230dd",
+   "imageUrl": "https://comoevent.com/img/gen/3ae634e2ae6240.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-22T11:30:00-06:00",
@@ -2541,9 +2538,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
     "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
     "family",
