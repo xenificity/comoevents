@@ -1947,11 +1947,24 @@
    "category": "music",
    "end": "2026-11-21T20:00:00-06:00",
    "id": "b08d50bb53cc78f7",
-   "imageUrl": "https://comoevent.com/img/gen/8b260d49bb8eef.webp",
    "source": "divebar",
    "start": "2026-11-21T17:00:00-06:00",
    "title": "Howard Levinson",
    "venue": "Dive Bar"
+  },
+  {
+   "_slug": "mizzou-football-vs-kentucky-e629a2",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "end": "2026-11-21T23:00:00-06:00",
+   "id": "e629a21398467702",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/07/Mizzou-Football-2026.png",
+   "source": "visitcolumbia",
+   "start": "2026-11-21T17:00:00-06:00",
+   "title": "Mizzou Football vs. Kentucky",
+   "venue": "Champions Drive"
   },
   {
    "_slug": "scout-day-902d8f",
@@ -2041,6 +2054,19 @@
    "start": "2026-11-21T18:00:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "2026-mizzou-football-v-kentucky-a569c4",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "id": "a569c43766279bb2",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8wZTI4ZTgwOGE1MmEyNTI2YzJlOWE4OGQzODUwNjc4MDFkZWQ1OTY1MGM4NjNjMjljNDY3NjkxNjYzZDUxYTg1LXJpbWctdzEwMjQtaDU3Ni1kYzVmNWE0YS1nbWlyLmpwZz92PTE3ODAyMjcwNTI.avif",
+   "source": "allevents",
+   "start": "2026-11-21T18:30:00-06:00",
+   "title": "2026 Mizzou Football v Kentucky",
+   "venue": "Faurot Field at Memorial Stadium"
   },
   {
    "_slug": "football-missouri-vs-kentucky-6348cb",
@@ -2435,8 +2461,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
@@ -2517,9 +2543,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
     "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
    ],
    "categories": [
     "family",
@@ -2719,8 +2745,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
    ],
    "categories": [
     "music"
