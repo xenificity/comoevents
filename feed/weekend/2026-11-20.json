@@ -1359,6 +1359,20 @@
    "venue": "Tiny Play Café"
   },
   {
+   "_slug": "cookies-cocoa-with-the-clauses-79462d",
+   "categories": [
+    "nightlife",
+    "family"
+   ],
+   "category": "nightlife",
+   "description": "Enjoy a seasonal family experience with a Black Santa, featuring free play, a hot cocoa bar, sugar cookie decorating, a personal meet-and-greet with Santa, and a baking-themed photo opportunity with Santa and Mrs. Claus. The fee is $40 per family, and space is limited.",
+   "id": "79462da1578f09b3",
+   "source": "baselocal",
+   "start": "2026-11-21T09:00:00-06:00",
+   "title": "Cookies & Cocoa with the Clauses",
+   "venue": "Tiny Play Café"
+  },
+  {
    "_slug": "esm-61-years-in-the-same-house-estate-sale-4dd845",
    "categories": [
     "community"
@@ -1766,6 +1780,24 @@
    "venue": "Shanthi Mandir"
   },
   {
+   "_slug": "songs-steps-stories-0a1745",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
+   ],
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "Join us for a vibrant celebration of Native American culture with the Badhorse family from the American Indian Center of Springfield. This interactive program will feature traditional dancing, singing and regalia sharing, along with stories about the history and meaning behind these cultural traditi",
+   "end": "2026-11-21T15:00:00-06:00",
+   "id": "0a1745ad11d83dd2",
+   "price": "Free",
+   "source": "dbrl",
+   "start": "2026-11-21T14:00:00-06:00",
+   "title": "Songs, Steps & Stories",
+   "venue": "Columbia Public Library"
+  },
+  {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
     "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
@@ -1794,7 +1826,6 @@
    "description": "@ Delta Blues influenced and inspired by John Hurt, Fred McDowell, Furry Lewis, Robert Johnson, Leroy",
    "end": "2026-11-21T17:00:00-06:00",
    "id": "16b9ea9f82b6a52b",
-   "imageUrl": "https://comoevent.com/img/gen/c51c4771250c4c.webp",
    "source": "cooperslanding",
    "start": "2026-11-21T14:00:00-06:00",
    "title": "The Daves",
@@ -1941,6 +1972,21 @@
    "venue": "Faurot Field"
   },
   {
+   "_slug": "scout-day-bd499f",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Scouts from across Missouri can celebrate together at Faurot Field as the Mizzou Tigers take on Kentucky. Tickets start at $50 and include a special Mizzou-themed Scout patch. Further event details will be announced closer to game day.",
+   "end": "2026-11-21T20:30:00-06:00",
+   "id": "bd499ffdedd0bd2d",
+   "imageUrl": "https://comoevent.com/img/gen/c43e7c4fa4a5e8.webp",
+   "source": "baselocal",
+   "start": "2026-11-21T17:00:00-06:00",
+   "title": "Scout Day",
+   "venue": "Faurot Field"
+  },
+  {
    "_slug": "columbia-college-women-s-soccer-vs-oklahoma-wesleyan-univers-8f2cce",
    "categories": [
     "sports"
@@ -1963,7 +2009,6 @@
    "category": "arts",
    "description": "Enjoy a Songwriters in the Round performance featuring members of the Compass Songwriters Club, a group for songwriters ages 11 and up who meet regularly to share songs, receive feedback, and develop their craft. Performers include Keira Bradley, Sam Snively-Schick, Staci Linthacum, Susannah Hooker…",
    "id": "97afd3f2dfc8c13d",
-   "imageUrl": "https://comoevent.com/img/gen/59d8cffaa74217.webp",
    "source": "baselocal",
    "start": "2026-11-21T18:00:00-06:00",
    "title": "Compass Songwriters Club Showcase",
@@ -2016,16 +2061,13 @@
    "venue": "Champions Drive"
   },
   {
-   "_slug": "ponies-improv-stripped-75585f",
-   "alsoOn": [
-    "https://allevents.in/columbia/ponies-improv-stripped/200030859813643"
-   ],
+   "_slug": "ponies-improv-stripped-8ddf72",
    "categories": [
     "arts"
    ],
    "category": "arts",
    "end": "2026-11-21T19:00:00-06:00",
-   "id": "75585f338b675add",
+   "id": "8ddf72a3c27201dd",
    "imageUrl": "https://tlt-events.s3.amazonaws.com/121484/2012795/1c7e5e3ba5a0a3663f63aefafb3d86a7d929e8f9346317c12fed68f010ef9cfe/26db6bd0-3fcf-46b3-a461-9f5e4ec11231.png",
    "price": "$11.55",
    "source": "talkinghorse",
@@ -2133,40 +2175,36 @@
    "venue": "Eastside Tavern"
   },
   {
-   "_slug": "the-host-ff1098",
+   "_slug": "the-host-e04cde",
    "alsoOn": [
-    "https://allevents.in/columbia/the-host/200031023437330",
-    "https://tockify.com/the.district.cid/detail/1453/1795314600000",
+    "https://ragtagcinema.org/film/the-host/",
     "https://baselocal.com/mo/columbia/events/#the-host"
    ],
    "categories": [
+    "food",
     "arts",
-    "family",
-    "food"
+    "family"
    ],
-   "category": "arts",
-   "description": "Film screening at Ragtag Cinema, Columbia's independent movie theater.",
-   "end": "2026-11-21T22:30:00-06:00",
-   "id": "ff10981aa20024b2",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy81ODE2MjgzNDc4ZTgxYWY4YzU4MWU5YWEyODFkMzZlMzBmYWQwMGIzNjBiYTBjZjA0NzYxYjBmOGFiMmNiM2U2LXJpbWctdzEyMDAtaDY3NS1kYzA4Nzg2OC1nbWlyP3Y9MTc5NDM5Njc1MA.avif",
-   "source": "ragtag",
+   "category": "food",
+   "description": "https://www.facebook.com/share/1E5eRGhvDu/ Gang-du (Song Kang-ho) sleepily works at a food stand on the banks of the Han River. When he brings a food delivery to a customer, he notices a sudden uproar over something hanging from the Han River Bridge. The quiet day on the riverbank quickly turns to p",
+   "end": "2026-11-21T23:00:00-06:00",
+   "id": "e04cded6122e36d9",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb5c8649b9323bd2f2b10e/scaled_1152.jpg",
+   "source": "district",
    "start": "2026-11-21T20:30:00-06:00",
    "title": "The Host",
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "hardcore-comedy-at-the-tokyo-club-d8e238",
-   "alsoOn": [
-    "https://allevents.in/columbia/live-hardcore-comedy-at-the-tokyo-club-columbias-own-lady-moe-joe/100002004322658025"
-   ],
+   "_slug": "hardcore-comedy-at-the-tokyo-club-8d59a9",
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "🎤 Hardcore Comedy at The Tokyo Club! Doors Open at 8:30 PM Show is at 9 PM 🔥 Crowd Work Special with Lady Moe Joe 🔥 Featuring: Zeb Balentine & Geoff Christy 🤣 No scripts. No filters. Just pure crowd interaction! Comics will be working the room, roasting, riffing, and turning your stories into comedy",
    "end": "2026-11-21T22:30:00-06:00",
-   "id": "d8e2388103eaeebf",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9lODU5MTFkOGUwNzcwZTBkYTViNDU0M2YwZWQwZTA2MjRhNmUyYmZhN2VlNDg0MWZmNzZhNmIzNDBhMTJlNDIwLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTM3ODI4ODE.avif",
+   "id": "8d59a9de53d08bf9",
+   "imageUrl": "https://comoevent.com/img/gen/127a68bdfaf6e8.webp",
    "source": "arcadedistrict",
    "start": "2026-11-21T21:00:00-06:00",
    "title": "Hardcore Comedy at The Tokyo Club",
@@ -2479,9 +2517,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
     "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
     "family",
@@ -2681,8 +2719,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
    ],
    "categories": [
     "music"

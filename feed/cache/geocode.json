@@ -286,6 +286,11 @@
   "lng": -92.324757,
   "name": null
  },
+ "1108 w ash st, columbia, mo": {
+  "lat": 38.9560391,
+  "lng": -92.3552251,
+  "name": null
+ },
  "1109 e broadway, columbia, mo 65201": {
   "lat": 38.9516316,
   "lng": -92.3249583,
@@ -1462,6 +1467,11 @@
   "lng": -92.3294792,
   "name": null
  },
+ "709 fay st, columbia, mo": {
+  "lat": 38.958721,
+  "lng": -92.3229408,
+  "name": null
+ },
  "7279 w rte k, columbia, mo": null,
  "7650 mo-163, columbia, mo 65203": {
   "lat": 38.8626355,
@@ -1705,6 +1715,7 @@
   "name": "First Watch"
  },
  "flat branch pub & brewing, columbia, mo": null,
+ "fleet feet fort wayne north, columbia, mo": null,
  "food bank market · 705 bus. loop 70 w., columbia, columbia, mo": {
   "lat": 38.9672802,
   "lng": -92.3479926,
