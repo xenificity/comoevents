@@ -2353,7 +2353,6 @@
    "description": "Everyone is welcome to share a free Thanksgiving meal with the community. Dine in, arrange pickup, or choose delivery within Columbia. Please RSVP so organizers can plan for everyone, and feel free to invite someone who could use a meal or would enjoy sharing one and connecting with others.",
    "end": "2026-11-22T14:30:00-06:00",
    "id": "4630d9d2863230dd",
-   "imageUrl": "https://comoevent.com/img/gen/3ae634e2ae6240.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-22T11:30:00-06:00",
@@ -2448,22 +2447,17 @@
    "venue": "Hexagon Alley"
   },
   {
-   "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
-   ],
+   "_slug": "lorcana-weekly-play-5a0a27",
    "categories": [
     "community"
    ],
    "category": "community",
-   "description": "The House of Mouse and Hexagon Alley collide at our Lorcana weekly play! Entry: $5 Format: Standard",
+   "description": "Enjoy weekly Lorcana play in Standard format. Entry is $5.",
    "end": "2026-11-22T16:00:00-06:00",
    "id": "5a0a276bd4fd7a6e",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab5536347d5d2eab1fcb662/scaled_1152.jpg",
-   "source": "district",
+   "source": "baselocal",
    "start": "2026-11-22T13:00:00-06:00",
-   "title": "Hexagon Alley Lorcana Weekly Play",
+   "title": "Lorcana Weekly Play",
    "venue": "Hexagon Alley"
   },
   {
@@ -2490,7 +2484,6 @@
    "description": "At these classes, make an easy shirt using your own measurements for a perfect fit. Learn to draft a pattern, highlight a favorite fabric and sew a finished, unique shirt. This class is for beginners who know how to sew a straight seam on a sewing machine. Most supplies provided; bring a sewing mach",
    "end": "2026-11-22T15:30:00-06:00",
    "id": "89e0ab3a72fb4a3e",
-   "imageUrl": "https://comoevent.com/img/gen/2d70089f46105d.webp",
    "price": "Free",
    "source": "dbrl",
    "start": "2026-11-22T13:30:00-06:00",
@@ -2514,7 +2507,6 @@
   {
    "_slug": "color-me-merry-66bb5a",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1461/1795377600000",
     "https://allevents.in/columbia/color-me-merry/100002004101275865"
    ],
    "categories": [
@@ -2534,9 +2526,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
    ],
    "categories": [
     "family",
@@ -2546,7 +2538,6 @@
    "description": "Celebrate the magic of the season with an afternoon of tea, treats, and Nutcracker fun! Join Columbia Ballet Academy and Mary Lee Johnson Community Learning Center for a festive family afternoon featuring a special dance performance, photos with beloved Nutcracker characters, ornament decorating for",
    "end": "2026-11-22T16:00:00-06:00",
    "id": "7a4b9981e9fb1741",
-   "imageUrl": "https://comoevent.com/img/gen/f2fdabc8acc991.webp",
    "source": "allevents",
    "start": "2026-11-22T14:00:00-06:00",
    "title": "Nutcracker Tea Party",
@@ -2755,8 +2746,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
    ],
    "categories": [
     "music"

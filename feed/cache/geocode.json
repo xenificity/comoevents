@@ -50,6 +50,11 @@
   "lng": -92.2953748,
   "name": "Panera Bread"
  },
+ "100 e sexton rd, columbia, mo": {
+  "lat": 38.95974,
+  "lng": -92.336829,
+  "name": null
+ },
  "100 s 9th st, columbia, mo": {
   "lat": 38.950353,
   "lng": -92.327442,
@@ -1192,6 +1197,11 @@
   "lng": -92.3266026,
   "name": null
  },
+ "4200 merchant st, columbia, mo": {
+  "lat": 38.932344,
+  "lng": -92.398555,
+  "name": null
+ },
  "4300 thornbrook ter, columbia, mo": {
   "lat": 38.8892917,
   "lng": -92.4014608,
@@ -1387,6 +1397,11 @@
   "lng": -92.3142719,
   "name": null
  },
+ "602 turner ave, columbia, mo": {
+  "lat": 38.94365,
+  "lng": -92.3315417,
+  "name": null
+ },
  "6033 n masonic dr ste a, columbia, mo 65202": null,
  "604 nebraska ave, columbia, mo 65201": {
   "lat": 38.9659768,
@@ -1552,6 +1567,11 @@
  "901 rollins st, columbia, mo": {
   "lat": 38.9422635,
   "lng": -92.3275158,
+  "name": null
+ },
+ "904 elm st, columbia, mo": {
+  "lat": 38.9484086,
+  "lng": -92.3274059,
   "name": null
  },
  "912 rain forest pkwy, columbia, mo": {
