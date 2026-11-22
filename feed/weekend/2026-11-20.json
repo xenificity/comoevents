@@ -2349,10 +2349,7 @@
    "venue": "Partner For Better"
   },
   {
-   "_slug": "thanksgiving-community-dinner-a1a16a",
-   "alsoOn": [
-    "https://allevents.in/columbia/thanksgiving-community-dinner/200030729478639"
-   ],
+   "_slug": "thanksgiving-community-dinner-4630d9",
    "categories": [
     "food",
     "religious"
@@ -2360,8 +2357,8 @@
    "category": "food",
    "description": "Everyone is welcome to share a free Thanksgiving meal with the community. Dine in, arrange pickup, or choose delivery within Columbia. Please RSVP so organizers can plan for everyone, and feel free to invite someone who could use a meal or would enjoy sharing one and connecting with others.",
    "end": "2026-11-22T14:30:00-06:00",
-   "id": "a1a16a168ad0a3a1",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9jNTU0ZTQxY2IyZjQ2YzI0NzIwMzk4OTFlNjIwNjY5OGNlNDY1ZDEwNDc4YjEwZDJlNTYxNjIzYzRlYWZhMjI2LXJpbWctdzEyMDAtaDE1NTItZGNmOGY4ZjgtZ21pcj92PTE3OTAxODE1MTk.avif",
+   "id": "4630d9d2863230dd",
+   "imageUrl": "https://comoevent.com/img/gen/3ae634e2ae6240.webp",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-22T11:30:00-06:00",
@@ -2541,19 +2538,20 @@
    "venue": "Wishflour Bakery"
   },
   {
-   "_slug": "nutcracker-tea-party-b514d0",
+   "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
     "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
    ],
    "categories": [
-    "arts",
-    "family"
+    "family",
+    "arts"
    ],
-   "category": "arts",
-   "description": "Celebrate the season with an afternoon of tea, treats, and Nutcracker-themed activities. The family gathering includes a dance performance, photo opportunities with Nutcracker characters, ornament decorating, a raffle, and additional holiday surprises. Proceeds support Columbia Ballet Academy and M…",
+   "category": "family",
+   "description": "Celebrate the magic of the season with an afternoon of tea, treats, and Nutcracker fun! Join Columbia Ballet Academy and Mary Lee Johnson Community Learning Center for a festive family afternoon featuring a special dance performance, photos with beloved Nutcracker characters, ornament decorating for",
    "end": "2026-11-22T16:00:00-06:00",
-   "id": "b514d08f62c2ee46",
+   "id": "7a4b9981e9fb1741",
    "imageUrl": "https://comoevent.com/img/gen/f2fdabc8acc991.webp",
    "source": "allevents",
    "start": "2026-11-22T14:00:00-06:00",
@@ -2763,8 +2761,8 @@
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
    "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000",
-    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037"
+    "https://allevents.in/columbia/intergenerational-rock-band-choir/210001527856037",
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
    ],
    "categories": [
     "music"
