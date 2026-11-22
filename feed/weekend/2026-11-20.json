@@ -1445,19 +1445,16 @@
   },
   {
    "_slug": "is-your-child-on-track-a7887c",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#is-your-child-on-track"
-   ],
    "categories": [
     "sports",
     "family"
    ],
    "category": "sports",
-   "description": "The Boone County Early Childhood Coalition offers a quick, free screening to assess your child's well-being and social-emotional health. For Boone County families with ages 2 mos. to 5 yrs.",
+   "description": "Boone County Early Childhood Coalition offers Boone County families a free, in-person screening for children ages 2 months to 5 years. The screening includes a 10-minute survey to assess a child’s well-being and social-emotional health. Afterward, BCECC staff will discuss the results and share reso…",
    "end": "2026-11-21T12:00:00-06:00",
    "id": "a7887cdb7b8097fb",
    "price": "Free",
-   "source": "dbrl",
+   "source": "baselocal",
    "start": "2026-11-21T10:00:00-06:00",
    "title": "Is Your Child on Track?",
    "venue": "Columbia Public Library"
@@ -1780,24 +1777,6 @@
    "venue": "Shanthi Mandir"
   },
   {
-   "_slug": "songs-steps-stories-0a1745",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#songs-steps-and-stories-a-native-american-cultural-experience"
-   ],
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "description": "Join us for a vibrant celebration of Native American culture with the Badhorse family from the American Indian Center of Springfield. This interactive program will feature traditional dancing, singing and regalia sharing, along with stories about the history and meaning behind these cultural traditi",
-   "end": "2026-11-21T15:00:00-06:00",
-   "id": "0a1745ad11d83dd2",
-   "price": "Free",
-   "source": "dbrl",
-   "start": "2026-11-21T14:00:00-06:00",
-   "title": "Songs, Steps & Stories",
-   "venue": "Columbia Public Library"
-  },
-  {
    "_slug": "songs-steps-stories-ce4ee1",
    "alsoOn": [
     "https://allevents.in/columbia/songs-steps-and-stories-a-native-american-cultural-experience/200030990705427",
@@ -1818,6 +1797,20 @@
    "venue": "Columbia Public Library"
   },
   {
+   "_slug": "songs-steps-stories-a-native-american-cultural-experience-0a1745",
+   "categories": [
+    "family"
+   ],
+   "category": "family",
+   "description": "Experience a celebration of Native American culture with the Badhorse family from the American Indian Center of Springfield. This interactive program features traditional dancing and singing, a sharing of regalia, and stories about the history and meaning behind these cultural traditions. Suitable…",
+   "end": "2026-11-21T15:00:00-06:00",
+   "id": "0a1745ad11d83dd2",
+   "source": "baselocal",
+   "start": "2026-11-21T14:00:00-06:00",
+   "title": "Songs, Steps & Stories: A Native American Cultural Experience",
+   "venue": "Columbia Public Library"
+  },
+  {
    "_slug": "the-daves-16b9ea",
    "categories": [
     "music"
@@ -1830,6 +1823,20 @@
    "start": "2026-11-21T14:00:00-06:00",
    "title": "The Daves",
    "venue": "Cooper's Landing"
+  },
+  {
+   "_slug": "the-little-mermaid-jr-95200d",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Based on Hans Christian Andersen’s story and the classic animated film, this musical follows Ariel, King Triton’s youngest daughter, as she dreams of life above the sea and pursues Prince Eric. She bargains with the sea witch Ursula to exchange her tail for legs, then relies on her friends Flounder…",
+   "end": "2026-11-21T15:30:00-06:00",
+   "id": "95200db3b00ae18e",
+   "source": "baselocal",
+   "start": "2026-11-21T14:00:00-06:00",
+   "title": "The Little Mermaid Jr",
+   "venue": "Launer Auditorium"
   },
   {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-1-45291c",
@@ -2133,18 +2140,14 @@
   },
   {
    "_slug": "ambient-sleeping-bag-party-e5215b",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#ambient-sleeping-bag-party"
-   ],
    "categories": [
-    "party"
+    "community"
    ],
-   "category": "party",
-   "description": "Bring your sleeping bag. We’re turning the studio into one big cozy floor party, turning the lights down low, and spending the night listening to ambient music together. Lie down. Sit up. Bring pillows. Bring blankets. Stretch. Zone out. Talk quietly. Don’t talk at all. Fall asleep if you want. Ther",
+   "category": "community",
+   "description": "Bring a sleeping bag, blanket, pillow, yoga mat, camping pad, or anything else that helps you make a comfortable nest on the floor. Settle in for an evening of ambient music in a cozy, dimly lit studio. Lie down, sit up, stretch, relax, talk quietly, or enjoy the music in silence. There is no agend…",
    "end": "2026-11-21T23:00:00-06:00",
    "id": "e5215bdda79b22bc",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb5e6949b9323bd20845b7/scaled_1152.jpg",
-   "source": "district",
+   "source": "baselocal",
    "start": "2026-11-21T20:00:00-06:00",
    "title": "Ambient Sleeping Bag Party",
    "venue": "Regulation CoMo"
@@ -2157,11 +2160,25 @@
    "category": "music",
    "end": "2026-11-21T23:00:00-06:00",
    "id": "de5fce89f873bc6b",
-   "imageUrl": "https://comoevent.com/img/gen/c047f14ae92db6.webp",
    "source": "divebar",
    "start": "2026-11-21T20:00:00-06:00",
    "title": "Dead Rose Radio",
    "venue": "Dive Bar"
+  },
+  {
+   "_slug": "hayden-coffman-90d933",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "with Bryce Mauldin",
+   "id": "90d9333f3c214eac",
+   "imageUrl": "https://rosemusichall.com/wp-content/uploads/sites/10/2026/08/HaydenCoffman-RMH-WEB.jpg",
+   "source": "bluenote",
+   "start": "2026-11-21T20:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/hayden-coffman-columbia-missouri-11-21-2026/event/0600651A8886389A",
+   "title": "Hayden Coffman",
+   "venue": "Rose Music Hall (Inside)"
   },
   {
    "_slug": "hayden-coffman-dcdb72",
@@ -2199,24 +2216,17 @@
   },
   {
    "_slug": "the-host-e04cde",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#the-host",
-    "https://ragtagcinema.org/film/the-host/"
-   ],
    "categories": [
-    "food",
-    "arts",
     "family"
    ],
-   "category": "food",
-   "description": "https://www.facebook.com/share/1E5eRGhvDu/ Gang-du (Song Kang-ho) sleepily works at a food stand on the banks of the Han River. When he brings a food delivery to a customer, he notices a sudden uproar over something hanging from the Han River Bridge. The quiet day on the riverbank quickly turns to p",
-   "end": "2026-11-21T23:00:00-06:00",
+   "category": "family",
+   "description": "A terrifying creature emerges from the Han River and attacks people, turning a quiet day into a panic. After Gang-du’s daughter is captured, his family makes a desperate plan to rescue her. Bong Joon Ho’s acclaimed creature feature returns to theaters in a 4K restoration, accompanied by an exclusiv…",
+   "end": "2026-11-23T18:00:00-06:00",
    "id": "e04cded6122e36d9",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb5c8649b9323bd2f2b10e/scaled_1152.jpg",
-   "source": "district",
+   "imageUrl": "https://comoevent.com/img/gen/71eaa76940540c.webp",
+   "source": "baselocal",
    "start": "2026-11-21T20:30:00-06:00",
-   "title": "The Host",
-   "venue": "Ragtag Cinema"
+   "title": "The Host"
   },
   {
    "_slug": "hardcore-comedy-at-the-tokyo-club-8d59a9",
@@ -2339,7 +2349,10 @@
    "venue": "Partner For Better"
   },
   {
-   "_slug": "thanksgiving-community-dinner-4630d9",
+   "_slug": "thanksgiving-community-dinner-a1a16a",
+   "alsoOn": [
+    "https://allevents.in/columbia/thanksgiving-community-dinner/200030729478639"
+   ],
    "categories": [
     "food",
     "religious"
@@ -2347,8 +2360,8 @@
    "category": "food",
    "description": "Everyone is welcome to share a free Thanksgiving meal with the community. Dine in, arrange pickup, or choose delivery within Columbia. Please RSVP so organizers can plan for everyone, and feel free to invite someone who could use a meal or would enjoy sharing one and connecting with others.",
    "end": "2026-11-22T14:30:00-06:00",
-   "id": "4630d9d2863230dd",
-   "imageUrl": "https://comoevent.com/img/gen/3ae634e2ae6240.webp",
+   "id": "a1a16a168ad0a3a1",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9jNTU0ZTQxY2IyZjQ2YzI0NzIwMzk4OTFlNjIwNjY5OGNlNDY1ZDEwNDc4YjEwZDJlNTYxNjIzYzRlYWZhMjI2LXJpbWctdzEyMDAtaDE1NTItZGNmOGY4ZjgtZ21pcj92PTE3OTAxODE1MTk.avif",
    "price": "Free",
    "source": "baselocal",
    "start": "2026-11-22T11:30:00-06:00",
@@ -2446,8 +2459,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
@@ -2528,9 +2541,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
    ],
    "categories": [
     "family",
@@ -2779,7 +2792,7 @@
   }
  ],
  "friday": "2026-11-20",
- "modified": "2026-11-21",
+ "modified": "2026-11-22",
  "picks": [
   "ad1db7d77a3bfdba",
   "57a71f09c56fb1c5",
