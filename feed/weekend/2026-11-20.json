@@ -2317,21 +2317,16 @@
    "venue": "Partner For Better"
   },
   {
-   "_slug": "annual-friends-family-sale-ab0996",
-   "alsoOn": [
-    "https://allevents.in/columbia/annual-friends-and-family-holiday-sale-at-poppy/200031059301051"
-   ],
+   "_slug": "annual-friends-family-holiday-sale-at-poppy-ab0996",
    "categories": [
     "family"
    ],
    "category": "family",
-   "description": "It’s the most wonderful time of the year at Poppy! Join us for our Annual Friends & Family Sale on Sunday, November 22rd, from 10a-4p! Nearly everything in the shop is discounted 20%, making it the perfect time to get started (or finish up) your holiday shopping. Grab your pals & meet us at the shop",
-   "end": "2026-11-22T16:00:00-06:00",
    "id": "ab0996057dfc246e",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb630049b9323bd237e6b1/scaled_1152.jpg",
-   "source": "district",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9kMTE5ZDVhZTUzYjlkMWUyMDUwODc3OGMwYmRiMTI3ZDI1YjU1NDFmOTNlMjg5M2NhMjIyOGY1MjczNmUxODllLXJpbWctdzEyMDAtaDkwMS1kY2Q4YzhhOC1nbWlyP3Y9MTc5NDg2MjEzMA.avif",
+   "source": "allevents",
    "start": "2026-11-22T10:00:00-06:00",
-   "title": "Annual Friends & Family Sale"
+   "title": "Annual Friends & Family Holiday Sale at Poppy! ✨"
   },
   {
    "_slug": "yoga-at-partner-for-better-4c2697",
@@ -2519,8 +2514,8 @@
   {
    "_slug": "color-me-merry-66bb5a",
    "alsoOn": [
-    "https://allevents.in/columbia/color-me-merry/100002004101275865",
-    "https://tockify.com/the.district.cid/detail/1461/1795377600000"
+    "https://tockify.com/the.district.cid/detail/1461/1795377600000",
+    "https://allevents.in/columbia/color-me-merry/100002004101275865"
    ],
    "categories": [
     "community"
@@ -2539,9 +2534,9 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
+    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9",
     "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
-    "https://columbiamo.macaronikid.com/events/6af77834d60940127e5b39d9"
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
    ],
    "categories": [
     "family",
