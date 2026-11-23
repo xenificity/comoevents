@@ -20,8 +20,8 @@
   {
    "_slug": "black-and-gold-friday-adf7a4",
    "alsoOn": [
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
    ],
    "categories": [
     "campus"
@@ -141,21 +141,20 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
     "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
    ],
    "categories": [
     "sports"
    ],
    "category": "sports",
-   "description": "Catch the Missouri Tigers in home action!",
+   "description": "Mizzou men’s basketball faces Arkansas-Pine Bluff at Mizzou Arena in Columbia, Missouri.",
    "end": "2026-11-27T17:00:00-06:00",
    "id": "ffec7844230d430c",
-   "imageUrl": "https://comoevent.com/img/gen/c02b73b871f6e1.webp",
+   "imageUrl": "https://comoevent.com/img/gen/fd78d742fd91b5.webp",
    "source": "mizzou",
    "start": "2026-11-27T15:00:00-06:00",
    "title": "Men’s Basketball - Missouri vs. Arkansas-Pine Bluff",
-   "venue": "Champions Drive"
+   "venue": "Mizzou Arena"
   },
   {
    "_slug": "borrowed-time-duo-861899",
@@ -319,8 +318,8 @@
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
     "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher"
    ],
    "categories": [
@@ -356,18 +355,16 @@
    "venue": "Ladybird Cafe"
   },
   {
-   "_slug": "dope-ass-sneakers-126315",
+   "_slug": "dope-ass-sneakers-f3c39a",
    "alsoOn": [
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
-    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
+    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
    ],
    "categories": [
     "music"
    ],
    "category": "music",
    "description": "Y107 Presents",
-   "end": "2026-11-27T23:00:00-06:00",
-   "id": "1263156d339f78ff",
+   "id": "f3c39a78fba8133e",
    "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/09/IntergenerationalChoir-TBN-WEB.jpg",
    "source": "bluenote",
    "start": "2026-11-27T20:00:00-06:00",
@@ -817,7 +814,6 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
     "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
@@ -826,11 +822,11 @@
    "category": "sports",
    "end": "2026-11-28T17:15:00-06:00",
    "id": "9005c7d040685dc3",
-   "imageUrl": "https://comoevent.com/img/gen/dc0696375eb987.webp",
+   "imageUrl": "https://comoevent.com/img/gen/f495e081618e5a.webp",
    "source": "mizzou",
    "start": "2026-11-28T15:15:00-06:00",
    "title": "Football - Missouri vs. Oklahoma",
-   "venue": "Champions Drive"
+   "venue": "Faurot Field at Memorial Stadium"
   },
   {
    "_slug": "free-horse-drawn-carriage-rides-9e9957",
@@ -1002,10 +998,9 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "jive-turkey-dj-dance-party-b24c0d",
+   "_slug": "jive-turkey-dj-dance-party-4fb158",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
+    "https://allevents.in/columbia/jive-turkey-dj-dance-party/200031054362827",
     "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
@@ -1015,11 +1010,11 @@
     "arts"
    ],
    "category": "party",
-   "description": "This night is directly inspired by Columbia’s most legendary club — the one and only Shattered. Goth, house, rave, synthpop, new wave, industrial, disco, and everything in between, with a heavy ’80s/’90s lens. Were you there? Or have you just heard about it? Obviously this is a multigenerational gat",
-   "end": "2026-11-28T23:00:00-06:00",
-   "id": "b24c0d3513930424",
+   "description": "Keep the post-Thanksgiving fun going with a DJ dance party. After a comedy set, guests can hit the dance floor and work off some pie, whether they love dancing or need a little encouragement.",
+   "end": "2026-11-29T00:00:00-06:00",
+   "id": "4fb158da857fc9bd",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8xMGFiMDI1ODMzZDQ0MDJjYTZmYWQ4MThhY2EyNmY5YzcwYWMyYTA5NGEyN2FjNmI3ODFmN2E1MTNkODE0M2ZjLXJpbWctdzEyMDAtaDE0ODktZGMwODA4MDgtZ21pcj92PTE3OTQ3ODM1MDc.avif",
-   "source": "allevents",
+   "source": "baselocal",
    "start": "2026-11-28T21:00:00-06:00",
    "title": "Jive Turkey DJ Dance Party",
    "venue": "Afterlife Lounge"
@@ -1116,8 +1111,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-52800c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#hexagon-alley-presents-lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#hexagon-alley-presents-lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -1278,10 +1273,10 @@
   "656e89edac5ba15d",
   "e0187442ab6d2090",
   "0ccf214e5d595ddb",
-  "1263156d339f78ff",
+  "f3c39a78fba8133e",
   "531c0eee4901177f",
   "540c0db06cf3d79e",
-  "b24c0d3513930424",
+  "4fb158da857fc9bd",
   "35a1fa495a32033f",
   "4a7ab46c4fe10944",
   "570ee1c6bd070a34"
