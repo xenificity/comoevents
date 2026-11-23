@@ -319,9 +319,9 @@
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959"
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts",
@@ -358,8 +358,8 @@
   {
    "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
-    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
+    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/",
+    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
    ],
    "categories": [
     "music"
@@ -817,8 +817,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
    ],
    "categories": [
     "sports"
@@ -1004,9 +1004,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
     "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
    ],
    "categories": [
     "party",
@@ -1116,8 +1116,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-52800c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#hexagon-alley-presents-lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#hexagon-alley-presents-lorcana-weekly-play"
    ],
    "categories": [
     "community"
