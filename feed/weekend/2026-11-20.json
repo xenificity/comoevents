@@ -1289,7 +1289,6 @@
    "description": "This clinic offers individualized instruction in dressage, show-jumping course work, gymnastics, and in-hand work for horses of all ages and levels, through Grand Prix. Sessions can be tailored to each participant’s needs. Virtual Holsteiner inspections are also planned for those who need an inspec…",
    "end": "2026-11-22T15:00:00-06:00",
    "id": "2bed711515ee6dd1",
-   "imageUrl": "https://comoevent.com/img/gen/ba129a71195610.webp",
    "source": "baselocal",
    "start": "2026-11-21T08:00:00-06:00",
    "title": "Andras Szieberth Clinic @ MMRC"
@@ -2539,8 +2538,8 @@
   {
    "_slug": "nutcracker-tea-party-7a4b99",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/",
-    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party",
+    "https://www.visitcolumbiamo.com/event/nutcracker-tea-party/"
    ],
    "categories": [
     "family",
@@ -2702,7 +2701,6 @@
    "description": "Hexagon Alley hosts an evening of dining and drag entertainment led by Artemis Grey. Advance admission is $12, or $15 at the door, and it includes access to multiple rounds of performances featuring Artemis Grey with special guests. Food and drinks are available for purchase from the Hexagon Alley…",
    "end": "2026-11-22T19:00:00-06:00",
    "id": "32d87d55a294b4e5",
-   "imageUrl": "https://comoevent.com/img/gen/c1bddd2d4589ba.webp",
    "source": "baselocal",
    "start": "2026-11-22T16:00:00-06:00",
    "title": "Dining in the Alley with Nclusion Plus",
@@ -2772,15 +2770,11 @@
   },
   {
    "_slug": "intergenerational-rock-band-choir-4f2ed0",
-   "alsoOn": [
-    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
-   ],
    "categories": [
     "music"
    ],
    "category": "music",
    "description": "Compass Inc. Presents",
-   "end": "2026-11-22T20:00:00-06:00",
    "id": "4f2ed08beaa676a8",
    "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/09/IntergenerationalChoir-TBN-WEB.jpg",
    "source": "bluenote",
