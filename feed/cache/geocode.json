@@ -29,6 +29,11 @@
   "lng": -92.3252124,
   "name": null
  },
+ "10 n garth ave, columbia, mo": {
+  "lat": 38.9517907,
+  "lng": -92.3388666,
+  "name": null
+ },
  "10 w nifong blvd #113, columbia, mo": {
   "lat": 38.9080487,
   "lng": -92.3395249,
@@ -148,6 +153,7 @@
   "name": "Rose Park"
  },
  "1016 artist alley, columbia, mo, united states, 65201": null,
+ "102 s main st, ashland, mo 65010": null,
  "102 stewart hall parker auditorium university of missouri columbia missouri united states, columbia, mo": null,
  "1020 e broadway, columbia, mo": {
   "lat": 38.9514185,
@@ -1371,6 +1377,11 @@
   "lat": 38.951686,
   "lng": -92.330597,
   "name": null
+ },
+ "601 e green meadows rd, columbia, mo": {
+  "lat": 38.9141021,
+  "lng": -92.3287576,
+  "name": "East Green Meadows Road"
  },
  "601 rangeline st, columbia, mo": {
   "lat": 38.9580087,
