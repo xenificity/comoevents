@@ -2556,6 +2556,24 @@
    "venue": "Columbia Ballet Academy"
   },
   {
+   "_slug": "nutcracker-tea-party-b514d0",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#nutcracker-tea-party"
+   ],
+   "categories": [
+    "arts",
+    "family"
+   ],
+   "category": "arts",
+   "description": "Celebrate the season with an afternoon of tea, treats, and Nutcracker-themed activities. The family gathering includes a dance performance, photo opportunities with Nutcracker characters, ornament decorating, a raffle, and additional holiday surprises. Proceeds support Columbia Ballet Academy and M…",
+   "end": "2026-11-22T16:00:00-06:00",
+   "id": "b514d08f62c2ee46",
+   "source": "allevents",
+   "start": "2026-11-22T14:00:00-06:00",
+   "title": "Nutcracker Tea Party",
+   "venue": "Columbia Ballet Academy"
+  },
+  {
    "_slug": "the-little-mermaid-jr-tryps-childrens-theater-show-3-7adc4c",
    "categories": [
     "arts",
@@ -2751,6 +2769,25 @@
    "start": "2026-11-22T16:45:00-06:00",
    "title": "Wild Horse Nine",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "intergenerational-rock-band-choir-4f2ed0",
+   "alsoOn": [
+    "https://tockify.com/the.district.cid/detail/1466/1795388400000"
+   ],
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Compass Inc. Presents",
+   "end": "2026-11-22T20:00:00-06:00",
+   "id": "4f2ed08beaa676a8",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/09/IntergenerationalChoir-TBN-WEB.jpg",
+   "source": "bluenote",
+   "start": "2026-11-22T18:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/intergenerational-rock-band-choir-columbia-missouri-11-22-2026/event/06006530CF05F0D4",
+   "title": "Intergenerational Rock Band Choir",
+   "venue": "The Blue Note"
   },
   {
    "_slug": "intergenerational-rock-band-choir-d1ea38",
