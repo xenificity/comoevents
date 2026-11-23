@@ -363,6 +363,11 @@
   "lng": -92.321448,
   "name": null
  },
+ "11805 e judy school rd, columbia, mo": {
+  "lat": 39.0072096,
+  "lng": -92.1523606,
+  "name": null
+ },
  "119 s 7th street, columbia, mo": {
   "lat": 38.9499513,
   "lng": -92.3300397,
@@ -1585,6 +1590,7 @@
   "lng": -92.3274059,
   "name": null
  },
+ "9105 n creekland dr, columbia, mo": null,
  "912 rain forest pkwy, columbia, mo": {
   "lat": 38.9886003,
   "lng": -92.3252891,
@@ -1966,6 +1972,7 @@
   "lng": -92.3249028,
   "name": "Range Free"
  },
+ "regrowth vintage, columbia, mo": null,
  "rji lambert room (200a), columbia, mo": null,
  "rji lambert room 200a s 9th st reynolds journalism institute columbia mo 65201 united states, columbia, mo": null,
  "rji palmer 100 (j-school), columbia, mo": null,
