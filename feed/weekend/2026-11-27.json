@@ -1,6 +1,18 @@
 {
  "events": [
   {
+   "_slug": "black-friday-sbs-cyber-monday-at-fringe-fb6506",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "fb65065d4275cdf6",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy80NmY4YWQzMmE5NWMwZTgwZmU2MDNmM2I1ODliOTY3YTg1YjU2MDNkNmMzNzFiYzQzN2E2ODc2OTFmOTBiN2VmLXJpbWctdzc5OC1oNDI2LWRjZThlOGU4LWdtaXI_dj0xNzk0OTQ0NDE2.avif",
+   "source": "allevents",
+   "start": "2026-11-27T07:00:00-06:00",
+   "title": "Black Friday, SBS & Cyber Monday at Fringe!"
+  },
+  {
    "_slug": "burn-the-bird-5k-abab05",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#burn-the-bird-5k"
@@ -20,7 +32,6 @@
   {
    "_slug": "black-and-gold-friday-adf7a4",
    "alsoOn": [
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
     "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
    ],
    "categories": [
@@ -141,8 +152,8 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
-    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
+    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff",
+    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/"
    ],
    "categories": [
     "sports"
@@ -318,9 +329,9 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
     "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher"
    ],
    "categories": [
@@ -368,7 +379,7 @@
    "description": "Y107 Presents",
    "end": "2026-11-27T23:00:00-06:00",
    "id": "1263156d339f78ff",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/09/IntergenerationalChoir-TBN-WEB.jpg",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/DopeAssSneakers-RP-Web.jpg",
    "source": "bluenote",
    "start": "2026-11-27T20:00:00-06:00",
    "ticketUrl": "https://www.ticketmaster.com/dope-ass-sneakers-columbia-missouri-11-27-2026/event/0600651F8C814B6D",
@@ -639,6 +650,18 @@
    "start": "2026-11-28T11:00:00-06:00",
    "title": "Kids Club Saturdays at Hexagon Alley",
    "venue": "Hexagon Alley"
+  },
+  {
+   "_slug": "small-business-saturday-2026-c172bd",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "c172bd94a9e8a4c6",
+   "imageUrl": "https://comoevent.com/img/gen/fb112fae927561.webp",
+   "source": "allevents",
+   "start": "2026-11-28T11:00:00-06:00",
+   "title": "Small Business Saturday 2026"
   },
   {
    "_slug": "commander-for-a-cause-ii-ca5437",
@@ -1004,9 +1027,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
     "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
     "party",
@@ -1116,8 +1139,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-52800c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#hexagon-alley-presents-lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#hexagon-alley-presents-lorcana-weekly-play"
    ],
    "categories": [
     "community"
