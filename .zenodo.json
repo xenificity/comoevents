@@ -1,0 +1,43 @@
+{
+  "title": "CoMo Events: a free, self-updating map of every public event in Columbia, Missouri",
+  "upload_type": "software",
+  "description": "<p>CoMo Events is a free iPhone app and web app (comoevent.com) that shows public events in Columbia, Missouri on one live map. A Python aggregator collects listings from dozens of public sources (venue websites, campus and city calendars, iCalendar feeds and event platforms), geocodes them, merges duplicates across sources and rebuilds the feed every two hours. The apps add smart search, a places guide, community-posted events, crowd-checked corrections (a change needs three independent reports) and shareable invites. It runs at no cost on GitHub Actions, GitHub Pages and a Cloudflare Worker.</p>",
+  "creators": [
+    {
+      "name": "Kumar, Ajay",
+      "affiliation": "University of Missouri",
+      "orcid": "0000-0002-9722-5649"
+    },
+    {
+      "name": "Jahagirdar, Parth",
+      "affiliation": "University of Missouri"
+    },
+    {
+      "name": "Addepalli, Anand",
+      "affiliation": "University of Missouri"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "local events",
+    "event aggregation",
+    "civic technology",
+    "community informatics",
+    "geocoding",
+    "mobile app",
+    "web app",
+    "Columbia, Missouri"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://comoevent.com",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://apps.apple.com/app/como-events/id6824363992",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}
