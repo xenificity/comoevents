@@ -45,8 +45,8 @@
   <url><loc>https://comoevent.com/venues/fine-arts-building/</loc></url>
   <url><loc>https://comoevent.com/venues/rock-bridge-high-school-performing-arts-center/</loc></url>
   <url><loc>https://comoevent.com/venues/cafe-berlin-2/</loc></url>
-  <url><loc>https://comoevent.com/venues/teaching-for-learning-center/</loc></url>
   <url><loc>https://comoevent.com/venues/columbia-college/</loc></url>
+  <url><loc>https://comoevent.com/venues/teaching-for-learning-center/</loc></url>
   <url><loc>https://comoevent.com/venues/ladybird-cafe/</loc></url>
   <url><loc>https://comoevent.com/venues/mizzou-arena/</loc></url>
   <url><loc>https://comoevent.com/venues/mizzourec/</loc></url>
@@ -110,7 +110,6 @@
   <url><loc>https://comoevent.com/venues/405-e-nifong-blvd/</loc></url>
   <url><loc>https://comoevent.com/venues/5th-street-christian-church/</loc></url>
   <url><loc>https://comoevent.com/venues/activity-recreation-center-arc/</loc></url>
-  <url><loc>https://comoevent.com/venues/addison-s-south/</loc></url>
   <url><loc>https://comoevent.com/venues/afterlife-lounge/</loc></url>
   <url><loc>https://comoevent.com/venues/applebee-s-grill-bar/</loc></url>
   <url><loc>https://comoevent.com/venues/arc-activity-recreation-center/</loc></url>
@@ -176,6 +175,7 @@
   <url><loc>https://comoevent.com/venues/soundcheck-practice-studios/</loc></url>
   <url><loc>https://comoevent.com/venues/south-farm/</loc></url>
   <url><loc>https://comoevent.com/venues/southside-pizza-pub/</loc></url>
+  <url><loc>https://comoevent.com/venues/stadium-blvd/</loc></url>
   <url><loc>https://comoevent.com/venues/stewart-hall-room-209/</loc></url>
   <url><loc>https://comoevent.com/venues/stotler-lounge-in-memorial-union/</loc></url>
   <url><loc>https://comoevent.com/venues/student-center-2206bc/</loc></url>
@@ -227,12 +227,11 @@
   <url><loc>https://comoevent.com/e/american-red-cross-blood-drive-c36a2d/</loc></url>
   <url><loc>https://comoevent.com/e/bling-your-bag-7331f7/</loc></url>
   <url><loc>https://comoevent.com/e/columbia-mo-london-calling-pasty-food-truck-1st-visit-87fa59/</loc></url>
-  <url><loc>https://comoevent.com/e/epic-professional-development-lunch-the-columbia-housing-mar-ec70ef/</loc></url>
   <url><loc>https://comoevent.com/e/bookmobile-stop-at-hallsville-3877a0/</loc></url>
   <url><loc>https://comoevent.com/e/being-heumann-343f97/</loc></url>
   <url><loc>https://comoevent.com/e/device-advice-and-tech-help-drop-in-40c085/</loc></url>
   <url><loc>https://comoevent.com/e/saturday-market-winter-dcd3b9/</loc></url>
-  <url><loc>https://comoevent.com/e/thanksgiving-market-1ce785/</loc></url>
+  <url><loc>https://comoevent.com/e/thanksgiving-market-at-columbia-farmers-market-1ce785/</loc></url>
   <url><loc>https://comoevent.com/e/wild-horse-nine-807794/</loc></url>
   <url><loc>https://comoevent.com/e/smash-dash-e66f50/</loc></url>
   <url><loc>https://comoevent.com/e/mtg-commander-night-616e55/</loc></url>
@@ -256,6 +255,7 @@
   <url><loc>https://comoevent.com/e/radiant-moon-1d05dd/</loc></url>
   <url><loc>https://comoevent.com/e/tap-beginner-i-dd508f/</loc></url>
   <url><loc>https://comoevent.com/e/the-as-yet-unnamed-comedy-show-at-eastside-tavern-66a70c/</loc></url>
+  <url><loc>https://comoevent.com/e/2026-27-mizzou-men-s-basketball-v-evansville-d92ee4/</loc></url>
   <url><loc>https://comoevent.com/e/mens-basketball-missouri-vs-evansville-8c324d/</loc></url>
   <url><loc>https://comoevent.com/e/being-heumann-eb0338/</loc></url>
   <url><loc>https://comoevent.com/e/wild-horse-nine-220087/</loc></url>
@@ -281,6 +281,7 @@
   <url><loc>https://comoevent.com/e/riftbound-nexus-night-89f2dc/</loc></url>
   <url><loc>https://comoevent.com/e/steak-night-w-mandalyn-a48582/</loc></url>
   <url><loc>https://comoevent.com/e/tabletop-miniatures-game-night-3d8122/</loc></url>
+  <url><loc>https://comoevent.com/e/2026-candy-cane-crib-lighting-ceremony-e101ee/</loc></url>
   <url><loc>https://comoevent.com/e/mahjong-open-play-3d6561/</loc></url>
   <url><loc>https://comoevent.com/e/trivia-with-tommy-b24ea0/</loc></url>
   <url><loc>https://comoevent.com/e/you-can-see-everything-c8d67a/</loc></url>
@@ -1542,4 +1543,8 @@
   <url><loc>https://comoevent.com/e/bottomless-mimosas-at-gunter-hans-bb27e6/</loc></url>
   <url><loc>https://comoevent.com/e/kids-club-saturdays-at-hexagon-alley-143f83/</loc></url>
   <url><loc>https://comoevent.com/e/riftbound-legacy-pre-rift-681bfd/</loc></url>
+  <url><loc>https://comoevent.com/e/star-wars-unlimited-weekly-play-premiere-format-ba5659/</loc></url>
+  <url><loc>https://comoevent.com/e/columbia-college-women-s-basketball-at-stephens-college-420034/</loc></url>
+  <url><loc>https://comoevent.com/e/daggerheart-rpg-open-play-04afd9/</loc></url>
+  <url><loc>https://comoevent.com/e/bhagwad-gita-class-6cabd7/</loc></url>
 </urlset>

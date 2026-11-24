@@ -4,9 +4,9 @@
    "_slug": "black-friday-small-business-saturday-at-regrowth-vintage-5ef763",
    "allDay": true,
    "alsoOn": [
+    "https://allevents.in/columbia/black-friday/200031112497336",
     "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
-    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026-vip-shopping-experience-and-soft-sultry-winter-collection-launch-columbia",
-    "https://allevents.in/columbia/black-friday/200031112497336"
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026-vip-shopping-experience-and-soft-sultry-winter-collection-launch-columbia"
    ],
    "categories": [
     "family"
@@ -176,8 +176,8 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
-    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
+    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff",
+    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/"
    ],
    "categories": [
     "sports"
@@ -383,10 +383,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959"
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts",
@@ -530,14 +530,19 @@
   },
   {
    "_slug": "2026-mizzou-football-v-oklahoma-085793",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-v-oklahoma"
+   ],
    "categories": [
-    "sports"
+    "sports",
+    "family"
    ],
    "category": "sports",
-   "description": "Mizzou Football faces Oklahoma at Faurot Field in Columbia.",
+   "description": "Children ages 2 and under receive free admission and do not require a ticket, provided they are seated on a parent or guardian lap. 2026 Mizzou Fo…",
+   "end": "2026-11-28T01:00:00-06:00",
    "id": "0857936129224a95",
    "imageUrl": "https://comoevent.com/img/gen/3e0da701f70e4a.webp",
-   "source": "baselocal",
+   "source": "macaronikid",
    "start": "2026-11-28T00:00:00-06:00",
    "title": "2026 Mizzou Football v Oklahoma",
    "venue": "Faurot Field"
@@ -646,8 +651,8 @@
   {
    "_slug": "holiday-wreath-making-classes-four-oaks-farm-10am-92d58c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes-four-oaks-farm",
-    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030"
+    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030",
+    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes-four-oaks-farm"
    ],
    "categories": [
     "community"
@@ -917,8 +922,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
     "sports"
@@ -1164,8 +1169,8 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
     "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
     "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
    ],
    "categories": [

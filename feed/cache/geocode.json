@@ -1276,6 +1276,11 @@
   "lng": -92.338873,
   "name": null
  },
+ "504 fay st, columbia, mo 65201": {
+  "lat": 38.9570864,
+  "lng": -92.3226501,
+  "name": null
+ },
  "505 east nifong blvd, columbia, mo 65203": {
   "lat": 38.9110308,
   "lng": -92.3319109,
@@ -1371,6 +1376,11 @@
  },
  "5901 s highway 163, columbia, mo": null,
  "5901 s highway 163, columbia, mo 65203": null,
+ "600 e stadium blvd, columbia, mo 65211": {
+  "lat": 38.9339574,
+  "lng": -92.3177079,
+  "name": null
+ },
  "6000 n oneal rd, columbia, missouri, 65202": null,
  "601 business loop 70 w, columbia, mo columbia, mo 65203": {
   "lat": 38.9668725,
@@ -2014,6 +2024,11 @@
  },
  "st louis union station hotel 1820 market st  st louis mo 63103 united states, columbia, mo": null,
  "st. louis union station hotel, columbia, mo": null,
+ "stadium blvd, columbia, mo": {
+  "lat": 38.9604991,
+  "lng": -92.3712106,
+  "name": "North Stadium Boulevard"
+ },
  "starbucks – broadway bluffs, columbia, mo": null,
  "state historical society of missouri, columbia, mo": null,
  "stewart hall columbia mo, columbia, mo": {
