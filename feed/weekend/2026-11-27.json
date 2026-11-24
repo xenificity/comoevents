@@ -5,8 +5,8 @@
    "allDay": true,
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
-    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026-vip-shopping-experience-and-soft-sultry-winter-collection-launch-columbia",
-    "https://allevents.in/columbia/black-friday/200031112497336"
+    "https://allevents.in/columbia/black-friday/200031112497336",
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026-vip-shopping-experience-and-soft-sultry-winter-collection-launch-columbia"
    ],
    "categories": [
     "family"
@@ -382,10 +382,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
+    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
     "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
-    "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://thearcadedistrict.org/"
+    "https://baselocal.com/mo/columbia/events/#stand-up-comedy"
    ],
    "categories": [
     "arts",
@@ -1160,8 +1160,8 @@
   {
    "_slug": "jive-turkey-dj-dance-party-4fb158",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
-    "https://allevents.in/columbia/jive-turkey-dj-dance-party/200031054362827"
+    "https://allevents.in/columbia/jive-turkey-dj-dance-party/200031054362827",
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
     "party",
@@ -1299,8 +1299,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-52800c",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#hexagon-alley-presents-lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#hexagon-alley-presents-lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
