@@ -4,9 +4,9 @@
    "_slug": "black-friday-small-business-saturday-at-regrowth-vintage-5ef763",
    "allDay": true,
    "alsoOn": [
-    "https://allevents.in/columbia/black-friday/200031112497336",
+    "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
     "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026-vip-shopping-experience-and-soft-sultry-winter-collection-launch-columbia",
-    "https://baselocal.com/mo/columbia/events/#black-friday-open-play"
+    "https://allevents.in/columbia/black-friday/200031112497336"
    ],
    "categories": [
     "family"
@@ -383,9 +383,9 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
     "https://thearcadedistrict.org/",
+    "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
     "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959"
    ],
    "categories": [
@@ -930,8 +930,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
    ],
    "categories": [
     "sports"
@@ -1177,8 +1177,8 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
     "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
     "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
    ],
    "categories": [
@@ -1552,7 +1552,7 @@
   }
  ],
  "friday": "2026-11-27",
- "modified": "2026-11-23",
+ "modified": "2026-11-24",
  "picks": [
   "656e89edac5ba15d",
   "e0187442ab6d2090",

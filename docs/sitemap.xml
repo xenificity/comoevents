@@ -49,6 +49,7 @@
   <url><loc>https://comoevent.com/venues/columbia-college/</loc></url>
   <url><loc>https://comoevent.com/venues/ladybird-cafe/</loc></url>
   <url><loc>https://comoevent.com/venues/mizzou-arena/</loc></url>
+  <url><loc>https://comoevent.com/venues/mizzourec/</loc></url>
   <url><loc>https://comoevent.com/venues/museum-of-art-and-archaeology/</loc></url>
   <url><loc>https://comoevent.com/venues/tate-hall-110/</loc></url>
   <url><loc>https://comoevent.com/venues/the-district/</loc></url>
@@ -59,7 +60,6 @@
   <url><loc>https://comoevent.com/venues/hickman-high-school/</loc></url>
   <url><loc>https://comoevent.com/venues/lions-club-park/</loc></url>
   <url><loc>https://comoevent.com/venues/macklanburg-playhouse/</loc></url>
-  <url><loc>https://comoevent.com/venues/mizzourec/</loc></url>
   <url><loc>https://comoevent.com/venues/new-heights-church-parking-lot/</loc></url>
   <url><loc>https://comoevent.com/venues/north-moser-s-foods-parking-lot/</loc></url>
   <url><loc>https://comoevent.com/venues/pierpont-general-store/</loc></url>
@@ -213,10 +213,9 @@
   <url><loc>https://comoevent.com/weekend-guide/2026-11-13/</loc></url>
   <url><loc>https://comoevent.com/weekend-guide/2026-11-20/</loc></url>
   <url><loc>https://comoevent.com/weekend-guide/2026-11-27/</loc></url>
-  <url><loc>https://comoevent.com/e/dead-rose-radio-de5fce/</loc></url>
   <url><loc>https://comoevent.com/e/sunday-bingo-c90709/</loc></url>
   <url><loc>https://comoevent.com/e/dive-bar-whiskey-club-tickets-required-009db3/</loc></url>
-  <url><loc>https://comoevent.com/e/health-insurance-marketplace-medicaid-4348ba/</loc></url>
+  <url><loc>https://comoevent.com/e/health-insurance-marketplace-medicaid-open-enrollment-assist-4348ba/</loc></url>
   <url><loc>https://comoevent.com/e/baby-story-play-time-8d500b/</loc></url>
   <url><loc>https://comoevent.com/e/thankful-thanksgiving-2bbcf2/</loc></url>
   <url><loc>https://comoevent.com/e/magic-monday-night-casual-commander-a841dd/</loc></url>
@@ -753,6 +752,7 @@
   <url><loc>https://comoevent.com/e/device-advice-and-tech-help-drop-in-f19b5a/</loc></url>
   <url><loc>https://comoevent.com/e/u-s-air-force-band-of-mid-america-q-a-session-for-students-f-746725/</loc></url>
   <url><loc>https://comoevent.com/e/smash-dash-93889a/</loc></url>
+  <url><loc>https://comoevent.com/e/abba-arms-with-tigerx-6e305a/</loc></url>
   <url><loc>https://comoevent.com/e/mtg-commander-night-4a2347/</loc></url>
   <url><loc>https://comoevent.com/e/chess-play-learn-7ccaed/</loc></url>
   <url><loc>https://comoevent.com/e/yoga-at-partner-for-better-d36dde/</loc></url>
@@ -1338,6 +1338,7 @@
   <url><loc>https://comoevent.com/e/columbia-college-men-s-basketball-vs-hannibal-lagrange-unive-b89a1d/</loc></url>
   <url><loc>https://comoevent.com/e/the-as-yet-unnamed-comedy-show-at-eastside-tavern-b39b62/</loc></url>
   <url><loc>https://comoevent.com/e/mens-basketball-missouri-vs-texas-a-m-0796f0/</loc></url>
+  <url><loc>https://comoevent.com/e/as-yet-unnamed-comedy-show-free-open-mic-ccf396/</loc></url>
   <url><loc>https://comoevent.com/e/quest-day-express-30abef/</loc></url>
   <url><loc>https://comoevent.com/e/bookmobile-stop-at-north-rangeline-d2b31b/</loc></url>
   <url><loc>https://comoevent.com/e/health-insurance-marketplace-medicaid-e0aba1/</loc></url>
@@ -1538,4 +1539,5 @@
   <url><loc>https://comoevent.com/e/mo-funk-fest-9c79bc/</loc></url>
   <url><loc>https://comoevent.com/e/2026-emerging-artist-winners-gala-concert-997c75/</loc></url>
   <url><loc>https://comoevent.com/e/karaoke-at-eastside-tavern-466eac/</loc></url>
+  <url><loc>https://comoevent.com/e/track-field-missouri-vs-bob-teel-invitational-207580/</loc></url>
 </urlset>
