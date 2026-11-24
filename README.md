@@ -1,5 +1,7 @@
 # CoMo Events
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24486569.svg)](https://doi.org/10.5281/zenodo.24486569)
+
 A free iOS app that puts every public event in Columbia, Missouri on one map.
 Pins cluster into "busy areas" (cluster size adapts to zoom), a time switch
 (Now / Today / Weekend / 7 days / All) and a "who's it for" switch
@@ -218,3 +220,12 @@ Submitted to App Review on Oct 18, 2026 (App Store Connect app ID 6824363992, ve
 iPhone only). TestFlight internal group "Developer" carries the same build. CloudKit schema is deployed
 to Production. Not yet: Apple token revocation on account deletion (needs a tiny server), iPad layout,
 push notifications, user-submitted events, a real "busy right now" signal beyond event counts.
+
+## How to cite
+
+Kumar, A., Jahagirdar, P., & Addepalli, A. (2026). CoMo Events: a free, self-updating map of every public event
+in Columbia, Missouri (Version v1.3.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24486569
+
+## License
+
+Code: MIT (see `LICENSE`). Event listings and other third-party content are not covered; see `NOTICE`.
