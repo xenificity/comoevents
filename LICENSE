@@ -19,13 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
--------------------------------------------------------------------------------
-Third-party content (not covered by the license above)
-
-Event listings, descriptions, photos and venue details in feed/, docs/ and
-CoMoEvents/Resources/ are collected from public websites and remain the
-property of their organizers and sources. Community-posted events belong to
-the people who posted them. Twemoji graphics in feed/assets/twemoji/ are
-(c) Twitter, Inc. and other contributors, licensed under CC-BY 4.0.
-The CoMo Events name and app icon are not licensed for reuse.
