@@ -4,9 +4,9 @@
    "_slug": "black-friday-small-business-saturday-at-regrowth-vintage-5ef763",
    "allDay": true,
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
+    "https://allevents.in/columbia/black-friday/200031112497336",
     "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026-vip-shopping-experience-and-soft-sultry-winter-collection-launch-columbia",
-    "https://allevents.in/columbia/black-friday/200031112497336"
+    "https://baselocal.com/mo/columbia/events/#black-friday-open-play"
    ],
    "categories": [
     "family"
@@ -176,8 +176,8 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff",
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/"
+    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
+    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
    ],
    "categories": [
     "sports"
@@ -383,10 +383,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959"
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts",
@@ -423,8 +423,8 @@
   {
    "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
-    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
+    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/",
+    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
    ],
    "categories": [
     "music"
@@ -646,8 +646,8 @@
   {
    "_slug": "holiday-wreath-making-classes-four-oaks-farm-10am-92d58c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes-four-oaks-farm",
-    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030"
+    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030",
+    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes-four-oaks-farm"
    ],
    "categories": [
     "community"
@@ -753,19 +753,6 @@
    "start": "2026-11-28T12:00:00-06:00",
    "title": "Friends of the Columbia Public Library Lobby Book Sale",
    "venue": "Columbia Public Library"
-  },
-  {
-   "_slug": "one-thousandth-day-689d20",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "689d202084403981",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9jYTFjNDU5ZWI4MzhhMGFmNWFkMWFhMDFhOWE5NzgyMTcxYWIyMmU0ZWQ4N2ZiZWMwNjc2YTY1ZTM5MTg2N2U1LXJpbWctdzEyMDAtaDkwMC1kYzU4Njg2OC1nbWlyP3Y9MTc5NTE4MjU5Nw.avif",
-   "source": "allevents",
-   "start": "2026-11-28T12:15:00-06:00",
-   "title": "One Thousandth Day!",
-   "venue": "City Hall"
   },
   {
    "_slug": "intuitive-tarot-readings-w-aubrey-turner-c28604",
@@ -1177,9 +1164,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
     "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
     "party",
@@ -1317,8 +1304,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-52800c",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#hexagon-alley-presents-lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#hexagon-alley-presents-lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
