@@ -20,8 +20,8 @@
    "allDay": true,
    "alsoOn": [
     "https://allevents.in/columbia/black-friday/200031112497336",
-    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026-vip-shopping-experience-and-soft-sultry-winter-collection-launch-columbia",
-    "https://baselocal.com/mo/columbia/events/#black-friday-open-play"
+    "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026-vip-shopping-experience-and-soft-sultry-winter-collection-launch-columbia"
    ],
    "categories": [
     "family"
@@ -127,6 +127,18 @@
    "start": "2026-11-27T09:30:00-06:00",
    "title": "Lakshmi Abhishekam",
    "venue": "Shanthi Mandir"
+  },
+  {
+   "_slug": "christmas-tree-lot-2fbc10",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "2fbc107c6592a264",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy84MmZlN2QzMWMyOWE4ZjJlN2Q2NmQyZTYxNGNmZjZlNDVhN2YwODIyZjJhZjhlMDU3M2U1Nzg2MDU4YjNiZTBmLXJpbWctdzk2MC1oNTAzLWRjMTgyODE4LWdtaXI_dj0xNzk1NTg0MDA5.avif",
+   "source": "allevents",
+   "start": "2026-11-27T10:00:00-06:00",
+   "title": "Christmas Tree Lot"
   },
   {
    "_slug": "study-abroad-walk-in-advising-e80c12",
@@ -398,10 +410,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
+    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
-    "https://thearcadedistrict.org/"
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959"
    ],
    "categories": [
     "arts",
@@ -438,8 +450,8 @@
   {
    "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/",
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
+    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
+    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
    ],
    "categories": [
     "music"
@@ -937,8 +949,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
     "sports"
@@ -1056,15 +1068,18 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "live-stand-up-comedy-e2873c",
+   "_slug": "live-stand-up-comedy-549b1e",
+   "alsoOn": [
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-jack-wright/100002004324431329"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Jack Wright, named “St. Louis’ Funniest” by Helium Comedy Club in 2024, brings sharp, authentic stand-up shaped by his experiences and candid observations. He performs and hosts across the St. Louis comedy scene, including at Helium, the Funny Bone, and City Winery, and has opened for bigger-name c…",
    "end": "2026-11-28T21:00:00-06:00",
-   "id": "e2873c4e79d1b017",
-   "imageUrl": "https://comoevent.com/img/gen/20050e5eb60aaf.webp",
+   "id": "549b1ee4bf56912b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8wNDMzNTU0Zjg4YmM1NTBiMmQyNGQ0ZjA1MmQ3MjdjNTQxNGY3ZmNlM2VjNzdiOTRjZTU3OTI4OTdlMWNjMDcxLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTM3ODQyNTk.avif",
    "source": "baselocal",
    "start": "2026-11-28T19:30:00-06:00",
    "title": "Live Stand-Up Comedy",
@@ -1181,9 +1196,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
     "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
     "party",
