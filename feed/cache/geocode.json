@@ -1376,6 +1376,11 @@
  },
  "5901 s highway 163, columbia, mo": null,
  "5901 s highway 163, columbia, mo 65203": null,
+ "5901 s river hills rd, columbia, mo 65203": {
+  "lat": 38.8844951,
+  "lng": -92.4045596,
+  "name": null
+ },
  "600 e stadium blvd, columbia, mo 65211": {
   "lat": 38.9339574,
   "lng": -92.3177079,
