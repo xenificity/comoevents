@@ -19,9 +19,9 @@
    "_slug": "black-friday-small-business-saturday-at-regrowth-vintage-5ef763",
    "allDay": true,
    "alsoOn": [
-    "https://allevents.in/columbia/black-friday/200031112497336",
     "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
-    "https://baselocal.com/mo/columbia/events/#black-friday-open-play"
+    "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
+    "https://allevents.in/columbia/black-friday/200031112497336"
    ],
    "categories": [
     "family"
@@ -67,8 +67,8 @@
   {
    "_slug": "black-and-gold-friday-adf7a4",
    "alsoOn": [
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
    ],
    "categories": [
     "campus"
@@ -125,18 +125,6 @@
    "start": "2026-11-27T09:30:00-06:00",
    "title": "Lakshmi Abhishekam",
    "venue": "Shanthi Mandir"
-  },
-  {
-   "_slug": "christmas-tree-lot-2fbc10",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "2fbc107c6592a264",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy84MmZlN2QzMWMyOWE4ZjJlN2Q2NmQyZTYxNGNmZjZlNDVhN2YwODIyZjJhZjhlMDU3M2U1Nzg2MDU4YjNiZTBmLXJpbWctdzk2MC1oNTAzLWRjMTgyODE4LWdtaXI_dj0xNzk1NTg0MDA5.avif",
-   "source": "allevents",
-   "start": "2026-11-27T10:00:00-06:00",
-   "title": "Christmas Tree Lot"
   },
   {
    "_slug": "study-abroad-walk-in-advising-e80c12",
@@ -201,8 +189,8 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
-    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
+    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff",
+    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/"
    ],
    "categories": [
     "sports"
@@ -408,10 +396,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
     "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
-    "https://baselocal.com/mo/columbia/events/#curt-fletcher"
+    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts",
@@ -421,7 +409,7 @@
    "description": "Curt Fletcher brings razor-sharp one-liners and clever, original stand-up having shared stages with names like Theo Von and Jim Norton",
    "end": "2026-11-27T21:00:00-06:00",
    "id": "0ccf214e5d595ddb",
-   "imageUrl": "https://comoevent.com/img/gen/p-e65ce2f81a45fd.webp",
+   "imageUrl": "https://comoevent.com/img/gen/p-e0ab2150174285.webp",
    "source": "eventbrite",
    "start": "2026-11-27T19:30:00-06:00",
    "ticketUrl": "https://www.eventbrite.com/e/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-tickets-2004313608959",
@@ -448,8 +436,8 @@
   {
    "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/",
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
+    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
+    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
    ],
    "categories": [
     "music"
@@ -897,15 +885,18 @@
    "venue": "Shanthi Mandir"
   },
   {
-   "_slug": "crafternoon-327934",
+   "_slug": "crafternoon-9aff57",
+   "alsoOn": [
+    "https://allevents.in/columbia/crafternoon/200031129828815"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Crafternoon is a weekly open crafting hangout at Ladybird. Bring a project you’re already working on, browse the free craft supplies, or choose from optional paid projects. Collage Without a Cause is available each week, with magazines, scissors, glue, and other supplies for creating whatever you l…",
    "end": "2026-11-28T18:00:00-06:00",
-   "id": "3279349349f3c6b3",
-   "imageUrl": "https://comoevent.com/img/gen/f85c81eec86e6c.webp",
+   "id": "9aff578248593e04",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy84YmE2MDRjOWEwODM2MmJhMjg0NWIxMmVmYmNiOTFkZTYyNTlmMmY2NjMxZmJiY2UzYTU2YWY5N2RkODdkMDkzLXJpbWctdzEyMDAtaDY3Ni1kY2Y4ZDg1OC1nbWlyP3Y9MTc5NTYwNzc3NA.avif",
    "source": "baselocal",
    "start": "2026-11-28T15:00:00-06:00",
    "title": "Crafternoon",
@@ -947,8 +938,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
     "sports"
@@ -1210,8 +1201,8 @@
   {
    "_slug": "jive-turkey-dj-dance-party-4fb158",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
-    "https://allevents.in/columbia/jive-turkey-dj-dance-party/200031054362827"
+    "https://allevents.in/columbia/jive-turkey-dj-dance-party/200031054362827",
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
     "party",
@@ -1349,8 +1340,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
@@ -1445,8 +1436,8 @@
   {
    "_slug": "collage-without-a-cause-cc69cf",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause",
-    "https://allevents.in/columbia/collage-without-a-cause/200031047892950"
+    "https://allevents.in/columbia/collage-without-a-cause/200031047892950",
+    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause"
    ],
    "categories": [
     "community"
