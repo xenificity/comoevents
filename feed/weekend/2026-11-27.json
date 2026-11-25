@@ -51,15 +51,18 @@
    "title": "THANKSGIVING GRIND CAMP"
   },
   {
-   "_slug": "burn-the-bird-5k-f6f387",
+   "_slug": "burn-the-bird-5k-abab05",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#burn-the-bird-5k"
+   ],
    "categories": [
     "sports"
    ],
    "category": "sports",
    "description": "Kick off Black Friday shopping weekend with a fun, untimed 5K run. After the run, participants can enjoy complimentary refreshments, enter a raffle for prizes, and get an early look at the store’s Black Friday and Small Business Holiday shopping specials.",
-   "id": "f6f3876c1683fcc1",
-   "imageUrl": "https://comoevent.com/img/gen/86683fa72b4b73.webp",
-   "source": "baselocal",
+   "id": "abab053195d52038",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNmE0ZGIyMTM2NWU1N2M0ZjYwODljNmU5MmJhN2E4ZTNjZGUzOTFmNDYzMTQ0NGU4NzBiMzQ1YmM1MjdlY2YyOC1yaW1nLXcxMTc5LWg3NzgtZGNmOGY4ZjgtZ21pcj92PTE3OTQ1MjUyNDM.avif",
+   "source": "allevents",
    "start": "2026-11-27T08:00:00-06:00",
    "title": "Burn the Bird 5K",
    "venue": "Fleet Feet Fort Wayne North"
@@ -67,8 +70,8 @@
   {
    "_slug": "black-and-gold-friday-adf7a4",
    "alsoOn": [
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
    ],
    "categories": [
     "campus"
@@ -201,20 +204,21 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
     "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
    ],
    "categories": [
     "sports"
    ],
    "category": "sports",
-   "description": "Mizzou men’s basketball faces Arkansas-Pine Bluff at Mizzou Arena in Columbia, Missouri.",
+   "description": "Catch the Missouri Tigers in home action!",
    "end": "2026-11-27T17:00:00-06:00",
    "id": "ffec7844230d430c",
-   "imageUrl": "https://comoevent.com/img/gen/fd78d742fd91b5.webp",
+   "imageUrl": "https://comoevent.com/img/gen/c02b73b871f6e1.webp",
    "source": "mizzou",
    "start": "2026-11-27T15:00:00-06:00",
    "title": "Men’s Basketball - Missouri vs. Arkansas-Pine Bluff",
-   "venue": "Mizzou Arena"
+   "venue": "Champions Drive"
   },
   {
    "_slug": "borrowed-time-duo-861899",
@@ -407,10 +411,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
     "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
+    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://baselocal.com/mo/columbia/events/#curt-fletcher"
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts",
@@ -445,16 +449,18 @@
    "venue": "Ladybird Cafe"
   },
   {
-   "_slug": "dope-ass-sneakers-f3c39a",
+   "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
+    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
+    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
    ],
    "categories": [
     "music"
    ],
    "category": "music",
    "description": "Y107 Presents",
-   "id": "f3c39a78fba8133e",
+   "end": "2026-11-27T23:00:00-06:00",
+   "id": "1263156d339f78ff",
    "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/DopeAssSneakers-RP-Web.jpg",
    "source": "bluenote",
    "start": "2026-11-27T20:00:00-06:00",
@@ -673,8 +679,8 @@
   {
    "_slug": "holiday-wreath-making-classes-four-oaks-farm-10am-92d58c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes-four-oaks-farm",
-    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030"
+    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030",
+    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes-four-oaks-farm"
    ],
    "categories": [
     "community"
@@ -944,7 +950,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
    ],
    "categories": [
     "sports"
@@ -952,11 +959,11 @@
    "category": "sports",
    "end": "2026-11-28T17:15:00-06:00",
    "id": "9005c7d040685dc3",
-   "imageUrl": "https://comoevent.com/img/gen/f495e081618e5a.webp",
+   "imageUrl": "https://comoevent.com/img/gen/dc0696375eb987.webp",
    "source": "mizzou",
    "start": "2026-11-28T15:15:00-06:00",
    "title": "Football - Missouri vs. Oklahoma",
-   "venue": "Faurot Field at Memorial Stadium"
+   "venue": "Champions Drive"
   },
   {
    "_slug": "club-kid-cf241e",
@@ -1062,15 +1069,18 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "live-stand-up-comedy-e2873c",
+   "_slug": "live-stand-up-comedy-549b1e",
+   "alsoOn": [
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-jack-wright/100002004324431329"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Jack Wright, named “St. Louis’ Funniest” by Helium Comedy Club in 2024, brings sharp, authentic stand-up shaped by his experiences and candid observations. He performs and hosts across the St. Louis comedy scene, including at Helium, the Funny Bone, and City Winery, and has opened for bigger-name c…",
    "end": "2026-11-28T21:00:00-06:00",
-   "id": "e2873c4e79d1b017",
-   "imageUrl": "https://comoevent.com/img/gen/20050e5eb60aaf.webp",
+   "id": "549b1ee4bf56912b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8wNDMzNTU0Zjg4YmM1NTBiMmQyNGQ0ZjA1MmQ3MjdjNTQxNGY3ZmNlM2VjNzdiOTRjZTU3OTI4OTdlMWNjMDcxLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTM3ODQyNTk.avif",
    "source": "baselocal",
    "start": "2026-11-28T19:30:00-06:00",
    "title": "Live Stand-Up Comedy",
@@ -1151,14 +1161,19 @@
    "venue": "Eastside Tavern"
   },
   {
-   "_slug": "shattered-a-dance-party-391303",
+   "_slug": "shattered-a-dance-party-b24c0d",
+   "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
+   ],
    "categories": [
     "party",
     "nightlife",
     "arts"
    ],
    "category": "party",
-   "id": "39130395d32c5f19",
+   "description": "This night is directly inspired by Columbia’s most legendary club — the one and only Shattered. Goth, house, rave, synthpop, new wave, industrial, disco, and everything in between, with a heavy ’80s/’90s lens. Were you there? Or have you just heard about it? Obviously this is a multigenerational gat",
+   "end": "2026-11-28T23:00:00-06:00",
+   "id": "b24c0d3513930424",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy8wZWFkZWNiM2Q4MmFjZThiZGM0NGM0YzhmNGYxMTljYTRjMzkxZmQ2OThhYzBhMzU5MTFhNmU4NjA5OTkxZGY0LXJpbWctdzk2MC1oNTQxLWRjMjgxODQ4LWdtaXI_dj0xNzk1NTk2NzM3.avif",
    "source": "allevents",
    "start": "2026-11-28T20:00:00-06:00",
@@ -1436,8 +1451,8 @@
   {
    "_slug": "collage-without-a-cause-cc69cf",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause",
-    "https://allevents.in/columbia/collage-without-a-cause/200031047892950"
+    "https://allevents.in/columbia/collage-without-a-cause/200031047892950",
+    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause"
    ],
    "categories": [
     "community"
@@ -1581,10 +1596,10 @@
   "656e89edac5ba15d",
   "e0187442ab6d2090",
   "0ccf214e5d595ddb",
-  "f3c39a78fba8133e",
+  "1263156d339f78ff",
   "531c0eee4901177f",
   "540c0db06cf3d79e",
-  "39130395d32c5f19",
+  "b24c0d3513930424",
   "4fb158da857fc9bd",
   "4a7ab46c4fe10944",
   "570ee1c6bd070a34"
