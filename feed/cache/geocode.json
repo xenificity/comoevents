@@ -329,6 +329,11 @@
   "name": "The Mud Room"
  },
  "111 south 9th st. suite 160, 65201, columbia, mo": null,
+ "1111 e broadway, columbia, mo": {
+  "lat": 38.9517703,
+  "lng": -92.3246444,
+  "name": "The Broadway Columbia"
+ },
  "1111 e broadway, columbia, mo 65201": {
   "lat": 38.9517703,
   "lng": -92.3246444,
@@ -1265,6 +1270,7 @@
   "lng": -92.331159,
   "name": null
  },
+ "5002 brookthorn ct, columbia, mo": null,
  "5009 aztec blvd columbia, missouri 65202": {
   "lat": 38.9766881,
   "lng": -92.2614152,
@@ -1519,6 +1525,11 @@
   "name": null
  },
  "7279 w rte k, columbia, mo": null,
+ "7461 n brown station rd, columbia, mo": {
+  "lat": 39.0335516,
+  "lng": -92.2655259,
+  "name": null
+ },
  "7650 mo-163, columbia, mo 65203": {
   "lat": 38.8626355,
   "lng": -92.3147178,
@@ -1681,6 +1692,8 @@
  "bonnie view nature sanctuary, columbia, mo": null,
  "boone county vfw post 280, columbia, mo": null,
  "boone county vfw post, columbia, mo": null,
+ "brookthorn court, columbia, mo, united states, missouri 65203, columbia, mo": null,
+ "brookthorn court, columbia, mo, united states, missouri, columbia, mo": null,
  "bubble cup tea zone – south, columbia, mo": null,
  "camp takimina, columbia, mo": null,
  "campus bar & grill, columbia, mo": {

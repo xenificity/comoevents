@@ -20,8 +20,8 @@
    "allDay": true,
    "alsoOn": [
     "https://allevents.in/columbia/black-friday/200031112497336",
-    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026-vip-shopping-experience-and-soft-sultry-winter-collection-launch-columbia",
-    "https://baselocal.com/mo/columbia/events/#black-friday-open-play"
+    "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026"
    ],
    "categories": [
     "family"
@@ -411,10 +411,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
-    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959"
    ],
    "categories": [
     "arts",
@@ -557,25 +557,6 @@
    "title": "Speakeasy @ Regulation"
   },
   {
-   "_slug": "2026-mizzou-football-v-oklahoma-085793",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-v-oklahoma"
-   ],
-   "categories": [
-    "sports",
-    "family"
-   ],
-   "category": "sports",
-   "description": "Children ages 2 and under receive free admission and do not require a ticket, provided they are seated on a parent or guardian lap. 2026 Mizzou Fo…",
-   "end": "2026-11-28T01:00:00-06:00",
-   "id": "0857936129224a95",
-   "imageUrl": "https://comoevent.com/img/gen/3e0da701f70e4a.webp",
-   "source": "macaronikid",
-   "start": "2026-11-28T00:00:00-06:00",
-   "title": "2026 Mizzou Football v Oklahoma",
-   "venue": "Faurot Field"
-  },
-  {
    "_slug": "commander-for-a-cause-2-4ff415",
    "categories": [
     "community"
@@ -680,7 +661,7 @@
    "_slug": "holiday-wreath-making-classes-four-oaks-farm-10am-92d58c",
    "alsoOn": [
     "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030",
-    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes-four-oaks-farm"
+    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes"
    ],
    "categories": [
     "community"
@@ -788,18 +769,18 @@
    "venue": "Columbia Public Library"
   },
   {
-   "_slug": "intuitive-tarot-readings-w-aubrey-turner-c28604",
+   "_slug": "intuitive-tarot-readings-bfbad9",
    "categories": [
     "community"
    ],
    "category": "community",
    "description": "Aubrey Turner offers intuitive tarot readings intended to provide clarity and guidance at life’s crossroads. Bring a pressing question or explore what advice the universe may have for you. Sessions last 25 minutes and cost $40. Walk-in appointments may be available, though reserving a spot is recom…",
    "end": "2026-11-28T18:00:00-06:00",
-   "id": "c28604b3974b6ca9",
-   "imageUrl": "https://comoevent.com/img/gen/509a419d669ef1.webp",
+   "id": "bfbad9debff3f68c",
+   "imageUrl": "https://comoevent.com/img/gen/76e3d4d55f1f3c.webp",
    "source": "baselocal",
    "start": "2026-11-28T12:30:00-06:00",
-   "title": "Intuitive Tarot Readings w/ Aubrey Turner",
+   "title": "Intuitive Tarot Readings",
    "venue": "Heart, Body, & Soul"
   },
   {
@@ -919,18 +900,18 @@
    "venue": "Shanthi Mandir"
   },
   {
-   "_slug": "crafternoon-ladybird-craft-cafe-829978",
+   "_slug": "crafternoon-327934",
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Crafternoon is a weekly open crafting hangout at Ladybird. Bring a project you’re already working on, browse the free craft supplies, or choose from optional paid projects. Collage Without a Cause is available each week, with magazines, scissors, glue, and other supplies for creating whatever you l…",
    "end": "2026-11-28T18:00:00-06:00",
-   "id": "8299788f833d2892",
-   "imageUrl": "https://comoevent.com/img/gen/8ae7117ad5e9af.webp",
+   "id": "3279349349f3c6b3",
+   "imageUrl": "https://comoevent.com/img/gen/f85c81eec86e6c.webp",
    "source": "baselocal",
    "start": "2026-11-28T15:00:00-06:00",
-   "title": "Crafternoon @ Ladybird Craft Cafe!",
+   "title": "Crafternoon",
    "venue": "Ladybird Trading Co."
   },
   {
@@ -948,10 +929,29 @@
    "title": "Crafternoon Saturdays"
   },
   {
+   "_slug": "2026-mizzou-football-v-oklahoma-085793",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-v-oklahoma"
+   ],
+   "categories": [
+    "sports",
+    "family"
+   ],
+   "category": "sports",
+   "description": "Children ages 2 and under receive free admission and do not require a ticket, provided they are seated on a parent or guardian lap. 2026 Mizzou Fo…",
+   "end": "2026-11-28T16:15:00-06:00",
+   "id": "0857936129224a95",
+   "imageUrl": "https://comoevent.com/img/gen/3e0da701f70e4a.webp",
+   "source": "macaronikid",
+   "start": "2026-11-28T15:15:00-06:00",
+   "title": "2026 Mizzou Football v Oklahoma",
+   "venue": "Faurot Field"
+  },
+  {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
     "sports"
@@ -1161,25 +1161,6 @@
    "venue": "Eastside Tavern"
   },
   {
-   "_slug": "shattered-a-dance-party-b24c0d",
-   "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
-   ],
-   "categories": [
-    "party",
-    "nightlife",
-    "arts"
-   ],
-   "category": "party",
-   "description": "This night is directly inspired by Columbia’s most legendary club — the one and only Shattered. Goth, house, rave, synthpop, new wave, industrial, disco, and everything in between, with a heavy ’80s/’90s lens. Were you there? Or have you just heard about it? Obviously this is a multigenerational gat",
-   "end": "2026-11-28T23:00:00-06:00",
-   "id": "b24c0d3513930424",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy8wZWFkZWNiM2Q4MmFjZThiZGM0NGM0YzhmNGYxMTljYTRjMzkxZmQ2OThhYzBhMzU5MTFhNmU4NjA5OTkxZGY0LXJpbWctdzk2MC1oNTQxLWRjMjgxODQ4LWdtaXI_dj0xNzk1NTk2NzM3.avif",
-   "source": "allevents",
-   "start": "2026-11-28T20:00:00-06:00",
-   "title": "Shattered: A Dance Party"
-  },
-  {
    "_slug": "the-last-waltz-50th-anniversary-celebration-0044f4",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#the-last-waltz-anniversary-celebration"
@@ -1214,10 +1195,11 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "jive-turkey-dj-dance-party-4fb158",
+   "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://allevents.in/columbia/jive-turkey-dj-dance-party/200031054362827",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
    ],
    "categories": [
     "party",
@@ -1226,11 +1208,11 @@
     "arts"
    ],
    "category": "party",
-   "description": "Keep the post-Thanksgiving fun going with a DJ dance party. After a comedy set, guests can hit the dance floor and work off some pie, whether they love dancing or need a little encouragement.",
-   "end": "2026-11-29T00:00:00-06:00",
-   "id": "4fb158da857fc9bd",
+   "description": "This night is directly inspired by Columbia’s most legendary club — the one and only Shattered. Goth, house, rave, synthpop, new wave, industrial, disco, and everything in between, with a heavy ’80s/’90s lens. Were you there? Or have you just heard about it? Obviously this is a multigenerational gat",
+   "end": "2026-11-28T23:00:00-06:00",
+   "id": "b24c0d3513930424",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8xMGFiMDI1ODMzZDQ0MDJjYTZmYWQ4MThhY2EyNmY5YzcwYWMyYTA5NGEyN2FjNmI3ODFmN2E1MTNkODE0M2ZjLXJpbWctdzEyMDAtaDE0ODktZGMwODA4MDgtZ21pcj92PTE3OTQ3ODM1MDc.avif",
-   "source": "baselocal",
+   "source": "allevents",
    "start": "2026-11-28T21:00:00-06:00",
    "title": "Jive Turkey DJ Dance Party",
    "venue": "Afterlife Lounge"
@@ -1353,9 +1335,9 @@
    "venue": "Magelings Games"
   },
   {
-   "_slug": "hexagon-alley-lorcana-weekly-play-52800c",
+   "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#hexagon-alley-presents-lorcana-weekly-play",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
     "https://hexagonalley.com/events/"
    ],
    "categories": [
@@ -1364,7 +1346,7 @@
    "category": "community",
    "description": "The House of Mouse and Hexagon Alley collide at our Lorcana weekly play! Entry: $5 Format: Standard",
    "end": "2026-11-29T16:00:00-06:00",
-   "id": "52800c13ebfa25a5",
+   "id": "5a0a276bd4fd7a6e",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab5536347d5d2eab1fcb662/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-29T13:00:00-06:00",
@@ -1451,8 +1433,8 @@
   {
    "_slug": "collage-without-a-cause-cc69cf",
    "alsoOn": [
-    "https://allevents.in/columbia/collage-without-a-cause/200031047892950",
-    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause"
+    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause",
+    "https://allevents.in/columbia/collage-without-a-cause/200031047892950"
    ],
    "categories": [
     "community"
@@ -1600,7 +1582,7 @@
   "531c0eee4901177f",
   "540c0db06cf3d79e",
   "b24c0d3513930424",
-  "4fb158da857fc9bd",
+  "35a1fa495a32033f",
   "4a7ab46c4fe10944",
   "570ee1c6bd070a34"
  ],
