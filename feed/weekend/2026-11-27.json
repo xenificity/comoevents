@@ -19,9 +19,9 @@
    "_slug": "black-friday-small-business-saturday-at-regrowth-vintage-5ef763",
    "allDay": true,
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
+    "https://allevents.in/columbia/black-friday/200031112497336",
     "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
-    "https://allevents.in/columbia/black-friday/200031112497336"
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026"
    ],
    "categories": [
     "family"
@@ -125,6 +125,18 @@
    "start": "2026-11-27T09:30:00-06:00",
    "title": "Lakshmi Abhishekam",
    "venue": "Shanthi Mandir"
+  },
+  {
+   "_slug": "christmas-tree-lot-2fbc10",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "2fbc107c6592a264",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy84MmZlN2QzMWMyOWE4ZjJlN2Q2NmQyZTYxNGNmZjZlNDVhN2YwODIyZjJhZjhlMDU3M2U1Nzg2MDU4YjNiZTBmLXJpbWctdzk2MC1oNTAzLWRjMTgyODE4LWdtaXI_dj0xNzk1NTg0MDA5.avif",
+   "source": "allevents",
+   "start": "2026-11-27T10:00:00-06:00",
+   "title": "Christmas Tree Lot"
   },
   {
    "_slug": "study-abroad-walk-in-advising-e80c12",
@@ -397,9 +409,9 @@
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
+    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://thearcadedistrict.org/"
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959"
    ],
    "categories": [
     "arts",
@@ -645,8 +657,8 @@
   {
    "_slug": "holiday-wreath-making-classes-four-oaks-farm-10am-92d58c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes",
-    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030"
+    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030",
+    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes"
    ],
    "categories": [
     "community"
@@ -938,8 +950,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
    ],
    "categories": [
     "sports"
@@ -1057,15 +1069,18 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "live-stand-up-comedy-e2873c",
+   "_slug": "live-stand-up-comedy-549b1e",
+   "alsoOn": [
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-jack-wright/100002004324431329"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Jack Wright, named “St. Louis’ Funniest” by Helium Comedy Club in 2024, brings sharp, authentic stand-up shaped by his experiences and candid observations. He performs and hosts across the St. Louis comedy scene, including at Helium, the Funny Bone, and City Winery, and has opened for bigger-name c…",
    "end": "2026-11-28T21:00:00-06:00",
-   "id": "e2873c4e79d1b017",
-   "imageUrl": "https://comoevent.com/img/gen/20050e5eb60aaf.webp",
+   "id": "549b1ee4bf56912b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8wNDMzNTU0Zjg4YmM1NTBiMmQyNGQ0ZjA1MmQ3MjdjNTQxNGY3ZmNlM2VjNzdiOTRjZTU3OTI4OTdlMWNjMDcxLXJpbWctdzEyMDAtaDYwMC1kYzA4MDgwOC1nbWlyLmpwZz92PTE3OTM3ODQyNTk.avif",
    "source": "baselocal",
    "start": "2026-11-28T19:30:00-06:00",
    "title": "Live Stand-Up Comedy",
@@ -1146,25 +1161,6 @@
    "venue": "Eastside Tavern"
   },
   {
-   "_slug": "shattered-a-dance-party-b24c0d",
-   "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
-   ],
-   "categories": [
-    "party",
-    "nightlife",
-    "arts"
-   ],
-   "category": "party",
-   "description": "This night is directly inspired by Columbia’s most legendary club — the one and only Shattered. Goth, house, rave, synthpop, new wave, industrial, disco, and everything in between, with a heavy ’80s/’90s lens. Were you there? Or have you just heard about it? Obviously this is a multigenerational gat",
-   "end": "2026-11-28T23:00:00-06:00",
-   "id": "b24c0d3513930424",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy8wZWFkZWNiM2Q4MmFjZThiZGM0NGM0YzhmNGYxMTljYTRjMzkxZmQ2OThhYzBhMzU5MTFhNmU4NjA5OTkxZGY0LXJpbWctdzk2MC1oNTQxLWRjMjgxODQ4LWdtaXI_dj0xNzk1NTk2NzM3.avif",
-   "source": "allevents",
-   "start": "2026-11-28T20:00:00-06:00",
-   "title": "Shattered: A Dance Party"
-  },
-  {
    "_slug": "the-last-waltz-50th-anniversary-celebration-0044f4",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#the-last-waltz-anniversary-celebration"
@@ -1199,10 +1195,11 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "jive-turkey-dj-dance-party-4fb158",
+   "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://allevents.in/columbia/jive-turkey-dj-dance-party/200031054362827",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
    ],
    "categories": [
     "party",
@@ -1211,11 +1208,11 @@
     "arts"
    ],
    "category": "party",
-   "description": "Keep the post-Thanksgiving fun going with a DJ dance party. After a comedy set, guests can hit the dance floor and work off some pie, whether they love dancing or need a little encouragement.",
-   "end": "2026-11-29T00:00:00-06:00",
-   "id": "4fb158da857fc9bd",
+   "description": "This night is directly inspired by Columbia’s most legendary club — the one and only Shattered. Goth, house, rave, synthpop, new wave, industrial, disco, and everything in between, with a heavy ’80s/’90s lens. Were you there? Or have you just heard about it? Obviously this is a multigenerational gat",
+   "end": "2026-11-28T23:00:00-06:00",
+   "id": "b24c0d3513930424",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8xMGFiMDI1ODMzZDQ0MDJjYTZmYWQ4MThhY2EyNmY5YzcwYWMyYTA5NGEyN2FjNmI3ODFmN2E1MTNkODE0M2ZjLXJpbWctdzEyMDAtaDE0ODktZGMwODA4MDgtZ21pcj92PTE3OTQ3ODM1MDc.avif",
-   "source": "baselocal",
+   "source": "allevents",
    "start": "2026-11-28T21:00:00-06:00",
    "title": "Jive Turkey DJ Dance Party",
    "venue": "Afterlife Lounge"
@@ -1436,8 +1433,8 @@
   {
    "_slug": "collage-without-a-cause-cc69cf",
    "alsoOn": [
-    "https://allevents.in/columbia/collage-without-a-cause/200031047892950",
-    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause"
+    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause",
+    "https://allevents.in/columbia/collage-without-a-cause/200031047892950"
    ],
    "categories": [
     "community"
@@ -1585,7 +1582,7 @@
   "531c0eee4901177f",
   "540c0db06cf3d79e",
   "b24c0d3513930424",
-  "4fb158da857fc9bd",
+  "35a1fa495a32033f",
   "4a7ab46c4fe10944",
   "570ee1c6bd070a34"
  ],
