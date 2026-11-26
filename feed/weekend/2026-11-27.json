@@ -16,15 +16,20 @@
    "title": "Alpaca Holiday Store"
   },
   {
-   "_slug": "black-friday-small-business-saturday-at-regrowth-vintage-1df884",
+   "_slug": "black-friday-small-business-saturday-at-regrowth-vintage-5ef763",
    "allDay": true,
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
+    "https://allevents.in/columbia/black-friday/200031112497336"
+   ],
    "categories": [
     "family"
    ],
    "category": "family",
    "description": "️ We’re so excited for our first Black Friday & Small Business Saturday️ Two days only! The whole shop is 30% off!! (Excludes handmade goods & gift cards) Take 30% off vintage clothing, home goods, kids’ clothes, and more! We can’t wait! Help us spread the word. Regrowth Vintage 906 Alley A Downtown",
    "end": "2026-11-29T00:00:00-06:00",
-   "id": "1df8841d9c05aef3",
+   "id": "5ef7633bf046d596",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6b04a004a82357559b034402/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-27T00:00:00-06:00",
@@ -62,7 +67,8 @@
   {
    "_slug": "black-and-gold-friday-adf7a4",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
    ],
    "categories": [
     "campus"
@@ -105,20 +111,6 @@
    "title": "Weird Kids' School's Out Club"
   },
   {
-   "_slug": "k-k-co-black-friday-2026-480bf4",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "description": "K&K Co. is hosting a Black Friday shopping experience featuring the launch of its Soft Sultry Winter Collection. The collection includes two new body care fragrances, Powdered Cashmere and Plum + Marshmallow, along with seasonal candles in Winter Cabin and Christmas Hearth. Shoppers can browse vega…",
-   "id": "480bf4e31a967824",
-   "imageUrl": "https://comoevent.com/img/gen/669eb710d60809.webp",
-   "source": "baselocal",
-   "start": "2026-11-27T09:00:00-06:00",
-   "title": "K&K Co. Black Friday 2026",
-   "venue": "The Workshop by K&K Co."
-  },
-  {
    "_slug": "lakshmi-abhishekam-e2f71a",
    "categories": [
     "religious",
@@ -135,6 +127,18 @@
    "venue": "Shanthi Mandir"
   },
   {
+   "_slug": "christmas-tree-lot-2fbc10",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "2fbc107c6592a264",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy84MmZlN2QzMWMyOWE4ZjJlN2Q2NmQyZTYxNGNmZjZlNDVhN2YwODIyZjJhZjhlMDU3M2U1Nzg2MDU4YjNiZTBmLXJpbWctdzk2MC1oNTAzLWRjMTgyODE4LWdtaXI_dj0xNzk1NTg0MDA5.avif",
+   "source": "allevents",
+   "start": "2026-11-27T10:00:00-06:00",
+   "title": "Christmas Tree Lot"
+  },
+  {
    "_slug": "study-abroad-walk-in-advising-e80c12",
    "categories": [
     "campus"
@@ -147,21 +151,6 @@
    "start": "2026-11-27T10:00:00-06:00",
    "title": "Study Abroad Walk-in Advising",
    "venue": "Memorial Student Union"
-  },
-  {
-   "_slug": "black-friday-open-play-ef99d2",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "description": "Trade shopping bags and checkout lines for an afternoon of mahjong, friendly competition, and laughter. Bring friends or meet new ones while you learn, play, and connect.",
-   "end": "2026-11-27T15:00:00-06:00",
-   "id": "ef99d261e38ff0a4",
-   "imageUrl": "https://comoevent.com/img/gen/6fd7bd73913902.webp",
-   "source": "baselocal",
-   "start": "2026-11-27T12:00:00-06:00",
-   "title": "Black Friday Open Play",
-   "venue": "Serendipity Polish Pottery & Gallery"
   },
   {
    "_slug": "wassail-walk-60a49a",
@@ -178,19 +167,6 @@
    "start": "2026-11-27T12:00:00-06:00",
    "title": "Wassail Walk",
    "venue": "Rocheport Merchants"
-  },
-  {
-   "_slug": "black-friday-hike-campfire-and-s-mores-ac014c",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "ac014ccad3b98542",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy85Yjk0Zjk4MmI1NGVkODZiZDk0NWM0ZGNkODIzOGVlMzkwOTc4N2JhNmVkN2E5YjNhYjg1ZGMwYmE5OTRiMjdhLXJpbWctdzc0Mi1oOTYwLWRjZjhmOGU4LWdtaXI_dj0xNzk1NjU0OTgz.avif",
-   "source": "allevents",
-   "start": "2026-11-27T14:00:00-06:00",
-   "title": "Black Friday Hike, Campfire, and S'mores",
-   "venue": "Rock Bridge Memorial State Park - Special Use Area"
   },
   {
    "_slug": "wild-horse-nine-a851c2",
@@ -225,8 +201,8 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
-    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
+    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff",
+    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/"
    ],
    "categories": [
     "sports"
@@ -302,6 +278,9 @@
   },
   {
    "_slug": "braden-jamison-your-moms-favorite-country-singer-solo-acoust-656e89",
+   "alsoOn": [
+    "https://allevents.in/columbia/braden-jamison-your-moms-favorite-country-singer-solo-acoustic-show/100002004847364436"
+   ],
    "categories": [
     "music"
    ],
@@ -430,9 +409,9 @@
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
+    "https://thearcadedistrict.org/",
     "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
-    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://thearcadedistrict.org/"
+    "https://baselocal.com/mo/columbia/events/#curt-fletcher"
    ],
    "categories": [
     "arts",
@@ -469,8 +448,8 @@
   {
    "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/",
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
+    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
+    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
    ],
    "categories": [
     "music"
@@ -573,6 +552,19 @@
    "source": "macaronikid",
    "start": "2026-11-27T22:00:00-06:00",
    "title": "Speakeasy @ Regulation"
+  },
+  {
+   "_slug": "commander-for-a-cause-2-4ff415",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "4ff4157f63ea2822",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wODdjODM3N2Q0OWVlNjgxMGZkODQ3ZTg5Y2FjYWVhOTdlNzVkZDg5ZTVhOTc4NmFmOWM2NGQxYjQ4NDUzYTY3LXJpbWctdzEyMDAtaDE1NTMtZGNlOGU4ZTgtZ21pcj92PTE3OTUzNjE3ODQ.avif",
+   "source": "allevents",
+   "start": "2026-11-28T00:00:00-06:00",
+   "title": "Commander for a Cause 2",
+   "venue": "Magelings Games"
   },
   {
    "_slug": "small-business-saturday-20628d",
@@ -902,15 +894,18 @@
    "venue": "Shanthi Mandir"
   },
   {
-   "_slug": "crafternoon-327934",
+   "_slug": "crafternoon-9aff57",
+   "alsoOn": [
+    "https://allevents.in/columbia/crafternoon/200031129828815"
+   ],
    "categories": [
     "arts"
    ],
    "category": "arts",
    "description": "Crafternoon is a weekly open crafting hangout at Ladybird. Bring a project you’re already working on, browse the free craft supplies, or choose from optional paid projects. Collage Without a Cause is available each week, with magazines, scissors, glue, and other supplies for creating whatever you l…",
    "end": "2026-11-28T18:00:00-06:00",
-   "id": "3279349349f3c6b3",
-   "imageUrl": "https://comoevent.com/img/gen/f85c81eec86e6c.webp",
+   "id": "9aff578248593e04",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy84YmE2MDRjOWEwODM2MmJhMjg0NWIxMmVmYmNiOTFkZTYyNTlmMmY2NjMxZmJiY2UzYTU2YWY5N2RkODdkMDkzLXJpbWctdzEyMDAtaDY3Ni1kY2Y4ZDg1OC1nbWlyP3Y9MTc5NTYwNzc3NA.avif",
    "source": "baselocal",
    "start": "2026-11-28T15:00:00-06:00",
    "title": "Crafternoon",
@@ -952,8 +947,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
     "sports"
@@ -1203,6 +1198,7 @@
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
     "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
     "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
@@ -1212,11 +1208,11 @@
     "arts"
    ],
    "category": "party",
-   "description": "Keep the post-Thanksgiving fun going with a DJ dance party. After a comedy set, guests can hit the dance floor and work off some pie, whether they love dancing or need a little encouragement.",
-   "end": "2026-11-29T00:00:00-06:00",
+   "description": "This night is directly inspired by Columbia’s most legendary club — the one and only Shattered. Goth, house, rave, synthpop, new wave, industrial, disco, and everything in between, with a heavy ’80s/’90s lens. Were you there? Or have you just heard about it? Obviously this is a multigenerational gat",
+   "end": "2026-11-28T23:00:00-06:00",
    "id": "b24c0d3513930424",
-   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Shattered-a-Dance-Party.jpg",
-   "source": "baselocal",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8xMGFiMDI1ODMzZDQ0MDJjYTZmYWQ4MThhY2EyNmY5YzcwYWMyYTA5NGEyN2FjNmI3ODFmN2E1MTNkODE0M2ZjLXJpbWctdzEyMDAtaDE0ODktZGMwODA4MDgtZ21pcj92PTE3OTQ3ODM1MDc.avif",
+   "source": "allevents",
    "start": "2026-11-28T21:00:00-06:00",
    "title": "Jive Turkey DJ Dance Party",
    "venue": "Afterlife Lounge"
@@ -1483,6 +1479,9 @@
   },
   {
    "_slug": "super-smash-bros-tournament-36caa1",
+   "alsoOn": [
+    "https://allevents.in/columbia/super-smash-bros-tournament/100001424508426049"
+   ],
    "categories": [
     "community"
    ],
