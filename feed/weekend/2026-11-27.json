@@ -19,9 +19,9 @@
    "_slug": "black-friday-small-business-saturday-at-regrowth-vintage-5ef763",
    "allDay": true,
    "alsoOn": [
-    "https://allevents.in/columbia/black-friday/200031112497336",
+    "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
     "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
-    "https://baselocal.com/mo/columbia/events/#black-friday-open-play"
+    "https://allevents.in/columbia/black-friday/200031112497336"
    ],
    "categories": [
     "family"
@@ -67,8 +67,8 @@
   {
    "_slug": "black-and-gold-friday-adf7a4",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
    ],
    "categories": [
     "campus"
@@ -214,8 +214,8 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
-    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
+    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff",
+    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/"
    ],
    "categories": [
     "sports"
@@ -421,10 +421,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
     "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
+    "https://baselocal.com/mo/columbia/events/#stand-up-comedy"
    ],
    "categories": [
     "arts",
@@ -461,8 +461,8 @@
   {
    "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
-    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
+    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/",
+    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
    ],
    "categories": [
     "music"
@@ -963,8 +963,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
     "sports"
@@ -1067,6 +1067,22 @@
    "start": "2026-11-28T19:00:00-06:00",
    "title": "Club Kid",
    "venue": "Ragtag Cinema"
+  },
+  {
+   "_slug": "single-awareness-dinner-columbia-foodies-new-friends-6ebbf8",
+   "categories": [
+    "food"
+   ],
+   "category": "food",
+   "description": "Celebrate your singleness and make new friends over dinner! Connect with other happily single locals and shake your fist at couples.",
+   "end": "2026-11-28T22:00:00-06:00",
+   "id": "6ebbf846de28ba10",
+   "imageUrl": "https://cdn.evbuc.com/images/1177367142/2972884566231/1/original.20260212-121923",
+   "source": "eventbrite",
+   "start": "2026-11-28T19:00:00-06:00",
+   "ticketUrl": "https://www.eventbrite.com/e/single-awareness-dinner-columbia-foodies-new-friends-tickets-1990431449045",
+   "title": "Single Awareness Dinner: Columbia | Foodies + New Friends",
+   "venue": "Restaurant of the Week"
   },
   {
    "_slug": "live-stand-up-comedy-549b1e",
@@ -1197,9 +1213,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
     "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
    ],
    "categories": [
     "party",
@@ -1431,9 +1447,8 @@
    "venue": "Dive Bar"
   },
   {
-   "_slug": "collage-without-a-cause-cc69cf",
+   "_slug": "collage-without-a-cause-7628cf",
    "alsoOn": [
-    "https://allevents.in/columbia/collage-without-a-cause/200031047892950",
     "https://baselocal.com/mo/columbia/events/#collage-without-a-cause"
    ],
    "categories": [
@@ -1442,7 +1457,7 @@
    "category": "community",
    "description": "Collage Without a Cause happens every Sunday! Cut up magazines, glue things to other things, and see what happens. We’ll have all the supplies you need, but feel free to bring magazines, photos, paper, stickers, or other stuff you want to use. Sundays 3–6pm $8 • All supplies included Ladybird Tradin",
    "end": "2026-11-29T18:00:00-06:00",
-   "id": "cc69cf0ff84a79c0",
+   "id": "7628cf1ec8ece3ec",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb624549b9323bd2300df5/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-29T15:00:00-06:00",
@@ -1579,7 +1594,7 @@
   "e0187442ab6d2090",
   "0ccf214e5d595ddb",
   "1263156d339f78ff",
-  "531c0eee4901177f",
+  "6ebbf846de28ba10",
   "540c0db06cf3d79e",
   "b24c0d3513930424",
   "35a1fa495a32033f",
