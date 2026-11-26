@@ -19,9 +19,9 @@
    "_slug": "black-friday-small-business-saturday-at-regrowth-vintage-5ef763",
    "allDay": true,
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
     "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
-    "https://allevents.in/columbia/black-friday/200031112497336"
+    "https://allevents.in/columbia/black-friday/200031112497336",
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026"
    ],
    "categories": [
     "family"
@@ -169,6 +169,19 @@
    "venue": "Rocheport Merchants"
   },
   {
+   "_slug": "black-friday-hike-campfire-and-s-mores-ac014c",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "ac014ccad3b98542",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy85Yjk0Zjk4MmI1NGVkODZiZDk0NWM0ZGNkODIzOGVlMzkwOTc4N2JhNmVkN2E5YjNhYjg1ZGMwYmE5OTRiMjdhLXJpbWctdzc0Mi1oOTYwLWRjZjhmOGU4LWdtaXI_dj0xNzk1NjU0OTgz.avif",
+   "source": "allevents",
+   "start": "2026-11-27T14:00:00-06:00",
+   "title": "Black Friday Hike, Campfire, and S'mores",
+   "venue": "Rock Bridge Memorial State Park - Special Use Area"
+  },
+  {
    "_slug": "wild-horse-nine-a851c2",
    "categories": [
     "arts"
@@ -201,20 +214,21 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
     "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
    ],
    "categories": [
     "sports"
    ],
    "category": "sports",
-   "description": "Mizzou men’s basketball faces Arkansas-Pine Bluff at Mizzou Arena in Columbia, Missouri.",
+   "description": "Catch the Missouri Tigers in home action!",
    "end": "2026-11-27T17:00:00-06:00",
    "id": "ffec7844230d430c",
-   "imageUrl": "https://comoevent.com/img/gen/fd78d742fd91b5.webp",
+   "imageUrl": "https://comoevent.com/img/gen/c02b73b871f6e1.webp",
    "source": "mizzou",
    "start": "2026-11-27T15:00:00-06:00",
    "title": "Men’s Basketball - Missouri vs. Arkansas-Pine Bluff",
-   "venue": "Mizzou Arena"
+   "venue": "Champions Drive"
   },
   {
    "_slug": "borrowed-time-duo-861899",
@@ -407,10 +421,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
-    "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://thearcadedistrict.org/"
+    "https://thearcadedistrict.org/",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
+    "https://baselocal.com/mo/columbia/events/#stand-up-comedy"
    ],
    "categories": [
     "arts",
@@ -445,8 +459,9 @@
    "venue": "Ladybird Cafe"
   },
   {
-   "_slug": "dope-ass-sneakers-f3c39a",
+   "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/",
     "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
    ],
    "categories": [
@@ -454,7 +469,8 @@
    ],
    "category": "music",
    "description": "Y107 Presents",
-   "id": "f3c39a78fba8133e",
+   "end": "2026-11-27T23:00:00-06:00",
+   "id": "1263156d339f78ff",
    "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/DopeAssSneakers-RP-Web.jpg",
    "source": "bluenote",
    "start": "2026-11-27T20:00:00-06:00",
@@ -664,8 +680,8 @@
   {
    "_slug": "holiday-wreath-making-classes-four-oaks-farm-10am-92d58c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes",
-    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030"
+    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030",
+    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes"
    ],
    "categories": [
     "community"
@@ -957,6 +973,7 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
     "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
@@ -965,11 +982,11 @@
    "category": "sports",
    "end": "2026-11-28T17:15:00-06:00",
    "id": "9005c7d040685dc3",
-   "imageUrl": "https://comoevent.com/img/gen/f495e081618e5a.webp",
+   "imageUrl": "https://comoevent.com/img/gen/dc0696375eb987.webp",
    "source": "mizzou",
    "start": "2026-11-28T15:15:00-06:00",
    "title": "Football - Missouri vs. Oklahoma",
-   "venue": "Faurot Field at Memorial Stadium"
+   "venue": "Champions Drive"
   },
   {
    "_slug": "club-kid-cf241e",
@@ -1207,10 +1224,11 @@
    "venue": "The Arcade District"
   },
   {
-   "_slug": "jive-turkey-dj-dance-party-4fb158",
+   "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://allevents.in/columbia/jive-turkey-dj-dance-party/200031054362827",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
    ],
    "categories": [
     "party",
@@ -1219,11 +1237,11 @@
     "arts"
    ],
    "category": "party",
-   "description": "Keep the post-Thanksgiving fun going with a DJ dance party. After a comedy set, guests can hit the dance floor and work off some pie, whether they love dancing or need a little encouragement.",
-   "end": "2026-11-29T00:00:00-06:00",
-   "id": "4fb158da857fc9bd",
+   "description": "This night is directly inspired by Columbia’s most legendary club — the one and only Shattered. Goth, house, rave, synthpop, new wave, industrial, disco, and everything in between, with a heavy ’80s/’90s lens. Were you there? Or have you just heard about it? Obviously this is a multigenerational gat",
+   "end": "2026-11-28T23:00:00-06:00",
+   "id": "b24c0d3513930424",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8xMGFiMDI1ODMzZDQ0MDJjYTZmYWQ4MThhY2EyNmY5YzcwYWMyYTA5NGEyN2FjNmI3ODFmN2E1MTNkODE0M2ZjLXJpbWctdzEyMDAtaDE0ODktZGMwODA4MDgtZ21pcj92PTE3OTQ3ODM1MDc.avif",
-   "source": "baselocal",
+   "source": "allevents",
    "start": "2026-11-28T21:00:00-06:00",
    "title": "Jive Turkey DJ Dance Party",
    "venue": "Afterlife Lounge"
@@ -1588,10 +1606,10 @@
   "656e89edac5ba15d",
   "e0187442ab6d2090",
   "0ccf214e5d595ddb",
-  "f3c39a78fba8133e",
+  "1263156d339f78ff",
   "6ebbf846de28ba10",
   "540c0db06cf3d79e",
-  "4fb158da857fc9bd",
+  "b24c0d3513930424",
   "35a1fa495a32033f",
   "4a7ab46c4fe10944",
   "570ee1c6bd070a34"
