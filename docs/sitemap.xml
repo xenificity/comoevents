@@ -26,8 +26,8 @@
   <url><loc>https://comoevent.com/venues/the-arcade-district/</loc></url>
   <url><loc>https://comoevent.com/venues/memorial-student-union/</loc></url>
   <url><loc>https://comoevent.com/venues/partner-for-better/</loc></url>
-  <url><loc>https://comoevent.com/venues/cafe-berlin/</loc></url>
   <url><loc>https://comoevent.com/venues/cooper-s-landing/</loc></url>
+  <url><loc>https://comoevent.com/venues/cafe-berlin/</loc></url>
   <url><loc>https://comoevent.com/venues/the-blue-note/</loc></url>
   <url><loc>https://comoevent.com/venues/gunter-hans/</loc></url>
   <url><loc>https://comoevent.com/venues/missouri-theatre/</loc></url>
@@ -50,14 +50,12 @@
   <url><loc>https://comoevent.com/venues/ladybird-cafe/</loc></url>
   <url><loc>https://comoevent.com/venues/mizzourec/</loc></url>
   <url><loc>https://comoevent.com/venues/museum-of-art-and-archaeology/</loc></url>
-  <url><loc>https://comoevent.com/venues/tate-hall-110/</loc></url>
   <url><loc>https://comoevent.com/venues/the-district/</loc></url>
   <url><loc>https://comoevent.com/venues/the-tokyo-club/</loc></url>
   <url><loc>https://comoevent.com/venues/cornell-hall/</loc></url>
   <url><loc>https://comoevent.com/venues/fretboard-coffee/</loc></url>
   <url><loc>https://comoevent.com/venues/hearnes-center/</loc></url>
   <url><loc>https://comoevent.com/venues/hickman-high-school/</loc></url>
-  <url><loc>https://comoevent.com/venues/lions-club-park/</loc></url>
   <url><loc>https://comoevent.com/venues/macklanburg-playhouse/</loc></url>
   <url><loc>https://comoevent.com/venues/mizzou-arena/</loc></url>
   <url><loc>https://comoevent.com/venues/north-moser-s-foods-parking-lot/</loc></url>
@@ -65,12 +63,14 @@
   <url><loc>https://comoevent.com/venues/prenger-foods/</loc></url>
   <url><loc>https://comoevent.com/venues/security-bank-parking-lot/</loc></url>
   <url><loc>https://comoevent.com/venues/talking-horse-productions/</loc></url>
+  <url><loc>https://comoevent.com/venues/tate-hall-110/</loc></url>
   <url><loc>https://comoevent.com/venues/the-kitchen-grill-games/</loc></url>
   <url><loc>https://comoevent.com/venues/broadway-christian-church/</loc></url>
   <url><loc>https://comoevent.com/venues/columbia-art-league/</loc></url>
   <url><loc>https://comoevent.com/venues/faurot-field/</loc></url>
   <url><loc>https://comoevent.com/venues/jesse-auditorium/</loc></url>
   <url><loc>https://comoevent.com/venues/ladybird-trading-co/</loc></url>
+  <url><loc>https://comoevent.com/venues/lions-club-park/</loc></url>
   <url><loc>https://comoevent.com/venues/mu-health-care-pavilion-at-columbias-agriculture-park/</loc></url>
   <url><loc>https://comoevent.com/venues/new-heights-church-parking-lot/</loc></url>
   <url><loc>https://comoevent.com/venues/schnucks-parking-lot/</loc></url>
@@ -220,10 +220,7 @@
   <url><loc>https://comoevent.com/e/diy-digital-archiving-lab-e99afb/</loc></url>
   <url><loc>https://comoevent.com/e/friends-of-the-columbia-public-library-lobby-book-sale-f6bc64/</loc></url>
   <url><loc>https://comoevent.com/e/bookmobile-stop-at-harrisburg-e7d6a2/</loc></url>
-  <url><loc>https://comoevent.com/e/wild-horse-nine-427f09/</loc></url>
   <url><loc>https://comoevent.com/e/craft-night-ladybird-craft-cafe-9d80f9/</loc></url>
-  <url><loc>https://comoevent.com/e/craft-night-every-wednesday-29c3d8/</loc></url>
-  <url><loc>https://comoevent.com/e/geeks-who-drink-trivia-at-cafe-b-09c0c5/</loc></url>
   <url><loc>https://comoevent.com/e/mu-poets-weekly-club-meeting-20c201/</loc></url>
   <url><loc>https://comoevent.com/e/riftbound-nexus-night-89f2dc/</loc></url>
   <url><loc>https://comoevent.com/e/steak-night-w-mandalyn-a48582/</loc></url>
@@ -267,6 +264,7 @@
   <url><loc>https://comoevent.com/e/break-dance-advanced-c54946/</loc></url>
   <url><loc>https://comoevent.com/e/karaoke-at-eastside-tavern-0bff70/</loc></url>
   <url><loc>https://comoevent.com/e/club-kid-86dd16/</loc></url>
+  <url><loc>https://comoevent.com/e/thanksgiving-grind-camp-b93ca8/</loc></url>
   <url><loc>https://comoevent.com/e/alpaca-holiday-store-2bbfde/</loc></url>
   <url><loc>https://comoevent.com/e/black-friday-small-business-saturday-at-regrowth-vintage-5ef763/</loc></url>
   <url><loc>https://comoevent.com/e/thanksgiving-grind-camp-fbaa7c/</loc></url>
@@ -911,7 +909,6 @@
   <url><loc>https://comoevent.com/e/who-brought-the-humbug-52a6b2/</loc></url>
   <url><loc>https://comoevent.com/e/matt-wilson-s-tree-o-8760a7/</loc></url>
   <url><loc>https://comoevent.com/e/little-bethlehem-interactive-nativity-1ca47c/</loc></url>
-  <url><loc>https://comoevent.com/e/annual-christmas-concert-dfef9c/</loc></url>
   <url><loc>https://comoevent.com/e/drew-lynch-54c0f9/</loc></url>
   <url><loc>https://comoevent.com/e/final-examinations-begin-fall-2026-b1a73a/</loc></url>
   <url><loc>https://comoevent.com/e/grad-student-writing-retreat-8e578b/</loc></url>
