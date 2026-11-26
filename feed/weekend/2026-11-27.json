@@ -423,8 +423,8 @@
    "alsoOn": [
     "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
     "https://thearcadedistrict.org/",
-    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://baselocal.com/mo/columbia/events/#stand-up-comedy"
+    "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
+    "https://baselocal.com/mo/columbia/events/#curt-fletcher"
    ],
    "categories": [
     "arts",
@@ -461,8 +461,8 @@
   {
    "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/",
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
+    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
+    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
    ],
    "categories": [
     "music"
@@ -963,8 +963,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
    ],
    "categories": [
     "sports"
@@ -1213,9 +1213,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
     "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
    ],
    "categories": [
     "party",
