@@ -20,8 +20,8 @@
    "allDay": true,
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
-    "https://allevents.in/columbia/black-friday/200031112497336",
-    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026"
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
+    "https://allevents.in/columbia/black-friday/200031112497336"
    ],
    "categories": [
     "family"
@@ -67,8 +67,8 @@
   {
    "_slug": "black-and-gold-friday-adf7a4",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
    ],
    "categories": [
     "campus"
@@ -421,10 +421,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
     "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
-    "https://baselocal.com/mo/columbia/events/#stand-up-comedy"
+    "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
+    "https://thearcadedistrict.org/",
+    "https://baselocal.com/mo/columbia/events/#curt-fletcher"
    ],
    "categories": [
     "arts",
@@ -461,8 +461,8 @@
   {
    "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/",
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
+    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
+    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
    ],
    "categories": [
     "music"
@@ -1238,9 +1238,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
     "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
    ],
    "categories": [
     "party",
@@ -1272,6 +1272,20 @@
    "start": "2026-11-28T21:00:00-06:00",
    "title": "Shattered",
    "venue": "Ladybird Trading"
+  },
+  {
+   "_slug": "super-smash-bros-tournament-e47027",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "e47027247d911c2e",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
+   "source": "allevents",
+   "start": "2026-11-29T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "thanksgiving-recess-ends-fall-2026-f70af2",
@@ -1378,8 +1392,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -1517,25 +1531,6 @@
    "start": "2026-11-29T16:00:00-06:00",
    "title": "Meditative Sound Bath",
    "venue": "Samadhi Yoga & Wellness"
-  },
-  {
-   "_slug": "super-smash-bros-tournament-36caa1",
-   "alsoOn": [
-    "https://allevents.in/columbia/super-smash-bros-tournament/100001424508426049"
-   ],
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "description": "FREE Smash Bros Ultimate Tournament hosted at The Kitchen Grill & Games. Prizes to the top 4 winners. Sundays at 4:00pm",
-   "end": "2026-11-29T18:00:00-06:00",
-   "id": "36caa1c68547476d",
-   "imageUrl": "https://cdn.evbuc.com/images/1006203893/2276365863483/1/original.20250410-200503",
-   "source": "eventbrite",
-   "start": "2026-11-29T16:00:00-06:00",
-   "ticketUrl": "https://www.eventbrite.com/e/super-smash-bros-tournament-tickets-1999028928337",
-   "title": "Super Smash Bros Tournament",
-   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "wild-horse-nine-6b6ad2",
