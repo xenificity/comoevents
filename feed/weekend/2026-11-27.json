@@ -90,8 +90,8 @@
   {
    "_slug": "black-friday-5ef763",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
-    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026"
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
+    "https://baselocal.com/mo/columbia/events/#black-friday-open-play"
    ],
    "categories": [
     "community"
@@ -420,10 +420,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://baselocal.com/mo/columbia/events/#stand-up-comedy"
+    "https://thearcadedistrict.org/",
+    "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959"
    ],
    "categories": [
     "arts",
@@ -566,17 +566,17 @@
    "title": "Speakeasy @ Regulation"
   },
   {
-   "_slug": "back-water-at-the-tavern-af4ca8",
+   "_slug": "commander-for-a-cause-2-4ff415",
    "categories": [
     "community"
    ],
    "category": "community",
-   "id": "af4ca8bb4a5f9ce8",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy85NmVhY2Y2NWM4ZDFkNGMzMmI5YjdhZmQ1MTljNmExOGNhNThiZTJiYmQ3NjQyMjk2N2FjMGQ4MDBmZDk5NDc3LXJpbWctdzEyMDAtaDEyMDAtZGMwODA4MDgtZ21pcj92PTE3ODg0MTMyOTM.avif",
+   "id": "4ff4157f63ea2822",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wODdjODM3N2Q0OWVlNjgxMGZkODQ3ZTg5Y2FjYWVhOTdlNzVkZDg5ZTVhOTc4NmFmOWM2NGQxYjQ4NDUzYTY3LXJpbWctdzEyMDAtaDE1NTMtZGNlOGU4ZTgtZ21pcj92PTE3OTUzNjE3ODQ.avif",
    "source": "allevents",
    "start": "2026-11-28T00:00:00-06:00",
-   "timeTBD": true,
-   "title": "Back Water At The Tavern"
+   "title": "Commander for a Cause 2",
+   "venue": "Magelings Games"
   },
   {
    "_slug": "small-business-saturday-20628d",
@@ -678,8 +678,8 @@
   {
    "_slug": "holiday-wreath-making-classes-four-oaks-farm-10am-92d58c",
    "alsoOn": [
-    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030",
-    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes"
+    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes",
+    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030"
    ],
    "categories": [
     "community"
@@ -971,8 +971,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
    ],
    "categories": [
     "sports"
@@ -1222,7 +1222,8 @@
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
    ],
    "categories": [
     "party",
@@ -1231,11 +1232,11 @@
     "arts"
    ],
    "category": "party",
-   "description": "Keep the post-Thanksgiving fun going with a DJ dance party. After a comedy set, guests can hit the dance floor and work off some pie, whether they love dancing or need a little encouragement.",
-   "end": "2026-11-29T00:00:00-06:00",
+   "description": "This night is directly inspired by Columbia’s most legendary club — the one and only Shattered. Goth, house, rave, synthpop, new wave, industrial, disco, and everything in between, with a heavy ’80s/’90s lens. Were you there? Or have you just heard about it? Obviously this is a multigenerational gat",
+   "end": "2026-11-28T23:00:00-06:00",
    "id": "b24c0d3513930424",
-   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Shattered-a-Dance-Party.jpg",
-   "source": "baselocal",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8xMGFiMDI1ODMzZDQ0MDJjYTZmYWQ4MThhY2EyNmY5YzcwYWMyYTA5NGEyN2FjNmI3ODFmN2E1MTNkODE0M2ZjLXJpbWctdzEyMDAtaDE0ODktZGMwODA4MDgtZ21pcj92PTE3OTQ3ODM1MDc.avif",
+   "source": "allevents",
    "start": "2026-11-28T21:00:00-06:00",
    "title": "Jive Turkey DJ Dance Party",
    "venue": "Afterlife Lounge"
