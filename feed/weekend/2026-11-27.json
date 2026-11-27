@@ -19,9 +19,9 @@
    "_slug": "black-friday-small-business-saturday-at-regrowth-vintage-5ef763",
    "allDay": true,
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
     "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
-    "https://allevents.in/columbia/black-friday/200031112497336"
+    "https://allevents.in/columbia/black-friday/200031112497336",
+    "https://baselocal.com/mo/columbia/events/#black-friday-open-play"
    ],
    "categories": [
     "family"
@@ -67,8 +67,8 @@
   {
    "_slug": "black-and-gold-friday-adf7a4",
    "alsoOn": [
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
    ],
    "categories": [
     "campus"
@@ -421,10 +421,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
-    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://baselocal.com/mo/columbia/events/#curt-fletcher"
+    "https://thearcadedistrict.org/",
+    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959"
    ],
    "categories": [
     "arts",
@@ -692,8 +692,8 @@
   {
    "_slug": "holiday-wreath-making-classes-four-oaks-farm-10am-92d58c",
    "alsoOn": [
-    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030",
-    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes"
+    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes",
+    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030"
    ],
    "categories": [
     "community"
@@ -860,16 +860,16 @@
    "venue": "Ragtag Cinema"
   },
   {
-   "_slug": "mu-vs-oklahoma-tailgate-all-you-can-eat-buffet-drink-special-dbd6bd",
+   "_slug": "mu-vs-oklahoma-tailgate-no-tailgate-buffet-cbe785",
    "categories": [
     "sports"
    ],
    "category": "sports",
-   "id": "dbd6bdb43613f4d3",
+   "id": "cbe785f22a7ec7c2",
    "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy83OGI5NTM3MWFkMGRiOTQwMGI2NWNjZjE5Nzc2MDYxODNlNjMwOWZlMWFkOTkzYTAyY2FhNTNkZTU4YmVlNWFjLXJpbWctdzEyMDAtaDYwMC1kY2Y4ZDg1OC1nbWlyLmpwZz92PTE3OTUxMjEyMzI.avif",
    "source": "allevents",
    "start": "2026-11-28T13:00:00-06:00",
-   "title": "MU vs Oklahoma Tailgate | All You Can Eat Buffet, Drink Specials",
+   "title": "MU vs Oklahoma Tailgate | No Tailgate Buffet",
    "venue": "The Kitchen Grill and Games"
   },
   {
@@ -1238,9 +1238,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
     "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
    ],
    "categories": [
     "party",
