@@ -103,8 +103,8 @@
   {
    "_slug": "black-friday-5ef763",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
-    "https://baselocal.com/mo/columbia/events/#black-friday-open-play"
+    "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026"
    ],
    "categories": [
     "community"
@@ -236,6 +236,24 @@
    "source": "mizzou",
    "start": "2026-11-27T15:00:00-06:00",
    "title": "Men’s Basketball - Missouri vs. Arkansas-Pine Bluff",
+   "venue": "Champions Drive"
+  },
+  {
+   "_slug": "mizzou-mens-basketball-vs-arkansas-pine-bluff-7212d4",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
+   ],
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "description": "Catch the Missouri Tigers in home action!",
+   "end": "2026-11-27T18:00:00-06:00",
+   "id": "7212d41202bd623f",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Mizzou-Basketball-2026-2027-promotional-photo.png",
+   "source": "visitcolumbia",
+   "start": "2026-11-27T15:00:00-06:00",
+   "title": "Mizzou Men’s Basketball vs. Arkansas-Pine Bluff",
    "venue": "Champions Drive"
   },
   {
@@ -434,8 +452,8 @@
    "alsoOn": [
     "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959"
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
+    "https://baselocal.com/mo/columbia/events/#stand-up-comedy"
    ],
    "categories": [
     "arts",
@@ -962,10 +980,7 @@
    "title": "Crafternoon Saturdays"
   },
   {
-   "_slug": "2026-mizzou-football-v-oklahoma-085793",
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-v-oklahoma"
-   ],
+   "_slug": "2026-mizzou-football-v-oklahoma-8689e0",
    "categories": [
     "sports",
     "family"
@@ -973,16 +988,16 @@
    "category": "sports",
    "description": "Children ages 2 and under receive free admission and do not require a ticket, provided they are seated on a parent or guardian lap. 2026 Mizzou Fo…",
    "end": "2026-11-28T16:15:00-06:00",
-   "id": "0857936129224a95",
-   "imageUrl": "https://comoevent.com/img/gen/3e0da701f70e4a.webp",
+   "id": "8689e0b929aef717",
+   "imageUrl": "https://comoevent.com/img/gen/f8f3575115d747.webp",
    "source": "macaronikid",
    "start": "2026-11-28T15:15:00-06:00",
-   "title": "2026 Mizzou Football v Oklahoma",
-   "venue": "Faurot Field"
+   "title": "2026 Mizzou Football v Oklahoma"
   },
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-vs-oklahoma",
     "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
     "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
@@ -990,6 +1005,7 @@
     "sports"
    ],
    "category": "sports",
+   "description": "Mizzou Football faces Oklahoma at Faurot Field in Columbia.",
    "end": "2026-11-28T17:15:00-06:00",
    "id": "9005c7d040685dc3",
    "imageUrl": "https://comoevent.com/img/gen/dc0696375eb987.webp",
@@ -1233,9 +1249,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
     "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
    ],
    "categories": [
     "party",
@@ -1481,7 +1497,8 @@
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb624549b9323bd2300df5/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-29T15:00:00-06:00",
-   "title": "Collage Without a Cause"
+   "title": "Collage Without a Cause",
+   "venue": "Ladybird Trading Co."
   },
   {
    "_slug": "club-kid-c466c2",
