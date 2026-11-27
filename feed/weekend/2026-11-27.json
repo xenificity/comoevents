@@ -129,7 +129,6 @@
    "description": "At Shanthi Mandir, the Hindu Temple and Community Center of Mid-Missouri. Everyone is welcome; regular poojas are led by volunteers and can be sponsored. Details: shanthimandir.missouri.org",
    "end": "2026-11-27T10:30:00-06:00",
    "id": "e2f71abc8b52d5d0",
-   "imageUrl": "https://comoevent.com/img/gen/73166460077eb9.webp",
    "source": "shanthimandir",
    "start": "2026-11-27T09:30:00-06:00",
    "title": "Lakshmi Abhishekam",
@@ -433,10 +432,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
+    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://thearcadedistrict.org/"
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959"
    ],
    "categories": [
     "arts",
@@ -473,8 +472,8 @@
   {
    "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/",
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
+    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
+    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
    ],
    "categories": [
     "music"
@@ -691,8 +690,8 @@
   {
    "_slug": "holiday-wreath-making-classes-four-oaks-farm-10am-92d58c",
    "alsoOn": [
-    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030",
-    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes"
+    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes",
+    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030"
    ],
    "categories": [
     "community"
@@ -1234,9 +1233,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
     "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
     "party",
