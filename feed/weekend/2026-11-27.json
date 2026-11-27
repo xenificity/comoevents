@@ -16,27 +16,6 @@
    "title": "Alpaca Holiday Store"
   },
   {
-   "_slug": "black-friday-small-business-saturday-at-regrowth-vintage-5ef763",
-   "allDay": true,
-   "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
-    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
-    "https://allevents.in/columbia/black-friday/200031112497336"
-   ],
-   "categories": [
-    "family"
-   ],
-   "category": "family",
-   "description": "️ We’re so excited for our first Black Friday & Small Business Saturday️ Two days only! The whole shop is 30% off!! (Excludes handmade goods & gift cards) Take 30% off vintage clothing, home goods, kids’ clothes, and more! We can’t wait! Help us spread the word. Regrowth Vintage 906 Alley A Downtown",
-   "end": "2026-11-29T00:00:00-06:00",
-   "id": "5ef7633bf046d596",
-   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6b04a004a82357559b034402/scaled_1152.jpg",
-   "source": "district",
-   "start": "2026-11-27T00:00:00-06:00",
-   "title": "Black Friday & Small Business Saturday️ at Regrowth Vintage",
-   "venue": "Regrowth Vintage"
-  },
-  {
    "_slug": "thanksgiving-grind-camp-fbaa7c",
    "categories": [
     "sports"
@@ -109,6 +88,25 @@
    "source": "macaronikid",
    "start": "2026-11-27T08:30:00-06:00",
    "title": "Weird Kids' School's Out Club"
+  },
+  {
+   "_slug": "black-friday-5ef763",
+   "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
+    "https://baselocal.com/mo/columbia/events/#black-friday-open-play"
+   ],
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Trade shopping bags and checkout lines for an afternoon of mahjong, friendly competition, and laughter. Bring friends or meet new ones while you learn, play, and connect.",
+   "end": "2026-11-27T15:00:00-06:00",
+   "id": "5ef7633bf046d596",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy80NTAxZTE5NTQzYjNiOThkMTlmMWJjNGYyMmI4NDdhMGVkNTU3OWMzZGE5YWYyMDE5MWM5MWQ1MThkMzZhOGFjLXJpbWctdzk2MC1oMzU1LWRjMDgwODA4LWdtaXI_dj0xNzk1NDg1NTc2.avif",
+   "source": "allevents",
+   "start": "2026-11-27T09:00:00-06:00",
+   "title": "Black Friday",
+   "venue": "Serendipity Polish Pottery & Gallery"
   },
   {
    "_slug": "lakshmi-abhishekam-e2f71a",
@@ -214,8 +212,8 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff",
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/"
+    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
+    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
    ],
    "categories": [
     "sports"
@@ -421,10 +419,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
-    "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
     "https://thearcadedistrict.org/",
-    "https://baselocal.com/mo/columbia/events/#curt-fletcher"
+    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
+    "https://baselocal.com/mo/columbia/events/#stand-up-comedy"
    ],
    "categories": [
     "arts",
@@ -692,8 +690,8 @@
   {
    "_slug": "holiday-wreath-making-classes-four-oaks-farm-10am-92d58c",
    "alsoOn": [
-    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030",
-    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes"
+    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes",
+    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030"
    ],
    "categories": [
     "community"
@@ -1239,8 +1237,8 @@
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
     "party",
@@ -1392,8 +1390,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
