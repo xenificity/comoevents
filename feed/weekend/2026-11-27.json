@@ -37,7 +37,6 @@
    "category": "sports",
    "description": "Kick off Black Friday shopping weekend with a fun, untimed 5K run. After the run, participants can enjoy complimentary refreshments, enter a raffle for prizes, and get an early look at the store’s Black Friday and Small Business Holiday shopping specials.",
    "id": "f6f3876c1683fcc1",
-   "imageUrl": "https://comoevent.com/img/gen/86683fa72b4b73.webp",
    "source": "baselocal",
    "start": "2026-11-27T08:00:00-06:00",
    "title": "Burn the Bird 5K",
@@ -46,8 +45,7 @@
   {
    "_slug": "black-and-gold-friday-adf7a4",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
    ],
    "categories": [
     "campus"
@@ -92,8 +90,8 @@
   {
    "_slug": "black-friday-5ef763",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
-    "https://baselocal.com/mo/columbia/events/#black-friday-open-play"
+    "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026"
    ],
    "categories": [
     "community"
@@ -212,8 +210,8 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
-    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
+    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff",
+    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/"
    ],
    "categories": [
     "sports"
@@ -307,7 +305,10 @@
    "venue": "The Kitchen Grill & Games"
   },
   {
-   "_slug": "craft-club-at-ladybird-cafe-e01874",
+   "_slug": "craft-club-at-ladybird-cafe-ad1db7",
+   "alsoOn": [
+    "https://allevents.in/columbia/craft-night-ladybird-craft-cafe/200031081154600"
+   ],
    "categories": [
     "party",
     "music",
@@ -316,7 +317,7 @@
    "category": "party",
    "description": "Fridays at Ladybird Cafe! Ease into the weekend. 6–7:30 PM — Craft Night Watch our page for upcoming projects! 8–11 PM — Friday Nights at Ladybird We’ll have a DJ and craft supplies out all night. Dance, make something, have a drink, shop, hang out, or do a little bit of everything. Every Friday has",
    "end": "2026-11-27T23:00:00-06:00",
-   "id": "e0187442ab6d2090",
+   "id": "ad1db7d77a3bfdba",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab54fa647d5d2eab1d88620/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-27T18:00:00-06:00",
@@ -419,10 +420,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
+    "https://thearcadedistrict.org/",
     "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
-    "https://thearcadedistrict.org/"
+    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
+    "https://baselocal.com/mo/columbia/events/#stand-up-comedy"
    ],
    "categories": [
     "arts",
@@ -576,19 +577,6 @@
    "start": "2026-11-28T00:00:00-06:00",
    "timeTBD": true,
    "title": "Back Water At The Tavern"
-  },
-  {
-   "_slug": "commander-for-a-cause-2-4ff415",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "4ff4157f63ea2822",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wODdjODM3N2Q0OWVlNjgxMGZkODQ3ZTg5Y2FjYWVhOTdlNzVkZDg5ZTVhOTc4NmFmOWM2NGQxYjQ4NDUzYTY3LXJpbWctdzEyMDAtaDE1NTMtZGNlOGU4ZTgtZ21pcj92PTE3OTUzNjE3ODQ.avif",
-   "source": "allevents",
-   "start": "2026-11-28T00:00:00-06:00",
-   "title": "Commander for a Cause 2",
-   "venue": "Magelings Games"
   },
   {
    "_slug": "small-business-saturday-20628d",
@@ -983,8 +971,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
     "sports"
@@ -1090,9 +1078,6 @@
   },
   {
    "_slug": "single-awareness-dinner-columbia-foodies-new-friends-6ebbf8",
-   "alsoOn": [
-    "https://allevents.in/columbia/single-awareness-dinner-columbia-foodies-new-friends/100001990430837215"
-   ],
    "categories": [
     "food"
    ],
@@ -1236,9 +1221,8 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
    ],
    "categories": [
     "party",
@@ -1247,11 +1231,11 @@
     "arts"
    ],
    "category": "party",
-   "description": "This night is directly inspired by Columbia’s most legendary club — the one and only Shattered. Goth, house, rave, synthpop, new wave, industrial, disco, and everything in between, with a heavy ’80s/’90s lens. Were you there? Or have you just heard about it? Obviously this is a multigenerational gat",
-   "end": "2026-11-28T23:00:00-06:00",
+   "description": "Keep the post-Thanksgiving fun going with a DJ dance party. After a comedy set, guests can hit the dance floor and work off some pie, whether they love dancing or need a little encouragement.",
+   "end": "2026-11-29T00:00:00-06:00",
    "id": "b24c0d3513930424",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8xMGFiMDI1ODMzZDQ0MDJjYTZmYWQ4MThhY2EyNmY5YzcwYWMyYTA5NGEyN2FjNmI3ODFmN2E1MTNkODE0M2ZjLXJpbWctdzEyMDAtaDE0ODktZGMwODA4MDgtZ21pcj92PTE3OTQ3ODM1MDc.avif",
-   "source": "allevents",
+   "imageUrl": "https://www.visitcolumbiamo.com/wp-content/uploads/2026/10/Shattered-a-Dance-Party.jpg",
+   "source": "baselocal",
    "start": "2026-11-28T21:00:00-06:00",
    "title": "Jive Turkey DJ Dance Party",
    "venue": "Afterlife Lounge"
@@ -1270,20 +1254,6 @@
    "start": "2026-11-28T21:00:00-06:00",
    "title": "Shattered",
    "venue": "Ladybird Trading"
-  },
-  {
-   "_slug": "super-smash-bros-tournament-e47027",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "e47027247d911c2e",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9jNDY0MzgwNDRhYWIxMzBkOWRlYjkzNmFkNTFmN2VhOWFkODAwMTdjMjRhNTFkZmI4NjBlMTg4MjA4ZjdkZTc5LXJpbWctdzEyMDAtaDYyOC1kY2Y4ZjhmOC1nbWlyLmpwZz92PTE3ODU0MTQ5Njk.avif",
-   "source": "allevents",
-   "start": "2026-11-29T00:00:00-06:00",
-   "timeTBD": true,
-   "title": "Super Smash Bros Tournament",
-   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "thanksgiving-recess-ends-fall-2026-f70af2",
@@ -1390,8 +1360,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -1609,7 +1579,7 @@
  "modified": "2026-11-27",
  "picks": [
   "656e89edac5ba15d",
-  "e0187442ab6d2090",
+  "ad1db7d77a3bfdba",
   "0ccf214e5d595ddb",
   "1263156d339f78ff",
   "6ebbf846de28ba10",
