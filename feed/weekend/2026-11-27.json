@@ -20,8 +20,8 @@
    "allDay": true,
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#black-friday-open-play",
-    "https://allevents.in/columbia/black-friday/200031112497336",
-    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026"
+    "https://baselocal.com/mo/columbia/events/#k-and-k-co-black-friday-2026",
+    "https://allevents.in/columbia/black-friday/200031112497336"
    ],
    "categories": [
     "family"
@@ -67,8 +67,8 @@
   {
    "_slug": "black-and-gold-friday-adf7a4",
    "alsoOn": [
-    "https://allevents.in/columbia/black-and-gold-friday/200030731521240",
-    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
+    "https://baselocal.com/mo/columbia/events/#black-and-gold-friday",
+    "https://allevents.in/columbia/black-and-gold-friday/200030731521240"
    ],
    "categories": [
     "campus"
@@ -214,8 +214,8 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
-    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
+    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff",
+    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/"
    ],
    "categories": [
     "sports"
@@ -421,9 +421,9 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
     "https://thearcadedistrict.org/",
     "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
+    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy"
    ],
    "categories": [
@@ -1226,9 +1226,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
     "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
     "party",
