@@ -43,6 +43,19 @@
    "venue": "Fleet Feet Fort Wayne North"
   },
   {
+   "_slug": "black-gold-friday-047ac0",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Kick off the weekend in true Mizzou fashion by wearing black and gold. Save 25% at the Mizzou Store, with shopping available online or in-store.",
+   "id": "047ac073e65c880c",
+   "source": "baselocal",
+   "start": "2026-11-27T08:30:00-06:00",
+   "title": "Black & Gold Friday",
+   "venue": "The Mizzou Store"
+  },
+  {
    "_slug": "black-and-gold-friday-adf7a4",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#black-and-gold-friday"
@@ -210,8 +223,8 @@
   {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff",
-    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/"
+    "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
+    "https://baselocal.com/mo/columbia/events/#2026-27-mizzou-mens-basketball-v-arkansas-pine-bluff"
    ],
    "categories": [
     "sports"
@@ -420,10 +433,10 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
+    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959"
+    "https://thearcadedistrict.org/"
    ],
    "categories": [
     "arts",
@@ -460,8 +473,8 @@
   {
    "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
-    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
+    "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/",
+    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431"
    ],
    "categories": [
     "music"
@@ -678,8 +691,8 @@
   {
    "_slug": "holiday-wreath-making-classes-four-oaks-farm-10am-92d58c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes",
-    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030"
+    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030",
+    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes"
    ],
    "categories": [
     "community"
@@ -971,8 +984,8 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
     "sports"
