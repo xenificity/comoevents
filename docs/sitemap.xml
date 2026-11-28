@@ -75,7 +75,6 @@
   <url><loc>https://comoevent.com/venues/skylark-bookshop/</loc></url>
   <url><loc>https://comoevent.com/venues/strickland-hall-room-324/</loc></url>
   <url><loc>https://comoevent.com/venues/talking-horse-productions/</loc></url>
-  <url><loc>https://comoevent.com/venues/the-kitchen-grill-games/</loc></url>
   <url><loc>https://comoevent.com/venues/acola-coffee-company/</loc></url>
   <url><loc>https://comoevent.com/venues/artlandish-gallery/</loc></url>
   <url><loc>https://comoevent.com/venues/arts-and-science-building/</loc></url>
@@ -102,6 +101,7 @@
   <url><loc>https://comoevent.com/venues/strickland-hall/</loc></url>
   <url><loc>https://comoevent.com/venues/tate-hall-101/</loc></url>
   <url><loc>https://comoevent.com/venues/the-bridge/</loc></url>
+  <url><loc>https://comoevent.com/venues/the-kitchen-grill-games/</loc></url>
   <url><loc>https://comoevent.com/venues/the-sidney-larson-gallery/</loc></url>
   <url><loc>https://comoevent.com/venues/third-space-como/</loc></url>
   <url><loc>https://comoevent.com/venues/warehouse-theatre/</loc></url>
@@ -199,9 +199,9 @@
   <url><loc>https://comoevent.com/venues/triangle-space-mu-student-center/</loc></url>
   <url><loc>https://comoevent.com/venues/trowbridge/</loc></url>
   <url><loc>https://comoevent.com/venues/unitarian-universalist-church-of-columbia-missouri-uucc/</loc></url>
-  <url><loc>https://comoevent.com/venues/unity-center-of-columbia/</loc></url>
   <url><loc>https://comoevent.com/venues/university-of-missouri/</loc></url>
   <url><loc>https://comoevent.com/venues/vidwest-studios/</loc></url>
+  <url><loc>https://comoevent.com/venues/wabash-railroad-station-and-freight-house/</loc></url>
   <url><loc>https://comoevent.com/venues/we-always-swing-jazz-series/</loc></url>
   <url><loc>https://comoevent.com/venues/west-gillespie-bridge-road/</loc></url>
   <url><loc>https://comoevent.com/venues/wishflour-bakery/</loc></url>
@@ -414,7 +414,6 @@
   <url><loc>https://comoevent.com/e/the-gringos-rose-music-hall-19b0d7/</loc></url>
   <url><loc>https://comoevent.com/e/you-can-see-everything-a50e69/</loc></url>
   <url><loc>https://comoevent.com/e/club-kid-e816f5/</loc></url>
-  <url><loc>https://comoevent.com/e/trivia-night-thursdays-at-6-30pm-26d1b7/</loc></url>
   <url><loc>https://comoevent.com/e/reimagining-assessment-evolving-exams-for-a-practice-ready-f-85e6fb/</loc></url>
   <url><loc>https://comoevent.com/e/trulaske-innovation-in-teaching-collaboration-hour-a011c1/</loc></url>
   <url><loc>https://comoevent.com/e/toddler-story-time-ba513a/</loc></url>
@@ -520,6 +519,7 @@
   <url><loc>https://comoevent.com/e/the-tempest-by-william-shakespeare-f45627/</loc></url>
   <url><loc>https://comoevent.com/e/violet-and-the-undercurrents-katy-guillen-the-drive-beth-bom-29d872/</loc></url>
   <url><loc>https://comoevent.com/e/film-friday-the-santa-clause-second-screening-d66ad7/</loc></url>
+  <url><loc>https://comoevent.com/e/first-fridays-w-ultraviolets-aa1edb/</loc></url>
   <url><loc>https://comoevent.com/e/karaoke-at-eastside-tavern-b0bfb1/</loc></url>
   <url><loc>https://comoevent.com/e/my-posse-in-effect-8aa6d4/</loc></url>
   <url><loc>https://comoevent.com/e/porch-mud-89f70b/</loc></url>
@@ -849,12 +849,10 @@
   <url><loc>https://comoevent.com/e/wassail-stroll-8b21ef/</loc></url>
   <url><loc>https://comoevent.com/e/sunday-bingo-1fb1c7/</loc></url>
   <url><loc>https://comoevent.com/e/collage-without-a-cause-f16842/</loc></url>
-  <url><loc>https://comoevent.com/e/sweets-songs-fundraiser-b0be09/</loc></url>
   <url><loc>https://comoevent.com/e/the-worts-brew-club-meetup-at-itap-a2a40f/</loc></url>
   <url><loc>https://comoevent.com/e/who-brought-the-humbug-52a6b2/</loc></url>
   <url><loc>https://comoevent.com/e/matt-wilson-s-tree-o-8760a7/</loc></url>
   <url><loc>https://comoevent.com/e/little-bethlehem-interactive-nativity-1ca47c/</loc></url>
-  <url><loc>https://comoevent.com/e/annual-christmas-concert-dfef9c/</loc></url>
   <url><loc>https://comoevent.com/e/drew-lynch-54c0f9/</loc></url>
   <url><loc>https://comoevent.com/e/final-examinations-begin-fall-2026-b1a73a/</loc></url>
   <url><loc>https://comoevent.com/e/grad-student-writing-retreat-8e578b/</loc></url>
@@ -1006,7 +1004,6 @@
   <url><loc>https://comoevent.com/e/merry-ol-missouri-cca174/</loc></url>
   <url><loc>https://comoevent.com/e/crafternoon-saturdays-1ce29e/</loc></url>
   <url><loc>https://comoevent.com/e/free-horse-drawn-carriage-rides-f5dffb/</loc></url>
-  <url><loc>https://comoevent.com/e/visit-santa-reindeer-71d288/</loc></url>
   <url><loc>https://comoevent.com/e/the-return-of-the-unfashionables-and-mvnch-xp-5bdd7b/</loc></url>
   <url><loc>https://comoevent.com/e/the-princess-bride-4127aa/</loc></url>
   <url><loc>https://comoevent.com/e/a-christmas-carol-2026-0d8fcc/</loc></url>
@@ -1028,6 +1025,7 @@
   <url><loc>https://comoevent.com/e/taylorville-c661c5/</loc></url>
   <url><loc>https://comoevent.com/e/sunday-bingo-d69e76/</loc></url>
   <url><loc>https://comoevent.com/e/collage-without-a-cause-6a9435/</loc></url>
+  <url><loc>https://comoevent.com/e/visit-santa-reindeer-bef12c/</loc></url>
   <url><loc>https://comoevent.com/e/womens-basketball-missouri-vs-austin-peay-28cfa5/</loc></url>
   <url><loc>https://comoevent.com/e/every-tuesday-study-day-afc858/</loc></url>
   <url><loc>https://comoevent.com/e/deep-stretch-yoga-42635e/</loc></url>
@@ -1357,7 +1355,6 @@
   <url><loc>https://comoevent.com/e/karaoke-at-eastside-tavern-7283e8/</loc></url>
   <url><loc>https://comoevent.com/e/lakshmi-abhishekam-189152/</loc></url>
   <url><loc>https://comoevent.com/e/bookmobile-stop-at-battle-crossing-a8f662/</loc></url>
-  <url><loc>https://comoevent.com/e/candlelight-coldplay-imagine-dragons-columbia-4b7e41/</loc></url>
   <url><loc>https://comoevent.com/e/columbia-college-men-s-track-field-at-show-me-showdown-d18118/</loc></url>
   <url><loc>https://comoevent.com/e/craft-night-every-friday-fe647d/</loc></url>
   <url><loc>https://comoevent.com/e/friday-night-commander-at-hexagon-alley-11e2d7/</loc></url>

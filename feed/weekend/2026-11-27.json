@@ -782,6 +782,9 @@
   },
   {
    "_slug": "holiday-open-house-small-business-saturday-ecf9ad",
+   "alsoOn": [
+    "https://allevents.in/columbia/small-business-saturday/200031158721439"
+   ],
    "categories": [
     "community"
    ],
@@ -1084,9 +1087,9 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
+    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-vs-oklahoma",
     "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
-    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-vs-oklahoma"
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
     "sports"
@@ -1352,9 +1355,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
     "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
-    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
+    "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party"
    ],
    "categories": [
     "party",
