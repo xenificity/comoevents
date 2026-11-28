@@ -245,6 +245,19 @@
    "venue": "Ragtag Cinema"
   },
   {
+   "_slug": "2026-27-mizzou-men-s-basketball-v-arkansas-pine-bluff-f86638",
+   "categories": [
+    "sports"
+   ],
+   "category": "sports",
+   "description": "Mizzou men’s basketball faces Arkansas-Pine Bluff at Mizzou Arena in Columbia, Missouri.",
+   "id": "f866381038f11f2b",
+   "source": "baselocal",
+   "start": "2026-11-27T15:00:00-06:00",
+   "title": "2026-27 Mizzou Men's Basketball v Arkansas-Pine Bluff",
+   "venue": "Mizzou Arena"
+  },
+  {
    "_slug": "mens-basketball-missouri-vs-arkansas-pine-bluff-ffec78",
    "alsoOn": [
     "https://www.visitcolumbiamo.com/event/mizzou-mens-basketball-vs-arkansas-pine-bluff/",
@@ -483,8 +496,7 @@
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://thearcadedistrict.org/"
+    "https://baselocal.com/mo/columbia/events/#curt-fletcher"
    ],
    "categories": [
     "arts",
@@ -512,7 +524,6 @@
    "description": "Ease into the weekend with an evening of crafts, music, and time to relax. Craft supplies are available, and a DJ provides a different soundtrack each week, with styles ranging from indie and disco to house and synthpop. Dance, make something, shop, enjoy a drink, or simply hang out. No cover charg…",
    "end": "2026-11-27T23:00:00-06:00",
    "id": "2b3596efcad32e23",
-   "imageUrl": "https://comoevent.com/img/gen/2366f2f412bbaa.webp",
    "source": "baselocal",
    "start": "2026-11-27T20:00:00-06:00",
    "title": "Craft Club",
@@ -530,6 +541,21 @@
    "description": "Y107 Presents",
    "end": "2026-11-27T23:00:00-06:00",
    "id": "1263156d339f78ff",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/DopeAssSneakers-RP-Web.jpg",
+   "source": "bluenote",
+   "start": "2026-11-27T20:00:00-06:00",
+   "ticketUrl": "https://www.ticketmaster.com/dope-ass-sneakers-columbia-missouri-11-27-2026/event/0600651F8C814B6D",
+   "title": "Dope Ass Sneakers",
+   "venue": "The Blue Note"
+  },
+  {
+   "_slug": "dope-ass-sneakers-9d7d2e",
+   "categories": [
+    "music"
+   ],
+   "category": "music",
+   "description": "Y107 Presents",
+   "id": "9d7d2eb282fb9a52",
    "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/DopeAssSneakers-RP-Web.jpg",
    "source": "bluenote",
    "start": "2026-11-27T20:00:00-06:00",
@@ -560,7 +586,6 @@
    "category": "music",
    "end": "2026-11-27T23:00:00-06:00",
    "id": "ef38196ed2c754d5",
-   "imageUrl": "https://comoevent.com/img/gen/5945321641d784.webp",
    "source": "divebar",
    "start": "2026-11-27T20:00:00-06:00",
    "title": "Night Bloom",
@@ -1017,9 +1042,9 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
+    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-vs-oklahoma",
     "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
-    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-vs-oklahoma"
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
     "sports"
@@ -1282,9 +1307,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
     "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
    ],
    "categories": [
     "party",
@@ -1422,8 +1447,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
@@ -1518,8 +1543,8 @@
   {
    "_slug": "collage-without-a-cause-cc69cf",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause",
-    "https://allevents.in/columbia/collage-without-a-cause/200031047892950"
+    "https://allevents.in/columbia/collage-without-a-cause/200031047892950",
+    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause"
    ],
    "categories": [
     "community"
@@ -1656,7 +1681,7 @@
   }
  ],
  "friday": "2026-11-27",
- "modified": "2026-11-27",
+ "modified": "2026-11-28",
  "picks": [
   "656e89edac5ba15d",
   "ad1db7d77a3bfdba",
