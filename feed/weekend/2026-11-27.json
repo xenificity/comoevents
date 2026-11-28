@@ -680,6 +680,19 @@
    "title": "Speakeasy @ Regulation"
   },
   {
+   "_slug": "back-water-at-the-tavern-af4ca8",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "id": "af4ca8bb4a5f9ce8",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy85NmVhY2Y2NWM4ZDFkNGMzMmI5YjdhZmQ1MTljNmExOGNhNThiZTJiYmQ3NjQyMjk2N2FjMGQ4MDBmZDk5NDc3LXJpbWctdzEyMDAtaDEyMDAtZGMwODA4MDgtZ21pcj92PTE3ODg0MTMyOTM.avif",
+   "source": "allevents",
+   "start": "2026-11-28T00:00:00-06:00",
+   "timeTBD": true,
+   "title": "Back Water At The Tavern"
+  },
+  {
    "_slug": "small-business-saturday-20628d",
    "allDay": true,
    "alsoOn": [
@@ -1071,9 +1084,9 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
     "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
-    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-vs-oklahoma",
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
+    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-vs-oklahoma"
    ],
    "categories": [
     "sports"
@@ -1193,6 +1206,9 @@
   },
   {
    "_slug": "single-awareness-dinner-columbia-foodies-new-friends-6ebbf8",
+   "alsoOn": [
+    "https://allevents.in/columbia/single-awareness-dinner-columbia-foodies-new-friends/100001990430837215"
+   ],
    "categories": [
     "food"
    ],
@@ -1310,7 +1326,7 @@
    "category": "music",
    "description": "Byron Amps Presents",
    "id": "0044f458f290183b",
-   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/08/DopeAssSneakers-RP-Web.jpg",
+   "imageUrl": "https://thebluenote.com/wp-content/uploads/sites/9/2026/09/TheLastWaltz-TBN-WEB.jpg",
    "source": "bluenote",
    "start": "2026-11-28T20:00:00-06:00",
    "ticketUrl": "https://www.ticketmaster.com/byron-amps-presentsthe-last-waltz-anniversary-columbia-missouri-11-28-2026/event/0600653983946CDC",
@@ -1336,9 +1352,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
     "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
     "party",
@@ -1476,8 +1492,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://hexagonalley.com/events/",
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
+    "https://hexagonalley.com/events/"
    ],
    "categories": [
     "community"
@@ -1620,6 +1636,9 @@
   },
   {
    "_slug": "super-smash-bros-tournament-36caa1",
+   "alsoOn": [
+    "https://allevents.in/columbia/super-smash-bros-tournament/100001424508426049"
+   ],
    "categories": [
     "community"
    ],
