@@ -119,6 +119,19 @@
    "venue": "Serendipity Polish Pottery & Gallery"
   },
   {
+   "_slug": "k-k-co-black-friday-2026-480bf4",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "K&K Co. is hosting a Black Friday shopping experience featuring the launch of its Soft Sultry Winter Collection. The collection includes two new body care fragrances, Powdered Cashmere and Plum + Marshmallow, along with seasonal candles in Winter Cabin and Christmas Hearth. Shoppers can browse vega…",
+   "id": "480bf4e31a967824",
+   "source": "baselocal",
+   "start": "2026-11-27T09:00:00-06:00",
+   "title": "K&K Co. Black Friday 2026",
+   "venue": "The Workshop by K&K Co."
+  },
+  {
    "_slug": "lakshmi-abhishekam-e2f71a",
    "categories": [
     "religious",
@@ -160,6 +173,20 @@
    "venue": "Memorial Student Union"
   },
   {
+   "_slug": "black-friday-open-play-ef99d2",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "Trade shopping bags and checkout lines for an afternoon of mahjong, friendly competition, and laughter. Bring friends or meet new ones while you learn, play, and connect.",
+   "end": "2026-11-27T15:00:00-06:00",
+   "id": "ef99d261e38ff0a4",
+   "source": "baselocal",
+   "start": "2026-11-27T12:00:00-06:00",
+   "title": "Black Friday Open Play",
+   "venue": "Serendipity Polish Pottery & Gallery"
+  },
+  {
    "_slug": "wassail-walk-60a49a",
    "categories": [
     "community"
@@ -168,7 +195,6 @@
    "description": "Taste Wassail at participating Rocheport Merchants, see Santa and holiday lights and help them light the Christmas tree.",
    "end": "2026-11-27T17:00:00-06:00",
    "id": "60a49adc872533ff",
-   "imageUrl": "https://comoevent.com/img/gen/3e5014396d22ad.webp",
    "price": "Free",
    "source": "vox",
    "start": "2026-11-27T12:00:00-06:00",
@@ -316,9 +342,6 @@
   },
   {
    "_slug": "braden-jamison-your-moms-favorite-country-singer-solo-acoust-656e89",
-   "alsoOn": [
-    "https://allevents.in/columbia/braden-jamison-your-moms-favorite-country-singer-solo-acoustic-show/100002004847364436"
-   ],
    "categories": [
     "music"
    ],
@@ -347,6 +370,23 @@
    "description": "Fridays at Ladybird Cafe! Ease into the weekend. 6–7:30 PM — Craft Night Watch our page for upcoming projects! 8–11 PM — Friday Nights at Ladybird We’ll have a DJ and craft supplies out all night. Dance, make something, have a drink, shop, hang out, or do a little bit of everything. Every Friday has",
    "end": "2026-11-27T23:00:00-06:00",
    "id": "ad1db7d77a3bfdba",
+   "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab54fa647d5d2eab1d88620/scaled_1152.jpg",
+   "source": "district",
+   "start": "2026-11-27T18:00:00-06:00",
+   "title": "Craft Club at Ladybird Cafe",
+   "venue": "Ladybird Cafe"
+  },
+  {
+   "_slug": "craft-club-at-ladybird-cafe-e01874",
+   "categories": [
+    "party",
+    "music",
+    "arts"
+   ],
+   "category": "party",
+   "description": "Fridays at Ladybird Cafe! Ease into the weekend. 6–7:30 PM — Craft Night Watch our page for upcoming projects! 8–11 PM — Friday Nights at Ladybird We’ll have a DJ and craft supplies out all night. Dance, make something, have a drink, shop, hang out, or do a little bit of everything. Every Friday has",
+   "end": "2026-11-27T23:00:00-06:00",
+   "id": "e0187442ab6d2090",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6ab54fa647d5d2eab1d88620/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-27T18:00:00-06:00",
@@ -449,10 +489,9 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#stand-up-comedy",
-    "https://allevents.in/columbia/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher/100002004313608959",
+    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
-    "https://thearcadedistrict.org/"
+    "https://baselocal.com/mo/columbia/events/#stand-up-comedy"
    ],
    "categories": [
     "arts",
@@ -489,7 +528,6 @@
   {
    "_slug": "dope-ass-sneakers-126315",
    "alsoOn": [
-    "https://allevents.in/columbia/dope-ass-sneakers/210008628792431",
     "https://www.visitcolumbiamo.com/event/dope-ass-sneakers-the-blue-note/"
    ],
    "categories": [
@@ -595,19 +633,6 @@
    "title": "Speakeasy @ Regulation"
   },
   {
-   "_slug": "commander-for-a-cause-2-4ff415",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "4ff4157f63ea2822",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy8wODdjODM3N2Q0OWVlNjgxMGZkODQ3ZTg5Y2FjYWVhOTdlNzVkZDg5ZTVhOTc4NmFmOWM2NGQxYjQ4NDUzYTY3LXJpbWctdzEyMDAtaDE1NTMtZGNlOGU4ZTgtZ21pcj92PTE3OTUzNjE3ODQ.avif",
-   "source": "allevents",
-   "start": "2026-11-28T00:00:00-06:00",
-   "title": "Commander for a Cause 2",
-   "venue": "Magelings Games"
-  },
-  {
    "_slug": "small-business-saturday-20628d",
    "allDay": true,
    "alsoOn": [
@@ -643,14 +668,17 @@
    "venue": "MU Health Care Pavilion at Columbia’s Agriculture Park"
   },
   {
-   "_slug": "holiday-shopping-on-the-alpaca-farm-5822d3",
+   "_slug": "holiday-shopping-on-the-alpaca-farm-b69e3c",
+   "alsoOn": [
+    "https://allevents.in/columbia/holiday-shopping-on-the-alpaca-farm/100002004590123020"
+   ],
    "categories": [
     "family"
    ],
    "category": "family",
    "description": "Meet the new baby alpaca, enjoy children's crafts, and shop local at Curly Eye from 9 a.m. to 3 p.m. Nov. 28 and Dec. 5. Local alpaca breeders…",
    "end": "2026-11-28T15:00:00-06:00",
-   "id": "5822d34724ebad5b",
+   "id": "b69e3c04cd284ee3",
    "imageUrl": "https://comoevent.com/img/gen/c153c6b6004d3f.webp",
    "price": "Free",
    "source": "vox",
@@ -996,9 +1024,9 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
+    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-vs-oklahoma",
     "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
-    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-vs-oklahoma"
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
    ],
    "categories": [
     "sports"
@@ -1071,6 +1099,19 @@
    "start": "2026-11-28T17:00:00-06:00",
    "title": "Keith Fletcher",
    "venue": "Dive Bar"
+  },
+  {
+   "_slug": "ecstatic-dance-mermix-de9926",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "id": "de99267fd8d8fe4b",
+   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8xMjcwYjk5Y2IyYmM5OTlmZjQzMzkwZTczNDA5OTRjOWRjYjQ0MTliY2I2Njg5Zjg5NzdlMmExZGU4MWM2ZTQxLXJpbWctdzExMDEtaDg0NS1kYzA4MDgwOC1nbWlyP3Y9MTc5NDgyNzU1OQ.avif",
+   "source": "allevents",
+   "start": "2026-11-28T17:45:00-06:00",
+   "title": "Ecstatic Dance // MERMIX",
+   "venue": "Unitarian Universalist Church of Columbia, Missouri (UUCC)"
   },
   {
    "_slug": "sita-rama-pooja-bhajan-d77c21",
@@ -1248,9 +1289,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
     "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
     "party",
@@ -1388,8 +1429,8 @@
   {
    "_slug": "hexagon-alley-lorcana-weekly-play-5a0a27",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play",
-    "https://hexagonalley.com/events/"
+    "https://hexagonalley.com/events/",
+    "https://baselocal.com/mo/columbia/events/#lorcana-weekly-play"
    ],
    "categories": [
     "community"
@@ -1482,9 +1523,10 @@
    "venue": "Dive Bar"
   },
   {
-   "_slug": "collage-without-a-cause-7628cf",
+   "_slug": "collage-without-a-cause-cc69cf",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause"
+    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause",
+    "https://allevents.in/columbia/collage-without-a-cause/200031047892950"
    ],
    "categories": [
     "community"
@@ -1492,7 +1534,7 @@
    "category": "community",
    "description": "Collage Without a Cause happens every Sunday! Cut up magazines, glue things to other things, and see what happens. We’ll have all the supplies you need, but feel free to bring magazines, photos, paper, stickers, or other stuff you want to use. Sundays 3–6pm $8 • All supplies included Ladybird Tradin",
    "end": "2026-11-29T18:00:00-06:00",
-   "id": "7628cf1ec8ece3ec",
+   "id": "cc69cf0ff84a79c0",
    "imageUrl": "https://d3fd4e4oyqldw5.cloudfront.net/687684eb59c020602cb8f384/6afb624549b9323bd2300df5/scaled_1152.jpg",
    "source": "district",
    "start": "2026-11-29T15:00:00-06:00",
