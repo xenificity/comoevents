@@ -289,7 +289,6 @@
    "category": "music",
    "end": "2026-11-27T20:00:00-06:00",
    "id": "8618997aae2f780a",
-   "imageUrl": "https://comoevent.com/img/gen/23615f2f804e9f.webp",
    "source": "divebar",
    "start": "2026-11-27T17:00:00-06:00",
    "title": "Borrowed Time Duo",
@@ -304,7 +303,6 @@
    "description": "Parents can give their teens a few hours away from home in a safe setting with an opportunity to have fun.",
    "end": "2026-11-27T20:00:00-06:00",
    "id": "f3378836a7a62e98",
-   "imageUrl": "https://comoevent.com/img/gen/9fcea3164d0ccb.webp",
    "source": "baselocal",
    "start": "2026-11-27T17:00:00-06:00",
    "title": "Find Your People",
@@ -480,7 +478,6 @@
    "description": "At Shanthi Mandir, the Hindu Temple and Community Center of Mid-Missouri. Everyone is welcome; regular poojas are led by volunteers and can be sponsored. Details: shanthimandir.missouri.org",
    "end": "2026-11-27T19:30:00-06:00",
    "id": "00b0fc2091ad57ed",
-   "imageUrl": "https://comoevent.com/img/gen/b3496d30abf892.webp",
    "source": "shanthimandir",
    "start": "2026-11-27T18:30:00-06:00",
    "title": "Lakshmi Sahasranama and Kumkuma Archana",
@@ -489,8 +486,8 @@
   {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
-    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
+    "https://thearcadedistrict.org/",
     "https://baselocal.com/mo/columbia/events/#stand-up-comedy"
    ],
    "categories": [
@@ -721,22 +718,10 @@
    "venue": "Rebecca Peters Wellness"
   },
   {
-   "_slug": "holiday-open-house-small-business-saturday-ecf9ad",
-   "categories": [
-    "community"
-   ],
-   "category": "community",
-   "id": "ecf9ad1f05a729a6",
-   "imageUrl": "https://cdn-ip.allevents.in/s/rs:fill:1200:600/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9hYzM5OGJhODE2MGI0M2UwYjJmNmE2MDZkNTgyN2FiNzY3ZWQxYTljMTIyYzI5ZWI5MTBmOTQ4MzNmOTRmZmQ2LXJpbWctdzk2MC1oNTQwLWRjYjhiOGM4LWdtaXI_dj0xNzk1NzM2MDY3.avif",
-   "source": "allevents",
-   "start": "2026-11-28T10:00:00-06:00",
-   "title": "Holiday Open House | Small Business Saturday"
-  },
-  {
    "_slug": "holiday-wreath-making-classes-four-oaks-farm-10am-92d58c",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes",
-    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030"
+    "https://allevents.in/columbia/holiday-wreath-making-classes-four-oaks-farm-10am/100002005206637030",
+    "https://baselocal.com/mo/columbia/events/#holiday-wreath-making-classes"
    ],
    "categories": [
     "community"
@@ -1024,9 +1009,9 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
+    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
     "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-vs-oklahoma",
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
-    "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
    ],
    "categories": [
     "sports"
@@ -1570,6 +1555,22 @@
    "start": "2026-11-29T16:00:00-06:00",
    "title": "Meditative Sound Bath",
    "venue": "Samadhi Yoga & Wellness"
+  },
+  {
+   "_slug": "super-smash-bros-tournament-36caa1",
+   "categories": [
+    "community"
+   ],
+   "category": "community",
+   "description": "FREE Smash Bros Ultimate Tournament hosted at The Kitchen Grill & Games. Prizes to the top 4 winners. Sundays at 4:00pm",
+   "end": "2026-11-29T18:00:00-06:00",
+   "id": "36caa1c68547476d",
+   "imageUrl": "https://cdn.evbuc.com/images/1006203893/2276365863483/1/original.20250410-200503",
+   "source": "eventbrite",
+   "start": "2026-11-29T16:00:00-06:00",
+   "ticketUrl": "https://www.eventbrite.com/e/super-smash-bros-tournament-tickets-1999028928337",
+   "title": "Super Smash Bros Tournament",
+   "venue": "The Kitchen Grill & Games"
   },
   {
    "_slug": "wild-horse-nine-6b6ad2",
