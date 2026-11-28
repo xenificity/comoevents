@@ -493,6 +493,21 @@
    "venue": "Shanthi Mandir"
   },
   {
+   "_slug": "curt-fletcher-f7f0f2",
+   "categories": [
+    "arts",
+    "family"
+   ],
+   "category": "arts",
+   "description": "Curt Fletcher brings sharp, high-energy stand-up comedy, featuring quick wit, observational humor, and crowd work. The show offers a chance to share some laughs with friends, family, or visitors in town for the holiday weekend.",
+   "end": "2026-11-27T22:30:00-06:00",
+   "id": "f7f0f20bbc0c9fb2",
+   "source": "baselocal",
+   "start": "2026-11-27T19:30:00-06:00",
+   "title": "Curt Fletcher",
+   "venue": "Afterlife Lounge"
+  },
+  {
    "_slug": "live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21",
    "alsoOn": [
     "https://baselocal.com/mo/columbia/events/#curt-fletcher",
@@ -635,6 +650,20 @@
    "start": "2026-11-27T21:00:00-06:00",
    "title": "Friday Night Comedy at The Tokyo Club",
    "venue": "The Arcade District"
+  },
+  {
+   "_slug": "stand-up-comedy-504d7d",
+   "categories": [
+    "arts"
+   ],
+   "category": "arts",
+   "description": "Curt Fletcher brings sharp one-liners and original stand-up comedy to The Tokyo Club. He has shared stages with comedians including Theo Von, Jim Norton, Brian Posehn, and Kyle Kinane, and is also a podcast host.",
+   "end": "2026-11-27T22:30:00-06:00",
+   "id": "504d7d9de57ad681",
+   "source": "baselocal",
+   "start": "2026-11-27T21:00:00-06:00",
+   "title": "Stand-Up Comedy",
+   "venue": "The Tokyo Club"
   },
   {
    "_slug": "speakeasy-regulation-d858af",
@@ -1042,9 +1071,9 @@
   {
    "_slug": "football-missouri-vs-oklahoma-9005c7",
    "alsoOn": [
-    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/",
+    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-vs-oklahoma",
     "https://allevents.in/columbia/2026-mizzou-football-v-oklahoma/210001007536601",
-    "https://baselocal.com/mo/columbia/events/#2026-mizzou-football-vs-oklahoma"
+    "https://www.visitcolumbiamo.com/event/mizzou-football-vs-oklahoma/"
    ],
    "categories": [
     "sports"
@@ -1307,9 +1336,9 @@
   {
    "_slug": "jive-turkey-dj-dance-party-b24c0d",
    "alsoOn": [
+    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/",
     "https://baselocal.com/mo/columbia/events/#jive-turkey-dj-dance-party",
-    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party",
-    "https://www.visitcolumbiamo.com/event/shattered-a-dance-party/"
+    "https://baselocal.com/mo/columbia/events/#shattered-a-dance-party"
    ],
    "categories": [
     "party",
@@ -1543,8 +1572,8 @@
   {
    "_slug": "collage-without-a-cause-cc69cf",
    "alsoOn": [
-    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause",
-    "https://allevents.in/columbia/collage-without-a-cause/200031047892950"
+    "https://allevents.in/columbia/collage-without-a-cause/200031047892950",
+    "https://baselocal.com/mo/columbia/events/#collage-without-a-cause"
    ],
    "categories": [
     "community"

@@ -50,6 +50,7 @@
   <url><loc>https://comoevent.com/venues/mizzourec/</loc></url>
   <url><loc>https://comoevent.com/venues/museum-of-art-and-archaeology/</loc></url>
   <url><loc>https://comoevent.com/venues/the-district/</loc></url>
+  <url><loc>https://comoevent.com/venues/the-tokyo-club/</loc></url>
   <url><loc>https://comoevent.com/venues/fretboard-coffee/</loc></url>
   <url><loc>https://comoevent.com/venues/hearnes-center/</loc></url>
   <url><loc>https://comoevent.com/venues/hickman-high-school/</loc></url>
@@ -60,7 +61,6 @@
   <url><loc>https://comoevent.com/venues/prenger-foods/</loc></url>
   <url><loc>https://comoevent.com/venues/security-bank-parking-lot/</loc></url>
   <url><loc>https://comoevent.com/venues/tate-hall-110/</loc></url>
-  <url><loc>https://comoevent.com/venues/the-tokyo-club/</loc></url>
   <url><loc>https://comoevent.com/venues/broadway-christian-church/</loc></url>
   <url><loc>https://comoevent.com/venues/columbia-art-league/</loc></url>
   <url><loc>https://comoevent.com/venues/cornell-hall/</loc></url>
@@ -75,7 +75,6 @@
   <url><loc>https://comoevent.com/venues/skylark-bookshop/</loc></url>
   <url><loc>https://comoevent.com/venues/strickland-hall-room-324/</loc></url>
   <url><loc>https://comoevent.com/venues/talking-horse-productions/</loc></url>
-  <url><loc>https://comoevent.com/venues/the-kitchen-grill-games/</loc></url>
   <url><loc>https://comoevent.com/venues/acola-coffee-company/</loc></url>
   <url><loc>https://comoevent.com/venues/artlandish-gallery/</loc></url>
   <url><loc>https://comoevent.com/venues/arts-and-science-building/</loc></url>
@@ -101,6 +100,7 @@
   <url><loc>https://comoevent.com/venues/strickland-hall/</loc></url>
   <url><loc>https://comoevent.com/venues/tate-hall-101/</loc></url>
   <url><loc>https://comoevent.com/venues/the-bridge/</loc></url>
+  <url><loc>https://comoevent.com/venues/the-kitchen-grill-games/</loc></url>
   <url><loc>https://comoevent.com/venues/the-sidney-larson-gallery/</loc></url>
   <url><loc>https://comoevent.com/venues/third-space-como/</loc></url>
   <url><loc>https://comoevent.com/venues/warehouse-theatre/</loc></url>
@@ -231,10 +231,11 @@
   <url><loc>https://comoevent.com/e/borrowed-time-duo-861899/</loc></url>
   <url><loc>https://comoevent.com/e/find-your-people-f33788/</loc></url>
   <url><loc>https://comoevent.com/e/magic-friday-night-commander-e708b8/</loc></url>
-  <url><loc>https://comoevent.com/e/live-stand-up-comedy-at-the-tokyo-club-curt-fletcher-0ccf21/</loc></url>
+  <url><loc>https://comoevent.com/e/curt-fletcher-f7f0f2/</loc></url>
   <url><loc>https://comoevent.com/e/craft-club-2b3596/</loc></url>
   <url><loc>https://comoevent.com/e/dope-ass-sneakers-9d7d2e/</loc></url>
   <url><loc>https://comoevent.com/e/night-bloom-ef3819/</loc></url>
+  <url><loc>https://comoevent.com/e/stand-up-comedy-504d7d/</loc></url>
   <url><loc>https://comoevent.com/e/small-business-saturday-20628d/</loc></url>
   <url><loc>https://comoevent.com/e/columbia-farmers-market-winter-season-531c0e/</loc></url>
   <url><loc>https://comoevent.com/e/holiday-shopping-on-the-alpaca-farm-b69e3c/</loc></url>
@@ -452,7 +453,6 @@
   <url><loc>https://comoevent.com/e/riftbound-nexus-night-organized-play-18bff3/</loc></url>
   <url><loc>https://comoevent.com/e/winter-extravaganza-e6bda2/</loc></url>
   <url><loc>https://comoevent.com/e/summer-welcome-informational-session-5-fbc4f1/</loc></url>
-  <url><loc>https://comoevent.com/e/trivia-night-thursdays-at-6-30pm-ab7c18/</loc></url>
   <url><loc>https://comoevent.com/e/trivia-night-at-gunter-hans-f5b386/</loc></url>
   <url><loc>https://comoevent.com/e/weekly-student-services-0cf444/</loc></url>
   <url><loc>https://comoevent.com/e/break-dance-intermediate-7545c1/</loc></url>
@@ -985,7 +985,7 @@
   <url><loc>https://comoevent.com/e/merry-ol-missouri-c6171b/</loc></url>
   <url><loc>https://comoevent.com/e/paint-your-date-b63c97/</loc></url>
   <url><loc>https://comoevent.com/e/a-christmas-carol-2026-db5a3f/</loc></url>
-  <url><loc>https://comoevent.com/e/friday-night-comedy-at-the-tokyo-club-e94704/</loc></url>
+  <url><loc>https://comoevent.com/e/live-stand-up-comedy-at-the-tokyo-club-larry-greene-returns-3dbca1/</loc></url>
   <url><loc>https://comoevent.com/e/preston-ary-band-f435a6/</loc></url>
   <url><loc>https://comoevent.com/e/jeff-noah-collective-5a74e7/</loc></url>
   <url><loc>https://comoevent.com/e/karaoke-at-eastside-tavern-b9b9f2/</loc></url>
